@@ -146,9 +146,10 @@ impl GridOperator {
 ### Adding New Operators
 1. Create new file in `src/registry/sweden/your_operator.rs`
 2. Use the prelude: `use crate::registry::prelude::*;`
-3. Define const: `pub(super) const YOUR_OPERATOR: GridOperator = ...`  
-4. Add to mod.rs: `mod your_operator;` and add to `SE_GRID_OPERATORS` array
-5. Run tests to validate: `cargo test`
+4. Define const: `pub(super) const YOUR_OPERATOR: GridOperator = ...`
+5. Most important part: Add pricing data for the operator by going to the company's website. Preferably via any links that are provideded.
+6. Add to mod.rs: `mod your_operator;` and add to `SE_GRID_OPERATORS` array
+7. Run tests to validate: `cargo test`
 
 ### Debugging Common Issues
 - **Formatting errors**: Run `cargo fmt` to auto-fix
