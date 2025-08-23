@@ -41,6 +41,7 @@ pub(crate) static SE_GRID_OPERATORS: &[GridOperator] = &[
     sollentuna_energi_miljo_ab::SOLLENTUNA_ENERGI_MILJÖ_AB,
     bjarke_energi::BJÄRKE_ENERGI,
     brittedal::BRITTEDAL,
+    btea::BTEA,
     partille_energi::PARTILLE_ENERGI,
     falbygdens_energi::FALBYGDENS_ENERGI,
     linde_energi::LINDE_ENERGI,

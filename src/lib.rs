@@ -87,4 +87,20 @@ mod tests {
         // Most other properties are private, but we can test that the operator exists and has the right name
         assert_eq!(operator.name, "Brittedal");
     }
+
+    #[test]
+    fn test_brittedal_integration_demo() {
+        // Demonstrate that Brittedal operator works alongside other operators
+        let brittedal = GridOperator::get(Country::SE, "Brittedal");
+        assert!(brittedal.is_some(), "Brittedal should be found");
+        
+        let btea = GridOperator::get(Country::SE, "BTEA");
+        assert!(btea.is_some(), "BTEA should still be found");
+        
+        let bjarke = GridOperator::get(Country::SE, "Bjärke Energi");
+        assert!(bjarke.is_some(), "Bjärke Energi should still be found");
+        
+        // Verify they have different names (Brittedal is distinct from BTEA as mentioned in comments)
+        assert_ne!(brittedal.unwrap().name, btea.unwrap().name);
+    }
 }
