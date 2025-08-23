@@ -4,7 +4,8 @@ use chrono::DateTime;
 use chrono_tz::Tz;
 
 use crate::{
-    defs::{Hours, Month, Months}, money::Money
+    defs::{Hours, Month, Months},
+    money::Money,
 };
 
 #[derive(Clone, Copy)]

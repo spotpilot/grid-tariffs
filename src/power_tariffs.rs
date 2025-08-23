@@ -1,9 +1,7 @@
 use chrono::DateTime;
 use chrono_tz::Tz;
 
-use crate::{
-    costs::CostPeriods, money::Money
-};
+use crate::{costs::CostPeriods, money::Money};
 
 #[derive(Clone)]
 pub struct PowerTariff {
@@ -24,9 +22,7 @@ impl PowerTariff {
     ) -> Money {
         let cost = Money::default();
         for period in self.periods.iter() {
-            let money = period
-                .cost()
-                .cost_for(fuse_size, yearly_consumption);
+            let money = period.cost().cost_for(fuse_size, yearly_consumption);
         }
         cost
     }
