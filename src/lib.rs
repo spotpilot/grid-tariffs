@@ -65,3 +65,26 @@ impl GridOperator {
         self.power_tariff.as_ref()
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_brittedal_operator_exists() {
+        let operator = GridOperator::get(Country::SE, "Brittedal");
+        assert!(operator.is_some(), "Brittedal operator should be found");
+        
+        let operator = operator.unwrap();
+        assert_eq!(operator.name, "Brittedal");
+    }
+
+    #[test]
+    fn test_brittedal_operator_properties() {
+        let operator = GridOperator::get(Country::SE, "Brittedal").unwrap();
+        
+        // Test that we can access basic properties (name is tested via the get method working)
+        // Most other properties are private, but we can test that the operator exists and has the right name
+        assert_eq!(operator.name, "Brittedal");
+    }
+}
