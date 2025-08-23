@@ -65,3 +65,24 @@ impl GridOperator {
         self.power_tariff.as_ref()
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn brittedal_operator_has_power_tariff() {
+        let brittedal = GridOperator::get(Country::SE, "Brittedal").expect("Brittedal operator should exist");
+        assert!(brittedal.power_tariff().is_some(), "Brittedal should have a power tariff");
+    }
+    
+    #[test]
+    fn brittedal_operator_has_transfer_fee() {
+        let brittedal = GridOperator::get(Country::SE, "Brittedal").expect("Brittedal operator should exist");
+        // Check that transfer_fee is not Unlisted
+        match brittedal.transfer_fee {
+            TransferFee::Unlisted => panic!("Brittedal should have a transfer fee"),
+            _ => {} // Any other variant is fine
+        }
+    }
+}
