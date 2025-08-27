@@ -21,6 +21,7 @@ pub(super) const BTEA: GridOperator = GridOperator {
         eltariff_api: None,
         fee_info: "https://www.btea.se/elnat/elnatspriser",
     },
+    // NOTE: "PeakHour" (i.e. max per month) will be implemented during Fall of 2025. Today they have "PeakHourPerYear"
     power_tariff: Some(PowerTariff::new(
         TariffCalculationMethod::PeakHour,
         CostPeriods::new(&[CostPeriod::builder()
