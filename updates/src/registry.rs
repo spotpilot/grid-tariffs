@@ -1,0 +1,40 @@
+use crate::{
+    LocatorMethod::*,
+    locator::{ContentTarget, Locator, TargetContainer},
+    pricing_info::{PricingInfo, PricingInfoRegistry},
+};
+
+pub(crate) static PRICING_INFO: PricingInfoRegistry = PricingInfoRegistry::new(&[
+    PricingInfo {
+        name: "EON",
+        link: "https://www.eon.se/el/elnat/elnaetsabonnemang-priser",
+        // NOTE: At the time of writing there are four tables with pricing info. Three are current and one is with old Stockholm prices.
+        locator: Locator::new(
+            CssSelector(r#"eon-ui-table-renderer"#),
+            ContentTarget::Attribute("content"),
+        ),
+    },
+    PricingInfo {
+        name: "Ellevio",
+        link: "https://www.ellevio.se/abonnemang/elnatspriser-privat/",
+        locator: Locator::new(
+            TextStartsWith {
+                needle: "För bland annat villor, radhus, fritidshus och verksamhetslokaler med egen anslutning till elnätet – ej lägenheter.",
+                target_container: TargetContainer::Parent,
+            },
+            ContentTarget::Text,
+        ),
+    },
+    PricingInfo {
+        name: "Vattenfall",
+        link: "https://www.vattenfalleldistribution.se/abonnemang-och-avgifter/avtal-och-avgifter/elnatsavgift-och-avtalsvillkor/",
+        locator: Locator::new(
+            TextStartsWith {
+                needle: "Säkringsabonnemang (16–63 A)",
+                target_container: TargetContainer::Ancestor(1),
+            },
+            // CssSelector("[data-content]"),
+            ContentTarget::Attribute("data-content"),
+        ),
+    },
+]);
