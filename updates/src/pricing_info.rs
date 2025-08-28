@@ -219,11 +219,11 @@ impl ResultStore {
 
     fn path_extracted(&self, pricing_info: &PricingInfo) -> PathBuf {
         self.base_path(pricing_info.country)
-            .join(format!("{}-extracted.txt", pricing_info.name))
+            .join(format!("{}.extracted.txt", pricing_info.name))
     }
 
     fn path_full(&self, pricing_info: &PricingInfo) -> PathBuf {
         self.base_path(pricing_info.country)
-            .join(format!("{}.html", pricing_info.name))
+            .join(format!("{}.full.html", pricing_info.name))
     }
 }
