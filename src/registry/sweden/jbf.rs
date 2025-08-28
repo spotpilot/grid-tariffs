@@ -13,10 +13,7 @@ pub const JBF: GridOperator = GridOperator {
     feed_in_revenue: FeedInRevenue::Unverified,
     transfer_fee: TransferFee::Unlisted,
     other_fees: OtherFees::Unverified,
-    links: Links {
-        eltariff_api: None,
-        fee_info: "https://jbf.nu/elnatet/natavgift/",
-    },
+    links: Links::new("https://jbf.nu/elnatet/natavgift/"),
     power_tariff: Some(PowerTariff::new(
         TariffCalculationMethod::AverageHours(3),
         CostPeriods::new(&[

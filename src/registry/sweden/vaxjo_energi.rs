@@ -30,10 +30,7 @@ pub const VÄXJÖ_ENERGI: GridOperator = GridOperator {
     country: Country::SE,
     main_fuses: MainFuseSizes::new_range(16, 1000),
     other_fees: OtherFees::Unverified,
-    links: Links {
-        eltariff_api: None,
-        fee_info: "https://www.veab.se/privat/elnat/elnatsavgift/",
-    },
+    links: Links::new("https://www.veab.se/privat/elnat/elnatsavgift/"),
     power_tariff: Some(PowerTariff::new(
         TariffCalculationMethod::AverageHours(3),
         CostPeriods::new(&[CostPeriod::builder()

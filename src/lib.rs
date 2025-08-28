@@ -12,19 +12,18 @@
 //!
 use chrono::NaiveDate;
 
-pub use crate::country::Country;
 use crate::{
     builder::GridOperatorBuilder,
     costs::Cost,
     currency::Currency,
     defs::MainFuseSizes,
     fees::{OtherFees, TransferFee},
-    links::Links,
     money::Money,
     power_tariffs::PowerTariff,
     registry::sweden,
     revenues::FeedInRevenue,
 };
+pub use crate::{country::Country, links::Links};
 
 mod builder;
 mod costs;
@@ -67,8 +66,8 @@ impl GridOperator {
         self.country
     }
 
-    pub const fn fee_info_link(&self) -> &'static str {
-        self.links.fee_info
+    pub const fn links(&self) -> &Links {
+        &self.links
     }
 
     pub const fn currency(&self) -> Currency {

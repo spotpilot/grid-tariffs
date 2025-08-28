@@ -25,10 +25,7 @@ pub const BJÄRKE_ENERGI: GridOperator = GridOperator {
         CostPeriod::builder().fixed_cost_subunit(16.25).build(),
     ])),
     other_fees: OtherFees::Unverified,
-    links: Links {
-        eltariff_api: None,
-        fee_info: "https://www.bjerke-energi.se/elnat/tariffer/normaltariff/",
-    },
+    links: Links::new("https://www.bjerke-energi.se/elnat/tariffer/normaltariff/"),
     power_tariff: Some(PowerTariff::new(
         TariffCalculationMethod::PeakHour,
         CostPeriods::new(&[

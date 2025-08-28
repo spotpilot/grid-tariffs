@@ -34,10 +34,9 @@ pub const NACKA_ENERGI: GridOperator = GridOperator {
             .build(),
     ])),
     other_fees: OtherFees::Unverified,
-    links: Links {
-        eltariff_api: None,
-        fee_info: "https://www.nackaenergi.se/privat/elnatspriser-1-juli--2025/priser-privat-1-juli-2025",
-    },
+    links: Links::new(
+        "https://www.nackaenergi.se/privat/elnatspriser-1-juli--2025/priser-privat-1-juli-2025",
+    ),
     power_tariff: Some(PowerTariff::new(
         TariffCalculationMethod::AverageHours(3),
         CostPeriods::new(&[CostPeriod::builder().fixed_cost(51, 85).build()]),

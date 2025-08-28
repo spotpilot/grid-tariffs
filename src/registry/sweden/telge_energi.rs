@@ -26,8 +26,5 @@ pub const TELGE_ENERGI: GridOperator = GridOperator {
             .exclude_weekends_and_swedish_holidays()
             .build()]),
     )),
-    links: Links {
-        fee_info: "https://www.telge.se/elnat/elnatskostnad/elnatspriser/",
-        eltariff_api: None,
-    },
+    links: Links::new("https://www.telge.se/elnat/elnatskostnad/elnatspriser/"),
 };

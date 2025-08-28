@@ -10,10 +10,7 @@ pub const FALBYGDENS_ENERGI: GridOperator = GridOperator {
     feed_in_revenue: FeedInRevenue::Unverified,
     transfer_fee: TransferFee::fixed_subunit(37.2),
     other_fees: OtherFees::Unverified,
-    links: Links {
-        eltariff_api: None,
-        fee_info: "https://falbygdensenergi.se/privat/vart-elnat/elnatsavgifter-samt-villkor",
-    },
+    links: Links::new("https://falbygdensenergi.se/privat/vart-elnat/elnatsavgifter-samt-villkor"),
     power_tariff: Some(PowerTariff::new(
         TariffCalculationMethod::AverageDaysDifferentiated { base: 1, peak: 1 },
         CostPeriods::new(&[

@@ -20,10 +20,7 @@ pub const SOLLENTUNA_ENERGI_MILJÖ_AB: GridOperator = GridOperator {
     feed_in_revenue: FeedInRevenue::Unverified,
     transfer_fee: TransferFee::Unlisted,
     other_fees: OtherFees::List(&[("Energiavgift", Cost::fixed_subunit(5.))]),
-    links: Links {
-        eltariff_api: None,
-        fee_info: "https://www.seom.se/el/elnat/priser-och-villkor/",
-    },
+    links: Links::new("https://www.seom.se/el/elnat/priser-och-villkor/"),
     power_tariff: Some(PowerTariff::new(
         TariffCalculationMethod::AverageHours(3),
         CostPeriods::new(&[

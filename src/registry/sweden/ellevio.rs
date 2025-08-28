@@ -17,10 +17,7 @@ pub const ELLEVIO: GridOperator = GridOperator {
     feed_in_revenue: FeedInRevenue::Unverified,
     transfer_fee: TransferFee::fixed_subunit(6.25),
     other_fees: OtherFees::Unverified,
-    links: Links {
-        eltariff_api: None,
-        fee_info: "https://www.ellevio.se/abonnemang/elnatspriser-privat/",
-    },
+    links: Links::new("https://www.ellevio.se/abonnemang/elnatspriser-privat/"),
     power_tariff: Some(PowerTariff::new(
         TariffCalculationMethod::AverageDays(3),
         CostPeriods::new(&[

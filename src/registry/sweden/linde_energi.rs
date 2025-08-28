@@ -18,10 +18,7 @@ pub const LINDE_ENERGI: GridOperator = GridOperator {
         (16, 25, Money::new_subunit(30.5)),
         (35, 63, Money::new_subunit(6.125)),
     ])),
-    links: Links {
-        eltariff_api: None,
-        fee_info: "https://www.lindeenergi.se/elnat/elnatspriser",
-    },
+    links: Links::new("https://www.lindeenergi.se/elnat/elnatspriser"),
     power_tariff: Some(PowerTariff::new(
         TariffCalculationMethod::AverageDaysDifferentiated { base: 2, peak: 2 },
         CostPeriods::new(&[

@@ -20,8 +20,7 @@ pub const GISLAVED_ENERGI: GridOperator = GridOperator {
     feed_in_revenue: FeedInRevenue::fixed_subunit(4.2),
     other_fees: OtherFees::Unverified,
     power_tariff: None,
-    links: Links {
-        fee_info: "https://www.gislavedenergi.se/el/elnat/elnatsavgifter/elnatsavgifter-sakringsabonnemang/",
-        eltariff_api: None,
-    },
+    links: Links::new(
+        "https://www.gislavedenergi.se/el/elnat/elnatsavgifter/elnatsavgifter-sakringsabonnemang/",
+    ),
 };

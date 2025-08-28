@@ -9,10 +9,10 @@ pub const GÖTEBORG_ENERGI: GridOperator = GridOperator {
     feed_in_revenue: FeedInRevenue::Unverified,
     transfer_fee: TransferFee::fixed_subunit(25.),
     other_fees: OtherFees::Unverified,
-    links: Links {
-        fee_info: "https://www.goteborgenergi.se/privat/elnat/elnatsavgiften",
-        eltariff_api: Some("https://api.goteborgenergi.cloud/gridtariff/v0/tariffs"),
-    },
+    links: Links::builder()
+        .fee_info("https://www.goteborgenergi.se/privat/elnat/elnatsavgiften")
+        .eltariff_api("https://api.goteborgenergi.cloud/gridtariff/v0/tariffs")
+        .build(),
     power_tariff: Some(PowerTariff::new(
         TariffCalculationMethod::AverageDays(3),
         CostPeriods::new(&[CostPeriod::builder().fixed_cost(45, 0).build()]),

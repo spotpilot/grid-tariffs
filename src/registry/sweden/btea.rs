@@ -17,10 +17,7 @@ pub const BTEA: GridOperator = GridOperator {
     feed_in_revenue: FeedInRevenue::Unverified,
     transfer_fee: TransferFee::Simple(Cost::fixed_subunit(3.75)), // 3.75 öre/kWh
     other_fees: OtherFees::Unverified,
-    links: Links {
-        eltariff_api: None,
-        fee_info: "https://www.btea.se/elnat/elnatspriser",
-    },
+    links: Links::new("https://www.btea.se/elnat/elnatspriser"),
     // NOTE: "PeakHour" (i.e. max per month) will be implemented during Fall of 2025. Today they have "PeakHourPerYear"
     power_tariff: Some(PowerTariff::new(
         TariffCalculationMethod::PeakHour,

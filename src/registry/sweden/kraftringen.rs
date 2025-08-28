@@ -27,8 +27,7 @@ pub const KRAFTRINGEN: GridOperator = GridOperator {
     feed_in_revenue: FeedInRevenue::Unlisted,
     other_fees: OtherFees::Unverified,
     power_tariff: None,
-    links: Links {
-        fee_info: "https://www.kraftringen.se/privat/elnat/elnatsavgifter/komplett-elnatsprislista/",
-        eltariff_api: None,
-    },
+    links: Links::new(
+        "https://www.kraftringen.se/privat/elnat/elnatsavgifter/komplett-elnatsprislista/",
+    ),
 };

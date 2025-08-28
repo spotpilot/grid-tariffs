@@ -1,7 +1,7 @@
 use core::fmt;
 use std::{path::PathBuf, slice::Iter, time::Duration};
 
-use grid_tariffs::{Country, GridOperator};
+use grid_tariffs::{Country, GridOperator, Links};
 use scraper::Html;
 use similar::TextDiff;
 use tokio::fs::{create_dir_all, read_to_string};
@@ -42,6 +42,11 @@ impl PricingInfo {
             self.operator.name()
         }
     }
+
+    pub(crate) const fn links(&self) -> &'static Links {
+        self.operator.links()
+    }
+
     pub(crate) const fn builder(operator: &'static GridOperator) -> PricingInfoBuilder {
         PricingInfoBuilder::new(operator)
     }
@@ -267,7 +272,7 @@ impl ResultStore {
             // NOTE: User-Agent is needed to be able to download from EON, otherwise 403
             .user_agent("grid-tariffs/0.1")
             .build()?;
-        let req = client.get(pi.operator.fee_info_link()).build()?;
+        let req = client.get(pi.links().fee_info()).build()?;
         let resp = client.execute(req).await?;
         resp.error_for_status_ref()?;
         let text = resp.text().await?;

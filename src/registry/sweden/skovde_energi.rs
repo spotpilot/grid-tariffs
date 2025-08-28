@@ -28,10 +28,7 @@ pub const SKÖVDE_ENERGI: GridOperator = GridOperator {
         CostPeriod::builder().fixed_cost_subunit(5.5).build(),
     ])),
     other_fees: OtherFees::Unverified,
-    links: Links {
-        eltariff_api: None,
-        fee_info: "https://skovdeenergi.se/elnat/taxor-avgifter/elnatstaxa-priser-med-moms/",
-    },
+    links: Links::new("https://skovdeenergi.se/elnat/taxor-avgifter/elnatstaxa-priser-med-moms/"),
     power_tariff: Some(PowerTariff::new(
         TariffCalculationMethod::PeakHour,
         CostPeriods::new(&[CostPeriod::builder()

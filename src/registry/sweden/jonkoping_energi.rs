@@ -17,10 +17,7 @@ pub const JÖNKÖPING_ENERGI: GridOperator = GridOperator {
     feed_in_revenue: FeedInRevenue::Unverified,
     transfer_fee: TransferFee::fixed_subunit(6.08),
     other_fees: OtherFees::Unverified,
-    links: Links {
-        eltariff_api: None,
-        fee_info: "https://jonkopingenergi.se/privat/elnat/elnat/priser",
-    },
+    links: Links::new("https://jonkopingenergi.se/privat/elnat/elnat/priser"),
     power_tariff: Some(PowerTariff::new(
         TariffCalculationMethod::AverageDaysDifferentiated { base: 2, peak: 2 },
         CostPeriods::new(&[

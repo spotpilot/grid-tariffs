@@ -12,10 +12,7 @@ const BASE: GridOperatorBuilder = GridOperator::builder()
         (50, Money::new(1452, 50)),
         (63, Money::new(1957, 92)),
     ]))
-    .links(Links {
-        fee_info: "https://www.vattenfalleldistribution.se/abonnemang-och-avgifter/avtal-och-avgifter/elnatsavgift-och-avtalsvillkor/",
-        eltariff_api: None,
-    });
+    .links(Links::new("https://www.vattenfalleldistribution.se/abonnemang-och-avgifter/avtal-och-avgifter/elnatsavgift-och-avtalsvillkor/"));
 
 pub const VATTENFALL_E4: GridOperator = BASE
     .name("Vattenfall E4")

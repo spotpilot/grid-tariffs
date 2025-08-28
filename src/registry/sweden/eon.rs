@@ -9,10 +9,9 @@ const BASE: GridOperatorBuilder = GridOperator::builder()
         spot_price_multiplier: 0.06,
         approximated: true,
     })
-    .links(Links {
-        fee_info: "https://www.eon.se/el/elnat/elnaetsabonnemang-priser",
-        eltariff_api: None,
-    });
+    .links(Links::new(
+        "https://www.eon.se/el/elnat/elnaetsabonnemang-priser",
+    ));
 
 pub const SYD: GridOperator = BASE
     .name("E.ON Syd")

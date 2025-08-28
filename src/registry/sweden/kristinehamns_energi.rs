@@ -10,10 +10,7 @@ pub const KRISTINEHAMNS_ENERGI: GridOperator = GridOperator {
     feed_in_revenue: FeedInRevenue::Unverified,
     transfer_fee: TransferFee::fixed_subunit(12.75),
     other_fees: OtherFees::Unverified,
-    links: Links {
-        eltariff_api: None,
-        fee_info: "https://kristinehamnsenergi.se/elnat/elnatsavgiften/din-elnatsavgift/",
-    },
+    links: Links::new("https://kristinehamnsenergi.se/elnat/elnatsavgiften/din-elnatsavgift/"),
     power_tariff: Some(PowerTariff::new(
         TariffCalculationMethod::PeakHour,
         CostPeriods::new(&[

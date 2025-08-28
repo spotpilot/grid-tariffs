@@ -33,8 +33,5 @@ pub const MÄLARENERGI: GridOperator = GridOperator {
             .exclude_weekends_and_swedish_holidays()
             .build()]),
     )),
-    links: Links {
-        fee_info: "https://www.malarenergi.se/el/elnat/effektsmart/prismodellen/",
-        eltariff_api: None,
-    },
+    links: Links::new("https://www.malarenergi.se/el/elnat/effektsmart/prismodellen/"),
 };
