@@ -5,14 +5,13 @@ mod registry;
 
 use std::path::PathBuf;
 
-use tracing::warn;
+use clap::{Parser, Subcommand};
+use tracing::error;
 use tracing_subscriber::{
     filter::{LevelFilter, Targets},
     fmt,
     prelude::*,
 };
-
-use clap::{Parser, Subcommand};
 
 use crate::registry::*;
 use crate::{locator::*, pricing_info::ResultStore};
@@ -74,7 +73,7 @@ async fn main() -> anyhow::Result<()> {
                         println!("{comparison} diff: {}", comparison.diff());
                     }
                     Err(err) => {
-                        warn!(%err, ?pi, "failed");
+                        error!(%err, ?pi, "failed");
                     }
                 }
             }
