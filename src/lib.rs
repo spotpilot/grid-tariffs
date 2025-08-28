@@ -14,6 +14,7 @@ use chrono::NaiveDate;
 
 pub use crate::country::Country;
 use crate::{
+    builder::GridOperatorBuilder,
     costs::Cost,
     currency::Currency,
     defs::MainFuseSizes,
@@ -25,22 +26,25 @@ use crate::{
     revenues::FeedInRevenue,
 };
 
+mod builder;
 mod costs;
 mod country;
 mod currency;
 mod defs;
 mod fees;
+mod helpers;
 mod links;
 mod money;
 mod power_tariffs;
-mod registry;
+pub mod registry;
 mod revenues;
 
+#[derive(Debug, Clone)]
 pub struct GridOperator {
     name: &'static str,
     price_date: NaiveDate,
     /// Costs are specified in this currency
-    currency: Currency,
+    country: Country,
     /// The main fuse size range that this info covers
     main_fuses: MainFuseSizes,
     /// Fixed monthly fee
@@ -55,6 +59,24 @@ pub struct GridOperator {
 }
 
 impl GridOperator {
+    pub const fn name(&self) -> &str {
+        &self.name
+    }
+
+    pub const fn country(&self) -> Country {
+        self.country
+    }
+
+    pub const fn fee_info_link(&self) -> &'static str {
+        self.links.fee_info
+    }
+
+    pub const fn currency(&self) -> Currency {
+        match self.country {
+            Country::SE => Currency::SEK,
+        }
+    }
+
     pub fn get(country: Country, name: &str) -> Option<&'static Self> {
         match country {
             Country::SE => sweden::SE_GRID_OPERATORS.iter().find(|o| o.name == name),
@@ -63,5 +85,9 @@ impl GridOperator {
 
     pub fn power_tariff(&self) -> Option<&PowerTariff> {
         self.power_tariff.as_ref()
+    }
+
+    pub(crate) const fn builder() -> GridOperatorBuilder {
+        GridOperatorBuilder::new()
     }
 }

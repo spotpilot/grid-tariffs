@@ -3,7 +3,7 @@ use chrono_tz::Tz;
 
 use crate::{costs::CostPeriods, money::Money};
 
-#[derive(Clone)]
+#[derive(Debug, Clone)]
 pub struct PowerTariff {
     method: TariffCalculationMethod,
     periods: CostPeriods,
@@ -29,7 +29,7 @@ impl PowerTariff {
 }
 
 /// The method used to calculate power tariffs
-#[derive(Clone, Copy)]
+#[derive(Debug, Clone, Copy)]
 pub enum TariffCalculationMethod {
     /// Power peak for top hour of the top three days of the month
     AverageDays(u8),

@@ -1,8 +1,8 @@
 use crate::registry::prelude::*;
 
-pub(super) const NACKA_ENERGI: GridOperator = GridOperator {
+pub const NACKA_ENERGI: GridOperator = GridOperator {
     name: "Nacka Energi",
-    currency: Currency::SEK,
+    country: Country::SE,
     main_fuses: MainFuseSizes::new_range(16, 80), // 80A - LSP also shares the same tariff (don't know what LSP is)
     price_date: date(2025, 7, 1),
     monthly_fee: Cost::fuses(&[
@@ -25,13 +25,13 @@ pub(super) const NACKA_ENERGI: GridOperator = GridOperator {
             .include_months(November, March)
             .include_hours(6, 22)
             .exclude_weekends_and_swedish_holidays()
-            .finish(),
+            .build(),
         CostPeriod::builder()
             .cost(Cost::fuse_range(&[
                 (16, 63, Money::new_subunit(8.5)),
                 (80, 80, Money::new_subunit(12.)),
             ]))
-            .finish(),
+            .build(),
     ])),
     other_fees: OtherFees::Unverified,
     links: Links {
@@ -40,6 +40,6 @@ pub(super) const NACKA_ENERGI: GridOperator = GridOperator {
     },
     power_tariff: Some(PowerTariff::new(
         TariffCalculationMethod::AverageHours(3),
-        CostPeriods::new(&[CostPeriod::builder().fixed_cost(51, 85).finish()]),
+        CostPeriods::new(&[CostPeriod::builder().fixed_cost(51, 85).build()]),
     )),
 };

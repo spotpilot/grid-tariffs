@@ -1,9 +1,11 @@
 use crate::{Cost, costs::CostPeriods};
 
-#[derive(Clone, Copy)]
+#[derive(Debug, Clone, Copy)]
 pub(super) enum TransferFee {
     /// Price was not listed on their website
     Unlisted,
+    /// Transfer fee has not been verified by us
+    Unverified,
     /// Based on the time of day
     TimeOfDay {
         day: Cost,
@@ -34,7 +36,7 @@ impl TransferFee {
 }
 
 // Other kWh based fees
-#[derive(Clone, Copy)]
+#[derive(Debug, Clone, Copy)]
 pub(super) enum OtherFees {
     Unverified,
     List(&'static [(&'static str, Cost)]),

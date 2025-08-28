@@ -8,7 +8,7 @@ use crate::{
     money::Money,
 };
 
-#[derive(Clone, Copy)]
+#[derive(Debug, Clone, Copy)]
 pub(super) enum Cost {
     None,
     /// Cost has not been verified
@@ -89,7 +89,7 @@ impl Cost {
         }
     }
 }
-#[derive(Clone, Copy)]
+#[derive(Debug, Clone, Copy)]
 pub struct CostPeriods {
     periods: &'static [CostPeriod],
 }
@@ -103,7 +103,7 @@ impl CostPeriods {
     }
 }
 
-#[derive(Clone)]
+#[derive(Debug, Clone)]
 pub(super) struct CostPeriod {
     cost: Cost,
     include: [Option<PeriodType>; 2],
@@ -164,7 +164,7 @@ impl CostPeriodBuilder {
         }
     }
 
-    pub(super) const fn finish(self) -> CostPeriod {
+    pub(super) const fn build(self) -> CostPeriod {
         CostPeriod {
             cost: self.cost,
             include: self.include,
@@ -259,7 +259,7 @@ mod tests {
     }
 }
 
-#[derive(Clone, Copy)]
+#[derive(Debug, Clone, Copy)]
 pub(super) enum PeriodType {
     Months(Months),
     Hours(Hours),

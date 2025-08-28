@@ -10,10 +10,10 @@ const LINKS: Links = Links {
     eltariff_api: Some("https://api.tekniskaverken.net/subscription/public/v0/tariffs"),
 };
 
-pub(super) const KATRINEHOLM_STANDARD: GridOperator = GridOperator {
+pub const KATRINEHOLM_STANDARD: GridOperator = GridOperator {
     name: "Tekniska Verken Katrineholm, prislista standard",
     price_date: date(2025, 1, 1),
-    currency: Currency::SEK,
+    country: Country::SE,
     main_fuses: MainFuseSizes::new_range(16, 63),
     // NOTE: "Myndighetsavgift" @ 131,82 kr/year is not included
     monthly_fee: Cost::fuses(&[
@@ -34,17 +34,17 @@ pub(super) const KATRINEHOLM_STANDARD: GridOperator = GridOperator {
             CostPeriod::builder()
                 .fixed_cost(63, 0)
                 .include(WINTER_MONTHS)
-                .finish(),
-            CostPeriod::builder().fixed_cost(32, 0).finish(),
+                .build(),
+            CostPeriod::builder().fixed_cost(32, 0).build(),
         ]),
     )),
     links: LINKS,
 };
 
-pub(super) const KATRINEHOLM_ALTERNATIV: GridOperator = GridOperator {
+pub const KATRINEHOLM_ALTERNATIV: GridOperator = GridOperator {
     name: "Tekniska Verken Katrineholm, prislista alternativ",
     price_date: date(2025, 1, 1),
-    currency: Currency::SEK,
+    country: Country::SE,
     main_fuses: MainFuseSizes::new_range(16, 63),
     // NOTE: "Myndighetsavgift" @ 131,82 kr/year is not included
     monthly_fee: Cost::fuses(&[
@@ -69,31 +69,31 @@ pub(super) const KATRINEHOLM_ALTERNATIV: GridOperator = GridOperator {
                 .fixed_cost(11, 0)
                 .include(SUMMER_MONTHS)
                 .include(DAY_HOURS)
-                .finish(),
+                .build(),
             CostPeriod::builder()
                 .fixed_cost(32, 0)
                 .include(SUMMER_MONTHS)
                 .include(NIGHT_HOURS)
-                .finish(),
+                .build(),
             CostPeriod::builder()
                 .fixed_cost(16, 0)
                 .include(WINTER_MONTHS)
                 .include(DAY_HOURS)
-                .finish(),
+                .build(),
             CostPeriod::builder()
                 .fixed_cost(63, 0)
                 .include(WINTER_MONTHS)
                 .include(NIGHT_HOURS)
-                .finish(),
+                .build(),
         ]),
     )),
     links: LINKS,
 };
 
-pub(super) const LINKÖPING_STANDARD: GridOperator = GridOperator {
+pub const LINKÖPING_STANDARD: GridOperator = GridOperator {
     name: "Tekniska Verken Linköping, prislista standard",
     price_date: date(2025, 1, 1),
-    currency: Currency::SEK,
+    country: Country::SE,
     main_fuses: MainFuseSizes::new_range(16, 63),
     // NOTE: "Myndighetsavgift" @ 131,82 kr/year is not included
     monthly_fee: Cost::fuses(&[
@@ -114,17 +114,17 @@ pub(super) const LINKÖPING_STANDARD: GridOperator = GridOperator {
             CostPeriod::builder()
                 .fixed_cost(43, 0)
                 .include(WINTER_MONTHS)
-                .finish(),
-            CostPeriod::builder().fixed_cost(22, 0).finish(),
+                .build(),
+            CostPeriod::builder().fixed_cost(22, 0).build(),
         ]),
     )),
     links: LINKS,
 };
 
-pub(super) const LINKÖPING_ALTERNATIV: GridOperator = GridOperator {
+pub const LINKÖPING_ALTERNATIV: GridOperator = GridOperator {
     name: "Tekniska Verken Linköping, prislista alternativ",
     price_date: date(2025, 1, 1),
-    currency: Currency::SEK,
+    country: Country::SE,
     main_fuses: MainFuseSizes::new_range(16, 63),
     // NOTE: "Myndighetsavgift" @ 131,82 kr/year is not included
     monthly_fee: Cost::fuses(&[
@@ -149,22 +149,22 @@ pub(super) const LINKÖPING_ALTERNATIV: GridOperator = GridOperator {
                 .fixed_cost(8, 0)
                 .include(SUMMER_MONTHS)
                 .include(DAY_HOURS)
-                .finish(),
+                .build(),
             CostPeriod::builder()
                 .fixed_cost(22, 0)
                 .include(SUMMER_MONTHS)
                 .include(NIGHT_HOURS)
-                .finish(),
+                .build(),
             CostPeriod::builder()
                 .fixed_cost(12, 0)
                 .include(WINTER_MONTHS)
                 .include(DAY_HOURS)
-                .finish(),
+                .build(),
             CostPeriod::builder()
                 .fixed_cost(43, 0)
                 .include(WINTER_MONTHS)
                 .include(NIGHT_HOURS)
-                .finish(),
+                .build(),
         ]),
     )),
     links: LINKS,

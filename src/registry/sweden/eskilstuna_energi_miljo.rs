@@ -1,9 +1,9 @@
 use crate::registry::prelude::*;
 
-pub(super) const ESKILSTUNA_ENERGI_MILJÖ: GridOperator = GridOperator {
+pub const ESKILSTUNA_ENERGI_MILJÖ: GridOperator = GridOperator {
     name: "Eskilstuna Energi & Miljö",
     price_date: date(2025, 1, 1),
-    currency: Currency::SEK,
+    country: Country::SE,
     // NOTE: They have a power tariff based price model implemented for 35A+, but we'll skip adding those for now...
     main_fuses: MainFuseSizes::new_range(16, 25),
     monthly_fee: Cost::fuses(&[

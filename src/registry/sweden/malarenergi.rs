@@ -1,9 +1,9 @@
 use crate::registry::prelude::*;
 
-pub(super) const MÄLARENERGI: GridOperator = GridOperator {
+pub const MÄLARENERGI: GridOperator = GridOperator {
     name: "Mälarenergi",
     price_date: date(2025, 9, 1),
-    currency: Currency::SEK,
+    country: Country::SE,
     main_fuses: MainFuseSizes::new_range(16, 63),
     monthly_fee: Cost::fuses(&[
         (16, Money::new(307, 50)),
@@ -21,8 +21,8 @@ pub(super) const MÄLARENERGI: GridOperator = GridOperator {
             .include_months(November, March)
             .include_hours(6, 22)
             .exclude_weekends()
-            .finish(),
-        CostPeriod::builder().fixed_cost_subunit(4.91).finish(),
+            .build(),
+        CostPeriod::builder().fixed_cost_subunit(4.91).build(),
     ])),
     other_fees: OtherFees::Unverified,
     power_tariff: Some(PowerTariff::new(
@@ -31,7 +31,7 @@ pub(super) const MÄLARENERGI: GridOperator = GridOperator {
             .fixed_cost(18, 75)
             .include_hours(7, 18)
             .exclude_weekends_and_swedish_holidays()
-            .finish()]),
+            .build()]),
     )),
     links: Links {
         fee_info: "https://www.malarenergi.se/el/elnat/effektsmart/prismodellen/",

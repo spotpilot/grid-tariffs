@@ -1,7 +1,7 @@
 use crate::registry::prelude::*;
-pub(super) const MALUNG_SÄLENS_ELVERK: GridOperator = GridOperator {
+pub const MALUNG_SÄLENS_ELVERK: GridOperator = GridOperator {
     name: "Malung-Sälens Elverk",
-    currency: Currency::SEK,
+    country: Country::SE,
     main_fuses: MainFuseSizes::new_range(16, 63),
     price_date: date(2025, 4, 1),
     monthly_fee: Cost::fuses(&[
@@ -28,8 +28,8 @@ pub(super) const MALUNG_SÄLENS_ELVERK: GridOperator = GridOperator {
                 .fixed_cost(118, 75)
                 .include_months(November, March)
                 .include_hours(7, 19)
-                .finish(),
-            CostPeriod::builder().fixed_cost(35, 0).finish(),
+                .build(),
+            CostPeriod::builder().fixed_cost(35, 0).build(),
         ]),
     )),
 };

@@ -1,9 +1,9 @@
 use crate::registry::prelude::*;
 
-pub(super) const BTEA: GridOperator = GridOperator {
+pub const BTEA: GridOperator = GridOperator {
     name: "BTEA",
     price_date: date(2025, 1, 1),
-    currency: Currency::SEK,
+    country: Country::SE,
     main_fuses: MainFuseSizes::new_range(16, 63),
     monthly_fee: Cost::fuses(&[
         (16, Money::new(628, 25)),  // 7539 kr/år ÷ 12 = 628.25 kr/månad
@@ -27,6 +27,6 @@ pub(super) const BTEA: GridOperator = GridOperator {
         CostPeriods::new(&[CostPeriod::builder()
             .fixed_cost(24, 58) // 295 kr/år ÷ 12 = 24.58 kr/månad for standard tariffs
             .fallthrough(true)
-            .finish()]),
+            .build()]),
     )),
 };

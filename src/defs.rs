@@ -1,5 +1,5 @@
 // A definition of hours
-#[derive(Clone, Copy)]
+#[derive(Debug, Clone, Copy)]
 pub(super) enum Hours {
     Irrelevant,
     FromToInclusive(u8, u8),
@@ -17,7 +17,7 @@ impl Hours {
 }
 
 // The supported main fuse sizes
-#[derive(Clone, Copy)]
+#[derive(Debug, Clone, Copy)]
 pub(super) struct MainFuseSizes {
     from: u16,
     to: u16,
@@ -29,7 +29,7 @@ impl MainFuseSizes {
     }
 }
 
-#[derive(Clone, Copy)]
+#[derive(Debug, Clone, Copy)]
 #[repr(u8)]
 pub(super) enum Month {
     January,
@@ -47,7 +47,7 @@ pub(super) enum Month {
 }
 
 /// An inclusive range of months
-#[derive(Clone, Copy)]
+#[derive(Debug, Clone, Copy)]
 pub(super) enum Months {
     Irrelevant,
     RangeInclusive(Month, Month),

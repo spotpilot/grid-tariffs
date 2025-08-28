@@ -1,9 +1,9 @@
 use crate::registry::prelude::*;
 
-pub(super) const TELGE_ENERGI: GridOperator = GridOperator {
+pub const TELGE_ENERGI: GridOperator = GridOperator {
     name: "Telge Energi",
     price_date: date(2025, 1, 1),
-    currency: Currency::SEK,
+    country: Country::SE,
     main_fuses: MainFuseSizes::new_range(16, 63),
     monthly_fee: Cost::fuses(&[
         (16, Money::new(415, 0)),
@@ -24,7 +24,7 @@ pub(super) const TELGE_ENERGI: GridOperator = GridOperator {
             .include_months(November, March)
             .include_hours(7, 20)
             .exclude_weekends_and_swedish_holidays()
-            .finish()]),
+            .build()]),
     )),
     links: Links {
         fee_info: "https://www.telge.se/elnat/elnatskostnad/elnatspriser/",

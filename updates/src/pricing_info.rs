@@ -1,7 +1,7 @@
 use core::fmt;
 use std::{path::PathBuf, slice::Iter, time::Duration};
 
-use grid_tariffs::Country;
+use grid_tariffs::{Country, GridOperator};
 use scraper::Html;
 use similar::TextDiff;
 use tokio::fs::{create_dir_all, read_to_string};
@@ -19,7 +19,7 @@ impl<'a> PricingInfoRegistry<'a> {
 
     pub(crate) fn get(&self, name: &str) -> Option<&'a PricingInfo> {
         self.iter()
-            .find(|pi| pi.name.to_ascii_lowercase() == name.to_ascii_lowercase())
+            .find(|pi| pi.name().to_ascii_lowercase() == name.to_ascii_lowercase())
     }
 
     pub(crate) fn iter(&self) -> Iter<'a, PricingInfo> {
@@ -29,10 +29,56 @@ impl<'a> PricingInfoRegistry<'a> {
 
 #[derive(Debug, Clone)]
 pub(crate) struct PricingInfo {
-    pub(crate) name: &'static str,
-    pub(crate) country: Country,
-    pub(crate) link: &'static str,
-    pub(crate) locator: Locator,
+    operator: &'static GridOperator,
+    locator: Locator,
+    name_override: Option<&'static str>,
+}
+
+impl PricingInfo {
+    pub(crate) const fn name(&self) -> &'static str {
+        if let Some(name) = self.name_override {
+            name
+        } else {
+            self.operator.name()
+        }
+    }
+    pub(crate) const fn builder(operator: &'static GridOperator) -> PricingInfoBuilder {
+        PricingInfoBuilder::new(operator)
+    }
+}
+
+pub(crate) struct PricingInfoBuilder {
+    pub(crate) operator: &'static GridOperator,
+    pub(crate) locator: Option<Locator>,
+    pub(crate) name_override: Option<&'static str>,
+}
+
+impl PricingInfoBuilder {
+    pub(crate) const fn new(operator: &'static GridOperator) -> Self {
+        Self {
+            operator,
+            locator: None,
+            name_override: None,
+        }
+    }
+
+    pub(crate) const fn locator(mut self, locator: Locator) -> Self {
+        self.locator = Some(locator);
+        self
+    }
+
+    pub(crate) const fn name_override(mut self, name_override: &'static str) -> Self {
+        self.name_override = Some(name_override);
+        self
+    }
+
+    pub(crate) const fn build(self) -> PricingInfo {
+        PricingInfo {
+            operator: self.operator,
+            locator: self.locator.expect("`locator` missing"),
+            name_override: self.name_override,
+        }
+    }
 }
 
 #[derive(Debug, Clone)]
@@ -170,7 +216,7 @@ impl ResultStore {
         if path_full.exists() && path_extracted.exists() {
             let html = read_to_string(path_full).await?;
             debug!(
-                grid_operator = pricing_info.name,
+                grid_operator = pricing_info.name(),
                 content_length = html.len(),
                 "loaded stored pricing info result"
             );
@@ -206,7 +252,7 @@ impl ResultStore {
         tokio::fs::write(path_full, result.html()).await?;
         tokio::fs::write(path_extracted, result.extracted_text()).await?;
         debug!(
-            grid_operator = pricing_info.name,
+            grid_operator = pricing_info.name(),
             extracted_text = result.extracted_text(),
             content_length = result.html().len(),
             "stored pricing info result"
@@ -215,13 +261,13 @@ impl ResultStore {
     }
 
     async fn remote_fetch_html(&self, pi: &PricingInfo) -> anyhow::Result<String> {
-        info!(grid_operator = pi.name, "downloading html...");
+        info!(grid_operator = pi.name(), "downloading html...");
         let client = reqwest::ClientBuilder::new()
             .timeout(Duration::from_secs(5))
             // NOTE: User-Agent is needed to be able to download from EON, otherwise 403
             .user_agent("grid-tariffs/0.1")
             .build()?;
-        let req = client.get(pi.link).build()?;
+        let req = client.get(pi.operator.fee_info_link()).build()?;
         let resp = client.execute(req).await?;
         resp.error_for_status_ref()?;
         let text = resp.text().await?;
@@ -233,12 +279,12 @@ impl ResultStore {
     }
 
     fn path_extracted(&self, pricing_info: &PricingInfo) -> PathBuf {
-        self.base_path(pricing_info.country)
-            .join(format!("{}.extracted.txt", pricing_info.name))
+        self.base_path(pricing_info.operator.country())
+            .join(format!("{}.extracted.txt", pricing_info.name()))
     }
 
     fn path_full(&self, pricing_info: &PricingInfo) -> PathBuf {
-        self.base_path(pricing_info.country)
-            .join(format!("{}.full.html", pricing_info.name))
+        self.base_path(pricing_info.operator.country())
+            .join(format!("{}.full.html", pricing_info.name()))
     }
 }

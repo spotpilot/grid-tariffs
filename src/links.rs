@@ -1,4 +1,4 @@
-#[derive(Clone)]
+#[derive(Debug, Clone)]
 pub(super) struct Links {
     /// Website containing info about the fees that the company charges
     pub(super) fee_info: &'static str,

@@ -1,9 +1,9 @@
 use crate::registry::prelude::*;
 
-pub(super) const ELLEVIO: GridOperator = GridOperator {
+pub const ELLEVIO: GridOperator = GridOperator {
     name: "Ellevio",
     price_date: date(2025, 1, 1),
-    currency: Currency::SEK,
+    country: Country::SE,
     main_fuses: MainFuseSizes::new_range(16, 63),
     monthly_fee: Cost::fuses(&[
         (16, Money::new(365, 0)),
@@ -19,7 +19,7 @@ pub(super) const ELLEVIO: GridOperator = GridOperator {
     other_fees: OtherFees::Unverified,
     links: Links {
         eltariff_api: None,
-        fee_info: "https://www.ellevio.se/abonnemang/ny-prismodell-baserad-pa-effekt/",
+        fee_info: "https://www.ellevio.se/abonnemang/elnatspriser-privat/",
     },
     power_tariff: Some(PowerTariff::new(
         TariffCalculationMethod::AverageDays(3),
@@ -29,8 +29,8 @@ pub(super) const ELLEVIO: GridOperator = GridOperator {
                 .include_hours(22, 6)
                 .divide_kw_by(2)
                 .fallthrough(true)
-                .finish(),
-            CostPeriod::builder().cost(Cost::fixed(81, 25)).finish(),
+                .build(),
+            CostPeriod::builder().cost(Cost::fixed(81, 25)).build(),
         ]),
     )),
 };

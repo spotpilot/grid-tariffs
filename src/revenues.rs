@@ -2,7 +2,7 @@ use crate::{Cost, costs::CostPeriods};
 
 /// Grid benefit
 /// A Swedish concept for "thanking" micro producers (<=43,5 kW) for reducing losses in the grid
-#[derive(Clone, Copy)]
+#[derive(Debug, Clone, Copy)]
 pub(super) enum FeedInRevenue {
     Simple(Cost),
     /// Not yet checked

@@ -1,8 +1,8 @@
 use crate::registry::prelude::*;
-pub(super) const GÖTEBORG_ENERGI: GridOperator = GridOperator {
+pub const GÖTEBORG_ENERGI: GridOperator = GridOperator {
     name: "Göteborg Energi",
     price_date: date(2025, 1, 1),
-    currency: Currency::SEK,
+    country: Country::SE,
     main_fuses: MainFuseSizes::new_range(16, 63),
     monthly_fee: Cost::fixed(185, 0),
     monthly_production_fee: Cost::Unverified,
@@ -15,6 +15,6 @@ pub(super) const GÖTEBORG_ENERGI: GridOperator = GridOperator {
     },
     power_tariff: Some(PowerTariff::new(
         TariffCalculationMethod::AverageDays(3),
-        CostPeriods::new(&[CostPeriod::builder().fixed_cost(45, 0).finish()]),
+        CostPeriods::new(&[CostPeriod::builder().fixed_cost(45, 0).build()]),
     )),
 };

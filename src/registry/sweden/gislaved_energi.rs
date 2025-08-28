@@ -1,9 +1,9 @@
 use crate::registry::prelude::*;
 
-pub(super) const GISLAVED_ENERGI: GridOperator = GridOperator {
+pub const GISLAVED_ENERGI: GridOperator = GridOperator {
     name: "Gislaved Energi",
     price_date: date(2024, 12, 1),
-    currency: Currency::SEK,
+    country: Country::SE,
     main_fuses: MainFuseSizes::new_range(16, 63),
     monthly_fee: Cost::fuses(&[
         (16, Money::new(291, 58)),

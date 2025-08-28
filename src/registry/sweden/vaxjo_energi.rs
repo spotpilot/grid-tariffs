@@ -1,6 +1,6 @@
 use crate::registry::prelude::*;
 
-pub(super) const VÄXJÖ_ENERGI: GridOperator = GridOperator {
+pub const VÄXJÖ_ENERGI: GridOperator = GridOperator {
     name: "Växjö Energi",
     price_date: date(2025, 1, 1),
     monthly_fee: Cost::fuses(&[
@@ -27,7 +27,7 @@ pub(super) const VÄXJÖ_ENERGI: GridOperator = GridOperator {
         spot_price_multiplier: 0.1126,
         approximated: false,
     },
-    currency: Currency::SEK,
+    country: Country::SE,
     main_fuses: MainFuseSizes::new_range(16, 1000),
     other_fees: OtherFees::Unverified,
     links: Links {
@@ -43,6 +43,6 @@ pub(super) const VÄXJÖ_ENERGI: GridOperator = GridOperator {
             ]))
             .include_hours(7, 20)
             .exclude_weekends_and_swedish_holidays()
-            .finish()]),
+            .build()]),
     )),
 };

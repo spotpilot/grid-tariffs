@@ -22,7 +22,8 @@ jobs:
           ./target/release/updates check-all | tee output.log \
           && grep ERROR output.log \
             | (tr '\n' '\0' \
-            | xargs -0 -n1 echo ::error)
+            | xargs -0 -n1 echo ::error) \
+          && rm output.log
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
