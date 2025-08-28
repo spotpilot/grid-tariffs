@@ -5,31 +5,14 @@ use std::{
     str::FromStr,
 };
 
+use crate::currency::Currency;
+
 #[derive(Debug, Clone, thiserror::Error, PartialEq, Eq)]
 pub enum MoneyError {
     #[error("Invalid money")]
     InvalidMoney,
     #[error("Money sub-unit is more than 99")]
     SubunitOutOfRange,
-}
-
-#[derive(Debug, Clone, Copy, PartialEq, Eq, PartialOrd, Ord)]
-pub enum Currency {
-    SEK,
-}
-
-impl Currency {
-    pub const fn sign(&self) -> &'static str {
-        match self {
-            Self::SEK => "kr",
-        }
-    }
-
-    pub const fn subunit_sign(&self) -> &'static str {
-        match self {
-            Self::SEK => "öre",
-        }
-    }
 }
 
 #[derive(Debug, Clone, Copy, Default, PartialEq, Eq, PartialOrd, Ord)]
