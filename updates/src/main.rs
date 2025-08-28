@@ -5,6 +5,7 @@ mod registry;
 
 use std::path::PathBuf;
 
+use tracing::warn;
 use tracing_subscriber::{
     filter::{LevelFilter, Targets},
     fmt,
@@ -62,9 +63,15 @@ async fn main() -> anyhow::Result<()> {
         CliAction::CheckAll { results_dir } => {
             let store = ResultStore::new(results_dir).await;
             for pi in PRICING_INFO.iter() {
-                let comparison = store.fetch_and_compare(pi).await?;
-                println!("{:?}", comparison);
-                println!("Diff: {}", comparison.diff());
+                match store.fetch_and_compare(pi).await {
+                    Ok(comparison) => {
+                        println!("{:?}", comparison);
+                        println!("Diff: {}", comparison.diff());
+                    }
+                    Err(err) => {
+                        warn!(%err, ?pi, "failed");
+                    }
+                }
             }
         }
         CliAction::ExtractText {
