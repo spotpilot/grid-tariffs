@@ -1,0 +1,24 @@
+name: Check for updates and generate PR
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: 0 * * * *
+
+jobs:
+  check-for-pricing-updates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2.8.0
+      - name: Run tests
+        run: cargo build -p updates --release
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: "chore: Pricing updates"
+          title: "chore: Pricing updates"
+          body: |
+            Don't forget to update the relevant grid operator pricing info in src/registry.
+          branch: create-pull-request/pricing-updates
