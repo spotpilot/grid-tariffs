@@ -1,3 +1,5 @@
+use grid_tariffs::Country;
+
 use crate::{
     LocatorMethod::*,
     locator::{ContentTarget, Locator, TargetContainer},
@@ -7,6 +9,7 @@ use crate::{
 pub(crate) static PRICING_INFO: PricingInfoRegistry = PricingInfoRegistry::new(&[
     PricingInfo {
         name: "EON",
+        country: Country::SE,
         link: "https://www.eon.se/el/elnat/elnaetsabonnemang-priser",
         // NOTE: At the time of writing there are four tables with pricing info. Three are current and one is with old Stockholm prices.
         locator: Locator::new(
@@ -16,6 +19,7 @@ pub(crate) static PRICING_INFO: PricingInfoRegistry = PricingInfoRegistry::new(&
     },
     PricingInfo {
         name: "Ellevio",
+        country: Country::SE,
         link: "https://www.ellevio.se/abonnemang/elnatspriser-privat/",
         locator: Locator::new(
             TextStartsWith {
@@ -27,13 +31,13 @@ pub(crate) static PRICING_INFO: PricingInfoRegistry = PricingInfoRegistry::new(&
     },
     PricingInfo {
         name: "Vattenfall",
+        country: Country::SE,
         link: "https://www.vattenfalleldistribution.se/abonnemang-och-avgifter/avtal-och-avgifter/elnatsavgift-och-avtalsvillkor/",
         locator: Locator::new(
             TextStartsWith {
                 needle: "Säkringsabonnemang (16–63 A)",
                 target_container: TargetContainer::Ancestor(1),
             },
-            // CssSelector("[data-content]"),
             ContentTarget::Attribute("data-content"),
         ),
     },

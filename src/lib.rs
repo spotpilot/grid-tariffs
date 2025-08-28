@@ -12,9 +12,9 @@
 //!
 use chrono::NaiveDate;
 
+pub use crate::country::Country;
 use crate::{
     costs::Cost,
-    country::Country,
     currency::Currency,
     defs::MainFuseSizes,
     fees::{OtherFees, TransferFee},

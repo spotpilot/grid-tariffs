@@ -27,12 +27,12 @@ impl Locator {
         Self { method, content }
     }
 
-    pub(crate) fn locate_content(&self, html: &Html) -> Option<String> {
+    pub(crate) fn locate_content(&self, html: &Html) -> String {
         let found = match self.content {
             ContentTarget::Text => self.method.locate_text(html),
             ContentTarget::Attribute(attr) => self.method.locate_attribute_text(html, attr),
         };
-        found
+        found.unwrap_or_default()
     }
 }
 

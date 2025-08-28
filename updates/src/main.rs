@@ -85,7 +85,7 @@ async fn main() -> anyhow::Result<()> {
             if store_cache {
                 store.store(pi, &result).await?;
             }
-            let text = result.extracted_text().unwrap_or_default();
+            let text = result.extracted_text();
             println!("{text}");
         }
         CliAction::DownloadHtml {

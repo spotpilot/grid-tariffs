@@ -1,7 +1,7 @@
 use std::{path::PathBuf, slice::Iter, time::Duration};
 
+use grid_tariffs::Country;
 use scraper::Html;
-use serde::{Deserialize, Serialize};
 use similar::TextDiff;
 use tokio::fs::{create_dir_all, read_to_string};
 use tracing::{debug, info};
@@ -29,6 +29,7 @@ impl<'a> PricingInfoRegistry<'a> {
 #[derive(Debug, Clone)]
 pub(crate) struct PricingInfo {
     pub(crate) name: &'static str,
+    pub(crate) country: Country,
     pub(crate) link: &'static str,
     pub(crate) locator: Locator,
 }
@@ -54,20 +55,17 @@ impl PricingInfoComparison {
 #[allow(dead_code)]
 #[derive(Debug, Clone)]
 pub(crate) struct ChangedPricing {
-    old: Option<String>,
-    new: Option<String>,
+    old: String,
+    new: String,
 }
 
 impl ChangedPricing {
-    fn new(old: Option<String>, new: Option<String>) -> Self {
+    fn new(old: String, new: String) -> Self {
         Self { old, new }
     }
 
     fn diff(&self) -> String {
-        let diff = TextDiff::from_lines(
-            self.old.as_deref().unwrap_or_default(),
-            self.new.as_deref().unwrap_or_default(),
-        );
+        let diff = TextDiff::from_lines(&self.old, &self.new);
         diff.unified_diff().to_string()
     }
 }
@@ -81,10 +79,9 @@ impl PricingInfoComparison {
     }
 }
 
-#[derive(Serialize, Deserialize)]
 pub(crate) struct PricingInfoResult {
     html: String,
-    extracted_text: Option<String>,
+    extracted_text: String,
 }
 
 impl PricingInfoResult {
@@ -92,8 +89,8 @@ impl PricingInfoResult {
         &self.html
     }
 
-    pub(crate) fn extracted_text(&self) -> Option<&str> {
-        self.extracted_text.as_deref()
+    pub(crate) fn extracted_text(&self) -> &str {
+        &self.extracted_text
     }
 
     fn new(pricing_info: &PricingInfo, html: String) -> Self {
@@ -113,8 +110,8 @@ impl PricingInfoResult {
             PricingInfoComparison::Unchanged
         } else {
             PricingInfoComparison::ChangedPricing(ChangedPricing::new(
-                self.extracted_text().map(str::to_owned),
-                self.extracted_text().map(str::to_owned),
+                self.extracted_text.clone(),
+                other.extracted_text.clone(),
             ))
         }
     }
@@ -140,30 +137,36 @@ impl ResultStore {
     }
 
     pub(crate) async fn new(results_dir: PathBuf) -> Self {
-        create_dir_all(&results_dir)
-            .await
-            .expect("creating result dir should work");
-        Self { dir: results_dir }
+        let self_ = Self { dir: results_dir };
+        for country in Country::all() {
+            create_dir_all(&self_.base_path(*country))
+                .await
+                .expect("creating result dir should work");
+        }
+        self_
     }
 
-    pub(crate) async fn load(&self, pi: &PricingInfo) -> anyhow::Result<Option<PricingInfoResult>> {
-        let path = self.dir.join(format!("{}.html", pi.name));
-        if path.exists() {
-            let stored = read_to_string(path).await?;
-            let res: PricingInfoResult = serde_json::from_str(&stored)?;
+    pub(crate) async fn load(
+        &self,
+        pricing_info: &PricingInfo,
+    ) -> anyhow::Result<Option<PricingInfoResult>> {
+        let path_full = self.path_full(pricing_info);
+        let path_extracted = self.path_extracted(pricing_info);
+        if path_full.exists() && path_extracted.exists() {
+            let html = read_to_string(path_full).await?;
             debug!(
-                grid_operator = pi.name,
-                content_length = res.html().len(),
+                grid_operator = pricing_info.name,
+                content_length = html.len(),
                 "loaded stored pricing info result"
             );
-            Ok(Some(res))
+            Ok(Some(PricingInfoResult::new(pricing_info, html)))
         } else {
             Ok(None)
         }
     }
 
     pub(crate) async fn remote_fetch(&self, pi: &PricingInfo) -> anyhow::Result<PricingInfoResult> {
-        let html = self.fetch_html(pi).await?;
+        let html = self.remote_fetch_html(pi).await?;
         Ok(PricingInfoResult::new(pi, html))
     }
 
@@ -183,18 +186,20 @@ impl ResultStore {
         pricing_info: &PricingInfo,
         result: &PricingInfoResult,
     ) -> anyhow::Result<()> {
-        let path = self.dir.join(format!("{}.html", pricing_info.name));
-        let serialized = serde_json::to_string_pretty(result)?;
-        tokio::fs::write(path, &serialized).await?;
+        let path_full = self.path_full(pricing_info);
+        let path_extracted = self.path_extracted(pricing_info);
+        tokio::fs::write(path_full, result.html()).await?;
+        tokio::fs::write(path_extracted, result.extracted_text()).await?;
         debug!(
             grid_operator = pricing_info.name,
-            result = serialized,
+            extracted_text = result.extracted_text(),
+            content_length = result.html().len(),
             "stored pricing info result"
         );
         Ok(())
     }
 
-    async fn fetch_html(&self, pi: &PricingInfo) -> anyhow::Result<String> {
+    async fn remote_fetch_html(&self, pi: &PricingInfo) -> anyhow::Result<String> {
         info!(grid_operator = pi.name, "downloading html...");
         let client = reqwest::ClientBuilder::new()
             .timeout(Duration::from_secs(5))
@@ -206,5 +211,19 @@ impl ResultStore {
         resp.error_for_status_ref()?;
         let text = resp.text().await?;
         Ok(text)
+    }
+
+    fn base_path(&self, country: Country) -> PathBuf {
+        self.dir.join(country.to_string().to_lowercase())
+    }
+
+    fn path_extracted(&self, pricing_info: &PricingInfo) -> PathBuf {
+        self.base_path(pricing_info.country)
+            .join(format!("{}-extracted.txt", pricing_info.name))
+    }
+
+    fn path_full(&self, pricing_info: &PricingInfo) -> PathBuf {
+        self.base_path(pricing_info.country)
+            .join(format!("{}.html", pricing_info.name))
     }
 }
