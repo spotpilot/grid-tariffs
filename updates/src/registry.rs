@@ -41,4 +41,10 @@ pub(crate) static PRICING_INFO: PricingInfoRegistry = PricingInfoRegistry::new(&
             ContentTarget::Attribute("data-content"),
         ),
     },
+    PricingInfo {
+        name: "Göteborg Energi",
+        country: Country::SE,
+        link: "https://www.goteborgenergi.se/privat/elnat/elnatsavgiften",
+        locator: Locator::new(CssSelector("#prisvilla + *"), ContentTarget::Text),
+    },
 ]);

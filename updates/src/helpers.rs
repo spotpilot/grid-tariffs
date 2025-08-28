@@ -1,16 +1,3 @@
-use scraper::{ElementRef, Html, Selector};
-
-pub(crate) fn find_text_elements<'a, 'b>(
-    document: &'a Html,
-    target_text: &'b str,
-) -> Vec<ElementRef<'a>> {
-    let all_selector = Selector::parse("*").unwrap();
-    document
-        .select(&all_selector)
-        .filter(|el| el.text().collect::<String>().starts_with(target_text))
-        .collect()
-}
-
 pub(crate) fn remove_unneeded_newlines(text: &str) -> String {
     let lines: Vec<&str> = text.lines().collect();
     let mut result = Vec::with_capacity(lines.len());

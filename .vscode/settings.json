@@ -1,6 +1,8 @@
 {
-  "editor.formatOnSave": true,
-  "search.exclude": {
-    "Cargo.lock": true
-  }
+    "[rust]": {
+        "editor.formatOnSave": true,
+    },
+    "search.exclude": {
+        "Cargo.lock": true
+    }
 }

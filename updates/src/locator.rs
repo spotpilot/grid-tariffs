@@ -2,6 +2,8 @@ use itertools::Itertools;
 use scraper::{ElementRef, Html, Selector};
 use tracing::warn;
 
+use crate::helpers::remove_unneeded_newlines;
+
 #[derive(Debug, Clone, Copy)]
 pub(crate) enum TargetContainer {
     Current,
@@ -45,8 +47,6 @@ pub(crate) enum LocatorMethod {
     },
 }
 use LocatorMethod::*;
-
-use crate::helpers::{find_text_elements, remove_unneeded_newlines};
 
 impl LocatorMethod {
     fn element_locator<'a>(&self, html: &'a Html) -> Option<ElementLocator<'a>> {
@@ -99,8 +99,12 @@ impl<'a> ElementLocator<'a> {
         }
     }
 
-    fn where_text_starts_with(html: &'a Html, needle: &'a str) -> Option<Self> {
-        let elements = find_text_elements(html, needle);
+    fn where_text_starts_with(document: &'a Html, needle: &'a str) -> Option<Self> {
+        let all_selector = Selector::parse("*").unwrap();
+        let elements: Vec<ElementRef<'_>> = document
+            .select(&all_selector)
+            .filter(|el| el.text().collect::<String>().starts_with(needle))
+            .collect();
         if elements.is_empty() {
             None
         } else {
@@ -117,9 +121,9 @@ impl<'a> ElementLocator<'a> {
         }
         let text = targets
             .into_iter()
-            .map(|t| t.text().collect::<String>())
+            .map(|t| t.text().map(|t| t.trim()).join("\n"))
             .join("\n\n");
-        Some(remove_unneeded_newlines(text.trim()))
+        Some(remove_unneeded_newlines(&text))
     }
 
     /// Get the `attr` attribute texts of this element, with repeated newlines removed

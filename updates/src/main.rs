@@ -32,6 +32,12 @@ enum CliAction {
         #[arg(long, env, default_value = "./results")]
         results_dir: PathBuf,
     },
+    /// Check for updates for the given grid operator
+    Check {
+        #[arg(long, env, default_value = "./results")]
+        results_dir: PathBuf,
+        grid_operator: String,
+    },
     /// Get all the relevant texts from the HTML of the defined website
     ExtractText {
         #[arg(long, env, default_value = "./results")]
@@ -65,14 +71,24 @@ async fn main() -> anyhow::Result<()> {
             for pi in PRICING_INFO.iter() {
                 match store.fetch_and_compare(pi).await {
                     Ok(comparison) => {
-                        println!("{:?}", comparison);
-                        println!("Diff: {}", comparison.diff());
+                        println!("{comparison} diff: {}", comparison.diff());
                     }
                     Err(err) => {
                         warn!(%err, ?pi, "failed");
                     }
                 }
             }
+        }
+        CliAction::Check {
+            results_dir,
+            grid_operator,
+        } => {
+            let store = ResultStore::new(results_dir).await;
+            let Some(pi) = PRICING_INFO.get(&grid_operator) else {
+                anyhow::bail!("Grid operator not found");
+            };
+            let comparison = store.fetch_and_compare(pi).await?;
+            println!("{comparison} diff: {}", comparison.diff());
         }
         CliAction::ExtractText {
             results_dir,

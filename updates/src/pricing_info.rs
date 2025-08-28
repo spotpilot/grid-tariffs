@@ -1,3 +1,4 @@
+use core::fmt;
 use std::{path::PathBuf, slice::Iter, time::Duration};
 
 use grid_tariffs::Country;
@@ -40,6 +41,20 @@ pub(crate) enum PricingInfoComparison {
     New,
     #[allow(dead_code)]
     ChangedPricing(ChangedPricing),
+}
+
+impl fmt::Display for PricingInfoComparison {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        f.write_str(&match self {
+            PricingInfoComparison::Unchanged => "unchanged".to_string(),
+            PricingInfoComparison::New => "new".to_string(),
+            PricingInfoComparison::ChangedPricing(changed_pricing) => format!(
+                "changed old({} chars) -> new({} chars)",
+                changed_pricing.old.char_indices().count(),
+                changed_pricing.new.char_indices().count()
+            ),
+        })
+    }
 }
 
 impl PricingInfoComparison {
