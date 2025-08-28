@@ -1,0 +1,10 @@
+[2m2025-08-28T15:03:20.430572Z[0m [32m INFO[0m [2mupdates::pricing_info[0m[2m:[0m downloading html... [3mgrid_operator[0m[2m=[0m"EON"
+[2m2025-08-28T15:03:20.563491Z[0m [31mERROR[0m [2mupdates[0m[2m:[0m failed [3merr[0m[2m=[0mHTTP status client error (403 Forbidden) for url (https://www.eon.se/el/elnat/elnaetsabonnemang-priser) [3mpi[0m[2m=[0mPricingInfo { name: "EON", country: SE, link: "https://www.eon.se/el/elnat/elnaetsabonnemang-priser", locator: Locator { method: CssSelector("eon-ui-table-renderer"), content: Attribute("content") } }
+[2m2025-08-28T15:03:20.563611Z[0m [32m INFO[0m [2mupdates::pricing_info[0m[2m:[0m downloading html... [3mgrid_operator[0m[2m=[0m"Ellevio"
+unchanged diff: 
+[2m2025-08-28T15:03:21.243199Z[0m [32m INFO[0m [2mupdates::pricing_info[0m[2m:[0m downloading html... [3mgrid_operator[0m[2m=[0m"Vattenfall"
+unchanged diff: 
+[2m2025-08-28T15:03:22.752141Z[0m [32m INFO[0m [2mupdates::pricing_info[0m[2m:[0m downloading html... [3mgrid_operator[0m[2m=[0m"Göteborg Energi"
+unchanged diff: 
+[2m2025-08-28T15:03:24.557740Z[0m [32m INFO[0m [2mupdates::pricing_info[0m[2m:[0m downloading html... [3mgrid_operator[0m[2m=[0m"Kraftringen"
+unchanged diff: 
