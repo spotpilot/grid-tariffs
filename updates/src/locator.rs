@@ -129,7 +129,6 @@ impl<'a> ElementLocator<'a> {
             warn!("target elements not found");
             return None;
         }
-        dbg!("ATTR2");
         let text = targets
             .iter()
             .map(|x| {

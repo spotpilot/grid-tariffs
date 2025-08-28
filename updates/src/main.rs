@@ -3,6 +3,8 @@ mod locator;
 mod pricing_info;
 mod registry;
 
+use std::path::PathBuf;
+
 use tracing_subscriber::{
     filter::{LevelFilter, Targets},
     fmt,
@@ -10,10 +12,9 @@ use tracing_subscriber::{
 };
 
 use clap::{Parser, Subcommand};
-use tracing::info;
 
-use crate::locator::*;
 use crate::registry::*;
+use crate::{locator::*, pricing_info::ResultStore};
 
 #[derive(Parser)]
 struct Cli {
@@ -26,9 +27,14 @@ struct Cli {
 #[derive(Subcommand)]
 enum CliAction {
     /// Check for updates on each operator's website
-    CheckAll,
+    CheckAll {
+        #[arg(long, env, default_value = "./results")]
+        results_dir: PathBuf,
+    },
     /// Get all the relevant texts from the HTML of the defined website
     ExtractText {
+        #[arg(long, env, default_value = "./results")]
+        results_dir: PathBuf,
         grid_operator: String,
         #[arg(long)]
         store_cache: bool,
@@ -36,6 +42,8 @@ enum CliAction {
         load_cache: bool,
     },
     DownloadHtml {
+        #[arg(long, env, default_value = "./results")]
+        results_dir: PathBuf,
         grid_operator: String,
         #[arg(long)]
         store_cache: bool,
@@ -51,13 +59,16 @@ async fn main() -> anyhow::Result<()> {
     setup_tracing(cli.log_level);
 
     match cli.action {
-        CliAction::CheckAll => {
-            for _pi in PRICING_INFO.iter() {
-                todo!()
-                // let diff = pi.download_and_compare().await?;
+        CliAction::CheckAll { results_dir } => {
+            let store = ResultStore::new(results_dir).await;
+            for pi in PRICING_INFO.iter() {
+                let comparison = store.fetch_and_compare(pi).await?;
+                println!("{:?}", comparison);
+                println!("Diff: {}", comparison.diff());
             }
         }
         CliAction::ExtractText {
+            results_dir,
             grid_operator,
             store_cache,
             load_cache,
@@ -65,11 +76,20 @@ async fn main() -> anyhow::Result<()> {
             let Some(pi) = PRICING_INFO.get(&grid_operator) else {
                 anyhow::bail!("Grid operator not found");
             };
-            let html = pi.extract_html(store_cache, load_cache).await?;
-            let text = pi.locator.locate_content(&html);
-            info!("{}", text.unwrap_or_default());
+            let store = ResultStore::new(results_dir).await;
+            let result = if load_cache {
+                store.load_or_remote_fetch(pi).await?
+            } else {
+                store.remote_fetch(pi).await?
+            };
+            if store_cache {
+                store.store(pi, &result).await?;
+            }
+            let text = result.extracted_text().unwrap_or_default();
+            println!("{text}");
         }
         CliAction::DownloadHtml {
+            results_dir,
             grid_operator,
             store_cache,
             load_cache,
@@ -77,8 +97,16 @@ async fn main() -> anyhow::Result<()> {
             let Some(pi) = PRICING_INFO.get(&grid_operator) else {
                 anyhow::bail!("Grid operator not found");
             };
-            let html = pi.extract_raw_html(store_cache, load_cache).await?;
-            println!("{}", html);
+            let store = ResultStore::new(results_dir).await;
+            let result = if load_cache {
+                store.load_or_remote_fetch(pi).await?
+            } else {
+                store.remote_fetch(pi).await?
+            };
+            if store_cache {
+                store.store(pi, &result).await?;
+            }
+            println!("{}", result.html());
         }
     }
     Ok(())
