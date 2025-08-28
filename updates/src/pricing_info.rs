@@ -182,7 +182,7 @@ impl ResultStore {
 
     pub(crate) async fn remote_fetch(&self, pi: &PricingInfo) -> anyhow::Result<PricingInfoResult> {
         let html = self.remote_fetch_html(pi).await?;
-        Ok(PricingInfoResult::new(pi, html))
+        Ok(PricingInfoResult::new(pi, html.trim().to_owned()))
     }
 
     pub(crate) async fn load_or_remote_fetch(

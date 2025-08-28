@@ -47,4 +47,10 @@ pub(crate) static PRICING_INFO: PricingInfoRegistry = PricingInfoRegistry::new(&
         link: "https://www.goteborgenergi.se/privat/elnat/elnatsavgiften",
         locator: Locator::new(CssSelector("#prisvilla + *"), ContentTarget::Text),
     },
+    PricingInfo {
+        name: "Kraftringen",
+        country: Country::SE,
+        link: "https://www.kraftringen.se/privat/elnat/elnatsavgifter/komplett-elnatsprislista/",
+        locator: Locator::new(CssSelector(".main-page-content"), ContentTarget::Text),
+    },
 ]);

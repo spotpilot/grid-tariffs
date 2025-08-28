@@ -2,9 +2,13 @@ För bland annat villor, radhus, fritidshus och verksamhetslokaler med egen ansl
 Priser inklusive moms
 
 Säkring
-Fast kr/månad
-Överföring öre/kWh
-Effekt kr/kW 1
+Fast
+kr/månad
+Överföring
+öre/kWh
+Effekt
+kr/kW
+1
 
 16 A
 365
@@ -39,9 +43,13 @@ Effekt kr/kW 1
 Priser exklusive moms
 
 Säkring
-Fast kr/månad
-Överföring öre/kWh
-Effekt kr/kW 1
+Fast
+kr/månad
+Överföring
+öre/kWh
+Effekt
+kr/kW
+1
 
 16 A
 292
@@ -73,7 +81,11 @@ Effekt kr/kW 1
 5
 65
 
-1 Effektavgiften baseras på snittet av de tre högsta effekttopparna, det vill säga de tre timmar med högst timmedeleffekt, fördelade på tre olika dygn under månaden.
-1 Varje dag mellan klockan 22.00 och 06.00 räknas bara halva effekttoppen. Det innebär att en uppmätt effekttopp på exempelvis 10 kW under denna tid räknas som 5 kW.
+1
+Effektavgiften baseras på snittet av de tre högsta effekttopparna, det vill säga de tre timmar med högst timmedeleffekt, fördelade på tre olika dygn under månaden.
+1
+Varje dag mellan klockan 22.00 och 06.00 räknas bara halva effekttoppen. Det innebär att en uppmätt effekttopp på exempelvis 10 kW under denna tid räknas som 5 kW.
 Prislistorna gäller effektabonnemang 3-fas
-Ladda ner som pdf:Lägenhet och Effekt 16-63 AEffekt enfas max 35 A
+Ladda ner som pdf:
+Lägenhet och Effekt 16-63 A
+Effekt enfas max 35 A

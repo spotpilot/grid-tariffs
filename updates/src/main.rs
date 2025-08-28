@@ -6,6 +6,7 @@ mod registry;
 use std::path::PathBuf;
 
 use clap::{Parser, Subcommand};
+use grid_tariffs::Country;
 use tracing::error;
 use tracing_subscriber::{
     filter::{LevelFilter, Targets},
@@ -13,7 +14,6 @@ use tracing_subscriber::{
     prelude::*,
 };
 
-use crate::registry::*;
 use crate::{locator::*, pricing_info::ResultStore};
 
 #[derive(Parser)]
@@ -35,12 +35,14 @@ enum CliAction {
     Check {
         #[arg(long, env, default_value = "./results")]
         results_dir: PathBuf,
+        country: Country,
         grid_operator: String,
     },
     /// Get all the relevant texts from the HTML of the defined website
     ExtractText {
         #[arg(long, env, default_value = "./results")]
         results_dir: PathBuf,
+        country: Country,
         grid_operator: String,
         #[arg(long)]
         store_cache: bool,
@@ -50,6 +52,7 @@ enum CliAction {
     DownloadHtml {
         #[arg(long, env, default_value = "./results")]
         results_dir: PathBuf,
+        country: Country,
         grid_operator: String,
         #[arg(long)]
         store_cache: bool,
@@ -67,7 +70,7 @@ async fn main() -> anyhow::Result<()> {
     match cli.action {
         CliAction::CheckAll { results_dir } => {
             let store = ResultStore::new(results_dir).await;
-            for pi in PRICING_INFO.iter() {
+            for pi in registry::all_pricing_info() {
                 match store.fetch_and_compare(pi).await {
                     Ok(comparison) => {
                         println!("{comparison} diff: {}", comparison.diff());
@@ -80,10 +83,11 @@ async fn main() -> anyhow::Result<()> {
         }
         CliAction::Check {
             results_dir,
+            country,
             grid_operator,
         } => {
             let store = ResultStore::new(results_dir).await;
-            let Some(pi) = PRICING_INFO.get(&grid_operator) else {
+            let Some(pi) = registry::get(country, &grid_operator) else {
                 anyhow::bail!("Grid operator not found");
             };
             let comparison = store.fetch_and_compare(pi).await?;
@@ -91,11 +95,12 @@ async fn main() -> anyhow::Result<()> {
         }
         CliAction::ExtractText {
             results_dir,
+            country,
             grid_operator,
             store_cache,
             load_cache,
         } => {
-            let Some(pi) = PRICING_INFO.get(&grid_operator) else {
+            let Some(pi) = registry::get(country, &grid_operator) else {
                 anyhow::bail!("Grid operator not found");
             };
             let store = ResultStore::new(results_dir).await;
@@ -112,11 +117,12 @@ async fn main() -> anyhow::Result<()> {
         }
         CliAction::DownloadHtml {
             results_dir,
+            country,
             grid_operator,
             store_cache,
             load_cache,
         } => {
-            let Some(pi) = PRICING_INFO.get(&grid_operator) else {
+            let Some(pi) = registry::get(country, &grid_operator) else {
                 anyhow::bail!("Grid operator not found");
             };
             let store = ResultStore::new(results_dir).await;
