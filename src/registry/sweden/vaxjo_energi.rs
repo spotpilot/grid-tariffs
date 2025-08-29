@@ -2,6 +2,7 @@ use crate::registry::prelude::*;
 
 pub const VÄXJÖ_ENERGI: GridOperator = GridOperator {
     name: "Växjö Energi",
+    vat_number: "SE556526851201",
     price_date: date(2025, 1, 1),
     monthly_fee: Cost::fuses(&[
         (16, Money::new(248, 75)),

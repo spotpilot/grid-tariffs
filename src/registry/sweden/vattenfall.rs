@@ -1,6 +1,7 @@
 use crate::{builder::GridOperatorBuilder, registry::prelude::*};
 
 const BASE: GridOperatorBuilder = GridOperator::builder()
+    .vat_number("SE556417080001")
     .price_date(2025,1,1)
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 63))

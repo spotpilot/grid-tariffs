@@ -2,6 +2,7 @@ use crate::registry::prelude::*;
 
 pub const JBF: GridOperator = GridOperator {
     name: "Jukkasjärvi Sockens Belysningsförening",
+    vat_number: "SE797300037001",
     country: Country::SE,
     main_fuses: MainFuseSizes::new_range(16, 1500),
     price_date: date(2025, 1, 1),

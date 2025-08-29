@@ -2,6 +2,7 @@ use crate::registry::prelude::*;
 
 pub const ESKILSTUNA_ENERGI_MILJÖ: GridOperator = GridOperator {
     name: "Eskilstuna Energi & Miljö",
+    vat_number: "SE556513955601",
     price_date: date(2025, 1, 1),
     country: Country::SE,
     // NOTE: They have a power tariff based price model implemented for 35A+, but we'll skip adding those for now...

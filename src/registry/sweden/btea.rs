@@ -2,6 +2,7 @@ use crate::registry::prelude::*;
 
 pub const BTEA: GridOperator = GridOperator {
     name: "BTEA",
+    vat_number: "SE556012264901",
     price_date: date(2025, 1, 1),
     country: Country::SE,
     main_fuses: MainFuseSizes::new_range(16, 63),

@@ -2,6 +2,7 @@ use crate::registry::prelude::*;
 
 pub const ELLEVIO: GridOperator = GridOperator {
     name: "Ellevio",
+    vat_number: "SE556037732601",
     price_date: date(2025, 1, 1),
     country: Country::SE,
     main_fuses: MainFuseSizes::new_range(16, 63),

@@ -1,6 +1,7 @@
 use crate::registry::prelude::*;
 pub const GÖTEBORG_ENERGI: GridOperator = GridOperator {
     name: "Göteborg Energi",
+    vat_number: "SE556379272901",
     price_date: date(2025, 1, 1),
     country: Country::SE,
     main_fuses: MainFuseSizes::new_range(16, 63),

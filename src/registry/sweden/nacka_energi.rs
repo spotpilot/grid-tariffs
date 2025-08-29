@@ -2,6 +2,7 @@ use crate::registry::prelude::*;
 
 pub const NACKA_ENERGI: GridOperator = GridOperator {
     name: "Nacka Energi",
+    vat_number: "SE556017953201",
     country: Country::SE,
     main_fuses: MainFuseSizes::new_range(16, 80), // 80A - LSP also shares the same tariff (don't know what LSP is)
     price_date: date(2025, 7, 1),

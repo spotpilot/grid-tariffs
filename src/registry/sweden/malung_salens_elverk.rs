@@ -1,6 +1,7 @@
 use crate::registry::prelude::*;
 pub const MALUNG_SÄLENS_ELVERK: GridOperator = GridOperator {
     name: "Malung-Sälens Elverk",
+    vat_number: "SE556527481701",
     country: Country::SE,
     main_fuses: MainFuseSizes::new_range(16, 63),
     price_date: date(2025, 4, 1),

@@ -1,6 +1,7 @@
 use crate::registry::prelude::*;
 pub const SOLLENTUNA_ENERGI_MILJÖ_AB: GridOperator = GridOperator {
     name: "Sollentuna Energi & Miljö AB",
+    vat_number: "SE559457224901",
     country: Country::SE,
     main_fuses: MainFuseSizes::new_range(16, 200),
     price_date: date(2025, 1, 1),

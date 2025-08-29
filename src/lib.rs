@@ -41,6 +41,7 @@ mod revenues;
 #[derive(Debug, Clone)]
 pub struct GridOperator {
     name: &'static str,
+    vat_number: &'static str,
     price_date: NaiveDate,
     /// Costs are specified in this currency
     country: Country,

@@ -16,6 +16,7 @@ use chrono::NaiveDate;
 #[derive(Debug, Clone)]
 pub struct GridOperatorBuilder {
     name: Option<&'static str>,
+    vat_number: Option<&'static str>,
     price_date: Option<NaiveDate>,
     /// Costs are specified in this currency
     country: Option<Country>,
@@ -36,6 +37,7 @@ impl GridOperatorBuilder {
     pub(crate) const fn new() -> Self {
         Self {
             name: None,
+            vat_number: None,
             price_date: None,
             country: None,
             main_fuses: None,
@@ -51,6 +53,11 @@ impl GridOperatorBuilder {
 
     pub(crate) const fn name(mut self, name: &'static str) -> Self {
         self.name = Some(name);
+        self
+    }
+
+    pub(crate) const fn vat_number(mut self, vat_number: &'static str) -> Self {
+        self.vat_number = Some(vat_number);
         self
     }
 
@@ -107,6 +114,7 @@ impl GridOperatorBuilder {
     pub(crate) const fn build(self) -> GridOperator {
         GridOperator {
             name: self.name.expect("`name` required"),
+            vat_number: self.vat_number.expect("`vat_number` required"),
             price_date: self.price_date.expect("`price_date` required"),
             country: self.country.expect("`country` required"),
             main_fuses: self.main_fuses.expect("`main_fuses` required"),

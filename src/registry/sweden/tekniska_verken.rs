@@ -19,6 +19,7 @@ const BASE: GridOperatorBuilder = GridOperatorBuilder::new()
 
 pub const KATRINEHOLM_STANDARD: GridOperator = BASE
     .name("Tekniska Verken Katrineholm, prislista standard")
+    .vat_number("SE556426858801")
     .monthly_fee(Cost::fuses(&[
         (16, Money::new(325, 0)),
         (20, Money::new(415, 0)),
@@ -42,6 +43,7 @@ pub const KATRINEHOLM_STANDARD: GridOperator = BASE
 
 pub const KATRINEHOLM_ALTERNATIV: GridOperator = BASE
     .name("Tekniska Verken Katrineholm, prislista alternativ")
+    .vat_number("SE556426858801")
     .monthly_fee(Cost::fuses(&[
         (16, Money::new(325, 0)),
         (20, Money::new(415, 0)),
@@ -83,6 +85,7 @@ pub const KATRINEHOLM_ALTERNATIV: GridOperator = BASE
 
 pub const LINKÖPING_STANDARD: GridOperator = BASE
     .name("Tekniska Verken Linköping, prislista standard")
+    .vat_number("SE556483492601")
     .monthly_fee(Cost::fuses(&[
         (16, Money::new(160, 0)),
         (20, Money::new(220, 0)),
@@ -106,6 +109,7 @@ pub const LINKÖPING_STANDARD: GridOperator = BASE
 
 pub const LINKÖPING_ALTERNATIV: GridOperator = BASE
     .name("Tekniska Verken Linköping, prislista alternativ")
+    .vat_number("SE556483492601")
     .monthly_fee(Cost::fuses(&[
         (16, Money::new(160, 0)),
         (20, Money::new(220, 0)),

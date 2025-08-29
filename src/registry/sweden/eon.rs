@@ -1,6 +1,7 @@
 use crate::{builder::GridOperatorBuilder, registry::prelude::*};
 
 const BASE: GridOperatorBuilder = GridOperator::builder()
+    .vat_number("SE556070606001")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 63))
     // 92,5% correlation between spot price and grid benefit from my own finding
