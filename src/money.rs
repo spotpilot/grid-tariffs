@@ -5,7 +5,7 @@ use std::{
     str::FromStr,
 };
 
-use crate::currency::Currency;
+use crate::{Country, currency::Currency};
 
 #[derive(Debug, Clone, thiserror::Error, PartialEq, Eq)]
 pub enum MoneyError {
@@ -51,8 +51,23 @@ impl Money {
         Self(inner)
     }
 
-    pub fn to_f64(self) -> f64 {
+    pub const fn from_f64(value: f64) -> Self {
+        Self((value * Self::GAIN_F64) as i64)
+    }
+
+    pub const fn to_f64(self) -> f64 {
         self.0 as f64 / Self::GAIN_F64
+    }
+
+    pub const fn divide_by(&self, by: i64) -> Self {
+        Self(self.0 / by)
+    }
+
+    pub(crate) const fn add_vat(&self, country: Country) -> Money {
+        let rate = match country {
+            Country::SE => 1.25,
+        };
+        Self::from_f64(self.to_f64() * rate)
     }
 }
 
@@ -79,13 +94,7 @@ impl FromStr for Money {
 
 impl From<f64> for Money {
     fn from(value: f64) -> Self {
-        Self((value * Self::GAIN_F64) as i64)
-    }
-}
-
-impl From<i32> for Money {
-    fn from(value: i32) -> Self {
-        Self::new(value.into(), 0)
+        Self::from_f64(value)
     }
 }
 

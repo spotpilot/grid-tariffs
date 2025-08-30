@@ -16,6 +16,6 @@ pub const GÖTEBORG_ENERGI: GridOperator = GridOperator {
         .build(),
     power_tariff: Some(PowerTariff::new(
         TariffCalculationMethod::AverageDays(3),
-        CostPeriods::new(&[CostPeriod::builder().fixed_cost(45, 0).build()]),
+        CostPeriods::new(&[CostPeriod::builder().load(Base).fixed_cost(45, 0).build()]),
     )),
 };

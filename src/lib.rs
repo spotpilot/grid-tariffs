@@ -6,9 +6,7 @@
 //! All costs are specified with VAT included
 //!
 //! TODO: Verify that we use the correct pricing and calculation method for each grid operator
-//! TODO: CostPeriod::fallthrough() is maybe not a very good concept when we need to calculate later on..?
 //! TODO: Generate GridOperator entries from Tariff API
-//! TODO: Add all known tariff API
 //!
 use chrono::NaiveDate;
 

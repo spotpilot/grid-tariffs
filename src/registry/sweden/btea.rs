@@ -3,28 +3,40 @@ use crate::registry::prelude::*;
 pub const BTEA: GridOperator = GridOperator {
     name: "BTEA",
     vat_number: "SE556012264901",
-    price_date: date(2025, 1, 1),
+    price_date: date(2025, 10, 1),
     country: Country::SE,
     main_fuses: MainFuseSizes::new_range(16, 63),
     monthly_fee: Cost::fuses(&[
-        (16, Money::new(628, 25)),  // 7539 kr/år ÷ 12 = 628.25 kr/månad
-        (20, Money::new(761, 25)),  // 9135 kr/år ÷ 12 = 761.25 kr/månad
-        (25, Money::new(883, 17)),  // 10598 kr/år ÷ 12 = 883.17 kr/månad
-        (35, Money::new(1492, 50)), // 17910 kr/år ÷ 12 = 1492.50 kr/månad
-        (50, Money::new(2093, 67)), // 25124 kr/år ÷ 12 = 2093.67 kr/månad
-        (63, Money::new(2593, 67)), // 31124 kr/år ÷ 12 = 2593.67 kr/månad
+        (16, Money::new(5754, 0).divide_by(12)),
+        (20, Money::new(6919, 0).divide_by(12)),
+        (25, Money::new(7986, 0).divide_by(12)),
+        (35, Money::new(13074, 0).divide_by(12)),
+        (50, Money::new(18340, 0).divide_by(12)),
+        (63, Money::new(22720, 0).divide_by(12)),
     ]),
     monthly_production_fee: Cost::Unverified,
     feed_in_revenue: FeedInRevenue::Unverified,
-    transfer_fee: TransferFee::Simple(Cost::fixed_subunit(3.75)), // 3.75 öre/kWh
+    transfer_fee: TransferFee::Simple(Cost::fixed_subunit(2.50)),
     other_fees: OtherFees::Unverified,
     links: Links::new("https://www.btea.se/elnat/elnatspriser"),
-    // NOTE: "PeakHour" (i.e. max per month) will be implemented during Fall of 2025. Today they have "PeakHourPerYear"
     power_tariff: Some(PowerTariff::new(
-        TariffCalculationMethod::PeakHour,
-        CostPeriods::new(&[CostPeriod::builder()
-            .fixed_cost(24, 58) // 295 kr/år ÷ 12 = 24.58 kr/månad for standard tariffs
-            .fallthrough(true)
-            .build()]),
+        // TODO: We need to differentiate between high load and low load hours..., Not day and night...
+        TariffCalculationMethod::PeakHours(&[High, Low]),
+        #[cfg_attr(rustfmt, rustfmt_skip)]
+        CostPeriods::new(&[
+            // Very strange that they charge 0 kr for the high load periods...
+            ALL_HOURS.include_months(October, November).fixed_cost(51, 25).build(),
+            LOW_LOAD_HOURS.include_months(December, January).fixed_cost(56, 25).build(),
+            HIGH_LOAD_HOURS.include_months(December, January).fixed_cost(158, 75).build(),
+            LOW_LOAD_HOURS.include_month(February).fixed_cost(53, 75).build(),
+            HIGH_LOAD_HOURS.include_month(February).fixed_cost(137, 50).build(),
+            ALL_HOURS.include_months(March, May).fixed_cost(51, 25).build(),
+            ALL_HOURS.include_months(June, September).fixed_cost(37, 50).build(),
+        ]),
     )),
 };
+
+/// TODO: Införa high/low load!
+const ALL_HOURS: CostPeriodBuilder = CostPeriod::builder().load(Low);
+const LOW_LOAD_HOURS: CostPeriodBuilder = CostPeriod::builder().include_hours(22, 5).load(Low);
+const HIGH_LOAD_HOURS: CostPeriodBuilder = CostPeriod::builder().include_hours(6, 21).load(High);

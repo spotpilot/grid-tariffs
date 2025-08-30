@@ -22,11 +22,9 @@ pub const JÖNKÖPING_ENERGI: GridOperator = GridOperator {
     power_tariff: Some(PowerTariff::new(
         TariffCalculationMethod::AverageDaysDifferentiated { base: 2, peak: 2 },
         CostPeriods::new(&[
+            CostPeriod::builder().load(Base).fixed_cost(27, 70).build(),
             CostPeriod::builder()
-                .fixed_cost(27, 70)
-                .fallthrough(true)
-                .build(),
-            CostPeriod::builder()
+                .load(High)
                 .cost(Cost::fixed(65, 66))
                 .include_months(November, March)
                 .include_hours(7, 20)

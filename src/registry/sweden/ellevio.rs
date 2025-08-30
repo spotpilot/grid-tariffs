@@ -23,12 +23,15 @@ pub const ELLEVIO: GridOperator = GridOperator {
         TariffCalculationMethod::AverageDays(3),
         CostPeriods::new(&[
             CostPeriod::builder()
+                .load(Base)
+                .cost(Cost::fixed(81, 25))
+                .build(),
+            CostPeriod::builder()
+                .load(High)
                 .cost(Cost::None)
                 .include_hours(22, 6)
                 .divide_kw_by(2)
-                .fallthrough(true)
                 .build(),
-            CostPeriod::builder().cost(Cost::fixed(81, 25)).build(),
         ]),
     )),
 };

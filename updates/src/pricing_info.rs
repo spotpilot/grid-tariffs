@@ -7,7 +7,7 @@ use similar::TextDiff;
 use tokio::fs::{create_dir_all, read_to_string};
 use tracing::{debug, info};
 
-use crate::locator::Locator;
+use crate::locator::{ContentTarget, Locator, LocatorMethod};
 
 #[derive(Debug, Clone)]
 pub(crate) struct PricingInfoRegistry<'a>(&'a [PricingInfo]);
@@ -54,7 +54,7 @@ impl PricingInfo {
 
 pub(crate) struct PricingInfoBuilder {
     pub(crate) operator: &'static GridOperator,
-    pub(crate) locator: Option<Locator>,
+    pub(crate) locator: Locator,
     pub(crate) name_override: Option<&'static str>,
 }
 
@@ -62,13 +62,21 @@ impl PricingInfoBuilder {
     pub(crate) const fn new(operator: &'static GridOperator) -> Self {
         Self {
             operator,
-            locator: None,
+            locator: Locator::new_basic(),
             name_override: None,
         }
     }
 
     pub(crate) const fn locator(mut self, locator: Locator) -> Self {
-        self.locator = Some(locator);
+        self.locator = locator;
+        self
+    }
+
+    pub(crate) const fn locator_simple(mut self, css_selector: &'static str) -> Self {
+        self.locator = Locator::new(
+            LocatorMethod::CssSelector(css_selector),
+            ContentTarget::Text,
+        );
         self
     }
 
@@ -80,7 +88,7 @@ impl PricingInfoBuilder {
     pub(crate) const fn build(self) -> PricingInfo {
         PricingInfo {
             operator: self.operator,
-            locator: self.locator.expect("`locator` missing"),
+            locator: self.locator,
             name_override: self.name_override,
         }
     }
@@ -197,8 +205,12 @@ impl ResultStore {
         let stored = self.load(pricing_info).await?;
         let comparison = fetched.compare_to(stored.as_ref());
         if comparison.has_changed() {
-            self.store(pricing_info, &fetched).await?;
+            // Only store full HTML if there are changes to the extracted data
+            self.store_full_html(pricing_info, &fetched).await?;
         }
+        // Always store extracted text, as it might change from code changes (but not
+        // be noted as a diff as both the old and the new are loaded from the full HTML)
+        self.store_extracted(pricing_info, &fetched).await?;
         Ok(comparison)
     }
 
@@ -252,15 +264,37 @@ impl ResultStore {
         pricing_info: &PricingInfo,
         result: &PricingInfoResult,
     ) -> anyhow::Result<()> {
+        self.store_full_html(pricing_info, result).await?;
+        self.store_extracted(pricing_info, result).await?;
+        Ok(())
+    }
+
+    pub(crate) async fn store_full_html(
+        &self,
+        pricing_info: &PricingInfo,
+        result: &PricingInfoResult,
+    ) -> anyhow::Result<()> {
         let path_full = self.path_full(pricing_info);
-        let path_extracted = self.path_extracted(pricing_info);
         tokio::fs::write(path_full, result.html()).await?;
+        debug!(
+            grid_operator = pricing_info.name(),
+            content_length = result.html().len(),
+            "stored full html"
+        );
+        Ok(())
+    }
+
+    pub(crate) async fn store_extracted(
+        &self,
+        pricing_info: &PricingInfo,
+        result: &PricingInfoResult,
+    ) -> anyhow::Result<()> {
+        let path_extracted = self.path_extracted(pricing_info);
         tokio::fs::write(path_extracted, result.extracted_text()).await?;
         debug!(
             grid_operator = pricing_info.name(),
             extracted_text = result.extracted_text(),
-            content_length = result.html().len(),
-            "stored pricing info result"
+            "stored extracted text"
         );
         Ok(())
     }

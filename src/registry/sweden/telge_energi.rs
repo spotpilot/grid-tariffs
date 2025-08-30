@@ -21,6 +21,7 @@ pub const TELGE_ENERGI: GridOperator = GridOperator {
     power_tariff: Some(PowerTariff::new(
         TariffCalculationMethod::PeakHour,
         CostPeriods::new(&[CostPeriod::builder()
+            .load(High)
             .fixed_cost(28, 0)
             .include_months(November, March)
             .include_hours(7, 20)

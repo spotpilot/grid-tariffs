@@ -10,6 +10,8 @@ const BASE: GridOperatorBuilder = GridOperator::builder()
         spot_price_multiplier: 0.06,
         approximated: true,
     })
+    .monthly_production_fee(Cost::Unverified)
+    .other_fees(OtherFees::Unverified)
     .links(Links::new(
         "https://www.eon.se/el/elnat/elnaetsabonnemang-priser",
     ));

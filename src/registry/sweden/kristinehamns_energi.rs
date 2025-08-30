@@ -15,11 +15,9 @@ pub const KRISTINEHAMNS_ENERGI: GridOperator = GridOperator {
     power_tariff: Some(PowerTariff::new(
         TariffCalculationMethod::PeakHour,
         CostPeriods::new(&[
+            CostPeriod::builder().load(Base).fixed_cost(43, 75).build(),
             CostPeriod::builder()
-                .fixed_cost(43, 75)
-                .fallthrough(true)
-                .build(),
-            CostPeriod::builder()
+                .load(High)
                 .fixed_cost(91, 25)
                 .include_months(November, March)
                 .include_hours(7, 17)

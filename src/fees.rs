@@ -30,6 +30,10 @@ impl TransferFee {
         Self::Periods { periods }
     }
 
+    pub(super) const fn fixed(int: i64, fract: u8) -> Self {
+        Self::Simple(Cost::fixed(int, fract))
+    }
+
     pub(super) const fn fixed_subunit(subunit: f64) -> Self {
         Self::Simple(Cost::fixed_subunit(subunit))
     }

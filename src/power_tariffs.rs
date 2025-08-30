@@ -1,7 +1,10 @@
 use chrono::DateTime;
 use chrono_tz::Tz;
 
-use crate::{costs::CostPeriods, money::Money};
+use crate::{
+    costs::{CostPeriods, LoadType},
+    money::Money,
+};
 
 #[derive(Debug, Clone)]
 pub struct PowerTariff {
@@ -36,11 +39,20 @@ pub enum TariffCalculationMethod {
     /// Average of top three hours of the month
     AverageHours(u8),
     /// Like AverageDays, but one for base load time and one for peak load time
-    AverageDaysDifferentiated { peak: u8, base: u8 },
+    AverageDaysDifferentiated {
+        peak: u8,
+        base: u8,
+    },
     /// Only count the max peak hour of the month
     PeakHour,
+    // Count one peak hour per month, per specified load type
+    PeakHours(&'static [LoadType]),
     /// Daytime and nighttime are calculated with different values
-    AverageDayNightDifferentiated { day: i32, night: i32 },
+    // TODO: How can this be extracted from CostPeriods...?!
+    AverageDayNightDifferentiated {
+        day: i32,
+        night: i32,
+    },
 }
 
 impl TariffCalculationMethod {

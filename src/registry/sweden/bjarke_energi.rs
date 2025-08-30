@@ -18,12 +18,16 @@ pub const BJÄRKE_ENERGI: GridOperator = GridOperator {
     feed_in_revenue: FeedInRevenue::Unverified,
     transfer_fee: TransferFee::new_periods(CostPeriods::new(&[
         CostPeriod::builder()
+            .load(High)
             .fixed_cost_subunit(18.75)
             .include_months(November, March)
             .include_hours(6, 22)
             .exclude_weekends_and_swedish_holidays()
             .build(),
-        CostPeriod::builder().fixed_cost_subunit(16.25).build(),
+        CostPeriod::builder()
+            .load(Low)
+            .fixed_cost_subunit(16.25)
+            .build(),
     ])),
     other_fees: OtherFees::Unverified,
     links: Links::new("https://www.bjerke-energi.se/elnat/tariffer/normaltariff/"),
@@ -31,11 +35,13 @@ pub const BJÄRKE_ENERGI: GridOperator = GridOperator {
         TariffCalculationMethod::PeakHour,
         CostPeriods::new(&[
             CostPeriod::builder()
+                .load(Low)
                 .fixed_cost(50, 0)
                 .include_months(April, October)
                 .include_hours(6, 22)
                 .build(),
             CostPeriod::builder()
+                .load(High)
                 .fixed_cost(125, 0)
                 .include_months(November, March)
                 .include_hours(6, 22)

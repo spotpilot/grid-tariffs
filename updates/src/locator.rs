@@ -24,9 +24,17 @@ pub(crate) struct Locator {
     method: LocatorMethod,
     content: ContentTarget,
 }
+
 impl Locator {
     pub(crate) const fn new(method: LocatorMethod, content: ContentTarget) -> Self {
         Self { method, content }
+    }
+
+    pub(crate) const fn new_basic() -> Self {
+        Self {
+            method: LocatorMethod::CssSelector("body"),
+            content: ContentTarget::Text,
+        }
     }
 
     pub(crate) fn locate_content(&self, html: &Html) -> String {

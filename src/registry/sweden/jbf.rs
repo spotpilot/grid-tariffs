@@ -19,13 +19,14 @@ pub const JBF: GridOperator = GridOperator {
         TariffCalculationMethod::AverageHours(3),
         CostPeriods::new(&[
             CostPeriod::builder()
+                .load(Base)
                 .cost(Cost::fuse_range(&[
                     (16, 63, Money::new(44, 0)),
                     (80, 1500, Money::new(48, 0)),
                 ]))
-                .fallthrough(true)
                 .build(),
             CostPeriod::builder()
+                .load(High)
                 .cost(Cost::fuse_range(&[
                     (16, 25, Money::new(106, 0)),
                     (35, 63, Money::new(210, 0)),

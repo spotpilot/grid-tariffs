@@ -18,6 +18,7 @@ pub const SKÖVDE_ENERGI: GridOperator = GridOperator {
     feed_in_revenue: FeedInRevenue::Unverified,
     transfer_fee: TransferFee::new_periods(CostPeriods::new(&[
         CostPeriod::builder()
+            .load(High)
             .cost(Cost::fuse_range(&[
                 (16, 25, Money::new_subunit(26.25)),
                 (35, 63, Money::new_subunit(20.)),
@@ -26,13 +27,17 @@ pub const SKÖVDE_ENERGI: GridOperator = GridOperator {
             .include_hours(6, 22)
             .exclude_weekends_and_swedish_holidays()
             .build(),
-        CostPeriod::builder().fixed_cost_subunit(5.5).build(),
+        CostPeriod::builder()
+            .load(Low)
+            .fixed_cost_subunit(5.5)
+            .build(),
     ])),
     other_fees: OtherFees::Unverified,
     links: Links::new("https://skovdeenergi.se/elnat/taxor-avgifter/elnatstaxa-priser-med-moms/"),
     power_tariff: Some(PowerTariff::new(
         TariffCalculationMethod::PeakHour,
         CostPeriods::new(&[CostPeriod::builder()
+            .load(High)
             .cost(Cost::fuse_range(&[
                 (16, 25, Money::new(77, 5)),
                 (35, 63, Money::new(128, 8)),

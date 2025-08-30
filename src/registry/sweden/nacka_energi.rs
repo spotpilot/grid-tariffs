@@ -19,6 +19,7 @@ pub const NACKA_ENERGI: GridOperator = GridOperator {
     feed_in_revenue: FeedInRevenue::Unverified,
     transfer_fee: TransferFee::new_periods(CostPeriods::new(&[
         CostPeriod::builder()
+            .load(High)
             .cost(Cost::fuse_range(&[
                 (16, 63, Money::new_subunit(33.7)),
                 (80, 80, Money::new_subunit(47.8)),
@@ -28,6 +29,7 @@ pub const NACKA_ENERGI: GridOperator = GridOperator {
             .exclude_weekends_and_swedish_holidays()
             .build(),
         CostPeriod::builder()
+            .load(Low)
             .cost(Cost::fuse_range(&[
                 (16, 63, Money::new_subunit(8.5)),
                 (80, 80, Money::new_subunit(12.)),
@@ -40,6 +42,6 @@ pub const NACKA_ENERGI: GridOperator = GridOperator {
     ),
     power_tariff: Some(PowerTariff::new(
         TariffCalculationMethod::AverageHours(3),
-        CostPeriods::new(&[CostPeriod::builder().fixed_cost(51, 85).build()]),
+        CostPeriods::new(&[CostPeriod::builder().load(Base).fixed_cost(51, 85).build()]),
     )),
 };

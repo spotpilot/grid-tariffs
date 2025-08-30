@@ -35,6 +35,7 @@ pub const VÄXJÖ_ENERGI: GridOperator = GridOperator {
     power_tariff: Some(PowerTariff::new(
         TariffCalculationMethod::AverageHours(3),
         CostPeriods::new(&[CostPeriod::builder()
+            .load(High)
             .cost(Cost::fuse_range(&[
                 (16, 63, Money::new(65, 48)),
                 (80, 1000, Money::new(91, 44)),

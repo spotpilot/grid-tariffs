@@ -23,11 +23,12 @@ pub const MALUNG_SÄLENS_ELVERK: GridOperator = GridOperator {
         TariffCalculationMethod::AverageHours(5),
         CostPeriods::new(&[
             CostPeriod::builder()
+                .load(High)
                 .fixed_cost(118, 75)
                 .include_months(November, March)
                 .include_hours(7, 19)
                 .build(),
-            CostPeriod::builder().fixed_cost(35, 0).build(),
+            CostPeriod::builder().load(Low).fixed_cost(35, 0).build(),
         ]),
     )),
 };
