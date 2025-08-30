@@ -1,8 +1,10 @@
 use crate::{builder::GridOperatorBuilder, registry::prelude::*};
 
+const FEE_LINK: &'static str = "https://www.vattenfalleldistribution.se/abonnemang-och-avgifter/avtal-och-avgifter/elnatsavgift-och-avtalsvillkor/";
+
 const BASE: GridOperatorBuilder = GridOperator::builder()
     .vat_number("SE556417080001")
-    .price_date(2025,1,1)
+    .price_date(2025, 1, 1)
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 63))
     .monthly_fee(Cost::fuses(&[
@@ -16,7 +18,15 @@ const BASE: GridOperatorBuilder = GridOperator::builder()
     .monthly_production_fee(Cost::Unverified)
     .feed_in_revenue(FeedInRevenue::Unverified)
     .other_fees(OtherFees::Unverified)
-    .links(Links::new("https://www.vattenfalleldistribution.se/abonnemang-och-avgifter/avtal-och-avgifter/elnatsavgift-och-avtalsvillkor/"));
+    .links(Links::new(
+        Link::builder(FEE_LINK)
+            .content_locator(ContentLocator::new_starts_with(
+                "Säkringsabonnemang (16–63 A)",
+                TargetContainer::Ancestor(1),
+                ContentTarget::Attribute("data-content"),
+            ))
+            .build(),
+    ));
 
 pub const VATTENFALL_E4: GridOperator = BASE
     .name("Vattenfall E4")
@@ -29,8 +39,8 @@ pub const VATTENFALL_T4: GridOperator = BASE
         CostPeriod::builder()
             .load(High)
             .fixed_cost_subunit(67.00)
-            .include_months(November, March)
-            .include_hours(6, 22)
+            .months(November, March)
+            .hours(6, 22)
             .exclude_weekends()
             .build(),
         CostPeriod::builder()

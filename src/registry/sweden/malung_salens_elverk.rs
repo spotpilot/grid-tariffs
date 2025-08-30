@@ -18,15 +18,19 @@ pub const MALUNG_SÄLENS_ELVERK: GridOperator = GridOperator {
     feed_in_revenue: FeedInRevenue::Unverified,
     transfer_fee: TransferFee::Unlisted,
     other_fees: OtherFees::Unverified,
-    links: Links::new("https://malungselnat.se/elnat/nattariffer/"),
+    links: Links::new(
+        Link::builder("https://malungselnat.se/elnat/nattariffer/")
+            .plain_content_locator(".content:nth-child(1)")
+            .build(),
+    ),
     power_tariff: Some(PowerTariff::new(
         TariffCalculationMethod::AverageHours(5),
         CostPeriods::new(&[
             CostPeriod::builder()
                 .load(High)
                 .fixed_cost(118, 75)
-                .include_months(November, March)
-                .include_hours(7, 19)
+                .months(November, March)
+                .hours(7, 19)
                 .build(),
             CostPeriod::builder().load(Low).fixed_cost(35, 0).build(),
         ]),

@@ -11,7 +11,11 @@ pub const KRISTINEHAMNS_ENERGI: GridOperator = GridOperator {
     feed_in_revenue: FeedInRevenue::Unverified,
     transfer_fee: TransferFee::fixed_subunit(12.75),
     other_fees: OtherFees::Unverified,
-    links: Links::new("https://kristinehamnsenergi.se/elnat/elnatsavgiften/din-elnatsavgift/"),
+    links: Links::new(
+        Link::builder("https://kristinehamnsenergi.se/elnat/elnatsavgiften/din-elnatsavgift/")
+            .plain_content_locator("section")
+            .build(),
+    ),
     power_tariff: Some(PowerTariff::new(
         TariffCalculationMethod::PeakHour,
         CostPeriods::new(&[
@@ -19,8 +23,8 @@ pub const KRISTINEHAMNS_ENERGI: GridOperator = GridOperator {
             CostPeriod::builder()
                 .load(High)
                 .fixed_cost(91, 25)
-                .include_months(November, March)
-                .include_hours(7, 17)
+                .months(November, March)
+                .hours(7, 17)
                 .exclude_weekends_and_swedish_holidays()
                 .build(),
         ]),

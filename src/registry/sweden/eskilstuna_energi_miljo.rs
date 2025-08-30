@@ -17,5 +17,9 @@ pub const ESKILSTUNA_ENERGI_MILJÖ: GridOperator = GridOperator {
     feed_in_revenue: FeedInRevenue::fixed_subunit(5.0),
     other_fees: OtherFees::Unverified,
     power_tariff: None,
-    links: Links::new("https://www.eem.se/privat/elnat/priser-och-avgifter/elnatsavgift-2025"),
+    links: Links::new(
+        Link::builder("https://www.eem.se/privat/elnat/priser-och-avgifter/elnatsavgift-2025")
+            .plain_content_locator("article")
+            .build(),
+    ),
 };

@@ -31,7 +31,11 @@ pub const VÄXJÖ_ENERGI: GridOperator = GridOperator {
     country: Country::SE,
     main_fuses: MainFuseSizes::new_range(16, 1000),
     other_fees: OtherFees::Unverified,
-    links: Links::new("https://www.veab.se/privat/elnat/elnatsavgift/"),
+    links: Links::new(
+        Link::builder("https://www.veab.se/privat/elnat/elnatsavgift/")
+            .plain_content_locator("#main-content")
+            .build(),
+    ),
     power_tariff: Some(PowerTariff::new(
         TariffCalculationMethod::AverageHours(3),
         CostPeriods::new(&[CostPeriod::builder()
@@ -40,7 +44,7 @@ pub const VÄXJÖ_ENERGI: GridOperator = GridOperator {
                 (16, 63, Money::new(65, 48)),
                 (80, 1000, Money::new(91, 44)),
             ]))
-            .include_hours(7, 20)
+            .hours(7, 20)
             .exclude_weekends_and_swedish_holidays()
             .build()]),
     )),

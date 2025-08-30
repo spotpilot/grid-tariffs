@@ -11,7 +11,11 @@ pub const FALBYGDENS_ENERGI: GridOperator = GridOperator {
     feed_in_revenue: FeedInRevenue::Unverified,
     transfer_fee: TransferFee::fixed_subunit(37.2),
     other_fees: OtherFees::Unverified,
-    links: Links::new("https://falbygdensenergi.se/privat/vart-elnat/elnatsavgifter-samt-villkor"),
+    links: Links::new(
+        Link::builder("https://falbygdensenergi.se/privat/vart-elnat/elnatsavgifter-samt-villkor")
+            .plain_content_locator(".pagecontent")
+            .build(),
+    ),
     power_tariff: Some(PowerTariff::new(
         TariffCalculationMethod::AverageDaysDifferentiated { base: 1, peak: 1 },
         CostPeriods::new(&[
@@ -19,8 +23,8 @@ pub const FALBYGDENS_ENERGI: GridOperator = GridOperator {
             CostPeriod::builder()
                 .load(High)
                 .fixed_cost(57, 36)
-                .include_months(November, March)
-                .include_hours(7, 19)
+                .months(November, March)
+                .hours(7, 19)
                 .exclude_weekends_and_swedish_holidays()
                 .build(),
         ]),

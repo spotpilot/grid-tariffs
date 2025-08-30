@@ -1,12 +1,13 @@
+mod codegen;
 mod helpers;
 mod locator;
 mod pricing_info;
-mod registry;
+mod store;
 
 use std::path::PathBuf;
 
 use clap::{Parser, Subcommand};
-use grid_tariffs::Country;
+use grid_tariffs::{Country, GridOperator};
 use tokio::task::JoinSet;
 use tracing::error;
 use tracing_subscriber::{
@@ -15,7 +16,7 @@ use tracing_subscriber::{
     prelude::*,
 };
 
-use crate::{locator::*, pricing_info::ResultStore};
+use crate::store::ResultStore;
 
 #[derive(Parser)]
 struct Cli {
@@ -38,6 +39,13 @@ enum CliAction {
         results_dir: PathBuf,
         country: Country,
         grid_operator: String,
+    },
+    /// Create a new grid operator + updater
+    New {
+        country: Country,
+        name: String,
+        vat_number: String,
+        fee_link: String,
     },
     /// Get all the relevant texts from the HTML of the defined website
     ExtractText {
@@ -72,9 +80,9 @@ async fn main() -> anyhow::Result<()> {
         CliAction::CheckAll { results_dir } => {
             let mut joinset = JoinSet::new();
             let store = ResultStore::new(results_dir).await;
-            for pi in registry::all_pricing_info() {
+            for op in GridOperator::all() {
                 let store = store.clone();
-                joinset.spawn(async move { (pi, store.fetch_and_compare(pi).await) });
+                joinset.spawn(async move { (op, store.fetch_and_compare(op).await) });
             }
             while let Some(res) = joinset.join_next().await {
                 let (pi, res) = res?;
@@ -94,10 +102,19 @@ async fn main() -> anyhow::Result<()> {
             grid_operator,
         } => {
             let store = ResultStore::new(results_dir).await;
-            for pi in registry::starts_with(country, &grid_operator) {
-                let comparison = store.fetch_and_compare(pi).await?;
+            for op in GridOperator::where_name_starts_with(country, &grid_operator) {
+                let comparison = store.fetch_and_compare(op).await?;
                 println!("{comparison} diff: {}", comparison.diff());
             }
+        }
+        CliAction::New {
+            country,
+            name,
+            vat_number,
+            fee_link,
+        } => {
+            codegen::generate_grid_operator(country, &name, &vat_number, &fee_link)?;
+            // codegen::generate_updater(country, name, vat_number, fee_link);
         }
         CliAction::ExtractText {
             results_dir,
@@ -106,19 +123,19 @@ async fn main() -> anyhow::Result<()> {
             store_cache,
             load_cache,
         } => {
-            let Some(pi) = registry::get(country, &grid_operator) else {
+            let Some(op) = GridOperator::get(country, &grid_operator) else {
                 anyhow::bail!("Grid operator not found");
             };
             let store = ResultStore::new(results_dir).await;
             let result = if load_cache {
-                store.load_or_remote_fetch(pi).await?
+                store.load_or_remote_fetch(op).await?
             } else {
-                store.remote_fetch(pi).await?
+                store.remote_fetch(op).await?
             };
             if store_cache {
-                store.store(pi, &result).await?;
+                store.store(op, &result).await?;
             }
-            let text = result.extracted_text();
+            let text = result.extracted_content();
             println!("{text}");
         }
         CliAction::DownloadHtml {
@@ -128,17 +145,17 @@ async fn main() -> anyhow::Result<()> {
             store_cache,
             load_cache,
         } => {
-            let Some(pi) = registry::get(country, &grid_operator) else {
+            let Some(op) = GridOperator::get(country, &grid_operator) else {
                 anyhow::bail!("Grid operator not found");
             };
             let store = ResultStore::new(results_dir).await;
             let result = if load_cache {
-                store.load_or_remote_fetch(pi).await?
+                store.load_or_remote_fetch(op).await?
             } else {
-                store.remote_fetch(pi).await?
+                store.remote_fetch(op).await?
             };
             if store_cache {
-                store.store(pi, &result).await?;
+                store.store(op, &result).await?;
             }
             println!("{}", result.html());
         }

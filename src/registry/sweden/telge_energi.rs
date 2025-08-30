@@ -23,10 +23,14 @@ pub const TELGE_ENERGI: GridOperator = GridOperator {
         CostPeriods::new(&[CostPeriod::builder()
             .load(High)
             .fixed_cost(28, 0)
-            .include_months(November, March)
-            .include_hours(7, 20)
+            .months(November, March)
+            .hours(7, 20)
             .exclude_weekends_and_swedish_holidays()
             .build()]),
     )),
-    links: Links::new("https://www.telge.se/elnat/elnatskostnad/elnatspriser/"),
+    links: Links::new(
+        Link::builder("https://www.telge.se/elnat/elnatskostnad/elnatspriser/")
+            .plain_content_locator("main")
+            .build(),
+    ),
 };

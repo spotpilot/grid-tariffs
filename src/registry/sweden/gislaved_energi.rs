@@ -1,5 +1,8 @@
 use crate::registry::prelude::*;
 
+const FEE_LINK: &str =
+    "https://www.gislavedenergi.se/el/elnat/elnatsavgifter/elnatsavgifter-sakringsabonnemang/";
+
 pub const GISLAVED_ENERGI: GridOperator = GridOperator {
     name: "Gislaved Energi",
     vat_number: "SE556223876501",
@@ -22,6 +25,8 @@ pub const GISLAVED_ENERGI: GridOperator = GridOperator {
     other_fees: OtherFees::Unverified,
     power_tariff: None,
     links: Links::new(
-        "https://www.gislavedenergi.se/el/elnat/elnatsavgifter/elnatsavgifter-sakringsabonnemang/",
+        Link::builder(FEE_LINK)
+            .plain_content_locator("#page-content")
+            .build(),
     ),
 };

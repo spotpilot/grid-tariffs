@@ -14,7 +14,11 @@ pub const KARLSTADS_ENERGI: GridOperator = GridOperator {
     feed_in_revenue: FeedInRevenue::Unverified,
     transfer_fee: TransferFee::Simple(Cost::fixed_subunit(9.75)),
     other_fees: OtherFees::Unverified,
-    links: Links::new("https://karlstadsenergi.se/gemensamt-innehall/elnat/priser/elnatsavgifter"),
+    links: Links::new(
+        Link::builder("https://karlstadsenergi.se/gemensamt-innehall/elnat/priser/elnatsavgifter")
+            .plain_content_locator("table")
+            .build(),
+    ),
     power_tariff: Some(PowerTariff::new(
         TariffCalculationMethod::PeakHour,
         // NOTE: The pricing is actually the same for 16-63A as >63A if you account for VAT vs without VAT
@@ -23,7 +27,7 @@ pub const KARLSTADS_ENERGI: GridOperator = GridOperator {
             CostPeriod::builder()
                 .load(High)
                 .fixed_cost(74, 15)
-                .include_hours(6, 18)
+                .hours(6, 18)
                 .exclude_weekends_and_swedish_holidays()
                 .build(),
         ]),

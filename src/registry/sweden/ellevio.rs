@@ -18,7 +18,15 @@ pub const ELLEVIO: GridOperator = GridOperator {
     feed_in_revenue: FeedInRevenue::Unverified,
     transfer_fee: TransferFee::fixed_subunit(6.25),
     other_fees: OtherFees::Unverified,
-    links: Links::new("https://www.ellevio.se/abonnemang/elnatspriser-privat/"),
+    links: Links::new(
+        Link::builder("https://www.ellevio.se/abonnemang/elnatspriser-privat/")
+            .content_locator(ContentLocator::new_starts_with(
+                "För bland annat villor, radhus, fritidshus och verksamhetslokaler med egen",
+                TargetContainer::Parent,
+                ContentTarget::TextWithLinks,
+            ))
+            .build(),
+    ),
     power_tariff: Some(PowerTariff::new(
         TariffCalculationMethod::AverageDays(3),
         CostPeriods::new(&[
@@ -29,7 +37,7 @@ pub const ELLEVIO: GridOperator = GridOperator {
             CostPeriod::builder()
                 .load(High)
                 .cost(Cost::None)
-                .include_hours(22, 6)
+                .hours(22, 6)
                 .divide_kw_by(2)
                 .build(),
         ]),

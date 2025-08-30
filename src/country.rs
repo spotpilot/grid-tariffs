@@ -12,6 +12,14 @@ impl Country {
     }
 }
 
+impl Country {
+    pub fn code(&self) -> &'static str {
+        match self {
+            Country::SE => "SE",
+        }
+    }
+}
+
 impl FromStr for Country {
     type Err = &'static str;
 

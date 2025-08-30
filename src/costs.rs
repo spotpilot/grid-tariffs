@@ -238,15 +238,15 @@ impl CostPeriodBuilder {
         panic!("Too many includes");
     }
 
-    pub(super) const fn include_months(self, from: Month, to: Month) -> Self {
+    pub(super) const fn months(self, from: Month, to: Month) -> Self {
         self.include(PeriodType::Months(Months::new(from, to)))
     }
 
-    pub(super) const fn include_month(self, month: Month) -> Self {
+    pub(super) const fn month(self, month: Month) -> Self {
         self.include(PeriodType::Month(month))
     }
 
-    pub(super) const fn include_hours(self, from: u8, to_inclusive: u8) -> Self {
+    pub(super) const fn hours(self, from: u8, to_inclusive: u8) -> Self {
         self.include(PeriodType::Hours(Hours::new(from, to_inclusive)))
     }
 

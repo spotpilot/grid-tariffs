@@ -19,3 +19,7 @@ tokio = { version = "1.47.1", features = ["fs", "macros", "rt-multi-thread"] }
 tracing = "0.1.41"
 tracing-subscriber = "0.3.19"
 ego-tree = "0.10.0"
+convert_case = "0.8.0"
+slug = "0.1.6"
+quote = "1.0.40"
+syn = { version = "2.0.106", features = ["full", "parsing"] }

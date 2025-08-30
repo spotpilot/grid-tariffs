@@ -1,7 +1,7 @@
 use crate::registry::prelude::*;
 
-const SUMMER: CostPeriodBuilder = CostPeriodBuilder::new().include_months(April, October);
-const WINTER: CostPeriodBuilder = CostPeriodBuilder::new().include_months(November, March);
+const SUMMER: CostPeriodBuilder = CostPeriodBuilder::new().months(April, October);
+const WINTER: CostPeriodBuilder = CostPeriodBuilder::new().months(November, March);
 
 const NIGHT_HOURS: PeriodType = PeriodType::Hours(Hours::new(6, 22));
 const DAY_HOURS: PeriodType = PeriodType::Hours(Hours::new(23, 5));
@@ -21,7 +21,13 @@ const BASE: GridOperatorBuilder = GridOperatorBuilder::new()
     .other_fees(OtherFees::Unverified)
     .links(
         Links::builder()
-            .fee_info("https://www.tekniskaverken.se/kundservice/priser-avtal/priser-elnat-2025/")
+            .fee_info(
+                Link::builder(
+                    "https://www.tekniskaverken.se/kundservice/priser-avtal/priser-elnat-2025/",
+                )
+                .plain_content_locator("main")
+                .build(),
+            )
             .eltariff_api("https://api.tekniskaverken.net/subscription/public/v0/tariffs")
             .build(),
     );

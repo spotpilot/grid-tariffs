@@ -1,92 +1,36 @@
+use grid_tariffs::{ContentLocator, ContentTarget, LocatorMethod, TargetContainer};
 use itertools::Itertools;
 use scraper::{ElementRef, Html, Selector};
 use tracing::warn;
 
 use crate::helpers::{get_text_with_links_excluding_scripts, remove_unneeded_newlines};
 
-#[derive(Debug, Clone, Copy)]
-pub(crate) enum TargetContainer {
-    Current,
-    Parent,
-    Ancestor(usize),
+pub(crate) fn locate_content(locator: &ContentLocator, html: &Html) -> String {
+    let el_locator = element_locator(locator.method(), html).unwrap();
+    let target_container = locator.method().target_container();
+    let found = match locator.content_target() {
+        ContentTarget::TextWithLinks => el_locator.text_with_links(&target_container),
+        ContentTarget::Attribute(attr) => el_locator.attribute_text(attr, &target_container),
+    };
+    found.unwrap_or_default()
 }
 
-/// What content to checksum witihin the elements found
-#[derive(Debug, Clone)]
-pub(crate) enum ContentTarget {
-    TextWithLinks,
-    /// Attribute which contains the relevant content
-    Attribute(&'static str),
-}
-
-#[derive(Debug, Clone)]
-pub(crate) struct Locator {
-    method: LocatorMethod,
-    content: ContentTarget,
-}
-
-impl Locator {
-    pub(crate) const fn new(method: LocatorMethod, content: ContentTarget) -> Self {
-        Self { method, content }
-    }
-
-    pub(crate) fn locate_content(&self, html: &Html) -> String {
-        let found = match self.content {
-            ContentTarget::TextWithLinks => self.method.locate_text_with_links(html),
-            ContentTarget::Attribute(attr) => self.method.locate_attribute_text(html, attr),
-        };
-        found.unwrap_or_default()
-    }
-}
-
-#[derive(Debug, Clone)]
-pub(crate) enum LocatorMethod {
-    CssSelector(&'static str),
-    TextStartsWith {
-        needle: &'static str,
-        target_container: TargetContainer,
-    },
-}
-use LocatorMethod::*;
-
-impl LocatorMethod {
-    fn element_locator<'a>(&self, html: &'a Html) -> Option<ElementLocator<'a>> {
-        match self {
-            CssSelector(selector) => {
-                ElementLocator::where_selector_matches(html, Selector::parse(selector).unwrap())
-            }
-            TextStartsWith { needle, .. } => ElementLocator::where_text_starts_with(html, needle),
+pub(crate) fn element_locator<'a>(
+    method: &LocatorMethod,
+    html: &'a Html,
+) -> Option<ElementLocator<'a>> {
+    match method {
+        LocatorMethod::CssSelector(selector) => {
+            ElementLocator::where_selector_matches(html, Selector::parse(selector).unwrap())
         }
-    }
-
-    fn target_container(&self) -> TargetContainer {
-        match self {
-            CssSelector(_) => TargetContainer::Current,
-            TextStartsWith {
-                target_container, ..
-            } => *target_container,
+        LocatorMethod::TextStartsWith { needle, .. } => {
+            ElementLocator::where_text_starts_with(html, needle)
         }
-    }
-
-    fn locate_text_with_links(&self, html: &Html) -> Option<String> {
-        let Some(locator) = self.element_locator(html) else {
-            warn!("failed to get element locator");
-            return None;
-        };
-        locator.text_with_links(&self.target_container())
-    }
-
-    fn locate_attribute_text(&self, html: &Html, attr: &str) -> Option<String> {
-        let Some(locator) = self.element_locator(html) else {
-            warn!("failed to get element locator");
-            return None;
-        };
-        locator.attribute_text(attr, &self.target_container())
     }
 }
 
 #[derive(Debug)]
-struct ElementLocator<'a> {
+pub(crate) struct ElementLocator<'a> {
     elements: Vec<ElementRef<'a>>,
 }
 

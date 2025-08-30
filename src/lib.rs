@@ -5,6 +5,7 @@
 //! Costs for apartments are excluded as we do not aim to support those
 //! All costs are specified with VAT included
 //!
+//! TODO: Change it so that a grid operator can have multiple price lists (e.g. Tekniska Verken becomes one)
 //! TODO: Verify that we use the correct pricing and calculation method for each grid operator
 //! TODO: Generate GridOperator entries from Tariff API
 //!
@@ -21,7 +22,7 @@ use crate::{
     registry::sweden,
     revenues::FeedInRevenue,
 };
-pub use crate::{country::Country, links::Links};
+pub use crate::{country::Country, links::*};
 
 mod builder;
 mod costs;
@@ -77,8 +78,25 @@ impl GridOperator {
 
     pub fn get(country: Country, name: &str) -> Option<&'static Self> {
         match country {
-            Country::SE => sweden::SE_GRID_OPERATORS.iter().find(|o| o.name == name),
+            Country::SE => sweden::GRID_OPERATORS.iter().find(|o| o.name == name),
         }
+    }
+
+    pub fn where_name_starts_with(country: Country, text: &str) -> Vec<&'static Self> {
+        match country {
+            Country::SE => sweden::GRID_OPERATORS
+                .iter()
+                .filter(|go| {
+                    go.name
+                        .to_ascii_lowercase()
+                        .starts_with(&text.to_ascii_lowercase())
+                })
+                .collect(),
+        }
+    }
+
+    pub fn all() -> Vec<&'static Self> {
+        sweden::GRID_OPERATORS.iter().collect()
     }
 
     pub fn power_tariff(&self) -> Option<&PowerTariff> {

@@ -21,7 +21,11 @@ pub const SOLLENTUNA_ENERGI_MILJÖ_AB: GridOperator = GridOperator {
     feed_in_revenue: FeedInRevenue::Unverified,
     transfer_fee: TransferFee::Unlisted,
     other_fees: OtherFees::List(&[("Energiavgift", Cost::fixed_subunit(5.))]),
-    links: Links::new("https://www.seom.se/el/elnat/priser-och-villkor/"),
+    links: Links::new(
+        Link::builder("https://www.seom.se/el/elnat/priser-och-villkor/")
+            .plain_content_locator(".main-content-area")
+            .build(),
+    ),
     power_tariff: Some(PowerTariff::new(
         TariffCalculationMethod::AverageHours(3),
         CostPeriods::new(&[
@@ -29,15 +33,15 @@ pub const SOLLENTUNA_ENERGI_MILJÖ_AB: GridOperator = GridOperator {
             CostPeriod::builder()
                 .load(High)
                 .cost(Cost::fixed(135, 0))
-                .include_months(November, March)
-                .include_hours(7, 19)
+                .months(November, March)
+                .hours(7, 19)
                 .exclude_weekends_and_swedish_holidays()
                 .build(),
             CostPeriod::builder()
                 .load(Low)
                 .cost(Cost::fixed(67, 50))
-                .include_months(April, October)
-                .include_hours(7, 19)
+                .months(April, October)
+                .hours(7, 19)
                 .exclude_weekends_and_swedish_holidays()
                 .build(),
         ]),

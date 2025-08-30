@@ -13,7 +13,12 @@ const BASE: GridOperatorBuilder = GridOperator::builder()
     .monthly_production_fee(Cost::Unverified)
     .other_fees(OtherFees::Unverified)
     .links(Links::new(
-        "https://www.eon.se/el/elnat/elnaetsabonnemang-priser",
+        Link::builder("https://www.eon.se/el/elnat/elnaetsabonnemang-priser")
+            .content_locator(ContentLocator::new(
+                CssSelector(r#"eon-ui-table-renderer"#),
+                ContentTarget::Attribute("content"),
+            ))
+            .build(),
     ));
 
 pub const SYD: GridOperator = BASE

@@ -1,7 +1,6 @@
 use crate::registry::prelude::*;
 
 const BASE: GridOperatorBuilder = GridOperatorBuilder::new()
-    .name("Mälarenergi")
     .vat_number("SE556554150401")
     .price_date(2025, 9, 1)
     .country(Country::SE)
@@ -12,8 +11,8 @@ const BASE: GridOperatorBuilder = GridOperatorBuilder::new()
         CostPeriod::builder()
             .load(High)
             .fixed_cost_subunit(9.11)
-            .include_months(November, March)
-            .include_hours(6, 22)
+            .months(November, March)
+            .hours(6, 22)
             .exclude_weekends()
             .build(),
         CostPeriod::builder()
@@ -22,10 +21,13 @@ const BASE: GridOperatorBuilder = GridOperatorBuilder::new()
             .build(),
     ])))
     .links(Links::new(
-        "https://www.malarenergi.se/el/elnat/priser-elnat/",
+        Link::builder("https://www.malarenergi.se/el/elnat/priser-elnat/")
+            .plain_content_locator(".standard-article")
+            .build(),
     ));
 
-pub const MÄLARENERGI: GridOperator = BASE
+pub const MÄLARENERGI_FUSE_BASED: GridOperator = BASE
+    .name("Mälarenergi Säkringsabonnemang")
     .monthly_fee(Cost::fuses(&[
         (16, Money::new(307, 50)),
         (20, Money::new(335, 0)),
@@ -40,13 +42,14 @@ pub const MÄLARENERGI: GridOperator = BASE
         CostPeriods::new(&[CostPeriod::builder()
             .load(High)
             .fixed_cost(18, 75)
-            .include_hours(7, 19)
+            .hours(7, 19)
             .exclude_weekends_and_swedish_holidays()
             .build()]),
     ))
     .build();
 
 pub const MÄLARENERGI_POWER_BASED: GridOperator = BASE
+    .name("Mälarenergi Effektabonnemang, lågspänning")
     .monthly_fee(Cost::fixed(896, 00))
     .transfer_fee(TransferFee::fixed(0, 09))
     .power_tariff(PowerTariff::new(
@@ -54,7 +57,7 @@ pub const MÄLARENERGI_POWER_BASED: GridOperator = BASE
         CostPeriods::new(&[CostPeriod::builder()
             .load(High)
             .cost(Cost::fixed(69, 68).add_vat(Country::SE))
-            .include_hours(7, 19)
+            .hours(7, 19)
             .exclude_weekends_and_swedish_holidays()
             .build()]),
     ))

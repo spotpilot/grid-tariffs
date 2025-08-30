@@ -19,7 +19,11 @@ pub const LINDE_ENERGI: GridOperator = GridOperator {
         (16, 25, Money::new_subunit(30.5)),
         (35, 63, Money::new_subunit(6.125)),
     ])),
-    links: Links::new("https://www.lindeenergi.se/elnat/elnatspriser"),
+    links: Links::new(
+        Link::builder("https://www.lindeenergi.se/elnat/elnatspriser")
+            .plain_content_locator("#Innehall + div")
+            .build(),
+    ),
     power_tariff: Some(PowerTariff::new(
         TariffCalculationMethod::AverageDaysDifferentiated { base: 2, peak: 2 },
         CostPeriods::new(&[
@@ -36,8 +40,8 @@ pub const LINDE_ENERGI: GridOperator = GridOperator {
                     (16, 25, Money::ZERO),
                     (35, 63, Money::new(46, 75)),
                 ]))
-                .include_months(November, March)
-                .include_hours(7, 19)
+                .months(November, March)
+                .hours(7, 19)
                 .exclude_weekends()
                 .build(),
         ]),

@@ -11,7 +11,11 @@ pub const PARTILLE_ENERGI: GridOperator = GridOperator {
     feed_in_revenue: FeedInRevenue::Unverified,
     transfer_fee: TransferFee::fixed_subunit(30.50),
     other_fees: OtherFees::Unverified,
-    links: Links::new("https://partilleenergi.se/elnat/"),
+    links: Links::new(
+        Link::builder("https://partilleenergi.se/elnat/")
+            .plain_content_locator("#elnatsavtal")
+            .build(),
+    ),
     power_tariff: Some(PowerTariff::new(
         TariffCalculationMethod::PeakHour,
         CostPeriods::new(&[CostPeriod::builder().load(Base).fixed_cost(32, 50).build()]),

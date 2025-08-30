@@ -18,25 +18,28 @@ pub const BTEA: GridOperator = GridOperator {
     feed_in_revenue: FeedInRevenue::Unverified,
     transfer_fee: TransferFee::Simple(Cost::fixed_subunit(2.50)),
     other_fees: OtherFees::Unverified,
-    links: Links::new("https://www.btea.se/elnat/elnatspriser"),
+    links: Links::new(
+        Link::builder("https://www.btea.se/elnat/elnatspriser")
+            .plain_content_locator("table")
+            .build(),
+    ),
     power_tariff: Some(PowerTariff::new(
         // TODO: We need to differentiate between high load and low load hours..., Not day and night...
         TariffCalculationMethod::PeakHours(&[High, Low]),
         #[cfg_attr(rustfmt, rustfmt_skip)]
         CostPeriods::new(&[
             // Very strange that they charge 0 kr for the high load periods...
-            ALL_HOURS.include_months(October, November).fixed_cost(51, 25).build(),
-            LOW_LOAD_HOURS.include_months(December, January).fixed_cost(56, 25).build(),
-            HIGH_LOAD_HOURS.include_months(December, January).fixed_cost(158, 75).build(),
-            LOW_LOAD_HOURS.include_month(February).fixed_cost(53, 75).build(),
-            HIGH_LOAD_HOURS.include_month(February).fixed_cost(137, 50).build(),
-            ALL_HOURS.include_months(March, May).fixed_cost(51, 25).build(),
-            ALL_HOURS.include_months(June, September).fixed_cost(37, 50).build(),
+            LOW_LOAD.months(October, November).fixed_cost(51, 25).build(),
+            LOW_LOAD_HOURS.months(December, January).fixed_cost(56, 25).build(),
+            HIGH_LOAD_HOURS.months(December, January).fixed_cost(158, 75).build(),
+            LOW_LOAD_HOURS.month(February).fixed_cost(53, 75).build(),
+            HIGH_LOAD_HOURS.month(February).fixed_cost(137, 50).build(),
+            LOW_LOAD.months(March, May).fixed_cost(51, 25).build(),
+            LOW_LOAD.months(June, September).fixed_cost(37, 50).build(),
         ]),
     )),
 };
 
-/// TODO: Införa high/low load!
-const ALL_HOURS: CostPeriodBuilder = CostPeriod::builder().load(Low);
-const LOW_LOAD_HOURS: CostPeriodBuilder = CostPeriod::builder().include_hours(22, 5).load(Low);
-const HIGH_LOAD_HOURS: CostPeriodBuilder = CostPeriod::builder().include_hours(6, 21).load(High);
+const LOW_LOAD: CostPeriodBuilder = CostPeriod::builder().load(Low);
+const LOW_LOAD_HOURS: CostPeriodBuilder = LOW_LOAD.hours(22, 5);
+const HIGH_LOAD_HOURS: CostPeriodBuilder = CostPeriod::builder().load(High).hours(6, 21);

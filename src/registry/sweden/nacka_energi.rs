@@ -1,5 +1,8 @@
 use crate::registry::prelude::*;
 
+const FEE_LINK: &str =
+    "https://www.nackaenergi.se/privat/elnatspriser-1-juli--2025/priser-privat-1-juli-2025";
+
 pub const NACKA_ENERGI: GridOperator = GridOperator {
     name: "Nacka Energi",
     vat_number: "SE556017953201",
@@ -24,8 +27,8 @@ pub const NACKA_ENERGI: GridOperator = GridOperator {
                 (16, 63, Money::new_subunit(33.7)),
                 (80, 80, Money::new_subunit(47.8)),
             ]))
-            .include_months(November, March)
-            .include_hours(6, 22)
+            .months(November, March)
+            .hours(6, 22)
             .exclude_weekends_and_swedish_holidays()
             .build(),
         CostPeriod::builder()
@@ -38,7 +41,9 @@ pub const NACKA_ENERGI: GridOperator = GridOperator {
     ])),
     other_fees: OtherFees::Unverified,
     links: Links::new(
-        "https://www.nackaenergi.se/privat/elnatspriser-1-juli--2025/priser-privat-1-juli-2025",
+        Link::builder(FEE_LINK)
+            .plain_content_locator("main")
+            .build(),
     ),
     power_tariff: Some(PowerTariff::new(
         TariffCalculationMethod::AverageHours(3),

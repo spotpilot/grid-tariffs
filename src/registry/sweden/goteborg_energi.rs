@@ -11,7 +11,11 @@ pub const GÖTEBORG_ENERGI: GridOperator = GridOperator {
     transfer_fee: TransferFee::fixed_subunit(25.),
     other_fees: OtherFees::Unverified,
     links: Links::builder()
-        .fee_info("https://www.goteborgenergi.se/privat/elnat/elnatsavgiften")
+        .fee_info(
+            Link::builder("https://www.goteborgenergi.se/privat/elnat/elnatsavgiften")
+                .plain_content_locator("#prisvilla + *")
+                .build(),
+        )
         .eltariff_api("https://api.goteborgenergi.cloud/gridtariff/v0/tariffs")
         .build(),
     power_tariff: Some(PowerTariff::new(

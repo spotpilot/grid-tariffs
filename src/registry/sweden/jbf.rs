@@ -14,7 +14,11 @@ pub const JBF: GridOperator = GridOperator {
     feed_in_revenue: FeedInRevenue::Unverified,
     transfer_fee: TransferFee::Unlisted,
     other_fees: OtherFees::Unverified,
-    links: Links::new("https://jbf.nu/elnatet/natavgift/"),
+    links: Links::new(
+        Link::builder("https://jbf.nu/elnatet/natavgift/")
+            .plain_content_locator("#main")
+            .build(),
+    ),
     power_tariff: Some(PowerTariff::new(
         TariffCalculationMethod::AverageHours(3),
         CostPeriods::new(&[
@@ -32,8 +36,8 @@ pub const JBF: GridOperator = GridOperator {
                     (35, 63, Money::new(210, 0)),
                     (80, 1500, Money::new(226, 0)),
                 ]))
-                .include_months(November, March)
-                .include_hours(6, 22)
+                .months(November, March)
+                .hours(6, 22)
                 .exclude_weekends_and_swedish_holidays()
                 .build(),
         ]),

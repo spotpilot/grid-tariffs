@@ -18,7 +18,11 @@ pub const JÖNKÖPING_ENERGI: GridOperator = GridOperator {
     feed_in_revenue: FeedInRevenue::Unverified,
     transfer_fee: TransferFee::fixed_subunit(6.08),
     other_fees: OtherFees::Unverified,
-    links: Links::new("https://jonkopingenergi.se/privat/elnat/elnat/priser"),
+    links: Links::new(
+        Link::builder("https://jonkopingenergi.se/privat/elnat/elnat/priser")
+            .plain_content_locator("section")
+            .build(),
+    ),
     power_tariff: Some(PowerTariff::new(
         TariffCalculationMethod::AverageDaysDifferentiated { base: 2, peak: 2 },
         CostPeriods::new(&[
@@ -26,8 +30,8 @@ pub const JÖNKÖPING_ENERGI: GridOperator = GridOperator {
             CostPeriod::builder()
                 .load(High)
                 .cost(Cost::fixed(65, 66))
-                .include_months(November, March)
-                .include_hours(7, 20)
+                .months(November, March)
+                .hours(7, 20)
                 .exclude_weekends_and_swedish_holidays()
                 .build(),
         ]),
