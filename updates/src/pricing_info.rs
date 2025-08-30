@@ -25,6 +25,16 @@ impl<'a> PricingInfoRegistry<'a> {
     pub(crate) fn iter(&self) -> Iter<'a, PricingInfo> {
         self.0.iter()
     }
+
+    pub(crate) fn starts_with(&self, text: &str) -> Vec<&'a PricingInfo> {
+        self.iter()
+            .filter(|pi| {
+                pi.name()
+                    .to_ascii_lowercase()
+                    .starts_with(&text.to_ascii_lowercase())
+            })
+            .collect()
+    }
 }
 
 #[derive(Debug, Clone)]
@@ -54,7 +64,7 @@ impl PricingInfo {
 
 pub(crate) struct PricingInfoBuilder {
     pub(crate) operator: &'static GridOperator,
-    pub(crate) locator: Locator,
+    pub(crate) locator: Option<Locator>,
     pub(crate) name_override: Option<&'static str>,
 }
 
@@ -62,21 +72,21 @@ impl PricingInfoBuilder {
     pub(crate) const fn new(operator: &'static GridOperator) -> Self {
         Self {
             operator,
-            locator: Locator::new_basic(),
+            locator: None,
             name_override: None,
         }
     }
 
     pub(crate) const fn locator(mut self, locator: Locator) -> Self {
-        self.locator = locator;
+        self.locator = Some(locator);
         self
     }
 
     pub(crate) const fn locator_simple(mut self, css_selector: &'static str) -> Self {
-        self.locator = Locator::new(
+        self.locator = Some(Locator::new(
             LocatorMethod::CssSelector(css_selector),
-            ContentTarget::Text,
-        );
+            ContentTarget::TextWithLinks,
+        ));
         self
     }
 
@@ -88,7 +98,7 @@ impl PricingInfoBuilder {
     pub(crate) const fn build(self) -> PricingInfo {
         PricingInfo {
             operator: self.operator,
-            locator: self.locator,
+            locator: self.locator.expect("`locator` not provided"),
             name_override: self.name_override,
         }
     }
@@ -134,10 +144,6 @@ pub(crate) struct ChangedPricing {
 }
 
 impl ChangedPricing {
-    fn new(old: String, new: String) -> Self {
-        Self { old, new }
-    }
-
     fn diff(&self) -> String {
         let diff = TextDiff::from_lines(&self.old, &self.new);
         diff.unified_diff().to_string()
@@ -183,10 +189,10 @@ impl PricingInfoResult {
         if self.extracted_text == other.extracted_text {
             PricingInfoComparison::Unchanged
         } else {
-            PricingInfoComparison::ChangedPricing(ChangedPricing::new(
-                self.extracted_text.clone(),
-                other.extracted_text.clone(),
-            ))
+            PricingInfoComparison::ChangedPricing(ChangedPricing {
+                new: self.extracted_text.clone(),
+                old: other.extracted_text.clone(),
+            })
         }
     }
 }
@@ -205,12 +211,8 @@ impl ResultStore {
         let stored = self.load(pricing_info).await?;
         let comparison = fetched.compare_to(stored.as_ref());
         if comparison.has_changed() {
-            // Only store full HTML if there are changes to the extracted data
-            self.store_full_html(pricing_info, &fetched).await?;
+            self.store(pricing_info, &fetched).await?;
         }
-        // Always store extracted text, as it might change from code changes (but not
-        // be noted as a diff as both the old and the new are loaded from the full HTML)
-        self.store_extracted(pricing_info, &fetched).await?;
         Ok(comparison)
     }
 
@@ -232,12 +234,16 @@ impl ResultStore {
         let path_extracted = self.path_extracted(pricing_info);
         if path_full.exists() && path_extracted.exists() {
             let html = read_to_string(path_full).await?;
+            let extracted_text = read_to_string(path_extracted).await?;
             debug!(
                 grid_operator = pricing_info.name(),
                 content_length = html.len(),
                 "loaded stored pricing info result"
             );
-            Ok(Some(PricingInfoResult::new(pricing_info, html)))
+            Ok(Some(PricingInfoResult {
+                html,
+                extracted_text,
+            }))
         } else {
             Ok(None)
         }

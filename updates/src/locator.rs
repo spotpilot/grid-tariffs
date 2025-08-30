@@ -2,7 +2,7 @@ use itertools::Itertools;
 use scraper::{ElementRef, Html, Selector};
 use tracing::warn;
 
-use crate::helpers::remove_unneeded_newlines;
+use crate::helpers::{get_text_with_links_excluding_scripts, remove_unneeded_newlines};
 
 #[derive(Debug, Clone, Copy)]
 pub(crate) enum TargetContainer {
@@ -14,7 +14,7 @@ pub(crate) enum TargetContainer {
 /// What content to checksum witihin the elements found
 #[derive(Debug, Clone)]
 pub(crate) enum ContentTarget {
-    Text,
+    TextWithLinks,
     /// Attribute which contains the relevant content
     Attribute(&'static str),
 }
@@ -30,16 +30,9 @@ impl Locator {
         Self { method, content }
     }
 
-    pub(crate) const fn new_basic() -> Self {
-        Self {
-            method: LocatorMethod::CssSelector("body"),
-            content: ContentTarget::Text,
-        }
-    }
-
     pub(crate) fn locate_content(&self, html: &Html) -> String {
         let found = match self.content {
-            ContentTarget::Text => self.method.locate_text(html),
+            ContentTarget::TextWithLinks => self.method.locate_text_with_links(html),
             ContentTarget::Attribute(attr) => self.method.locate_attribute_text(html, attr),
         };
         found.unwrap_or_default()
@@ -75,12 +68,12 @@ impl LocatorMethod {
         }
     }
 
-    fn locate_text(&self, html: &Html) -> Option<String> {
+    fn locate_text_with_links(&self, html: &Html) -> Option<String> {
         let Some(locator) = self.element_locator(html) else {
             warn!("failed to get element locator");
             return None;
         };
-        locator.text(&self.target_container())
+        locator.text_with_links(&self.target_container())
     }
 
     fn locate_attribute_text(&self, html: &Html, attr: &str) -> Option<String> {
@@ -121,7 +114,7 @@ impl<'a> ElementLocator<'a> {
     }
 
     /// Get the text nodes of this element, with repeated newlines removed
-    fn text(&self, target_container: &TargetContainer) -> Option<String> {
+    fn text_with_links(&self, target_container: &TargetContainer) -> Option<String> {
         let targets = self.locate_targets(target_container);
         if targets.is_empty() {
             warn!("target elements not found");
@@ -129,7 +122,12 @@ impl<'a> ElementLocator<'a> {
         }
         let text = targets
             .into_iter()
-            .map(|t| t.text().map(|t| t.trim()).join("\n"))
+            .map(|t| {
+                get_text_with_links_excluding_scripts(t)
+                    .iter()
+                    .map(|t| t.trim())
+                    .join("\n")
+            })
             .join("\n\n");
         Some(remove_unneeded_newlines(&text))
     }

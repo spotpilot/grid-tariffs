@@ -1,0 +1,132 @@
+Elnätspriser privatpersoner
+Gäller från 2025-01-01
+
+Elnätsavgiften är det ni betalar för att använda elnätet. Den betalar ni till ert elnätsföretag – alltså Falbygdens Energi för er som bor i vårt område. Vi ansvarar för ledningarna som transporterar elen till er fastighet.
+Alla priser är inkl moms.
+Lägenhetstaxa, 16 ampere mätarsäkring
+Benämning
+Lägenhetstaxa 16 A
+Abonnemang kr/år
+2 314,00 kr
+Abonnemang fördelat kr/mån
+192,82 kr/mån
+Elöverföring öre/kWh
+42,00 öre
+Energiskatt öre/kWh
+54,88 öre
+Normaltaxa, max 63 ampere mätarsäkring
+Benämning
+Normaltaxa 63 A
+Abonnemang kr/år
+4 121,00 kr
+Abonnemang fördelat kr/mån
+343,42 kr
+Elöverföring öre/kWh
+37,20 öre
+Energiskatt öre/kWh
+54,88 öre
+Effektavgift kr/kW/mån
+39,80 kr
+Höglastavgift kr/kW/mån
+nov-mars 07:00-19:00
+57,36 kr
+
+Höglastavgift och effektavgift
+Den 1 september 2022 infördes en ny prismodell för
+Normaltaxa 63 A
+för att göra det enklare för dig som kund att påverka dina kostnader. Den tidigare modellen hade ett pris för effektuttag, oavsett höglast eller låglast. Med den nya modellen införs en höglastavgift samtidigt som kostnaden för effektavgiften sänks. Avgifterna är ett incitament för att minska förbrukningstopparna.
+Höglastperioden är den period då elnätet belastas som mest på grund av ett kallare klimat och sträcker sig från den 1 november till den 31 mars. Höglastavgiften tas ut på den timme med högst förbrukning som infaller måndag-fredag mellan klockan 07.00- 19.00. Höglastavgiften för 2025 är 57,36 kr/kW.
+OBS.
+Höglastavgift mäts inte på dag som är afton eller helgdag om den infaller på en måndag-fredag.
+Effektavgiften tas ut varje månad under hela året, oavsett tidpunkt eller veckodag, och avser det högsta timvärdet under faktureringsmånaden. Kostnaden för effektavgiften för 2025 är 39,80 kr/kW.
+Under höglastperioden som infaller från november till mars får du både högavlastavgift och effektavgift på din faktura. Under månaderna april till oktober får du endast effektavgiften. Detta innebär att fakturorna blir högre på vinterhalvåret än på sommarhalvåret.
+Exempel 1:
+Januari månad
+5 kW uppmäts som högsta topp under höglasttid och 7 kW som högsta topp under övrig tid. Det blir två poster på fakturan enligt nedan:
+Höglastavgift: 5 kW x 57,36 kr = 286,80 kr
+Effektavgift: 7 kW x 39,80 kr = 278,60 kr
+Exempel 2:
+Mars månad
+4 kW uppmäts som högsta topp under höglasttid och 3 kW som högsta topp under övrig tid. Eftersom effektavgiften mäts på den högst uppmätta timmen under hela månaden kan det bli samma timme som för höglastavgiften, som i detta fall. Det blir det två poster på fakturan enligt nedan:
+Höglastavgift: 4 kW x 57,36 kr = 229,44 kr
+Effektavgift: 4 kW x 39,80 kr = 159,20 kr
+Exempel 3:
+Augusti månad
+5 kW uppmäts som högsta topp under hela månaden. Eftersom det inte är höglastperiod blir det endast en post på fakturan, enligt nedan.
+Effektavgift: 5 kW x 39,80 kr = 199,00 kr
+Se dina toppar på Mina sidor
+På Mina sidor kan du enkelt se när du har haft dina effekttoppar genom att gå in på Förbrukning och välja perioden du vill granska. Genom att visa helgdagar och helger kan du enkelt se i diagrammet vad som är höglasttid, och genom att hålla muspekaren över staplarna går det att se vilken tid du har haft de högsta topparna.
+Både höglastavgift och effektavgift baseras på snitteffekten på den timmen med högst energiförbrukning.
+
+Tips för att sänka dina kostnader
+Genom att planera din elförbrukning kan du kapa topparna och minska både höglastavgiften och effektavgiften. Exempel på planering kan vara att använd ett längre program på diskmaskinen som kräver mindre effekt, se över inställningarna på din värmepump för att den ska hålla en jämnare uppvärmningskurva och försök att använda en effektkrävande apparat i taget i stället för att köra torktumlare och ugn samtidigt.
+Lägenhetstariff
+Om du bor i lägenhet i hus med minst tre lägenheter och fastigheten har ett särskilt abonnemang för fastighetens allmänna behov, trapphus, källare, tvättstuga, hiss, pannrum mm, har du så kallat lägenhetstariff. Lägenhetstariffen bibehålls tills vidare med oförändrad struktur, dvs en årlig abonnemangsavgift och en rörlig avgift för överföringen.
+Din totala elkostnad består av tre delar
+Kostnaden för den el du använder, som du betalar till ditt elhandelsföretag.
+Kostnad för transport av elen till hemmet eller verksamheten, som betalas till elnätsföretaget.
+Kostnad för skatter och avgifter till staten
+
+Bilden visar hur fördelningen av kundens elkostnader utvecklats, här en kund med årlig elanvändning på 20 000 kWh och rörligt pris (i löpande priser). Andelen skatter, moms och elcertifikat är hälften av de totala kostnaderna. Källa:
+https://www.energiforetagen.se/energifakta/elsystemet/elhandel-marknad/for-dig-som-elkund/kundens-elkostnader/
+Energiföretagen
+/sitevision/link-icons.svg#link-external-tab
+Länk till annan webbplats, öppnas i nytt fönster.
+Pajdiagrammet visar medlevärdet för elområdena och baseras på SCB:s statistik för perioden januari 2020 till maj 2024.
+
+https://falbygdensenergi.se/privat/vart-elnat/elnatsavgifter-samt-villkor
+
+Elnätsavgifter och villkor
+Elnätsavgifter och villkor är viktiga att förstå för att kunna hantera dina elkostnader effektivt. Här besvarar vi vanliga frågor kring elnätet.
+
+https://falbygdensenergi.se/privat/falbygdens-energis-nat/anslut-dig-till-elnatet
+
+Nyanslutning
+Här hittar du rutiner mellan kund-elinstallatör-elnätsföretag vid anslutning av ny anläggning.
+
+https://falbygdensenergi.se/undersidor/ersattning-vid-skada
+
+Ersättning vid avbrott
+Ellagen reglerar hushållens och företagens rätt till en rimlig kompensation för de svårigheter som uppstår vid elavbrott. Syftet med ersättningsreglerna är att driva på investeringar som förbättrar elnäten.
+
+Relaterade sidor
+/undersidor/information-om-elnatsregleringen-och-elnatsavgifterna
+Information om elnätsregleringen och elnätsavgifterna
+/privat/vart-elnat/vad-ar-elnatsavgift
+Vad är elnätsavgift?
+/privat/vart-elnat/vad-ar-hoglasten
+Vad är höglasten?
+
+Detta ingår i din elnätsavgift till Falbygdens Energi:
+Vi utför löpande underhåll och framtidssäkrar elnätet för att möta våra kunders behov.
+Vi ser till att elen som du köper från ett elhandelsföretag transporteras via våra ledningar till ditt hem eller verksamhet.
+Vi har under det senaste året bytt ut den stora majoriteten av elmätarna i vårt nät till
+/privat/falbygdens-energis-nat/aktivera-han-porten
+Smarta mätare.
+Du kan följa din förbrukning och utföra enklare ärenden på
+https://minasidor.falbygdensenergi.se/
+Mina sidor
+/sitevision/link-icons.svg#link-external-tab
+Länk till annan webbplats, öppnas i nytt fönster.
+.
+Du kan enkelt få
+/kundservice/pagaende-elnatsprojekt/sms
+driftinformation
+via sms eller e-post och se aktuell status på webben.
+Du får hjälp vid eventuella strömavbrott dygnet runt, året runt. Vi har alltid personal i beredskap för att hantera driftstörningar.
+Du kan få gratis hjälp med att övervaka trädfällning och
+/privat/falbygdens-energis-nat/ska-du-grava
+markera ut ledningar
+i marken när du ska gräva.
+För dig som är producent av förnybar energi ligger prislistor för inmatningstariffer och överföringsersättning (nätnyttoersättning)
+/om-oss/hallbarhet/fornybar-energi---pa-pappret
+här.
+Prislistor och allmänna avtalsvillkor för elnät
+/download/18.2204819b193deb8e99c39c2/1736254260037/Falbygden_priser_Privat-2025.pdf
+2025
+/sitevision/file-icons.svg#file-pdf
+pdf, 9.3 MB, öppnas i nytt fönster.
+/download/18.1e9be04b1926afdd87e176d/1728544271897/Allm%C3%A4nna-avtalsvillkor-2012-K-rev2-Eln%C3%A4t.pdf
+Allmänna avtalsvillkor för elnät
+/sitevision/file-icons.svg#file-pdf
+pdf, 264.1 kB, öppnas i nytt fönster.

@@ -1780,6 +1780,7 @@ dependencies = [
  "anyhow",
  "clap",
  "directories",
+ "ego-tree",
  "grid-tariffs",
  "itertools",
  "reqwest",

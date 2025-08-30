@@ -7,6 +7,7 @@ use std::path::PathBuf;
 
 use clap::{Parser, Subcommand};
 use grid_tariffs::Country;
+use tokio::task::JoinSet;
 use tracing::error;
 use tracing_subscriber::{
     filter::{LevelFilter, Targets},
@@ -69,9 +70,15 @@ async fn main() -> anyhow::Result<()> {
 
     match cli.action {
         CliAction::CheckAll { results_dir } => {
+            let mut joinset = JoinSet::new();
             let store = ResultStore::new(results_dir).await;
             for pi in registry::all_pricing_info() {
-                match store.fetch_and_compare(pi).await {
+                let store = store.clone();
+                joinset.spawn(async move { (pi, store.fetch_and_compare(pi).await) });
+            }
+            while let Some(res) = joinset.join_next().await {
+                let (pi, res) = res?;
+                match res {
                     Ok(comparison) => {
                         println!("{comparison} diff: {}", comparison.diff());
                     }
@@ -87,11 +94,10 @@ async fn main() -> anyhow::Result<()> {
             grid_operator,
         } => {
             let store = ResultStore::new(results_dir).await;
-            let Some(pi) = registry::get(country, &grid_operator) else {
-                anyhow::bail!("Grid operator not found");
-            };
-            let comparison = store.fetch_and_compare(pi).await?;
-            println!("{comparison} diff: {}", comparison.diff());
+            for pi in registry::starts_with(country, &grid_operator) {
+                let comparison = store.fetch_and_compare(pi).await?;
+                println!("{comparison} diff: {}", comparison.diff());
+            }
         }
         CliAction::ExtractText {
             results_dir,

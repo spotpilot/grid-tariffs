@@ -1,0 +1,254 @@
+
+Priser och avgifter för elnätet
+Elnätstaxa med moms
+
+https://skovdeenergi.se
+Hem
+/
+https://skovdeenergi.se/elnat/
+Elnät
+/
+https://skovdeenergi.se/elnat/taxor-avgifter/
+Priser/avgifter Elnät
+/
+Elnätstaxa/priser med moms
+
+Säkringskunder
+Gäller från 2025-01-01 tillsvidare.
+https://skovdeenergi.se/kundservice/energiskatt/
+Energiskatt
+tillkommer på samtliga priser.
+Taxa
+Säkring
+Fast årsavgift
+Elöverföring
+låglasttid öre/kWh
+Elöverföring
+höglasttid öre/kWh
+Månadseffekt
+kr/kW/månad höglasttid
+N14E
+16 A
+1 500
+5,5
+26,25
+77,5
+N15E
+20 A
+2 381
+5,5
+26,25
+77,5
+N16E
+25 A
+2 819
+5,5
+26,25
+77,5
+N17E
+35 A
+3 256
+5,5
+20
+128,8
+N18E
+50 A
+3 756
+5,5
+20
+128,8
+N19E
+63 A
+4 631
+5,5
+20
+128,8
+I den fasta årsavgiften ingår:
+
+Nätövervakningsavgift                           4,35 kr/år
+Elberedskapsavgift                               90,00 kr/år
+Avgift till Elsäkerhetsverket                   11,10 kr/år
+
+Om månadseffekten är 1 kW/månad eller mindre utgår ingen avgift.
+
+Låg- och högspänningskunder 80 Ampere och uppåt
+Gäller från 2025-01-01 tillsvidare.
+https://skovdeenergi.se/kundservice/energiskatt/
+Energiskatt
+tillkommer på samtliga priser.
+LSP Leveransspänning 0,4 kV
+HSP Leveransspänning 10 kV
+Taxa
+Säkring
+Fast
+årsavgift
+Elöverföring låglasttid öre/kWh
+Elöverföring höglasttid öre/kWh
+Abonnemang kr/kW
+Månadseffekt
+Kr/kW/månad höglasttid
+LSP
+5 756
+5,5
+20
+206,25
+128,8
+HSP
+16 090
+3,25
+18,75
+162,5
+92,5
+I den fasta årsavgift ingår:                             LSP                             HSP
+
+Nätövervakningsavgift                           4,35 kr/år                   870 kr/år
+Elberedskapsavgift
+——
+——–
+90,00 kr/år                 4 897 kr/år
+Avgift till Elsäkerhetsverket                  11,10 kr/år                   905 kr/år
+
+Överuttag abonnerad och reaktiv effekt
+Vid varje årsskifte görs en avstämning av den abonnerade effekten. Om den abonnerade effekten har överstigits, tas dubbla avgiften ut för den överskjutande delen.
+Tillåtet uttag av reaktiv effekt är 50% av den abonnerad effekten. En avgift på 100 kr/kVar tas ut för den överskjutande delen i samband med avstämning vid årsskiftena.
+
+Ändra abonnerad effekt
+Ändringar på den abonnerade effekten kan göras under januari månad varje år. Skicka ett mail till
+mailto:info@skovdeenergi.se
+info@skovdeenergi.se
+och ange ny abonnerad effekt och en förklaring varför den ska ändras.
+Lägsta tillåtna abonnerad effekt är 30 kW.
+
+Låg- och höglasttid
+Höglasttid
+Låglasttid
+Definition
+November-Mars, vardagar (mån-fre) 06-22
+Övrig tid
+Julafton, nyårsafton, skärtorsdagen, lördag, söndag och alla övriga röda dagar är låglasttid. Tiderna avser normaltid (vintertid).
+
+2024
+Säkringskunder
+Gäller från 2024-01-01 till 2024-12-31.
+https://skovdeenergi.se/kundservice/energiskatt/
+Energiskatt
+tillkommer på samtliga priser.
+Taxa
+Säkring
+Fast årsavgift
+Elöverföring
+låglasttid öre/kWh
+Elöverföring
+höglasttid öre/kWh
+Månadseffekt
+kr/kW/månad höglasttid
+N14E
+16 A
+1 425
+5,5
+26,25
+77,5
+N15E
+20 A
+2 238
+5,5
+26,25
+77,5
+N16E
+25 A
+2 666
+5,5
+26,25
+77,5
+N17E
+35 A
+2 846
+5,5
+18,75
+128,8
+N18E
+50 A
+3 321
+5,5
+18,75
+128,8
+N19E
+63 A
+4 111
+5,5
+18,75
+128,8
+I den fasta årsavgiften ingår:
+
+Nätövervakningsavgift                           4,35 kr/år
+Elberedskapsavgift                               90,00 kr/år
+Avgift till Elsäkerhetsverket                   11,10 kr/år
+
+Om månadseffekten är 1 kW/månad eller mindre utgår ingen avgift.
+
+Låg- och högspänningskunder 80 Ampere och uppåt
+Gäller från 2024-01-01 till 2024-12-31.
+https://skovdeenergi.se/kundservice/energiskatt/
+Energiskatt
+tillkommer på samtliga priser.
+LSP Leveransspänning 0,4 kV
+HSP Leveransspänning 10 kV
+Taxa
+Säkring
+Fast
+årsavgift
+Elöverföring låglasttid öre/kWh
+Elöverföring höglasttid öre/kWh
+Abonnemang kr/kW
+Månadseffekt
+Kr/kW/månad höglasttid
+LSP
+3 388
+5,5
+18,75
+193,75
+128,8
+HSP
+12 351
+3,1
+18,75
+155
+92,5
+I den fasta årsavgift ingår:                             LSP                             HSP
+
+Nätövervakningsavgift                           4,35 kr/år                   870 kr/år
+Elberedskapsavgift
+——
+—–
+90,00 kr/år
+—
+4 897 kr/år
+Avgift till Elsäkerhetsverket                   11,10 kr/år                   905 kr/år
+
+Vanliga frågor och svar
+/vanliga-fragor/kategori/elnat
+Alla frågor och svar
+
+https://skovdeenergi.se/vanliga-fragor/vad-bestar-min-elkostnad-av/
+Vad består min elkostnad av?
+Att ha tillgång till el är en självklarhet för de flesta av oss och inte något vi funderar så mycket över. Men när fakturan kommer kanske vi ibland undrar vad det egentligen är vi betalar för. Här går vi igenom hur elkostnaden fördelar sig.
+
+https://skovdeenergi.se/vanliga-fragor/klotter-pa-natstationer-och-kabelskap/
+Klotter på nätstationer och kabelskåp
+Klotter och affischering är förbjudet på nätstationer och kabelskåp. Om budskapet är kränkande eller stötande på våra nätstationer och kabelskåp tar vi bort det så snart som möjligt.
+
+https://skovdeenergi.se/vanliga-fragor/vad-ar-effekttaxa/
+Vad är effekttaxa?
+Effekttaxa är en taxa som tar hänsyn till hur mycket effekt du som kund använder under olika tider och månader på året. Vi har sammanfattat det viktigaste du behöver ha koll på.
+
+Vi finns här när du behöver oss!
+Har du frågor och funderingar är du alltid välkommen att kontakta vår kundservice.
+Telefon:
+tel:0500493660
+0500-49 36 60
+E-post:
+mailto:info@skovdeenergi.se
+info@skovdeenergi.se
+
+https://skovdeenergi.se/fjarrvarme/bli-kund/
+Jag vill ansluta mig till fjärrvärmenätet

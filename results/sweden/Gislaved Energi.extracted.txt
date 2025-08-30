@@ -1,0 +1,105 @@
+
+/
+Start
+
+/el/
+El
+
+/el/elnat/
+Elnät
+
+/el/elnat/elnatsavgifter/
+Elnätsavgifter
+
+Elnätsavgifter säkringsabonnemang
+
+Elnätsavgifter säkringsabonnemang
+
+Vi justerar elnätspriset 2024-12-01 på grund av höjda myndighetsavgifter och för framtida investeringsbehov.
+Vi höjer abonnemangsavgiften med 12% och elöverföringsavgiften med 6%.
+Det innebär en genomsnittlig ökning per månad med ca 23 kr/mån för en lägenhet med 2000kWh/år, 50 kr/mån för en villa med 20A med 5000kWh/år och 79 kr/mån för en eluppvärmd villa 25A med 20 000kWh/år
+Säkringsabonnemang prislista from 2024-12-01
+Upp till och med 63 A i huvudsäkringsstorlek tillämpar vi en säkringstariff som består av en fast avgift som är beroende på säkringsstorleken och en rörlig avgift per kWh.
+Priser inkl. moms
+
+Säkringsstorlek
+Fast avgift kr/år
+Rörlig avgift öre/kWh
+Energiskatt öre/kWh uppdaterad 1/1-2025
+
+16 A lägenhet
+2212
+30,61
+54,88
+
+16 A
+3499
+30,61
+54,88
+
+20 A
+4767
+30,61
+54,88
+
+25 A
+5607
+30,61
+54,88
+
+35 A
+7900
+30,61
+54,88
+
+50 A
+11633
+30,61
+54,88
+
+63 A
+14959
+30,61
+54,88
+
+Priser exkl. moms
+
+Säkringsstorlek
+Fast avgift kr/år
+Rörlig avgift öre/kWh
+Energiskatt öre/kWh uppdaterad 1/1-2025
+
+16 A lägenhet
+1770
+24,49
+43,9
+
+16 A
+2799
+24,49
+43,9
+
+20 A
+3814
+24,49
+43,9
+
+25 A
+4486
+24,49
+43,9
+
+35 A
+6320
+24,49
+43,9
+
+50 A
+9306
+24,49
+43,9
+
+63 A
+11967
+24,49
+43,9

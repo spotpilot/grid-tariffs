@@ -87,5 +87,7 @@ Effektavgiften baseras på snittet av de tre högsta effekttopparna, det vill s�
 Varje dag mellan klockan 22.00 och 06.00 räknas bara halva effekttoppen. Det innebär att en uppmätt effekttopp på exempelvis 10 kW under denna tid räknas som 5 kW.
 Prislistorna gäller effektabonnemang 3-fas
 Ladda ner som pdf:
+/globalassets/content/priserabonnemang-pdf/2025/privat/sakr-250101.pdf
 Lägenhet och Effekt 16-63 A
+/globalassets/content/priserabonnemang-pdf/2025/lokalnat/sakr_enfas-250101.pdf
 Effekt enfas max 35 A

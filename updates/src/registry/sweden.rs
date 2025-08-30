@@ -20,7 +20,7 @@ pub(crate) static PRICING_INFO: PricingInfoRegistry = PricingInfoRegistry::new(&
                 needle: "För bland annat villor, radhus, fritidshus och verksamhetslokaler med egen anslutning till elnätet – ej lägenheter.",
                 target_container: TargetContainer::Parent,
             },
-            ContentTarget::Text,
+            ContentTarget::TextWithLinks,
         ))
         .build(),
     PricingInfo::builder(&sweden::vattenfall::VATTENFALL_E4)
@@ -34,31 +34,31 @@ pub(crate) static PRICING_INFO: PricingInfoRegistry = PricingInfoRegistry::new(&
         ))
         .build(),
     PricingInfo::builder(&sweden::goteborg_energi::GÖTEBORG_ENERGI)
-        .locator(Locator::new(CssSelector("#prisvilla + *"), ContentTarget::Text))
+        .locator(Locator::new(CssSelector("#prisvilla + *"), ContentTarget::TextWithLinks))
         .build(),
     PricingInfo::builder(&sweden::kraftringen::KRAFTRINGEN)
         .locator(Locator::new(
             CssSelector(".main-page-content"),
-            ContentTarget::Text,
+            ContentTarget::TextWithLinks,
         ))
         .build(),
     PricingInfo::builder(&sweden::bjarke_energi::BJÄRKE_ENERGI).locator_simple("h2 ~ table").build(),
-    PricingInfo::builder(&sweden::btea::BTEA).build(),
-    PricingInfo::builder(&sweden::eskilstuna_energi_miljo::ESKILSTUNA_ENERGI_MILJÖ).build(),
-    PricingInfo::builder(&sweden::falbygdens_energi::FALBYGDENS_ENERGI).build(),
-    PricingInfo::builder(&sweden::gislaved_energi::GISLAVED_ENERGI).build(),
-    PricingInfo::builder(&sweden::jbf::JBF).build(),
-    PricingInfo::builder(&sweden::jonkoping_energi::JÖNKÖPING_ENERGI).build(),
-    PricingInfo::builder(&sweden::karlstads_energi::KARLSTADS_ENERGI).build(),
-    PricingInfo::builder(&sweden::kristinehamns_energi::KRISTINEHAMNS_ENERGI).build(),
-    PricingInfo::builder(&sweden::linde_energi::LINDE_ENERGI).build(),
-    PricingInfo::builder(&sweden::malarenergi::MÄLARENERGI).build(),
-    PricingInfo::builder(&sweden::malung_salens_elverk::MALUNG_SÄLENS_ELVERK).build(),
-    PricingInfo::builder(&sweden::nacka_energi::NACKA_ENERGI).build(),
-    PricingInfo::builder(&sweden::partille_energi::PARTILLE_ENERGI).build(),
-    PricingInfo::builder(&sweden::skovde_energi::SKÖVDE_ENERGI).build(),
-    PricingInfo::builder(&sweden::sollentuna_energi_miljo_ab::SOLLENTUNA_ENERGI_MILJÖ_AB).build(),
-    PricingInfo::builder(&sweden::telge_energi::TELGE_ENERGI).build(),
-    PricingInfo::builder(&sweden::vaxjo_energi::VÄXJÖ_ENERGI).build(),
-    PricingInfo::builder(&sweden::tekniska_verken::KATRINEHOLM_ALTERNATIV).build(),
+    PricingInfo::builder(&sweden::btea::BTEA).locator_simple("table").build(),
+    PricingInfo::builder(&sweden::eskilstuna_energi_miljo::ESKILSTUNA_ENERGI_MILJÖ).locator_simple("article").build(),
+    PricingInfo::builder(&sweden::falbygdens_energi::FALBYGDENS_ENERGI).locator_simple(".pagecontent").build(),
+    PricingInfo::builder(&sweden::gislaved_energi::GISLAVED_ENERGI).locator_simple("#page-content").build(),
+    PricingInfo::builder(&sweden::jbf::JBF).locator_simple("#main").build(),
+    PricingInfo::builder(&sweden::jonkoping_energi::JÖNKÖPING_ENERGI).locator_simple("section").build(),
+    PricingInfo::builder(&sweden::karlstads_energi::KARLSTADS_ENERGI).locator_simple("table").build(),
+    PricingInfo::builder(&sweden::kristinehamns_energi::KRISTINEHAMNS_ENERGI).locator_simple("section").build(),
+    PricingInfo::builder(&sweden::linde_energi::LINDE_ENERGI).locator_simple("#Innehall + div").build(),
+    PricingInfo::builder(&sweden::malarenergi::MÄLARENERGI).locator_simple(".standard-article").build(),
+    PricingInfo::builder(&sweden::malung_salens_elverk::MALUNG_SÄLENS_ELVERK).locator_simple(".content:nth-child(1)").build(),
+    PricingInfo::builder(&sweden::nacka_energi::NACKA_ENERGI).locator_simple("main").build(),
+    PricingInfo::builder(&sweden::partille_energi::PARTILLE_ENERGI).locator_simple("#elnatsavtal").build(),
+    PricingInfo::builder(&sweden::skovde_energi::SKÖVDE_ENERGI).locator_simple("main").build(),
+    PricingInfo::builder(&sweden::sollentuna_energi_miljo_ab::SOLLENTUNA_ENERGI_MILJÖ_AB).locator_simple(".main-content-area").build(),
+    PricingInfo::builder(&sweden::telge_energi::TELGE_ENERGI).locator_simple("main").build(),
+    PricingInfo::builder(&sweden::vaxjo_energi::VÄXJÖ_ENERGI).locator_simple("#main-content").build(),
+    PricingInfo::builder(&sweden::tekniska_verken::KATRINEHOLM_ALTERNATIV).name_override("Tekniska verken").locator_simple("main").build(),
 ]);
