@@ -62,6 +62,10 @@ impl GridOperator {
         &self.name
     }
 
+    pub const fn vat_number(&self) -> &str {
+        &self.vat_number
+    }
+
     pub const fn country(&self) -> Country {
         self.country
     }

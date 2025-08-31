@@ -1,0 +1,70 @@
+
+Så fungerar elnätsavgiften
+Avgiften består av en abonnemangsavgift och en rörlig elöverföringsavgift samt energiskatt och myndighetsavgifter. Abonnemangsavgiften är fasta avgifter som inte påverkas av hur mycket el du använder. Den rörliga avgiften påverkas däremot av hur mycket el du använder.
+Abonnemangsavgift
+Den fasta abonnemangsavgiften baseras på vilken storlek på huvudsäkring du har. Abonnemangsavgiften täcker kostnader för investeringar, drift, underhåll och service.
+Elöverföringsavgift
+Elöverföringsavgiften basers på hur mycket el du förbrukat och består av en fast del per kWh och en rörlig del per kWh som sätts utifrån timpriset på elbörsen (från 1 oktober utifrån kvartspriset). Elöverföringsavgiften täcker endast våra kostnader för överföring från överliggande nät, ersättning till producenter för inmatad el samt nätförluster i vårt eget nät.
+Energiskatt
+Energiskatten basers på hur mycket el du använder. Det är ditt elnätsföretag som fakturerar energiskatten som sedan redovisar och betalar pengarna vidare till Skatteverket.
+Myndighetsavgift
+Myndighetsavgiften består av tre delar, elberedskap-, elsäkerhet- och nätövervakningsavgift som finansierar statliga myndigheters arbete inom elområdet. Myndighetsavgiften är en fast avgift som debiteras under första kvartalet på året till dem som innehaft elabonnemang för anläggning den 31 december föregående år.
+
+Nätavgifter fr.om. 2025-01-01
+
+Säkringsstorlek
+Fast avgift exkl moms kr/år
+Fast avgift inkl moms kr/år
+Lägenhet (max 25 Ampere)
+1 800
+2 250
+16 A
+4 080
+5 100
+20 A
+6 240
+7 800
+25 A
+7 860
+9 825
+35 A
+11 580
+14 475
+50 A
+15 960
+19 950
+63 A
+19 920
+24 900
+
+Rörlig avgift
+Öre/kWh exkl moms
+Öre/kWh inkl moms
+Överföringsavgift
+= m+ k * P(t)
+m = fast avgift
+7,33
+9,16
+k = andel av spotpriset
+5,11 %
+P(t) = Nord Pools spotpris i SE4
+Energiskatt
+43,90
+54,88
+
+Myndighetsavgifter
+kr/år exkl moms
+kr/år inkl moms
+Elberedskap (Svenska Kraftnät)
+90
+112,50
+Elsäkerhet (Elsäkerhetsverket)
+11.10
+13.88
+Nätövervakning (Energimyndigheten)
+4,35
+5,44
+
+Förklaring av myndighetsavgifterna
+
+Myndighetsavgifterna består av tre delar som finansierar olika statliga myndigheters arbete inom elområdet. Myndighetsavgifterna debiteras under första kvartalet på året till dem som innehaft elabonnemang för anläggning den 31 december föregående år.

@@ -1,5 +1,6 @@
 use std::{path::PathBuf, time::Duration};
 
+use convert_case::{Boundary, Case, Casing};
 use grid_tariffs::GridOperator;
 use tokio::fs::{create_dir_all, read_to_string};
 use tracing::{debug, info};
@@ -140,12 +141,28 @@ impl ResultStore {
     }
 
     fn path_extracted(&self, operator: &GridOperator) -> PathBuf {
-        self.base_path(operator.country())
-            .join(format!("{}.extracted.txt", operator.name()))
+        self.base_path(operator.country()).join(format!(
+            "{}.extracted.txt",
+            Self::operator_filename(operator)
+        ))
     }
 
     fn path_full(&self, operator: &GridOperator) -> PathBuf {
         self.base_path(operator.country())
-            .join(format!("{}.full.html", operator.name()))
+            .join(format!("{}.full.html", Self::operator_filename(operator)))
+    }
+
+    fn operator_filename(operator: &GridOperator) -> String {
+        [
+            operator.vat_number().to_owned(),
+            operator
+                .name()
+                .trim()
+                .chars()
+                .filter(|c| c.is_alphanumeric() || *c == ' ')
+                .collect::<String>()
+                .to_case(Case::Kebab),
+        ]
+        .join("-")
     }
 }

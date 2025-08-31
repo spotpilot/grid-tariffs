@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="google-site-verification" content="BKVMOSG_CZ0GDtzKrOfV8_FY6xjzlQKc4Tp0oprjFX8" />
+    <link rel="shortcut icon" href="https://s3-eu-west-1.amazonaws.com/static.wm3.se/sites/284/template_assets/favicon.png" type="image/png">
+    <link rel="shortcut icon" href="https://s3-eu-west-1.amazonaws.com/static.wm3.se/sites/284/template_assets/favicon.png" >
+    
+    
+
+    <title>Nätavgifter el</title>
+
+    
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'G-EBNPJRXEG1', 'auto');
+  ga('send', 'pageview');
+  
+</script>
+<!-- End Google Analytics -->
+
+
+<script src="/assets/wm3-public-0e224ac94b6c7faaff9913fc7a39f9cd1a47ae4548f98da637003c5b5598723a.js"></script>
+
+
+<script src="/assets/wm3-login-3419281384b53320e997addf3493e8283cb427b811fdb87d69a3e7626812f9a5.js"></script>
+
+<script>window.wm3 = {domain: 'enode.site', subdomain: 'okab', recaptchaEnabled: false};</script>
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="uSt7fvXwbU578hbvFSSvmFF3FLBiy-7fpbrc9jtEPwWSEITbxF1MdZPq6vytRrID51S-C9QKB9banf8WCuci1A" />
+
+    <!-- Styles -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css'>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    
+    <link href="https://s3-eu-west-1.amazonaws.com/static.wm3.se/sites/284/templates/contact.css" rel="stylesheet">
+    <link href="https://s3-eu-west-1.amazonaws.com/static.wm3.se/sites/284/templates/drift.css?300" rel="stylesheet">
+    <link href="https://s3-eu-west-1.amazonaws.com/static.wm3.se/sites/284/templates/slick.css" rel="stylesheet">
+    <link href="https://s3-eu-west-1.amazonaws.com/static.wm3.se/sites/284/templates/application.css?1000" rel="stylesheet">
+    <link href="https://s3-eu-west-1.amazonaws.com/static.wm3.se/sites/284/templates/responsive.css?800" rel="stylesheet">
+    <link href="https://s3-eu-west-1.amazonaws.com/static.wm3.se/sites/284/templates/accessibility.css?901" rel="stylesheet">
+    <link href="https://s3-eu-west-1.amazonaws.com/static.wm3.se/sites/284/templates/accessibility_valentina.css?901" rel="stylesheet">
+    <link href="https://code.jquery.com/ui/1.10.0/themes/base/jquery-ui.css" rel="stylesheet">
+    <link rel="alternate" type="application/rss+xml" href="/sv/a.rss" title="RSS Feed">
+    
+    <link href="https://ftp.mirakel.nu/olofstrom/drift.css" rel="stylesheet">
+
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.0/jquery.cookie.min.js"></script>
+    <script src="https://use.typekit.net/nrk7qec.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
+    <script src="https://s3-eu-west-1.amazonaws.com/static.wm3.se/sites/284/templates/dateformat.js"></script>
+    <script src="https://s3-eu-west-1.amazonaws.com/static.wm3.se/sites/284/templates/application.js?800"></script>
+    
+    <script src="https://s3-eu-west-1.amazonaws.com/static.wm3.se/sites/284/templates/ajax_pages.js"></script>
+    <script src="https://s3-eu-west-1.amazonaws.com/static.wm3.se/sites/284/templates/slick.min.js"></script>
+
+    
+    <script src="https://ftp.mirakel.nu/olofstrom/drift.js" crossorigin="anonymous"></script>
+
+    
+    
+    <!-- denna behövs endast om Google Maps ska användas. Nyckel för Google Maps laddar man hem från ett Google utvecklarkonto -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_jLk65CbY1Tz1CNYdhZyO-Qp7JKAz4L0"></script>
+
+
+    <script>
+
+        jQuery(document).ready(function() {
+
+            // nyhetsflöde på startsida och driftsida
+            //
+            //  target - element där nyheter ska visas (target eller callback måste anges)
+            //  callback - för egen rendering av nyheter (target eller callback måste anges)
+            //  utilities - array med begränsning till vissa nyttigheter, t.ex. ['el','fjv','fiber','va']. Default är att ingen begränsning görs
+            //  types - array med begränsning till vissa typer, t.ex. ['planned','unplanned','information']. Default är att ingen begränsning görs
+            //  status - array med begränsning till vissa status, t.ex. ['upcoming','ongoing','earlier']. Default är att ingen begränsning görs
+            //  url - adress till mapp för filer från Mirakel Avisering. Default="mirakel", dvs en relativ sökväg till en undermapp
+            //  limit - begränsning till ett visst antal nyheter, t.ex. 3. Default är ingen begränsning.
+            //  onlyLastDelivery - true om endast senaste utskick inom varje avisering ska visas, default=false
+            //  autoRefresh - sekunder för automatisk refresh av nyheter. Default=0, dvs ingen refresh
+            //
+            // returnerat objekts filter-property kan kopplas till en karta för att filtrera innehållet, se exempel
+            //
+            var newsFront = new mirakel.drift.News({
+                target: '#newsfeed',
+                types: ['unplanned'],
+                status: ['upcoming', 'ongoing'],
+                url: 'https://ftp.mirakel.nu/olofstrom/',
+                limit: 3
+            });
+            
+            var newsFront = new mirakel.drift.News({
+                target: '#newsfeedmirakel',
+                types: ['planned'],
+                status: ['upcoming', 'ongoing'],
+                url: 'https://ftp.mirakel.nu/olofstrom/',
+                limit: 10
+            });
+            var newsBoundToMap = new mirakel.drift.News({
+                target: '#newsall',
+                status: ['upcoming', 'ongoing'],
+                url: 'https://ftp.mirakel.nu/olofstrom/',
+                autoRefresh: 10
+            });
+            var newsElArkiv = new mirakel.drift.News({
+                target: '#elarkiv',
+                utilities: 'el',
+                status: ['earlier'],
+                url: 'https://ftp.mirakel.nu/olofstrom/',
+                autoRefresh: 10
+            });
+            var newsFjvrArkiv = new mirakel.drift.News({
+                target: '#fjvarkiv',
+                utilities: 'fjv',
+                status: ['earlier'],
+                url: 'https://ftp.mirakel.nu/olofstrom/',
+                autoRefresh: 10
+            });
+
+
+            // sidhantering för Elköpings testsida
+         
+ 
+
+            var map; // kartobjektet
+    
+
+            // skapa karta (element måste vara synligt när kartan skapas)
+            //
+            // parameterobjektet kan innehålla följande properties:
+            //  target - element där karta ska visas (måste anges)
+            //  callback - anropas när filterkontroller ändras av användare samt vid start. Objekt som argument med info om kontrollernas status. Callback kan vara funktion eller array med funktioner.
+            //  utilities[] - array med begränsning till vissa nyttigheter, t.ex. ['el','fjv','fiber','va']. Default är att ingen begränsning görs
+            //  url - adress till mapp för filer från Mirakel Avisering. Default="mirakel", dvs en relativ sökväg till undermappen ./mirakel/
+            //  autoRefresh - sekunder för automatisk refresh av kartan. Default=0, dvs ingen refresh
+            //  version - version 1 baserad på en tabell (kräver height på target), version 2 baserad på div-element (rekommenderas). Default=1.
+
+   
+            return new mirakel.drift.GoogleMap({
+                target: '#myMap',
+                autoRefresh: 10,
+                url: 'https://ftp.mirakel.nu/olofstrom/',
+                version: 2
+                
+            });
+
+        });
+
+   
+    </script>
+</head>
+    <body class="">
+      <div class="wrapper ">
+        <header>
+        
+          <div class="navbar-help-tools" tabindex="0">
+  <ul>
+    <li>
+      <a href="/lattlast">
+        <span class="material-icons">article</span>
+        Lättläst
+      </a>
+    </li>
+    <li>
+      <span class="material-icons">format_size</span>
+      <a href="/om-webbplatsen" class="increase-text" data-increase="Större text" data-normal="Normal text">
+        Större text
+      </a>
+    </li>
+
+    <li class="increase-contrast">
+      <span class="material-icons">exposure</span>
+      <a class="show-settings" href="#" data-increase="Öka kontrast" data-normal="Normal kontrast">
+        Öka kontrast
+      </a>
+    </li>
+  </ul>
+</div>
+
+          <div class="navbar-main">
+            <a class="navbar-brand pull-lef" href="/">
+              <img src="https://s3-eu-west-1.amazonaws.com/static.wm3.se/sites/284/template_assets/logo.png" alt="OKAB">
+            </a>
+            <div class="pull-left main-nav">
+              <ul class="site-menu site-menu-root nav"><li class="site-menu-item site-menu-item-13659 site-menu-item-parent"><a href="/elnat">Elnät </a></li><li class="site-menu-item site-menu-item-13681"><a href="/fjarrvarme">Fjärrvärme</a></li><li class="site-menu-item site-menu-item-13720"><a href="https://oktv.se/">Bredband, TV och telefoni</a></li><li class="site-menu-item site-menu-item-13694"><a href="/vatten-och-avlopp">Vatten och avlopp</a></li><li class="site-menu-item site-menu-item-13615"><a href="/kundservice">Kundservice</a></li></ul>
+            </div>
+            <div class="pull-right nav-extra">
+              <div class="navbar-links pull-left">
+                <a href="https://minasidor.okab.net/" target="_blank"><i class="fa fa-user"></i>Mina sidor</a>
+              </div>
+              
+                <a href="/en" class="lang-selector"><img src="https://s3-eu-west-1.amazonaws.com/static.wm3.se/sites/284/template_assets/en-flag.png" /></a>
+              
+              <a class="translate-page" id="translate-page"><img src="https://s3-eu-west-1.amazonaws.com/static.wm3.se/sites/284/template_assets/icon-globe.png" /></a>
+              <div class="translate-wrap" style="display: none;">
+                <div id="google_translate_element"></div>
+              </div>
+              <div class="search-toggle"><i class="fa fa-search"></i></div>
+            </div>
+          </div>
+          <div class="responsive-menu-opener pull-right visible-xs">
+            <i class="fa fa-bars"></i>
+          </div>
+        </header>
+        <div class="search-box">
+          <div class="container">
+            <form action="/s" method="get" class="navbar-form search-form">
+              <input id="main-search" type="text" name="q" placeholder="Sök..." />
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+          </div>
+        </div>
+        
+
+        <main>
+
+        <div class="header-warning" data-date="2025-08-31">
+          
+          
+          <div class="row warning">
+            <div class="col-xs-12 text-center">
+                <div class="warning-message">
+                  
+                  <div class="manuellvarning"><div class="message"></div></div>
+                  <a href="/aktuell-driftinfo" id="newsfeed" class="message"></a>
+
+                  
+                </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="responsive-menu-wrapper">
+          <ul class="site-menu site-menu-full nav"><li class="site-menu-item site-menu-item-13659 site-menu-item-parent"><a href="/elnat">Elnät </a><ul><li class="site-menu-item site-menu-item-13667"><a href="/avtalsvillkor-elnat">Avtalsvillkor elnät</a></li><li class="site-menu-item site-menu-item-13670"><a href="/Elproduktion">Elproduktion</a><ul><li class="site-menu-item site-menu-item-13671"><a href="/betalning-for-overskottsel">Betalning för överskottsel</a></li><li class="site-menu-item site-menu-item-39342"><a href="/mer%C3%A4n43,5%20kW%20">Elproduktion mer än 43,5 kW </a></li><li class="site-menu-item site-menu-item-39343"><a href="/mindre%C3%A4n43,5%20kW">Elproduktion mindre än 43,5 kW</a></li><li class="site-menu-item site-menu-item-42057"><a href="/mindre%C3%A4n43,5%20kW-8236">Elproduktion större än 43,5 kW Lsp</a></li><li class="site-menu-item site-menu-item-13672"><a href="/sa-har-gar-det-till">Så här går det till</a></li></ul></li><li class="site-menu-item site-menu-item-34432"><a href="/effektabonnemang">Effektabonnemang</a><ul><li class="site-menu-item site-menu-item-34437"><a href="/Vad-%C3%A4r-effektabonnemang%3F">Vad är effektabonnemang?</a></li><li class="site-menu-item site-menu-item-34445"><a href="/varfor-effektabonnemang">Vad är syftet med effektabonnemang?</a></li><li class="site-menu-item site-menu-item-34438"><a href="/Vad-%C3%A4r-effekt">Vad menas med effekt?</a></li><li class="site-menu-item site-menu-item-34444"><a href="/Vad-%C3%A4r-effektbrist%3F">Vad är effektbrist?</a></li><li class="site-menu-item site-menu-item-34440"><a href="/Vad-%C3%A4r-skillnaden-p%C3%A5-energi-och-effekt%3F">Vad är skillnaden på energi och effekt?</a></li><li class="site-menu-item site-menu-item-34439"><a href="/Vad-%C3%A4r-mitt-h%C3%B6gsta%20timv%C3%A4rde%3F">Vad är mitt högsta timvärde?</a></li><li class="site-menu-item site-menu-item-34441"><a href="/Hur-kan-jag-p%C3%A5verka-min-elanv%C3%A4ndning%3F">Hur kan jag påverka min elanvändning? </a></li><li class="site-menu-item site-menu-item-34443"><a href="/Tidplan">Tidplan</a></li><li class="site-menu-item site-menu-item-34442"><a href="/Vad-%C3%A4r-effekttariff%3F-6215-2850-3494">Vad kostar effektabonnemang?  </a></li></ul></li><li class="site-menu-item site-menu-item-13619"><a href="/elmataren">Elmätaren</a></li><li class="site-menu-item site-menu-item-25878"><a href="/energiskatt">Energiskatt</a></li><li class="site-menu-item site-menu-item-13661"><a href="/installatorer">Installatörer</a></li><li class="site-menu-item site-menu-item-13662"><a href="/kabelvisning">Kabelvisning</a></li><li class="site-menu-item site-menu-item-active site-menu-item-13668"><a href="/natavgifter-el">Nätavgifter el</a></li><li class="site-menu-item site-menu-item-40871"><a href="/natutvecklingsplan">Nätutvecklingsplan</a></li><li class="site-menu-item site-menu-item-13669"><a href="/om-det-blir-stromavbrott">Om det blir strömavbrott</a></li><li class="site-menu-item site-menu-item-26910"><a href="/paverka-elnatsavgiften">Påverka elnätsavgiften</a></li><li class="site-menu-item site-menu-item-31176"><a href="/tillgangligorandeavmatvarden">Tillgängliggörande av mätvärden</a><ul><li class="site-menu-item site-menu-item-31178"><a href="/infotillelnatskunder">Information till våra elnätskunder</a></li><li class="site-menu-item site-menu-item-31206"><a href="/enfotillenergiforetag">Information till Energitjänsteföretag</a></li></ul></li><li class="site-menu-item site-menu-item-13603"><a href="/overvakningsplan">Övervakningsplan</a></li></ul></li><li class="site-menu-item site-menu-item-13681"><a href="/fjarrvarme">Fjärrvärme</a><ul><li class="site-menu-item site-menu-item-13684"><a href="/avtalsvillkor-fjarrvarme">Avtalsvillkor fjärrvärme</a></li><li class="site-menu-item site-menu-item-13682"><a href="/fjarrvarmetaxor">Fjärrvärmetaxor</a></li><li class="site-menu-item site-menu-item-13685"><a href="/hur-fungerar-fjarrvarmen-nar-det-ar-kallt">Hur fungerar fjärrvärmen när det är kallt</a></li><li class="site-menu-item site-menu-item-16420"><a href="/konsumentens-rattigheter-gallande-fjarrvarme">Konsumentens rättigheter gällande fjärrvärme</a></li><li class="site-menu-item site-menu-item-13683"><a href="/prisinformation-enl-ei">Prisinformation enl. EI</a></li></ul></li><li class="site-menu-item site-menu-item-13720"><a href="https://oktv.se/">Bredband, TV och telefoni</a></li><li class="site-menu-item site-menu-item-13694"><a href="/vatten-och-avlopp">Vatten och avlopp</a><ul><li class="site-menu-item site-menu-item-13702"><a href="/avlopp">Avlopp</a><ul><li class="site-menu-item site-menu-item-13703"><a href="/enskilt-avlopp">Enskilt avlopp</a></li></ul></li><li class="site-menu-item site-menu-item-13709"><a href="/dagvatten">Dagvatten</a><ul><li class="site-menu-item site-menu-item-13710"><a href="/dagvattenpolicy">Dagvattenpolicy</a></li></ul></li><li class="site-menu-item site-menu-item-13696"><a href="/dricksvatten">Dricksvatten</a><ul><li class="site-menu-item site-menu-item-13697"><a href="/vattenskyddsomraden">Vattenskyddsområden</a></li><li class="site-menu-item site-menu-item-13698"><a href="/enskild-brunn">Enskild brunn</a></li></ul></li><li class="site-menu-item site-menu-item-19771"><a href="/information-om-vattenmatarbyte">Information om vattenmätarbyte</a></li><li class="site-menu-item site-menu-item-13695"><a href="/om-vatten-och-avlopp">Om vatten och avlopp</a></li><li class="site-menu-item site-menu-item-13712"><a href="/taxor">Taxor</a><ul><li class="site-menu-item site-menu-item-13713"><a href="/priser-bestammelser-vatten-avlopp">Priser och bestämmelser</a></li></ul></li></ul></li><li class="site-menu-item site-menu-item-13615"><a href="/kundservice">Kundservice</a><ul><li class="site-menu-item site-menu-item-15072"><a href="/app">App</a></li><li class="site-menu-item site-menu-item-13635"><a href="/avbrottsinformation">Avbrottsinformation</a><ul><li class="site-menu-item site-menu-item-13634"><a href="/avbrottsersattningskadestand">Avbrottsersättning</a></li><li class="site-menu-item site-menu-item-37947"><a href="/skadestand">Skadeståndsersättning</a></li></ul></li><li class="site-menu-item site-menu-item-13636"><a href="/personuppgifter">Behandling av personuppgifter</a></li><li class="site-menu-item site-menu-item-13620"><a href="/betalning">Betalning</a><ul><li class="site-menu-item site-menu-item-13618"><a href="/fakturan">Fakturan</a></li><li class="site-menu-item site-menu-item-13621"><a href="/betala-i-tid">Betala i tid</a></li></ul></li><li class="site-menu-item site-menu-item-31910"><a href="/blanketter-och-dokument">Blanketter och dokument</a></li><li class="site-menu-item site-menu-item-13617"><a href="/felanmalan">Felanmälan</a></li><li class="site-menu-item site-menu-item-13622"><a href="/flyttning">Flyttning</a><ul><li class="site-menu-item site-menu-item-13623"><a href="/flyttanmalan-kundbyte">Flyttanmälan - kundbyte</a></li><li class="site-menu-item site-menu-item-13624"><a href="/inflyttning">Inflyttning</a></li><li class="site-menu-item site-menu-item-13625"><a href="/utflyttning">Utflyttning</a></li></ul></li><li class="site-menu-item site-menu-item-28284"><a href="http://faq.olofstromskraft.se/">Frågor och svar</a></li><li class="site-menu-item site-menu-item-16413"><a href="/konsumentens-rattigheter-for-fjarrvarme">Konsumentens rättigheter gällande fjärrvärme</a></li><li class="site-menu-item site-menu-item-13632"><a href="/konsumentens-rattigheter-for-elnat">Konsumentens rättigheter gällande elnät</a></li><li class="site-menu-item site-menu-item-34521"><a href="/tillganglighet">Tillgänglighetsredogörelse</a></li><li class="site-menu-item site-menu-item-38111"><a href="/oppettider">Öppettider</a></li></ul></li></ul>
+        </div>
+
+    
+    
+    
+    
+    
+    
+    
+    <div class="main-content">
+      <div class="default-banner banner">
+        
+          <div class="banner-img" style="background-image:url(https://s3-eu-west-1.amazonaws.com/static.wm3.se/sites/284/media/77993_original_10653114-high-voltage-power-pole.jpg);">
+            <div class="banner-text">
+             <div class=""><h1 style="text-align: center;"><strong>Elnät</strong></h1>
+
+<h1 style="text-align: center;">Vi ger dig driftsäker&nbsp;el i våra ledningar</h1>
+</div>
+            </div>
+          </div>
+        
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3 hidden-xs">
+            <h4 class="sub-heading"><a href="/natavgifter-el">Nätavgifter el</a></h4>
+            <ul class="site-menu site-menu-sub nav"><li class="site-menu-item site-menu-item-13667"><a href="/avtalsvillkor-elnat">Avtalsvillkor elnät</a></li><li class="site-menu-item site-menu-item-13670"><a href="/Elproduktion">Elproduktion</a><ul><li class="site-menu-item site-menu-item-13671"><a href="/betalning-for-overskottsel">Betalning för överskottsel</a></li><li class="site-menu-item site-menu-item-39342"><a href="/mer%C3%A4n43,5%20kW%20">Elproduktion mer än 43,5 kW </a></li><li class="site-menu-item site-menu-item-39343"><a href="/mindre%C3%A4n43,5%20kW">Elproduktion mindre än 43,5 kW</a></li><li class="site-menu-item site-menu-item-42057"><a href="/mindre%C3%A4n43,5%20kW-8236">Elproduktion större än 43,5 kW Lsp</a></li><li class="site-menu-item site-menu-item-13672"><a href="/sa-har-gar-det-till">Så här går det till</a></li></ul></li><li class="site-menu-item site-menu-item-34432"><a href="/effektabonnemang">Effektabonnemang</a><ul><li class="site-menu-item site-menu-item-34437"><a href="/Vad-%C3%A4r-effektabonnemang%3F">Vad är effektabonnemang?</a></li><li class="site-menu-item site-menu-item-34445"><a href="/varfor-effektabonnemang">Vad är syftet med effektabonnemang?</a></li><li class="site-menu-item site-menu-item-34438"><a href="/Vad-%C3%A4r-effekt">Vad menas med effekt?</a></li><li class="site-menu-item site-menu-item-34444"><a href="/Vad-%C3%A4r-effektbrist%3F">Vad är effektbrist?</a></li><li class="site-menu-item site-menu-item-34440"><a href="/Vad-%C3%A4r-skillnaden-p%C3%A5-energi-och-effekt%3F">Vad är skillnaden på energi och effekt?</a></li><li class="site-menu-item site-menu-item-34439"><a href="/Vad-%C3%A4r-mitt-h%C3%B6gsta%20timv%C3%A4rde%3F">Vad är mitt högsta timvärde?</a></li><li class="site-menu-item site-menu-item-34441"><a href="/Hur-kan-jag-p%C3%A5verka-min-elanv%C3%A4ndning%3F">Hur kan jag påverka min elanvändning? </a></li><li class="site-menu-item site-menu-item-34443"><a href="/Tidplan">Tidplan</a></li><li class="site-menu-item site-menu-item-34442"><a href="/Vad-%C3%A4r-effekttariff%3F-6215-2850-3494">Vad kostar effektabonnemang?  </a></li></ul></li><li class="site-menu-item site-menu-item-25878"><a href="/energiskatt">Energiskatt</a></li><li class="site-menu-item site-menu-item-13619"><a href="/elmataren">Elmätaren</a></li><li class="site-menu-item site-menu-item-13661"><a href="/installatorer">Installatörer</a></li><li class="site-menu-item site-menu-item-13662"><a href="/kabelvisning">Kabelvisning</a></li><li class="site-menu-item site-menu-item-active site-menu-item-13668"><a href="/natavgifter-el">Nätavgifter el</a></li><li class="site-menu-item site-menu-item-40871"><a href="/natutvecklingsplan">Nätutvecklingsplan</a></li><li class="site-menu-item site-menu-item-13669"><a href="/om-det-blir-stromavbrott">Om det blir strömavbrott</a></li><li class="site-menu-item site-menu-item-26910"><a href="/paverka-elnatsavgiften">Påverka elnätsavgiften</a></li><li class="site-menu-item site-menu-item-31176"><a href="/tillgangligorandeavmatvarden">Tillgängliggörande av mätvärden</a><ul><li class="site-menu-item site-menu-item-31178"><a href="/infotillelnatskunder">Information till våra elnätskunder</a></li><li class="site-menu-item site-menu-item-31206"><a href="/enfotillenergiforetag">Information till Energitjänsteföretag</a></li></ul></li><li class="site-menu-item site-menu-item-13603"><a href="/overvakningsplan">Övervakningsplan</a></li></ul>
+          </div>
+          <article class="col-sm-6">
+            <div class="row">
+              <div class="col-sm-12">
+                
+                  <div class="sub-page-content">
+                    <div class=""><h2><strong>Elnät avgiftstaxa</strong></h2>
+
+<h4><strong><span style="line-height: 1.428571429;">Taxor 2025</span></strong></h4>
+
+<p>För att få täckning för ökade kostnader i det överliggande nätet och inflation, beslutade styrelsen 2024-11-14 att höja taxan med i genomsnitt 7,5 %.</p>
+
+<p>&nbsp;</p>
+
+<table class="Table" width="100%">
+	<tbody>
+		<tr>
+			<td style="width: 25%;">
+			<p align="center"><span><span><b><span>Taxetyp</span></b></span></span></p>
+			</td>
+			<td width="50%">
+			<p align="center"><span><span><b><span>Fast &amp; rörlig nätavgift (inkl moms)</span></b></span></span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="Table" width="100%">
+	<tbody>
+		<tr>
+			<td width="24%">
+			<p align="center"><span><span><b><span><span>Mätarsäkring<br />
+			Ampere</span></span></b></span></span></p>
+			</td>
+			<td width="24%">
+			<p align="center"><span><span><b><span><span>Fast avgift<br />
+			kr/år</span></span></b></span></span></p>
+			</td>
+			<td width="24%">
+			<p align="center"><span><span><b><span><span>Rörlig nätavgift<br />
+			öre/kWh</span></span></b></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td width="24%">
+			<p align="center"><span><span><span><span>16&nbsp;(per lgh)*</span></span></span></span></p>
+			</td>
+			<td style="text-align: center;" width="24%">2 299</td>
+			<td style="text-align: center;" width="24%">24,73</td>
+		</tr>
+		<tr>
+			<td width="24%">
+			<p align="center"><span><span><span><span>16</span></span></span></span></p>
+			</td>
+			<td style="text-align: center;" width="24%">4 732</td>
+			<td style="text-align: center;" width="24%">24,73</td>
+		</tr>
+		<tr>
+			<td width="24%">
+			<p align="center"><span><span><span><span>20</span></span></span></span></p>
+			</td>
+			<td style="text-align: center;" width="24%">6 806</td>
+			<td style="text-align: center;" width="24%">24,73</td>
+		</tr>
+		<tr>
+			<td width="24%">
+			<p align="center"><span><span><span><span>25</span></span></span></span></p>
+			</td>
+			<td style="text-align: center;" width="24%">8 617</td>
+			<td style="text-align: center;" width="24%">24,73</td>
+		</tr>
+		<tr>
+			<td width="24%">
+			<p align="center"><span><span><span><span>35</span></span></span></span></p>
+			</td>
+			<td style="text-align: center;" width="24%">12 547</td>
+			<td style="text-align: center;" width="24%">24,73</td>
+		</tr>
+		<tr>
+			<td width="24%">
+			<p align="center"><span><span><span><span>50</span></span></span></span></p>
+			</td>
+			<td style="text-align: center;" width="24%">15 562</td>
+			<td style="text-align: center;" width="24%">24,73</td>
+		</tr>
+		<tr>
+			<td width="24%">
+			<p align="center"><span><span><span><span>63</span></span></span></span></p>
+			</td>
+			<td style="text-align: center;" width="24%">21 825</td>
+			<td style="text-align: center;" width="24%">24,73</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p>Energiskatt tillkommer med 54,88 öre/kWh&nbsp;(inklusive moms).</p>
+
+<p>Vid överföring gäller ”Allmänna avtalsvillkor för anslutning av elektriska anläggningar till elnät och överföring av el till sådana anläggningar ” NÄT 2012 K (konsument) respektive NÄT 2012 N (näringsidkare).</p>
+
+<p><br />
+Den fasta och rörliga nätavgiften inkluderar elsäkerhetsavgift, nätövervakningsavgift och elberedskapsavgift.</p>
+
+<p><br />
+* Mätarsäkring 16 ampere (lägenheter) är avsedd för bostadslägenheter i flerbostadshus. Det skall finnas en gemensam servis för fyra eller flera abonnemang varav minst tre avser bostadslägenheter, samtliga elmätare inom en huskropp skall vara samlad på ett ställe samt att fastighetsägaren har abonnemang för allmänna utrymmen (16 ampere eller större).</p>
+
+<p>&nbsp;</p>
+</div>
+                  </div>
+                
+              </div>
+            </div>
+          </article>
+          <div class="col-sm-3 pull-right sub-actions">
+            <div class="sidebar">
+                
+                
+                  <div class="border"><div class=""><h2 style="margin-bottom: 10px; text-align: start;">Nya taxor från och med 1 januari 2025</h2>
+
+<ul>
+	<li><a href="https://d1da7yrcucvk6m.cloudfront.net/sites/284/media/1279451_S%C3%A4kringstariffer_2025_01-01.pdf?1733841780" target="_blank">Säkringstariffer fr.o.m 2025-01-01</a></li>
+	<li><a href="https://d1da7yrcucvk6m.cloudfront.net/sites/284/media/1279417_Effekttariff_2025-01-01_80-200.pdf?1733839233" target="_blank">Effekttariff&nbsp; 80A&nbsp;- 200<span style="color:#3498db;">A</span></a></li>
+	<li><a href="https://d1da7yrcucvk6m.cloudfront.net/sites/284/media/1279369_Effakttariff_2025-01-01_0_4-10.pdf?1733836369" target="_blank">Effekttariff&nbsp; 0,4 kV&nbsp;- 10kV</a></li>
+	<li><a href="https://d1da7yrcucvk6m.cloudfront.net/sites/284/media/1289546_Effekttariffer_20kV-50kV.pdf?1734679528" target="_blank">Effekttariff&nbsp; 20 kV&nbsp;- 50kV</a></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p>Du kan påverkar din elnätsavgift genom att välja rätt storlek på huvudsäkringen. <a href="https://www.olofstromskraft.se/paverka-elnatsavgiften">Läs mer här.</a></p>
+
+<p>Om du vill ändra huvudsäkring måste du anlita en&nbsp;auktoriserad elinstallatör&nbsp;som anmäler förändringen till oss genom<a href="https://www.olofstromskraft.se/installatorer">&nbsp;</a><a href="https://www.olofstromskraft.se/installatorer">För- och färdiganmälan.</a>&nbsp;</p>
+</div></div>
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+          </main>
+      <div class="container-fluid footer">
+        <div class="container">
+          <div class="row footer-cols matchheight">
+            <div class="col-xs-6 col-sm-4 col-md-3">
+              <div class=""><h3>Olofströms Kraft AB</h3>
+
+<p><br />
+Östra Ringvägen 219<br />
+293 40 OLOFSTRÖM&nbsp;<br />
+<a href="mailto:kund@okab.net">kund@okab.net</a><br />
+Växel: 0454 – 980 00</p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://www.facebook.com/olofstromskraft/" target="_blank"><strong>Följ Olofströms Kraft på Facebook</strong></a></p>
+
+<p><a href="https://www.facebook.com/olofstromskraft/" id="facebook-icon" target="_blank">Facebook</a></p>
+</div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3">
+              <div class=""><h3>Vanliga frågor &amp; svar</h3>
+
+<p><a href="/fakturan">Fakturafrågor</a><br />
+<a href="/flyttning">Flyttning</a><br />
+<a href="/kabelvisning">Kabelvisning</a><br />
+<a href="/om-det-blir-stromavbrott">Vid strömavbrott</a><br />
+&nbsp;</p>
+</div>
+            </div>
+            <div class="hidden-xs col-sm-4 col-md-2">
+              <div class=""><h3><a href="https://www.olofstromskraft.se/kundservice">Kundservice</a></h3>
+
+<p><a href="https://www.olofstromskraft.se/tillganglighet"><span><span><span>Webbsidans tillgänglighet </span></span></span></a><br />
+<a href="https://www.olofstromskraft.se/oppettider">Öppettider</a></p>
+
+<p>&nbsp;</p>
+</div>
+            </div>
+            <div class="hidden-xs col-sm-4 col-md-2">
+              <div class=""><h3><a href="/om-olofstroms-kraft" target="_self">Om Olofströms Kraft</a></h3>
+
+<p><a href="/lediga-tjanster">Lediga tjänster</a><br />
+<a href="/styrelsen">Styrelsen</a></p>
+
+<p>&nbsp;</p>
+</div>
+            </div>
+            <div class="hidden-xs col-sm-4 col-md-2">
+              <div class="footerlinks"><h3>&nbsp;</h3>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'sv', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+    }
+    </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    
+
+      <!-- ImBox -->
+      <script type="text/javascript">
+      var _sid = '1153';
+        (function() {
+          var se = document.createElement('script'); se.type = 'text/javascript'; se.async = true;
+          se.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'files.imbox.io/app/dist/initWidget.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(se, s);
+        })();
+      </script>
+      <!-- //ImBox Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js"></script>
+    <script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0024/9429.js" async="async"></script>
+    <script src="https://s3-eu-west-1.amazonaws.com/static.wm3.se/sites/284/templates/drift2.js?1300"></script>
+    <script src="https://s3-eu-west-1.amazonaws.com/static.wm3.se/sites/284/templates/formdate.js?1300"></script>
+  </body>
+</html>

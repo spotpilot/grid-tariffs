@@ -10,7 +10,7 @@ use clap::{Parser, Subcommand};
 use grid_tariffs::{Country, GridOperator};
 use serde::{Deserialize, Deserializer};
 use tokio::task::JoinSet;
-use tracing::{debug, error};
+use tracing::{debug, error, info};
 use tracing_subscriber::{
     filter::{LevelFilter, Targets},
     fmt,
@@ -90,13 +90,17 @@ async fn main() -> anyhow::Result<()> {
                 joinset.spawn(async move { (op, store.fetch_and_compare(op).await) });
             }
             while let Some(res) = joinset.join_next().await {
-                let (pi, res) = res?;
+                let (op, res) = res?;
                 match res {
                     Ok(comparison) => {
-                        println!("{comparison} diff: {}", comparison.diff());
+                        info!(
+                            %comparison,
+                            operator = op.name(),
+                            diff = comparison.diff()
+                        );
                     }
                     Err(err) => {
-                        error!(%err, ?pi, "failed");
+                        error!(%err, ?op, "failed");
                     }
                 }
             }
