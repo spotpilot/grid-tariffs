@@ -1,0 +1,84 @@
+
+Elnätspriser
+Elnätspriset består av kostnader för drift, underhåll och reinvestering av elnätet, överföring av el samt mätare och mätvärdesinsamling. Elnätspriser faktureras av elnätsföretaget Bodens Energi Nät AB.
+Priser 2025
+Säkringsanslutning
+
+Huvudsäkring ampere
+Elnät kr/år
+Överföring kr/kWh
+
+16A lägenhet
+2 420
+
+16A
+3 810
+0,2225
+
+20A
+9 100
+
+25A
+11 060
+
+35A
+15 110
+
+50A
+21 100
+
+63A
+26 500
+
+80A
+33 875
+
+100A
+42 145
+
+125A
+52 150
+
+160A
+66 310
+
+200A
+82 445
+
+Priser inkl. moms.
+Avgift till Elberedskapsmyndigheten, Elsäkerhetsverket och Nätmyndigheten ingår i priserna.
+Överföringsavgift ingår i elnätspriset förutom i 16A, där den faktureras separat.
+16A föreslås elnätsanläggning med förbrukning om högst 23 775 kWh.
+16A lägenhet förutsätter att fastigheten har en särskild fastighets elnätsanslutning och minst tre lägenhets elnätsanslutningar.
+Enfas anslutna lägenheter med mätarsäkring t.o.m. 25A faktureras som 16A lägenhet.
+Länk till prislista för elnät 2025
+/media/3lxlpxhg/elnat-prislista-2025.pdf
+Klicka här för att se fullständiga prislistan för elnät 2025
+Effektanslutning - företag
+
+Spänning
+Elnätspris
+per år
+Abonnerad effekt*
+pris per år
+Överuttag
+aktiv effekt**
+Överuttag
+reaktiv effekt**
+
+0,4 kV
+18 239 kr
+560 kr/kW
+1 120 kr/kW
+280 kr/kVAr
+
+22 kV
+32 406 kr
+346 kr/kW
+692 kr/kW
+173 kr/kVAr
+
+Priser exkl. moms.
+*Abonnerad effekt, antal kW enligt kunds avtal.
+** Överuttag faktureras i januari för föregående år.
+Myndighetsavgifter ingår i priserna.

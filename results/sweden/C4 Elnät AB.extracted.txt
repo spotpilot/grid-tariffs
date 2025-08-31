@@ -1,0 +1,132 @@
+
+Våra priser för elnätet privatkunder
+
+Nätavgiften avser kostnaden för överföring av el till ditt hem, samt drift och underhåll av elnätet.
+
+/privat/elnat/anslut-dig/
+Hur ansluter jag mig som privatkund?
+Elnätsavgiftens komponenter
+Elnätsavgiften består av en fast abonnemangsavgift och en rörlig överföringsavgift.
+Abonnemangsavgiften täcker drift och underhåll av elnätet. I den fasta avgiften ingår de tre statliga avgifterna, elberedskapsavgiften, elsäkerhetsavgiften och nätövervakningsavgiften.
+Den rörliga överföringsavgiften avspeglar kostnaden för den energi som transporteras genom elnätet. Överföringsavgiften täcker också upp kostnaden för nätförluster, det vill säga de energiförluster som uppstår vid överföringen genom elnätet.
+Energiskatten tillkommer.
+https://skatteverket.se/foretagochorganisationer/skatter/punktskatter/energiskatter/energiskattpael.4.15532c7b1442f256bae5e4c.html
+Läs mer om Energiskatt på Skatteverkets hemsida.
+Prislista för elnät
+Priser anges inkl. moms och myndighetsuppgifter
+
+Mätarsäkring Ampere (A)
+Gäller från och med
+2025-01-01
+Gäller från och med
+2025-07-01
+
+16 A Lägenhet
+2 600
+3 017
+
+16 A
+5 384
+6 273
+
+20 A
+7 378
+8 604
+
+25 A
+9 163
+10 691
+
+35 A
+13 310
+15 540
+
+50 A
+19 599
+22 893
+
+63 A
+25 793
+30 135
+
+80 A
+36 557
+42 720
+
+100 A
+51 122
+59 750
+
+125 A
+72 500
+84 745
+
+160 A
+97 865
+114 402
+
+200 A
+127 580
+149 144
+
+Rörlig överföringsavgift
+Avgiften består av en fast avgift och en procentandel av spotpriset per timme och räknas ut
+/privat/elnat/priser-villkor-avtal/formel-for-den-rorliga-overforingsavgiften/
+enligt denna formel
+.
+
+Du som ska ansluta en ny fastighet till vårt elnät behöver betala en
+/privat/elnat/avgifter/
+anslutningsavgift.
+Skillnaden mellan elnät och elhandel
+C4 Elnät äger elnätet i tätorterna Kristianstad och Åhus med omkringliggande bebyggelse. Du kan som kund inte välja ditt elnätsbolag utan det handlar om var du bor geografiskt. Däremot kan du själv välja vem du vill köpa din el ifrån.
+/privat/elavtal/
+Mer om elhandelsavtal
+.
+Ersättning vid inmatning
+Vid mikroproduktion och småskalig produktion ersätts du för den överskottsel som du matar in i elnätet. Läs mer om detta under
+/privat/elnat/priser-villkor-avtal/ersattning-for-overskottsel/
+ersättning för produktion
+.
+
+Elpris var 15:e minut
+
+Från och med den 1 okt 2025 ändras sättet för hur el prissätts på elmarknaden.
+/nyheter/kvartsvarde/
+Läs mer om justeringen här.
+
+Avtal och villkor
+
+Här hittar du de avtal och villkor som gäller för dig som privatkund hos C4 Elnät. Överföring av el sker enligt gällande tariffer och med tillämpning av Allmänna avtalsvillkor för anslutning av elektriska anläggningar till elnät och överföring av el till sådana anläggningar, NÄT 2012 K eller NÄT 2012 N.
+/globalassets/dokument/elnat/slutlig-nat-2012-k-rev-2_artikelnr-30631.pdf
+Allmänna avtalsvillkor
+/globalassets/dokument/elnat/tillampningsbestammelser-for-lagspanningsleveranser.pdf
+Tillämpningsbestämmelser för lågspänningsleveranser
+
+Statliga avgifter
+
+Fasta avgifter:
+
+Elberedskapsavgift 112,50 kr/år inkl. moms (90 kr/år exkl. moms)
+Elsäkerhetsavgift fr.o.m. 1 februari 2022, 13,88 kr/år inkl. moms (11,10 kr/år exkl. moms)
+Nätövervakningsavgift 5,44 kr/år inkl. moms (4,35 kr/år exkl. moms)
+
+Rörlig avgift:
+
+Energiskatt fr.o.m. 1 januari 2024, 53,50 öre/kWh inkl. moms (42,80 öre/kWh exkl. moms)
+Energiskatt fr.o.m. 1 januari 2025, 54,88 öre/kWh inkl. moms (43,9 öre/kWh exkl. moms)
+
+Välj rätt mätarsäkring
+
+Hur påverkar valet av mätarsäkring din elanläggning?
+Läs mer om
+/privat/elnat/valj-ratt-matarsakring/
+val av mätarsäkring
+.
+
+Avbrott och skadestånd
+
+Information om avbrottsersättning och skadestånd hittar du
+/privat/elnat/avbrott-atgarder-och-markarbeten/
+här
+.

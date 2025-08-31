@@ -1,0 +1,204 @@
+
+Din elnätsavgift
+
+/privat/
+Privat
+
+/privat/elnat/
+Elnät
+
+Din elnätsavgift
+
+Vi ansvarar för att elen når dig när du behöver den – från att lampan tänds till att bilen laddas. Om du är privatperson eller företag i Linköping eller Katrineholm med en säkring på 16-63 A består elnätsavgiften av tre delar. Elnätsavgiften används för att driva, underhålla och bygga ut elnätet så att det matchar samhällets behov av el, både idag och i framtiden.
+
+Din elnätsavgifts tre delar
+
+Rörlig effektavgift - baseras på medelvärdet av dina fem högsta effekttoppar på olika datum under en månad. Medelvärdet multipliceras med aktuell effektavgift. Effekttoppar, som mäts i kW, uppstår vid de tillfällen då du använder mycket el på samma gång.
+Rörlig överföringsavgift - baseras på hur mycket el du använder.
+Fast abonnemangsavgift - baseras på storleken på din huvudsäkring.
+
+Du som bor i lägenhet eller har en 1-fas-anslutning betalar i dagsläget ingen effektavgift.
+Effekttoppar mäts som timmedeleffekt
+Dina effekttoppar mäts som timmedeleffekt. Timmedeleffekt är snittet av den effekt du använder under en timme. Din elmätare mäter hela tiden aktuell effekt och räknar ut timmedeleffekten för varje timme.
+Jämna ut din elförbrukning och sänk kostnaden
+
+Du har möjlighet att påverka din kostnad. Det gör du genom att jämna ut din förbrukning över dygnet, i stället för att använda mycket el på samma gång. Du kan till exempel köra diskmaskinen först och tvättmaskinen efter. Då minskar du dina effekttoppar vilket gör att du får en lägre effektavgift.
+/privat/elnat/elnatsavgift/#paverka
+Fler tips på hur du kan påverka din kostnad
+
+javascript: Cookiebot.renew()
+Acceptera kakor (cookies)
+för att se innehållet.
+
+Nyhet! Sänk dina elnätskostnader med smart styrning
+Från 1 mars 2025 finns en ny, öppen och kostnadsfri
+datalösning –
+ett API – som hjälper dig att sänka dina elnätskostnader. På samma sätt som du idag kan styra dina smarta enheter baserat på elpris, kan du nu också ta hänsyn till elnätspriset. Det innebär att din elförbrukning från till exempel uppvärmning, elbilsladdare eller hushållsapparater automatiskt kan spridas ut över dygnet. På så sätt kapas dina effekttoppar.
+
+Vi har tagit fram
+API:et för elnätsavgifter
+tillsammans med Research Institutes of Sweden (RISE) och Göteborg energi.
+
+Vem kan använda tjänsten?
+
+Flera stora
+leverantörer
+som erbjuder
+energioptimering
+visar
+intresse för
+API:et
+, men när de kan erbjuda
+tjänsten
+till privatpersoner och företag
+varierar.
+Under våren 2025 kommer RISE att publicera vilka leverantörer som erbjuder smart styrning efter elnätspris på sin webb.
+https://xn--elntsavgift-n8a.se/tj%C3%A4nsteleverant%C3%B6rer.html
+Till listan över leverantörer (elnätavgift.se)
+
+Du kan också
+be din leverantör at
+t
+ta hänsyn till
+elnätspris
+et
+i
+din
+optimeringstjänst hos dem
+.
+Ju fler som frågar, desto snabbare händer det!
+Har du byggt en egen
+h
+ome
+assistant-lösning
+?
+https://api.tekniskaverken.net/subscription/public/v0/tariffs
+Hämta våra elnätspriser i maskinläsbart format (api.tekniskaverken.net)
+För teknisk information, besök
+https://github.com/RI-SE/Eltariff-API
+projektets GitHub (github.com)
+.
+
+Välj prislista
+
+Välj mellan två prislistor
+
+Prislistorna är anpassade efter olika sätt att använda el. Du blir automatiskt tilldelad prislista standard, men du har möjlighet att byta till prislista alternativ på Mina sidor om den passar dig och dina behov bättre.
+Prislista standard
+
+Passar dig som vill påverka din kostnad genom att använda mindre el och jämna ut din elförbrukning.
+Samma effektavgift (kr/kW) och överföringsavgift (öre/kWh) dygnet runt.
+Effektavgiften baseras på medelvärdet av dina 5 högsta effekttoppar med skilda datum under månaden.
+
+/kundservice/priser-avtal/priser-elnat-2025/#konsumtionsabonnemang
+Se prislista standard i Katrineholm
+/kundservice/priser-avtal/priser-elnat-2025/#konsumtionsabonnemang-lkpg
+Se prislista standard i Linköping
+Prislista alternativ
+
+Passar dig som vill och kan flytta mycket av din elförbrukning från dagen till natten. Du behöver själv vara engagerad i din elförbrukning, och det underlättar om du har tillgång till teknisk utrustning som gör att du kan styra den till specifika tider.
+Effektavgiften (kr/kW) och överföringsavgiften (öre/kWh) är olika på dag och natt.
+Effektavgiften baseras på månadens högsta effekttopp dagtid (klockan 06:00 till 23:00) och nattetid (klockan 23:00 till 06:00), alltså två effekttoppar.
+
+/kundservice/priser-avtal/priser-elnat-2025/#konsumtionsabonnemang
+Se prislista alternativ i Katrineholm
+/kundservice/priser-avtal/priser-elnat-2025/#konsumtionsabonnemang-lkpg
+Se prislista alternativ i Linköping
+
+Se din årskostnad och byt prislista på Mina sidor
+
+På Mina sidor hittar du en översikt över din elförbrukning och dina effekttoppar. Du hittar också din prisprognos och kan byta prislista. I prisprognosen ser du
+
+din uppskattade årskostnad. Den baseras på din elförbrukning de senaste 12 månaderna, din nuvarande huvudsäkring och aktuella priser.
+hur kostnaden skiljer sig mellan prislista standard och prislista alternativ.
+
+Lär känna din elförbrukning och se dina effekttoppar
+På Mina sidor ser du när du använder mest el och dina effekttoppar för de senaste 12 månaderna. Det ger dig koll på när du använder som mest el, så att du vet när du har störst möjlighet att påverka din kostnad.
+Hitta till din prisprognos och dina effekttoppar
+
+javascript: Cookiebot.renew()
+Acceptera kakor (cookies)
+för att se innehållet.
+
+Frågor och svar
+
+Påverka din kostnad
+
+Vad kan jag göra för att påverka min kostnad?
+
+Du har möjlighet att påverka din kostnad. Här får du 5 exempel på smarta åtgärder för att minska din kostnad:
+
+Lär känna din elförbrukning. Genom att få koll på när du använder som mest och minst el blir det också enklare för dig att göra förändringar för att kunna påverka din kostnad.
+/mina-sidor/el/
+Se din förbrukning och dina effekttoppar på Mina sidor
+Tänk på dygnets alla timmar. Elkonsumtionen i samhället har oftast sina toppar dagtid. Jämna ut din elförbrukning och gör skillnad genom att sätta på tvättmaskinen senare på kvällen och ladda elbilen på natten.
+Välj rätt prislista. Alla kunder blir tilldelad prislista standard, men du kan byta till prislista alternativ på Mina sidor om den passar dig och dina behov bättre.
+Se till att du inte har en för stor huvudsäkring.
+/mina-sidor/
+Logga in på Mina sidor
+för att se vilken huvudsäkring du har. Du kan också se det på din elnätsfaktura. Om du har en för stor huvudsäkring, byt till en mindre. Då minskar du din fasta abonnemangsavgift.
+/privat/elnat/valj-ratt-huvudsakring/
+Välj rätt huvudsäkring
+Stäng av det som inte behöver vara på. Minimera onödig förbrukning – exempelvis genom att hålla koll på temperaturen, släcka lampor där ingen är och låt inte elapparater stå i standby-läge.
+
+Hur kan jag följa min elförbrukning i realtid?
+
+Se din förbrukning med en realtidsmätare
+Med en realtidsmätare hemma kan du följa din elförbrukning i just realtid via mobil, dator eller surfplatta. Då kan du till exempel välja att få notiser om när din elförbrukning stiger och agera direkt.
+
+Aktivera elmätarens HAN-port. HAN-porten är en separat utgång på elmätaren dit du kan koppla utrustning. Du beställer aktivering av HAN-porten på Mina sidor. När vi har aktiverat den får du ett mejl från oss.
+Införskaffa en realtidsmätare och koppla in i HAN-porten. Du kan köpa en realtidsmätare hos vissa elhandlare och i butiker för hemelektronik. Den behöver vara kompatibel med din elmätare Aidon 6534.
+Nu kan du följa din elförbrukning i realtid via mobil, dator eller surfplatta. På så sätt får du bättre koll på när du använder som mest el och när du har möjlighet att minska din elförbrukning.
+
+Se din förbrukning direkt på elmätaren
+Du kan också gå fram till din elmätare när du har startat en elpryl för att se hur många kW som visas på skärmen. På så sätt kan du få en uppfattning om hur mycket effekt som går åt från olika prylar och hur det varierar beroende på hur många prylar som är igång samtidigt.
+
+Hur laddar jag smartast min elbil?
+
+javascript: Cookiebot.renew()
+Acceptera kakor (cookies)
+för att se innehållet.
+
+Om du laddar din elbil på hög effekt hemma kommer din kostnad att öka. Genom att ladda elbilen effektsmart kan du göra stor skillnad på din kostnad. Här får du 3 tips för att ladda bilen effektsmart.
+1. Ladda med lägre effekt under längre tid
+Långsam laddning belastar elnätet mindre, vilket minskar din effektavgift. Du kan med de flesta laddboxar och med elhandlares smartladdningsfunktioner anpassa när och med vilken maximal effekt din bil ska laddas. Det bästa är att ladda elbilen när du inte använder så mycket el till annat.
+Två exempel på laddbeteenden
+Person 1 (vänster) laddar elbilen snabbt med hög effekt, vilket leder till höga effekttoppar och därmed en högre effektavgift. Person 2 (höger) laddar långsammare under längre tid, vilket jämnar ut effekttopparna och minskar effektavgiften.
+2. Planera din laddning
+Planera laddningen för att undvika effekttoppar. Det bästa är att ladda bilen när du inte använder så mycket el till annat, vilket till exempel kan vara på natten.
+3. Välj rätt prislista
+Prislista alternativ har lägre avgifter för effekt- och energiuttag på natten, när elnätet är mindre belastat.
+/privat/elnat/elnatsavgift/#prislistor
+Välj rätt prislista
+Hur kombinerar jag lågt timpris med effektavgiften?
+På natten, oftast mellan 4 till 5 timmar i sträck, är både elnätet mindre belastat och elpriset lägre. Genom att ladda elbilen under dessa timmar sänker du dina effekttoppar och drar nytta av det lägre timpriset för el. För dig som väljer prislista alternativ är dessutom priset för effektavgift lägre på natten än på dagen.
+
+Elnätsavgiftens utformning
+
+Varför är elnätsavgiften utformad som den är?
+
+Vi behöver minska belastningen på elnätet för att det ska räcka till fler. 2024 gjorde vi om vår elnätsavgift och utformade en ny prismodell. När den utformades var fokus på att skapa en modell som fungerar för alla våra kunder. Samtidigt ska modellen uppmuntra till en beteendeförändring som matchar de lokala elnätens utmaningar.
+https://ei.se/om-oss/nyheter/2025/2025-01-30-nu-infor-manga-elnatsforetag-effektavgifter---det-har-behover-de-forhalla-sig-till
+Information om prismodellens utformning (energimarknadsinspektionen.se)
+
+Varför har ni en effektavgift?
+
+Vi använder el på nya sätt – elbilsladdning, solpaneler och batterilagring påverkar elnätet. Vi förbrukar inte mer el, men vi använder mer effekt samtidigt.
+Våra elnät är däremot inte byggda för att transportera så mycket el som behövs. En del av lösningen är att bygga ut och stärka upp elnäten, men vi behöver också hjälpas åt på andra sätt. Energimarknadsinspektionen har därför bestämt att alla elnätsföretag ska införa en effektavgift i elnätsavgiften. I praktiken innebär det att du får större möjlighet att påverka din kostnad genom att använda el på ett sätt som minskar belastningen på elnätet: jämnare under dygnet, i stället för mycket på samma gång.
+
+Relaterat innehåll
+
+/kundservice/priser-avtal/priser-elnat-2025/
+
+Priser och avtalsvillkor 2025
+Här ser du priser och avtalsvillkor för våra olika elnätstjänster i Katrineholm och Linköping 2025.
+
+/privat/elhandel/spara-el-hemma/
+
+Spara el hemma
+Hur hittar man energitjuvar hemma och vad är egentligen en normal elförbrukning? Här kan du läsa mer om det och få tips om hur du med enkla medel kan spara både pengar och energi.
+
+/privat/elnat/kilowatt-och-kilowattimme/
+
+Vad räcker en kilowattimme till?
+Vet du hur mycket el din morgondusch drar? Eller hur stor energibov handdukstorken egentligen är? Djupdyk i elförbrukning och hur långt en kWh räcker för vanliga elprylar i hemmet.

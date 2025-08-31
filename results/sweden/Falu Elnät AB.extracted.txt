@@ -1,0 +1,362 @@
+
+/
+Startsida
+
+/el.html
+El
+
+/el/elnat.html
+Elnät
+
+Elnätspriser privat
+
+Elnätspriser för privatkunder
+Elnätsavgiften varierar beroende på vilken säkring du har. Här hittar du våra elnätsavgifter för olika säkringsabonnemang. Du kan också se anslutningsavgifter och avgifter för tillfällig elanslutning.
+För att kunna använda el behöver du också teckna ett elavtal med ett elhandelsbolag, till exempel Falu Energi & Vatten.
+Elnätspriset består av två delar:
+Abonnemangsavgift
+Avgiften varierar beroende på anläggningens huvudsäkring. Se tabell under "Säkringsabonnemang" nedan.
+Elöverföringsavgift
+Avgiften varierar beroende på antalet kWh som överförs från elnätet till din anläggning. Se tabell under "Säkringsabonnemang" nedan.
+Dessutom tillkommer statlig energiskatt på elnätsfakturan med aktuell skattesats. Den är inget vi styr över eller kan påverka.
+Säkringsabonnemang
+Dessa priser gäller från januari 2024. Nya priser kommer i november 2025.
+I din bostad finns en huvudsäkring, som är olika stor beroende på hur pass elkrävande utrustning du använder. De allra flesta villor och lägenheter har säkringar mellan 16 och 25 ampere.
+Abonnemangsavgift
+Säkringsstorlek
+Avgift för abonnemang
+kr per månad
+Avgift för överföring
+öre per kWh
+Lägenhet 16 A*
+150
+15
+16 A
+400
+15
+20 A
+520
+15
+25 A
+650
+15
+35 A
+890
+15
+50 A
+1 235
+15
+63 A
+1 565
+15
+Energiskatt tillkommer med 54,875 öre/kWh inkl moms.
+*Lägenhet tillämpas endast för lägenheter i flerbostadshus där byggnaden har ett eget abonnemang med lägst 16A. Med flerbostadshus menas hus med minst tre lägenheter, dock inte kedjehus, radhus eller liknande sammanbyggda hus.
+
+Ny elanslutning
+Vid ny anslutning betalar du en avgift som beräknas utifrån servissäkringens storlek och avståndet till närmsta anslutningspunkt i befintligt nät (fågelvägen). Se nedanstående tabeller.
+Är du osäker på vad som gäller för dig så kan du alltid begära en offert genom att kontakta vår kundtjänst,
+tel:023-774900
+023-77 49 00.
+Avgifterna gäller från 1 januari 2025 och är inklusive moms.
+Avgift för elanslutning 16–25 A
+Avstånd till anslutningspunkt
+Avgift
+0–200 meter
+54 125 kr
+200–600 meter
+54 125 kr + 463,75 kr/m
+600–1200 meter
+239 625 kr + 1126,25 kr/m
+1200–1800 meter
+913 375 kr + 630 kr/m
+Över 1800 meter
+Separat offert lämnas
+Avgifter för elanslutning >25 A, Lågspänning
+Säkring
+Avgift min*
+35A
+67 700 kr
+50–63 A
+85 200 kr
+* För anslutningar över 25 A där kabelsträckan till närmaste anslutningspunkt är över 50 meter lämnas offert. Kontakta vår kundjänst,
+tel:023-774900
+023-77 49 00
+.
+I anslutningsavgiften ingår inte grävning på den egna fastighetens mark. Vi tillhandahåller det material som behövs som till exempel serviskabel, slang och märkband.
+
+Tillfällig elanslutning
+Tillfällig elanslutning innebär anslutning en kortare period, till byggström och event, och tillåts i max 12 månader.
+Efter beställning kan det ta upp till två veckor innan byggström kan kopplas in.
+Observera att vår avlämningspunkt är max fem meter från befintligt skåp, station eller stolpe.
+Vi begränsar tidsperioden till 12 månader eftersom den tillfälliga elanslutningen inte uppfyller samma elsäkerhetskrav som en permanent anslutning.
+Engångsavgift för tillfällig elanslutning
+Avgift
+Tillfällig anslutning max 25 A
+4 500 kr
+Tillfällig anslutning max 63 A
+5 625 kr
+Abonnemangsavgift
+Säkringsstorlek
+Avgift för abonnemang
+kr per månad
+Avgift för överföring
+öre per kWh
+Max 25 A
+715*
+16,50
+Max 63 A
+1 700*
+16,50
+Avgifterna gäller från 1 januari 2025 och är inklusive moms.
+*) Efter 12 månader tillkommer 875 kronor per månad.
+
+Övriga priser
+Engångsavgift vid ändring av befintlig servis
+Servis innebär den ledning som förbinder en kunds anläggning med vårt elnät. Vill du ändra befintlig servis kostar det 7 700 kronor, om det rör sig om mindre än 10 meter kabel. I övriga fall lämnas offert.
+Vid ett mindre kopplingsarbete utan kabel är avgiften 3000 kronor.
+Om mätaren sitter inomhus idag och ändringen medför att vi kommer åt elmätaren utifrån så minskar vi avgiften.
+Engångsavgift vid extra besök
+Om vi behöver göra extrabesök orsakade av dig som kund eller din installatör så förbehåller vi oss rätten att debitera våra faktiska kostnader.
+Uppsäkring
+Om du vill säkra upp till en ny säkringsnivå tar vi ut en avgift för ökningen, eftersom din användning av elnätet ökar, se tabell nedan.
+Om uppsäkringen innebär att kabel behöver bytas tillkommer även kostnad för det arbetet, då behöver du kontakta oss för offert.
+Avgifter för uppsäkring (inklusive moms)
+Ny säkring
+Tidigare 16-25 A
+Tidigare 35A
+35A
+13 950 kr
+-
+50–63 A
+31 450 kr
+17 500 kr
+Delning av abonnemang
+Om du som fastighetsägare vill utöka med flera abonnemang i din fastighet tar vi en avgift på 3 750 kr/abonnemang inkl moms.
+Inget av abonnemangen får ha högre huvudsäkring än befintlig servissäkring och de måste ligga inom samma fastighet. Om något av abonnemangen skulle behöva större huvudsäkring än servissäkringen så måste en utökning ske.
+Du behöver anlita en elinstallatör som sköter arbetet och anmäler till oss.
+
+Avtalsvillkor
+/download/18.52358dcb169d83420185f83/1566991560852/Allm%C3%A4nna%20avtalsvillkor%20eln%C3%A4t%20privatperson.pdf
+Allmänna avtalsvillkor vid elnätsanslutning för privatpersoner (pdf)
+/sitevision/file-icons.svg#file-pdf
+pdf, 245.1 kB, öppnas i nytt fönster.
+Priser elnät företagare
+/el/elnat/elnatspriser-foretag.html
+Här hittar du priserna om du är företagare
+
+Frågor och kontakt
+Om du har frågor är du varmt välkommen att
+/om-oss/kontakta-oss.html
+kontakta vår kundtjänst
+.
+
+Mer information
+
+javascript:void(window.open('/download/18.52358dcb169d83420185f87/1566991560904/Produktblad%20el%20S%C3%A4kringsabonnemang.pdf','_blank','toolbar=1,location=1,status=1,menubar=1,scrollbars=1,resizable=1'));
+
+Säkringsabonnemang
+(pdf, 40.9 kB)
+
+Dela sidan
+
+https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffev.se%2Fel%2Felnat%2Felnatspriser-privat.html
+
+Facebook
+
+https://twitter.com/intent/tweet?text=&url=https%3A%2F%2Ffev.se%2Fel%2Felnat%2Felnatspriser-privat.html
+
+Twitter
+
+https://www.linkedin.com/shareArticle?url=https%3A%2F%2Ffev.se%2Fel%2Felnat%2Felnatspriser-privat.html
+
+LinkedIn
+
+mailto:?subject=Eln%C3%A4tspriser%20privat&body=https%3A%2F%2Ffev.se%2Fel%2Felnat%2Felnatspriser-privat.html
+
+E-post
+
+#sharepage
+
+Dela
+
+Uppdaterad:
+22 augusti 2025
+
+/om-oss/om-webbplatsen/tyck-till-om-webbplatsen.html?nodeid=4.6f75f7f31692e19e00310c87
+Tyck till om webbplatsen
+
+/foretag.html
+Företag
+/el.html
+El
+/el/elavtal.html
+Elavtal
+/el/elnat.html
+Elnät
+/el/elnat/anslut-till-elnatet.html
+Anslut till elnätet
+/el/elnat/elnatspriser-privat.html
+Elnätspriser privat
+/el/elnat/elnatspriser-foretag.html
+Elnätspriser företag
+/el/elnat/effektavgift.html
+Effektavgift
+/el/elnat/energitjansteforetag-priser.html
+Energitjänsteföretag priser
+/om-oss/kontakta-oss/nar-du-ska-grava-och-falla-trad.html
+När du ska gräva och fälla träd
+/el/elnat/for-dig-som-ar-elinstallator.html
+För dig som är elinstallatör
+/el/elnat/din-elmatare.html
+Din elmätare
+/el/elnat/rapporter-och-planer.html
+Rapporter och planer
+/el/elnat/vara-elnats-projekt.html
+Våra elnäts-projekt
+/el/el-vid-storningar-och-kris.html
+El vid störningar och kris
+/el/sa-fungerar-elmarknaden.html
+Så fungerar elmarknaden
+/el/ladda-elbilen.html
+Ladda elbilen
+/varme--kyla.html
+Värme & kyla
+/varme--kyla/fjarrvarme.html
+Fjärrvärme
+/varme--kyla/fjarrkyla-foretag.html
+Fjärrkyla företag
+/vatten--avlopp/sms-om-driftstorning.html
+SMS om driftstörning
+/varme--kyla/pellets.html
+Pellets
+/varme--kyla/mat--och-tillaggstjanster-foretag.html
+Mät- och tilläggstjänster företag
+/om-oss/kontakta-oss/nar-du-ska-grava-och-falla-trad.html
+När du ska gräva och fälla träd
+/vatten--avlopp/dagvatten/bergvarme-och-dagvatten.html
+Bergvärme och dagvatten
+/varme--kyla/vara-varme--och-kylaprojekt.html
+Våra värme- och kylaprojekt
+/stadsnat.html
+Stadsnät
+http://www.falustadsnat.se/serviceguide
+Beställ tjänst i stadsnätet
+/sitevision/link-icons.svg#link-external
+Länk till annan webbplats.
+/stadsnat/avtal-och-priser-villa.html
+Avtal och priser villa
+/stadsnat/avtal-och-priser-foretag.html
+Avtal och priser företag
+/stadsnat/intresseanmalan-stadsnat.html
+Intresseanmälan stadsnät
+/stadsnat/sa-ansluter-du.html
+Så ansluter du
+/stadsnat/utbyggnad-av-falu-stadsnat.html
+Utbyggnad av Falu stadsnät
+/stadsnat/darfor-ska-du-valja-falu-stadsnat.html
+Därför ska du välja Falu stadsnät
+/stadsnat/flytta-anslutningsbox.html
+Flytta anslutningsbox
+/stadsnat/forandringsbegaran-foretag.html
+Förändringsbegäran företag
+/om-oss/kontakta-oss/nar-du-ska-grava-och-falla-trad.html
+När du ska gräva
+/stadsnat/vattentemperatur-badplats.html
+Vattentemperatur badplats
+/stadsnat/kurbit.html
+Kurbit
+/stadsnat/vara-stadsnatsprojekt.html
+Våra Stadsnätsprojekt
+/stadsnat/post--och-telestyrelsen-pts.html
+Post- och telestyrelsen (PTS)
+/vatten--avlopp.html
+Vatten & avlopp
+/vatten--avlopp/dricksvatten.html
+Dricksvatten
+/vatten--avlopp/avlopp.html
+Avlopp
+/vatten--avlopp/dagvatten.html
+Dagvatten
+/vatten--avlopp/va-ledningar.html
+VA-ledningar
+/vatten--avlopp/vattenmatare.html
+Vattenmätare
+/vatten--avlopp/anslut-till-vatten-och-avlopp.html
+Anslut till vatten och avlopp
+/vatten--avlopp/vatten-vid-storningar-och-kris.html
+Vatten vid störningar och kris
+/vatten--avlopp/hallbar-vattenanvandning.html
+Hållbar vattenanvändning
+/vatten--avlopp/pris-for-vatten-och-avlopp.html
+Pris för vatten och avlopp
+/vatten--avlopp/sms-om-driftstorning.html
+SMS om driftstörning
+/vatten--avlopp/lamna-kundanmarkning.html
+Lämna kundanmärkning
+/om-oss/kontakta-oss/nar-du-ska-grava-och-falla-trad.html
+När du ska gräva och fälla träd
+/vatten--avlopp/for-dig-som-ar-entreprenor-inom-va.html
+För dig som är entreprenör inom VA
+/vatten--avlopp/vara-va-projekt.html
+Våra VA-projekt
+/atervinning.html
+Återvinning
+/atervinning/sophamtning.html
+Sophämtning
+/atervinning/atervinningscentraler.html
+Återvinningscentraler
+/atervinning/atervinningsstationer.html
+Återvinningsstationer
+/atervinning/narsorterat-i-falun.html
+Närsorterat i Falun
+/atervinning/sopsortering.html
+Sopsortering
+/atervinning/slamtomning-och-latrin.html
+Slamtömning och latrin
+/atervinning/forsaljning-av-sand-jord-grus.html
+Försäljning av sand, jord, grus
+/atervinning/pris-for-sophamtning.html
+Pris för sophämtning
+/atervinning/foreskrifter-och-plan-for-avfallshantering.html
+Föreskrifter och plan för avfallshantering
+/atervinning/avfallshantering-for-foretag.html
+Avfallshantering för företag
+/atervinning/vara-atervinningsprojekt.html
+Våra återvinningsprojekt
+/om-oss.html
+Om oss
+/om-oss/kontakta-oss.html
+Kontakta oss
+/om-oss/om-foretaget.html
+Om företaget
+/om-oss/hallbarhet.html
+Hållbarhet
+/om-oss/nyheter-och-press.html
+Nyheter och press
+/om-oss/driftinformation.html
+Driftinformation
+/om-oss/tjanster-vid-evenemang.html
+Tjänster vid evenemang
+/om-oss/sponsring.html
+Sponsring
+/om-oss/jobba-hos-oss.html
+Jobba hos oss
+/om-oss/sa-funkar-det.html
+Så funkar det
+/om-oss/upphandlingar.html
+Upphandlingar
+/om-oss/auktorisationsavtal.html
+Auktorisationsavtal
+/om-oss/projekt---alla-samlade.html
+Projekt - alla samlade
+/om-oss/avtalsvillkor---alla-samlade.html
+Avtalsvillkor - alla samlade
+/om-oss/hantering-av-personuppgifter.html
+Hantering av personuppgifter
+/om-oss/kamerabevakning.html
+Kamerabevakning
+/om-oss/om-webbplatsen.html
+Om webbplatsen
+
+#
+Till toppen av sidan

@@ -1,0 +1,66 @@
+
+Säkringsabonnemang upp till 63A
+Säkringsabonnemang är för privatkunder med huvudsäkring till och med 63 A. Elnätsavgiften består av flera olika delar, som är både fasta och rörliga. Den fasta delen bestäms av huvudsäkringens storlek och avgiften är densamma varje månad. Den rörliga delen påverkas av hur mycket el du förbrukar och är uppdelade på två olika avgifter. En statisk avgift som inte varierar över tid, samt en avgift som påverkas av spotprisets nivå. Utöver elnätsavgiften betalar du även för energiskatt. Samtliga priser är inklusive moms.
+Elnätsavgift
+Samtliga priser är inklusive moms och gäller från den 1 januari 2025, tillsvidare.
+
+Mätarsäkring
+Fast avgift per månad
+Rörlig avgift per kWh
+Rörlig avgift spot per kWh*
+Effektavgift per kW
+
+Lägenhet
+156 kr
+49,5 öre
+7,70 % x spot
+0 kr
+
+16 A
+345 kr
+31,6 öre
+7,70 % x spot
+0 kr
+
+20 A
+476 kr
+31,6 öre
+7,70 % x spot
+0 kr
+
+25 A
+643 kr
+31,6 öre
+7,70 % x spot
+0 kr
+
+35 A
+1 009 kr
+31,6 öre
+7,70 % x spot
+0 kr
+
+50 A
+1 520 kr
+31,6 öre
+7,70 % x spot
+0 kr
+
+63 A
+2 010 kr
+31,6 öre
+7,70 % x spot
+0 kr
+
+*Rörlig avgift spot per kilowattimme beräknas genom att 7,70 procent multipliceras med spotprisets månadsmedel i öre per kilowattimme för elområde SE4. Kostnadsberäkningen utförs på följande sätt: (0,0770 x spotpriset) x (din elförbrukning).
+/el/spotpriser/manadsmedelvarde/
+Spotprisets månadsmedel
+Statliga avgifter som ingår i elnätsavgiften
+I elnätsavgiften ingår elsäkerhetsavgift, nätövervakningsavgift samt elberedskapsavgift. Samtliga avgifter är statliga och du kan läsa mer om avgifterna på
+https://www.elsakerhetsverket.se/om-oss/avgifter/
+elsakerhetsverket.se
+.
+https://www.elsakerhetsverket.se/om-oss/avgifter/
+Avgifter | Elsäkerhetsverket (elsakerhetsverket.se)
+Energiskatt
+Energiskatten är för närvarande 54,875 öre per kWh inklusive moms.

@@ -1,0 +1,194 @@
+
+/elnat
+Elnät
+
+/elnat/din-elmatare
+Din elmätare
+
+/elnat/effektavgift-for-elnatet
+Effektavgift för elnätet
+
+/elnat/egen-elproduktion
+Egen elproduktion
+
+/elnat/helt-och-sakert-elnat
+Helt och säkert elnät
+
+/elnat/ny-elanslutning
+Ny elanslutning
+
+/elnat/stromavbrott
+Strömavbrott
+
+/elnat/tillfallig-elanslutning
+Tillfällig elanslutning
+
+/elnat/vad-kostar-elnatet
+Vad kostar elnätet?
+
+/elnat/andra-elanslutning
+Ändra elanslutning
+
+/kontakta-oss
+Kundservice
+
+/om-oss
+Om Borlänge Energi
+
+/kontakta-oss/priser
+Priser
+
+/kontakta-oss/driftinformation
+Driftinformation
+
+/kontakta-oss
+Vanliga frågor
+
+/
+Borlänge Energi
+/
+/elnat
+Elnät
+/
+Vad kostar elnätet?
+
+Allt om elnätsavgiften
+Avgiften för elnätet justeras normalt en gång per år för alla boende i Borlänge. Den senaste ändringen skedde den 1 januari 2025.
+De nya priserna har flera orsaker, men främst handlar höjningen om höga elpriser på marknaden och allmän kostnadsökning.
+Vad består elnätsavgiften av?
+Oavsett om du bor i villa eller lägenhet har du i regel ett elnätsabonnemang som utgår från storleken på din huvudsäkring. Du betalar då en
+fast avgift baserad på säkringen, elöverföringsavgift för transporten av el genom ledningarna till din bostad samt energiskatt.
+Fast avgift
+Elöverföringsavgift
+Energiskatt
+Genom att vara aktiv och se över din egen förbrukning kan du sänka dina kostnader.
+/om-oss/pa-gang/arkiv/2022-09-13-10-enkla-tips-till-sankt-energiforbrukning
+Se våra energispartips
+Verksamheter eller större fastigheter kan ha abonnemang baserade på en effekttariff. Senast den 1 januari 2027 kommer även samtliga privatabonnenter att ha en
+/elnat/effektavgift-for-elnatet
+effekttariff i sin elnätsavgift
+.
+/foretagochbrf/elnat/elnatspriserochavtalsvillkor.4.5b2e7ec21942814fd4c11cd0.html
+Läs mer om effekttariffen för företag och BRF
+
+Elnätspriser 2025
+Elnätsavgifter för säkringstariff 2025
+Säkringsstorlek
+Priser
+Elöverföring
+16 Ampere (lägenhet*)
+1 175 kronor per år
+32,5 öre per kilowattimme
+16 Ampere
+2 100 kronor per år
+32,0 öre per kilowattimme
+20 Ampere
+2 550 kronor per år
+31,0 öre per kilowattimme
+25 Ampere
+3 100 kronor per år
+29,5 öre per kilowattimme
+35 Ampere
+4 025 kronor per år
+29,5 öre per kilowattimme
+50 Ampere
+4 775 kronor per år
+29,5 öre per kilowattimme
+63 Ampere
+6 050 kronor per år
+29,5 öre per kilowattimme
+*Tariff 16 Ampere gäller enbart för lägenheter i flerbostadshus (tre lägenheter eller fler) med huvudsäkring 16 eller 20 A.
+*Priserna gäller från och med 2025-01-01. En energiskatt om 54,9 öre per kilowattimme (inklusive moms) tillkommer, liksom kostnaderna från din elhandelsleverantör.
+
+Avtalsvillkor
+
+/kontakta-oss/priser/elnatsavgift-for-privatpersoner
+Hitta våra allmänna avtalsvillkor för elnät
+
+Vanliga frågor om elnätsavgiften
+
+#svid10_22f42bdb1885422597f2c79c
+Vem äger husets huvudsäkring, huvudbrytare och mätarskåp?
+
+Fastighetsägaren äger:
+Mätarskåp
+Huvudbrytare
+Huvudsäkringar
+Borlänge Energi äger elmätare och anslutande ledning till fastigheten.
+/download/18.bec0abd1772617b91731f4/1611757193638/agograns_bilaga_1706.pdf
+Läs mer om ägogränser
+/sitevision/file-icons.svg#file-pdf
+pdf, 1.4 MB.
+
+#svid10_22f42bdb1885422597f2c79f
+Kan jag öka eller minska min säkringstariff?
+
+Ja, du kan både minska och öka din säkringstariff.
+/elnat/andra-elanslutning
+Läs mer om hur du ändrar elanläggningen.
+
+#svid10_65e597ef18adcc791d72a011
+Priser för effekttariff
+
+Elnätspriser 2025
+Överuttag av abonnerad effekt debiteras månadsvis med kostnad enligt ovanstående prislista. Det beräknas utifrån hur mycket högsta timvärdet per kalendermånad överstiger abonnerad effekt.
+Reaktiv effekt debiteras månadsvis för den del som överstiger 50 procent av den abonnerade effekten.
+Priserna gäller från och med 2025-01-01. En energiskatt om 43,9 öre per kilowattimme (exklusive moms) tillkommer, liksom kostnaderna från din elhandelsleverantör.
+Elnätsavgift utifrån effekt
+Tariff
+0,4 kilovolt
+10 kilovolt
+Gäller enhet
+Fast nätavgift
+9 200
+11 600
+Kronor per år
+Abonnemangsavgift
+178
+165
+Kronor per kilowatt och år
+Överuttag årseffekt
+52
+52
+Kronor per kilowatt och månad
+Fritt reaktivt uttag
+50
+50
+Procent
+Överuttag reaktiv
+25
+20
+Kronor per kilovoltampere reaktiv och månad
+Elöverföring
+15,5
+11,1
+Öre per kilowattimme
+Elnätsavgifter för säkringstariff 2025
+Säkringsstorlek
+Priser
+Elöverföring
+16 Ampere (lägenhet*)
+940 kronor per år
+26,0 öre per kilowattimme
+16 Ampere
+1 680 kronor per år
+25,6 öre per kilowattimme
+20 Ampere
+2 040 kronor per år
+24,8 öre per kilowattimme
+25 Ampere
+2 480 kronor per år
+23,6 öre per kilowattimme
+35 Ampere
+3 220 kronor per år
+23,6 öre per kilowattimme
+50 Ampere
+3 820 kronor per år
+23,6 öre per kilowattimme
+63 Ampere
+4 840 kronor per år
+23,6 öre per kilowattimme
+*Tariff 16 Ampere lägenhet gäller enbart för lägenheter i flerbostadshus (tre lägenheter eller fler) med huvudsäkring 16 eller 20 Ampere.
+
+/elnat/vad-kostar-elnatet.printable
+Skriv ut
