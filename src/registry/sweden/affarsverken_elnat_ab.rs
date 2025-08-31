@@ -13,7 +13,7 @@ pub const AFFÄRSVERKEN_ELNÄT_AB: GridOperator = GridOperator::builder()
     .other_fees(OtherFees::Unverified)
     .links(Links::new(
         Link::builder("https://www.affarsverken.se/elnat/elnatspriser/privatkund/")
-            .plain_content_locator("main")
+            .content_locator_default()
             .build(),
     ))
     // .power_tariff(PowerTariff::new(

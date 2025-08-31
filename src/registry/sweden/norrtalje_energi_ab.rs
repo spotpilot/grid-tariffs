@@ -13,7 +13,7 @@ pub const NORRTÄLJE_ENERGI_AB: GridOperator = GridOperator::builder()
     .other_fees(OtherFees::Unverified)
     .links(Links::new(
         Link::builder("https://www.norrtaljeenergi.se/elnat/elnatspriser-elpriser/")
-            .plain_content_locator("main")
+            .plain_content_locator(".price-slider")
             .build(),
     ))
     // .power_tariff(PowerTariff::new(

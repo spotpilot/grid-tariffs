@@ -80,11 +80,16 @@ pub enum ContentTarget {
 pub struct ContentLocator {
     method: LocatorMethod,
     content: ContentTarget,
+    uses_default_locator: bool,
 }
 
 impl ContentLocator {
     pub(crate) const fn new(method: LocatorMethod, content: ContentTarget) -> Self {
-        Self { method, content }
+        Self {
+            method,
+            content,
+            uses_default_locator: false,
+        }
     }
 
     pub const fn method(&self) -> &LocatorMethod {
@@ -100,13 +105,13 @@ impl ContentLocator {
         target_container: TargetContainer,
         content: ContentTarget,
     ) -> ContentLocator {
-        Self {
-            method: LocatorMethod::TextStartsWith {
+        Self::new(
+            LocatorMethod::TextStartsWith {
                 needle,
                 target_container,
             },
             content,
-        }
+        )
     }
 }
 
@@ -173,6 +178,15 @@ impl LinkBuilder {
             LocatorMethod::CssSelector(css_selector),
             ContentTarget::TextWithLinks,
         ));
+        self
+    }
+
+    pub(crate) const fn content_locator_default(mut self) -> Self {
+        self.content_locator = Some(ContentLocator {
+            method: LocatorMethod::CssSelector("main"),
+            content: ContentTarget::TextWithLinks,
+            uses_default_locator: true,
+        });
         self
     }
 

@@ -13,7 +13,7 @@ pub const KUNGÄLV_ENERGI_AB: GridOperator = GridOperator::builder()
     .other_fees(OtherFees::Unverified)
     .links(Links::new(
         Link::builder("https://www.kungalvenergi.se/elnat/priser-for-elnat-2025/")
-            .plain_content_locator("main")
+            .plain_content_locator(".mainbody")
             .build(),
     ))
     // .power_tariff(PowerTariff::new(

@@ -1,0 +1,222 @@
+
+Priser och avtalsvillkor
+
+Prislistan gäller från 2025-01-01
+Mervärdesskatt (moms) är för närvarande 25 %. Beloppen är avrundade.
+Lägenhet 16 A
+
+Fast nätavgift
+kr/år
+Rörlig nätavgift
+öre/kWh
+
+Lägenhet
+3 000
+18,90
+
+/Vara-tjanster/elnat/priser-och-avtalsvillkor/lagenhetsabonnemang/
+Via denna länk kan du läsa mer om vad ett lägenhetsabonnemang innebär
+
+Effekttariff säkringsstorlek 16-25 A
+
+Fast nätavgift
+kr/år
+Rörlig nätavgift
+öre/kWh
+Effektavgift
+året runt
+kr/kW
+Effektavgift hög
+(nov-mars) kr/kW
+
+16 A
+2 375
+18,90
+51,45
+87,54
+
+20 A
+3 438
+18,90
+51,45
+87,54
+
+25 A
+5 875
+18,90
+51,45
+87,54
+
+Effekttariff säkringsstorlek 35-63 A
+
+Fast nätavgift
+kr/år
+Rörlig nätavgift
+öre/kWh
+Effektavgift
+året runt
+kr/kW
+Effektavgift hög
+(nov-mars) kr/kW
+
+Ex moms
+Ink moms
+Ex moms
+Ink moms
+Ex moms
+Ink moms
+Ex moms
+Ink moms
+
+35 A
+6 684
+8 355
+15,12
+18,90
+41,16
+51,45
+70,04
+87,54
+
+50 A
+9 444
+11 805
+15,12
+18,90
+41,16
+51,45
+70,04
+87,54
+
+63 A
+12 239
+15 299
+15,12
+18,90
+41,16
+51,45
+70,04
+87,54
+
+Lågspänning, effekt (80 A och uppåt)
+
+Specifikation
+Avgift
+
+Ex moms
+Ink moms
+
+Fast nätavgift, kronor/år
+14 280
+17 850
+
+Rörlig nätavgift, öre/kWh
+15,12
+18,90
+
+Effektavgift, kr/kW (året runt)
+41,16
+51,45
+
+Effektavgift hög, kr/kW (nov-mars)
+70,04
+87,54
+
+Vilande abonnemang
+
+Specifikation
+Avgift, kronor/år
+
+Ex moms
+Ink moms
+
+Vilande abonnemang
+800
+1 000
+
+Om du har ett pågående abonnemang där ingen el behövs under en tid kan du byta till ett vilande abonnemang. Årsavgiften är 1000 kronor inklusive moms per år och ingen energiförbrukning är tillåten. Ett vilande abonnemang måste löpa minst ett år och kan löpa max fem år. Helårsavgift tas ut även om abonnemanget återaktiveras i förtid. Vid återanslutning efter fem år ses det som nyanslutning enligt då gällande taxa.
+Gemensamma avgifter för lågspänning
+
+Specifikation
+Avgift, kronor/år
+
+Ex moms
+Ink moms
+
+Elberedskapsavgift till beredskapsmyndigheten
+90,00
+112,50
+
+Elsäkerhetsavgift till Elsäkerhetsverket
+11,10
+13,88
+
+Nätövervakningsavgift
+4,35
+5,43
+
+Högspänning
+
+Specifikation
+Avgift, kronor/år
+
+Ex moms
+Ink moms
+
+Fast nätavgift, kr/år
+26 140
+32 675
+
+Rörlig nätavgift, öre/kWh
+6,51
+8,14
+
+Effektavgift, kr/kW (året runt)
+35,07
+43,84
+
+Effektavgift hög, kr/kW (nov-mars)
+55,55
+69,43
+
+Elberedskapsavgift till Beredskapsmyndigheten, kr/år
+4 897
+6121,25
+
+Elsäkerhetsavgift till Elsäkerhetsverket, kr/år
+905
+1 131
+
+Nätövervakningsavgift, kr/år
+870
+1 088
+
+/Vara-tjanster/elnat/priser-och-avtalsvillkor/hogspanningsavtal/
+Via denna länk hittar du mer information om högspänningsavtal
+Prislita för tillgängliggörande av mätvärden
+Priser gäller för energitjänsteföretag och andra berättigade parter som har tecknat avtal om tillgängliggörande av mät- och förbrukningsuppgifter.
+
+Tjänst
+Frekvens
+Avgift, kronor
+exkl moms
+
+Begäran av tillgång till mätresultat
+Engångsavgift,
+per anläggning
+32
+
+Avslut överföring till mätresultat
+Engångsavgift,
+per anläggning
+16
+
+Begäran historiska mätresultat
+Engångsavgift,
+Per anläggning
+64
+
+Tillgång till mätresultat
+Månadsvis,
+per anläggning
+2,25

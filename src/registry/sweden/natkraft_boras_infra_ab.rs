@@ -13,7 +13,7 @@ pub const NÄTKRAFT_BORÅS_INFRA_AB: GridOperator = GridOperator::builder()
     .other_fees(OtherFees::Unverified)
     .links(Links::new(
         Link::builder("https://natkraftboras.se/elnat/elnatsavtal/priser/")
-            .plain_content_locator("main")
+            .content_locator_default()
             .build(),
     ))
     // .power_tariff(PowerTariff::new(

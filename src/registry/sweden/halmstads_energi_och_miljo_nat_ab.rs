@@ -13,7 +13,7 @@ pub const HALMSTADS_ENERGI_OCH_MILJÖ_NÄT_AB: GridOperator = GridOperator::buil
     .other_fees(OtherFees::Unverified)
     .links(Links::new(
         Link::builder("https://www.hem.se/elnat/avtal-och-priser")
-            .plain_content_locator("main")
+            .content_locator_default()
             .build(),
     ))
     // .power_tariff(PowerTariff::new(

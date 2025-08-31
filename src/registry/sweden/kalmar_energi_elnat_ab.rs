@@ -13,7 +13,7 @@ pub const KALMAR_ENERGI_ELNÄT_AB: GridOperator = GridOperator::builder()
     .other_fees(OtherFees::Unverified)
     .links(Links::new(
         Link::builder("https://kalmarenergi.se/foretag/el/elnat/elnatsavgifter/")
-            .plain_content_locator("main")
+            .content_locator_default()
             .build(),
     ))
     // .power_tariff(PowerTariff::new(

@@ -15,7 +15,7 @@ pub const KARLSKOGA_ELNÄT_AB: GridOperator = GridOperator::builder()
         Link::builder(
             "https://www.karlskogaenergi.se/Vara-tjanster/elnat/priser-och-avtalsvillkor/",
         )
-        .plain_content_locator("main")
+        .plain_content_locator("#mainContent")
         .build(),
     ))
     // .power_tariff(PowerTariff::new(

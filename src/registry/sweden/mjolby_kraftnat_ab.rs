@@ -13,7 +13,7 @@ pub const MJÖLBY_KRAFTNÄT_AB: GridOperator = GridOperator::builder()
     .other_fees(OtherFees::Unverified)
     .links(Links::new(
         Link::builder("https://www.mse.se/kundservice/priser-och-avtal/priser-elnat-2025/")
-            .plain_content_locator("main")
+            .content_locator_default()
             .build(),
     ))
     // .power_tariff(PowerTariff::new(

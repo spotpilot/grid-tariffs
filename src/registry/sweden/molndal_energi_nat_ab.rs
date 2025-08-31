@@ -13,7 +13,7 @@ pub const MÖLNDAL_ENERGI_NÄT_AB: GridOperator = GridOperator::builder()
     .other_fees(OtherFees::Unverified)
     .links(Links::new(
         Link::builder("https://www.molndalenergi.se/privat/elnat/avgifter-ersattningar")
-            .plain_content_locator("main")
+            .content_locator_default()
             .build(),
     ))
     // .power_tariff(PowerTariff::new(

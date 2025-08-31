@@ -13,7 +13,7 @@ pub const SEVAB_NÄT_AB: GridOperator = GridOperator::builder()
     .other_fees(OtherFees::Unverified)
     .links(Links::new(
         Link::builder("https://www.sevab.com/foretag/elnat/priser-och-avgifter/elnatsavgift-2025")
-            .plain_content_locator("main")
+            .content_locator_default()
             .build(),
     ))
     // .power_tariff(PowerTariff::new(

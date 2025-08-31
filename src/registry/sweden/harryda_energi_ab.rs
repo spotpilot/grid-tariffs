@@ -13,7 +13,7 @@ pub const HÄRRYDA_ENERGI_AB: GridOperator = GridOperator::builder()
     .other_fees(OtherFees::Unverified)
     .links(Links::new(
         Link::builder("https://harrydaenergi.se/elnat/elnatspriser/")
-            .plain_content_locator("main")
+            .plain_content_locator("#content")
             .build(),
     ))
     // .power_tariff(PowerTariff::new(

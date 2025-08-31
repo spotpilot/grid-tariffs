@@ -15,7 +15,7 @@ pub const VARBERG_ENERGI_ELNÄT_AB: GridOperator = GridOperator::builder()
         Link::builder(
             "https://www.varbergenergi.se/privat/tjanster/varberg-energi-elnat-ab/elnatspriser/",
         )
-        .plain_content_locator("main")
+        .plain_content_locator(".accordion-list > :nth-child(-n + 2)")
         .build(),
     ))
     // .power_tariff(PowerTariff::new(

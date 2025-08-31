@@ -13,7 +13,7 @@ pub const VÄSTERBERGSLAGENS_ELNÄT_AB: GridOperator = GridOperator::builder()
     .other_fees(OtherFees::Unverified)
     .links(Links::new(
         Link::builder("https://www.vbenergi.se/elnat/elnatsavtalet2/elnatspriser--avtalsvillkor/")
-            .plain_content_locator("main")
+            .plain_content_locator("#page article")
             .build(),
     ))
     // .power_tariff(PowerTariff::new(

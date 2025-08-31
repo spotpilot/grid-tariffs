@@ -13,7 +13,9 @@ pub const GOTLANDS_ELNÄT_AB: GridOperator = GridOperator::builder()
     .other_fees(OtherFees::Unverified)
     .links(Links::new(
         Link::builder("https://geab.se/elnat/avgift/elnatspriser/")
-            .plain_content_locator("main")
+            .plain_content_locator(
+                r#"[data-elementor-post-type="page"] > section:nth-child(n + 4)"#,
+            )
             .build(),
     ))
     // .power_tariff(PowerTariff::new(

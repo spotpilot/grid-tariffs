@@ -53,8 +53,6 @@ pub mod skovde_energi;
 pub mod sollentuna_energi_miljo_ab;
 pub mod sundsvall_elnat_ab;
 pub mod tekniska_verken;
-pub mod tekniska_verken_i_katrineholm_nat_ab;
-pub mod tekniska_verken_linkoping_nat_ab;
 pub mod telge_energi;
 pub mod trelleborg_elnat_ab;
 pub mod trollhattan_energi_elnat_ab;
@@ -126,8 +124,6 @@ pub(crate) static GRID_OPERATORS: &[crate::GridOperator] = &[
     tekniska_verken::LINKÖPING_ALTERNATIV,
     tekniska_verken::KATRINEHOLM_STANDARD,
     tekniska_verken::KATRINEHOLM_ALTERNATIV,
-    tekniska_verken_i_katrineholm_nat_ab::TEKNISKA_VERKEN_I_KATRINEHOLM_NÄT_AB,
-    tekniska_verken_linkoping_nat_ab::TEKNISKA_VERKEN_LINKÖPING_NÄT_AB,
     telge_energi::TELGE_ENERGI,
     trelleborg_elnat_ab::TRELLEBORG_ELNÄT_AB,
     trollhattan_energi_elnat_ab::TROLLHÄTTAN_ENERGI_ELNÄT_AB,

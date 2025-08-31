@@ -12,8 +12,8 @@ pub const UDDEVALLA_ENERGI_ELNÄT_AB: GridOperator = GridOperator::builder()
     .transfer_fee(TransferFee::Unverified)
     .other_fees(OtherFees::Unverified)
     .links(Links::new(
-        Link::builder("https://www.uddevallaenergi.se/privat/elnat.html#Priserochavtal")
-            .plain_content_locator("main")
+        Link::builder("https://www.uddevallaenergi.se/privat/elnat.html")
+            .plain_content_locator("div:has(> #Priserochavtal) + div")
             .build(),
     ))
     // .power_tariff(PowerTariff::new(

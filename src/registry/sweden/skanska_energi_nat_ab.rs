@@ -13,7 +13,7 @@ pub const SKÅNSKA_ENERGI_NÄT_AB: GridOperator = GridOperator::builder()
     .other_fees(OtherFees::Unverified)
     .links(Links::new(
         Link::builder("https://www.skanska-energi.se/elnat/elnatsavgifter/")
-            .plain_content_locator("main")
+            .plain_content_locator(".content .accordian:first-child")
             .build(),
     ))
     // .power_tariff(PowerTariff::new(

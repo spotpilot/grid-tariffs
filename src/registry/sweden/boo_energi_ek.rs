@@ -13,7 +13,7 @@ pub const BOO_ENERGI_EK: GridOperator = GridOperator::builder()
     .other_fees(OtherFees::Unverified)
     .links(Links::new(
         Link::builder("https://www.booenergi.se/elnatspriser/")
-            .plain_content_locator("main")
+            .plain_content_locator(".electricity_grid_charge_area_main")
             .build(),
     ))
     // .power_tariff(PowerTariff::new(

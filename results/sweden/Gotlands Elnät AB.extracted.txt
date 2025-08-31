@@ -1,0 +1,296 @@
+
+#
+Säkringsabonnemang
+
+Säkringsabonnemang är det vanligaste abonnemanget för privatkunder. Den fasta avgiften varierar beroende på storleken på din huvudsäkring. För den rörliga avgiften kan du som kund välja mellan enkeltariff eller tidstariff. Enkeltariff innebär samma överföringsavgift under hela året medan tidstariffen har en högre avgift under vintern och en lägre under övrig tid.
+
+#
+Prislista
+
+Abonnemangsavgift enkeltariff E4 och tidstariff T4
+
+Huvudsäkring (Ampere)
+
+16 L**
+
+2 325 kr/ år
+
+16 A
+
+5 675 kr/ år
+
+20 A
+
+7 815 kr/ år
+
+25 A
+
+10 010 kr/ år
+
+35 A
+
+14 450 kr/ år
+
+50 A
+
+20 925 kr/ år
+
+63 A
+
+28 150 kr/ år
+
+80 A
+
+39 090 kr/ år
+
+100 A
+
+49 515 kr/ år
+
+125 A
+
+62 425 kr/ år
+
+160 A
+
+79 250 kr/ år
+
+200 A
+
+100 930 kr/ år
+
+Överföringsavgift
+
+Enkeltariff E4
+
+Elöverföring
+
+47,50 öre/ kWh
+
+Tidstariff T4
+
+Höglasttid***
+
+57,50 öre/ kWh
+
+Låglasttid
+
+32,50 öre/ kWh
+
+* Alla priser är inklusive moms
+
+* Lördagar, söndagar, julafton, juldagen, annandag jul, nyårsafton, nyårsdagen, trettondedag jul, skärtorsdag, långfredag och annandag påsk är helgdagar. Övriga dagar är vardagar.
+
+** 16 L tillämpas i anläggningar med minst fyra uttagsabonnemang. 16L gäller även om det finns minst tre uttagsabonnemang och ett fastighetsabonnemang i byggnaden med gemensam serviskabel och anslutningspunkt på minst 35 A. 16 L gäller enbart för enkeltariff E4. 16 L har en förbrukningsgräns på 8000 kWh/ år.
+
+*** Höglasttid: vardagar kl. 06-22 under månaderna januari, februari, mars, november och december. Övrig tid är låglasttid.
+
+https://geab.se/elnat/wp-content/uploads/sites/3/2024/11/2025-01-01_Prisblad_sakringskunder_16-200A.pdf
+
+Prisblad abonnemang 2025
+
+I abonnemangsavgifter ingår myndighetsavgifter
+
+Elsäkerhetsavgift
+11,10 kr/ år
+
+Nätövervakningsavgift
+4,35 kr/ år
+
+Elberedskapsavgift
+90,00 kr/ år
+
+Effektabonnemang
+
+Effektabonnemang är valbart för dig som är ansluten till högspänning eller lågspänning. Elnätspriset består av en fast avgift (kr/månad), en månadseffektavgift (kr/kW, per månad) och en överföringsavgift (öre/kWh). Flertalet av abonnemangen har även en högbelastningsavgift (kr/kW, per månad). Effektabonnemang lämpar sig bäst för dig som har ett flexibelt eller säsongsvarierat uttag från elnätet.
+
+Effektabonnemang lågspänning
+
+Nätavgifter uttag lågspänning*
+Abonnemang:
+280,00 kr/ mån
+Månadseffektavgift:
+59,00 kr/ (kW, mån)
+Högbelastningsavgift:
+0,00 kr/ (kW, mån)
+Elöverföring höglasttid:
+46,00 öre/ kWh
+Elöverföring låglasttid:
+26,00 öre/ kWh
+https://geab.se/elnat/wp-content/uploads/sites/3/2024/11/2025-01-01_Avgiftsvillkor_Effekttariff-N4-lagspanning-1.pdf
+→ Avgiftsvillkor effektabonnmenag lågspänning N4
+
+Effektabonnemang högspänning
+
+Nätavgifter uttag högspänning*
+Abonnemang
+: 1 500,00 kr/ mån
+Månadseffektavgift
+: 39,00 kr/ (kW, mån)
+Högbelastningsavgift
+: 106,00 kr/ (kW, mån)
+Elöverföring höglasttid
+: 5,40 öre/ kWh
+Elöverföring låglasttid
+: 5,40 öre/ kWh
+https://geab.se/elnat/wp-content/uploads/sites/3/2024/11/2025-01-01_Avgiftsvillkor_Effekttariff-N3-hogspanning.pdf
+→ Avgiftsvillkor effektabonnemang högspänning N3
+
+Effektabonnemang högspänning 36/10 kV
+
+Nätavgifter uttag högspänning*
+Abonnemang
+: 20 000,00 kr/ mån
+Månadseffektavgift
+: 28,00 kr/ (kW, mån)
+Överuttag reaktiv effekt:
+5,83 kr/ (kVAr/mån)
+Högbelastningsavgift
+: 76,00 kr/ (kW, mån)
+Elöverföring höglasttid
+: 5,40 öre/ kWh
+Elöverföring låglasttid
+: 5,40 öre/ kWh
+https://geab.se/elnat/wp-content/uploads/sites/3/2024/11/2025-01-01_Avgiftsvillkor-Effekttariff-N2T.pdf
+→ Avgiftsvillkor effektabonnemang högspänning N2T
+
+* Alla priser är exklusive moms
+
+Ersättning för egenproducerad el
+
+Om du i huvudsak producerar el för eget behov räknas du som egen elproducent. Det innebär att du inte matar in mer el till elnätet än vad du tar ut under ett kalenderår. Under vissa dagar när det är särdeles gynnsamma förhållanden kanske du producerar mer el än vad du använder, och då ger vi dig en ersättning för nätnytta. Du kan även sälja ditt överskott till ett elhandelsföretag. Producerar du däremot mer el än vad du använder under ett helt kalenderår räknas du som en kommersiell producent, antingen småskalig eller storskalig beroende på din totala elproduktion.
+
+Ersättning egen elproducent
+
+Om du producerar mer el än vad du använder under en dag.
+
+Egenproducerad el Privatkunder
+
+Ersättning för inmatning lågspänning*
+Mätavgift:
+0,00 kr/ mån
+Elöverföring höglasttid:
+0,00 öre/ kWh
+Elöverföring låglasttid:
+0,00 öre/ kWh
+Energiersättning (Geab till kund) höglasttid:
+5,60 öre/ kWh
+Energiersättning (Geab till kund) låglasttid:
+5,60 öre/ kWh
+https://geab.se/elnat/wp-content/uploads/sites/3/2024/11/2025-01-01_Avgiftsvillkor_Egenprod-el-Privat.pdf
+→ Avgiftsvillkor egenproducerad el privatkunder
+
+Egenproducerad el Företagskunder
+
+Ersättning för inmatning lågspänning*
+Mätavgift:
+0,00 kr/ mån
+Elöverföring höglasttid:
+0,00 öre/ kWh
+Elöverföring låglasttid:
+0,00 öre/ kWh
+Energiersättning (Geab till kund) höglasttid:
+5,60 öre/ kWh
+Energiersättning (Geab till kund) låglasttid:
+5,60 öre/ kWh
+Ersättning för inmatning högspänning*
+Mätavgift:
+0,00 kr/ mån
+Elöverföring höglasttid:
+0,00 öre/ kWh
+Elöverföring låglasttid:
+0,00 öre/ kWh
+Energiersättning (Geab till kund) höglasttid:
+4,70 öre/ kWh
+Energiersättning (Geab till kund) låglasttid:
+3,50 öre/ kWh
+https://geab.se/elnat/wp-content/uploads/sites/3/2024/11/2025-01-01-Avgiftsvillkor-egenProd-el-Foretag.pdf
+→ Avgiftsvillkor egenproducerad el företag
+
+* Alla priser är exklusive moms
+
+Ersättning kommersiell elproducent
+
+När du producerar mer el än vad du använder under ett kalenderår.
+
+Produktion lågspänning N4
+
+Ersättning och avgifter för inmatning lågspänning*
+Mätavgift
+: 270,00 kr/ mån
+Månadseffekt
+: 15,00 kr/ (kW, mån)
+Högbelastningsavgift:
+0,00 kr/ (kW, mån)
+Elöverföring höglasttid:
+0,60 öre/ kWh
+Elöverföring låglasttid
+: 0,60 öre/ kWh
+Energiersättning (Geab till kund) höglasttid:
+3,60 öre/ kWh
+Energiersättning (Geab till kund) låglasttid:
+2,40 öre/ kWh
+https://geab.se/elnat/wp-content/uploads/sites/3/2024/11/2025-01-01_Avgiftsvillkor_Produktion-N4-lagspanning.pdf
+→ Avgiftsvillkor Produktion lågspänning N4
+
+Produktion högspänning N3
+
+Ersättning och avgifter för inmatning högspänning*
+Mätavgift
+: 940,00 kr/ mån
+Månadseffekt
+: 0,00 kr/ (kW, mån) endast höglasttid
+Högbelastningsavgift:
+1,50 kr/ (kW, mån)
+Elöverföring höglasttid:
+10,50 öre/ kWh
+Elöverföring låglasttid
+: 10,50 öre/ kWh
+Energiersättning (Geab till kund) höglasttid:
+3,60 öre/ kWh
+Energiersättning (Geab till kund) låglasttid:
+2,40 öre/ kWh
+https://geab.se/elnat/wp-content/uploads/sites/3/2024/11/2025-01-01_Avgiftsvillkor_Produktion-N3-hogspanning.pdf
+→ Avgiftsvillkor Produktion högspänning N3
+
+* Alla priser är exklusive moms
+
+Energiskatt
+
+Energiskatt på el tas ut med bara en skattesats, men för vissa verksamheter och för användning i vissa kommuner görs ett avdrag (skattesatsen är lägre).
+Skattesatsen
+:
+43,90 öre/ kWh
+exklusive moms.
+Skatteavdrag
+I följande län och kommuner är energiskatten lägre för företag inom tjänstesektorn:
+Dalarnas län: Malung-Sälen, Mora, Orsa och Älvdalen
+Gävleborgs län: Ljusdal
+Jämtlands län: samtliga kommuner
+Norrbottens län: samtliga kommuner
+Värmlands län: Torsby
+Västerbottens län: samtliga kommuner
+Västernorrlands län: Sollefteå, Ånge och Örnsköldsvik
+
+Fakta om energiskatten
+All elanvändning i Sverige är skattepliktig. Den energiskatt som företag betalar beror dels på vilken typ av verksamhet företaget bedriver och dels var verksamheten bedrivs. Från den 1 januari 2018 har elnätbolagen, istället för elhandelsbolagen, tagit upp energiskatten för att sedan betala in skatten till staten. Riksdagen bestämmer reglerna för energiskatt på el, bl.a. skattesatsen (öre/kWh).
+
+Avtalsvillkor
+
+Gotlands Elnät tillämpar elbranschens allmänna avtalsvillkor för distribution av el. Avtalsvillkoren är framtagna i ett samarbete mellan Svensk Energi och Konsumentverket.
+
+https://geab.se/elnat/wp-content/uploads/sites/3/2021/04/Allmanna-avtalsvillkor-privatkund-NAT-2012-K-rev_2.pdf
+
+Avtalsvillkor elnät Privatkund
+
+https://geab.se/elnat/wp-content/uploads/sites/3/2021/04/Allmanna-avtalsvillkor-foretag-NAT-2012-N-rev.pdf
+
+Avtalsvillkor elnät Lågspänning Företag
+
+https://geab.se/elnat/wp-content/uploads/sites/3/2021/04/Allmanna-avtalsvillkor-foretag-NAT-2012-H-rev.pdf
+
+Avtalsvillkor elnät Högspänning Företag
+
+https://geab.se/elnat/wp-content/uploads/sites/3/2025/08/Tekniska-villkor-produktionsanlaggning-augusti-2024.pdf
+
+Tekniska villkor Egenproducerad el

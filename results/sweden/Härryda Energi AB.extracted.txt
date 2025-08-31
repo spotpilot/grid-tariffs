@@ -1,0 +1,171 @@
+
+Elnätspriser
+Vi ser till att elen tryggt och säkert transporteras via vårt elnät hem till dig eller din verksamhet. Avgiften består av två delar. En del för abonnemanget som är kopplad till storleken på din huvudsäkring samt en rörlig avgift för elöverföring per använd kilowattimme (kWh).  På elnätsfakturan tillkommer även energiskatt och moms.
+Du kan påverka dina kostnader för elnätet genom att välja en säkringsstorlek som bäst passar din bostads eller verksamhets elanvändning samt genom att hushålla med elen och på så vis sänka slutkostnaden för den rörliga delen. Genom elnätsfakturan betalar du även energiskatt som vi som elnätsföretag sedan redovisar och betalar vidare till Skatteverket.
+
+Elnätsavgift
+Nedan gäller från och med 2024-04-01.
+
+Elöverföringsavgift rörlig del
+19,12 öre/kWh exkl. moms
+23,90 öre/kWh inkl. moms.
+Elöverföringsavgift fast del
+
+Mätarsäkring
+(Ampere)
+Kronor per år
+inklusive moms
+
+16A lgh
+1 640
+2050
+
+16A
+3 720
+4 650
+
+20A
+4 640
+5 800
+
+25A
+5 776
+7 220
+
+35A
+7 920
+9 900
+
+50A
+11 320
+14 150
+
+63A
+14 516
+17 770
+
+80A
+18 056
+22 570
+
+100A
+22 336
+27 920
+
+125A
+27 728
+34 660
+
+160A
+35 256
+44 070
+
+200A
+43 832
+54 790
+
+Större elanvändare
+Nedan gäller från och med 2025-01-01.
+Vid mätarsäkring över 200 A tillämpas effekttariff enligt följande (alla priser nedan är exkl moms):
+
+Högspänningskunder
+Kostnad
+
+Fast avgift
+61 200 kr/år
+
+Abonnemangsavgift
+552 kr/kW/år
+
+Energiavgift
+5,6 öre/kWh
+
+Lågspänningskunder
+Kostnad
+
+Fast avgift
+20 000 kr/år
+
+Abonnemangsavgift
+90 kr/kW/månad
+
+Energiavgift
+12,5 öre/kWh
+
+Energiskatt
+43,9 öre/kWh exkl moms
+54,9 öre/kWh inkl moms
+
+Anvisningar och upplysningar
+Elsäkerhetsavgift, elberedskapsavgift och nätövervakningsavgift ingår i elöverföringsavgiftens fasta del.
+Vid tillfälliga abonnemang tillkommer ett tillägg på 1000 kr/år (1 250 kr/år inkl moms) på den fasta elöverföringsavgiften.
+Härryda Energi kan komma att ändra priserna till följd av ändrade leverantörspriser, skatter, avgifter, moms och andra förhållanden som ligger utanför Härryda Energi AB's kontroll och påverkan.
+
+Elnätspriset påverkas av olika faktorer:
+
+Kostnaden för att transportera elen.
+Hur mycket ström du vill använda samtidigt, det vill säga säkringens storlek.
+Hur tätbefolkat området är. Ju fler kunder som delar på nätet desto lägre blir den enskilda kostnaden.
+Hur mycket som investerats i elnätet och vilket avkastningskrav elnätsföretaget har.
+
+Elnätskostnaden betalar du för att vara ansluten till elnätet. Du kan inte själv välja elnätsföretag eftersom det är ett specifikt elnätsföretag som underhåller, driftar och bygger elnätet där du bor eller där din verksamhet finns. Härryda Energi äger och underhåller elnätet i Mölnlycke, Landvetter, Härryda och Hindås med omnejd. Olika elnätsföretag kan ha olika elnätsavgifter och kostnaden för eldistributionen kan därför variera mellan olika elnätsområden. Anledningen till detta är bland annat några av faktorerna ovan.
+https://ei.se/
+Energimarknadsinspektionen (Ei)
+är den oberoende myndighet som granskar och reglerar elnätsföretagens elnätsavgifter.
+
+Relaterade sidor
+
+/elnat/effektavgift/
+
+Effektavgift
+Energimarknadsinspektionen har beslutat att senast den 1 januari 2027 ska alla elnätsbolag i Sverige ha infört en så kallad effektavgift. Härryda Energi...
+
+/elnat/vad-ingar-i-elnatsavgiften/
+
+Vad ingår i elnätsavgiften?
+Genom nätavgiften är du med och betalar för den gemensamma infrastruktur som gör elanvändningen möjlig i Sverige. Infrastrukturen möjliggör allt...
+
+/elnat/
+
+Elnät
+Vi driver, underhåller och utvecklar elnätet i Mölnlycke, Landvetter, Härryda och Hindås med omnejd. Med fokus på modernisering säkerställer vi...
+
+/elnat/gatubelysning/
+
+Gatubelysning
+Gatubelysning är viktigt! Därför arbetar vi året runt för att alla gatulampor i kommunen ska lysa de mörka timmarna på dygnet och bidra till ljusa, trivsamma och trygga gator.
+
+/elnat/elmatare/
+
+Elmätare
+Sedan vi bytte samtliga elmätare år 2020 har alla våra kunder i vårt nät en modern elmätare av fabrikat Aidon. Den uppfyller kommande lagkrav som börjar gälla från 2025.
+
+/elnat/natutvecklingsplan/
+
+Nätutvecklingsplan
+Härryda Energi ska, liksom alla elnätsföretag, ta fram en nätutvecklingsplan. Den beskriver vårt framtida effektbehov och hur vårt elnät kommer...
+
+/drift/
+
+Drift
+Om ditt strömavbrott är registrerat hos oss syns en markering på kartan. Det betyder att vi jobbar på felet och du behöver inte anmäla det. För...
+
+/elnat/elinstallator/
+
+Elinstallatör
+Här har vi samlat information till dig som är elinstallatör. För specifika frågor i pågående ärenden kontaktar du utsedd handläggare. Har du frågor...
+
+/elnat/ansluta-till-elnatet/
+
+Ansluta till elnätet
+Ska du dra in el i fritidshuset, till ditt nybyggda hus eller till en verksamhet? Eller vill du återansluta en byggnad? Här hittar du information om...
+
+/elnat/byggstrom/
+
+Byggström
+Behöver du en tillfällig anslutning när du bygger eller till ett event?
+
+/elnat/andra-anslutning/
+
+Ändra anslutning
+Har du behov av att höja eller sänka din säkringsstorlek? Ska du bygga om och behöver flytta din elmätare? Eller önskar du flytta en elledning, elstolpe eller elskåp som står nära din tomt?

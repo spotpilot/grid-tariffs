@@ -124,6 +124,7 @@ impl ResultStore {
         info!(grid_operator = op.name(), "downloading html...");
         let client = reqwest::ClientBuilder::new()
             .timeout(Duration::from_secs(5))
+            .http1_ignore_invalid_headers_in_responses(true)
             // NOTE: User-Agent is needed to be able to download from EON, otherwise 403
             .user_agent("grid-tariffs/0.1")
             .build()?;
