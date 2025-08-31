@@ -4,12 +4,13 @@ mod locator;
 mod pricing_info;
 mod store;
 
-use std::path::PathBuf;
+use std::{path::PathBuf, str::FromStr};
 
 use clap::{Parser, Subcommand};
 use grid_tariffs::{Country, GridOperator};
+use serde::{Deserialize, Deserializer};
 use tokio::task::JoinSet;
-use tracing::error;
+use tracing::{debug, error};
 use tracing_subscriber::{
     filter::{LevelFilter, Targets},
     fmt,
@@ -40,13 +41,17 @@ enum CliAction {
         country: Country,
         grid_operator: String,
     },
-    /// Create a new grid operator + updater
+    /// Create a new grid operator
     New {
         country: Country,
         name: String,
         vat_number: String,
         fee_link: String,
+        #[arg(long, default_value = "main")]
+        css_selector: String,
     },
+    /// Create new grid operators from CSV file
+    Import { csv_path: PathBuf },
     /// Get all the relevant texts from the HTML of the defined website
     ExtractText {
         #[arg(long, env, default_value = "./results")]
@@ -112,9 +117,32 @@ async fn main() -> anyhow::Result<()> {
             name,
             vat_number,
             fee_link,
+            css_selector,
         } => {
-            codegen::generate_grid_operator(country, &name, &vat_number, &fee_link)?;
-            // codegen::generate_updater(country, name, vat_number, fee_link);
+            codegen::generate_grid_operator(country, &name, &vat_number, &fee_link, &css_selector)?;
+        }
+        CliAction::Import { csv_path } => {
+            #[derive(Debug, serde::Deserialize)]
+            struct CsvRecord {
+                #[serde(deserialize_with = "from_str")]
+                country: Country,
+                name: String,
+                vat_number: String,
+                fee_info_url: String,
+                css_selector: Option<String>,
+            }
+            let mut rdr = csv::Reader::from_path(csv_path)?;
+            for result in rdr.deserialize() {
+                let record: CsvRecord = result?;
+                debug!(?record, "generating code");
+                codegen::generate_grid_operator(
+                    record.country,
+                    &record.name,
+                    &record.vat_number,
+                    &record.fee_info_url,
+                    &record.css_selector.as_deref().unwrap_or("main"),
+                )?;
+            }
         }
         CliAction::ExtractText {
             results_dir,
@@ -175,4 +203,14 @@ fn setup_tracing(default_level: LevelFilter) {
         .with(fmt::layer())
         .with(targets)
         .init();
+}
+
+pub fn from_str<'de, T, D>(de: D) -> Result<T, D::Error>
+where
+    T: FromStr,
+    T::Err: std::fmt::Display,
+    D: Deserializer<'de>,
+{
+    let s = String::deserialize(de)?;
+    T::from_str(&s).map_err(serde::de::Error::custom)
 }

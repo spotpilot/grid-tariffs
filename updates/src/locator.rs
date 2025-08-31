@@ -1,3 +1,4 @@
+use anyhow::bail;
 use grid_tariffs::{ContentLocator, ContentTarget, LocatorMethod, TargetContainer};
 use itertools::Itertools;
 use scraper::{ElementRef, Html, Selector};
@@ -5,14 +6,16 @@ use tracing::warn;
 
 use crate::helpers::{get_text_with_links_excluding_scripts, remove_unneeded_newlines};
 
-pub(crate) fn locate_content(locator: &ContentLocator, html: &Html) -> String {
-    let el_locator = element_locator(locator.method(), html).unwrap();
+pub(crate) fn locate_content(locator: &ContentLocator, html: &Html) -> anyhow::Result<String> {
+    let Some(el_locator) = element_locator(locator.method(), html) else {
+        bail!("content not found");
+    };
     let target_container = locator.method().target_container();
     let found = match locator.content_target() {
         ContentTarget::TextWithLinks => el_locator.text_with_links(&target_container),
         ContentTarget::Attribute(attr) => el_locator.attribute_text(attr, &target_container),
     };
-    found.unwrap_or_default()
+    found.ok_or_else(|| anyhow::anyhow!("didn't find target content"))
 }
 
 pub(crate) fn element_locator<'a>(

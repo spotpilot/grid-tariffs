@@ -75,14 +75,14 @@ impl ContentFindingResult {
         &self.extracted_content
     }
 
-    pub(super) fn new(operator: &GridOperator, html: String) -> Self {
+    pub(super) fn new(operator: &GridOperator, html: String) -> anyhow::Result<Self> {
         let parsed_html = Html::parse_document(&html);
         let locator = operator.links().fee_info().content_locator();
-        let extracted_content = locate_content(locator, &parsed_html);
-        Self {
+        let extracted_content = locate_content(locator, &parsed_html)?;
+        Ok(Self {
             html,
             extracted_content,
-        }
+        })
     }
 
     pub(crate) fn from_generated(html: String, extracted_content: String) -> ContentFindingResult {

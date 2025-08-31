@@ -66,7 +66,7 @@ impl ResultStore {
         operator: &GridOperator,
     ) -> anyhow::Result<ContentFindingResult> {
         let html = self.remote_fetch_html(operator).await?;
-        Ok(ContentFindingResult::new(operator, html.trim().to_owned()))
+        Ok(ContentFindingResult::new(operator, html.trim().to_owned())?)
     }
 
     pub(crate) async fn load_or_remote_fetch(

@@ -10,20 +10,27 @@ use syn::{Ident, Item, ItemConst, Visibility};
 
 use convert_case::{Case, Casing};
 use grid_tariffs::Country;
-use tracing::info;
+use tracing::{info, warn};
 
 pub(crate) fn generate_grid_operator(
     country: Country,
     name: &str,
     vat_number: &str,
     fee_link: &str,
+    css_selector: &str,
 ) -> anyhow::Result<()> {
+    let mod_name = slug::slugify(name).to_case(Case::Snake);
     let registry_filepath = workspace_dir()
         .join("src")
         .join("registry")
         .join(country.to_string().to_lowercase())
-        .join(format!("{}.rs", slug::slugify(name).to_case(Case::Snake)));
-    let contents = grid_operator_contents(country, name, vat_number, fee_link);
+        .join(format!("{}.rs", mod_name));
+    if registry_filepath.exists() {
+        warn!(existing_path = %registry_filepath.to_string_lossy(), "already exists - doing nothing");
+        return Ok(());
+    }
+    info!(%mod_name, "generating mod");
+    let contents = grid_operator_contents(country, name, vat_number, fee_link, css_selector);
     fs::write(&registry_filepath, contents)?;
     info!(saved_at = %registry_filepath.to_string_lossy());
     generate_mod(country)?;
@@ -35,8 +42,9 @@ fn grid_operator_contents(
     name: &str,
     vat_number: &str,
     fee_link: &str,
+    css_selector: &str,
 ) -> String {
-    let constant_name = name.to_case(Case::Constant);
+    let constant_name = name.replace(".", "").to_case(Case::Constant);
     let country_code = country.code();
     format!(
         r###"use crate::registry::prelude::*;
@@ -52,7 +60,7 @@ pub const {constant_name}: GridOperator = GridOperator::builder()
     .feed_in_revenue(FeedInRevenue::Unverified)
     .transfer_fee(TransferFee::Unverified)
     .other_fees(OtherFees::Unverified)
-    .links(Links::new("{fee_link}"))
+    .links(Links::new(Link::builder("{fee_link}").plain_content_locator("{css_selector}").build()))
     // .power_tariff(PowerTariff::new(
     //     TariffCalculationMethod::PeakHour,
     //     CostPeriods::new(&[
