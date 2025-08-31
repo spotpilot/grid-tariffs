@@ -18,6 +18,7 @@ const BASE: GridOperatorBuilder = GridOperator::builder()
     .monthly_production_fee(Cost::Unverified)
     .feed_in_revenue(FeedInRevenue::Unverified)
     .other_fees(OtherFees::Unverified)
+    .power_tariff(PowerTariff::NotImplemented)
     .links(Links::new(
         Link::builder(FEE_LINK)
             .content_locator(ContentLocator::new_starts_with(

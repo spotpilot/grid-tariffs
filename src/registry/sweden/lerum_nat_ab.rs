@@ -13,14 +13,8 @@ pub const LERUM_NÄT_AB: GridOperator = GridOperator::builder()
     .other_fees(OtherFees::Unverified)
     .links(Links::new(
         Link::builder("https://www.lerumenergi.se/Elnat/Elnatsavgifter")
-            .content_locator_default()
+            .plain_content_locator("#MainContent")
             .build(),
     ))
-    // .power_tariff(PowerTariff::new(
-    //     TariffCalculationMethod::PeakHour,
-    //     CostPeriods::new(&[
-    //         CostPeriod::builder().load(Low).build(),
-    //         CostPeriod::builder().load(High).build(),
-    //     ]),
-    // ))
+    .power_tariff(PowerTariff::Unverified)
     .build();

@@ -1,7 +1,7 @@
 use crate::registry::prelude::*;
 
 pub const BOO_ENERGI_EK: GridOperator = GridOperator::builder()
-    .name("Boo Energi ek. ")
+    .name("Boo Energi ek.")
     .vat_number("SE714000020401")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 63))
@@ -16,11 +16,5 @@ pub const BOO_ENERGI_EK: GridOperator = GridOperator::builder()
             .plain_content_locator(".electricity_grid_charge_area_main")
             .build(),
     ))
-    // .power_tariff(PowerTariff::new(
-    //     TariffCalculationMethod::PeakHour,
-    //     CostPeriods::new(&[
-    //         CostPeriod::builder().load(Low).build(),
-    //         CostPeriod::builder().load(High).build(),
-    //     ]),
-    // ))
+    .power_tariff(PowerTariff::Unverified)
     .build();

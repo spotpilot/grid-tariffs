@@ -23,7 +23,7 @@ pub const MALUNG_SÄLENS_ELVERK: GridOperator = GridOperator {
             .plain_content_locator(".content:nth-child(1)")
             .build(),
     ),
-    power_tariff: Some(PowerTariff::new(
+    power_tariff: PowerTariff::new(
         TariffCalculationMethod::AverageHours(5),
         CostPeriods::new(&[
             CostPeriod::builder()
@@ -34,5 +34,5 @@ pub const MALUNG_SÄLENS_ELVERK: GridOperator = GridOperator {
                 .build(),
             CostPeriod::builder().load(Low).fixed_cost(35, 0).build(),
         ]),
-    )),
+    ),
 };

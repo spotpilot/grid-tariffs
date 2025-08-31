@@ -23,7 +23,7 @@ pub const GISLAVED_ENERGI: GridOperator = GridOperator {
     // TODO: They don't list if it's with or without taxes
     feed_in_revenue: FeedInRevenue::fixed_subunit(4.2),
     other_fees: OtherFees::Unverified,
-    power_tariff: None,
+    power_tariff: PowerTariff::Unverified,
     links: Links::new(
         Link::builder(FEE_LINK)
             .plain_content_locator("#page-content")

@@ -16,11 +16,5 @@ pub const HALMSTADS_ENERGI_OCH_MILJÖ_NÄT_AB: GridOperator = GridOperator::buil
             .content_locator_default()
             .build(),
     ))
-    // .power_tariff(PowerTariff::new(
-    //     TariffCalculationMethod::PeakHour,
-    //     CostPeriods::new(&[
-    //         CostPeriod::builder().load(Low).build(),
-    //         CostPeriod::builder().load(High).build(),
-    //     ]),
-    // ))
+    .power_tariff(PowerTariff::Unverified)
     .build();

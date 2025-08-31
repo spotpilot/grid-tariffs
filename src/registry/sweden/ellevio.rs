@@ -27,7 +27,7 @@ pub const ELLEVIO: GridOperator = GridOperator {
             ))
             .build(),
     ),
-    power_tariff: Some(PowerTariff::new(
+    power_tariff: PowerTariff::new(
         TariffCalculationMethod::AverageDays(3),
         CostPeriods::new(&[
             CostPeriod::builder()
@@ -41,5 +41,5 @@ pub const ELLEVIO: GridOperator = GridOperator {
                 .divide_kw_by(2)
                 .build(),
         ]),
-    )),
+    ),
 };

@@ -96,6 +96,10 @@ impl ContentLocator {
         &self.method
     }
 
+    pub const fn uses_default_locator(&self) -> bool {
+        self.uses_default_locator
+    }
+
     pub const fn content_target(&self) -> &ContentTarget {
         &self.content
     }

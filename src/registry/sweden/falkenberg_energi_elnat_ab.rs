@@ -16,11 +16,5 @@ pub const FALKENBERG_ENERGI_ELNÄT_AB: GridOperator = GridOperator::builder()
             .plain_content_locator(".entry-content")
             .build(),
     ))
-    // .power_tariff(PowerTariff::new(
-    //     TariffCalculationMethod::PeakHour,
-    //     CostPeriods::new(&[
-    //         CostPeriod::builder().load(Low).build(),
-    //         CostPeriod::builder().load(High).build(),
-    //     ]),
-    // ))
+    .power_tariff(PowerTariff::Unverified)
     .build();

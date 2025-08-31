@@ -26,7 +26,7 @@ pub const SOLLENTUNA_ENERGI_MILJÖ_AB: GridOperator = GridOperator {
             .plain_content_locator(".main-content-area")
             .build(),
     ),
-    power_tariff: Some(PowerTariff::new(
+    power_tariff: PowerTariff::new(
         TariffCalculationMethod::AverageHours(3),
         CostPeriods::new(&[
             // NOTE: "Under helger och röda dagar tas ingen effektavgift ut"
@@ -45,5 +45,5 @@ pub const SOLLENTUNA_ENERGI_MILJÖ_AB: GridOperator = GridOperator {
                 .exclude_weekends_and_swedish_holidays()
                 .build(),
         ]),
-    )),
+    ),
 };

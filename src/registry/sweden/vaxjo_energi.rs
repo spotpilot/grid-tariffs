@@ -36,7 +36,7 @@ pub const VÄXJÖ_ENERGI: GridOperator = GridOperator {
             .plain_content_locator("#main-content")
             .build(),
     ),
-    power_tariff: Some(PowerTariff::new(
+    power_tariff: PowerTariff::new(
         TariffCalculationMethod::AverageHours(3),
         CostPeriods::new(&[CostPeriod::builder()
             .load(High)
@@ -47,5 +47,5 @@ pub const VÄXJÖ_ENERGI: GridOperator = GridOperator {
             .hours(7, 20)
             .exclude_weekends_and_swedish_holidays()
             .build()]),
-    )),
+    ),
 };

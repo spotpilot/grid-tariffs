@@ -10,7 +10,7 @@ use crate::{
 };
 
 #[derive(Debug, Clone, Copy)]
-pub(super) enum Cost {
+pub enum Cost {
     None,
     /// Cost has not been verified
     Unverified,
@@ -22,6 +22,10 @@ pub(super) enum Cost {
 }
 
 impl Cost {
+    pub const fn is_unverified(&self) -> bool {
+        matches!(self, Self::Unverified)
+    }
+
     pub(super) const fn fuses(values: &'static [(u16, Money)]) -> Self {
         Self::Fuses(values)
     }
@@ -163,7 +167,7 @@ impl CostPeriod {
 }
 
 #[derive(Debug, Clone, Copy)]
-pub(super) enum LoadType {
+pub enum LoadType {
     /// Base load. Always counts
     Base,
     /// Low load period. Commonly counts during night hours and the summer half of the year

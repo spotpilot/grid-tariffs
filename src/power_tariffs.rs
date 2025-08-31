@@ -7,14 +7,22 @@ use crate::{
 };
 
 #[derive(Debug, Clone)]
-pub struct PowerTariff {
-    method: TariffCalculationMethod,
-    periods: CostPeriods,
+pub enum PowerTariff {
+    Unverified,
+    NotImplemented,
+    Implemented {
+        method: TariffCalculationMethod,
+        periods: CostPeriods,
+    },
 }
 
 impl PowerTariff {
+    pub const fn is_unverified(&self) -> bool {
+        matches!(self, Self::Unverified)
+    }
+
     pub(super) const fn new(method: TariffCalculationMethod, periods: CostPeriods) -> Self {
-        Self { method, periods }
+        Self::Implemented { method, periods }
     }
 
     pub(super) fn kw_cost(
@@ -23,11 +31,16 @@ impl PowerTariff {
         fuse_size: u16,
         yearly_consumption: u32,
     ) -> Money {
-        let cost = Money::default();
-        for period in self.periods.iter() {
-            let money = period.cost().cost_for(fuse_size, yearly_consumption);
+        let cost = Money::ZERO;
+        match self {
+            PowerTariff::Unverified | PowerTariff::NotImplemented => cost,
+            PowerTariff::Implemented { method, periods } => {
+                for period in periods.iter() {
+                    let money = period.cost().cost_for(fuse_size, yearly_consumption);
+                }
+                cost
+            }
         }
-        cost
     }
 }
 
@@ -129,8 +142,11 @@ impl PowerTariff {
         &self,
         time_period: (DateTime<Tz>, DateTime<Tz>),
         grid_consumption: Vec<GridConsumption>,
-    ) -> Vec<Peak> {
-        let _samples = self.method.relevant_samples(grid_consumption);
+    ) -> Option<Vec<Peak>> {
+        let Self::Implemented { method, periods } = self else {
+            return None;
+        };
+        let _samples = method.relevant_samples(grid_consumption);
         todo!()
     }
 }

@@ -3,7 +3,7 @@ use crate::{Cost, costs::CostPeriods};
 /// Grid benefit
 /// A Swedish concept for "thanking" micro producers (<=43,5 kW) for reducing losses in the grid
 #[derive(Debug, Clone, Copy)]
-pub(super) enum FeedInRevenue {
+pub enum FeedInRevenue {
     Simple(Cost),
     /// Not yet checked
     Unverified,
@@ -22,6 +22,10 @@ pub(super) enum FeedInRevenue {
 }
 
 impl FeedInRevenue {
+    pub const fn is_unverified(&self) -> bool {
+        matches!(self, Self::Unverified)
+    }
+
     pub(super) const fn new_periods(periods: CostPeriods) -> Self {
         Self::Periods { periods }
     }

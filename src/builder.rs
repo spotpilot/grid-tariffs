@@ -125,7 +125,7 @@ impl GridOperatorBuilder {
             transfer_fee: self.transfer_fee.expect("`transfer_fee` required"),
             feed_in_revenue: self.feed_in_revenue.expect("`feed_in_revenue` required"),
             other_fees: self.other_fees.expect("`other_fees` required"),
-            power_tariff: self.power_tariff,
+            power_tariff: self.power_tariff.expect("`grid_tariff` required"),
             links: self.links.expect("`links` required"),
         }
     }

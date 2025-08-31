@@ -18,7 +18,7 @@ pub const TELGE_ENERGI: GridOperator = GridOperator {
     monthly_production_fee: Cost::Unverified,
     feed_in_revenue: FeedInRevenue::Simple(Cost::fixed_subunit(5.60)),
     other_fees: OtherFees::Unverified,
-    power_tariff: Some(PowerTariff::new(
+    power_tariff: PowerTariff::new(
         TariffCalculationMethod::PeakHour,
         CostPeriods::new(&[CostPeriod::builder()
             .load(High)
@@ -27,7 +27,7 @@ pub const TELGE_ENERGI: GridOperator = GridOperator {
             .hours(7, 20)
             .exclude_weekends_and_swedish_holidays()
             .build()]),
-    )),
+    ),
     links: Links::new(
         Link::builder("https://www.telge.se/elnat/elnatskostnad/elnatspriser/")
             .plain_content_locator("main")

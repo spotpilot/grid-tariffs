@@ -18,8 +18,8 @@ pub const GÖTEBORG_ENERGI: GridOperator = GridOperator {
         )
         .eltariff_api("https://api.goteborgenergi.cloud/gridtariff/v0/tariffs")
         .build(),
-    power_tariff: Some(PowerTariff::new(
+    power_tariff: PowerTariff::new(
         TariffCalculationMethod::AverageDays(3),
         CostPeriods::new(&[CostPeriod::builder().load(Base).fixed_cost(45, 0).build()]),
-    )),
+    ),
 };

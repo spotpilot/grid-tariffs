@@ -17,7 +17,6 @@ pub(crate) fn generate_grid_operator(
     name: &str,
     vat_number: &str,
     fee_link: &str,
-    css_selector: &str,
 ) -> anyhow::Result<()> {
     let mod_name = slug::slugify(name).to_case(Case::Snake);
     let registry_filepath = workspace_dir()
@@ -30,7 +29,7 @@ pub(crate) fn generate_grid_operator(
         return Ok(());
     }
     info!(%mod_name, "generating mod");
-    let contents = grid_operator_contents(country, name, vat_number, fee_link, css_selector);
+    let contents = grid_operator_contents(country, name, vat_number, fee_link);
     fs::write(&registry_filepath, contents)?;
     info!(saved_at = %registry_filepath.to_string_lossy());
     generate_mod(country)?;
@@ -42,7 +41,6 @@ fn grid_operator_contents(
     name: &str,
     vat_number: &str,
     fee_link: &str,
-    css_selector: &str,
 ) -> String {
     let constant_name = name.replace(".", "").to_case(Case::Constant);
     let country_code = country.code();
@@ -60,14 +58,8 @@ pub const {constant_name}: GridOperator = GridOperator::builder()
     .feed_in_revenue(FeedInRevenue::Unverified)
     .transfer_fee(TransferFee::Unverified)
     .other_fees(OtherFees::Unverified)
-    .links(Links::new(Link::builder("{fee_link}").plain_content_locator("{css_selector}").build()))
-    // .power_tariff(PowerTariff::new(
-    //     TariffCalculationMethod::PeakHour,
-    //     CostPeriods::new(&[
-    //         CostPeriod::builder().load(Low).build(),
-    //         CostPeriod::builder().load(High).build(),
-    //     ]),
-    // ))
+    .links(Links::new(Link::builder("{fee_link}").content_locator_default().build()))
+    .power_tariff(PowerTariff::Unverified)
     .build();
 "###
     )

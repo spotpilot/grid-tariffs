@@ -1,4 +1,5 @@
 mod codegen;
+mod completion;
 mod helpers;
 mod locator;
 mod pricing_info;
@@ -29,6 +30,8 @@ struct Cli {
 
 #[derive(Subcommand)]
 enum CliAction {
+    /// Check completion rate for each grid operator module
+    CompletionReport,
     /// Check for updates on each operator's website
     CheckAll {
         #[arg(long, env, default_value = "./results")]
@@ -47,8 +50,6 @@ enum CliAction {
         name: String,
         vat_number: String,
         fee_link: String,
-        #[arg(long, default_value = "main")]
-        css_selector: String,
     },
     /// Create new grid operators from CSV file
     Import { csv_path: PathBuf },
@@ -82,6 +83,9 @@ async fn main() -> anyhow::Result<()> {
     setup_tracing(cli.log_level);
 
     match cli.action {
+        CliAction::CompletionReport => {
+            completion::report()?;
+        }
         CliAction::CheckAll { results_dir } => {
             let mut joinset = JoinSet::new();
             let store = ResultStore::new(results_dir).await;
@@ -121,9 +125,8 @@ async fn main() -> anyhow::Result<()> {
             name,
             vat_number,
             fee_link,
-            css_selector,
         } => {
-            codegen::generate_grid_operator(country, &name, &vat_number, &fee_link, &css_selector)?;
+            codegen::generate_grid_operator(country, &name, &vat_number, &fee_link)?;
         }
         CliAction::Import { csv_path } => {
             #[derive(Debug, serde::Deserialize)]
@@ -133,7 +136,6 @@ async fn main() -> anyhow::Result<()> {
                 name: String,
                 vat_number: String,
                 fee_info_url: String,
-                css_selector: Option<String>,
             }
             let mut rdr = csv::Reader::from_path(csv_path)?;
             for result in rdr.deserialize() {
@@ -144,7 +146,6 @@ async fn main() -> anyhow::Result<()> {
                     &record.name,
                     &record.vat_number,
                     &record.fee_info_url,
-                    &record.css_selector.as_deref().unwrap_or("main"),
                 )?;
             }
         }

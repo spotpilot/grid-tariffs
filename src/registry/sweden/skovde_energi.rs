@@ -38,7 +38,7 @@ pub const SKÖVDE_ENERGI: GridOperator = GridOperator {
             .plain_content_locator("main")
             .build(),
     ),
-    power_tariff: Some(PowerTariff::new(
+    power_tariff: PowerTariff::new(
         TariffCalculationMethod::PeakHour,
         CostPeriods::new(&[CostPeriod::builder()
             .load(High)
@@ -50,5 +50,5 @@ pub const SKÖVDE_ENERGI: GridOperator = GridOperator {
             .hours(6, 22)
             .exclude_weekends_and_swedish_holidays()
             .build()]),
-    )),
+    ),
 };

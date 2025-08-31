@@ -23,7 +23,7 @@ pub const JÖNKÖPING_ENERGI: GridOperator = GridOperator {
             .plain_content_locator("section")
             .build(),
     ),
-    power_tariff: Some(PowerTariff::new(
+    power_tariff: PowerTariff::new(
         TariffCalculationMethod::AverageDaysDifferentiated { base: 2, peak: 2 },
         CostPeriods::new(&[
             CostPeriod::builder().load(Base).fixed_cost(27, 70).build(),
@@ -35,5 +35,5 @@ pub const JÖNKÖPING_ENERGI: GridOperator = GridOperator {
                 .exclude_weekends_and_swedish_holidays()
                 .build(),
         ]),
-    )),
+    ),
 };

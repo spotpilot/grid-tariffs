@@ -19,7 +19,7 @@ pub const JBF: GridOperator = GridOperator {
             .plain_content_locator("#main")
             .build(),
     ),
-    power_tariff: Some(PowerTariff::new(
+    power_tariff: PowerTariff::new(
         TariffCalculationMethod::AverageHours(3),
         CostPeriods::new(&[
             CostPeriod::builder()
@@ -41,5 +41,5 @@ pub const JBF: GridOperator = GridOperator {
                 .exclude_weekends_and_swedish_holidays()
                 .build(),
         ]),
-    )),
+    ),
 };

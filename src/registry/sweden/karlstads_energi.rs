@@ -19,7 +19,7 @@ pub const KARLSTADS_ENERGI: GridOperator = GridOperator {
             .plain_content_locator("table")
             .build(),
     ),
-    power_tariff: Some(PowerTariff::new(
+    power_tariff: PowerTariff::new(
         TariffCalculationMethod::PeakHour,
         // NOTE: The pricing is actually the same for 16-63A as >63A if you account for VAT vs without VAT
         CostPeriods::new(&[
@@ -31,5 +31,5 @@ pub const KARLSTADS_ENERGI: GridOperator = GridOperator {
                 .exclude_weekends_and_swedish_holidays()
                 .build(),
         ]),
-    )),
+    ),
 };

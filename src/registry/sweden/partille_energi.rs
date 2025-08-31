@@ -16,8 +16,8 @@ pub const PARTILLE_ENERGI: GridOperator = GridOperator {
             .plain_content_locator("#elnatsavtal")
             .build(),
     ),
-    power_tariff: Some(PowerTariff::new(
+    power_tariff: PowerTariff::new(
         TariffCalculationMethod::PeakHour,
         CostPeriods::new(&[CostPeriod::builder().load(Base).fixed_cost(32, 50).build()]),
-    )),
+    ),
 };

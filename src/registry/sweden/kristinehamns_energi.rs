@@ -16,7 +16,7 @@ pub const KRISTINEHAMNS_ENERGI: GridOperator = GridOperator {
             .plain_content_locator("section")
             .build(),
     ),
-    power_tariff: Some(PowerTariff::new(
+    power_tariff: PowerTariff::new(
         TariffCalculationMethod::PeakHour,
         CostPeriods::new(&[
             CostPeriod::builder().load(Base).fixed_cost(43, 75).build(),
@@ -28,5 +28,5 @@ pub const KRISTINEHAMNS_ENERGI: GridOperator = GridOperator {
                 .exclude_weekends_and_swedish_holidays()
                 .build(),
         ]),
-    )),
+    ),
 };

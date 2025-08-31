@@ -9,12 +9,15 @@ unsafe_code = "forbid"
 [workspace.package]
 rust-version = "1.88"
 
+[workspace.dependencies]
+chrono = { version = "0.4.41" }
+
 [package]
 name = "grid-tariffs"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-chrono = { version = "0.4.41", default-features = false }
+chrono.workspace = true
 chrono-tz = { version = "0.10.4", default-features = false }
 thiserror = { version = "2.0.16", default-features = false }

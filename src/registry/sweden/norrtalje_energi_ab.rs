@@ -16,11 +16,5 @@ pub const NORRTÄLJE_ENERGI_AB: GridOperator = GridOperator::builder()
             .plain_content_locator(".price-slider")
             .build(),
     ))
-    // .power_tariff(PowerTariff::new(
-    //     TariffCalculationMethod::PeakHour,
-    //     CostPeriods::new(&[
-    //         CostPeriod::builder().load(Low).build(),
-    //         CostPeriod::builder().load(High).build(),
-    //     ]),
-    // ))
+    .power_tariff(PowerTariff::Unverified)
     .build();

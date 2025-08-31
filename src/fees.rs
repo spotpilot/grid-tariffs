@@ -1,7 +1,7 @@
 use crate::{Cost, costs::CostPeriods};
 
 #[derive(Debug, Clone, Copy)]
-pub(super) enum TransferFee {
+pub enum TransferFee {
     /// Price was not listed on their website
     Unlisted,
     /// Transfer fee has not been verified by us
@@ -26,6 +26,10 @@ pub(super) enum TransferFee {
 }
 
 impl TransferFee {
+    pub const fn is_unverified(&self) -> bool {
+        matches!(self, Self::Unverified)
+    }
+
     pub(super) const fn new_periods(periods: CostPeriods) -> Self {
         Self::Periods { periods }
     }
@@ -41,7 +45,13 @@ impl TransferFee {
 
 // Other kWh based fees
 #[derive(Debug, Clone, Copy)]
-pub(super) enum OtherFees {
+pub enum OtherFees {
     Unverified,
     List(&'static [(&'static str, Cost)]),
+}
+
+impl OtherFees {
+    pub const fn is_unverified(&self) -> bool {
+        matches!(self, Self::Unverified)
+    }
 }

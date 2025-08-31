@@ -24,7 +24,7 @@ pub const LINDE_ENERGI: GridOperator = GridOperator {
             .plain_content_locator("#Innehall + div")
             .build(),
     ),
-    power_tariff: Some(PowerTariff::new(
+    power_tariff: PowerTariff::new(
         TariffCalculationMethod::AverageDaysDifferentiated { base: 2, peak: 2 },
         CostPeriods::new(&[
             CostPeriod::builder()
@@ -45,5 +45,5 @@ pub const LINDE_ENERGI: GridOperator = GridOperator {
                 .exclude_weekends()
                 .build(),
         ]),
-    )),
+    ),
 };

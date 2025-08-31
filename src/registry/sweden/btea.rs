@@ -23,7 +23,7 @@ pub const BTEA: GridOperator = GridOperator {
             .plain_content_locator("table")
             .build(),
     ),
-    power_tariff: Some(PowerTariff::new(
+    power_tariff: PowerTariff::new(
         // TODO: We need to differentiate between high load and low load hours..., Not day and night...
         TariffCalculationMethod::PeakHours(&[High, Low]),
         #[cfg_attr(rustfmt, rustfmt_skip)]
@@ -37,7 +37,7 @@ pub const BTEA: GridOperator = GridOperator {
             LOW_LOAD.months(March, May).fixed_cost(51, 25).build(),
             LOW_LOAD.months(June, September).fixed_cost(37, 50).build(),
         ]),
-    )),
+    ),
 };
 
 const LOW_LOAD: CostPeriodBuilder = CostPeriod::builder().load(Low);

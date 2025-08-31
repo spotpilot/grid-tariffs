@@ -53,7 +53,7 @@ pub struct GridOperator {
     transfer_fee: TransferFee,
     feed_in_revenue: FeedInRevenue,
     other_fees: OtherFees,
-    power_tariff: Option<PowerTariff>,
+    power_tariff: PowerTariff,
     links: Links,
 }
 
@@ -66,8 +66,30 @@ impl GridOperator {
         &self.vat_number
     }
 
+    pub const fn price_date(&self) -> NaiveDate {
+        self.price_date
+    }
+
     pub const fn country(&self) -> Country {
         self.country
+    }
+    pub const fn monthly_fee(&self) -> &Cost {
+        &self.monthly_fee
+    }
+    pub const fn monthly_production_fee(&self) -> &Cost {
+        &self.monthly_production_fee
+    }
+    pub const fn transfer_fee(&self) -> &TransferFee {
+        &self.transfer_fee
+    }
+    pub const fn feed_in_revenue(&self) -> &FeedInRevenue {
+        &self.feed_in_revenue
+    }
+    pub const fn other_fees(&self) -> &OtherFees {
+        &self.other_fees
+    }
+    pub const fn power_tariff(&self) -> &PowerTariff {
+        &self.power_tariff
     }
 
     pub const fn links(&self) -> &Links {
@@ -101,10 +123,6 @@ impl GridOperator {
 
     pub fn all() -> Vec<&'static Self> {
         sweden::GRID_OPERATORS.iter().collect()
-    }
-
-    pub fn power_tariff(&self) -> Option<&PowerTariff> {
-        self.power_tariff.as_ref()
     }
 
     pub(crate) const fn builder() -> GridOperatorBuilder {

@@ -16,7 +16,7 @@ pub const FALBYGDENS_ENERGI: GridOperator = GridOperator {
             .plain_content_locator(".pagecontent")
             .build(),
     ),
-    power_tariff: Some(PowerTariff::new(
+    power_tariff: PowerTariff::new(
         TariffCalculationMethod::AverageDaysDifferentiated { base: 1, peak: 1 },
         CostPeriods::new(&[
             CostPeriod::builder().load(Base).fixed_cost(39, 80).build(),
@@ -28,5 +28,5 @@ pub const FALBYGDENS_ENERGI: GridOperator = GridOperator {
                 .exclude_weekends_and_swedish_holidays()
                 .build(),
         ]),
-    )),
+    ),
 };

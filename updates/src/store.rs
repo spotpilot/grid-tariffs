@@ -1,6 +1,6 @@
 use std::{path::PathBuf, time::Duration};
 
-use convert_case::{Boundary, Case, Casing};
+use convert_case::{Case, Casing};
 use grid_tariffs::GridOperator;
 use tokio::fs::{create_dir_all, read_to_string};
 use tracing::{debug, info};

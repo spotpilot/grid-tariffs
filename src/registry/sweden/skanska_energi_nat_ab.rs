@@ -16,11 +16,5 @@ pub const SKÅNSKA_ENERGI_NÄT_AB: GridOperator = GridOperator::builder()
             .plain_content_locator(".content .accordian:first-child")
             .build(),
     ))
-    // .power_tariff(PowerTariff::new(
-    //     TariffCalculationMethod::PeakHour,
-    //     CostPeriods::new(&[
-    //         CostPeriod::builder().load(Low).build(),
-    //         CostPeriod::builder().load(High).build(),
-    //     ]),
-    // ))
+    .power_tariff(PowerTariff::Unverified)
     .build();

@@ -12,11 +12,5 @@ pub const SUNDSVALL_ELNÄT_AB: GridOperator = GridOperator::builder()
     .transfer_fee(TransferFee::Unverified)
     .other_fees(OtherFees::Unverified)
     .links(Links::new(Link::builder("https://sundsvallelnat.se/min-anslutning/priser-och-avtalsvillkor/2025-sakringsabonnemang-privat").content_locator_default().build()))
-    // .power_tariff(PowerTariff::new(
-    //     TariffCalculationMethod::PeakHour,
-    //     CostPeriods::new(&[
-    //         CostPeriod::builder().load(Low).build(),
-    //         CostPeriod::builder().load(High).build(),
-    //     ]),
-    // ))
+    .power_tariff(PowerTariff::Unverified)
     .build();
