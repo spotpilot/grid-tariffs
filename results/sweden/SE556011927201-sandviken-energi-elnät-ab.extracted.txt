@@ -1,11 +1,3 @@
-/index.html
-Start
-/
-/elnat.171.html
-Elnät
-/
-Priser för elnät
-
 Priser för elnät
 Din elnätsavgift består av två delar; en del för abonnemanget och den andra för den rörliga elöverföringen. Vi använder nätavgifterna till att återinvestera i elnätsinfrastrukturen med bland annat drift och underhåll samt förstärkning av elnätet. Den används även till mätning och administration.
 Du kan inte välja din elnätsägare, det finns alltid bara en elnätsägare där du bor. Därför kallas elnätsindelningen för ett naturligt monopol där Energimarknads­inspektionen (EI) har ett ansvar för att granska så att elnätsägarna sköter sitt uppdrag och att elnätsavgifterna är skäliga.
@@ -281,11 +273,6 @@ Ersättningen från Sandviken Energi är:
 3,0 öre/kWh exkl. moms (3,5 öre/kWh inkl. moms)
 Ersättningen kan komma att justeras årligen för att motsvara vårt inköpspris av el från Vattenfall.
 Är du momsregistrerad får du nätnyttoersättning inkl. moms på din elnätsfaktura.
-
-Senast uppdaterat
-2025-08-21 15.10
-
-Relaterat innehåll
 
 /elnat/ansluttillelnatet.185.html
 Anslut till elnätet

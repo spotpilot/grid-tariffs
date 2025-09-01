@@ -1,52 +1,4 @@
 
-El
-
-Elnätsavgifter
-
-https://landskronaenergi.se
-Hem
-/
-https://landskronaenergi.se/privat/
-Privat
-/
-https://landskronaenergi.se/privat/el/
-El
-/
-Elnätsavgifter
-
-🡢
-Säkringskund
-
-#sakringskunder
-Läs mer
-
-🡢
-Effektkund
-
-#effektkunder
-Läs mer
-
-🡢
-Anslutnings&shyavgifter
-
-#anslutningsavgifter
-Läs mer
-
-🡢
-Avtalsvillkor
-
-#avtalsvillkor
-Läs mer
-
-Säkringskunder
-
-Priser från 1 januari 2025
-
-Enkeltariff, ES 40
-
-Abonnemangssäkring, A
-Fast avgift inkl. moms
-
 16 A lägenhet
 
 1 970 kr/år (1 576 exkl. moms)
@@ -95,32 +47,6 @@ Fast avgift inkl. moms
 
 89 355 kr/år (71 484 exkl. moms)
 
-Kan jag ändra storlek på mätarsäkringen?
-
-Om du vill byta till större eller mindre mätarsäkring inom intervallen 16 Ampere – 25 Ampere så kontaktar du en elinstallatör som utför ändringen. Elektrikern kommer sedan att skicka in en föranmälan på detta till oss och då ändrar vi i våra system.
-
-Jag vill ändra säkring, hur gör jag?
-
-Ändring av avgiftsbestämmande säkring får utföras av behörig installatör som erhållit Landskrona Energis medgivande till byte. En sådan ändring får i regel ske högst en gång per år.
-
-Prisexempel
-
-1 970 kr/år
-
-16 A lägenhet
-
-365
-
-Antal dagar på ett år
-
-31
-
-Antal dagar i månaden
-
-167,315
-
-kr/månad
-
 Elöverföring
 
 24,463 öre/kWh (19,57 öre/kWh exkl. moms)
@@ -132,18 +58,6 @@ Energiskatt
 54,875 öre/kWh(43,90 öre/kWh exkl. moms)
 
 Energiskatt är en skatt på energiproduktion och konsumtion för att främja hållbarhet, minska koldioxidutsläpp och stödja övergången till förnybara energikällor. Den används som ett ekonomiskt styrmedel och varierar beroende på energikälla och region.
-
-Vad menas med Elöverföring?
-
-Elöverföring innebär processen att förflytta elektrisk energi från en plats till en annan, oftast från kraftverk till bostäder eller industrier. Det involverar olika tekniker, såsom användning av ledningar och kablar för att transportera elektricitet över olika avstånd. Elöverföring är en central del av elsystemet och möjliggör distributionen av elektrisk energi för att driva olika elektriska apparater och enheter. Det är viktigt att särskilja elöverföring från eldistribution, där den förstnämnda fokuserar på att flytta el från producenter till distributionspunkter och den senare på att leverera elektricitet från distributionspunkter till slutanvändare.
-
-Vad är energiskatt?
-
-Energiskatt är en skatt som tas ut på olika energikällor, inklusive fossila bränslen och elektricitet. Syftet är oftast att främja hållbara energival genom att göra icke förnybara energikällor dyrare. Denna skatt kan tas ut vid olika punkter i energiförsörjningskedjan och används för att uppmuntra övergång till mer miljövänliga alternativ samt generera intäkter för staten. Exakt tillvägagångssätt för energiskatt varierar mellan länder.
-
-Allmänt
-
-I tarifferna ingår transiteringsavgifter för överliggande nät, samt elsäkerhets-, elberedskaps-, och övervakninsavgift.
 
 Inflyttningsavgift
 
@@ -165,19 +79,6 @@ Vid inflytt debiterar vi en administrativ inflyttningsavgift
 **) Om kund så önskar demonterar vi mätaren och avslutar abonnemanget. I och med att anläggningen frånkopplas förbehåller vi oss rätten att riva matande servisledning. Vi eventuell återanslutning till elnätet ska detta anmälas av auktoriserad installatör. Vi betraktar återanslutningen som en nyinstallation varpå de för den aktuella tidpunkten gällande föreskrifter och standarder skall vara uppfyllda innan anläggningen kan tillkopplas. Eventuella kostnader utöver "Återanslutningsavgiften" debiteras kunden till ett maximalt belopp motsvarande gällande nyanslutningsavgift. 
 OBS! Säsongsbaserad frånkoppling eller säkringsändring få ej förekomma.
 ¹) Återinkopplingsavgift gäller för lågspänningskunder. För högspänningskunder fakturerar Landskrona Energi enligt självkostnadsprincip.
-
-Priserna som anger ”inklusive moms” är beräknade på nuvarande mervärdesskatt.
-I det fall denna ändras sker motsvarande förändring i debiteringen gentemot kunden.
-
-Ändring av säkringsstorlek
-
-Ändring av avgiftsbestämmande säkring får utföras av behörig installatör som erhållit Landskrona Energis medgivande till byte. En sådan ändring får i regel ske högst en gång per år.
-
-Kollektivtariff
-
-Nyteckning av abonnemanget erbjuds ej
-
-Fast avgift
 
 12
 
@@ -207,10 +108,6 @@ Energiskatt
 
 54,875 öre/kWh (43,900 exkl. moms)
 
-Hjälptariff  EH 16
-
-Nyteckning av abonnemanget erbjuds ej
-
 Fast avgift
 
 729 kr/år (583 kr/år exkl. moms)
@@ -222,114 +119,6 @@ Rörlig avgift
 Energiskatt
 
 54,875 öre/kWh (43,900 exkl. moms)
-
-Effektkunder
-
-Priser från 1 januari 2025
-
-Spänningsnivå – Fast avgift
-
-Årsavgift angiven i kronor
-
-130 kV
-11 kV
-0,4 kV
-exkl moms
-inkl moms
-exkl moms
-inkl moms
-exkl moms
-inkl moms
-Fast avgift
-54 619
-68 273,75
-22 759
-28 448,75
-5 777
-7 221,25
-Fast avgift batterilager
-
-31 428
-39 285
-
-Abonnemangsavgift/kW
-225
-281,25
-252
-315,00
-350
-437,50
-Effektavgift/kW
-106
-132,50
-313
-391,25
-471
-588,75
-
-Spänningsnivå – Rörlig avgift
-
-Priser angivna i öre/kWh
-
-130 kV
-11 kV
-0,4 kV
-exkl moms
-inkl moms
-exkl moms
-inkl moms
-exkl moms
-inkl moms
-Rörlig avgift
-10,26
-12,83
-13,92
-17,40
-17,46
-21,83
-ENERGISKATT
-43,90
-54,88
-43,90
-54,88
-43,90
-54,88
-Reaktiv effekt
-%
-%
-%
-Tillåtet uttag (av ab aktiv effekt)
-15
-50
-50
-
-Abonnemangsavgift reaktiv effekt, samtliga tariffer 80 (100,00 kr inkl moms) kronor/kVAr, Överuttag reaktiv effekt 186 (232,50 kr inkl moms) kronor/kVAr
-
-Abonnemangsavgift:
-Avgift erlägges för tecknat abonnemang i respektive anslutningspunkt. Abonnemangets storlek skall minst motsvara det högsta värdet för uttagen 1-timmeseffekt.
-Överuttag debiteras med 200 %.
-Effektavgift:
-Effektavgift för aktiv effekt erläggs för högsta månadsvärdet under månaderna januari-mars och november-december för uttagen entimmeseffekt.
-Överuttag debiteras med 150 %.
-Effektavgift för reaktiv effekt erlägges för högsta uttagen entimmeseffekt under året.
-Tidsbegrepp:
-Med vintervardag avses vardagar klockan 06-22 november – mars.
-Tillämpningsbestämmelser pilottariff energilager 11 kV:
-För dedikerat energilager 11 kV, dvs anläggning för lagring av energi utan produktion eller förbrukning utöver interna förluster:
-Årsavgift fast: 29 510 kr exklusive moms
-Tidsupplösning abonnemangsavgift och effektavgift 1 (en) minut
-Rörlig avgift: beräknas som mellanskillnad på den energin som matas till och från anläggningen under en kalendermånad
-Priserna som anger ”inklusive moms” är beräknade på nuvarande mervärdesskatt. I det fall denna ändras sker motsvarande förändring i debiteringen gentemot kunden.
-Anslutningsavgifter högspänning
-Enligt offert per anslutning
-
-Inmatning av el
-
-Priser från 1 januari 2025
-
-Enkeltariff, ES 40
-
-Anslutningsspänning
 
 IN10
 
@@ -346,8 +135,6 @@ IN04
 IN04M
 
 0,4 kV
-
-Fast avgift
 
 IN10
 
@@ -365,8 +152,6 @@ IN04M
 
 510 kr/år
 
-Abonnemangsavgift
-
 IN10
 
 53,25 kr/kW, år
@@ -383,8 +168,6 @@ IN04M
 
 -
 
-Nätersättning
-
 IN10
 
 4,5 öre/kWh
@@ -400,51 +183,6 @@ IN04
 IN04M
 
 6,3 öre/kWh
-
-Elnätsavgift IN10
-– gäller för inmatning vid högspänning >1 500 kW.
-Elnätsavgift IN10S
-– gäller för inmatning vid högspänning ≤ 1 500 kW.
-Elnätsavgift IN04
-– gäller för inmatning vid lågspänning.
-Elnätsavgift IN04M
-– gäller anslutningar vid lågspänning med ett säkringsabonnemang för uttag av el om högst 63 ampere. Inmatning ska ske via samma huvudsäkringar som uttaget. Max effekt för inmatning 43,5 kW.
-Om produktionsanläggningen fordrar större mätsystem än befintligt abonnemang, eller när abonnemang helt saknas, så tillkommer en kostnad för mätning på 1 500 kr/år (<80A) eller 3 500 kr(>63A).
-Samtliga avgifter är angivna exklusive moms.
-
-Tillämpningsbestämmelser
-Prislistan gäller per anslutningspunkt och under förutsättning att avtal finns. Avräkning för aktuell månad sker i början av nästkommande månad.
-Fast avgift
-Avgift för mätning, beräkning och rapportering per anslutningspunkt.
-Abonnemangsavgift
-Avgift för tecknat abonnemang i respektive anslutningspunkt. Abonnerad effekt fastställs i förväg och ska minst motsvara den högsta inmatade entimmeseffekten under året.
-Nätersättning
-Ersättning för reduktion i överföring från regionnät samt förlustreduktion i lokalnätet som inmatningen från produktionsanläggningen medför.
-Eventuell förbrukning i en inmatningsanläggning
-I de fall en inmatningsanläggning förbrukar effekt/energi debiteras denna enligt prislista för nätavgifter. Den fasta avgiften för en förbrukningsanläggning erläggs däremot inte. Effektavgift erläggs som summa av abonnemangs- och effektavgift för maximalt uttagen entimmeseffekt under månaderna januari-mars och november- december.
-Mätning
-Insamling och rapportering av timvärden sker enligt gällande föreskrifter.
-
-Anslutningsavgifter
-
-Priser från 1 januari 2025
-
-Nya kunder
-
-Vid nyanslutning av en elförbrukare tar vi betalt för den faktiska investering som vi måste göra. För mindre förbrukare inom tätorten, t.ex. en villa, utgår en i förväg bestämd nyanslutningsavgift.
-Anslutningsavgift gällande högspänning sker genom offert per anslutning. Kontakta vår
-https://landskronaenergi.se/kundservice/#kontakta-kundservice
-kundservice
-för mer information.
-
-Lågspänning
-
-Schablonpris gällande inom sammanhållen bebyggelse.
-Beställare svarar för schakt och/eller rörförläggning inom tomtmark. Anslutningsavgifter offereras då stora avvikalser förekommer i t.ex. uttagsmönster.
-
-Enbostadshus eller enskild anslutning (Servissäkring 16-25 A)
-
-Avstånd gäller mellan närmaste anslutningspunkt och servis.
 
 Max 200 meter
 
@@ -468,23 +206,15 @@ Max 200 meter
 
 + 630,00 kr/m (504 kr/m exkl. moms)
 
-Koloniområden
-
 Servissäkring 16-25A
 
 54 125 kr (43 300 kr exkl. moms)
 
 Inom befintligt koloniområde
 
-Övriga serviser
-
 Servissäkring från 35A
 
 Offert
-
-Tillfällig anslutning (byggkraft)
-
-Dessa anslutningar får endast vara inkopplade under högst 12 månader om inte separat överenskommelse sker.
 
 16-63A
 
@@ -502,10 +232,6 @@ Offert
 
 I anvisad uttagspunkt
 
-Diverse avgifter
-
-I tarifferna ingår transiteringsavgifter för överliggande nät, samt elsäkerhets-, elberedskaps-, och övervakningsavgift.
-
 Utökning av antalet abonnemang inom befintlig fastighet
 
 5 325 kr (4 260 kr exkl. moms)
@@ -513,16 +239,6 @@ Utökning av antalet abonnemang inom befintlig fastighet
 Tillkommande kostnad/abonnemang utöver första nyanslutning
 
 2 000 kr (1 600 kr exkl. moms)
-
-Priserna som anger ”inklusive moms” är beräknade på nuvarande mervärdesskatt, i det fall denna ändras sker motsvarande förändring i debitering gentemot kund
-.
-
-Generellt
-
-Prislista för arbete som utförs av Landskrona Energi AB, avdelning elnät.
-Minimiavgift för utryckningar under icke normal arbetstid 2 835 kr.
-
-Montör, pris per timme
 
 Normal arbetstid
 
@@ -536,8 +252,6 @@ Kvalificerad övertid
 
 2 007,50 kr ( 1 606 kr exkl. moms)
 
-Projektingenjör eller liknande, pris per timme
-
 Normal arbetstid
 
 1 446,25 kr (1 157 kr exkl. moms)
@@ -550,8 +264,6 @@ Kvalificerad övertid
 
 2 420 kr (1 963 kr exkl. moms)
 
-Fordon
-
 Milkostnader, personbil
 
 121,25 kr/mil (97 kr/mil exkl. moms)
@@ -559,39 +271,6 @@ Milkostnader, personbil
 Traktor
 
 662,50 kr/tim (530 kr/tim exkl. moms)
-
-Verifierade kostnader + 10% utgår för m
-aterialkostnader, underentreprenörer, underkonsulter och övriga kostnader.
-
-Avtalsvillkor för dig som konsument
-
-Här finns de allmänna avtalsvillkor för dig som privatperson och rör ditt elnätsabonnemang. Elbranschens allmänna avtalsvillkor är framtagna i samarbete mellan Konsumentverket och Energiföretagen Sverige. I de allmänna avtalsvillkoren kan du läsa om sådant som gäller speciellt för dig som har ett elnätsabonnemang hos oss.
-
-https://landskronaenergi.se/wp-content/uploads/allmanna-avtalssvillkor-energiforetagen-nt-2012-k-rev-2.pdf
-
-Allmänna avtalsvillkor
-
-Avtalsvillkor för dig som är näringsidkare
-
-Här finns de
-https://landskronaenergi.se/wp-content/uploads/nat-2012-n-rev-1.pdf
-allmänna avtalsvillkoren
-som rör ditt elnätsabonnemang som är näringsidkare, vilka är framtagna av Energiföretagen Sverige. I våra egna avtalsvillkor kan du läsa om sådant som gäller speciellt för dig som har ett elnätsabonnemang hos oss.
-
-https://landskronaenergi.se/wp-content/uploads/nat-2012-h-rev-1.pdf
-
-Avtalsvillkor för högspänning finner du här
-
-Elnätsavgifter 2024
-
-Säkringskunder
-
-Priser från 1 januari 2024
-
-Enkeltariff, ES 40
-
-Abonnemangssäkring, A
-Fast avgift inkl. moms
 
 16 A lägenhet
 
@@ -641,32 +320,6 @@ Fast avgift inkl. moms
 
 83 902 kr/år (67 121 exkl. moms)
 
-Kan jag ändra storlek på mätarsäkringen?
-
-Om du vill byta till större eller mindre mätarsäkring inom intervallen 16 Ampere – 25 Ampere så kontaktar du en elinstallatör som utför ändringen. Elektrikern kommer sedan att skicka in en föranmälan på detta till oss och då ändrar vi i våra system.
-
-Jag vill ändra säkring, hur gör jag?
-
-Ändring av avgiftsbestämmande säkring får utföras av behörig installatör som erhållit Landskrona Energis medgivande till byte. En sådan ändring får i regel ske högst en gång per år.
-
-Prisexempel
-
-1 850 kr/år
-
-16 A lägenhet
-
-365
-
-Antal dagar på ett år
-
-31
-
-Antal dagar i månaden
-
-157,12
-
-kr/månad
-
 Elöverföring
 
 24,463 öre/kWh(19,57 öre/kWh exkl. moms)
@@ -678,18 +331,6 @@ Energiskatt
 53,500 öre/kWh(42,80 öre/kWh exkl. moms)
 
 Energiskatt är en skatt på energiproduktion och konsumtion för att främja hållbarhet, minska koldioxidutsläpp och stödja övergången till förnybara energikällor. Den används som ett ekonomiskt styrmedel och varierar beroende på energikälla och region.
-
-Vad menas med Elöverföring?
-
-Elöverföring innebär processen att förflytta elektrisk energi från en plats till en annan, oftast från kraftverk till bostäder eller industrier. Det involverar olika tekniker, såsom användning av ledningar och kablar för att transportera elektricitet över olika avstånd. Elöverföring är en central del av elsystemet och möjliggör distributionen av elektrisk energi för att driva olika elektriska apparater och enheter. Det är viktigt att särskilja elöverföring från eldistribution, där den förstnämnda fokuserar på att flytta el från producenter till distributionspunkter och den senare på att leverera elektricitet från distributionspunkter till slutanvändare.
-
-Vad är energiskatt?
-
-Energiskatt är en skatt som tas ut på olika energikällor, inklusive fossila bränslen och elektricitet. Syftet är oftast att främja hållbara energival genom att göra icke förnybara energikällor dyrare. Denna skatt kan tas ut vid olika punkter i energiförsörjningskedjan och används för att uppmuntra övergång till mer miljövänliga alternativ samt generera intäkter för staten. Exakt tillvägagångssätt för energiskatt varierar mellan länder.
-
-Allmänt
-
-I tarifferna ingår transiteringsavgifter för överliggande nät, samt elsäkerhets-, elberedskaps-, och övervakninsavgift.
 
 Inflyttningsavgift
 
@@ -712,19 +353,6 @@ Vid inflytt debiterar vi en administrativ inflyttningsavgift
 OBS! Säsongsbaserad frånkoppling eller säkringsändring få ej förekomma.
 ¹) Återinkopplingsavgift gäller för lågspänningskunder. För högspänningskunder fakturerar Landskrona Energi enligt självkostnadsprincip.
 
-Priserna som anger ”inklusive moms” är beräknade på nuvarande mervärdesskatt.
-I det fall denna ändras sker motsvarande förändring i debiteringen gentemot kunden.
-
-Ändring av säkringsstorlek
-
-Ändring av avgiftsbestämmande säkring får utföras av behörig installatör som erhållit Landskrona Energis medgivande till byte. En sådan ändring får i regel ske högst en gång per år.
-
-Kollektivtariff
-
-Nyteckning av abonnemanget erbjuds ej
-
-Fast avgift
-
 12
 
 18 109 kr (14 487 kr exkl. moms)
@@ -744,10 +372,6 @@ Fast avgift
 48
 
 66 463 kr (53 170 kr exkl. moms)
-
-Hjälptariff  EH 16
-
-Nyteckning av abonnemanget erbjuds ej
 
 Fast avgift
 
@@ -769,109 +393,6 @@ Energiskatt
 
 53,500 öre/kWh (42,800 exkl. moms)
 
-Effektkunder
-
-Priser från 1 januari 2024
-
-Spänningsnivå – Fast avgift
-
-Årsavgift angiven i kronor
-
-130 kV
-11 kV
-0,4 kV
-exkl moms
-inkl moms
-exkl moms
-inkl moms
-exkl moms
-inkl moms
-Fast avgift
-51 286
-64 107,50
-21 370
-26 712,50
-5 425
-6 781,25
-Abonnemangsavgift/kW
-212
-264,48
-237
-296,25
-329
-411,25
-Effektavgift/kW
-100
-124,75
-294
-367,50
-443
-553,75
-
-Spänningsnivå – Rörlig avgift
-
-Priser angivna i öre/kWh
-
-130 kV
-11 kV
-0,4 kV
-exkl moms
-inkl moms
-exkl moms
-inkl moms
-exkl moms
-inkl moms
-Rörlig avgift
-10,26
-12,83
-13,92
-17,40
-17,46
-21,83
-ENERGISKATT
-42,80
-53,50
-42,80
-53,50
-42,80
-53,50
-Reaktiv effekt
-%
-%
-%
-Tillåtet uttag (av ab aktiv effekt)
-15
-50
-50
-
-Abonnemangsavgift reaktiv effekt, samtliga tariffer 75 (93,75 kr inkl moms) kronor/kVAr, Överuttag reaktiv effekt 175 (218,75 kr inkl moms) kronor/kVAr
-
-Abonnemangsavgift:
-Avgift erlägges för tecknat abonnemang i respektive anslutningspunkt. Abonnemangets storlek skall minst motsvara det högsta värdet för uttagen 1-timmeseffekt.
-Överuttag debiteras med 200 %.
-Effektavgift:
-Effektavgift för aktiv effekt erläggs för högsta månadsvärdet under månaderna januari-mars och november-december för uttagen entimmeseffekt.
-Överuttag debiteras med 150 %.
-Effektavgift för reaktiv effekt erlägges för högsta uttagen entimmeseffekt under året.
-Tidsbegrepp:
-Med vintervardag avses vardagar klockan 06-22 november – mars.
-Tillämpningsbestämmelser pilottariff energilager 11 kV:
-För dedikerat energilager 11 kV, dvs anläggning för lagring av energi utan produktion eller förbrukning utöver interna förluster:
-Årsavgift fast: 29 510 kr exklusive moms
-Tidsupplösning abonnemangsavgift och effektavgift 1 (en) minut
-Rörlig avgift: beräknas som mellanskillnad på den energin som matas till och från anläggningen under en kalendermånad
-Priserna som anger ”inklusive moms” är beräknade på nuvarande mervärdesskatt. I det fall denna ändras sker motsvarande förändring i debiteringen gentemot kunden.
-Anslutningsavgifter högspänning
-Enligt offert per anslutning
-
-Inmatning av el
-
-Priser från 1 januari 2024
-
-Enkeltariff, ES 40
-
-Anslutningsspänning
-
 IN10
 
 10 kV
@@ -887,8 +408,6 @@ IN04
 IN04M
 
 0,4 kV
-
-Fast avgift
 
 IN10
 
@@ -906,8 +425,6 @@ IN04M
 
 -
 
-Abonnemangsavgift
-
 IN10
 
 50 kr/kW, år
@@ -924,8 +441,6 @@ IN04M
 
 -
 
-Nätersättning
-
 IN10
 
 4,5 öre/kWh
@@ -941,51 +456,6 @@ IN04
 IN04M
 
 6,3 öre/kWh
-
-Elnätsavgift IN10
-– gäller för inmatning vid högspänning >1 500 kW.
-Elnätsavgift IN10S
-– gäller för inmatning vid högspänning ≤ 1 500 kW.
-Elnätsavgift IN04
-– gäller för inmatning vid lågspänning.
-Elnätsavgift IN04M
-– gäller anslutningar vid lågspänning med ett säkringsabonnemang för uttag av el om högst 63 ampere. Inmatning ska ske via samma huvudsäkringar som uttaget. Max effekt för inmatning 43,5 kW.
-Samtliga avgifter är angivna exklusive moms.
-
-Tillämpningsbestämmelser
-Prislistan gäller per anslutningspunkt och under förutsättning att avtal finns. Avräkning för aktuell månad sker i början av nästkommande månad.
-Fast avgift
-Avgift för mätning, beräkning och rapportering per anslutningspunkt.
-Abonnemangsavgift
-Avgift för tecknat abonnemang i respektive anslutningspunkt. Abonnerad effekt fastställs i förväg och ska minst motsvara den högsta inmatade entimmeseffekten under året.
-Nätersättning
-Ersättning för reduktion i överföring från regionnät samt förlustreduktion i lokalnätet som inmatningen från produktionsanläggningen medför.
-Förbrukning
-Förbrukning debiteras enligt prislista för nätavgifter. Fast avgift erläggs inte. Effektavgift erläggs som summa av abonnemangs- och effektavgift för maximalt uttagen entimmeseffekt under månaderna januari-mars och
-november- december.
-Mätning
-Insamling och rapportering av timvärden sker enligt gällande föreskrifter.
-
-Anslutnings­avgifter
-
-Priser från 1 januari 2024
-
-Nya kunder
-
-Vid nyanslutning av en elförbrukare tar vi betalt för den faktiska investering som vi måste göra. För mindre förbrukare inom tätorten, t.ex. en villa, utgår en i förväg bestämd nyanslutningsavgift.
-Anslutningsavgift gällande högspänning sker genom offert per anslutning. Kontakta vår
-https://landskronaenergi.se/kundservice/#kontakta-kundservice
-kundservice
-för mer information.
-
-Lågspänning
-
-Schablonpris gällande inom sammanhållen bebyggelse.
-Beställare svarar för schakt och/eller rörförläggning inom tomtmark. Anslutningsavgifter offereras då stora avvikalser förekommer i t.ex. uttagsmönster.
-
-Enbostadshus eller enskild anslutning (Servissäkring 16-25 A)
-
-Avstånd gäller mellan närmaste anslutningspunkt och servis.
 
 Max 200 meter
 
@@ -1009,23 +479,15 @@ Max 200 meter
 
 + 593,75 kr/m (475 kr/m exkl. moms)
 
-Koloniområden
-
 Servissäkring 16-25A
 
 50 000 kr (40 000 kr exkl. moms)
 
 Inom befintligt koloniområde
 
-Övriga serviser
-
 Servissäkring från 35A
 
 Offert
-
-Tillfällig anslutning (byggkraft) 16-63 A
-
-Dessa anslutningar får endast vara inkopplade under högst 12 månader om inte separat överenskommelse sker.
 
 16-63A
 
@@ -1043,10 +505,6 @@ Offert
 
 I anvisad uttagspunkt
 
-Diverse avgifter
-
-I tarifferna ingår transiteringsavgifter för överliggande nät, samt elsäkerhets-, elberedskaps-, och övervakninsavgift.
-
 Utökning av antalet abonnemang inom befintlig fastighet
 
 5 000 kr (4 000 kr exkl. moms)
@@ -1054,25 +512,3 @@ Utökning av antalet abonnemang inom befintlig fastighet
 Tillkommande kostnad/abonnemang utöver första nyanslutning
 
 1 875 kr (1 500 kr exkl. moms)
-
-Priserna som anger ”inklusive moms” är beräknade på nuvarande mervärdesskatt, i det fall denna ändras sker motsvarande förändring i debitering gentemot kund
-.
-
-Avtalsvillkor för dig som konsument
-
-Här finns de allmänna avtalsvillkor för dig som privatperson och rör ditt elnätsabonnemang. Elbranschens allmänna avtalsvillkor är framtagna i samarbete mellan Konsumentverket och Energiföretagen Sverige. I de allmänna avtalsvillkoren kan du läsa om sådant som gäller speciellt för dig som har ett elnätsabonnemang hos oss.
-
-https://landskronaenergi.se/wp-content/uploads/allmanna-avtalssvillkor-energiforetagen-nt-2012-k-rev-2.pdf
-
-Allmänna avtalsvillkor
-
-Avtalsvillkor för dig som är näringsidkare
-
-Här finns de
-https://landskronaenergi.se/wp-content/uploads/nat-2012-n-rev-1.pdf
-allmänna avtalsvillkoren
-som rör ditt elnätsabonnemang som är näringsidkare, vilka är framtagna av Energiföretagen Sverige. I våra egna avtalsvillkor kan du läsa om sådant som gäller speciellt för dig som har ett elnätsabonnemang hos oss.
-
-https://landskronaenergi.se/wp-content/uploads/nat-2012-h-rev-1.pdf
-
-Avtalsvillkor för högspänning finner du här

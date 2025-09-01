@@ -1,47 +1,9 @@
-.WpPage_Pagefields_Sections_Hero.HeroSection-module--blueTheme--41722.fullscreen.HeroSection-module--fullscreen--0ed40.gbi--1614101095-wQUMy67cSyHSeBnuPBvPTC:before,
-          .WpPage_Pagefields_Sections_Hero.HeroSection-module--blueTheme--41722.fullscreen.HeroSection-module--fullscreen--0ed40.gbi--1614101095-wQUMy67cSyHSeBnuPBvPTC:after {
-            content: '';
-            display: block;
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
-            
-            transition: opacity 0.5s ease 250ms;
-            background-position: 50% 50%;
-background-repeat: no-repeat;
-background-size: cover;
-          }
-          .WpPage_Pagefields_Sections_Hero.HeroSection-module--blueTheme--41722.fullscreen.HeroSection-module--fullscreen--0ed40.gbi--1614101095-wQUMy67cSyHSeBnuPBvPTC:before {
-            z-index: -100;
-            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(data:image/jpeg;base64,/9j/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/2wBDAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAcIBv/EABcBAAMBAAAAAAAAAAAAAAAAAAIEBQb/2gAMAwEAAhADEAAAAdLRkRMiHvWKKkBj/8QAGxAAAgIDAQAAAAAAAAAAAAAAAgMBBAUGBxP/2gAIAQEAAQUCwBatLXP0hdEsnzlxUhFZXkItLWc+P//EACARAAICAQMFAAAAAAAAAAAAAAEDAhEhAAQSBRQiM3H/2gAIAQMBAT8B6Q7kszYnaiEMmK0s5SLSIRHNr2gRjKYPrJMRVg+Wu5ecgbSjkXtM0c5p1X8xr//EAB4RAAEEAwADAAAAAAAAAAAAAAIBAxESBAUTACQx/9oACAECAQE/Ad7rX0T1tjmI+UcyeNlWR5wZ2bYxmHCU2gIUXqlHCQ1ExTmQasajfP2l4S1MliloSa2w1KszErMffP/EACkQAAIBAgQFAwUAAAAAAAAAAAECAwQSAAURIQYTFCIxFUFCMjNRcZH/2gAIAQEABj8CzR5s8yxY4sxUW1NDmKEr0FFewupAbQ9y776qXXVSGMx63h+QwQyzsEkrhNUckKeRFI0McSSTE2wKNdW2YhATgvHxA9vjSDIeJXjUj6kviymSNih7SVdgSNiRoSWREDSkPIbF7mULGpO3siqv6GMt6iGKWz1ALci7CooJYJhoB84iVP8ARo2+Kftj2p6cfZi8LCgHw/A8+T74/8QAGxABAQADAAMAAAAAAAAAAAAAAREAITFBUWH/2gAIAQEAAT8hnE6iXOZX0gGEa5FLOpXGwKCvvSHqdmmO+Rno6iRRtDVRvwMU0OOyMAQ6Rl1gXeJWD0aCsKr0S1z/2gAMAwEAAgADAAAAELwf/8QAGBEBAQEBAQAAAAAAAAAAAAAAAREhADH/2gAIAQMBAT8QzFAcuQLZMRwjIsQpkgIniU9LMe//xAAYEQEBAQEBAAAAAAAAAAAAAAABIREAQf/aAAgBAgEBPxDNrgtSQQxyQl4GRAZhA84K0tLT/8QAGRABAQEAAwAAAAAAAAAAAAAAAREAECFx/9oACAEBAAE/EIN6HNRgrJLwQhO+QGGM9Hm+somnrolGNKVOST+wXcG6IAXBiqxRI5uQ5OCWlLIHjBLbDWi/T//Z);
-            
-            opacity: 1; 
-          }
-          .WpPage_Pagefields_Sections_Hero.HeroSection-module--blueTheme--41722.fullscreen.HeroSection-module--fullscreen--0ed40.gbi--1614101095-wQUMy67cSyHSeBnuPBvPTC:after {
-            z-index: -101;
-            
-            
-            
-          }
-<style>
-    .WpPage_Pagefields_Sections_Hero.HeroSection-module--blueTheme--41722.fullscreen.HeroSection-module--fullscreen--0ed40.gbi--1614101095-wQUMy67cSyHSeBnuPBvPTC:before {
-      opacity: 1;
-      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('/static/7c741b53405f44a0056a1a55c0968971/e0e60/Namnlos-design-40.webp');
-    }</style>
-Teckna elnätsavtal, vi transporterar elen till dig via vårt 600 mil långa elnät
-https://www.harjeans.se/elnat/ny-anslutning/
-Ny Anslutning
-Ny Anslutning
-https://www.harjeans.se/elnat/ny-anslutning/#ny-anslutning-hur-gar-det-till
-Eller
-läs om hur det går till
 Elnätsavgiften har en fast och en rörlig del
 Abonnemangsavgift för din säkring
 En avgift som beror på hur stor säkring du behöver. Säkringens storlek anges i Ampere (A), som är ett mått på strömstyrka. Säsongsmässig ändring av säkring / effekt är ej tillåten.
 Överföringsavgift
 Det är en rörlig avgift som är kopplad till hur mycket el du använder. För varje kilowatttimme (kWh) el vi skickar över till din elanläggning betalar du ett överföringspris.
+
 Nätpriser för
 Säkringskund, t. ex. en vanlig villa
 Om du är bosatt eller har fritidsboende inom Härjeåns elnätsområde så blir du automatiskt elnätskund hos oss. Den nätavgift som du betalar använder vi till att underhålla och utveckla elnäten, men även avläsa och administrera den mängd el som strömmar mellan hushållen inom, till och från vårt elnätsområde.
@@ -74,27 +36,7 @@ Säkringsstorlek, ampere
 114 281
 Överföringsavgift: 6,25 öre/kWh. Avgifter enligt normaltariff 2025 inkl. moms.
 *Lägenhetstariff: Vår nättariff för bostadslägenheter (16 lgh) är tillämplig för flerbostadshus med minst tre lägenheter med separata elabonnemang. Särskilt elabonnemang för fastighetens allmänna behov såsom värme, varmvatten, tvättstuga, ventilation, gårdsbelysning etc. tecknas av fastighetsägaren. Det krävs att flerbostadshuset har en gemensam servisledning och att installerad huvudsäkring inte får vara större än 3x16A per lägenhet. Lägenhetstariff är inte tillämplig för kommersiella lokaler.
-Bra att känna till
-Vad består mina elkostnader av?
-En sammanställning från vår branschorganisation “Energiföretagen” visar att en normalkund betalar ca. 25 % till elnätsföretaget, 25 % till elhandelsföretaget och 50 % till skatter och avgifter.
-https://www.harjeans.se/kundservice/vanliga-fragor-och-svar/vad-bestar-mina-elkostnader-av/
-Läs mer och titta på en video från Energiföretagen.
-Om din elnätsfaktura
-Som kund har du två olika avtal. Det ena är ett elnätsavtal, med det elnätsföretag som äger elnätet i området där du bor. Det andra är ett elhandelsavtal, med det företag som du köper själva elen av. Om elhandelsföretaget och elnätsföretaget ingår i samma koncern får du oftast en faktura, annars får du två fakturor – en från elnätsföretaget och en från elhandelsföretaget.
-Loggar du in på
-https://minasidor.harjeans.se
-Mina Sidor
-kan du enkelt hitta dina fakturor.
-Avbrottsersättning, hur fungerar det?
-De som drabbas av strömavbrott som varar längre än 12 timmar har rätt till avbrottsersättning. Du behöver inte anmäla till oss att du har rätt till avbrottsersättning. Ersättningen betalas ut automatiskt till berörda. Inom 6 månader från tidpunkten för avbrottet görs avdrag på dina elfakturor.
-https://www.harjeans.se/kundservice/guider-formular-och-e-tjanster/avbrottsersattning/
-Läs mer om bl.a. ersättningens storlek och om undantag
-.
-Ellagens definition på mikroproducent
-Om du har ett säkringsabonnemang om högst 63 ampere och producerar el vars inmatning kan ske med en effekt om högst 43,5 kilowatt betraktas du som mikroproducent enligt ellagen och behöver inte betala någon avgift för att mata in din egenproducerade el på elnätet.
-https://ei.se/konsument/el/mikroproduktion-av-el
-Läs gärna mer här.
-<img data-gatsby-image-ssr="" data-main-image="" style="opacity:0" sizes="(min-width: 900px) 900px, 100vw" decoding="async" loading="lazy" src="/static/32ac125400e03670c3cfbcd01a298d0a/eca74/vad-bestar-elpriset-av-1600x900-1.webp" srcSet="/static/32ac125400e03670c3cfbcd01a298d0a/c5f2d/vad-bestar-elpriset-av-1600x900-1.webp 225w,/static/32ac125400e03670c3cfbcd01a298d0a/06689/vad-bestar-elpriset-av-1600x900-1.webp 450w,/static/32ac125400e03670c3cfbcd01a298d0a/eca74/vad-bestar-elpriset-av-1600x900-1.webp 900w" alt="Vad består elpriset av"/>
+
 Frågor och funderingar?
 Se vanliga frågor och svar eller kontakta oss så hjälper vi dig
 https://www.harjeans.se/kundservice/vanliga-fragor-och-svar/

@@ -1,44 +1,3 @@
-Nätpriser och avtalsvillkor
-
-Elnät
-
-Elnät
-
-/produktion-och-infrastruktur/elnat/
-Översikt
-
-/produktion-och-infrastruktur/elnat/din-elmatare/
-Din elmätare
-
-/produktion-och-infrastruktur/elnat/natpriser-och-avtalsvillkor/
-Nätpriser och avtalsvillkor
-
-/produktion-och-infrastruktur/elnat/elanslutning/
-Elanslutning
-
-/produktion-och-infrastruktur/elnat/sakerhet/
-Säkerhet
-
-/produktion-och-infrastruktur/elnat/avbrottsersattning/
-Avbrottsersättning
-
-/produktion-och-infrastruktur/elnat/for-installatorer/
-För installatörer
-
-/produktion-och-infrastruktur/elnat/overvakningsrapport/
-Övervakningsrapport
-
-/produktion-och-infrastruktur/elnat/hojd-elberedskapsavgift-2024/
-Höjd Elberedskapsavgift 2024
-
-/produktion-och-infrastruktur/elnat/natutveckling/
-Nätutveckling
-
-/produktion-och-infrastruktur/elnat/det-har-ar-effekttariffer/
-Det här är effekttariffer
-
-/produktion-och-infrastruktur/elnat/matvarden-energitjansteforetag/
-Mätvärden - Energitjänsteföretag
 
 Nätpriser
 
@@ -89,22 +48,3 @@ Nätpriser och villkor för småskalig produktion PLB200 över 43,5 kW 2025
 Samlingsdokument Nätpriser och villkor för energilager 2025-1 Luleå Energi Elnät AB
 /media/0jwnmr2d/sammanställning-nätpriser-och-villkor-för-produktionsanläggningar-2025-luleå-energi-elnät-ab.pdf
 Sammanställning Nätpriser och villkor för produktionsanläggningar 2025 Luleå Energi Elnät AB
-
-Våra avtalsvillkor
-
-/om-lulea-energi/avtalsvillkor/
-Läs mer
-
-Energiskatt
-Enligt lagen (1994:1776) om skatt på energi är all elektrisk kraft som används i Sverige skattepliktig. Som en del i Energiöverenskommelsen har Riksdagen beslutat att höja energiskatten för el till hushåll och tjänsteföretag till 34,3 öre/kWh (42,8 öre/kWh inklusive moms) från och med den 1 januari 2025.
-
-/produktion-och-infrastruktur/elnat/natpriser-och-avtalsvillkor/energiskatt/
-Energiskatt
-
-<div class="o-fig-nojs">
-                                <img src="/media/uckfx5mk/energiskatt.jpg?width=768&amp;height=768&amp;format=webp&amp;v=1d7110cb6c59200"
-                                     width="768"
-                                     height="768"
-                                     alt="Energiskatt"
-                                     class="o-fig__obj">
-                            </div>

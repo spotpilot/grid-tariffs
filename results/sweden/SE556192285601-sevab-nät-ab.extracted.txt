@@ -1,12 +1,3 @@
-
-/foretag
-Företag
-/foretag/elnat
-Elnät
-/foretag/elnat/priser-och-avgifter
-Priser och avgifter
-Elnätsavgift 2025
-
 Elnätsavgift 2025
 Den elnätsavgift du betalar är ett viktigt bidrag för hela elnätet i Sverige. Priserna gäller från och med 1 januari 2025 och tillsvidare.
 Fast pris exkl. moms
@@ -326,27 +317,3 @@ Den elnätsavgift du betalar är ett viktigt bidrag inte bara för din och dina 
 Elnätsföretaget tar betalt för drift och underhåll av elledningar. Ofta betalar du en avgift för abonnemang och en avgift för elöverföring per använd kilowattimme (kWh). Hur mycket du betalar för abonnemanget beror bland annat på säkringens storlek, säkringen påverkar kostnaden. Du kan fråga en elinstallatör om du har rätt storlek på säkring. Ditt elnätsföretag kan också ge dig råd.
 Du kan inte välja elnätsföretag och därmed inte påverka kostnaderna på så vis. Du väljer själv elhandelsföretag för den el du använder.
 Energimarknadsinspektionen utövar tillsyn över nätavgiftens och övriga villkors skälighet.
-
-Effektpris högspänning villkorat abonnemang
-
-/media/bcsbcqgo/elnatstariff-villkorad-2025-sevab.pdf
-Elnatstariff Villkorad 2025 Sevab
-
-111 kB
-
-elnatstariff-villkorad-2025-sevab.pdf
-
-/foretag/elnat/priser-och-avgifter/anslutningsavgifter
-Anslutningsavgifter
-
-Följande priser gäller vid permanent anslutning och förändring av befintlig anslutning. Alla priser anges exklusive moms.
-
-/foretag/elnat/dokument
-Dokument och avtalsvillkor
-
-Här finns avtalsvillkor och övriga dokument för elnät.
-
-/foretag/elnat/priser-och-avgifter/tillfallig-elanslutning
-Priser för tillfällig anslutning och byggström
-
-För alla tillfälliga elanslutningar krävs både in- och urkoppling. Alla priser anges exklusive moms.

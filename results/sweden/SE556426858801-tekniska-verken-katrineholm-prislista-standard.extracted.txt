@@ -45,7 +45,7 @@ projektets GitHub (github.com).
 
 Producerar du egen el?
 
-/kundservice/priser-avtal/ersattning-avgifter-egen-elproduktion-elnat-2025/
+/kundservice/priser-avtal/ersattning-avgifter-elproduktion-elnat-2025/
 
 Ersättning och avgifter för egen elproduktion 2025
 Se aktuella avgifter och ersättning för egen elproduktion. Det här gäller i Linköpings och Katrineholms nätområden för 2025.

@@ -1,15 +1,3 @@
-Elnätsavgifter och villkor
-Här hittar du aktuella avgifter och villkor för samtliga elnätstjänster för HEM Nät AB
-/
-Privat
-/
-/elnat
-Elnät
-/
-Avtal och priser
-Elnät
-HEM Elnät
-Informationen på denna sida är från Halmstads Energi och Miljö Nät AB - ditt lokala elnätsföretag i ständig beredskap.
 Vi på HEM Nät följer inte strömmen - vi leder den. Vi är i ständig beredskap för att kunna hjälpa just dig vid eventuella strömavbrott. Här hittar du aktuella avgifter och villkor för samtliga elnätstjänster för HEM Nät AB.
 När det gäller avtal så tillämpar vi energibranschens allmänna avtalsvillkor. Avtalsvillkoren är utarbetade av Energiföretagen Sverige efter överenskommelse med Konsumentverket. Du hittar villkoren i listan till höger.
 Uttagsabonnemang
@@ -213,12 +201,3 @@ Anslutningsavgifter
 Allmänna avtalsvillkor
 /globalassets/dokument/arlig_rapport_om_atgarder_enligt_overvakningsplan-rapport_atgarder_overvakningplan_2025-03-13-17-46.pdf
 Årlig rapport om åtgärder enligt övervakningsplan 2024
-Kontakta vår kundservice
-Vår kundservice hjälper dig gärna med dina frågor! Vi har flera sätt att komma i kontakt med oss på. Använd vår chattfunktion, maila oss, ring oss eller använd vårt formulär längst ner på sidan.
-/kundservice
-I ständing beredskap
-Elen är en förutsättning för att vårt samhälle ska fungera. Därför finns Dan och hans kollegor här hos oss - dygnet runt, varje dag. De ser till att din kaffebryggare kokar ditt livsviktiga kaffe, såväl på julafton som en helt vanlig måndag.
-/inspiration/i-standig-beredskap
-Ersättning vid strömavbrott
-Vår ambition är att du ska ha tillgång till den el du behöver, varje timme av varje dygn. Men ibland uppstår ändå strömavbrott. Då kan du, enligt Ellagen, ha rätt till ersättning eller skadestånd.
-/elnat/ersattning-vid-stromavbrott

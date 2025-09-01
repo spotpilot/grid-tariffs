@@ -1,7 +1,3 @@
-Sidans innehåll
-Sidans innehåll
-Stäng
-
 Priser, avgifter och ersättning vid användning av elnätet
 Höganäs Energis nätavgifter används för att säkerställa att vi har ett välfungerande elnät på Kullahalvön. Skickar du ut el i nätet får du ersättning för detta.
 Tariffpriser elnät
@@ -410,18 +406,3 @@ Månadskostnad
 Export av historiska mätvärden per serie.
 Engångskostnad
 35 kr/anläggning
-
-Relaterade länkar
-
-javascript:void(window.open('https://www.skatteverket.se/foretagochorganisationer/skatter/punktskatter/energiskatter/energiskattpael.4.15532c7b1442f256bae5e4c.html','_blank','toolbar=1,location=1,status=1,menubar=1,scrollbars=1,resizable=1'));
-
-Skatteverket informerar om energiskatten på el i Sverige
-
-Skriv ut
-
-Vid frågor kontakta oss på:
-mailto:kundservice@hoganasenergi.se
-kundservice@hoganasenergi.se
-
-Senast uppdaterad:
-4 juli 2025
