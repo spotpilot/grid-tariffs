@@ -34,6 +34,7 @@ enum CliAction {
     CompletionReport {
         #[arg(short, long, default_value = "xlsx")]
         format: OutputFormat,
+        output_dir: PathBuf,
     },
     /// Check for updates on each operator's website
     CheckAll {
@@ -86,8 +87,8 @@ async fn main() -> anyhow::Result<()> {
     setup_tracing(cli.log_level);
 
     match cli.action {
-        CliAction::CompletionReport { format } => {
-            completion::report(format)?;
+        CliAction::CompletionReport { format, output_dir } => {
+            completion::report(format, &output_dir)?;
         }
         CliAction::CheckAll { results_dir } => {
             let mut joinset = JoinSet::new();

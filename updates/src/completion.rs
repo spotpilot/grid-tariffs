@@ -1,7 +1,4 @@
-use std::{
-    io::{Cursor, Write, stdout},
-    str::FromStr,
-};
+use std::{path::Path, str::FromStr};
 
 use chrono::{TimeDelta, Utc};
 use csv::WriterBuilder;
@@ -13,6 +10,15 @@ use rust_xlsxwriter::{Table, workbook::Workbook};
 pub(crate) enum OutputFormat {
     Xlsx,
     Csv,
+}
+
+impl OutputFormat {
+    fn file_extension(&self) -> &'static str {
+        match self {
+            OutputFormat::Xlsx => "xlsx",
+            OutputFormat::Csv => "csv",
+        }
+    }
 }
 
 impl FromStr for OutputFormat {
@@ -27,7 +33,7 @@ impl FromStr for OutputFormat {
     }
 }
 
-pub(crate) fn report(format: OutputFormat) -> anyhow::Result<()> {
+pub(crate) fn report(format: OutputFormat, output_dir: &Path) -> anyhow::Result<()> {
     #[derive(Debug, serde::Serialize)]
     struct ReportRow {
         name: String,
@@ -64,6 +70,12 @@ pub(crate) fn report(format: OutputFormat) -> anyhow::Result<()> {
         .sorted_by_key(|row| row.completion_percentage)
         .collect_vec();
 
+    let filename = format!(
+        "grid-tariffs-completion-report-{}.{}",
+        Utc::now().format("%Y-%m-%d-%H.%M"),
+        format.file_extension()
+    );
+    let out_path = output_dir.join(filename);
     match format {
         OutputFormat::Xlsx => {
             let mut workbook = Workbook::new();
@@ -77,13 +89,10 @@ pub(crate) fn report(format: OutputFormat) -> anyhow::Result<()> {
 
             let table = Table::new();
             worksheet.add_table(0, 0, (rows.len() - 1) as u32, 10, &table)?;
-
-            let mut buffer = Cursor::new(Vec::new());
-            workbook.save_to_writer(&mut buffer)?;
-            stdout().lock().write_all(&buffer.into_inner())?;
+            workbook.save(out_path)?;
         }
         OutputFormat::Csv => {
-            let mut wtr = WriterBuilder::new().from_writer(stdout());
+            let mut wtr = WriterBuilder::new().from_path(out_path)?;
             for row in rows {
                 wtr.serialize(row)?;
             }
