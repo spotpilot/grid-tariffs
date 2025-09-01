@@ -13,7 +13,7 @@ pub const LANDSKRONA_ENERGI_AB: GridOperator = GridOperator::builder()
     .other_fees(OtherFees::Unverified)
     .links(Links::new(
         Link::builder("https://landskronaenergi.se/privat/el/elnatsavgifter/")
-            .content_locator_default()
+            .plain_content_locator(".elementor-price-list")
             .build(),
     ))
     .power_tariff(PowerTariff::Unverified)

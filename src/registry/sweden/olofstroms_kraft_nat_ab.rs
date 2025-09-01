@@ -13,7 +13,7 @@ pub const OLOFSTRÖMS_KRAFT_NÄT_AB: GridOperator = GridOperator::builder()
     .other_fees(OtherFees::Unverified)
     .links(Links::new(
         Link::builder("https://www.olofstromskraft.se/natavgifter-el")
-            .content_locator_default()
+            .plain_content_locator(".main-content")
             .build(),
     ))
     .power_tariff(PowerTariff::Unverified)

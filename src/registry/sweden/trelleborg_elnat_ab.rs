@@ -13,7 +13,7 @@ pub const TRELLEBORG_ELNÄT_AB: GridOperator = GridOperator::builder()
     .other_fees(OtherFees::Unverified)
     .links(Links::new(
         Link::builder("https://trelleborgsenergi.se/el-som-gor-skillnad/vara-elpriser/")
-            .content_locator_default()
+            .plain_content_locator("main")
             .build(),
     ))
     .power_tariff(PowerTariff::Unverified)

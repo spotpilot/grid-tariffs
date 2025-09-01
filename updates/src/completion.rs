@@ -17,7 +17,7 @@ pub(crate) fn report() -> anyhow::Result<()> {
         other_fees: bool,
         power_tariff: bool,
         fee_info_filled_out: bool,
-        fee_info_uses_default_locator: bool,
+        fee_info_explicit_locator: bool,
     }
 
     let rows = GridOperator::all()
@@ -34,7 +34,7 @@ pub(crate) fn report() -> anyhow::Result<()> {
                 other_fees: stats.other_fees,
                 power_tariff: stats.power_tariff,
                 fee_info_filled_out: stats.links.fee_info.filled_out,
-                fee_info_uses_default_locator: stats.links.fee_info.uses_default_locator,
+                fee_info_explicit_locator: !stats.links.fee_info.uses_default_locator,
             }
         })
         .sorted_by_key(|row| 100 - row.completion_percentage)
@@ -91,20 +91,20 @@ impl FilledOutStats {
         if self.monthly_fee {
             percentage += 10;
         }
-        if self.monthly_production_fee {
-            percentage += 5;
-        }
         if self.feed_in_revenue {
             percentage += 10;
-        }
-        if self.other_fees {
-            percentage += 5;
         }
         if self.links.fee_info.filled_out {
             percentage += 10;
         }
         if !self.links.fee_info.uses_default_locator {
             percentage += 10;
+        }
+        if self.monthly_production_fee {
+            percentage += 5;
+        }
+        if self.other_fees {
+            percentage += 5;
         }
         percentage
     }

@@ -12,8 +12,8 @@ pub const DALA_ENERGI_ELNÄT_AB: GridOperator = GridOperator::builder()
     .transfer_fee(TransferFee::Unverified)
     .other_fees(OtherFees::Unverified)
     .links(Links::new(
-        Link::builder("https://dalaenergi.se/el/avgift/#priser")
-            .content_locator_default()
+        Link::builder("https://dalaenergi.se/el/avgift/")
+            .plain_content_locator("*:has(> #priser)")
             .build(),
     ))
     .power_tariff(PowerTariff::Unverified)

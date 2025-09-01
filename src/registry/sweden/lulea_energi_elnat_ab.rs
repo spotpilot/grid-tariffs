@@ -1,5 +1,8 @@
 use crate::registry::prelude::*;
 
+const FEE_LINK: &str =
+    "https://www.luleaenergi.se/produktion-och-infrastruktur/elnat/natpriser-och-avtalsvillkor";
+
 pub const LULEÅ_ENERGI_ELNÄT_AB: GridOperator = GridOperator::builder()
     .name("Luleå Energi Elnät AB")
     .vat_number("SE556527753901")
@@ -11,6 +14,10 @@ pub const LULEÅ_ENERGI_ELNÄT_AB: GridOperator = GridOperator::builder()
     .feed_in_revenue(FeedInRevenue::Unverified)
     .transfer_fee(TransferFee::Unverified)
     .other_fees(OtherFees::Unverified)
-    .links(Links::new(Link::builder("https://www.luleaenergi.se/produktion-och-infrastruktur/elnat/natpriser-och-avtalsvillkor?referer=1087").content_locator_default().build()))
+    .links(Links::new(
+        Link::builder(FEE_LINK)
+            .plain_content_locator("main section:first-of-type")
+            .build(),
+    ))
     .power_tariff(PowerTariff::Unverified)
     .build();

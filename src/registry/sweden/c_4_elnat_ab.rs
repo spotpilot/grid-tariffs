@@ -13,7 +13,7 @@ pub const C_4_ELNÄT_AB: GridOperator = GridOperator::builder()
     .other_fees(OtherFees::Unverified)
     .links(Links::new(
         Link::builder("https://www.c4energi.se/privat/elnat/priser-villkor-avtal/")
-            .content_locator_default()
+            .plain_content_locator(".content")
             .build(),
     ))
     .power_tariff(PowerTariff::Unverified)

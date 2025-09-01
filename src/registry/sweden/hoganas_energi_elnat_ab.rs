@@ -13,7 +13,7 @@ pub const HÖGANÄS_ENERGI_ELNÄT_AB: GridOperator = GridOperator::builder()
     .other_fees(OtherFees::Unverified)
     .links(Links::new(
         Link::builder("https://www.hoganasenergi.se/elnat/prislistor")
-            .content_locator_default()
+            .plain_content_locator(".pagecontent")
             .build(),
     ))
     .power_tariff(PowerTariff::Unverified)

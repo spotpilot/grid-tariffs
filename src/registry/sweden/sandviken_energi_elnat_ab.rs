@@ -13,7 +13,7 @@ pub const SANDVIKEN_ENERGI_ELNÄT_AB: GridOperator = GridOperator::builder()
     .other_fees(OtherFees::Unverified)
     .links(Links::new(
         Link::builder("https://sandvikenenergi.se/elnat/priserforelnat.187.html")
-            .content_locator_default()
+            .plain_content_locator(".pagecontent")
             .build(),
     ))
     .power_tariff(PowerTariff::Unverified)

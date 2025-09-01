@@ -47,6 +47,8 @@ fn grid_operator_contents(
     format!(
         r###"use crate::registry::prelude::*;
 
+const FEE_LINK: &str = "{fee_link}";
+
 pub const {constant_name}: GridOperator = GridOperator::builder()
     .name("{name}")
     .vat_number("{vat_number}")
@@ -58,7 +60,7 @@ pub const {constant_name}: GridOperator = GridOperator::builder()
     .feed_in_revenue(FeedInRevenue::Unverified)
     .transfer_fee(TransferFee::Unverified)
     .other_fees(OtherFees::Unverified)
-    .links(Links::new(Link::builder("{fee_link}").content_locator_default().build()))
+    .links(Links::new(Link::builder(FEE_LINK).content_locator_default().build()))
     .power_tariff(PowerTariff::Unverified)
     .build();
 "###

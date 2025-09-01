@@ -13,7 +13,7 @@ pub const HÄRJEÅNS_NÄT_AB: GridOperator = GridOperator::builder()
     .other_fees(OtherFees::Unverified)
     .links(Links::new(
         Link::builder("https://www.harjeans.se/elnat/elnatspriser-2025/")
-            .content_locator_default()
+            .plain_content_locator(".sectionWrapper")
             .build(),
     ))
     .power_tariff(PowerTariff::Unverified)

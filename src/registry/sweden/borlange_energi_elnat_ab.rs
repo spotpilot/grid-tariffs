@@ -13,7 +13,7 @@ pub const BORLÄNGE_ENERGI_ELNÄT_AB: GridOperator = GridOperator::builder()
     .other_fees(OtherFees::Unverified)
     .links(Links::new(
         Link::builder("https://www.borlange-energi.se/elnat/vad-kostar-elnatet")
-            .content_locator_default()
+            .plain_content_locator("main")
             .build(),
     ))
     .power_tariff(PowerTariff::Unverified)
