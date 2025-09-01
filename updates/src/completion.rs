@@ -1,14 +1,37 @@
-use std::io::stdout;
+use std::{
+    io::{Cursor, Write, stdout},
+    str::FromStr,
+};
 
 use chrono::{TimeDelta, Utc};
 use csv::WriterBuilder;
 use grid_tariffs::{GridOperator, Link, Links};
 use itertools::Itertools;
+use rust_xlsxwriter::{Table, workbook::Workbook};
 
-pub(crate) fn report() -> anyhow::Result<()> {
+#[derive(Debug, Clone, Copy)]
+pub(crate) enum OutputFormat {
+    Xlsx,
+    Csv,
+}
+
+impl FromStr for OutputFormat {
+    type Err = &'static str;
+
+    fn from_str(s: &str) -> Result<Self, Self::Err> {
+        match s.to_ascii_lowercase().as_ref() {
+            "xlsx" => Ok(Self::Xlsx),
+            "csv" => Ok(Self::Csv),
+            _ => Err("No such output format"),
+        }
+    }
+}
+
+pub(crate) fn report(format: OutputFormat) -> anyhow::Result<()> {
     #[derive(Debug, serde::Serialize)]
     struct ReportRow {
         name: String,
+        vat_number: String,
         completion_percentage: u8,
         monthly_fee: bool,
         monthly_production_fee: bool,
@@ -26,6 +49,7 @@ pub(crate) fn report() -> anyhow::Result<()> {
             let stats = FilledOutStats::new(op);
             ReportRow {
                 name: op.name().to_owned(),
+                vat_number: op.vat_number().to_owned(),
                 completion_percentage: stats.completion_percentage,
                 monthly_fee: stats.monthly_fee,
                 monthly_production_fee: stats.monthly_production_fee,
@@ -37,13 +61,36 @@ pub(crate) fn report() -> anyhow::Result<()> {
                 fee_info_explicit_locator: !stats.links.fee_info.uses_default_locator,
             }
         })
-        .sorted_by_key(|row| 100 - row.completion_percentage)
+        .sorted_by_key(|row| row.completion_percentage)
         .collect_vec();
-    let mut wtr = WriterBuilder::new().from_writer(stdout());
-    for row in rows {
-        wtr.serialize(row)?;
+
+    match format {
+        OutputFormat::Xlsx => {
+            let mut workbook = Workbook::new();
+            let worksheet = workbook.add_worksheet();
+
+            if let Some(row) = rows.get(0) {
+                worksheet.serialize_headers(0, 0, row)?;
+            }
+
+            worksheet.serialize(&rows)?;
+
+            let table = Table::new();
+            worksheet.add_table(0, 0, (rows.len() - 1) as u32, 10, &table)?;
+
+            let mut buffer = Cursor::new(Vec::new());
+            workbook.save_to_writer(&mut buffer)?;
+            stdout().lock().write_all(&buffer.into_inner())?;
+        }
+        OutputFormat::Csv => {
+            let mut wtr = WriterBuilder::new().from_writer(stdout());
+            for row in rows {
+                wtr.serialize(row)?;
+            }
+            wtr.flush()?;
+        }
     }
-    wtr.flush()?;
+
     Ok(())
 }
 

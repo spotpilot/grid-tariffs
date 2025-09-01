@@ -18,7 +18,7 @@ use tracing_subscriber::{
     prelude::*,
 };
 
-use crate::store::ResultStore;
+use crate::{completion::OutputFormat, store::ResultStore};
 
 #[derive(Parser)]
 struct Cli {
@@ -31,7 +31,10 @@ struct Cli {
 #[derive(Subcommand)]
 enum CliAction {
     /// Check completion rate for each grid operator module
-    CompletionReport,
+    CompletionReport {
+        #[arg(short, long, default_value = "xlsx")]
+        format: OutputFormat,
+    },
     /// Check for updates on each operator's website
     CheckAll {
         #[arg(long, env, default_value = "./results")]
@@ -83,8 +86,8 @@ async fn main() -> anyhow::Result<()> {
     setup_tracing(cli.log_level);
 
     match cli.action {
-        CliAction::CompletionReport => {
-            completion::report()?;
+        CliAction::CompletionReport { format } => {
+            completion::report(format)?;
         }
         CliAction::CheckAll { results_dir } => {
             let mut joinset = JoinSet::new();
