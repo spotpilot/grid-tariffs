@@ -5,7 +5,7 @@ mod locator;
 mod pricing_info;
 mod store;
 
-use std::{path::PathBuf, str::FromStr};
+use std::{io::stdout, path::PathBuf, str::FromStr};
 
 use clap::{Parser, Subcommand};
 use grid_tariffs::{Country, GridOperator};
@@ -45,6 +45,14 @@ enum CliAction {
     Check {
         #[arg(long, env, default_value = "./results")]
         results_dir: PathBuf,
+        #[arg(short, long)]
+        country: Option<Country>,
+        #[arg(long)]
+        match_by_vat_number: bool,
+        grid_operator: String,
+    },
+    /// Info about grid operator
+    Info {
         #[arg(short, long)]
         country: Option<Country>,
         #[arg(long)]
@@ -133,6 +141,19 @@ async fn main() -> anyhow::Result<()> {
                 let comparison = store.fetch_and_compare(op).await?;
                 println!("{comparison} diff: {}", comparison.diff());
             }
+        }
+        CliAction::Info {
+            country,
+            match_by_vat_number,
+            grid_operator,
+        } => {
+            debug!(needle = %grid_operator, %match_by_vat_number, country = country.map(|c| c.to_string()).unwrap_or_default(), "Checking...");
+            let matching = if match_by_vat_number {
+                helpers::where_operator_vat_number_is(&grid_operator)
+            } else {
+                helpers::where_operator_name_starts_with(&grid_operator, country)
+            };
+            serde_json::to_writer_pretty(stdout(), &matching)?;
         }
         CliAction::New {
             country,

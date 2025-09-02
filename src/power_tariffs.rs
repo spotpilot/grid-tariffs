@@ -1,12 +1,13 @@
 use chrono::DateTime;
 use chrono_tz::Tz;
+use serde::Serialize;
 
 use crate::{
     costs::{CostPeriods, LoadType},
     money::Money,
 };
 
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, Serialize)]
 pub enum PowerTariff {
     Unverified,
     NotImplemented,
@@ -45,7 +46,7 @@ impl PowerTariff {
 }
 
 /// The method used to calculate power tariffs
-#[derive(Debug, Clone, Copy)]
+#[derive(Debug, Clone, Copy, Serialize)]
 pub enum TariffCalculationMethod {
     /// Power peak for top hour of the top three days of the month
     AverageDays(u8),

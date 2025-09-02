@@ -1,6 +1,8 @@
+use serde::Serialize;
+
 use crate::{Cost, costs::CostPeriods};
 
-#[derive(Debug, Clone, Copy)]
+#[derive(Debug, Clone, Copy, Serialize)]
 pub enum TransferFee {
     /// Price was not listed on their website
     Unlisted,
@@ -44,7 +46,7 @@ impl TransferFee {
 }
 
 // Other kWh based fees
-#[derive(Debug, Clone, Copy)]
+#[derive(Debug, Clone, Copy, Serialize)]
 pub enum OtherFees {
     Unverified,
     List(&'static [(&'static str, Cost)]),
