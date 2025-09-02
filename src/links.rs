@@ -1,4 +1,6 @@
-#[derive(Debug, Clone)]
+use serde::Serialize;
+
+#[derive(Debug, Clone, Serialize)]
 pub struct Links {
     /// Website page containing info about the fees that the company charges
     fee_info: Link,
@@ -61,7 +63,7 @@ impl LinksBuilder {
     }
 }
 
-#[derive(Debug, Clone, Copy)]
+#[derive(Debug, Clone, Copy, Serialize)]
 pub enum TargetContainer {
     Current,
     Parent,
@@ -69,14 +71,14 @@ pub enum TargetContainer {
 }
 
 /// What content to checksum witihin the elements found
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, Serialize)]
 pub enum ContentTarget {
     TextWithLinks,
     /// Attribute which contains the relevant content
     Attribute(&'static str),
 }
 
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, Serialize)]
 pub struct ContentLocator {
     method: LocatorMethod,
     content: ContentTarget,
@@ -119,7 +121,7 @@ impl ContentLocator {
     }
 }
 
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, Serialize)]
 pub enum LocatorMethod {
     CssSelector(&'static str),
     TextStartsWith {
@@ -139,7 +141,7 @@ impl LocatorMethod {
     }
 }
 
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, Serialize)]
 pub struct Link {
     link: &'static str,
     content_locator: ContentLocator,

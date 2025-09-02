@@ -1,6 +1,11 @@
+use convert_case::{Case, Casing};
 use ego_tree::NodeRef;
 use grid_tariffs::{Country, GridOperator};
 use scraper::{ElementRef, Node};
+
+pub(crate) fn snakeify(operator_name: &str) -> String {
+    slug::slugify(operator_name).to_case(Case::Snake)
+}
 
 pub(crate) fn remove_unneeded_newlines(text: &str) -> String {
     let lines: Vec<&str> = text.lines().collect();

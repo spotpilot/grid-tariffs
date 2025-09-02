@@ -185,6 +185,7 @@ dependencies = [
  "iana-time-zone",
  "js-sys",
  "num-traits",
+ "serde",
  "wasm-bindgen",
  "windows-link",
 ]
@@ -538,6 +539,7 @@ version = "0.1.0"
 dependencies = [
  "chrono",
  "chrono-tz",
+ "serde",
  "thiserror",
 ]
 
@@ -1969,6 +1971,7 @@ dependencies = [
  "rust_xlsxwriter",
  "scraper",
  "serde",
+ "serde_json",
  "similar",
  "slug",
  "syn",

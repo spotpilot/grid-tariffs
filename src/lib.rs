@@ -10,6 +10,7 @@
 //! TODO: Generate GridOperator entries from Tariff API
 //!
 use chrono::NaiveDate;
+use serde::Serialize;
 
 use crate::{
     builder::GridOperatorBuilder,
@@ -37,7 +38,7 @@ mod power_tariffs;
 pub mod registry;
 mod revenues;
 
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, Serialize)]
 pub struct GridOperator {
     name: &'static str,
     vat_number: &'static str,

@@ -5,6 +5,8 @@ use std::{
     str::FromStr,
 };
 
+use serde::Serialize;
+
 use crate::{Country, currency::Currency};
 
 #[derive(Debug, Clone, thiserror::Error, PartialEq, Eq)]
@@ -15,7 +17,7 @@ pub enum MoneyError {
     SubunitOutOfRange,
 }
 
-#[derive(Debug, Clone, Copy, Default, PartialEq, Eq, PartialOrd, Ord)]
+#[derive(Debug, Clone, Copy, Default, PartialEq, Eq, PartialOrd, Ord, Serialize)]
 pub struct Money(i64);
 
 impl Money {

@@ -1,0 +1,394 @@
+
+Så sätts elpriset
+Här hittar du priser och en förklaring på de olika kostnaderna i elpriset.
+
+Elpriset består av:
+
+Kostnaden för elen du använder (betalas till elhandelsföretaget).
+Elnätavgift för elens transport till din bostad (betalas till elnätsföretaget). En fast och en rörlig avgift.
+Skatter och avgifter (betalas till elnätsföretaget, om du inte är skatteskyldig).
+
+Om de olika delarna i elpriset
+
+Elnätavgift
+
+Elnätavgiften är den avgift du betalar till elnätsföretaget för att få din el hem till dig. Elnätavgiften består dels av en fast del beroende på din mätarsäkring, dels en rörlig del som beror på hur mycket el du använder samt skatter och avgifter.
+I elnätavgiften ingår kostnaden för elledningar, drift och underhåll. Elnätet kommer från vårt stora nationella stamnät och till slut fram till dig som kund.
+
+Skatter och avgifter
+
+Vi betalar energiskatt på all el som används i Sverige. Energiskatten är en lagstadgad skatt i Sverige. Skatterna består av energiskatt på el som för de flesta i Sverige är 54,88 öre/kWh (43.9 öre exklusive moms).
+25 procent moms läggs på summan av kostnaden för el, transport av el och energiskatt på el. Moms betalas både till elhandelsföretagen och till elnätsföretagen. Energiskatten betalas utifrån mängden använd el, mätt i kWh, oavsett hur kostnaden för elnätsabonnemanget beräknas.
+Avgifter till staten består av elsäkerhets-, nätövervaknings- och beredskapsavgifter på totalt 131, 82 kronor inkl.moms per år.
+
+Elberedskapsavgift
+
+Elberedskapsavgiften är en årsavgift som ska finansiera den del inom Svenska Kraftnät som ansvarar för de beredskapsåtgärder som behövs för att förebygga, motstå och hantera sådana störningar i elförsörjningen som kan medföra svåra påfrestningar på samhället. Avgiften är momsbelagd. Den är en myndighetsavgift och kan inte påverkas av elnätsbolag.  Mer om avgiften finns att läsa hos Elsäkerhetsverket.
+Den 1 juli trädde en förändrad förordning om elberedskapsavgift, nätövervakningsavgift och elsäkerhetsavgift i kraft.
+/privat/elnat/elnat/priser/elberedskapsavgift
+Läs mer här
+
+Avtalsvillkor
+
+Elmarknaden i Sverige styrs av såväl ellagen, branschens allmänna villkor samt lokala villkor och bestämmelser.
+/avtalsvillkor
+Här finns avtalsvillkor
+
+Nätavgifterna granskas i förväg
+
+Energimarknadsinspektionen granskar vårt förslag på en så kallad intäktsram, vilket är summan av de intäkter vi behöver få in under hela nästa period 2024-2027. Dagens period är 2020-2023. En mängd beräkningar ligger till grund för förslaget på intäktsram. Syftet är att långsiktigt hålla elnätet i bra skick och förnya och utveckla det för att möta framtida förväntningar på "smarta elnät". Eftersom olika elnät har olika förutsättningar, skiljer sig kostnader och därmed avgifter åt.
+/storage/2762A75496B45E7252CD58FA702D04BDE3AD2D279869747689EF0DC93072CAE4/db0edbf086674611a29cab3ebc617d85/pdf/media/8ce10ac78aab4ad09f0eb5c00568cfab/forhandsreglering_merom_A4.pdf
+Mer om förhandsregleringen
+(folder, 4 sidor)
+
+Elnätsavgift
+Nedan hittar du priser för enkeltariff, tidstariff och effekttariff. Alla priser är inkl. moms. Priserna är avrundade till närmaste krona, så det kan bli små avvikelser på din faktura.
+
+Priser effekttariff
+
+Fast nätavgift
+
+Fast nätavgift  från och med 2025-09-01
+Alla priser anges inklusive moms.
+16 A
+Fast nätavgift 296 kr/mån
+20 A
+Fast nätavgift 351 kr/mån
+25 A
+Fast nätavgift 420 kr/mån
+35 A
+Fast nätavgift 557 kr/mån
+50 A
+Fast nätavgift 762 kr/mån
+63 A
+Fast nätavgift 941 kr/mån
+
+Effektavgift   baslasttid
+
+Effektavgiften Baslasttid grundar sig på respektive månads snitt av de två högsta timmedeleffekter som har tagits ut från två separata dagar. Baslasttid gäller året runt, dygnet runt.
+Gäller från och med 2025-09-01
+Alla priser anges inklusive moms.
+Effektavgift   Baslasttid:
+27,70 kr/kW
+
+Effektavgift   höglasttid
+
+Effektavgiften Höglasttid grundar sig på respektive månads snitt av de två högsta timmedeleffekter som har tagits ut från två separata dagar. Höglasttid infaller under november - mars, måndag till fredag mellan kl. 07.00-20.00.
+Gäller från och med 2025-09-01
+Priset anges inklusive moms.
+Effektavgift höglasttid:
+65,66 kr/kW
+
+Elöverföringsavgift
+
+Elöverföringsavgift från och med 2025-09-01
+Priset anges inklusive moms.
+Elöverföringsavgift:
+6,08 öre/kWh
+
+Tillfälligt abonnemang
+
+Tillfällig abonnemang debiteras effekttariff enligt angivna priser.
+För anslutningar upp till 63 A, tillkommer en tilläggsavgift på 937,5 kr/mån inkl. moms efter 18 månader fram till att anslutningen sägs upp.
+
+Priser säkringstariff (upphör att gälla för anläggningar som får effekttariff 2025-09-01)
+
+Enkeltariff (L2)
+
+Gäller t.om. 2025-08-31
+
+Gäller från 2025-09-01
+
+16 A lägenhet
+Fast nätavgift: 136 kr/mån
+
+16 A lägenhet
+Fast nätavgift: 136 kr/mån
+
+20 A lägenhet
+Fast nätavgift: 290 kr/mån
+
+20 A lägenhet
+Fast nätavgift: 290 kr/mån
+
+16 A
+Fast nätavgift:  303  kr/mån
+
+16 A
+Debiteras prislista effekttariff
+
+20 A
+Fast nätavgift: 399 kr/mån
+
+20 A
+Debiteras prislista effekttariff
+
+25 A
+Fast nätavgift: 480 kr/mån
+
+25 A
+Debiteras prislista effekttariff
+
+35 A
+Fast nätavgift: 664 kr/mån
+
+35 A
+Debiteras prislista effekttariff
+
+50 A
+Fast nätavgift: 918 kr/mån
+
+50 A
+Debiteras prislista effekttariff
+
+63 A
+Fast nätavgift: 1168 kr/mån
+
+63 A
+Debiteras prislista effekttariff
+
+Lägenhetstariff tillämpas när tre eller flera anläggningar är anslutna till samma serviskabel och mätarsäkring är på maximalt 20A.
+
+I den fasta nätavgiften ingår följande myndighetsavgifter:
+
+Elberedskapsavgift 112,50 kr/år
+Elsäkerhetsavgift 13,88 kr/år
+Nätövervakningsavgift 5,44 kr/år
+
+Tidstariff (L4) och tillfälliga anslutningar (T)
+
+Gäller t.o.m. 2025-08-31
+
+Gäller från 2025-09-01
+
+16 A lägenhet
+Fast nätavgift:  269 kr/mån
+
+16 A lägenhet
+Debiteras enkeltariff
+
+20 A lägenhet
+Fast nätavgift:  452 kr/mån
+
+16 A lägenhet
+Debiteras enkeltariff
+
+16 A
+Fast nätavgift: 472 kr/mån
+
+16 A
+Debiteras effekttariff
+
+20 A
+Fast nätavgift: 574 kr/mån
+
+20 A
+Debiteras effekttariff
+
+25 A
+Fast nätavgift: 722  kr/mån
+
+25 A
+Debiteras effekttariff
+
+35 A
+Fast nätavgift:  952 kr/mån
+
+35 A
+Debiteras effekttariff
+
+50 A
+Fast nätavgift: 1349  kr/mån
+
+50 A
+Debiteras effekttariff
+
+63 A
+Fast nätavgift: 1692  kr/mån
+
+63 A
+Debiteras effekttariff
+
+Lägenhetstariff tillämpas när tre eller flera anläggningar är anslutna till samma serviskabel och mätarsäkring är på maximalt 20A.
+I den fasta nätavgiften ingår följande myndighetsavgifter:
+
+Elberedskapsavgift 112,50 kr/år
+Elsäkerhetsavgift 13,88 kr/år
+Nätövervakningsavgift 5,44 kr/år
+
+Elöverföringsavgift
+
+Elöverföringsavgiften kallas på fakturan för "överföringsavgift".
+
+Gäller t.om. 2025-08-31
+
+Gäller från 2025-09-01
+
+Elöverföring Enkeltariff (L2, T):
+29,30 öre/kWh
+
+Elöverföring Enkeltariff Lägenhet (L2):
+29,30 öre/kWh
+
+Elöverföring högpris Tidstariff (L4):
+37,84 öre/kWh
+
+Elöverföring högpris Tidstariff (L4):
+Debiteras effekttariff
+
+Elöverföring lågpris Tidstariff (L4):
+9,21 öre/kWh
+
+Elöverföring lågpris Tidstariff (L4):
+Debiteras effekttariff
+
+Elöverföring gäller för kunder med enkeltariff, det vill säga samma nätavgift oavsett tid på dygnet eller året. Alla nya kunder får denna tariff.
+Elöverföring högpris och lågpris gäller kunder med tidstariff. Högpris kl 07.00 - 22.00 måndag-fredag, november-mars, lågpris all övrig tid.
+Byggel
+För byggel gäller Tidstariff  t.o.m. 2025-08-31. Från 2025-09-01 gäller effekttariff enligt ovan.
+
+Anslutningsavgift
+Här hittar du prislista för ny permanent anslutning till elnätet och även olika regler för tillämpning. Du kan även göra en prisförfrågan om du vill ha en indikation på vad en elnätsanslutning kan kosta till din fastighet.
+Tänk på att det är din behöriga elektriker som skickar in en förfrågan om en nyanslutning.
+Önskar du en preliminär beräkning av elanslutningsavgiften är du välkommen att skicka in en prisförfrågan. Om du sedan bestämmer dig för att göra en elanslutning kontaktar du en elinstallatör som hjälper dig.
+
+/privat/elnat/elnat/prisforfragan-anslutning
+Skicka prisförfrågan
+
+Anslutningsavgifter
+
+Gäller fr.o.m 2025-03-01 och alla priser är inklusive moms.
+Servissäkring 16-25A
+Avstånd: 0-200 m
+Grundkostnad: 54 125 kr
+Tillägg per meter: 0 kr
+Avstånd: 200-600 m
+Grundkostnad: 54 125 kr
+Tillägg per meter: 464 kr
+Avstånd: 600-1200 m
+Grundkostnad: 239 625 kr
+Tillägg per meter: 1 126 kr
+Avstånd: 1200-1800 m
+Grundkostnad: 915 375 kr
+Tillägg per meter: 630 kr
+För sammanhållen bebyggelse i stadsplanerat område används grundkostnaden för 0-200 meter för anslutningar, oavsett avstånd till anslutningspunkt. Avståndet (fågelvägen) gäller från din anslutningspunkt till anslutningspunkten i elnätet. En anslutningspunkt i elnätet kan exempelvis vara ett kabelskåp eller en nätstation.
+
+Tillämpningsregler
+
+Inom detaljplanerat område ansvarar och bekostar byggherren nedläggning av plaströr från mätarplatsen till tomtgräns enligt Jönköping Energi Näts (kallat JENAB) anvisning. Utanför detaljplanerat område ansvarar och bekostar byggherren grävning för serviskabel enligt JENABs anvisning. Elinstallatören ansvarar för att förläggningen utförs enligt rådande bestämmelser/standarder och av JENAB fastställd anvisning.
+JENAB ansvarar för framdragning av serviskabeln till servissäkringen eller, om servissäkring saknas, till Kundens mätarsäkring, oavsett om mätutrustningen placeras i fasadmätarskåp, kabelmätarskåp eller i ett särskilt elrum.
+JENAB ansvarar för serviskabeln fram till Kundens servissäkring, men Kunden är skyldig att på egen mark bekosta eventuell grävning och återfyllning och de anordningar som kan krävas i fastigheten, ex håltagning, klamring av kabel, nedläggning av rör etc.
+Vid eventuella fel på serviskabeln fram till kundens servissäkring ansvarar JENAB för åtgärd av serviskabeln och för grov återställning.
+Vid servisändring kommer vi debitera enligt offererat pris.
+Vid en tillfällig anslutning debiterar vi en avgift för till- och frånkoppling.
+
+Effekttariff blir ny prismodell i elnätet
+Med den nya prismodellen effekttariff kan du som kund påverka dina elkostnader och samtidigt bidra till ett hållbart samhälle. Den 1 september 2025 kommer kunder med säkring 16–63 A (ej lägenheter) att byta till effekttariff.
+/privat/elnat/elnat/effekttariff
+Så fungerar effekttariff
+
+Läs mer
+
+Nya elmätare
+
+Så fungerar din elanläggning
+Din elanläggning består av en elmätare som mäter din elförbrukning.
+/privat/elnat/elnat/din-elanlaggning
+Läs om din elmätare
+
+Avtal
+
+Här finns avtal och villkor
+/privat/elnat/elnat/avtalsvillkor
+Läs mer
+
+Ersättning och skadeanmälan
+Här finns information om dina rättigheter som elnätskund och hur du söker ersättning och gör skadeanmälan.
+/privat/elnat/elnat/konsumentratt-ersattning-skadeanmalan
+Läs mer
+
+Kundcenter
+
+Kontakta oss
+Vårt kundcenter finns alltid redo att svara på dina frågor. Här hittar du kontaktuppgifter till oss.
+/privat/kundcenter/kundcenter
+Få kundsupport
+
+Mina sidor
+
+Logga in i mina sidor
+I Mina sidor hittar du information om din energiförbrukning och kan ta smarta val i vardagen.
+/privat/kundcenter/kundcenter/ladda-ner-app
+Ladda ner app
+
+Din faktura
+
+Betalning och faktura
+Här kan du läsa om din faktura och skicka anmälan till autogiro eller e-faktura.
+/privat/kundcenter/kundcenter/din-faktura
+Läs mer
+
+Vi tar elen hem till dig
+På Jönköping Energi Nät ser till att du har el hemma och övervakar, underhåller och åtgärdar fel i vårt nät dygnet runt, alla dagar om året.
+/privat/elnat/elnat
+Läs mer om elnätet
+
+Postadress
+Jönköping Energi
+Box 5150
+550 05 Jönköping
+Besöksadress
+Kjellbergsgatan 3
+554 54 Jönköping
+
+Hitta snabbt
+/foretag/installator/for-installatorer
+För installatörer
+/avtalsvillkor
+Avtalsvillkor
+/privat/elhandel/elhandel/konsumentratt
+Konsumenträtt
+/om-oss/Kontakt/personuppgifter
+Personuppgifter
+/om-oss
+Om Jönköping Energi
+https://jonkopingenergi.se/privat/kundcenter/kundcenter
+Kontakta oss
+
+https://jonkopingenergi.se/om-oss/nyheter/nyhetsrum#/
+Nyheter
+
+https://jonkopingenergi.se/om-oss/blixten/artiklar
+Blixten
+
+https://jonkopingenergi.se/om-oss/jobb/jobba-hos-oss
+Jobb
+
+https://instagram.com/jonkopingenergi
+Instagram
+
+https://facebook.com/jonkopingenergi
+Facebook
+
+https://se.linkedin.com/company/jonkoping-energi
+Linkedin
+
+https://jonkopingenergi.se/om-oss/nyheter/nyhetsrum#/
+Nyheter
+
+https://jonkopingenergi.se/om-oss/blixten/artiklar
+Blixten
+
+https://jonkopingenergi.se/om-oss/jobb/jobba-hos-oss
+Jobb
+
+https://instagram.com/jonkopingenergi
+Instagram
+
+https://facebook.com/jonkopingenergi
+Facebook
+
+https://se.linkedin.com/company/jonkoping-energi
+Linkedin
+
+En god kraft för ett gott samhälle

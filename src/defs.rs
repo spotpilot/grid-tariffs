@@ -1,5 +1,7 @@
+use serde::Serialize;
+
 // A definition of hours
-#[derive(Debug, Clone, Copy)]
+#[derive(Debug, Clone, Copy, Serialize)]
 pub(super) enum Hours {
     Irrelevant,
     FromToInclusive(u8, u8),
@@ -17,7 +19,7 @@ impl Hours {
 }
 
 // The supported main fuse sizes
-#[derive(Debug, Clone, Copy)]
+#[derive(Debug, Clone, Copy, Serialize)]
 pub(super) struct MainFuseSizes {
     from: u16,
     to: u16,
@@ -29,7 +31,7 @@ impl MainFuseSizes {
     }
 }
 
-#[derive(Debug, Clone, Copy)]
+#[derive(Debug, Clone, Copy, Serialize)]
 #[repr(u8)]
 pub(super) enum Month {
     January,
@@ -47,7 +49,7 @@ pub(super) enum Month {
 }
 
 /// An inclusive range of months
-#[derive(Debug, Clone, Copy)]
+#[derive(Debug, Clone, Copy, Serialize)]
 pub(super) enum Months {
     Irrelevant,
     RangeInclusive(Month, Month),

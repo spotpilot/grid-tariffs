@@ -2,6 +2,7 @@ use std::slice::Iter;
 
 use chrono::DateTime;
 use chrono_tz::Tz;
+use serde::Serialize;
 
 use crate::{
     Country,
@@ -9,7 +10,7 @@ use crate::{
     money::Money,
 };
 
-#[derive(Debug, Clone, Copy)]
+#[derive(Debug, Clone, Copy, Serialize)]
 pub enum Cost {
     None,
     /// Cost has not been verified
@@ -112,7 +113,7 @@ impl Cost {
         }
     }
 }
-#[derive(Debug, Clone, Copy)]
+#[derive(Debug, Clone, Copy, Serialize)]
 pub struct CostPeriods {
     periods: &'static [CostPeriod],
 }
@@ -126,7 +127,7 @@ impl CostPeriods {
     }
 }
 
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, Serialize)]
 pub(super) struct CostPeriod {
     cost: Cost,
     load: LoadType,
@@ -166,7 +167,7 @@ impl CostPeriod {
     }
 }
 
-#[derive(Debug, Clone, Copy)]
+#[derive(Debug, Clone, Copy, Serialize)]
 pub enum LoadType {
     /// Base load. Always counts
     Base,
@@ -298,7 +299,7 @@ mod tests {
     }
 }
 
-#[derive(Debug, Clone, Copy)]
+#[derive(Debug, Clone, Copy, Serialize)]
 pub(super) enum PeriodType {
     Months(Months),
     Month(Month),

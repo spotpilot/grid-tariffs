@@ -1,12 +1,12 @@
 use std::{path::PathBuf, time::Duration};
 
-use convert_case::{Case, Casing};
 use grid_tariffs::GridOperator;
 use tokio::fs::{create_dir_all, read_to_string};
 use tracing::{debug, info};
 
 use crate::{
     Country,
+    helpers::snakeify,
     pricing_info::{ContentComparison, ContentFindingResult},
 };
 
@@ -155,14 +155,8 @@ impl ResultStore {
     fn operator_filename(operator: &GridOperator) -> String {
         [
             operator.vat_number().to_owned(),
-            operator
-                .name()
-                .trim()
-                .chars()
-                .filter(|c| c.is_alphanumeric() || *c == ' ')
-                .collect::<String>()
-                .to_case(Case::Kebab),
+            snakeify(operator.name().trim().to_ascii_lowercase().as_ref()),
         ]
-        .join("-")
+        .join("_")
     }
 }

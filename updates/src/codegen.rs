@@ -12,6 +12,8 @@ use convert_case::{Case, Casing};
 use grid_tariffs::Country;
 use tracing::{info, warn};
 
+use crate::helpers::snakeify;
+
 pub(crate) fn generate_grid_operator(
     country: Country,
     name: &str,
@@ -172,8 +174,4 @@ fn to_mod_idents(filepaths: &[PathBuf]) -> Vec<Ident> {
         .map(|filepath| filename_to_mod_name(filepath))
         .map(|mod_name| format_ident!("{}", mod_name))
         .collect()
-}
-
-fn snakeify(operator_name: &str) -> String {
-    slug::slugify(operator_name).to_case(Case::Snake)
 }
