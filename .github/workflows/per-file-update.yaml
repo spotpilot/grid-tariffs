@@ -10,7 +10,7 @@ permissions:
   pull-requests: write
 
 jobs:
-  detect-changed-pricing-pages:
+  detect-changes:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
@@ -79,11 +79,12 @@ jobs:
       extracted-txt-files: ${{ steps.detect.outputs.extracted-txt-files }}
 
   create-prs:
-    needs: detect-changed-pricing-pages
+    needs: detect-changes
     runs-on: ubuntu-latest
+    if: ${{ needs.detect-changes.outputs.extracted-txt-files != '' }}
     strategy:
       matrix:
-        extracted-txt-filepath: ${{ fromJson(needs.detect-changed-pricing-pages.outputs.extracted-txt-files) }}
+        extracted-txt-filepath: ${{ fromJson(needs.detect-changes.outputs.extracted-txt-files) }}
     steps:
 
       - name: Derive VAT number
