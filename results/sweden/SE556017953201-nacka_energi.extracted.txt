@@ -5,7 +5,7 @@ Höglasttid
 Låglasttid =
 1 april-31 oktober, alla dagar dygnet runt. 1 november-31 mars gäller låglast på vardagar kl. 22.00-06.00 (nattetid) och på helger.
 Effektavgift
-= snittet av dina tre högsta timmedleleffekttimmar per månad. Läs mer under tabellen.
+= snittet av dina tre högsta per månad. Läs mer under tabellen.
 
 Nätpris
 Fast nätavgift
