@@ -37,7 +37,8 @@ jobs:
           echo "$CHANGED"
 
           # Export as JSON array for matrix
-          echo "extracted-txt-files=$(jq -nc --arg str "$CHANGED" '$str | split("\n") | map(select(. != ""))')" >> $GITHUB_OUTPUT
+          echo "extracted-txt-files=$(jq -nc --arg str "$VAL" '$str | split("\n") | map(trim)')" >> $GITHUB_OUTPUT
+          echo $GITHUB_OUTPUT
 
       - name: Get changed files
         id: changed-files
@@ -81,7 +82,7 @@ jobs:
   create-prs:
     needs: detect-changes
     runs-on: ubuntu-latest
-    if: ${{ needs.detect-changes.outputs.extracted-txt-files != '' }}
+    if: ${{ fromJson(needs.detect-changes.outputs.extracted-txt-files) != '[]' }}
     strategy:
       matrix:
         extracted-txt-filepath: ${{ fromJson(needs.detect-changes.outputs.extracted-txt-files) }}
@@ -116,3 +117,11 @@ jobs:
           ls -ahl
       - run: |
           git status; git diff
+      # - name: Create Pull Request
+      #   uses: peter-evans/create-pull-request@v7
+      #   with:
+      #     commit-message: "chore: Pricing updates"
+      #     title: "chore: Pricing updates"
+      #     body: |
+      #       Don't forget to update the relevant grid operator pricing info in src/registry.
+      #     branch: create-pull-request/pricing-updates
