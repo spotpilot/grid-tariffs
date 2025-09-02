@@ -10,7 +10,7 @@ permissions:
   pull-requests: write
 
 jobs:
-  detect-changed-files:
+  detect-changed-pricing-pages:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
@@ -24,38 +24,50 @@ jobs:
             | (tr '\n' '\0' \
             | xargs -0 -n1 echo ::error) \
           && rm output.log
-      - name: Detect changed files
+      - name: Detect changed extracted texts
         id: detect
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add -A
-          CHANGED=$(git diff --cached --name-only)
+          CHANGED=$(git diff --name-only results/*/*.extracted.txt)
 
-          echo "Changed files:"
+          echo "Changed extracted texts:"
           echo "$CHANGED"
 
           # Export as JSON array for matrix
-          echo "files=$(jq -nc --arg str "$CHANGED" '$str | split("\n") | map(select(. != ""))')" >> $GITHUB_OUTPUT
+          echo "extracted-txt-files=$(jq -nc --arg str "$CHANGED" '$str | split("\n") | map(select(. != ""))')" >> $GITHUB_OUTPUT
+
+      - name: Upload changed files as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: changed-files
+          retention-days: 1
+          path: |
+            $(git diff --cached --name-only)
 
     outputs:
-      files: ${{ steps.detect.outputs.files }}
+      extracted-txt-files: ${{ steps.detect.outputs.extracted-txt-files }}
 
   create-prs:
-    needs: detect-changed-files
+    needs: detect-changed-pricing-pages
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        file: ${{ fromJson(needs.detect-changed-files.outputs.files) }}
+        extracted-txt-filepath: ${{ fromJson(needs.detect-changed-pricing-pages.outputs.extracted-txt-files) }}
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Run update command again
+      - name: Derive VAT number
+        id: clean
         run: |
-          FILE="${{ matrix.file }}"
-          echo "${{ matrix.file }}"
-          echo FILE=$FILE
+          FILE="${{ matrix.extracted-txt-filepath }}"
+          BASENAME=$(basename "$FILE")
+          VAT="${BASENAME%%-*}"   # everything before the first dash
+          echo "vat=$VAT"
+          echo "vat=$VAT" >> $GITHUB_OUTPUT
+
+      - name: Download changed files
+        uses: actions/download-artifact@v5
+        with:
+          name: changed-files
+      - run: git status; git diff --name-only; exit 1
