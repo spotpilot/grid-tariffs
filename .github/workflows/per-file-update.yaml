@@ -44,7 +44,7 @@ jobs:
           name: changed-files
           retention-days: 1
           path: |
-            $(git diff --cached --name-only)
+            $(git diff --name-only)
 
     outputs:
       extracted-txt-files: ${{ steps.detect.outputs.extracted-txt-files }}
