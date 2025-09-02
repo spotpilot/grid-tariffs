@@ -30,7 +30,8 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-          CHANGED=$(git diff --name-only results/*/*.extracted.txt)
+          git add -A
+          CHANGED=$(git diff --cached --name-only results/*/*.extracted.txt)
 
           echo "Changed extracted texts:"
           echo "$CHANGED"
@@ -44,7 +45,7 @@ jobs:
           name: changed-files
           retention-days: 1
           path: |
-            $(git diff --name-only)
+            $(git diff  --cached --name-only)
 
     outputs:
       extracted-txt-files: ${{ steps.detect.outputs.extracted-txt-files }}
