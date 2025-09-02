@@ -18,7 +18,7 @@ pub(crate) fn generate_grid_operator(
     vat_number: &str,
     fee_link: &str,
 ) -> anyhow::Result<()> {
-    let mod_name = slug::slugify(name).to_case(Case::Snake);
+    let mod_name = snakeify(name);
     let registry_filepath = workspace_dir()
         .join("src")
         .join("registry")
@@ -99,7 +99,7 @@ pub(crate) fn generate_mod(country: Country) -> anyhow::Result<()> {
                 .collect_vec()
         })
         .flatten()
-        .map(|(path, ident)| (format_ident!("{}", to_mod_name(path)), ident))
+        .map(|(path, ident)| (format_ident!("{}", filename_to_mod_name(path)), ident))
         .map(|(mod_ident, const_ident)| {
             quote! {
                 #mod_ident::#const_ident
@@ -157,7 +157,7 @@ fn filepaths_in_dir(dir: &Path) -> io::Result<Vec<PathBuf>> {
     Ok(names)
 }
 
-fn to_mod_name(filepath: &Path) -> &str {
+fn filename_to_mod_name(filepath: &Path) -> &str {
     filepath
         .file_name()
         .unwrap()
@@ -169,7 +169,11 @@ fn to_mod_name(filepath: &Path) -> &str {
 fn to_mod_idents(filepaths: &[PathBuf]) -> Vec<Ident> {
     filepaths
         .iter()
-        .map(|filepath| to_mod_name(filepath))
+        .map(|filepath| filename_to_mod_name(filepath))
         .map(|mod_name| format_ident!("{}", mod_name))
         .collect()
+}
+
+fn snakeify(operator_name: &str) -> String {
+    slug::slugify(operator_name).to_case(Case::Snake)
 }

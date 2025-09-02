@@ -108,19 +108,6 @@ impl GridOperator {
         }
     }
 
-    pub fn where_name_starts_with(country: Country, text: &str) -> Vec<&'static Self> {
-        match country {
-            Country::SE => sweden::GRID_OPERATORS
-                .iter()
-                .filter(|go| {
-                    go.name
-                        .to_ascii_lowercase()
-                        .starts_with(&text.to_ascii_lowercase())
-                })
-                .collect(),
-        }
-    }
-
     pub fn all() -> Vec<&'static Self> {
         sweden::GRID_OPERATORS.iter().collect()
     }

@@ -1,4 +1,5 @@
 use ego_tree::NodeRef;
+use grid_tariffs::{Country, GridOperator};
 use scraper::{ElementRef, Node};
 
 pub(crate) fn remove_unneeded_newlines(text: &str) -> String {
@@ -19,7 +20,7 @@ pub(crate) fn remove_unneeded_newlines(text: &str) -> String {
     result.join("\n")
 }
 
-pub(super) fn get_text_with_links_excluding_scripts(el: ElementRef) -> Vec<String> {
+pub(crate) fn get_text_with_links_excluding_scripts(el: ElementRef) -> Vec<String> {
     fn dfs(node: NodeRef<Node>, out: &mut Vec<String>) {
         match node.value() {
             Node::Element(e) => {
@@ -50,4 +51,26 @@ pub(super) fn get_text_with_links_excluding_scripts(el: ElementRef) -> Vec<Strin
         dfs(child, &mut buf);
     }
     buf
+}
+
+pub(crate) fn where_operator_name_starts_with(
+    text: &str,
+    country: Option<Country>,
+) -> Vec<&'static GridOperator> {
+    GridOperator::all()
+        .into_iter()
+        .filter(|op| {
+            let needle = text.to_ascii_lowercase();
+            let op_name = op.name().to_ascii_lowercase();
+            let matches_country = country.is_none() || country == Some(op.country());
+            matches_country && op_name.to_ascii_lowercase().starts_with(&needle)
+        })
+        .collect()
+}
+
+pub(crate) fn where_operator_vat_number_is(vat_number: &str) -> Vec<&'static GridOperator> {
+    GridOperator::all()
+        .into_iter()
+        .filter(|op| op.vat_number().to_ascii_lowercase() == vat_number.to_ascii_lowercase())
+        .collect()
 }

@@ -45,7 +45,10 @@ enum CliAction {
     Check {
         #[arg(long, env, default_value = "./results")]
         results_dir: PathBuf,
-        country: Country,
+        #[arg(short, long)]
+        country: Option<Country>,
+        #[arg(long)]
+        match_by_vat_number: bool,
         grid_operator: String,
     },
     /// Create a new grid operator
@@ -116,10 +119,17 @@ async fn main() -> anyhow::Result<()> {
         CliAction::Check {
             results_dir,
             country,
+            match_by_vat_number,
             grid_operator,
         } => {
+            debug!(needle = %grid_operator, %match_by_vat_number, country = country.map(|c| c.to_string()).unwrap_or_default(), "Checking...");
             let store = ResultStore::new(results_dir).await;
-            for op in GridOperator::where_name_starts_with(country, &grid_operator) {
+            let matching = if match_by_vat_number {
+                helpers::where_operator_vat_number_is(&grid_operator)
+            } else {
+                helpers::where_operator_name_starts_with(&grid_operator, country)
+            };
+            for op in matching {
                 let comparison = store.fetch_and_compare(op).await?;
                 println!("{comparison} diff: {}", comparison.diff());
             }
