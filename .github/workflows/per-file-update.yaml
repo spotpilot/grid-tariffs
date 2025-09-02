@@ -61,12 +61,10 @@ jobs:
 
           # Copy each changed file to the artifact directory while preserving structure
           while IFS= read -r file; do
-            if [ -f "$file" ]; then
               # Create directory structure in artifact folder
-              mkdir -p "changed-files-artifact/$(dirname "$file")"
-              cp "$file" "changed-files-artifact/$file"
+              mkdir -p changed-files-artifact/$(dirname $file)
+              cp $file changed-files-artifact/$file
               echo "Copied: $file"
-            fi
           done < changed_files.txt
 
       - name: Upload changed files as artifact
