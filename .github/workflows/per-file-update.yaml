@@ -24,14 +24,12 @@ jobs:
             | (tr '\n' '\0' \
             | xargs -0 -n1 echo ::error) \
           && rm output.log
+
       - name: Detect changed extracted texts
         id: detect
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
-          git diff --name-only > all_changed_files.txt
-          cat all_changed_files.txt
 
           CHANGED=$(git diff --name-only results/*/*.extracted.txt)
 
@@ -41,13 +39,44 @@ jobs:
           # Export as JSON array for matrix
           echo "extracted-txt-files=$(jq -nc --arg str "$CHANGED" '$str | split("\n") | map(select(. != ""))')" >> $GITHUB_OUTPUT
 
+      - name: Get changed files
+        id: changed-files
+        run: |
+          git diff --name-only > changed_files.txt
+          # Display changed files
+          echo "Changed files:"
+          cat changed_files.txt
+
+          # Check if there are any changed files
+          if [ -s changed_files.txt ]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create directory for changed files
+        if: steps.changed-files.outputs.has_changes == 'true'
+        run: |
+          mkdir -p changed-files-artifact
+
+          # Copy each changed file to the artifact directory while preserving structure
+          while IFS= read -r file; do
+            if [ -f "$file" ]; then
+              # Create directory structure in artifact folder
+              mkdir -p "changed-files-artifact/$(dirname "$file")"
+              cp "$file" "changed-files-artifact/$file"
+              echo "Copied: $file"
+            fi
+          done < changed_files.txt
+
       - name: Upload changed files as artifact
+        if: steps.changed-files.outputs.has_changes == 'true'
         uses: actions/upload-artifact@v4
         with:
-          name: changed-files
+          name: changed-files-${{ github.run_id }}
+          path: changed-files-artifact/
           retention-days: 1
-          path: |
-            $(cat all_changed_files.txt)
+
 
     outputs:
       extracted-txt-files: ${{ steps.detect.outputs.extracted-txt-files }}
@@ -72,5 +101,5 @@ jobs:
       - name: Download changed files
         uses: actions/download-artifact@v4
         with:
-          name: changed-files
+          name: changed-files-${{ github.run_id }}
       - run: git status; git diff --name-only; exit 1
