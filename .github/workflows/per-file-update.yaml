@@ -104,5 +104,14 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: changed-files-${{ github.run_id }}
+          path: changed-files-artifact
+      - run: |
+          echo BEFORE
+          pwd
+          ls -ahl
+          echo AFTER
+          mv changed-files-artifact/${{ steps.extract.outputs.filename_base }}* .
+          rm -rf changed-files-artifact
+          ls -ahl
       - run: |
           git status; git diff
