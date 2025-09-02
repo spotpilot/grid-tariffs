@@ -1,20 +1,25 @@
 Elnätspriser för privatkunder
 Elnätsavgiften varierar beroende på vilken säkring du har. Här hittar du våra elnätsavgifter för olika säkringsabonnemang. Du kan också se anslutningsavgifter och avgifter för tillfällig elanslutning.
 För att kunna använda el behöver du också teckna ett elavtal med ett elhandelsbolag, till exempel Falu Energi & Vatten.
-Elnätspriset består av två delar:
-Abonnemangsavgift
+Elnätspriset består av flera delar:
+Fast avgift
 Avgiften varierar beroende på anläggningens huvudsäkring. Se tabell under "Säkringsabonnemang" nedan.
 Elöverföringsavgift
 Avgiften varierar beroende på antalet kWh som överförs från elnätet till din anläggning. Se tabell under "Säkringsabonnemang" nedan.
+Statlig energiskatt
 Dessutom tillkommer statlig energiskatt på elnätsfakturan med aktuell skattesats. Den är inget vi styr över eller kan påverka.
+Från 1 november tillkommer även
+/el/elnat/effektavgift.html
+Effektavgift
 Säkringsabonnemang
 Dessa priser gäller från januari 2024. Nya priser kommer i november 2025.
 I din bostad finns en huvudsäkring, som är olika stor beroende på hur pass elkrävande utrustning du använder. De allra flesta villor och lägenheter har säkringar mellan 16 och 25 ampere.
-Abonnemangsavgift
-Säkringsstorlek
-Avgift för abonnemang
+Elnätsavgifter
+Säkrings-
+storlek
+Fast avgift
 kr per månad
-Avgift för överföring
+Elöverförings­avgift
 öre per kWh
 Lägenhet 16 A*
 150
@@ -39,6 +44,51 @@ Lägenhet 16 A*
 15
 Energiskatt tillkommer med 54,875 öre/kWh inkl moms.
 *Lägenhet tillämpas endast för lägenheter i flerbostadshus där byggnaden har ett eget abonnemang med lägst 16A. Med flerbostadshus menas hus med minst tre lägenheter, dock inte kedjehus, radhus eller liknande sammanbyggda hus.
+
+Säkringsabonnemang från 1 november 2025
+I din bostad finns en huvudsäkring, som är olika stor beroende på hur pass elkrävande utrustning du använder. De allra flesta villor och lägenheter har säkringar mellan 16 och 25 ampere.
+Elnätsavgifter
+Säkrings-
+storlek
+Fast avgift
+kr per månad
+Elöverförings-
+avgift öre per kWh
+Effektavgift
+kr per kWh¹
+Lägenhet 16 A²
+135
+11,25
+75
+16 A
+395
+11,25
+75
+20 A
+480
+11,25
+75
+25 A
+585
+11,25
+75
+35 A
+800
+11,25
+75
+50 A
+1 125
+11,25
+75
+63 A
+1 400
+11,25
+75
+Energiskatt tillkommer med 54,875 öre/kWh inkl moms.
+¹ Avgiften gäller vardagar mellan klockan 07-19 under perioden november till och med mars.
+/el/elnat/effektavgift.html
+Mer information om Effektavgift
+² Lägenhet tillämpas endast för lägenheter i flerbostadshus där byggnaden har ett eget abonnemang med lägst 16A. Med flerbostadshus menas hus med minst tre lägenheter, dock inte kedjehus, radhus eller liknande sammanbyggda hus.
 
 Ny elanslutning
 Vid ny anslutning betalar du en avgift som beräknas utifrån servissäkringens storlek och avståndet till närmsta anslutningspunkt i befintligt nät (fågelvägen). Se nedanstående tabeller.
@@ -83,11 +133,11 @@ Tillfällig anslutning max 25 A
 4 500 kr
 Tillfällig anslutning max 63 A
 5 625 kr
-Abonnemangsavgift
-Säkringsstorlek
-Avgift för abonnemang
+Elnätsavgifter
+Säkrings­storlek
+Fast avgift
 kr per månad
-Avgift för överföring
+Elöverförings­avgift
 öre per kWh
 Max 25 A
 715*

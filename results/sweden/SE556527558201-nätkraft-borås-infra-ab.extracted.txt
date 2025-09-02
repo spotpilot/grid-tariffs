@@ -73,7 +73,7 @@ Exkl. moms
 
 Säkringsstorlek
 
-Årskostnad, inkl. moms
+Årskostnad
 
 16 ampere, lägenhet
 1450 kr
@@ -170,7 +170,7 @@ Månadsavgifter
 160 ampere
 2 728 kr/månad
 
-200 A
+200 ampere
 3 388 kr/månad
 
 Elöverföringsavgift

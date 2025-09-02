@@ -87,7 +87,7 @@ Energiskatt öre/kWh
 54,88
 
 Effektavgift HL kr/kW, mån
-66,62
+66,63
 100,79
 100,79
 100,79
