@@ -1,0 +1,401 @@
+
+Du är här:
+
+/
+Start
+
+/
+
+/privat/
+Privat
+
+/
+
+/privat/elnat/
+Elnät
+
+/
+
+Elnätsavgift
+
+//app-eu.readspeaker.com/cgi-bin/rsent?customerid=11679&lang=sv&readid=main-content&url=http%3a%2f%2fwww.veab.se%2fprivat%2felnat%2felnatsavgift%2f
+Lyssna
+
+Elnätsavgift
+
+Visa undermeny
+
+/privat/elnat/elanslutning/
+Elanslutning
+
+/privat/elnat/elnatsavgift/
+Elnätsavgift
+
+/privat/elnat/din-smarta-elmatare/
+Din smarta elmätare
+
+/privat/elnat/mikroproduktion/
+Mikroproduktion
+
+/privat/elnat/sa-sakrar-vi-elnatet-i-vaxjo/
+Så säkrar vi elnätet i Växjö
+
+/privat/elnat/sa-fungerar-effektabonnemang/
+Så fungerar effektabonnemang
+
+/privat/elnat/matvarden/
+Mätvärden
+
+Elnätet har en viktig roll i samhället för att stödja pågående elektrifiering och den hållbara utvecklingen. För att vi ska kunna ge alla en trygg och säker tillgång till el idag och i framtiden behöver vi bygga ut och modernisera elnätet. Detta arbete finansieras av din elnätsavgift.
+
+Kvartspriser ersätter timpriser
+
+Från och med den 1 oktober 2025 kommer elöverföringsavgiften från oss baseras på kvart i stället för timme. Det innebär att vi kommer att mäta och prissätta i kortare tidsintervall än tidigare – (kvart för kvart, istället för timme för timme) vilket kan ge dig ännu bättre kontroll över din elnätsfaktura och hjälpa dig att använda el smartare.
+Effektavgiften påverkas inte, den kommer fortsatt att beräknas genom ett timmedelvärde av de tre timmar då du använder som mest kilowatt under månaden på vardagar mellan kl. 07-20.)
+
+Din elnätsavgift
+1 januari 2024 övergick säkringsabonnemang till effektabonnemang. Det innebär en prismodell som innehåller tre avgifter:
+
+Fast avgift
+Du betalar en fast abonnemangsavgift som är beroende på säkringsstorlek. I avgiften ingår myndighetsavgifter.
+Effektavgift
+Du betalar ett snittpris för de tre högsta effekttopparna du har under månaden. Avgiften beräknas på vardagar mellan kl. 07-20 under månaden.
+Elöverföring
+Du betalar en avgift för överföring av el fram till ditt boende, avgiften är rörlig per timme och du betalar per använd kilowattimme.
+#Overforing
+Här kan du se månadens överföringsavgift.
+
+Cirka 50 procent av din elnätskostnad består av myndighetsavgifter och skatter. Dessa avgifter fakturerar vi till dig som kund och sedan betalar vidare till olika myndigheter. Utöver elnätsavgiften så betalar du även för elen du använder. Den kostnaden betalar du till ditt elhandelsföretag.
+
+Vad används elnätsavgiften i Växjö till?
+Elnätsavgiften finansierar ett framtidssäkert elnät med en kapacitet som motsvarar Växjöbornas behov.
+
+/privat/elnat/detta-far-du-i-vaxjo-for-elnatsavgiften/
+Läs mer
+
+Vad används elnätsavgiften i Växjö till?
+Elnätsavgiften finansierar ett framtidssäkert elnät med en kapacitet som motsvarar Växjöbornas behov.
+
+/privat/elnat/detta-far-du-i-vaxjo-for-elnatsavgiften/
+Läs mer
+
+Elnätsavgifter
+Gäller från 1 januari 2025.
+
+Priserna är
+inklusive moms.
+*Framtaget 2025-09-01.
+
+Säkring
+
+Fast avgift
+
+Elöverföring
+
+(prognos oktober)
+
+Effektavgift
+
+Säkring
+
+Lägenhet
+
+Fast avgift
+
+183,75 kr
+per månad
+
+Elöverföring
+
+9,7 öre/kWh
+per månad
+
+/link/5a040a30b004477f811146eab55c9faa.aspx#overforing
+Se prognos rörlig överföring
+
+Effektavgift
+
+0 kr. Effektavgift ingår inte i detta abonnemang.
+
+Säkring
+
+16 A
+
+Fast avgift
+
+248,75 kr
+per månad
+
+Elöverföring
+
+9,7 öre/kWh
+per månad
+
+/link/5a040a30b004477f811146eab55c9faa.aspx#overforing
+Se prognos rörlig överföring
+
+Effektavgift
+
+65,48 kr/kW
+per månad
+
+Säkring
+
+20 A
+
+Fast avgift
+
+400 kr
+per månad
+
+Elöverföring
+
+9,7 öre/kWh
+per månad
+
+/link/5a040a30b004477f811146eab55c9faa.aspx#overforing
+Se prognos rörlig överföring
+
+Effektavgift
+
+65,48 kr/kW
+per månad
+
+Säkring
+
+25 A
+
+Fast avgift
+
+486,25 kr
+per månad
+
+Elöverföring
+
+9,7 öre/kWh
+per månad
+
+/link/5a040a30b004477f811146eab55c9faa.aspx#overforing
+Se prognos rörlig överföring
+
+Effektavgift
+
+65,48 kr/kW
+per månad
+
+Din säkringsstorlek hittar du på din faktura eller på
+https://minasidor.veab.se/
+Mina sidor
+vid sidan Mina avtal vid rubriken Abonnemangsavgift. Säkringsstorlek benämns som abonnemangsavgift eftersom den avgiften baseras på din storlek på säkring.
+Från 1 januari 2023 har Växjö Energi rörlig överföringsavgift. Avgiften är rörlig och varierar beroende på vilket abonnemang du har.
+Din elmätare mäter hur mycket el du använder för varje timme. Din effektavgift beräknas av de tre timmar då du använder som mest kilowatt under månaden på vardagar mellan kl. 07-20. Avgiften beräknas kronor per kilowatt.
+Följande dagar räknas inte som vardagar:
+Lördagar, Söndagar, Julafton, Juldagen, Annandag jul, Nyårsafton, Nyårsdagen, Trettondedag jul, Långfredag, Annandag påsk, Första maj, Kristi himmelsfärd, Nationaldagen, Midsommarafton. Tiden för effektavgiften följer sommar- och vintertid.
+
+vår definition av lägenhet
+Om anläggningen uppfyller de nedan angivna kriterierna så definieras man som lägenhetskund och berörs inte av förändringen:
+
+16 A eller enfas.
+Minst tre elnätsabonnemang avsett för förbrukning.
+Gemensam elnätsanslutning.
+
+/privat/elnat/rakna-ut-din-elnatskostnad/
+
+Räkna ut din månadskostnad med effektabonnemang
+Vi har tagit fram en kalkylator där du kan räkna ut din elnätsavgift. Fyll i din energiförbrukning och dina effekttoppar, och se hur det påverkar ditt pris.
+
+Exempel på kostnader med effektavgift
+
+Exempel 1
+Tänk att du gör följande på tre olika dagar under en månad:
+
+Laddar din elbil
+en vardag mellan kl. 17-18. Detta ger ett effektuttag på ungefär 9 kW per timme.
+Lagar mat i ugn och använder diskmaskin, tvättmaskin och torktumlare
+en vardag kl. 18–19. Detta ger dig en effekt på ungefär 6 kW per timme.
+Dammsuger, använder diskmaskin, tvättmaskin och torktumlare
+en vardag mellan kl. 18-19. Effektuttaget här blir ungefär 5 kW per timme.
+
+Ditt snitt på effektuttag blir:
+Dessa dagar visar de högsta effektuttagen totalt 20 kW. Ett snitt på de tre högsta effektuttagen är i detta fall 6,7 kW. Denna månad har ni en månadsförbrukning på 450 kWh.
+Om du har 16A säkring så skulle detta kosta dig:
+
+248,75 kr i fast avgift
+450 kWh*0,1023 kr = 46 kr i överföringsavgift
+6,7 kW*65,48 kr = 439 kr i effektavgift
+Totalt: 734 kr
+
+Utöver detta tillkommer energiskatten.
+exempel 2
+Tänk att du istället gör följande på tre olika dagar under en månad:
+
+Laddar din elbil
+en vardag mellan kl. 00-01. Denna effekttopp räknas inte eftersom laddningen görs efter kl.20 och innan kl. 07. Tänk på att använda en säker laddbox med lastbalansering.
+Lagar mat i ugn och använder tvättmaskin
+en vardag kl. 17–19 ger 3,5 kW elanvändning
+Använder diskmaskin och torktumlare
+kl. 19-20 en annan vardag som ger 4 kW i elanvändning.
+Använder tvättmaskinen och torktumlare
+mellan kl. 18-19 en tredje vardag som ger 3 kW elanvändning
+
+Ditt snitt på effektuttag blir:
+Dessa dagar visar de högsta effektuttagen totalt 10,5 kW. Ett snitt på de tre högsta effektuttagen är i detta fall 3,5 kW. Denna månad har ni en månadsförbrukning på 450 kWh.
+Om du har 16A säkring så skulle detta kosta dig:
+
+248,75 kr i fast avgift
+450 kWh*0,1023 kr = 46 kr i överföringsavgift
+3,5 kW*65,48 kr = 229 kr i effektavgift
+Totalt: 524 kr
+
+Utöver detta tillkommer energiskatten.
+Om du laddar din elbil efter kl. 20 och innan kl. 07 en vardag eller på helgen så räknas inte effekttoppen. Ett annat tips är att du laddar din elbil på en lägre effekt under längre tid. Tänk på att använda en säker laddbox med lastbalanserare.
+Effekttopparna baseras på de tre högsta effektuttagen, fördelat under tre olika dygn under en månad
+
+Rörlig överföringsavgift
+
+Här kan du se prognoser för överföringsavgifter för nuvarande månad och framåt och se hur avgiften förändrats under året. Avgiften är rörlig och varierar beroende på vilket abonnemang du har. Prognosen ger en indikation av det rörliga priset och uppdateras vid månadsskiftet. Tänk på att utfallsvärdet ser annorlunda ut på din faktura eftersom avgiften påverkas av hur din förbrukning ser ut timme för timme.
+
+År
+Månad
+Prognos
+
+Visar priser inklusive moms
+
+Öre/kWh
+Om diagrammet
+
+Diagrammet visar prognoser och utfall för överföringsavgift per månad och visas i öre/kWh. I linjediagrammet är den streckade linjen prognoser och heldragen linje är utfall på föregående månader. I stapeldiagrammet är de ljusgrå staplarna prognoser och blå staplar är utfall på föregående månader.
+
+Följ din elanvändning och dina effekttoppar på Mina sidor
+På Mina sidor får du en tydlig bild av hur mycket el du använder, och när du använder som mest. Kolla vilken tidpunkt du använder som mest el och fundera över om du kan sprida ut användningen.
+
+https://minasidor.veab.se/
+Till Mina sidor
+
+Följ din elanvändning och dina effekttoppar på Mina sidor
+På Mina sidor får du en tydlig bild av hur mycket el du använder, och när du använder som mest. Kolla vilken tidpunkt du använder som mest el och fundera över om du kan sprida ut användningen.
+
+https://minasidor.veab.se/
+Till Mina sidor
+
+Visste du detta om Växjöbornas elanvändning?
+
+Växjöborna använder som mest el mellan klockan 11 och 12.
+11 december 2024 klockan 11.00 producerade Sandviksverket som mest el under 2024, och bidrog till att värma cirka 10 000 villor med elvärme. Kan även jämföras med att brygga 400 000 st kannor med kaffe eller 60 000 maskiner tvätt under den timmen.
+21 juni 2024 klockan 12-13 stod solcellsproduktionen för över en tredje del av den totala elanvändningen i Växjö stad.
+
+#page-14309
+
+Effektabonnemang
+
+1 januari 2024 infördes effektabonnemang
+1 januari 2024 förändrades säkringsabonnemang för dig med säkringsstorlek 16-25A till effektabonnemang. Detta berör främst villor men också några lägenheter och lokaler. Det innebär att du själv kan påverka din elnätsavgift genom att jämna ut dina effekttoppar.
+/privat/elnat/sa-fungerar-effektabonnemang/
+Här kan du läsa om hur effektabonnemang fungerar och hur du kan tänka för att få ner din kostnad
+.&
+
+#page-14309
+
+#page-13657
+
+Elsäkerheten först
+
+Säkerhet är a och o när det gäller elanvändning. Genom att följa dessa enkla steg främjar du en säker användning av el i ditt hem.
+Ha uppsikt över maskiner och elutrustning
+Även om elen ibland är billigare mitt på natten bör du undvika att köra tvättmaskinen, diskmaskinen eller torktumlaren nattetid när alla i hushållet sover eller när ingen är hemma. Kanske hinner du istället starta en maskin innan jobbet eller lite senare på kvällen?
+Följ säkerhetsråd och anvisningar
+Följ försäkringsbolagets och Elsäkerhetsverkets råd och riktlinjer. Använd bara maskiner som är godkända och anlita behöriga elektriker för installationer och reparationer. Byt alltid ut trasiga apparater och sladdar. Är du osäker på elsäkerheten så kontakta elinstallatör.
+Underhåll och rengöring
+Se till att området runt dina elprylar är fritt från saker som kan börja brinna. Rengör filter och sladdar regelbundet. Det gäller inte minst torktumlare som snabbt samlar på sig stora mängder brännbart ludd och damm.
+
+#page-13657
+
+#page-13147
+
+Myndighetsavgifter
+
+Cirka 50 procent av din elnätskostnad består av myndighetsavgifter och skatter. Dessa avgifter fakturerar vi till dig som kund och sedan betalar vidare till olika myndigheter.
+Följande myndighetsavgifter betalar du för i din elnätsavgift:
+
+Elsäkerhetsavgift*
+- 11,1 kr/år, exkl. moms (13,88 kr/år inkl. moms)
+Nätövervakningsavgift*
+- 4,35 kr/år, exkl. moms (5,44 kr/år inkl. moms)
+Elberedskapsavgift*
+- 90 kr/år, exkl. moms (112,50 kr/år inkl. moms)
+Energiskatt
+- 43,9 öre/kWh exkl. moms (54,875 öre/kWh ink. moms), gäller from 1 januari 2025.
+
+*Avgift ingår i din fasta avgift.
+
+#page-13147
+
+#page-13145
+
+Så funkar rörlig överföringsavgift
+
+Priset för den rörliga överföringsavgiften på din faktura är sammansatt av flera delkomponenter för olika abonnemang. Överföringsavgiften består av:
+
+Fast del per kilowattimme.
+Rörlig del per kilowattimme som sätts utifrån timvärdet på elbörsen och beräknas timme för timme.
+
+På din faktura ser du ett medelpris som är det sammanvägda priset av alla timmarna under månaden. Det innebär att överföringsavgiften kommer att variera månad för månad. På fakturan kommer det dessutom se olika ut mellan olika kunder, beroende på hur elanvändningen har fördelats under dygnets alla timmar.
+Så här räknas överföringsavgiften ut:
+Fast del + rörlig del x timvärdet på elbörsen och beräknas timme för timme
+Snurrigt för många, vi vet! Men för att underlätta för dig som kund visar vi prognoser på överföringsavgifter i öre/kWh.
+
+#page-13145
+
+Samlade dokument
+
+/globalassets/dokumentarkiv/priser/2025-01-01-prislista-natavgifter-inkl.moms.pdf
+Prislista nätavgifter privat 2025-01-01.pdf
+
+/globalassets/dokumentarkiv/priser/tillampningsbestammelser-for-natavtal2.pdf
+Tillämpningsbestämmelser för nätavtal
+
+/globalassets/dokumentarkiv/avtal-och-blanketter/allmanna-avtalsvillkor-nat-2012-k-rev-2
+Allmänna avtalsvillkor Nät 2012 K (rev 2)
+
+/privat/elnat/
+Elnät
+
+/privat/elnat/elanslutning/
+Elanslutning
+
+/privat/elnat/elnatsavgift/
+Elnätsavgift
+
+/privat/elnat/din-smarta-elmatare/
+Din smarta elmätare
+
+/privat/elnat/mikroproduktion/
+Mikroproduktion
+
+/privat/elnat/sa-sakrar-vi-elnatet-i-vaxjo/
+Så säkrar vi elnätet i Växjö
+
+/privat/elnat/sa-fungerar-effektabonnemang/
+Så fungerar effektabonnemang
+
+/privat/elnat/matvarden/
+Mätvärden
+
+Mina sidor
+
+Se din elanvändning och dina fakturor på Mina sidor.
+
+https://minasidor.veab.se/
+Till Mina sidor
+
+Hur smart använder du el?
+Visste du att din elräkning påverkas av när du använder el – inte bara av hur mycket?Effektavgiften handlar just om det. Genom att sprida ut elanvändningen under dagen kan du själv påverka din kostnad.
+
+/vardagsliv/2025/hur-smart-anvander-du-el/
+Om effektavgiften
+
+Räkna ut din månadskostnad med effektabonnemang
+Vi har tagit fram en kalkylator där du kan räkna ut din elnätsavgift. Fyll i din energiförbrukning och dina effekttoppar, och se hur det påverkar ditt pris.
+
+/privat/elnat/rakna-ut-din-elnatskostnad/
+Till kalkylatorn
