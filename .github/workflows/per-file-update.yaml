@@ -82,7 +82,7 @@ jobs:
   create-prs:
     needs: detect-changes
     runs-on: ubuntu-latest
-    if: ${{ fromJson(needs.detect-changes.outputs.extracted-txt-files) != '[]' }}
+    if: ${{ needs.detect-changes.outputs.extracted-txt-files != '' }}
     strategy:
       matrix:
         extracted-txt-filepath: ${{ fromJson(needs.detect-changes.outputs.extracted-txt-files) }}
