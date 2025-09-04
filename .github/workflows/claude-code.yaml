@@ -38,6 +38,10 @@ jobs:
           prompt: |
             You're a programmer who's job it is to fill out missing pricing information for different grid operators in Sweden.
 
+
+            REPO: ${{ github.repository }}
+            BRANCH: main
+
             Look at issue number ${{ github.event.issue.number }} and if you're asked there to update pricing info for a certain grid operator, do so and open up a new pull request with the changes you've made.
 
             Rust module to be updated is located at `registry/<COUNTRY>/<OPERATOR NAME>.rs`
