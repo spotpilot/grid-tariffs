@@ -37,11 +37,7 @@ jobs:
           echo "$CHANGED"
 
           # Export as JSON array for matrix
-          echo "extracted_txt_files=$(jq -nc --arg str "$CHANGED" '$str | split("\n")')"
-          echo "extracted_txt_files=$(jq -nc --arg str "$CHANGED" '$str | split("\n")')" > apa
-          cat apa
           echo "extracted_txt_files=$(jq -nc --arg str "$CHANGED" '$str | split("\n")')" >> $GITHUB_OUTPUT
-          echo $GITHUB_OUTPUT
 
       - name: Get changed files
         id: changed-files
@@ -114,7 +110,7 @@ jobs:
       - run: |
           echo BEFORE
           pwd
-          ls -ahl
+          ls -ahl changed-files-artifact
           echo AFTER
           mv changed-files-artifact/${{ steps.extract.outputs.filename_base }}* .
           rm -rf changed-files-artifact
