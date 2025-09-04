@@ -1,10 +1,4 @@
-/
 Telge
-/elnat/
-Elnät
-/elnat/elnatskostnad/
-Elnätskostnad
-Elnätspriser
 Elnätspriser
 Elnätspriserna består av både fasta och rörliga delar baserat på uppgifter från dig som kund och det val du gör. För att säkerställa att du alltid har det mest förmånliga avtalet, rekommenderar vi att du regelbundet ser över dina uppgifter och val. Här kan du se vilka delar det är och ta del av prislistan för 2025 års elnätspriser.
 
@@ -78,10 +72,10 @@ Under perioden 1 november - 31 mars klockan 07.00-20.00, helgfria vardagar, gäl
 Elnätspriser för 2024
 Dela sida
 
-Elnätspriser
+Telge
 https:/ / www.telge.se/ elnat/ elnatskostnad/ elnatspriser/
 Dela sidan:
-mailto:?subject=Elnätspriser&body=https://www.telge.se/elnat/elnatskostnad/elnatspriser/
+mailto:?subject=Telge&body=https://www.telge.se/elnat/elnatskostnad/elnatspriser/
 #elOftjpwNio1{pointer-events: all}#elOftjpwNio1 * {animation-play-state: paused !important}#elOftjpwNio1:hover * {animation-play-state: running !important}#elOftjpwNio4_to {animation: elOftjpwNio4_to__to 4000ms linear infinite normal forwards}@keyframes elOftjpwNio4_to__to { 0% {transform: translate(22.5px,22.235295px);animation-timing-function: cubic-bezier(0.22,0,0.34,1)} 45% {transform: translate(22.5px,23.620588px);animation-timing-function: cubic-bezier(0.22,0,0.34,1)} 100% {transform: translate(22.5px,22.235295px)}} #elOftjpwNio4_ts {animation: elOftjpwNio4_ts__ts 4000ms linear infinite normal forwards}@keyframes elOftjpwNio4_ts__ts { 0% {transform: scale(1,1);animation-timing-function: cubic-bezier(0.22,0,0.34,1)} 45% {transform: scale(1.15,1.15);animation-timing-function: cubic-bezier(0.22,0,0.34,1)} 100% {transform: scale(1,1)}} #elOftjpwNio9_to {animation: elOftjpwNio9_to__to 4000ms linear infinite normal forwards}@keyframes elOftjpwNio9_to__to { 0% {transform: translate(22.5px,14.472569px);animation-timing-function: cubic-bezier(0.22,0,0.34,1)} 45% {transform: translate(22.5px,9.476569px);animation-timing-function: cubic-bezier(0.22,0,0.34,1)} 100% {transform: translate(22.5px,14.472569px)}} #elOftjpwNio12_to {animation: elOftjpwNio12_to__to 4000ms linear infinite normal forwards}@keyframes elOftjpwNio12_to__to { 0% {transform: translate(22.5px,24.100001px);animation-timing-function: cubic-bezier(0.22,0,0.34,1)} 45% {transform: translate(22.5px,19.100001px);animation-timing-function: cubic-bezier(0.22,0,0.34,1)} 100% {transform: translate(22.5px,24.100001px)}}
 https://www.facebook.com/sharer/sharer.php?u=https://www.telge.se/elnat/elnatskostnad/elnatspriser/
 Facebookikon
@@ -89,5 +83,5 @@ Facebookikon
 https://www.linkedin.com/shareArticle?mini=true&url=https://www.telge.se/elnat/elnatskostnad/elnatspriser/
 LinkedInikon
 #eDsedSUX3k61{pointer-events: all}#eDsedSUX3k61 * {animation-play-state: paused !important}#eDsedSUX3k61:hover * {animation-play-state: running !important}#eDsedSUX3k67_ts {animation: eDsedSUX3k67_ts__ts 4000ms linear infinite normal forwards}@keyframes eDsedSUX3k67_ts__ts { 0% {transform: translate(22.549999px,22.544527px) scale(1,1);animation-timing-function: cubic-bezier(0.22,0,0.34,1)} 37.5% {transform: translate(22.549999px,22.544527px) scale(1.5,1.5);animation-timing-function: cubic-bezier(0.22,0,0.34,1)} 100% {transform: translate(22.549999px,22.544527px) scale(1,1)}}
-http://twitter.com/share?text=Elnätspriser&url=https://www.telge.se/elnat/elnatskostnad/elnatspriser/
+http://twitter.com/share?text=Telge&url=https://www.telge.se/elnat/elnatskostnad/elnatspriser/
 #eyG4C7xWPMa1{pointer-events: all}#eyG4C7xWPMa1 * {animation-play-state: paused !important}#eyG4C7xWPMa1:hover * {animation-play-state: running !important}#eyG4C7xWPMa4_ts {animation: eyG4C7xWPMa4_ts__ts 4000ms linear infinite normal forwards}@keyframes eyG4C7xWPMa4_ts__ts { 0% {transform: translate(-3.098745px,28.984252px) scale(1,1);animation-timing-function: cubic-bezier(0.22,0,0.34,1)} 37.5% {transform: translate(-3.098745px,28.984252px) scale(1.3,1.3);animation-timing-function: cubic-bezier(0.22,0,0.34,1)} 100% {transform: translate(-3.098745px,28.984252px) scale(1,1)}}
