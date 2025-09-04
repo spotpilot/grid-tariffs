@@ -97,6 +97,10 @@ jobs:
           echo "vat_number=$VAT_NUMBER"
           echo "vat_number=$VAT_NUMBER" >> $GITHUB_OUTPUT
 
+          FILENAME="$BASENAME"
+          echo "filename=$FILENAME"
+          echo "filename=$FILENAME" >> $GITHUB_OUTPUT
+
       - uses: actions/checkout@v5
       - name: Download changed files
         uses: actions/download-artifact@v4
@@ -109,11 +113,11 @@ jobs:
           find ./changed-files-artifact -name "${{ steps.extract.outputs.vat_number }}*" | cut -d/ -f3- | xargs -n1 -I{} cp -v ./changed-files-artifact/{} {}
       - run: |
           git status; git diff
-      # - name: Create Pull Request
-      #   uses: peter-evans/create-pull-request@v7
-      #   with:
-      #     commit-message: "chore: Pricing updates"
-      #     title: "chore: Pricing updates"
-      #     body: |
-      #       Don't forget to update the relevant grid operator pricing info in src/registry.
-      #     branch: create-pull-request/pricing-updates
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: "chore: Pricing page changes detected in ${{ steps.extract.outputs.filename }}"
+          title: "Page changes: ${{ steps.extract.outputs.filename }}"
+          body: |
+            Don't forget to update the relevant grid operator pricing info in src/registry.
+          branch: create-pull-request/pricing-updates
