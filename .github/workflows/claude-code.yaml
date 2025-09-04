@@ -44,7 +44,7 @@ jobs:
 
             You can look other examples in folder `registry/sweden`.
 
-            Look at the info in `results/<COUNTRY>/<VAT NUMBER>_<OPERATOR NAME>.extracted.txt` to see what might've changed compared to the info that's in the corresponding rust module. The extracted.txt file contains information extracted from the website that is linked to @ `GridOperator.links.fee_info`. Look at the commits made to this file to see what has changed. If you need more context you can also look at the full cached html @ `results/<COUNTRY>/<VAT NUMBER>_<OPERATOR NAME>.full.html`.
+            Look at the info in `results/<COUNTRY>/<VAT NUMBER>_<OPERATOR NAME>.extracted.txt` to see what might've changed compared to the info that's in the corresponding rust module. The `extracted.txt` file contains information extracted from the website that is linked to @ `GridOperator.links.fee_info`. If you need more context you can also look at the full cached html @ `results/<COUNTRY>/<VAT NUMBER>_<OPERATOR NAME>.full.html`.
 
             The following pricing info might need updating if it's missing or incorrect, on the relevant `GridOperator`:
               1. `price_date` - the date from which the pricing applies
