@@ -37,7 +37,7 @@ jobs:
           echo "$CHANGED"
 
           # Export as JSON array for matrix
-          echo "extracted_txt_files=$(jq -nc --arg str "$VAL" '$str | split("\n") | map(trim)')" >> $GITHUB_OUTPUT
+          echo "extracted_txt_files=$(jq -nc --arg str "$VAL" '$str | split("\n")')" >> $GITHUB_OUTPUT
           echo $GITHUB_OUTPUT
 
       - name: Get changed files
