@@ -93,13 +93,14 @@ jobs:
         run: |
           FILEPATH="${{ matrix.extracted_txt_files }}"
           BASENAME=$(basename "$FILEPATH")
-          VAT_NUMBER="${BASENAME%%_*}"   # everything before the first underscore
+          FILENAME_BASE="${BASENAME%.extracted.txt}"
+          VAT_NUMBER="${FILENAME_BASE%%_*}"
           echo "vat_number=$VAT_NUMBER"
           echo "vat_number=$VAT_NUMBER" >> $GITHUB_OUTPUT
 
-          FILENAME="$BASENAME"
-          echo "filename=$FILENAME"
-          echo "filename=$FILENAME" >> $GITHUB_OUTPUT
+          MODULE_NAME="${FILENAME_BASE#*_}"
+          echo "module_name=$MODULE_NAME"
+          echo "module_name=$MODULE_NAME" >> $GITHUB_OUTPUT
 
       - uses: actions/checkout@v5
       - name: Download changed files
@@ -117,8 +118,8 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
-          commit-message: "chore: Pricing page changes detected in ${{ steps.extract.outputs.filename }}"
-          title: "Page changes: ${{ steps.extract.outputs.filename }}"
+          commit-message: "chore: Pricing page changes detected for ${{ steps.extract.outputs.vat_number }} ${{ steps.extract.outputs.module_name }}"
+          title: "Page changes: ${{ steps.extract.outputs.vat_number }} ${{ steps.extract.outputs.module_name }}"
           body: |
             Don't forget to update the relevant grid operator pricing info in src/registry.
-          branch: create-pull-request/pricing-updates
+          branch: create-pull-request/${{ steps.extract.outputs.vat_number }}-changes
