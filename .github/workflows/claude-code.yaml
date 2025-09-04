@@ -32,32 +32,30 @@ jobs:
 
       - name: Run Claude Code
         id: claude
-        uses: anthropics/claude-code-action@beta
+        uses: anthropics/claude-code-action@v1
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          prompt: |
+            You're a programmer who's job it is to fill out missing pricing information for different grid operators in Sweden.
 
-          # This is an optional setting that allows Claude to read CI results on PRs
-          additional_permissions: |
-            actions: read
+            Look at issue number ${{ github.event.issue.number }} and if you're asked there to update pricing info for a certain grid operator, do so and open up a new pull request with the changes you've made.
 
-          # Optional: Specify model (defaults to Claude Sonnet 4, uncomment for Claude Opus 4.1)
-          model: "claude-opus-4-1-20250805"
+            Rust module to be updated is located at `registry/<COUNTRY>/<OPERATOR NAME>.rs`
 
-          # Optional: Customize the trigger phrase (default: @claude)
-          # trigger_phrase: "/claude"
+            You can look other examples in folder `registry/sweden`.
 
-          # Optional: Trigger when specific user is assigned to an issue
-          # assignee_trigger: "claude-bot"
+            Look at the info in `results/<COUNTRY>/<VAT NUMBER>-<OPERATOR NAME>.extracted.txt` to see what might've changed compared to the info that's in the corresponding rust module. The extracted.txt file contains information extracted from the website that is linked to @ `GridOperator.links.fee_info`. Look at the commits made to this file to see what has changed. If you need more context you can also look at the full cached html @ `results/<COUNTRY>/<VAT NUMBER>-<OPERATOR NAME>.full.html`.
 
-          # Optional: Allow Claude to run specific commands
-          # allowed_tools: "Bash(npm install),Bash(npm run build),Bash(npm run test:*),Bash(npm run lint:*)"
+            The following pricing info might need updating if it's missing or incorrect, on the relevant `GridOperator`:
+              1. `price_date` - the date from which the pricing applies
+              2. `main_fuses` - the main fuse sizes ("huvudsäkringsstorlek") they list prices for
+              3. `monthly_fee` - the monthly cost. Usually based on main fuse size.
+              4. `monthly_production_fee` - How much it costs per month to be allowed to send out energy on the grid, usually PV.
+              5. `transfer_fee` - How much each kWh costs in transfer fees ("överföringsavgift").
+              6. `feed_in_revenue` - How much money the grid operator pays for a kWh sent out on the grid (usually called "nätnytta")
+              7. `other_fees` - If they have any other fees that are added for a kWh sent out on the grid - see src/registry/sweden/sollentuna_energi_miljo_ab.rs for an example.
+              8. `power_tariff` - If they have implemented power tariffs, add that here (usually called "effektavgift" or "effekttariff"). These can differ quite a lot so it's important to look through other examples in `src/registry/sweden` to see how they are implemented. Some differing examples are `jbf.rs`, `ellevio.rs`, `tekniska_verken.rs`, `skovde_energi.rs`, `goteborg_energi.rs`
 
-          # Optional: Add custom instructions for Claude to customize its behavior for your project
-          # custom_instructions: |
-          #   Follow our coding standards
-          #   Ensure all new code has tests
-          #   Use TypeScript for new files
+            Only update prices relevant for villa / home owners. We don't include information for apartments or companies.
 
-          # Optional: Custom environment variables for Claude
-          # claude_env: |
-          #   NODE_ENV: test
+            We have currently only added Swedish pricing info, so all website information will be in Swedish.
