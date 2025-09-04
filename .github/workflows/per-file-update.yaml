@@ -93,13 +93,9 @@ jobs:
         run: |
           FILEPATH="${{ matrix.extracted_txt_files }}"
           BASENAME=$(basename "$FILEPATH")
-          VAT="${BASENAME%%-*}"   # everything before the first dash
-          echo "vat=$VAT"
-          echo "vat=$VAT" >> $GITHUB_OUTPUT
-
-          FILENAME_BASE="${FILEPATH%.extracted.txt}"
-          echo "filename_base=$FILENAME_BASE"
-          echo "filename_base=$FILENAME_BASE" >> $GITHUB_OUTPUT
+          VAT_NUMBER="${BASENAME%%_*}"   # everything before the first underscore
+          echo "vat_number=$VAT_NUMBER"
+          echo "vat_number=$VAT_NUMBER" >> $GITHUB_OUTPUT
 
       - uses: actions/checkout@v5
       - name: Download changed files
@@ -108,13 +104,9 @@ jobs:
           name: changed-files-${{ github.run_id }}
           path: changed-files-artifact
       - run: |
-          echo BEFORE
-          pwd
-          ls -ahl changed-files-artifact
-          echo AFTER
-          mv changed-files-artifact/${{ steps.extract.outputs.filename_base }}* .
-          rm -rf changed-files-artifact
-          ls -ahl
+          git status; git diff
+          find ./changed-files-artifact -name "${{ steps.extract.outputs.vat_number }}*"
+          find ./changed-files-artifact -name "${{ steps.extract.outputs.vat_number }}*" | cut -d/ -f3- | xargs -n1 -I{} cp -v ./changed-files-artifact/{} {}
       - run: |
           git status; git diff
       # - name: Create Pull Request
