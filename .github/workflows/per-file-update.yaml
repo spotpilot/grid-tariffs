@@ -37,7 +37,7 @@ jobs:
           echo "$CHANGED"
 
           # Export as JSON array for matrix
-          echo "extracted-txt-files=$(jq -nc --arg str "$VAL" '$str | split("\n") | map(trim)')" >> $GITHUB_OUTPUT
+          echo "extracted_txt_files=$(jq -nc --arg str "$VAL" '$str | split("\n") | map(trim)')" >> $GITHUB_OUTPUT
           echo $GITHUB_OUTPUT
 
       - name: Get changed files
@@ -77,15 +77,16 @@ jobs:
           retention-days: 1
 
     outputs:
-      extracted-txt-files: ${{ steps.detect.outputs.extracted-txt-files }}
+      extracted_txt_files: ${{ steps.detect.outputs.extracted_txt_files }}
+      has_changes: ${{ steps.changed-files.outputs.has_changes }}
 
   create-prs:
     needs: detect-changes
     runs-on: ubuntu-latest
-    if: ${{ needs.detect-changes.outputs.extracted-txt-files != '' }}
+    if: needs.detect-changes.outputs.has_changes == 'true'
     strategy:
       matrix:
-        extracted-txt-filepath: ${{ fromJson(needs.detect-changes.outputs.extracted-txt-files) }}
+        extracted-txt-filepath: ${{ fromJson(needs.detect-changes.outputs.extracted_txt_files) }}
     steps:
 
       - name: Derive VAT number
