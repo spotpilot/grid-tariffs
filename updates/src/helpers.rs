@@ -28,12 +28,12 @@ pub(crate) fn remove_unneeded_newlines(text: &str) -> String {
 pub(crate) fn get_text_with_links_excluding_scripts(el: ElementRef) -> Vec<String> {
     fn dfs(node: NodeRef<Node>, out: &mut Vec<String>) {
         match node.value() {
-            Node::Element(e) => {
+            Node::Element(el) => {
                 // Don't descend into <script> elements
-                if e.name.local.as_ref() == "script" {
+                if ["script", "svg", "style"].contains(&el.name.local.as_ref()) {
                     return;
                 }
-                if let Some(link) = e.attr("href") {
+                if let Some(link) = el.attr("href") {
                     out.push(link.to_string());
                 }
                 for child in node.children() {
