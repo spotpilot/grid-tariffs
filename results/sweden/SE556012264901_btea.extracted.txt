@@ -1,0 +1,54 @@
+Mätarsäkring
+Fast avgift
+Elöverföring
+16 A
+5754 kr/år
+2,5 öre/kWh
+20 A
+6919 kr/år
+2,5 öre/kWh
+25 A
+7986 kr/år
+2,5 öre/kWh
+35 A
+13 074 kr/år
+2,5 öre/kWh
+50 A
+18 340 kr/år
+2,5 öre/kWh
+63 A
+22 720 kr/år
+2,5 öre/kWh
+Gäller fr.o.m
+Effektavgift Låglast
+Effektavgift Höglast
+2025-10-01
+51,25 kr/kW, månad
+0
+2025-12-01
+56,25 kr/kW, månad
+158,75 kr/kW, månad
+2026-02-01
+53,75 kr/kW, månad
+137,5 kr/kW, månad
+2026-03-01
+51,25 kr/kW, månad
+0
+2026-06-01
+37,5 kr/kW, månad
+0
+Avgift
+Lågspänning
+Högspänning
+Elberedskap
+90 kr
+4897 kr
+Nätövervakningsavgift
+4,35 kr
+870 kr
+Elsäkerhetsavgift
+11,10 kr
+905 kr
+Totalt: kr/år
+105,45 kr
+6672 kr
