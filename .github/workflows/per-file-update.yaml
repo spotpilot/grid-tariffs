@@ -37,6 +37,9 @@ jobs:
           echo "$CHANGED"
 
           # Export as JSON array for matrix
+          echo "extracted_txt_files=$(jq -nc --arg str "$VAL" '$str | split("\n")')"
+          echo "extracted_txt_files=$(jq -nc --arg str "$VAL" '$str | split("\n")')" > apa
+          cat apa
           echo "extracted_txt_files=$(jq -nc --arg str "$VAL" '$str | split("\n")')" >> $GITHUB_OUTPUT
           echo $GITHUB_OUTPUT
 
@@ -86,13 +89,13 @@ jobs:
     if: needs.detect-changes.outputs.has_changes == 'true'
     strategy:
       matrix:
-        extracted-txt-filepath: ${{ fromJson(needs.detect-changes.outputs.extracted_txt_files) }}
+        extracted_txt_files: ${{ fromJson(needs.detect-changes.outputs.extracted_txt_files) }}
     steps:
 
       - name: Derive VAT number
         id: extract
         run: |
-          FILEPATH="${{ matrix.extracted-txt-filepath }}"
+          FILEPATH="${{ matrix.extracted_txt_files }}"
           BASENAME=$(basename "$FILEPATH")
           VAT="${BASENAME%%-*}"   # everything before the first dash
           echo "vat=$VAT"
