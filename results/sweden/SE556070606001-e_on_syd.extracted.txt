@@ -12,8 +12,6 @@
 <td style="text-align: right;">215,00</td>
 <td style="text-align: right;">87,15</td>
 </tr><tr><td>16 A, över 8 000 kWh/år</td>
-<td style="text-align: right;">591,25</td>
-<td style="text-align: right;">30,70</td>
 </tr><tr><td>20 A</td>
 <td style="text-align: right;">780,00</td>
 <td style="text-align: right;">30,70</td>
