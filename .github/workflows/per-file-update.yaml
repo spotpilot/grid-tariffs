@@ -111,6 +111,7 @@ jobs:
           git status; git diff
           find ./changed-files-artifact -name "${{ steps.extract.outputs.vat_number }}*"
           find ./changed-files-artifact -name "${{ steps.extract.outputs.vat_number }}*" | cut -d/ -f3- | xargs -n1 -I{} cp -v ./changed-files-artifact/{} {}
+          rm -rf ./changed-files-artifact
       - run: |
           git status; git diff
       - name: Create Pull Request
