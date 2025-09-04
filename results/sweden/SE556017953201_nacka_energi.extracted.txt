@@ -18,12 +18,6 @@ HL**
 kr/kWh
 Effektavgift
 kr/kW
-Lägenhet*
-1 413
-0,54
-0,72
-0,00
-16A
 3 033
 0,085
 0,337
