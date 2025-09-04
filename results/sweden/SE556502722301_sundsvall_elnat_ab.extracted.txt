@@ -106,13 +106,3 @@ https://sundsvallelnat.se/personuppgifter
 sundsvallelnat.se/personuppgifter.
 
 Skicka
-
-.sk-ai-corner-module[data-fullscreen=false] {
-    max-width: 30em;
-    width: 30em;
-}
-.sk-ai-markdown p {
-    font-size: 1.3em;
-    letter-spacing: 0px;
-    line-height: 1.25em;
-}

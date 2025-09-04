@@ -236,7 +236,6 @@ Kundens ansvar vid elanslutning till Höganäs Energis elnät
 Beställning av servis sker genom att du som kund har en behörig installatör som
 https://se.elsmart.com/elsmartp.nsf
 anmäler anslutningen i Elsmart
-/sitevision/link-icons.svg#link-external-tab
 Länk till annan webbplats, öppnas i nytt fönster.
 .
 Du bekostar och ombesörjer grävning och förläggning av tomrör inom fastigheten. Elinstallatören är ansvarig för att detta sker enligt vår anvisning.
@@ -350,7 +349,6 @@ Nätnyttan mäts per timme och betalas ut på årsbasis i början av nästkomman
 Att mäta innebär en kostnad och enligt ett
 https://www.ei.se/konsument/el/mikroproduktion-av-el
 EU-direktiv
-/sitevision/link-icons.svg#link-external-tab
 Länk till annan webbplats, öppnas i nytt fönster.
 måste varje producent betala för mätning av sin solcellsanläggning.
 Definitionen på en mikroproducent är att anläggningen har en mätarsäkring på högst 63A och en effekt på max 43,5kW.

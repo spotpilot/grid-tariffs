@@ -1,6 +1,5 @@
 
 https://natkraftboras.se
-
 /
 https://natkraftboras.se/elnat/
 Elnät
@@ -34,12 +33,6 @@ Producera egen el
 
 https://natkraftboras.se/elnat/elnatsavtal/valja-eller-andra-sakring/
 Välja eller ändra säkring
-
-li.current-page {
-                    font-weight: bold;
-                    border-left: 4px solid #00A29B;
-                    border-radius: 0 8px 8px 0;
-                }
 
 Våra elnätspriser
 Ditt abonnemang bygger på hur stor din huvudsäkring är i ampere. Du som är kund hos oss betalar även din energiskatt via oss som elnätsbolag. Det är en skatt för elen du använder. Vi fakturerar din energiskatt samt redovisar och betalar vidare till Skatteverket. Här hittar du administrativa avgifter, kostnaden för energiskatten, våra olika nätpriser och anslutningsavgifter samt ersättningar för så kallad nätnytta, som du kan få om du producerar din egen el.

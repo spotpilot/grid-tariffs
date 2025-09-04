@@ -1,6 +1,5 @@
 Våra elnätspriser
 Här presenterar vi några priser på den fasta abonnemangsavgiften och den rörliga överföringsavgiften, som gäller från och med 1 april 2025. Hur stor huvudsäkring du behöver beror på hur mycket el du använder och om du har energikrävande apparater. Priserna nedan är inklusive moms.
-
 16A
 Max effektuttag:
 11 kW
@@ -11,7 +10,6 @@ Max effektuttag:
 Fast avgift:
 1 370 kr/år
 inkl. moms
-
 16A
 Max effektuttag:
 11 kW
@@ -22,7 +20,6 @@ Max effektuttag:
 Fast avgift:
 4 716 kr/år
 inkl. moms
-
 20A
 Max effektuttag:
 14 kW
@@ -33,7 +30,6 @@ Max effektuttag:
 Fast avgift:
 6 983 kr/år
 inkl. moms
-
 25A
 Max effektuttag:
 17 kW
@@ -44,7 +40,6 @@ Max effektuttag:
 Fast avgift:
 8 893 kr/år
 inkl. moms
-
 35A
 Max effektuttag:
 24 kW
@@ -55,7 +50,6 @@ Max effektuttag:
 Fast avgift:
 12 805 kr/år
 inkl. moms
-
 50A
 Max effektuttag:
 35 kW
@@ -66,7 +60,6 @@ Max effektuttag:
 Fast avgift:
 19 796 kr/år
 inkl. moms
-
 63A
 Max effektuttag:
 44 kW
