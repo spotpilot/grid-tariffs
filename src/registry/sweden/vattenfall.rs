@@ -2,11 +2,8 @@ use crate::{builder::GridOperatorBuilder, registry::prelude::*};
 
 const FEE_LINK: &'static str = "https://www.vattenfalleldistribution.se/abonnemang-och-avgifter/avtal-och-avgifter/elnatsavgift-och-avtalsvillkor/";
 
-const BASE: GridOperatorBuilder = GridOperator::builder()
-    .vat_number("SE556417080001")
-    .price_date(2025, 1, 1)
-    .country(Country::SE)
-    .main_fuses(MainFuseSizes::new_range(16, 63))
+const BASE_PRICELIST: PriceListBuilder = PriceListBuilder::new()
+    .from_date(2025, 1, 1)
     .monthly_fee(Cost::fuses(&[
         (16, Money::new(420, 83)),
         (20, Money::new(588, 75)),
@@ -18,7 +15,13 @@ const BASE: GridOperatorBuilder = GridOperator::builder()
     .monthly_production_fee(Cost::Unverified)
     .feed_in_revenue(FeedInRevenue::Unverified)
     .other_fees(OtherFees::Unverified)
-    .power_tariff(PowerTariff::NotImplemented)
+    .power_tariff(PowerTariff::NotImplemented);
+
+pub const VATTENFALL: GridOperator = GridOperator::builder()
+    .name("Vattenfall")
+    .vat_number("SE556417080001")
+    .country(Country::SE)
+    .main_fuses(MainFuseSizes::new_range(16, 63))
     .links(Links::new(
         Link::builder(FEE_LINK)
             .content_locator(ContentLocator::new_starts_with(
@@ -27,26 +30,27 @@ const BASE: GridOperatorBuilder = GridOperator::builder()
                 ContentTarget::Attribute("data-content"),
             ))
             .build(),
-    ));
-
-pub const VATTENFALL_E4: GridOperator = BASE
-    .name("Vattenfall E4")
-    .transfer_fee(TransferFee::fixed_subunit(39.0))
-    .build();
-
-pub const VATTENFALL_T4: GridOperator = BASE
-    .name("Vattenfall T4")
-    .transfer_fee(TransferFee::new_periods(CostPeriods::new(&[
-        CostPeriod::builder()
-            .load(High)
-            .fixed_cost_subunit(67.00)
-            .months(November, March)
-            .hours(6, 22)
-            .exclude_weekends()
+    ))
+    .price_lists(&[
+        BASE_PRICELIST
+            .variant("E4")
+            .transfer_fee(TransferFee::fixed_subunit(39.0))
             .build(),
-        CostPeriod::builder()
-            .load(Low)
-            .fixed_cost_subunit(26.80)
+        BASE_PRICELIST
+            .variant("T4")
+            .transfer_fee(TransferFee::new_periods(CostPeriods::new(&[
+                CostPeriod::builder()
+                    .load(High)
+                    .fixed_cost_subunit(67.00)
+                    .months(November, March)
+                    .hours(6, 22)
+                    .exclude_weekends()
+                    .build(),
+                CostPeriod::builder()
+                    .load(Low)
+                    .fixed_cost_subunit(26.80)
+                    .build(),
+            ])))
             .build(),
-    ])))
+    ])
     .build();

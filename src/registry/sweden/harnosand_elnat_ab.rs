@@ -5,12 +5,6 @@ pub const HÄRNÖSAND_ELNÄT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE556133332801")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 63))
-    .price_date(9999, 12, 31)
-    .monthly_fee(Cost::Unverified)
-    .monthly_production_fee(Cost::Unverified)
-    .feed_in_revenue(FeedInRevenue::Unverified)
-    .transfer_fee(TransferFee::Unverified)
-    .other_fees(OtherFees::Unverified)
     .links(Links::new(
         // TODO: This links to a year-specific URL - we need to find another way -
         //       maybe link to start page and find a way to navigate to Elnät > Priser Elnät [2025]
@@ -18,5 +12,13 @@ pub const HÄRNÖSAND_ELNÄT_AB: GridOperator = GridOperator::builder()
             .plain_content_locator(".pagecontent")
             .build(),
     ))
-    .power_tariff(PowerTariff::Unverified)
+    .price_lists(&[PriceList::builder()
+        .from_date(9999, 12, 31)
+        .monthly_fee(Cost::Unverified)
+        .monthly_production_fee(Cost::Unverified)
+        .feed_in_revenue(FeedInRevenue::Unverified)
+        .transfer_fee(TransferFee::Unverified)
+        .other_fees(OtherFees::Unverified)
+        .power_tariff(PowerTariff::Unverified)
+        .build()])
     .build();

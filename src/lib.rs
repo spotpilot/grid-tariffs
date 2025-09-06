@@ -9,7 +9,7 @@
 //! TODO: Verify that we use the correct pricing and calculation method for each grid operator
 //! TODO: Generate GridOperator entries from Tariff API
 //!
-use chrono::NaiveDate;
+use chrono::{NaiveDate, Utc};
 use serde::Serialize;
 
 use crate::{
@@ -20,6 +20,7 @@ use crate::{
     fees::{OtherFees, TransferFee},
     money::Money,
     power_tariffs::PowerTariff,
+    price_list::PriceList,
     registry::sweden,
     revenues::FeedInRevenue,
 };
@@ -35,6 +36,7 @@ mod helpers;
 mod links;
 mod money;
 mod power_tariffs;
+mod price_list;
 pub mod registry;
 mod revenues;
 
@@ -42,19 +44,11 @@ mod revenues;
 pub struct GridOperator {
     name: &'static str,
     vat_number: &'static str,
-    price_date: NaiveDate,
     /// Costs are specified in this currency
     country: Country,
     /// The main fuse size range that this info covers
     main_fuses: MainFuseSizes,
-    /// Fixed monthly fee
-    monthly_fee: Cost,
-    /// Fixed monthly fee for allowing energy production
-    monthly_production_fee: Cost,
-    transfer_fee: TransferFee,
-    feed_in_revenue: FeedInRevenue,
-    other_fees: OtherFees,
-    power_tariff: PowerTariff,
+    price_lists: &'static [PriceList],
     links: Links,
 }
 
@@ -67,34 +61,24 @@ impl GridOperator {
         &self.vat_number
     }
 
-    pub const fn price_date(&self) -> NaiveDate {
-        self.price_date
-    }
-
     pub const fn country(&self) -> Country {
         self.country
-    }
-    pub const fn monthly_fee(&self) -> &Cost {
-        &self.monthly_fee
-    }
-    pub const fn monthly_production_fee(&self) -> &Cost {
-        &self.monthly_production_fee
-    }
-    pub const fn transfer_fee(&self) -> &TransferFee {
-        &self.transfer_fee
-    }
-    pub const fn feed_in_revenue(&self) -> &FeedInRevenue {
-        &self.feed_in_revenue
-    }
-    pub const fn other_fees(&self) -> &OtherFees {
-        &self.other_fees
-    }
-    pub const fn power_tariff(&self) -> &PowerTariff {
-        &self.power_tariff
     }
 
     pub const fn links(&self) -> &Links {
         &self.links
+    }
+
+    pub fn active_price_list(&self) -> &PriceList {
+        self.price_lists
+            .iter()
+            .filter(|pl| Utc::now().date_naive() >= pl.from_date())
+            .min_by_key(|pl| pl.from_date())
+            .unwrap()
+    }
+
+    pub fn price_lists(&self) -> &'static [PriceList] {
+        self.price_lists
     }
 
     pub const fn currency(&self) -> Currency {

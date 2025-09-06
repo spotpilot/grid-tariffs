@@ -52,8 +52,7 @@ pub(crate) fn report(format: OutputFormat, output_dir: &Path) -> anyhow::Result<
     let rows = GridOperator::all()
         .iter()
         .map(|op| {
-            let stats = FilledOutStats::new(op);
-            ReportRow {
+            FilledOutStats::new(op).into_iter().map(|stats| ReportRow {
                 name: op.name().to_owned(),
                 vat_number: op.vat_number().to_owned(),
                 completion_percentage: stats.completion_percentage,
@@ -65,8 +64,9 @@ pub(crate) fn report(format: OutputFormat, output_dir: &Path) -> anyhow::Result<
                 power_tariff: stats.power_tariff,
                 fee_info_filled_out: stats.links.fee_info.filled_out,
                 fee_info_explicit_locator: !stats.links.fee_info.uses_default_locator,
-            }
+            })
         })
+        .flatten()
         .sorted_by_key(|row| row.completion_percentage)
         .collect_vec();
 
@@ -117,20 +117,24 @@ struct FilledOutStats {
 }
 
 impl FilledOutStats {
-    fn new(operator: &GridOperator) -> Self {
-        let mut this = Self::default();
-        if (Utc::now().date_naive() - operator.price_date()).abs() < TimeDelta::days(3650) {
-            this.price_date = true;
+    fn new(operator: &GridOperator) -> Vec<Self> {
+        let mut ret = Vec::new();
+        for pl in operator.price_lists() {
+            let mut this = Self::default();
+            if (Utc::now().date_naive() - pl.from_date()).abs() < TimeDelta::days(3650) {
+                this.price_date = true;
+            }
+            this.monthly_fee = !pl.monthly_fee().is_unverified();
+            this.monthly_production_fee = !pl.monthly_production_fee().is_unverified();
+            this.transfer_fee = !pl.transfer_fee().is_unverified();
+            this.feed_in_revenue = !pl.feed_in_revenue().is_unverified();
+            this.other_fees = !pl.other_fees().is_unverified();
+            this.power_tariff = !pl.power_tariff().is_unverified();
+            this.links = LinksStats::new(operator.links());
+            this.completion_percentage = this.calculate_completion_percentage();
+            ret.push(this);
         }
-        this.monthly_fee = !operator.monthly_fee().is_unverified();
-        this.monthly_production_fee = !operator.monthly_production_fee().is_unverified();
-        this.transfer_fee = !operator.transfer_fee().is_unverified();
-        this.feed_in_revenue = !operator.feed_in_revenue().is_unverified();
-        this.other_fees = !operator.other_fees().is_unverified();
-        this.power_tariff = !operator.power_tariff().is_unverified();
-        this.links = LinksStats::new(operator.links());
-        this.completion_percentage = this.calculate_completion_percentage();
-        this
+        ret
     }
 
     fn calculate_completion_percentage(&self) -> u8 {
