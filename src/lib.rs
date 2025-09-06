@@ -69,9 +69,10 @@ impl GridOperator {
         &self.links
     }
 
-    pub fn active_price_list(&self) -> &PriceList {
+    pub fn active_price_list(&self, variant: Option<&str>) -> &PriceList {
         self.price_lists
             .iter()
+            .filter(|pl| pl.variant() == variant)
             .filter(|pl| Utc::now().date_naive() >= pl.from_date())
             .min_by_key(|pl| pl.from_date())
             .unwrap()

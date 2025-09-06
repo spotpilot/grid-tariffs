@@ -28,6 +28,10 @@ impl PriceList {
         PriceListBuilder::new()
     }
 
+    pub const fn variant(&self) -> Option<&'static str> {
+        self.variant
+    }
+
     pub const fn from_date(&self) -> NaiveDate {
         self.from_date
     }
