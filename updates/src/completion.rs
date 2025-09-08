@@ -5,6 +5,7 @@ use csv::WriterBuilder;
 use grid_tariffs::{GridOperator, Link, Links};
 use itertools::Itertools;
 use rust_xlsxwriter::{Table, workbook::Workbook};
+use tracing::info;
 
 #[derive(Debug, Clone, Copy)]
 pub(crate) enum OutputFormat {
@@ -76,6 +77,10 @@ pub(crate) fn report(format: OutputFormat, output_dir: &Path) -> anyhow::Result<
         format.file_extension()
     );
     let out_path = output_dir.join(filename);
+    info!(
+        "Saving completion report to: {}",
+        out_path.to_string_lossy()
+    );
     match format {
         OutputFormat::Xlsx => {
             let mut workbook = Workbook::new();

@@ -35,7 +35,6 @@ pub(crate) fn generate_grid_operator(
     let contents = grid_operator_contents(country, name, vat_number, fee_link);
     fs::write(&registry_filepath, contents)?;
     info!(saved_at = %registry_filepath.to_string_lossy());
-    generate_mod(country)?;
     Ok(())
 }
 
@@ -57,14 +56,16 @@ pub const {constant_name}: GridOperator = GridOperator::builder()
     .vat_number("{vat_number}")
     .country(Country::{country_code})
     .main_fuses(MainFuseSizes::new_range(16, 63))
-    .price_date(9999, 12, 31)
-    .monthly_fee(Cost::Unverified)
-    .monthly_production_fee(Cost::Unverified)
-    .feed_in_revenue(FeedInRevenue::Unverified)
-    .transfer_fee(TransferFee::Unverified)
-    .other_fees(OtherFees::Unverified)
     .links(Links::new(Link::builder(FEE_LINK).content_locator_default().build()))
-    .power_tariff(PowerTariff::Unverified)
+    .price_lists(&[PriceList::builder()
+        .from_date(9999, 12, 31)
+        .monthly_fee(Cost::Unverified)
+        .monthly_production_fee(Cost::Unverified)
+        .feed_in_revenue(FeedInRevenue::Unverified)
+        .transfer_fee(TransferFee::Unverified)
+        .other_fees(OtherFees::Unverified)
+        .power_tariff(PowerTariff::Unverified)
+        .build()])
     .build();
 "###
     )

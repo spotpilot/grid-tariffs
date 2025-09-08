@@ -5,7 +5,7 @@ mod locator;
 mod pricing_info;
 mod store;
 
-use std::{io::stdout, path::PathBuf, str::FromStr};
+use std::{collections::HashSet, io::stdout, path::PathBuf, str::FromStr};
 
 use clap::{Parser, Subcommand};
 use grid_tariffs::{Country, GridOperator};
@@ -162,6 +162,7 @@ async fn main() -> anyhow::Result<()> {
             fee_link,
         } => {
             codegen::generate_grid_operator(country, &name, &vat_number, &fee_link)?;
+            codegen::generate_mod(country)?;
         }
         CliAction::Import { csv_path } => {
             #[derive(Debug, serde::Deserialize)]
@@ -172,6 +173,7 @@ async fn main() -> anyhow::Result<()> {
                 vat_number: String,
                 fee_info_url: String,
             }
+            let mut countries = HashSet::new();
             let mut rdr = csv::Reader::from_path(csv_path)?;
             for result in rdr.deserialize() {
                 let record: CsvRecord = result?;
@@ -182,6 +184,10 @@ async fn main() -> anyhow::Result<()> {
                     &record.vat_number,
                     &record.fee_info_url,
                 )?;
+                countries.insert(record.country);
+            }
+            for country in countries {
+                codegen::generate_mod(country)?;
             }
         }
         CliAction::ExtractText {
