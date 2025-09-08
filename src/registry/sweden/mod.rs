@@ -93,7 +93,6 @@ pub mod salaheby_energi_elnat_ab;
 pub mod sandhultsandareds_elnat_ab;
 pub mod sandviken_energi_elnat_ab;
 pub mod sevab_nat_ab;
-pub mod sidensjo_vindkraft_elnat_ab;
 pub mod sjobo_elnat_ab;
 pub mod skanska_energi_nat_ab;
 pub mod skara_elnat_ab;
@@ -221,7 +220,6 @@ pub(crate) static GRID_OPERATORS: &[crate::GridOperator] = &[
     sandhultsandareds_elnat_ab::SANDHULTSANDAREDS_ELNAT_AB,
     sandviken_energi_elnat_ab::SANDVIKEN_ENERGI_ELNAT_AB,
     sevab_nat_ab::SEVAB_NAT_AB,
-    sidensjo_vindkraft_elnat_ab::SIDENSJO_VINDKRAFT_ELNAT_AB,
     sjobo_elnat_ab::SJOBO_ELNAT_AB,
     skanska_energi_nat_ab::SKANSKA_ENERGI_NAT_AB,
     skara_elnat_ab::SKARA_ELNAT_AB,
