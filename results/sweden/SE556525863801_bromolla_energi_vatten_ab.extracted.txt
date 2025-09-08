@@ -1,0 +1,190 @@
+
+ELNÄTSAVGIFTER SÄKRINGSABONNEMANG
+GÄLLER FRÅN DEN 1 JANUARI 2025, TILLS VIDARE
+Elnätstaxan består av två delar. En fast årsavgift som är beroende av storleken på huvudsäkringen, 175 kr per ampere, och en rörlig elöverföringsavgift, 35,60 öre per kWh. Energiskatten för 2025 är 54,88 öre per kWh. Alla priser anges inklusive moms.
+Räkneexempel: En villa med 20 ampere huvudsäkring betalar 3500 kr i fast årsavgift. Vid en förbrukning på 10.000 kWh betalar samma villa 3.560 kr i elöverföringsavgift. Energiskatten för dessa 10.000 kWh blir då 5.488 kr.
+
+ELNÄTSAVGIFTER EFFEKTABONNEMANG
+GÄLLER FRÅN DEN 1 JANUARI 2024, TILLSVIDARE
+(alla priser anges exklusive moms)
+Stora företag har ofta ett högre effektbehov än vad som kan levereras via säkringsabonnemang på vårt lokalnät. För att tillgodo se ett sådant behöv finns effektabonnemang.
+Effektabonnemangstaxan består av en fast avgift per år, en effektavgift och en rörlig avgift.
+Effektabonnemang lågspänning
+Den fasta avgiften uppgår till 7.680 kr per år (*)
+Effektavgiften uppgår till 1.180,00 kr per kW
+Den rörliga avgiften uppgår till 22,50 öre per kWh
+Effektabonnemang högspänning
+Den fasta avgiften uppgår till 26.880 kr per år (**)
+Effektavgiften uppgår till 900 kr per kW
+Den rörliga avgiften uppgår till 12,50 öre per kWh
+I abonnemanget ingår myndighetsavgifterna - elberedskapsavgift, elsäkerhetsavgift samt nätövervakningsavgift. Läs mer om avgifterna på elsäkerhetsverket.se
+(*) exklusive myndighetsavgift 54,65 kr
+(**) exklusive myndighetsavgift 3.904 kr
+
+ANSLUTNINGSAVGIFTER LÅGSPÄNNING
+GÄLLER FRÅN DEN 1 JANUARI 2024, TILLSVIDARE
+Vi har anpassat de nya anslutningsavgifterna för att stämma överens med Energimarknadsinspektionens nya prismodell för elanslutningar. Ändringen berör nya kunder på lågspänningsnätet samt inmatningskunder upp till 25 AMP.
+Anslutningsavgiften baseras på fågelavståndet ifrån fasadmätarskåpet till vald anslutningspunkt och den kapacitet man önskar.
+Meter           Servicesäkring                  Inkl moms
+
+0-200           16-25 A                                38.125 kr
+200-600       16-25 A                               38.125 kr + 327,50 kr/meter
+600-1200     16-25 A                             169.125 kr + 800,00 kr/meter
+1200-1800  16-25 A                             649.125 kr + 486,25 kr/meter
+
+Anslutningsavgiften upp till 200 meter är densamma för alla kunder inom detta intervall.
+Anslutningsavgiften inom 200–600 meter utgår från avgiften inom 0–200 meter och därefter tillkommer en meteravgift för den del av ledningen som överstiger 200 meter.
+Anslutningsavgiften inom 600–1.200 meter utgår från anslutningsavgiften för 600 meter och därefter tillkommer en meteravgift för den del av ledningen som överstiger 600 meter.
+Anslutningsavgiften inom 1.200–1.800 meter utgår från anslutningsavgiften för 1.200 meter och därefter tillkommer en meteravgift för den del av ledningen som överstiger 1.200 meter.
+Vid avstånd över 1.800 meter görs offerter utifrån individuell kostnadsberäkning.
+Avgiften omfattar utbyggnad till tomtgräns, servisledning mellan tomtgräns och anslutningspunkt, dragning av servisledning genom kabelskyddsrör samt anslutning av servisledning i kundens anslutningspunkt, dock ej schakt och återfyllnad inom tomtgräns (trädgårdstomt).
+Kunden gräver kabeldike, tillhandahåller och förlägger kabelskyddsrör efter våra anvisningar samt återställer inom sin fastighet/tomt.
+Förhöjd anslutningsavgift
+Anslutningsavgifter större än 55.000 kronor inkl moms delas upp i två betalningar. En vid beställning resterande vid driftfärdig anläggning om inget annat överenskommes.
+Återanslutning vid nedtagen mätare om anläggningen är intakt.
+För frånkopplad anläggning där BEVABs anläggning inklusive servis fortfarande finns kvar utgår anslutningsavgift med den faktiska kostnaden men med minst (Schablonkostnad 2.500 kr/lägenhet och 5.500kr/villa inkl. moms)
+Maxtiden för återanslutning är 10 år på intakt anläggning därefter utgår ny anslutningsavgift för återanslutning.
+Uppdelning av abonnemang
+Vid uppdelning av abonnemang utgår ett schablonbelopp om 3.000 kronor inkl. moms vid tillkommande abonnemang. Vid ytterligare samtidiga delningar tillkommer 1.800 inkl. moms kr/abon.
+Tillfälliga abonnemang
+(För anläggningsentreprenader, tivoli, sportevenemang etc.) Anslutningsavgiften ska vid tillfälliga anslutningar täcka utbyggnadskostnader, raseringskostnader samt kostnader för
+till- och frånkoppling. Priserna förutsätter att ledningsnätet är frambyggt och har tillräcklig kapacitet. Kontakta oss för en prisförfrågan.
+Minimiavgift per anslutning inkl. moms
+16-25A  4 062: - sedan lägger vi på 50kr/A och får följande:
+35A       4 687: -
+50A       5 625: -
+63A       6 437: -
+80A       7 500: -
+100A     8 750: -
+125A   10 312: -
+160A   12 500: -
+200A   15 000: -
+250A   18 125: -
+Normal nätavgift dubblas på tillfälliga anslutningar efter ett år, undantag görs för större byggen med en beräknat längre byggtid.
+Hopslagning av abonnemang
+Vid hopslagning av abonnemang debiteras en avgift på 500 kronor inkl. moms.
+Ändring av servis
+Vid mindre ändringar av serviskabel, t.ex. flytt av servis, flytt av fasadskåp debiteras 1.875 kr inkl. moms. Vid större ändringar debiteras faktiska kostnader enligt kostnadskatalogen. Vid servisbyte pga uttjänt kabel där kunden gräver samt utflyttning till fasadskåp utgår ingen kostnad.
+
+Servissäkring
+
+Grundavgift
+
+Grundavgift
+
+Verklig kostnad
+
+Serviskabel
+
+Inom 200m
+
+Inom 200m
+
+utöver 200 meter
+
+mm
+
+AMP
+
+Exkl. moms kr
+
+Inkl. moms kr
+
+16–25
+
+30 500 kr
+
+38 125 kr
+
+-:-
+
+10
+
+35
+
+35 500 kr
+
+44 375 kr
+
+-:-
+
+50
+
+50
+
+45 000 kr
+
+56 250 kr
+
+-:-
+
+50
+
+63
+
+54 500 kr
+
+68 125 kr
+
+-:-
+
+50
+
+80
+
+69 500 kr
+
+86 875 kr
+
+-:-
+
+95
+
+100
+
+86 500 kr
+
+108 125 kr
+
+-:-
+
+150
+
+125
+
+104 000 kr
+
+130 000 kr
+
+-:-
+
+150
+
+160
+
+132 500 kr
+
+165 625 kr
+
+-:-
+
+150
+
+200
+
+163 000 kr
+
+203 750 kr
+
+-:-
+
+240
+
+Behöver inte ledningen bytas ut debiteras avgift motsvarande mellanskillnaden i grundavgift enligt tabell plus en hanteringskostnad på 1000. Krävs ledningsbyte debiteras verklig kostnad utöver schablonkostnad.
+Offert skall undertecknas av kund vid offertsumma över 55 000 kronor.
+Reglering av framtida anslutningar där kund betalat hela utbyggnadskostnaden skall reglering ske om ytterligare anslutningar kommer inom 1 år.
+
+Ersättning för inmatad el
+från produktionsanläggningar (vind- och solcellsanläggningar)
+Eftersom din produktionsanläggning genererar och levererar el till vårt elnät erhåller du en ersättning för den inmatade elen. Denna ersättning, även känd som nätnytta, är ett sätt att kompensera dig för den värdefulla elproduktionen.
+Från och med den 1 januari 2024 kommer ersättningen för inmatad el att vara 13 öre per kilowattimme (kWh), inklusive moms. Detta innebär att varje kWh som matas in i elnätet kommer att ersättas med den angivna ersättningssatsen.

@@ -1,0 +1,386 @@
+
+Du är här
+
+Hem
+–
+                                        El
+–
+                                        Köpa el
+–
+                                        Elnät
+–
+                                        Avgifter och prislistor elnät
+
+Du är här
+/
+Hem
+/
+https://www.hedemoraenergi.se/el/
+El
+/
+https://www.hedemoraenergi.se/el/kopa-el/
+Köpa el
+/
+https://www.hedemoraenergi.se/el/kopa-el/elnat/
+Elnät
+/
+https://www.hedemoraenergi.se/el/kopa-el/elnat/avgifter-och-prislista/
+Avgifter och prislistor elnät
+
+Avgifter och prislistor elnät
+
+Anslutningsavgift
+
+Vid nyanslutning debiteras en engångsavgift som beräknas utifrån säkringens (huvudsäkring, servissäkring) storlek och avståndet till närmsta möjliga anslutningspunkt.
+
+För alla nyanslutningar och utökningar av befintliga abonnemang lämnas offert på begäran. Utökning av befintligt abonnemang inom 16-25A är kostnadsfri, dock krävs en ändringsanmälan via föranmälan.nu från behörig elinstallatör.
+
+Offerter beräknas enligt nedan.
+
+Anslutningsavgift för säkringsstorlek 16-25A baseras på och är framräknat utifrån Energimarknadsinspektionens (Ei) ”Metod för fastställande av skäliga anslutningsavgifter för uttag 16-25A”, se tabell nedan.
+
+Anslutningsavgift 16-25 A – Priser inklusive moms (från och med 2025-01-01)
+
+Avstånd till anslutningspunkt  (fågelvägen)
+Avgift
+
+0-200 meter
+54 125 kr
+
+201-600 meter
+54 125 kr + 463,75 kr/m
+
+601-1200 meter
+239 625 kr + 1126,25 kr/m
+
+1201-1800 meter
+915 375 kr + 630 kr/m
+
+Avstånd i tabellen avser fågelvägen mellan anslutningspunkten hos den nya anläggningen och den punkt i det befintliga lågspänningsnätet där kapacitet och god elkvalité kan erhållas, vanligtvis kabelskåp eller nätstation.
+
+Anslutningsavgift över 25 A
+
+Anslutningsavgift för säkringsstorlek över 25A baseras på verklig längd och framräknas utifrån den senaste utgåvan av eldistributionsbranchens gemensamma kostnadskatalog EBR KLG 1.
+
+För större mätarsäkring än 63A hänvisar vi till effektabonnemang.
+
+Administrativ avgift
+
+Vid nytecknade av abonnemang debiteras en administrativ avgift om 340 kr inklusive moms.
+
+Utökning, hopslagning eller upphörande av abonnemang
+
+Vid utökning samt hopslagning av abonnemang uttages en avgift för våra kostnader enligt de exempel som anges nedan.
+
+Kund som slår ihop exempelvis två abonnemang till ett eller upphör med ett, betalar en avgift på: 624 kr/abonnemang inkl moms.
+
+Fastighetsägare som vill utöka med flera abonnemang i sin fastighet betalar en avgift på: 2 600 kr/abonnemang inkl moms, under förutsättning att nuvarande mätar- och servissäkring för fastighet klarar av ökad belastning.
+
+Höjning av effekt eller mätarsäkring
+
+Skall kund höja abonnerad effekt eller höja mätarsäkringen skall denna erlägga avgift enligt en offert som skickas till kund på begäran. Det kan vara bra att känna till att en ändring av huvudsäkring endast får ske en gång under 12-månader period och att ändring av abonnerad effekt skickas vid årsskifte.
+
+Kontroll av elmätare
+
+Kontrollmätning av elförbrukning genom att skicka in mätaren på kontroll hos ackrediterad mätprovningsföretag. Kostnad för detta är ”faktiskt kostnad” cirka 2 548 kr inklusive moms.
+
+Av- och påkoppling av abonnemang vid utebliven betalning
+
+Av- och påkopplingsavgift (avstängningsavgift) är: 1 872 kr inkl. moms.
+
+Besöksavgift: 1 248 kr inkl. moms.
+
+Denna prislista gäller fr.o.m.
+2024-01-01, ingen höjning görs 2025-01-01.
+
+Effektkunder
+
+Nättaxa Högspänning effekt
+
+Fast avgift
+26 494
+kr/år
+
+Abonnemangsavgift
+209
+kr/kW
+
+Högbelastningsavgift
+628
+kr/kW
+
+Energiavgifter
+
+Höglasttid
+5,2
+öre/kWh
+
+övrig tid
+4,6
+öre/kWh
+
+Nättaxa Lågspänning effekt
+
+Fast avgift
+15 738
+kr/år
+
+Abonnemangsavgift
+391
+kr/kW
+
+Högbelastningsavgift
+628
+kr/kW
+
+Energiavgifter
+
+Höglasttid
+8,7
+öre/kWh
+
+övrig tid
+7,1
+öre/kWh
+
+Höglasttid = tiden nov-mars, mån-fre 06-22
+Abonnemangsavgift = abonnerad effekt (ska faställas för aktuellt år).
+Högbelastningsavgift = högsta tim-effekt resp månad under tid gällande höglasttid.
+
+Abonnemangsavgift betalas efter abonnerad effekt. Överskrids abonnerad effekt (medelvärdet av de två högsta timeffekterna under skilda månader) debiteras överuttagsavgift med 100 % på den effekt som överstiger abonnerad effekt. Fast avgift och abonnemangsavgift debiteras med 1/12 del av årsavgiften varje månad. Högbelastningsavgift betalas efter högsta timeffekten under månaderna nov-mars, mån-fre kl 06-22 med 1/5 del av avgiften varje månad. Energiavgifter betalas efter uppmätt förbrukning.
+Uttag av reaktiv effekt i kVAr räknat medges intill 50 % av den uttagna abonnerade effekten i kW. Uttagen reaktiv effekt bestäms som medelvärdet av de två högsta månadsvärdena under året för uttagen reaktiv timeffekt. Avgift för överuttag med reaktiv effekt är 88 kr/kVAr/år.
+
+Säkringskunder
+
+De nätpriser som redovisas är de priser som tillämpas av Hedemora Elnät AB.  Debitering av avgiften sker månadsvis efter mätarställning.
+Prislistan gäller fr.o.m. 2025-01-01
+Inkl. moms. Fast nätavgift, kr/år inkl. moms 25%.
+
+Säkring
+Normaltariff
+
+16 A lgh
+1 549
+
+20 A lgh
+2 488
+
+16 A
+3 352
+
+20 A
+4 367
+
+25 A
+5 429
+
+35 A
+6 854
+
+50 A
+9 029
+
+63 A
+11 577
+
+80 A
+14 615
+
+100 A
+18 527
+
+125 A
+24 988
+
+160 A
+34 305
+
+200 A
+42 889
+
+225 A
+50 337
+
+250 A
+56 031
+
+315 A
+66 427
+
+355 A
+74 378
+
+400 A
+83 587
+
+500 A
+104 175
+
+Mätarsäkring 16 A lgh och 20 A lgh tillämpas endast för lägenheter i flerfamiljshus med minst 3 lägenheter och där fastigheten har eget abonnemang.
+
+Säkring
+Normaltariff
+
+16A-500 A
+29,56
+öre/kWh
+inkl. moms
+
+23,65
+öre/kWh
+exkl. moms
+
+Administrativ avgift
+Vid nytecknade av abonnemang debiteras en administrativ avgift om 340 kr inklusive moms
+
+Prislista gäller fr.o.m. 2025-01-01.
+
+https://www.hedemoraenergi.se/el/fordjupad-information-om-el/avtalsvillkor-elnat/
+
+Avtalsvillkor elnät
+
+Blev du hjälpt av informationen på sidan?
+
+Ja
+Nej
+
+Dela sidan
+
+https://www.facebook.com/sharer.php?u=https://www.hedemoraenergi.se/el/kopa-el/elnat/avgifter-och-prislista/
+
+https://www.linkedin.com/shareArticle?url=https://www.hedemoraenergi.se/el/kopa-el/elnat/avgifter-och-prislista/&title=Avgifter och prislistor elnät
+
+https://x.com/share?url=https://www.hedemoraenergi.se/el/kopa-el/elnat/avgifter-och-prislista/&text=Avgifter och prislistor elnät&via=hedemora&hashtags=hedemora
+
+mailto:?subject=Avgifter+och+prislistor+eln%C3%A4t&body=Jag+vill+dela+denna+sida+med+dig%2C+https%3A%2F%2Fwww.hedemoraenergi.se%2Fel%2Fkopa-el%2Felnat%2Favgifter-och-prislista%2F
+
+Publicerad:
+2024-10-29
+
+Du är här
+
+El
+-
+        Köpa el
+-
+        Elnät
+-
+        Avgifter och prislistor elnät
+-
+        Elhandel
+-
+        Vad händer om du inte väljer elhandelsavtal?
+-
+        Hedemorapriset
+-
+        Teckna elavtal hos oss
+-
+        Frågor och svar om el
+-
+        Sälja el
+-
+        Sälj ditt elöverskott till oss
+-
+        Fördjupad information om el
+-
+        Avtalsvillkor elnät
+-
+        Elavbrott
+-
+        Elbilsladdare
+-
+        Konsumenträtt elnät
+-
+        Din smarta elmätare
+-
+        Nätnytta och ersättningar
+-
+        Nätutveckling- och övervakningsplaner
+-
+        Elnätbolag i samverkan
+-
+        Anslutning till elnätet
+-
+        Ersättning vid avbrott
+-
+        Avtalsvillkor elhandel
+-
+        Energiskatt och inspektion
+-
+        Tillgängliggörande av mätvärden
+
+https://www.hedemoraenergi.se/el/
+
+El
+
+https://www.hedemoraenergi.se/el/kopa-el/
+Köpa el
+
+https://www.hedemoraenergi.se/el/kopa-el/elnat/
+Elnät
+
+https://www.hedemoraenergi.se/el/kopa-el/elnat/avgifter-och-prislista/
+Avgifter och prislistor elnät
+
+https://www.hedemoraenergi.se/el/kopa-el/elhandel/
+Elhandel
+
+https://www.hedemoraenergi.se/el/kopa-el/elhandel/vad-hander-om-du-inte-valjer-elhandelsavtal/
+Vad händer om du inte väljer elhandelsavtal?
+
+https://www.hedemoraenergi.se/el/kopa-el/elhandel/hedemorapriset/
+Hedemorapriset
+
+https://www.hedemoraenergi.se/el/kopa-el/elhandel/teckna-elavtal-hos-oss/
+Teckna elavtal hos oss
+
+https://www.hedemoraenergi.se/el/fragor-svar-el/
+Frågor och svar om el
+
+https://www.hedemoraenergi.se/el/egen-elproduktion/
+Sälja el
+
+https://www.hedemoraenergi.se/el/egen-elproduktion/salj-ditt-eloverskott-till-oss/
+Sälj ditt elöverskott till oss
+
+https://www.hedemoraenergi.se/el/fordjupad-information-om-el/
+Fördjupad information om el
+
+https://www.hedemoraenergi.se/el/fordjupad-information-om-el/avtalsvillkor-elnat/
+Avtalsvillkor elnät
+
+https://www.hedemoraenergi.se/el/fordjupad-information-om-el/elavbrott/
+Elavbrott
+
+https://www.hedemoraenergi.se/el/fordjupad-information-om-el/elbilsladdare/
+Elbilsladdare
+
+https://www.hedemoraenergi.se/el/fordjupad-information-om-el/konsumentratt/
+Konsumenträtt elnät
+
+https://www.hedemoraenergi.se/el/fordjupad-information-om-el/avbrottsersattning/
+Din smarta elmätare
+
+https://www.hedemoraenergi.se/el/fordjupad-information-om-el/natnytta-och-ersattningar/
+Nätnytta och ersättningar
+
+https://www.hedemoraenergi.se/el/fordjupad-information-om-el/natutvecklingsplaner/
+Nätutveckling- och övervakningsplaner
+
+https://www.hedemoraenergi.se/el/fordjupad-information-om-el/elnatbolag-i-samverkan/
+Elnätbolag i samverkan
+
+https://www.hedemoraenergi.se/el/fordjupad-information-om-el/anslutning-av-elnat/
+Anslutning till elnätet
+
+https://www.hedemoraenergi.se/el/fordjupad-information-om-el/avbrott/
+Ersättning vid avbrott
+
+https://www.hedemoraenergi.se/el/fordjupad-information-om-el/avtalsvillkor-elhandel/
+Avtalsvillkor elhandel
+
+https://www.hedemoraenergi.se/el/fordjupad-information-om-el/energiskatt-och-inspektion/
+Energiskatt och inspektion
+
+https://www.hedemoraenergi.se/el/fordjupad-information-om-el/tillgangliggorande-av-matvarden/
+Tillgängliggörande av mätvärden

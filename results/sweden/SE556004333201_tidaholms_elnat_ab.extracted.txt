@@ -1,0 +1,140 @@
+
+Nätpriser
+
+https://tidaholmsenergi.se/wp-content/uploads/2024/12/Natpriser-2025-01-01.pdf
+Nätpriser gäller från 2025-01-01
+https://tidaholmsenergi.se/wp-content/uploads/2024/12/Natpriser-Produktion-2025-01-01.pdf
+Nätpriser Produktion 2025-01-01
+
+Priserna gäller från och med 1 januari 2025 och tills vidare
+
+Avgift elöverföring (inkl. moms)
+30 öre/kWh
+
+Säkring
+Fast avgift kr (inkl. moms)
+
+16A
+Lgh 1275
+
+16A
+2345
+
+20A
+3750
+
+25A
+4690
+
+35A
+6485
+
+50A
+9250
+
+63A
+11665
+
+80A
+14755
+
+100A
+18325
+
+125A
+23260
+
+160A
+29430
+
+200A
+37075
+
+Inklusive myndighetsavgifter
+
+Anslutningsavgift
+Det är elnätsföretaget som är skyldigt att ansluta ditt hus till elnätet. När elnätsföretaget ansluter din anläggning till elnätet kan de ta ut en anslutningsavgift som du måste betala. Anslutningsavgiften och övriga villkor kring anslutningen ska enligt ellagen vara skäliga. Med anslutning av elektriska anläggningar menas förutom nyanslutning även återinkoppling av en befintlig anläggning samt höjning av mätarsäkring. Elnätsföretaget är skyldigt att på begäran, och inom skälig tid, upplysa om villkor och kostnad för en nyanslutning.
+Nyanslutning
+Avgiften för nyanslutningen får vara avståndsberoende och avgiftens storlek kan påverkas av din nya anläggnings geografiska läge samt den avtalade effekten.
+Det finns en grundavgift för alla anslutningar inom 200 meter från anslutningspunkten på ledningsnätet. För anslutningar längre bort än 200 meter tillkommer en meteravgift som varierar baserat på olika avståndsintervall från anslutningspunkten. Nedanstående anslutningsavgifter gäller 16—25 A. För nyanslutningar 35 A och högre, kontakta Tidaholms Elnät AB för offert.
+
+Avstånd till närmaste anslutningspunkt (fågelvägen)
+Avgift (belopp exklusive moms)
+Avgift (belopp inklusive moms)
+
+0 – 200 meter
+43 300
+54 125 kr
+
+200 – 600 meter
+43 300 + 371 kr/meter
+54 125 kr + 463,75 kr/meter
+
+600 – 1200 meter
+191 700 kr +  901 kr/meter
+239 625 kr + 1126,25 kr/meter
+
+1200 meter – 1800 meter
+732 300 kr + 504 kr/meter
+915 375 kr + 630 kr/meter
+
+Avgifterna i tabellen ovan gäller för anslutningar vars offerter skrivits från och med den
+1 januari 2025
+Den extra meteravgiften läggs enbart på de meter som överstiger det lägre intervallet inom varje zon.
+Har du grannar som också kommer att ansluta sig till elnätet kan avgiften komma att bli lägre än tabellen anger.
+Räkneexempel: En anslutning på 700 meter får som mest kosta 191700 kronor + 100 x 901 kronor/meter = 281 800 kronor.
+
+Återanslutning
+Energimarknadsinspektionen (Ei) delar in ärenden som har med återinkoppling att göra i två kategorier:
+Ärenden då nya kunder begär återinkoppling.
+Ärenden då kunder begär att få sin anslutna anläggning bortkopplad från elnätet och senare själva begär att bli återinkopplade.
+Ei anser att avgiften för återinkoppling ska vara relaterad till det faktiska arbetet som krävs för att återinkoppla anläggningen.
+Hur länge elen har varit avstängd kan påverka avgiften
+En faktor som kan påverka avgiften är hur lång tid anläggningen varit bortkopplad. Elnätsföretagen är efter en bortkoppling inte skyldiga att underhålla ledningarna fram till den bortkopplade anläggningen. Det kan innebära att det för att återigen få el till den bortkopplade anläggningen kan krävas en nyanslutning av anläggningen, istället för en återinkoppling. I sådana fall blir avgiften högre.
+Prövning av anslutningsavgift
+Ei kan inte utfärda föreskrifter eller regler kring frågor som rör anslutning till elnätet. Det finns inte heller några regler för vilka avgifter elnätsföretagen får ta ut av dig som kund. Elnätsföretagen har därför rätt att sätta vilka avgifter eller villkor de vill för din anslutning. Avgiften ska i möjligaste mån motsvara de faktiska, kundspecifika kostnader som företaget har för den nya anslutningen.
+Vid inkoppling av anläggningar på ett lokalnät uppstår alltid kostnader som är specifika för anläggningen. En allmän princip vid anslutning till ett befintligt elnät är att den som önskar ansluta sig ska stå för de direkta merkostnader som nätägaren får genom anslutningen. Det kan handla om kostnader för förstärkning, ombyggnad eller utbyggnad av nätet som är till nytta för kundens anläggning.
+Ei kan pröva om avgiften är skälig
+Det är först när du begär prövning hos Ei som de kan bedöma om avgiften eller villkoren för anslutningen är skäliga.
+Ei prövar bara de avgifter samt villkor som du får i samband med din anslutning till elnätet av elnätsföretaget.
+Det kan till exempel vara:
+
+anslutningsavgift
+tilläggskostnader
+övriga villkor som kan uppkomma i samband med anslutningen.
+
+Ei har gett ut ett PM om ”Metod för fastställande av skäliga anslutningsavgifter för uttag 16-25A”. Det är ett PM som upplyser om principer och normer som inspektionen använder i prövningsärenden gällande skäliga villkor för anslutning till elnätet. Ei har ingen föreskriftsrätt och kan inte utforma bindande regler. Inspektionens PM är således inte bindande.
+Ei prövar inte frågor som saknar samband med anslutningen, till exempel flytt av ledningsstolpe eller flytt av mätare.
+
+Så här begär du prövning
+Om du tycker att du fått en oskäligt hög anslutningsavgift så kan du vända dig till Ei.
+För att Ei så snabbt som möjligt ska kunna pröva anslutningsavgiften så ska du fylla i blanketten ”Ansökan om prövning av anslutningsavgift enligt ellagen”. Skicka även med en kopia på din offert eller faktura som du fått från elnätsföretaget.
+https://ei.se/konsument/el/elnatsavgiften-och-anslutning-till-elnatet/provning-av-villkor-for-anslutning
+Här kan du läsa mer om prövning av anslutningsavgiften och ladda ner en blankett.
+Skicka in din ansökan inom två år
+Ei prövar inte tvist om villkoren för anslutning, om ansökan om prövning kommit in till Ei senare än två år efter det att elnätsföretaget sänt ett skriftligt ställningstagande till dig. Ett skriftligt ställningstagande kan t.ex. vara en bindande offert. Starttidpunkten för två års-perioden kan dock skjutas framåt i tiden om den slutliga fakturan för anslutningen överstiger beloppet i offerten.
+Vad händer efter Ei:s beslut?
+Om Ei gör bedömningen att anslutningsavgiften är för hög måste elnätsföretaget betala tillbaka mellanskillnaden till dig. Att begära prövning av anslutningsavgift är avgiftsfritt.
+Om du är missnöjd med Ei:s beslut
+Om du inte är nöjd med Ei:s beslut kring din anslutningsavgift har du tre veckor på dig att överklaga beslutet. I beslutet från Ei ska det finnas en bilaga som förklarar hur du ska göra för att överklaga deras beslut. Det kostar ingenting att överklaga, du behöver inte heller vara delaktig i processen hos överinstansen och du behöver inte anlita advokat eller ombud.
+Du skickar brevet med överklagan till Energimarknadsinspektionen, Box 155, 63103 Eskilstuna.
+Det här ska du ha med i ditt brev med överklagan:
+I brevet ställer du överklagandet till Förvaltningsrätten. Det kan du göra genom att skriva i brevet att det är ställt till  Förvaltningsrätten.
+
+I brevet ställer du överklagandet till Förvaltningsrätten. Det kan du göra genom att skriva i brevet att det är ställt till
+Förvaltningsrätten.
+Du måste alltid ange diarienumret för det ärende du vill överklaga.
+Du ska i överklagandet tala om varför du anser att beslutet ska ändras och vilken ändring du vill ha.
+Du bör även bifoga sådant som du anser har betydelse för ärendet.
+Underteckna skrivelsen och uppge namn, postadress och telefonnummer.
+Om du anlitar ombud ska det bifogas en fullmakt från dig.
+
+Ring oss innan du gräver!
+Innan du borrar, gräver eller spettar i marken måste du först ta reda på vad som finns i marken. Kontakta oss så kommer vi ut och markerar kablarna direkt på plats. Beställning om utsättning bör ske senast 5 arbetsdagar före tänkt grävstart.
+Beställ kabelanvisning på
+https://www.ledningskollen.se/
+ledningskollen.se.
+Ska du fälla träd nära en ledning?
+Hör av dig till oss innan du ska fälla träd på din fastighet nära vår elledning. Vi är med och bevakar att elledningen inte kommer till skada.
+Vi utför bevakning utan kostnad om du meddelar oss senast fem arbetsdagar innan du ska fälla träd. Om du fäller ett träd som faller på våra ledningar, och du inte ansökt om trädbevakning, är du skyldig att betala för den skadade ledningen.
+Beställ bevakning på 0502-77 45 00.

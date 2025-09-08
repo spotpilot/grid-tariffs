@@ -1,0 +1,249 @@
+
+Säkringstariffer from 2025-01-01
+Enkeltariff, from 2025-01-01
+Mätarsäkring
+Fast avgift (exkl. moms)
+Fast avgift (inkl. moms)
+Energiavgift (exkl. moms)
+Energiavgift (inkl. moms)
+kr
+kr
+öre/kWh
+öre/kWh
+16 A lgh
+1573
+1966
+19,9
+24,9
+16 A Övriga
+3449
+4311
+19,9
+24,9
+20 A
+4379
+5474
+19,9
+24,9
+25 A
+5411
+6764
+19,9
+24,9
+35 A
+7528
+9410
+19,9
+24,9
+50 A
+10705
+13381
+19,9
+24,9
+63 A
+13476
+16845
+19,9
+24,9
+80 A
+17230
+21538
+19,9
+24,9
+100 A
+21390
+26738
+19,9
+24,9
+125 A
+27038
+33798
+19,9
+24,9
+160 A
+34759
+43449
+19,9
+24,9
+200 A
+43289
+54111
+19,9
+24,9
+250 A
+53175
+66469
+19,9
+24,9
+Tidstariff, from 2025-01-01. Nytecknas ej.
+Vinter hög: November till mars, måndag till fredag mellan klockan 06:00 – 22:00.
+Övrig tid: året i övrigt.
+Mätarsäkring
+Fast avgift (exkl. moms)
+Fast avgift (inkl. moms)
+Elöverföring vinter
+Elöverföring vinter
+Elöverföring övrig tid (exkl. moms)
+Elöverföring övrig tid (inkl. moms)
+höglast (exkl. moms)
+höglast (inkl. moms)
+kr
+kr
+öre/kWh
+öre/kWh
+öre/kWh
+öre/kWh
+16 A
+4122
+5153
+29,9
+37,4
+11,9
+14,9
+20 A
+5478
+6848
+29,9
+37,4
+11,9
+14,9
+25 A
+6646
+8308
+29,9
+37,4
+11,9
+14,9
+35 A
+8762
+10953
+29,9
+37,4
+11,9
+14,9
+50 A
+11940
+14925
+29,9
+37,4
+11,9
+14,9
+63 A
+14710
+18388
+29,9
+37,4
+11,9
+14,9
+80 A
+18464
+23080
+29,9
+37,4
+11,9
+14,9
+100 A
+22625
+28281
+29,9
+37,4
+11,9
+14,9
+125 A
+28273
+35341
+29,9
+37,4
+11,9
+14,9
+160 A
+38639
+48299
+29,9
+37,4
+11,9
+14,9
+200 A
+44525
+55656
+29,9
+37,4
+11,9
+14,9
+250 A
+54415
+68019
+29,9
+37,4
+11,9
+14,9
+315 A
+68956
+86195
+29,9
+37,4
+11,9
+14,9
+400 A
+86239
+107799
+29,9
+37,4
+11,9
+14,9
+500 A
+106365
+132956
+29,9
+37,4
+11,9
+14,9
+Energiskatt år 2025 (debiteras första gången på fakturan i februari 2025):
+54,9 öre/kWh (43,9 öre/kWh exklusive moms) för kunder i vårt elnätsområde.
+Hjärtums Elförening fakturerar dig energiskatt, därefter redovisar och betalar vi pengarna vidare till Skatteverket.
+
+https://www.hjartumselforening.se/elnat/
+Elnät
+
+https://www.hjartumselforening.se/elnat/allmanna-avtalsvillkor/
+Allmänna avtalsvillkor – överföring el
+https://www.hjartumselforening.se/elnat/din-elmatare/
+Din elmätare
+https://www.hjartumselforening.se/elnat/driftstorning/
+Driftstörning
+https://www.hjartumselforening.se/elnat/energitjanstforetag-berattigad-part/
+Energitjänstföretag / Berättigad part
+https://www.hjartumselforening.se/elnat/kabelanvisning/
+Kabelanvisning
+https://www.hjartumselforening.se/elnat/mikroproduktion/
+Mikroproduktion
+https://www.hjartumselforening.se/elnat/natariff/
+Nätpriser
+
+https://www.hjartumselforening.se/elnat/natariff/sakringstariffer-from-2025-01-01/
+Säkringstariffer from 2025-01-01
+https://www.hjartumselforening.se/elnat/natariff/natnyttoersattning/
+Nätnyttoersättning
+https://www.hjartumselforening.se/elnat/natariff/nyanslutningsavgift/
+Nyanslutningsavgift
+https://www.hjartumselforening.se/elnat/natariff/tidigare-sakringstariffer/
+Tidigare säkringstariffer
+
+https://www.hjartumselforening.se/elnat/natariff/tidigare-sakringstariffer/sakringstariffer-from-2024-01-01/
+Säkringstariffer from 2024-01-01
+https://www.hjartumselforening.se/elnat/natariff/tidigare-sakringstariffer/sakringstariffer/
+Säkringstariffer from 2022-01-01
+https://www.hjartumselforening.se/elnat/natariff/tidigare-sakringstariffer/nya-avgifter-from-2022-12-01/
+Säkringstariffer from 2022-12-01
+
+https://www.hjartumselforening.se/elnat/natariff/tillfallig-anslutning/
+Tillfällig anslutning
+
+https://www.hjartumselforening.se/elnat/natutvecklingsplan/
+Nätutvecklingsplan
+https://www.hjartumselforening.se/elnat/nyheter/
+Nyheter
+https://www.hjartumselforening.se/elnat/installationsanmalan/
+Installationsanmälan
+https://www.hjartumselforening.se/elnat/avbrottsersattning/
+Avbrottsersättning

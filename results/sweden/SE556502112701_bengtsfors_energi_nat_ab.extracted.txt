@@ -1,0 +1,85 @@
+ELNÄTSAVGIFT
+Elnätsavgiften består av flera olika delar; en abonnemangsavgift och ett pris för elöverföring. Avgiften ska täcka drift och underhåll av elledningar.
+Utöver dessa avgifter tillkommer årsavgifter för elsäkerhet, elberedskap och nätövervakning samt energiskatt.
+Förutom ovanstående avgifter måste du som kund betala för själva elförbrukningen. Det innebär att du har två olika avtal; ett elnätsavtal med det företag som äger elnätet där du bor och ett elhandelsavtal med det företag som du köper el av.
+Abonnemangsavgift
+Hur mycket du betalar för ditt abonnemang beror bland annat på mätarsäkringens storlek, som är ett mått på hur mycket el du maximalt kan använda vid ett tillfälle.
+Mätarsäkring Ampere
+Avgift exklusive moms
+Avgift inklusive moms
+16 (Lägenhet)
+1 376,00
+1 719,00
+16
+3 045,00
+3 806,00
+20
+3 959,00
+4 948,00
+25
+5 392,00
+6 740,00
+35
+7 300,00
+9 125,00
+50
+9 508,00
+11 885,00
+63
+12 390,00
+15 488,00
+80
+15 727,00
+19 659,00
+100
+16 819,00
+21 024,00
+125
+19 778,00
+24 722,00
+160
+25 626,00
+32 033,00
+200
+32 253,00
+40 316,00
+Överföringsavgift
+Hur mycket du betalar i överföringsavgift beror på antal förbrukade kilowattimmar
+Exklusive moms
+Inklusive moms
+25,20 öre per kWh
+31,50 öre per kWh
+Effektkunder
+För dig som är effektkund tillämpas prislista enligt nedanstående tabell. Periodiskt återkommande ändring av tariff eller huvudsäkring är inte tillåtet. Vald nättariff och säkringsstorlek ska tillämpas minst tolv månader i följd. Priserna är angivna exklusive moms.
+Nät N3
+Nät N3 T
+Nät N4
+Fast avgift
+18 261,00
+33 877,00
+10 940,00
+Abonnemang
+112,00
+168,00
+132,00
+Högbelastning
+302,00
+319,00
+415,00
+Höglasttid*
+9,95
+9,95
+11,84
+Övrig tid
+9,95
+9,95
+11,84
+*Höglast: måndag-fredag klockan 06-22 under januari, februari, mars, november och december.
+Elsäkerhetsavgift
+Elsäkerhetsavgiften som är 11,10 kronor per år exklusive moms (högspänning 905 kronor) finansierar Elsäkerhetsverkets arbete.
+Elberedskapsavgift
+Elberedskapsavgiften som är 90 kronor per år exklusive moms (högspänning 4 897 kronor) administreras av Affärsverket svenska kraftnät och ska täcka kostnader för åtgärder och verksamhet enligt elberedskapslagen.
+Nätövervakningsavgift
+Nätövervakningsavgiften som är 4,35 kronor per år exklusive moms (högspänning 870 kronor) finansierar delar av Energimyndighetens arbete.
+Energiskatt
+För 2025 är energiskatten 43,9 öre per kWh exklusive moms (54,875 öre inklusive moms). Det är riksdagen som bestämmer reglerna och skattesatsen för energiskatt på el. Det är elnätbolagen som tar upp energiskatten från kunder för att sedan betala in till staten. Det innebär att din elnätsfaktura innehåller en rad för energiskatt.

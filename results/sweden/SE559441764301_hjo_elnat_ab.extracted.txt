@@ -1,0 +1,114 @@
+
+Nätavgifter
+https://hjoenergi.se/author/andreashjoenergi-se/
+andreas@hjoenergi.se
+2024-12-04T11:48:22+01:00
+
+Nätavgifter
+Nätavgift är den avgift du betalar för transport av elenergi genom elnätet. Denna ”fraktkostnad för el” faktureras av ditt nätbolag och är skild från kostnaden för själva elenergin, se Elhandel. Prisnivån för de nätavgifter du betalar står under tillsyn av Energimarknadsinspektionen.
+Nätavgiften är uppdelad i en elöverföringsavgift och en abonnemangsavgift. Elöverföringsavgiften grundas på antal förbrukade kilowattimmar (kWh).
+Säkringskunder
+Säkringskunder kallas de kunder som har en mätarsäkring från 16A upp till 200A.
+Prislista för elöverföringsavgift, nät
+Elöverföringsavgift fr o m 2025-01-01
+
+Typ av tariff
+Elöverföringsavgift per kWh exkl. moms
+Elöverföringsavgift per kWh inkl. moms
+
+Lägenhetstariff
+31,80 öre
+39,75 öre
+
+Enkeltariff
+28,20 öre
+35,25 öre
+
+Tidstariff, höglasttid *
+40,80 öre
+51,00 öre
+
+Tidstariff, låglasttid *
+14,60 öre
+18,25 öre
+
+*Tidstariff
+Detta innebär att du under vintermånaderna (november – mars) betalar ett högre pris på veckodagar (måndag – fredag, kl. 06-22 verk 2 och ett lägre pris på natt och helg, verk 1).
+Ur tariffsynpunkt gäller vintertid även de dagar som det är sommartid under mars månad.
+Övriga månader gäller det lägre priset, verk 1. Tiden då den högre tariffen tillämpas kallas höglasttid, eftersom efterfrågan på el då är stor och produktionskostnaderna höga. Tiden för den lägre tariffen kallas låglasttid.
+Energiskatt
+Energiskatt tillkommer på elöverföringsavgiften ovan. För 2025 är den fastställd till 43,90 öre per kWh (54,88 öre inkl. moms).
+Prislista för abonnemangsavgift
+Abonnemangsavgift (säkringsavgift) per år fr o m 2025-01-01. Priserna anges både exkl. moms och inkl. moms (inkl. moms inom parentes):
+
+Säkring (A)
+Lägenhets- tariff
+Enkeltariff
+Tidstariff
+
+16
+948 kr (1185 kr)
+
+16
+
+1916 kr (2395 kr)
+2545 kr (3181 kr)
+
+20
+
+2814 kr (3518 kr)
+3310 kr (4138 kr)
+
+25
+
+3755 kr (4694 kr)
+4251 kr (5314 kr)
+
+35
+
+5510 kr (6888 kr)
+6005 kr (7506 kr)
+
+50
+
+8095 kr (10119 kr)
+8507 kr (10634 kr)
+
+63
+
+10276 kr (12845 kr)
+10632 kr (13290 kr)
+
+80
+
+12827 kr (16034 kr)
+13356 kr (16695 kr)
+
+100
+
+16175 kr (20219 kr)
+16613 kr (20766 kr)
+
+125
+
+20368 kr (25460 kr)
+20657 kr (25821 kr)
+
+160
+
+26232 kr (32790 kr)
+26344 kr (32930 kr)
+
+200
+
+32910 kr (41138 kr)
+32813 kr (41016 kr)
+
+Abonnemangsavgiften bestäms av mätarsäkringens storlek i ampere (A).
+Förutom avgifterna i tabellen tillkommer en avgift till Elberedskap, Elsäkerhetsverket och Nätmyndigheten, f n 105,45 kr per år (131,81 kr per år inkl. moms).
+Effektkunder
+Effektkunder kallas de kunder som har en mätarsäkring över 200A.
+https://hjoenergi.se/wp-content/uploads/Effekttaxa_25.pdf
+Närmare information om tariffer och bestämmelser finns att läsa i detta dokument
+https://hjoenergi.se/wp-content/uploads/Effekttaxa_23.pdf
+.

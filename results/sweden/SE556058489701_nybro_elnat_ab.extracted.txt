@@ -1,0 +1,279 @@
+
+https://nybroenergi.se/vara-tjanster/
+Våra tjänster
+
+#
+El
+
+#
+Elhandel
+
+https://nybroenergi.se/vara-tjanster/el/sa-funkar-elhandel/
+Så funkar elhandel
+https://nybroenergi.se/vara-tjanster/el/teckna-elavtal/
+Teckna elavtal
+https://nybroenergi.se/vara-tjanster/el/aktuella-elpriser/
+Aktuella elpriser
+https://nybroenergi.se/vara-tjanster/el/valj-ratt-avtal/
+Valet är ditt
+https://nybroenergi.se/vara-tjanster/el/bli-energismart/
+Bli energismart
+https://nybroenergi.se/vara-tjanster/el/solceller/
+Solceller – En hållbar energikälla
+https://nybroenergi.se/faq/elhandel/
+Frågor och svar
+
+#
+Elnät
+
+https://nybroenergi.se/vara-tjanster/el/sa-funkar-elnat/
+Så funkar elnät
+https://nybroenergi.se/vara-tjanster/el/ansluta-till-elnatet/
+Anslut dig till vårt elnät
+https://nybroenergi.se/vara-tjanster/el/ny-anslutning/
+Ny anslutning
+https://nybroenergi.se/vara-tjanster/el/produktion/
+Produktion
+https://nybroenergi.se/vara-tjanster/el/andra-din-befintliga-elanslutning/
+Ändra din befintliga elanslutning
+https://nybroenergi.se/vara-tjanster/el/prislista-elnat/
+Pris och ersättning
+https://nybroenergi.se/vara-tjanster/el/avtalsvillkor/
+Avtalsvillkor
+https://nybroenergi.se/vara-tjanster/el/ladda-din-elbil/
+Ladda din elbil
+https://nybroenergi.se/vara-tjanster/el/valj-ratt-sakring/
+Välj rätt säkring
+https://nybroenergi.se/vara-tjanster/el/elmatare/
+Din elmätare
+https://nybroenergi.se/vara-tjanster/el/vid-stromavbrott-och-aska/
+Vid strömavbrott
+https://nybroenergi.se/faq/fragor-och-svar-elnat/
+Frågor och svar
+
+#
+Fjärrvärme
+
+https://nybroenergi.se/vara-tjanster/fjarrvarme/sa-funkar-fjarrvarme/
+Så funkar fjärrvärme
+https://nybroenergi.se/vara-tjanster/fjarrvarme/ansluta-till-fjarrvarme/
+Intresseanmälan fjärrvärme
+https://nybroenergi.se/vara-tjanster/fjarrvarme/priser/
+Priser
+https://nybroenergi.se/vara-tjanster/fjarrvarme/det-kloka-valet-for-miljon/
+Det kloka valet för miljön
+https://nybroenergi.se/vara-tjanster/fjarrvarme/ekflis/
+Ekflis
+https://nybroenergi.se/vara-tjanster/fjarrvarme/poolvarme/
+Poolvärme
+https://nybroenergi.se/faq/fjarrvarme/
+Frågor och svar
+
+#
+Fiber
+
+https://nybroenergi.se/vara-tjanster/fiber/sa-funkar-fiber/
+Så funkar fiber
+https://nybroenergi.se/vara-tjanster/fiber/internet-of-things-iot/
+Internet of Things (IoT)
+https://nybroenergi.se/vara-tjanster/fiber/anslut-till-fiber/
+Intresseanmälan fiber
+
+https://nybroenergi.se/vara-tjanster/fiber/anslut-till-fiber/intresseanmalan-fiber-privatperson-villa/
+Intresseanmälan fiber privatperson/villa
+https://nybroenergi.se/vara-tjanster/fiber/anslut-till-fiber/intresseanmalan-fiber-brf-flerbostadshus/
+Intresseanmälan fiber BRF/flerbostadshus
+https://nybroenergi.se/vara-tjanster/fiber/anslut-till-fiber/intresseanmalan-fiber-foretag/
+Intresseanmälan fiber företag
+
+https://nybroenergi.se/vara-tjanster/fiber/bestall-tjanster/
+Beställ tjänster
+https://nybroenergi.se/vara-tjanster/fiber/felanmala-fiberanslutning/
+Felanmälan
+https://nybroenergi.se/faq/fiber/
+Frågor och svar
+
+#
+Vatten & Avlopp
+
+https://nybroenergi.se/vara-tjanster/vatten-och-avlopp/sa-funkar-va/
+Så funkar vatten och avlopp
+https://nybroenergi.se/vara-tjanster/vatten-och-avlopp/hallbara-losningar/
+Hållbara lösningar
+https://nybroenergi.se/vara-tjanster/vatten-och-avlopp/dricksvatten/
+Dricksvatten
+https://nybroenergi.se/vara-tjanster/vatten-och-avlopp/spillvatten/
+Spillvatten
+https://nybroenergi.se/vara-tjanster/vatten-och-avlopp/dagvatten/
+Dagvatten
+https://nybroenergi.se/vara-tjanster/vatten-och-avlopp/vattenmatare/
+Vattenmätare
+https://nybroenergi.se/vara-tjanster/vatten-och-avlopp/ansluta-till-va-natet/
+Anslut dig till vatten och avlopp
+https://nybroenergi.se/vara-tjanster/vatten-och-avlopp/avgifter-och-priser/
+Avgifter och priser
+https://nybroenergi.se/vara-tjanster/vatten-och-avlopp/spara-vatten/
+Spara vatten
+https://nybroenergi.se/faq/vatten-avlopp/
+Frågor och svar
+
+https://nybroenergi.se/
+Hem
+/
+https://nybroenergi.se/vara-tjanster/
+Våra tjänster
+/
+https://nybroenergi.se/vara-tjanster/el/
+El
+/
+Pris och ersättning
+
+Pris och ersättning
+
+Anslutningsavgift
+Prislista gäller från 2025-01-01
+Anslutningsavgiftens storlek avgörs utifrån en zon-modell framtagen av Energimarknadsinspektionen. Modellen baserar priset på avståndet (fågelvägen) till anslutningspunkten i det befintliga elnätet, där kapacitet för säkringen finns. Med anslutningspunkt avses till exempel stolpe, kabelskåp eller nätstation.
+
+Zon, Avstånd:
+Strömstyrka:
+Pris (kr+kr/m):
+
+Zon 1, 0-200 m
+16-25 A
+44 375 kr
+
+Zon 2, 200-600 m
+16-25 A
+44 375 kr + 381,25 kr/m
+
+Zon 3, 600-1200 m
+16-25 A
+196 875 kr + 908,75 kr/m
+
+Zon 4, 1200-1800 m
+16-25 A
+742 125 + 526,25 kr/m
+
+Avgifterna visas inklusive moms.
+Den extra meteravgiften läggs enbart på de meter som överstiger det lägre intervallet inom varje zon.
+Ei använder inte någon schablonmetod för anslutningar över 1 800 meter eller om Säkringsstorleken överstiger 25 A utan gör då en individuell bedömning i varje fall.
+Prislista säkringskunder
+Prislista gäller från 2025-01-01
+
+Säkring:
+Pris:
+
+16 A lägenhet *
+1 603,18 kr exkl. moms – 2 003,97 kr inkl. moms
+
+16 A
+3 177,46 kr exkl. moms – 3 971,82 kr inkl. moms
+
+20 A
+4 962,14 kr exkl. moms – 6 202,67 kr inkl. moms
+
+25 A
+6 275,24 kr exkl. moms – 7 844,05 kr inkl. moms
+
+35 A
+10 526,53 kr exkl. moms – 13 158,17 kr inkl. moms
+
+50 A
+14 705,28 kr exkl. moms – 18 381,59 kr inkl. moms
+
+63 A
+19 108,91 kr exkl. moms – 23 886,14 kr inkl. moms
+
+80 A
+25 102,49 kr exkl. moms – 31 378,11 kr inkl. moms
+
+100 A
+32 486,67 kr exkl. moms – 40 608,34 kr inkl. moms
+
+125 A
+40 205,74 kr exkl. moms – 50 257,18 kr inkl. moms
+
+160 A
+51 015,33 kr exkl. moms – 63 769,16 kr inkl. moms
+
+200 A
+66 235,80 kr exkl. moms – 82 794,76 kr inkl. moms
+
+I fasta avgiften ingår nätövervakningsavgift 4,35 kr, elberedskapsavgift 90,00 kr samt elsäkerhetsavgift på 11,10 kr.
+*16A lgh gäller endast för lägenheter i flerbostadshus. Lägenheterna ska ha 16A mätarsäkring med anslutning till en gemensam servisledning om minst tre abonnemang.
+Ett av dessa tre abonnemang ska vara fastighetsel med normaltaxa.
+En-fas anslutna lägenheter med mätarsäkring till och med 25A faktureras som 16A lgh.
+
+Rörlig avgift
+Den 1 januari 2024 övergick vi till en ny prismodell med en rörlig överföringsavgift. Detta är en direkt följd av Svenska kraftnäts ändrade prismodell från 2020. Överföringsavgiften i den nya prismodellen kommer att variera månad för månad beroende på genomsnittet av Norpools spotpris för innevarande månad.
+Energiskatt
+Energiskatten är 43,9 öre/kWh (54,87 öre/kWh inklusive moms), och tillkommer på det rörliga nätpriset gällande 2025.
+Skatter
+Den 17 maj 2017 beslutade Riksdagen om förändrade skattesatser avseende energiskatten på el. Skattesatsen kommer att höjas i två steg – den första höjningen infaller den 1 juli 2017 och den andra den 1 januari 2019.
+Enligt energiöverenskommelsen ska skatten på termisk effekt i kärnkraftsreaktorer (effektskatten) avvecklas stegvis under en tvåårsperiod med start år 2017.
+Fastighetsskattesatsen för vattenkraft ska stegvis sänkas till 0,5 procent av taxeringsvärdet under en fyraårsperiod med start samma år. Åtgärderna kommer att finansieras genom en höjning av energiskatten på elektrisk kraft för hushåll och tjänsteföretag.
+Från 1 januari 2024 är skatten 42,8 öre/kWh
+Från 1 januari 2025 är skatten 43,9 öre/kWh
+Läs mer hos
+https://ei.se/
+Energimarknadsinspektionen
+Avbrottsersättning
+Sedan 1 januari 2006 finns bestämmelser i ellagen om avbrottsersättning vid elavbrott längre än tolv timmar.
+Du ska inte behöva ansöka om avbrottsersättning. Den betalas ut per automatik i samband med någon av de efterföljande fakturorna. Normalt ska du erhållit ersättning inom tre till sex månader.
+Regeringsrätten har den 28 juni 2007 beslutat att avbrottsersättning inte är momsbelagd. Läs mer här,
+/wp-content/uploads/2024/03/avbrottsersattning.pdf
+Avbrottsersattning
+
+Priser och ersättning för energiproducenter
+Mikroproduktion max 43,5 kW
+Fast avgift för mätning och avräkning: 0 kr/ år
+Energiersättning 5,0 öre/kWh (ingen moms)
+Småskalig produktion – 1 500kW
+Anslutning 0,4 kV – 10 kV
+Fast avgift för mätning och avräkning: 1 500 kr/år
+Energiersättning 5,0 öre/kWh
+Anläggningar över 1 500 kW
+Fast avgift för mätning och avräkning: 22 000 kr/ år
+Energiersättning 5,0 öre/kWh
+
+Tillgång till mätvärden – så fungerar det
+Som energitjänsteföretag finns möjlighet att få tillgång till mätvärden från elanvändare som är anslutna till Nybro Energi. För att detta ska vara möjligt behöver vissa villkor vara uppfyllda, och kommunikationen sker via det branschgemensamma Ediel-systemet.
+I bifogad PDF förklarar vi:
+
+Vilka krav som gäller för att få tillgång till mätvärden,
+Hur ni går tillväga steg för steg – från avtal till export,
+Hur medgivande från elanvändare hanteras,
+Hur ni får tillgång till historiska mätvärden,
+
+Syftet är att ge en tydlig vägledning för er som vill använda mätdata i era energitjänster. All information gäller specifikt för samarbetet med Nybro Energi.
+/wp-content/uploads/2025/06/tillgang-till-matvarden-2.pdf
+Här hittar du mer information
+
+Dela:
+https://www.facebook.com/sharer/sharer.php?u=https://nybroenergi.se/vara-tjanster/el/prislista-elnat/
+https://twitter.com/home?status=https://nybroenergi.se/vara-tjanster/el/prislista-elnat/
+https://www.linkedin.com/shareArticle?mini=true&url=https://nybroenergi.se/vara-tjanster/el/prislista-elnat/
+
+https://nybroenergi.se/kontakta-oss/
+
+Kontakta oss!
+Har du något du undrar över? Tveka inte att kontakta oss.
+Kontakta oss
+
+https://nybroenergi.se/vara-tjanster/el/valj-ratt-avtal/
+
+Välj rätt elavtal
+Är det dags att se över elavtalet och känner dig osäker på hur du ska tänka? Här kommer några tips som kan hjälpa dig i ditt beslut!
+Välj rätt elavtal
+
+https://minasidor.nybroenergi.se/
+
+Logga in på Mina Sidor
+Genom att logga in på Mina sidor kan du göra flera digitala ärenden. Du kan även se din förbrukning, fakturor samt avtal för dina tjänster hos oss.
+Logga in
+
+https://nybroenergi.se/faq/fragor-och-svar-elnat/
+
+Vanliga frågor och svar om elnät
+Här hittar du de vanligaste frågor och svaren om elnät.
+Läs mer

@@ -284,7 +284,7 @@ Vid en tillfällig anslutning debiterar vi en avgift för till- och frånkopplin
 
 Effekttariff blir ny prismodell i elnätet
 Med den nya prismodellen effekttariff kan du som kund påverka dina elkostnader och samtidigt bidra till ett hållbart samhälle. Den 1 september 2025 kommer kunder med säkring 16–63 A (ej lägenheter) att byta till effekttariff.
-/privat/elnat/elnat/effekttariff
+/privat/elnat/effekttariff
 Så fungerar effekttariff
 
 Läs mer

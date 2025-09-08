@@ -1,0 +1,2426 @@
+<!doctype html >
+<html xmlns="http://www.w3.org/1999/xhtml" lang="sv"
+      class="">
+<head>
+    <meta charset="utf-8">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    window._currentDevice = 'desktop';
+    window.Parameters = window.Parameters || {
+        HomeUrl: 'https://www.skyllbergsbruk.se/',
+        AccountUUID: '184efb25f2d34d26b8b4466b3e443f9d',
+        SystemID: 'US_DIRECT_PRODUCTION',
+        SiteAlias: '65c66db2',
+        SiteType: atob('RFVEQU9ORQ=='),
+        PublicationDate: 'Fri Sep 05 13:43:48 UTC 2025',
+        ExternalUid: null,
+        IsSiteMultilingual: false,
+        InitialPostAlias: '',
+        InitialPostPageUuid: '',
+        InitialDynamicItem: '',
+        DynamicPageInfo: {
+            isDynamicPage: false,
+            base64JsonRowData: 'null',
+        },
+        InitialPageAlias: 'elnat',
+        InitialPageUuid: '49732d93ff1d418d9ad48fe59d602959',
+        InitialPageId: '1185490438',
+        InitialEncodedPageAlias: 'ZWxuYXQ=',
+        InitialHeaderUuid: 'b7908baff27145b58ed371cbb348a275',
+        CurrentPageUrl: '',
+        IsCurrentHomePage: false,
+        AllowAjax: false,
+        AfterAjaxCommand: null,
+        HomeLinkText: 'Back To Home',
+        UseGalleryModule: false,
+        CurrentThemeName: 'Layout Theme',
+        ThemeVersion: '500000',
+        DefaultPageAlias: '',
+        RemoveDID: true,
+        WidgetStyleID: null,
+        IsHeaderFixed: false,
+        IsHeaderSkinny: false,
+        IsBfs: true,
+        StorePageAlias: 'null',
+        StorePagesUrls: 'e30=',
+        IsNewStore: 'false',
+        StorePath: '',
+        StoreId: 'null',
+        StoreVersion: 0,
+        StoreBaseUrl: '',
+        StoreCleanUrl: true,
+        StoreDisableScrolling: true,
+        IsStoreSuspended: false,
+        HasCustomDomain: true,
+        SimpleSite: false,
+        showCookieNotification: false,
+        cookiesNotificationMarkup: 'null',
+        translatedPageUrl: '',
+        isFastMigrationSite: false,
+        sidebarPosition: 'NA',
+        currentLanguage: 'sv',
+        currentLocale: 'sv',
+        NavItems: '{}',
+        errors: {
+            general: 'There was an error connecting to the page.<br/> Make sure you are not offline.',
+            password: 'Incorrect name/password combination',
+            tryAgain: 'Try again'
+        },
+        NavigationAreaParams: {
+            ShowBackToHomeOnInnerPages: true,
+            NavbarSize: -1,
+            NavbarLiveHomePage: 'https://www.skyllbergsbruk.se/',
+            BlockContainerSelector: '.dmBody',
+            NavbarSelector: '#dmNav:has(a)',
+            SubNavbarSelector: '#subnav_main'
+        },
+        hasCustomCode: false,
+        planID: '7',
+        customTemplateId: 'null',
+        siteTemplateId: 'null',
+        productId: 'DM_DIRECT',
+        disableTracking: true,
+        pageType: 'FROM_SCRATCH',
+        isRuntimeServer: true,
+        isInEditor: false,
+        hasNativeStore: false,
+        defaultLang: 'sv',
+        hamburgerMigration: null,
+        isFlexSite: false
+    };
+
+    window.Parameters.LayoutID = {};
+    window.Parameters.LayoutID[window._currentDevice] = 6;
+    window.Parameters.LayoutVariationID = {};
+    window.Parameters.LayoutVariationID[window._currentDevice] = 5;
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Injecting site-wide to the head -->
+
+<link rel="preconnect" href="//privacy-proxy.usercentrics.eu" data-swh-uuid="d32cc77a06f440de86db387453513f3f"/>
+<link rel="preload" href="//privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js" as="script" data-swh-uuid="d32cc77a06f440de86db387453513f3f"/>
+
+
+
+<!-- End Injecting site-wide to the head -->
+
+<!-- Inject secured cdn script -->
+
+
+<!-- ========= Meta Tags ========= -->
+<!-- PWA settings -->
+<script>
+    function toHash(str) {
+        var hash = 5381, i = str.length;
+        while (i) {
+            hash = hash * 33 ^ str.charCodeAt(--i)
+        }
+        return hash >>> 0
+    }
+</script>
+<script>
+    (function (global) {
+    //const cacheKey = global.cacheKey;
+    const isOffline = 'onLine' in navigator && navigator.onLine === false;
+    const hasServiceWorkerSupport = 'serviceWorker' in navigator;
+    if (isOffline) {
+        console.log('offline mode');
+    }
+    if (!hasServiceWorkerSupport) {
+        console.log('service worker is not supported');
+    }
+    if (hasServiceWorkerSupport && !isOffline) {
+        window.addEventListener('load', function () {
+            const serviceWorkerPath = '/runtime-service-worker.js?v=3';
+            navigator.serviceWorker
+                .register(serviceWorkerPath, { scope: './' })
+                .then(
+                    function (registration) {
+                        // Registration was successful
+                        console.log(
+                            'ServiceWorker registration successful with scope: ',
+                            registration.scope
+                        );
+                    },
+                    function (err) {
+                        // registration failed :(
+                        console.log('ServiceWorker registration failed: ', err);
+                    }
+                )
+                .catch(function (err) {
+                    console.log(err);
+                });
+        });
+
+        // helper function to refresh the page
+        var refreshPage = (function () {
+            var refreshing;
+            return function () {
+                if (refreshing) return;
+                // prevent multiple refreshes
+                var refreshkey = 'refreshed' + location.href;
+                var prevRefresh = localStorage.getItem(refreshkey);
+                if (prevRefresh) {
+                    localStorage.removeItem(refreshkey);
+                    if (Date.now() - prevRefresh < 30000) {
+                        return; // dont go into a refresh loop
+                    }
+                }
+                refreshing = true;
+                localStorage.setItem(refreshkey, Date.now());
+                console.log('refereshing page');
+                window.location.reload();
+            };
+        })();
+
+        function messageServiceWorker(data) {
+            return new Promise(function (resolve, reject) {
+                if (navigator.serviceWorker.controller) {
+                    var worker = navigator.serviceWorker.controller;
+                    var messageChannel = new MessageChannel();
+                    messageChannel.port1.onmessage = replyHandler;
+                    worker.postMessage(data, [messageChannel.port2]);
+                    function replyHandler(event) {
+                        resolve(event.data);
+                    }
+                } else {
+                    resolve();
+                }
+            });
+        }
+    }
+})(window);
+</script>
+<!-- Add manifest -->
+<!-- End PWA settings -->
+
+
+
+<link rel="canonical" href="https://www.skyllbergsbruk.se/elnat">
+
+<meta id="view" name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<!--Add favorites icons-->
+
+<link rel="apple-touch-icon"
+      href="https://irp.cdn-website.com/65c66db2/dms3rep/multi/Skyllbergs-bruks-favicon-57.png"/>
+
+<link rel="icon" type="image/x-icon" href="https://irp.cdn-website.com/65c66db2/site_favicon_16_1669214644098.ico"/>
+
+<!-- End favorite icons -->
+<link rel="preconnect" href="https://lirp.cdn-website.com/"/>
+
+
+
+<!-- render the required CSS and JS in the head section -->
+<script id='d-js-dmapi'>
+    window.SystemID = 'US_DIRECT_PRODUCTION';
+
+    if (!window.dmAPI) {
+        window.dmAPI = {
+            registerExternalRuntimeComponent: function () {
+            },
+            getCurrentDeviceType: function () {
+                return window._currentDevice;
+            },
+            runOnReady: (ns, fn) => {
+                const safeFn = dmAPI.toSafeFn(fn);
+                ns = ns || 'global_' + Math.random().toString(36).slice(2, 11);
+                const eventName = 'afterAjax.' + ns;
+
+                if (document.readyState === 'complete') {
+                    $.DM.events.off(eventName).on(eventName, safeFn);
+                    setTimeout(function () {
+                        safeFn({
+                            isAjax: false,
+                        });
+                    }, 0);
+                } else {
+                    window?.waitForDeferred?.('dmAjax', () => {
+                        $.DM.events.off(eventName).on(eventName, safeFn);
+                        safeFn({
+                            isAjax: false,
+                        });
+                    });
+                }
+            },
+            toSafeFn: (fn) => {
+                if (fn?.safe) {
+                    return fn;
+                }
+                const safeFn = function (...args) {
+                    try {
+                        return fn?.apply(null, args);
+                    } catch (e) {
+                        console.log('function failed ' + e.message);
+                    }
+                };
+                safeFn.safe = true;
+                return safeFn;
+            }
+        };
+    }
+
+    if (!window.requestIdleCallback) {
+        window.requestIdleCallback = function (fn) {
+            setTimeout(fn, 0);
+        }
+    }
+</script>
+
+<!-- loadCSS function header.jsp-->
+
+
+
+
+
+
+<script id="d-js-load-css">
+/**
+ * There are a few <link> tags with CSS resource in them that are preloaded in the page
+ * in each of those there is a "onload" handler which invokes the loadCSS callback
+ * defined here.
+ * We are monitoring 3 main CSS files - the runtime, the global and the page.
+ * When each load we check to see if we can append them all in a batch. If threre
+ * is no page css (which may happen on inner pages) then we do not wait for it
+ */
+(function () {
+  let cssLinks = {};
+  function loadCssLink(link) {
+    link.onload = null;
+    link.rel = "stylesheet";
+    link.type = "text/css";
+  }
+  
+    function checkCss() {
+      const pageCssLink = document.querySelector("[id*='CssLink']");
+      const widgetCssLink = document.querySelector("[id*='widgetCSS']");
+
+        if (cssLinks && cssLinks.runtime && cssLinks.global && (!pageCssLink || cssLinks.page) && (!widgetCssLink || cssLinks.widget)) {
+            const storedRuntimeCssLink = cssLinks.runtime;
+            const storedPageCssLink = cssLinks.page;
+            const storedGlobalCssLink = cssLinks.global;
+            const storedWidgetCssLink = cssLinks.widget;
+
+            storedGlobalCssLink.disabled = true;
+            loadCssLink(storedGlobalCssLink);
+
+            if (storedPageCssLink) {
+                storedPageCssLink.disabled = true;
+                loadCssLink(storedPageCssLink);
+            }
+
+            if(storedWidgetCssLink) {
+                storedWidgetCssLink.disabled = true;
+                loadCssLink(storedWidgetCssLink);
+            }
+
+            storedRuntimeCssLink.disabled = true;
+            loadCssLink(storedRuntimeCssLink);
+
+            requestAnimationFrame(() => {
+                setTimeout(() => {
+                    storedRuntimeCssLink.disabled = false;
+                    storedGlobalCssLink.disabled = false;
+                    if (storedPageCssLink) {
+                      storedPageCssLink.disabled = false;
+                    }
+                    if (storedWidgetCssLink) {
+                      storedWidgetCssLink.disabled = false;
+                    }
+                    // (SUP-4179) Clear the accumulated cssLinks only when we're
+                    // sure that the document has finished loading and the document 
+                    // has been parsed.
+                    if(document.readyState === 'interactive') {
+                      cssLinks = null;
+                    }
+                }, 0);
+            });
+        }
+    }
+  
+
+  function loadCSS(link) {
+    try {
+      var urlParams = new URLSearchParams(window.location.search);
+      var noCSS = !!urlParams.get("nocss");
+      var cssTimeout = urlParams.get("cssTimeout") || 0;
+
+      if (noCSS) {
+        return;
+      }
+      if (link.href && link.href.includes("d-css-runtime")) {
+        cssLinks.runtime = link;
+        checkCss();
+      } else if (link.id === "siteGlobalCss") {
+        cssLinks.global = link;
+        checkCss();
+      } 
+      
+      else if (link.id && link.id.includes("CssLink")) {
+        cssLinks.page = link;
+        checkCss();
+      } else if (link.id && link.id.includes("widgetCSS")) {
+        cssLinks.widget = link;
+        checkCss();
+      }
+      
+      else {
+        requestIdleCallback(function () {
+          window.setTimeout(function () {
+            loadCssLink(link);
+          }, parseInt(cssTimeout, 10));
+        });
+      }
+    } catch (e) {
+      throw e
+    }
+  }
+  window.loadCSS = window.loadCSS || loadCSS;
+})();
+</script>
+
+
+
+<script data-role="deferred-init" type="text/javascript">
+    /* usage: window.getDeferred(<deferred name>).resolve() or window.getDeferred(<deferred name>).promise.then(...)*/
+    function Def() {
+        this.promise = new Promise((function (a, b) {
+            this.resolve = a, this.reject = b
+        }).bind(this))
+    }
+
+    const defs = {};
+    window.getDeferred = function (a) {
+        return null == defs[a] && (defs[a] = new Def), defs[a]
+    }
+    window.waitForDeferred = function (b, a, c) {
+        let d = window?.getDeferred?.(b);
+        d
+            ? d.promise.then(a)
+            : c && ["complete", "interactive"].includes(document.readyState)
+                ? setTimeout(a, 1)
+                : c
+                    ? document.addEventListener("DOMContentLoaded", a)
+                    : console.error(`Deferred  does not exist`);
+    };
+</script>
+<style id="forceCssIncludes">
+    /* This file is auto-generated from a `scss` file with the same name */
+
+.videobgwrapper{overflow:hidden;position:absolute;z-index:0;width:100%;height:100%;top:0;left:0;pointer-events:none;border-radius:inherit}.videobgframe{position:absolute;width:101%;height:100%;top:50%;left:50%;transform:translateY(-50%) translateX(-50%);object-fit:fill}#dm video.videobgframe{margin:0}@media (max-width:767px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:80vh}}@media (min-width:1025px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}@media (min-width:768px) and (max-width:1024px){.responsiveTablet .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}#dm [data-show-on-page-only]{display:none!important}#dmRoot div.stickyHeaderFix div.site_content{margin-top:0!important}#dmRoot div.stickyHeaderFix div.hamburger-header-container{position:relative}
+    
+
+</style>
+<style id="cssVariables" type="text/css">
+    
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Google Fonts Include -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- loadCSS function fonts.jsp-->
+
+
+
+<link type="text/css" rel="stylesheet" href="https://irp.cdn-website.com/fonts/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;subset=latin-ext&amp;display=swap"  />
+
+
+
+
+
+<!-- RT CSS Include d-css-runtime-desktop-one-package-structured-global-->
+<link rel="stylesheet" type="text/css" href="https://static.cdn-website.com/mnlt/production/5769/_dm/s/rt/dist/css/d-css-runtime-desktop-one-package-structured-global.min.css" />
+
+<!-- End of RT CSS Include -->
+
+<link type="text/css" rel="stylesheet" href="https://irp.cdn-website.com/WIDGET_CSS/da06109aeb6ddf40ed6759cb9fb0a449.css" id="widgetCSS" />
+
+<!-- Support `img` size attributes -->
+<style>img[width][height] {
+  height: auto;
+}</style>
+
+<!-- Support showing sticky element on page only -->
+<style>
+  body[data-page-alias="elnat"] #dm [data-show-on-page-only="elnat"] {
+    display: block !important;
+  }
+</style>
+
+<!-- This is populated in Ajax navigation -->
+<style id="pageAdditionalWidgetsCss" type="text/css">
+</style>
+
+
+
+
+<!-- Site CSS -->
+<link type="text/css" rel="stylesheet" href="https://irp.cdn-website.com/65c66db2/files/65c66db2_1.min.css?v=442" id="siteGlobalCss" />
+
+
+
+<style id="customWidgetStyle" type="text/css">
+    
+</style>
+<style id="innerPagesStyle" type="text/css">
+    
+</style>
+
+
+<style
+        id="additionalGlobalCss" type="text/css"
+>
+</style>
+
+<style id="pagestyle" type="text/css">
+    *#dm *.dmBody div.u_1854571410
+{
+	background-repeat:no-repeat !important;
+	background-image:none !important;
+	background-size:cover !important;
+}
+*#dm *.dmBody *.u_1018712295:before
+{
+	opacity:0.5 !important;
+	background-color:rgb(255,255,255) !important;
+}
+*#dm *.dmBody *.u_1018712295.before
+{
+	opacity:0.5 !important;
+	background-color:rgb(255,255,255) !important;
+}
+*#dm *.dmBody *.u_1018712295>.bgExtraLayerOverlay
+{
+	opacity:0.5 !important;
+	background-color:rgb(255,255,255) !important;
+}
+*#dm *.dmBody div.u_1018712295:before
+{
+	background-color:rgba(0,0,0,1) !important;
+	opacity:0.1 !important;
+}
+*#dm *.dmBody div.u_1018712295.before
+{
+	background-color:rgba(0,0,0,1) !important;
+	opacity:0.1 !important;
+}
+*#dm *.dmBody div.u_1018712295>.bgExtraLayerOverlay
+{
+	background-color:rgba(0,0,0,1) !important;
+	opacity:0.1 !important;
+}
+#dm .dmPhotoGallery.newPhotoGallery .layout-container .photogallery-column .photoGalleryThumbs .image-container.revealed
+{
+	padding-top:18px !important;
+}
+*#dm *.dmBody div.u_1018712295
+{
+	background-repeat:no-repeat !important;
+	background-image:url(https://lirp.cdn-website.com/65c66db2/dms3rep/multi/opt/skyllbergskraft-el-stolpe-ledningar-2880w.jpg) !important;
+	background-size:cover !important;
+}
+*#dm *.dmBody *.u_1299622437
+{
+	width:100% !important;
+}
+*#dm *.dmBody *.u_1780060834
+{
+	display:block !important;
+}
+*#dm *.dmBody *.u_1498231218
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1742980623
+{
+	display:block !important;
+}
+*#dm *.dmBody *.u_1706091381
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1382577447
+{
+	display:block !important;
+}
+*#dm *.dmBody *.u_1275299148
+{
+	display:block !important;
+}
+*#dm *.dmBody *.u_1133731787
+{
+	display:none !important;
+}
+*#dm *.dmBody div.u_1230953390 .caption-button
+{
+	background-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody div.u_1230953390 .caption-button span.text
+{
+	color:rgba(44,102,172,1) !important;
+	text-decoration:underline !important;
+}
+*#dm *.dmBody div.u_1230953390
+{
+	background-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody div.u_1230953390 .caption-inner
+{
+	background-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody div.u_1230953390 .photoGalleryThumbs .image-container
+{
+	border-radius:0 !important;
+	-moz-border-radius:0 !important;
+	-webkit-border-radius:0 !important;
+}
+*#dm *.dmBody *.u_1230953390 .photoGalleryThumbs .image-container a
+{
+	background-size:contain !important;
+}
+*#dm *.dmBody *.u_1230953390 .caption-button
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody div.u_1230953390 .caption-container .caption-title
+{
+	font-family:'Work Sans' !important;
+}
+*#dm *.dmBody div.u_1182962029
+{
+	background-color:rgba(237,242,244,1) !important;
+}
+*#dm *.dmBody *.u_1040148567
+{
+	display:block !important;
+}
+*#dm *.dmBody *.u_1617446741
+{
+	display:none !important;
+}
+*#dm *.dmBody *.u_1398366698
+{
+	display:block !important;
+}
+*#dm *.dmBody *.u_1243807221
+{
+	width:100% !important;
+}
+
+</style>
+
+<style id="pagestyleDevice" type="text/css">
+    *#dm *.dmBody div.u_1805080798
+{
+	height:394px !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 342px) !important;
+	position:relative !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:516px !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	text-align:center !important;
+}
+*#dm *.dmBody div.u_1828697568
+{
+	margin-left:0 !important;
+	padding-top:100px !important;
+	padding-left:40px !important;
+	padding-bottom:100px !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:0 !important;
+	padding-right:40px !important;
+	width:auto !important;
+}
+*#dm *.dmBody div.u_1018712295
+{
+	margin-left:auto !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:0 !important;
+	margin-right:auto !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:100% !important;
+	position:relative !important;
+	height:auto !important;
+	max-width:none !important;
+	min-width:0 !important;
+	text-align:center !important;
+	background-position:50% 50% !important;
+}
+*#dm *.dmBody a.u_1898983127
+{
+	display:block !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	position:relative !important;
+	text-align:center !important;
+}
+*#dm *.dmBody div.u_Felanmalan
+{
+	margin-left:0 !important;
+	padding-top:80px !important;
+	padding-left:15px !important;
+	padding-bottom:100px !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:0 !important;
+	padding-right:15px !important;
+	width:auto !important;
+}
+*#dm *.dmBody div.u_1230953390
+{
+	important:true !important;
+}
+*#dm *.dmBody div.u_1230953390 .caption-container .caption-title
+{
+	font-size:16px !important;
+}
+*#dm *.dmBody div.u_1230953390 .caption-container .caption-text
+{
+	font-size:14px !important;
+}
+*#dm *.dmBody div.u_1230953390 .caption-container .caption-text .rteBlock
+{
+	font-size:14px !important;
+}
+*#dm *.dmBody div.u_1230953390 .caption-button span.text
+{
+	font-size:16px !important;
+}
+*#dm *.dmBody *.u_1230953390 .photoGalleryThumbs .image-container a
+{
+	padding-top:100px !important;
+}
+*#dm *.dmBody div.u_1230953390 .caption-button
+{
+	width:200px !important;
+}
+*#dm *.dmBody div.u_pa_4675934
+{
+	margin-left:0 !important;
+	padding-top:80px !important;
+	padding-left:15px !important;
+	padding-bottom:100px !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:0 !important;
+	padding-right:15px !important;
+	width:auto !important;
+}
+*#dm *.dmBody *.u_1230953390 .photoGalleryThumbs
+{
+	padding:10px !important;
+}
+*#dm *.dmBody *.u_1230953390 .layout-container
+{
+	padding:10px !important;
+}
+*#dm *.dmBody *.u_1230953390 .photoGalleryViewAll
+{
+	padding:0 20px !important;
+}
+
+</style>
+
+<!-- Flex Sections CSS -->
+
+ <style id="grid-styles-desktop-637e150665e08a14289f9770-49732d93ff1d418d9ad48fe59d602959" data-page-uuid="49732d93ff1d418d9ad48fe59d602959">@media all {
+    
+#\36 37e150665e08a14289f9773 {
+    min-height: 8px;
+    column-gap: 4%;
+    row-gap: 24px;
+    width: 61%;
+    justify-content: flex-start;
+    min-width: 4%;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0% 0px 0%;
+}
+    
+#\36 37e150665e08a14289f9776 {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    justify-self: flex-start;
+    margin: 0px 0% 0px 0%;
+}
+    
+#\36 37e150665e08a14289f9775 {
+    min-height: 212px;
+    column-gap: 4%;
+    row-gap: 24px;
+    width: 100%;
+    padding: 77px 2% 80px 2%;
+    margin: 0px 0% 0px 0%;
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+    
+#\36 37e150665e08a14289f9777.flex-element.widget-wrapper > [data-element-type] {
+    padding-top: 8px;
+}
+#\36 37e150665e08a14289f9777 {
+    width: 99.99518392425396%;
+    height: auto;
+    max-width: 100%;
+    justify-self: auto;
+    align-self: auto;
+    order: 0;
+    grid-area: auto / auto / auto / auto;
+}
+    
+#\36 37e150665e08a14289f9772 {
+    min-height: 8px;
+    column-gap: 4%;
+    row-gap: 24px;
+    width: 35%;
+    justify-content: flex-start;
+    min-width: 4%;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0% 0px 0%;
+}
+    
+#\36 37e150665e08a14289f9771 {
+    margin: 0px 0% 0px 0%;
+}
+}</style> 
+ <style id="grid-styles-desktop-637f678e20c1b43c70684860-49732d93ff1d418d9ad48fe59d602959" data-page-uuid="49732d93ff1d418d9ad48fe59d602959">@media all {
+    
+#\36 37f678e20c1b43c70684863 {
+    align-self: stretch;
+    background-size: cover;
+    display: flex;
+    min-height: 8px;
+    background-position: 50% 50%;
+    column-gap: 4%;
+    row-gap: 4px;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    max-width: 100%;
+    width: 62.08%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    min-width: 4%;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0% 0px 0%;
+}
+    
+#\36 37f678e20c1b43c70684864 {
+    align-self: stretch;
+    background-size: cover;
+    display: flex;
+    min-height: 8px;
+    background-position: 50% 50%;
+    column-gap: 4%;
+    row-gap: 12px;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    max-width: 100%;
+    width: 33.916666666666664%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    min-width: 4%;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0% 0px 0%;
+}
+    
+#\36 37f678e20c1b43c70684861 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-template-columns: minmax(0px, 1fr);
+    grid-template-rows: minmax(8px, max-content);
+    display: grid;
+    justify-content: start;
+    background-position: 50% 50%;
+    align-items: start;
+    position: relative;
+    background-color: rgba(237,242,244,1);
+}
+    
+#\36 37f678e20c1b43c70684862 {
+    align-self: start;
+    background-size: cover;
+    min-height: 460px;
+    background-repeat: no-repeat;
+    flex-direction: row;
+    order: 0;
+    display: flex;
+    background-position: 50% 50%;
+    column-gap: 4%;
+    row-gap: 24px;
+    max-width: 1200px;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    justify-self: center;
+    padding: 80px 2% 80px 2%;
+    margin: 0px 0% 0px 0%;
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+    
+#\36 37f678e20c1b43c7068485f {
+    margin: 0px 0% 0px 0%;
+}
+    
+#widget_vq8 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 100%;
+    order: 1;
+    justify-self: flex-start;
+    margin: 0px 0% 39px 0%;
+}
+    
+#widget_hbh {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 100%;
+    order: 0;
+    justify-self: flex-start;
+    margin: 0px 0% 14px 0%;
+}
+    
+#widget_9oq {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 100%;
+    order: 2;
+    justify-self: flex-start;
+    margin: 0px 0% 0px 0%;
+}
+    
+#widget_iek {
+    position: relative;
+    width: 100%;
+    height: 434px;
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 100%;
+    order: 3;
+    justify-self: flex-start;
+    margin: 24px 0% 0px 0%;
+}
+    
+#widget_6qn {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 100%;
+    order: 4;
+    justify-self: flex-start;
+    margin: 0px 0% 0px 0%;
+}
+    
+#widget_846 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 100%;
+    justify-self: flex-start;
+    margin: 0px 0% 0px 0%;
+}
+    
+#\36 37f685020c1b43c7068ee94.flex-element.widget-wrapper > [data-element-type] {
+    padding: 0px 0px 0px 0px;
+}
+#\36 37f685020c1b43c7068ee94 {
+    position: relative;
+    width: 280px;
+    height: 40px;
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 100%;
+    justify-self: flex-start;
+    align-self: auto;
+    order: 0;
+    margin: 0px 0% 0px 0%;
+    grid-area: auto / auto / auto / auto;
+}
+    
+#widget_k2q {
+    position: relative;
+    width: 100%;
+    height: 601px;
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 100%;
+    justify-self: flex-start;
+    margin: 39px 0% 0px 0%;
+}
+}</style> 
+ <style id="grid-styles-desktop-637f6bb220c1b43c706d4009-49732d93ff1d418d9ad48fe59d602959" data-page-uuid="49732d93ff1d418d9ad48fe59d602959">@media all {
+    
+#\36 37f6bb220c1b43c706d400a {
+    margin: 0px 0% 0px 0%;
+}
+    
+#\36 37f6bb220c1b43c706d400b {
+    min-height: 8px;
+    column-gap: 4%;
+    row-gap: 4px;
+    width: 62.08%;
+    justify-content: flex-start;
+    min-width: 4%;
+    order: 0;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0% 0px 0%;
+}
+    
+#\36 37f6bb220c1b43c706d400c {
+    min-height: 8px;
+    column-gap: 4%;
+    row-gap: 12px;
+    width: 33.916666666666664%;
+    justify-content: flex-start;
+    min-width: 4%;
+    order: 1;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0% 0px 0%;
+}
+    
+#\36 37f6bb220c1b43c706d400d {
+    background-color: rgba(0, 0, 0, 0);
+}
+    
+#\36 37f6bb220c1b43c706d400e {
+    min-height: 900px;
+    column-gap: 4%;
+    row-gap: 24px;
+    width: 100%;
+    padding: 4% 2% 3% 2%;
+    margin: 0px 0% 0px 0%;
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+    
+#\36 37f6bb220c1b43c706d400f {
+    width: 99.99999807672428%;
+    height: auto;
+    max-width: 100%;
+    order: 0;
+    justify-self: auto;
+    align-self: auto;
+    grid-area: auto / auto / auto / auto;
+}
+    
+#\36 37f6be767f1b516c16cb08d.flex-element.widget-wrapper > [data-element-type] {
+    padding: 0px 0px 0px 0px;
+}
+#\36 37f6be767f1b516c16cb08d {
+    width: 782px;
+    height: auto;
+    max-width: 100%;
+    justify-self: auto;
+    align-self: auto;
+    order: 1;
+    grid-area: auto / auto / auto / auto;
+}
+    
+#widget_lv6.flex-element.widget-wrapper > [data-element-type] {
+    padding: 16px 16px 16px 16px;
+}
+#widget_lv6 {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 0px 0% 0px 0%;
+}
+}</style> 
+ <style id="grid-styles-desktop-637f6e5167f1b516c16f0197-49732d93ff1d418d9ad48fe59d602959" data-page-uuid="49732d93ff1d418d9ad48fe59d602959">@media all {
+    
+#\36 37f6e5167f1b516c16f0199 {
+    min-height: 380px;
+    column-gap: 20%;
+    row-gap: 120px;
+    width: 100%;
+    flex-wrap: nowrap;
+    padding: 4% 2% 4% 2%;
+    margin: 0px 0% 0px 0%;
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+    
+#\36 37f6e5167f1b516c16f019a {
+    min-height: 8px;
+    column-gap: 4%;
+    row-gap: 24px;
+    width: 100%;
+    min-width: 4%;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0% 0px 0%;
+}
+    
+#\36 37f6e5167f1b516c16f0196 {
+    margin: 0px 0% 0px 0%;
+}
+    
+#widget_1mj {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 0px 0% 0px 0%;
+}
+}</style> 
+ <style id="grid-styles-adjustments_for_tablet-637e150665e08a14289f9770-49732d93ff1d418d9ad48fe59d602959" data-page-uuid="49732d93ff1d418d9ad48fe59d602959">@media (min-width: 767px) and (max-width: 1024px) {
+}</style> 
+ <style id="grid-styles-adjustments_for_tablet-637f678e20c1b43c70684860-49732d93ff1d418d9ad48fe59d602959" data-page-uuid="49732d93ff1d418d9ad48fe59d602959">@media (min-width: 767px) and (max-width: 1024px) {
+}</style> 
+ <style id="grid-styles-adjustments_for_tablet-637f6bb220c1b43c706d4009-49732d93ff1d418d9ad48fe59d602959" data-page-uuid="49732d93ff1d418d9ad48fe59d602959">@media (min-width: 767px) and (max-width: 1024px) {
+}</style> 
+ <style id="grid-styles-adjustments_for_tablet-637f6e5167f1b516c16f0197-49732d93ff1d418d9ad48fe59d602959" data-page-uuid="49732d93ff1d418d9ad48fe59d602959">@media (min-width: 767px) and (max-width: 1024px) {
+}</style> 
+ <style id="grid-styles-tablet-637e150665e08a14289f9770-49732d93ff1d418d9ad48fe59d602959" data-page-uuid="49732d93ff1d418d9ad48fe59d602959">@media (min-width: 767px) and (max-width: 1024px) {
+    
+#\36 37e150665e08a14289f9775 {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+}</style> 
+ <style id="grid-styles-tablet-637f678e20c1b43c70684860-49732d93ff1d418d9ad48fe59d602959" data-page-uuid="49732d93ff1d418d9ad48fe59d602959">@media (min-width: 767px) and (max-width: 1024px) {
+    
+#\36 37f678e20c1b43c70684862 {
+    padding: 40px 2% 40px 2%;
+}
+    
+#\36 37f678e20c1b43c70684861 {
+    background-color: rgba(237,242,244,1);
+}
+    
+#widget_iek {
+    height: 345px;
+}
+    
+#widget_vq8 {
+    width: 97.89%;
+}
+    
+#widget_9oq {
+    width: 97.89%;
+}
+}</style> 
+ <style id="grid-styles-tablet-637f6bb220c1b43c706d4009-49732d93ff1d418d9ad48fe59d602959" data-page-uuid="49732d93ff1d418d9ad48fe59d602959">@media (min-width: 767px) and (max-width: 1024px) {
+    
+#\36 37f6bb220c1b43c706d400d {
+    background-color: rgba(0, 0, 0, 0);
+}
+    
+#\36 37f6bb220c1b43c706d400e {
+    padding: 40px 2% 40px 2%;
+}
+    
+#\36 37f6bb220c1b43c706d400f {
+    width: 97.89%;
+}
+}</style> 
+ <style id="grid-styles-tablet-637f6e5167f1b516c16f0197-49732d93ff1d418d9ad48fe59d602959" data-page-uuid="49732d93ff1d418d9ad48fe59d602959">@media (min-width: 767px) and (max-width: 1024px) {
+    
+#\36 37f6e5167f1b516c16f0199 {
+    padding-left: 2%;
+    padding-right: 2%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    min-height: 380px;
+}
+    
+#\36 37f6e5167f1b516c16f019a {
+    width: 100%;
+    min-height: 8px;
+}
+}</style> 
+ <style id="grid-styles-desktop_wide-637e150665e08a14289f9770-49732d93ff1d418d9ad48fe59d602959" data-page-uuid="49732d93ff1d418d9ad48fe59d602959">@media (min-width: 1400px) {
+    
+#\36 37e150665e08a14289f9775 {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+}</style> 
+ <style id="grid-styles-desktop_wide-637f678e20c1b43c70684860-49732d93ff1d418d9ad48fe59d602959" data-page-uuid="49732d93ff1d418d9ad48fe59d602959">@media (min-width: 1400px) {
+    
+#\36 37f678e20c1b43c70684861 {
+    background-color: rgba(237,242,244,1);
+}
+}</style> 
+ <style id="grid-styles-desktop_wide-637f6bb220c1b43c706d4009-49732d93ff1d418d9ad48fe59d602959" data-page-uuid="49732d93ff1d418d9ad48fe59d602959">@media (min-width: 1400px) {
+    
+#\36 37f6bb220c1b43c706d400d {
+    background-color: rgba(0, 0, 0, 0);
+}
+}</style> 
+ <style id="grid-styles-desktop_wide-637f6e5167f1b516c16f0197-49732d93ff1d418d9ad48fe59d602959" data-page-uuid="49732d93ff1d418d9ad48fe59d602959">@media (min-width: 1400px) {
+    
+#\36 37f6e5167f1b516c16f0199 {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    min-height: 380px;
+}
+    
+#\36 37f6e5167f1b516c16f019a {
+    width: 100%;
+    min-height: 8px;
+}
+    
+#widget_1mj {
+    width: 60%;
+}
+}</style> 
+ <style id="grid-styles-inherited_from_desktop-637e150665e08a14289f9770-49732d93ff1d418d9ad48fe59d602959" data-page-uuid="49732d93ff1d418d9ad48fe59d602959">@media (max-width: 766px) {
+    
+#\36 37e150665e08a14289f9774 {
+    grid-template-rows: minmax(8px, max-content);
+}
+    
+#\36 37e150665e08a14289f9775 {
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+}</style> 
+ <style id="grid-styles-inherited_from_desktop-637f678e20c1b43c70684860-49732d93ff1d418d9ad48fe59d602959" data-page-uuid="49732d93ff1d418d9ad48fe59d602959">@media (max-width: 766px) {
+    
+#\36 37f678e20c1b43c70684862 {
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+    
+#\36 37f678e20c1b43c70684861 {
+    grid-template-rows: minmax(8px, max-content);
+}
+}</style> 
+ <style id="grid-styles-inherited_from_desktop-637f6bb220c1b43c706d4009-49732d93ff1d418d9ad48fe59d602959" data-page-uuid="49732d93ff1d418d9ad48fe59d602959">@media (max-width: 766px) {
+    
+#\36 37f6bb220c1b43c706d400d {
+    grid-template-rows: minmax(8px, max-content);
+}
+    
+#\36 37f6bb220c1b43c706d400e {
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+}</style> 
+ <style id="grid-styles-inherited_from_desktop-637f6e5167f1b516c16f0197-49732d93ff1d418d9ad48fe59d602959" data-page-uuid="49732d93ff1d418d9ad48fe59d602959">@media (max-width: 766px) {
+    
+#\36 37f6e5167f1b516c16f0199 {
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+    
+#\36 37f6e5167f1b516c16f0198 {
+    grid-template-rows: minmax(8px, max-content);
+}
+}</style> 
+ <style id="grid-styles-mobile_portrait-637e150665e08a14289f9770-49732d93ff1d418d9ad48fe59d602959" data-page-uuid="49732d93ff1d418d9ad48fe59d602959">@media (max-width: 767px) {
+    
+#\36 37e150665e08a14289f9773 {
+    width: 100%;
+    min-height: 240px;
+    align-items: center;
+}
+    
+#\36 37e150665e08a14289f9775 {
+    min-height: unset;
+    flex-direction: column;
+    row-gap: 0px;
+    padding: 40px 4% 40px 4%;
+}
+    
+#\36 37e150665e08a14289f9772 {
+    width: 100%;
+    min-height: 48px;
+    align-items: center;
+    row-gap: 24px;
+}
+    
+#\36 37e150665e08a14289f9777.flex-element.widget-wrapper > [data-element-type] {
+    padding-top: 8px;
+}
+}</style> 
+ <style id="grid-styles-mobile_portrait-637f678e20c1b43c70684860-49732d93ff1d418d9ad48fe59d602959" data-page-uuid="49732d93ff1d418d9ad48fe59d602959">@media (max-width: 767px) {
+    
+#\36 37f678e20c1b43c70684863 {
+    width: 100%;
+    min-height: 240px;
+    align-items: center;
+    order: 1;
+}
+    
+#\36 37f678e20c1b43c70684864 {
+    width: 100%;
+    min-height: 240px;
+    align-items: center;
+    order: 0;
+}
+    
+#\36 37f678e20c1b43c70684862 {
+    min-height: unset;
+    flex-direction: column;
+    padding: 30px 4% 30px 4%;
+}
+    
+#\36 37f678e20c1b43c70684861 {
+    background-color: rgba(237,242,244,1);
+}
+    
+#widget_iek {
+    height: 240px;
+}
+    
+#widget_k2q {
+    height: 363px;
+    margin-top: 15px;
+}
+    
+#widget_846 {
+    width: 84.21%;
+}
+}</style> 
+ <style id="grid-styles-mobile_portrait-637f6bb220c1b43c706d4009-49732d93ff1d418d9ad48fe59d602959" data-page-uuid="49732d93ff1d418d9ad48fe59d602959">@media (max-width: 767px) {
+    
+#\36 37f6bb220c1b43c706d400b {
+    width: 100%;
+    min-height: 240px;
+    align-items: center;
+    order: 0;
+}
+    
+#\36 37f6bb220c1b43c706d400c {
+    width: 100%;
+    min-height: 240px;
+    align-items: center;
+    order: 1;
+}
+    
+#\36 37f6bb220c1b43c706d400d {
+    background-color: rgba(0, 0, 0, 0);
+}
+    
+#\36 37f6bb220c1b43c706d400e {
+    min-height: unset;
+    flex-direction: column;
+    padding: 30px 4% 30px 4%;
+}
+    
+#\36 37f6bb220c1b43c706d400f.flex-element.widget-wrapper > [data-element-type] {
+    padding: 0px 0px 0px 0px;
+}
+    
+#\36 37f6be767f1b516c16cb08d {
+    margin-top: 36px;
+}
+}</style> 
+ <style id="grid-styles-mobile_portrait-637f6e5167f1b516c16f0197-49732d93ff1d418d9ad48fe59d602959" data-page-uuid="49732d93ff1d418d9ad48fe59d602959">@media (max-width: 767px) {
+    
+#\36 37f6e5167f1b516c16f0199 {
+    min-height: 0;
+    flex-direction: column;
+    padding-left: 4%;
+    padding-right: 4%;
+    flex-wrap: nowrap;
+    row-gap: 4px;
+    padding-bottom: 12%;
+}
+    
+#\36 37f6e5167f1b516c16f019a {
+    width: 100%;
+    min-height: 160px;
+    align-items: center;
+}
+}</style> 
+ <style id="grid-styles-mobile_landscape-637e150665e08a14289f9770-49732d93ff1d418d9ad48fe59d602959" data-page-uuid="49732d93ff1d418d9ad48fe59d602959">@media (min-width: 468px) and (max-width: 767px) {
+    
+#\36 37e150665e08a14289f9773 {
+    min-height: 153px;
+}
+    
+#\36 37e150665e08a14289f9775 {
+    row-gap: 10px;
+}
+}</style> 
+ <style id="grid-styles-mobile_landscape-637f678e20c1b43c70684860-49732d93ff1d418d9ad48fe59d602959" data-page-uuid="49732d93ff1d418d9ad48fe59d602959">@media (min-width: 468px) and (max-width: 767px) {
+    
+#\36 37f678e20c1b43c70684861 {
+    background-color: rgba(237,242,244,1);
+}
+    
+#widget_iek {
+    height: 325px;
+}
+}</style> 
+ <style id="grid-styles-mobile_landscape-637f6bb220c1b43c706d4009-49732d93ff1d418d9ad48fe59d602959" data-page-uuid="49732d93ff1d418d9ad48fe59d602959">@media (min-width: 468px) and (max-width: 767px) {
+    
+#\36 37f6bb220c1b43c706d400d {
+    background-color: rgba(0, 0, 0, 0);
+}
+}</style> 
+ <style id="grid-styles-mobile_landscape-637f6e5167f1b516c16f0197-49732d93ff1d418d9ad48fe59d602959" data-page-uuid="49732d93ff1d418d9ad48fe59d602959">@media (min-width: 468px) and (max-width: 767px) {
+    
+#\36 37f6e5167f1b516c16f0199 {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    min-height: 0;
+}
+    
+#\36 37f6e5167f1b516c16f019a {
+    width: 100%;
+    min-height: 160px;
+}
+}</style> 
+
+
+
+
+
+
+<style id="globalFontSizeStyle" type="text/css">
+    .font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-17, .size-17, .size-17 > font { font-size: 17px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }
+</style>
+<style id="pageFontSizeStyle" type="text/css">
+</style>
+
+
+
+
+<style id="hideAnimFix">
+  .dmDesktopBody:not(.editGrid) [data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) [data-anim-extended] {
+    visibility: hidden;
+  }
+
+  .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-extended] {
+    visibility: hidden !important;
+  }
+
+  
+  #dmRoot:not(.editGrid) .flex-element [data-anim-extended] {
+    visibility: hidden;
+  }
+
+  
+</style>
+
+
+
+
+<style id="fontFallbacks">
+    @font-face {
+  font-family: "Montserrat Fallback";
+  src: local('Arial');
+  ascent-override: 84.9466%;
+  descent-override: 22.0264%;
+  size-adjust: 113.954%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Work Sans Fallback";
+  src: local('Arial');
+  ascent-override: 82.1016%;
+  descent-override: 21.4523%;
+  size-adjust: 113.2743%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Barlow Fallback";
+  src: local('Arial');
+  ascent-override: 103.1323%;
+  descent-override: 20.6265%;
+  size-adjust: 96.9628%;
+  line-gap-override: 0%;
+ }
+</style>
+
+
+<!-- End render the required css and JS in the head section -->
+
+
+
+
+
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.skyllbergsbruk.se/elnat">
+
+  <title>
+    Elnät – Skyllbergs Bruks AB
+  </title>
+
+  <meta name="description" content="Skyllbergs Bruks AB är en kombination av en modern industri och en miljö med lång tradition. Kärnan i brukets verksamhet är dotterbolaget Skyllberg Industri AB."/>
+
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:title" content="Elnät – Skyllbergs Bruks AB"/>
+  <meta name="twitter:description" content="Skyllbergs Bruks AB är en kombination av en modern industri och en miljö med lång tradition. Kärnan i brukets verksamhet är dotterbolaget Skyllberg Industri AB."/>
+  <meta name="twitter:image" content="https://lirp.cdn-website.com/65c66db2/dms3rep/multi/opt/Skyllbergs-bruks-open-graph-1920w.jpg"/>
+  <meta property="og:description" content="Skyllbergs Bruks AB är en kombination av en modern industri och en miljö med lång tradition. Kärnan i brukets verksamhet är dotterbolaget Skyllberg Industri AB."/>
+  <meta property="og:title" content="Elnät – Skyllbergs Bruks AB"/>
+  <meta property="og:image" content="https://lirp.cdn-website.com/65c66db2/dms3rep/multi/opt/Skyllbergs-bruks-open-graph-1920w.jpg"/>
+
+
+
+
+<!-- SYS- VVNfRElSRUNUX1BST0RVQ1RJT04= -->
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body id="dmRoot" data-page-alias="elnat"  class="dmRoot dmDesktopBody fix-mobile-scrolling addCanvasBorder dmResellerSite dmLargeBody responsiveTablet "
+      style="padding:0;margin:0;"
+      
+    >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ========= Site Content ========= -->
+<div id="dm" class='dmwr'>
+    
+    <div class="dm_wrapper standard-var5 widgetStyle-3 standard">
+         <div dmwrapped="true" id="1901957768" class="dm-home-page" themewaschanged="true"> <div dmtemplateid="Hamburger" data-responsive-name="ResponsiveDesktopTopTabletHamburger" class="runtime-module-container dm-bfs dm-layout-sec hasAnimations rows-1200 hamburger-reverse dmPageBody d-page-1716942098 inputs-css-clean dmFreeHeader" id="dm-outer-wrapper" data-page-class="1716942098" data-soch="true" data-background-parallax-selector=".dmHomeSection1, .dmSectionParallex"> <div id="dmStyle_outerContainer" class="dmOuter"> <div id="dmStyle_innerContainer" class="dmInner"> <div class="dmLayoutWrapper standard-var dmStandardDesktop"> <div id="site_content"> <div class="p_hfcontainer showOnMedium"> <div id="hamburger-drawer" class="hamburger-drawer layout-drawer" layout="5ff40d2f36ae4e5ea1bc96b2e2fcf67e===header" data-origin="top"> <div class="u_1578895298 dmRespRow" style="text-align: center;" id="1578895298"> <div class="dmRespColsWrapper" id="1649248772"> <div class="u_1535446013 dmRespCol small-12 medium-12 large-12 empty-column" id="1535446013"></div> 
+</div> 
+</div> 
+ <div class="u_1791711331 dmRespRow middleDrawerRow" style="text-align: center;" id="1791711331"> <div class="dmRespColsWrapper" id="1794978303"> <div class="dmRespCol small-12 u_1808752136 medium-12 large-12" id="1808752136"> <nav class="u_1291717799 effect-bottom2 main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="vertical_nav_layout_2" layout-sub="" data-show-vertical-sub-items="HIDE" id="1291717799" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="" alt="" data-nav-structure="VERTICAL" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/" class="unifiednav__item  dmUDNavigationItem_010101436714  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Start
+        " data-auto="page-text-style">Start<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="#" class="unifiednav__item  dmUDNavigationItem_010101178727  unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Om oss
+        " data-auto="page-text-style">Om oss<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/om-oss" class="unifiednav__item  dmUDNavigationItem_00  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Om Skyllbergs Bruks AB
+          " data-auto="page-text-style">Om Skyllbergs Bruks AB<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/historik" class="unifiednav__item  dmUDNavigationItem_010101160552  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Historik
+          " data-auto="page-text-style">Historik<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/kulturmiljo" class="unifiednav__item  dmUDNavigationItem_010101749735  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Kulturmiljö
+          " data-auto="page-text-style">Kulturmilj&ouml;<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/hallbarhet" class="unifiednav__item  dmUDNavigationItem_010101805586  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Hållbarhet
+          " data-auto="page-text-style">H&aring;llbarhet<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/jobba-hos-oss" class="unifiednav__item  dmUDNavigationItem_010101766714  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Jobba hos oss
+          " data-auto="page-text-style">Jobba hos oss<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/integritetspolicy" class="unifiednav__item  dmUDNavigationItem_010101886095  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Integritetspolicy
+          " data-auto="page-text-style">Integritetspolicy<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="#" class="unifiednav__item  dmUDNavigationItem_010101766131  unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Elnät
+        " data-auto="page-text-style">Eln&auml;t<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/elnat" class="unifiednav__item  dmNavItemSelected  dmUDNavigationItem_010101731166  " target="" data-target-page-alias="" data-auto="selected-page"> <span class="nav-item-text " data-link-text="
+           Skyllberg Elnät
+          " data-auto="page-text-style">Skyllberg Eln&auml;t<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/röjning-av-ledningsgator" class="unifiednav__item  dmUDNavigationItem_010101847105  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Röjning av ledningsgator
+          " data-auto="page-text-style">R&ouml;jning av ledningsgator<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/natutveckling" class="unifiednav__item  dmUDNavigationItem_010101126108  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Nätutvecklingsplan
+          " data-auto="page-text-style">N&auml;tutvecklingsplan<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/minelmatare" class="unifiednav__item  dmUDNavigationItem_010101950654  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Min elmätare
+          " data-auto="page-text-style">Min elm&auml;tare<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/elhandel" class="unifiednav__item  dmUDNavigationItem_010101350393  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Elhandel
+        " data-auto="page-text-style">Elhandel<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/jord-skog" class="unifiednav__item  dmUDNavigationItem_010101115335  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Jord & Skog
+        " data-auto="page-text-style">Jord &amp; Skog<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/bostader" class="unifiednav__item  dmUDNavigationItem_010101873650  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Bostäder
+        " data-auto="page-text-style">Bost&auml;der<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/kontakt" class="unifiednav__item  dmUDNavigationItem_010101943230  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Kontakt
+        " data-auto="page-text-style">Kontakt<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1278212599" style="text-align: center;" id="1278212599"> <div class="dmRespColsWrapper" id="1481447060"> <div class="u_1042834916 dmRespCol small-12 medium-12 large-12" id="1042834916"> <div class="u_1816876085 align-center text-align-center dmSocialHub gapSpacing" id="1816876085" dmle_extension="social_hub" data-element-type="social_hub" wr="true" networks="" icon="true" surround="true" adwords=""> <div class="socialHubWrapper"> <div class="socialHubInnerDiv "> <a href="https://facebook.com/people/Skyllbergs-Bruks-AB/100057337396359/" target="_blank" dm_dont_rewrite_url="true" aria-label="facebook" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Facebook&apos;)"> <span class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style8" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="mailto:info@skyllbergsbruk.se" dm_dont_rewrite_url="true" aria-label="email" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Email&apos;)"> <span class="dmSocialEmail dm-social-icons-email oneIcon socialHubIcon style8" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="layout-drawer-overlay" id="layout-drawer-overlay"></div> 
+</div> 
+ <div class="site_content"> <div id="hamburger-header-container" class="showOnMedium hamburger-header-container p_hfcontainer"> <div id="hamburger-header" class="hamburger-header p_hfcontainer" layout="44dc38f951e9489490b055748e10ba9f===header" data-scrollable-target="body" data-scroll-responder-id="hamburger-header" has-shadow="true"> <div class="u_1705692124 dmRespRow" style="text-align: center;" id="1705692124"> <div class="dmRespColsWrapper" id="1469942216"> <div class="dmRespCol small-12 u_1655486006 large-6 medium-6" id="1655486006"> <div class="u_1923160809 imageWidget align-center" data-element-type="image" data-widget-type="image" id="1923160809"> <a href="/" id="1573522578" file="false"><img src="https://irp.cdn-website.com/65c66db2/dms3rep/multi/Skyllberg_logotyp.svg" id="1761992403" class="" data-dm-image-path="https://irp.cdn-website.com/65c66db2/dms3rep/multi/Skyllberg_logotyp.svg" width="192" height="150" alt="Skyllbergs Bruks AB" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+ <div class="dmRespCol large-6 medium-6 small-12" id="1098244471"> <a data-display-type="block" class="u_1539985442 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="/kontakt" id="1539985442" data-element-type="dButtonLinkId"> <span class="iconBg" id="1378921917"> <span class="icon hasFontIcon icon-star" id="1796936447"></span> 
+</span> 
+ <span class="text" id="1722846871">Kontakta oss</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <button class="showOnMedium layout-drawer-hamburger hamburger-on-header" id="layout-drawer-hamburger" aria-label="menu"> <span class="hamburger__slice"></span> 
+ <span class="hamburger__slice"></span> 
+ <span class="hamburger__slice"></span> 
+</button> 
+ <div class="dmHeaderContainer fHeader d-header-wrapper showOnLarge"> <div id="hcontainer" class="u_hcontainer dmHeader p_hfcontainer" freeheader="true" headerlayout="b58ba5b5703b4cd7b5f5f7951565dc87===horizontal-layout-5" layout="89d625c63999422c892579ec435bd6c5===header" has-shadow="true" mini-header-show-only-navigation-row="true"> <div dm:templateorder="85" class="dmHeaderResp dmHeaderStack noSwitch" id="1709005236"> <div class="u_1903968429 dmRespRow dmDefaultListContentRow" style="text-align:center" id="1903968429" data-anim-desktop="none"> <div class="dmRespColsWrapper" id="1226979580"> <div class="u_1119852081 dmRespCol small-12 medium-12 large-12" id="1119852081"> <nav class="u_1996008838 effect-bottom main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="horizontal_nav_layout_1" layout-sub="submenu_horizontal_1" data-show-vertical-sub-items="HOVER" id="1996008838" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="https://irp.cdn-website.com/65c66db2/dms3rep/multi/Skyllberg_logotyp.svg" alt="Skyllbergs Bruks AB" data-nav-structure="SPLIT" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container left_nav " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/" class="unifiednav__item  dmUDNavigationItem_010101436714  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Start
+        " data-auto="page-text-style">Start<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="#" class="unifiednav__item  dmUDNavigationItem_010101178727  unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Om oss
+        " data-auto="page-text-style">Om oss<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/om-oss" class="unifiednav__item  dmUDNavigationItem_00  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Om Skyllbergs Bruks AB
+          " data-auto="page-text-style">Om Skyllbergs Bruks AB<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/historik" class="unifiednav__item  dmUDNavigationItem_010101160552  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Historik
+          " data-auto="page-text-style">Historik<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/kulturmiljo" class="unifiednav__item  dmUDNavigationItem_010101749735  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Kulturmiljö
+          " data-auto="page-text-style">Kulturmilj&ouml;<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/hallbarhet" class="unifiednav__item  dmUDNavigationItem_010101805586  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Hållbarhet
+          " data-auto="page-text-style">H&aring;llbarhet<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/jobba-hos-oss" class="unifiednav__item  dmUDNavigationItem_010101766714  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Jobba hos oss
+          " data-auto="page-text-style">Jobba hos oss<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/integritetspolicy" class="unifiednav__item  dmUDNavigationItem_010101886095  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Integritetspolicy
+          " data-auto="page-text-style">Integritetspolicy<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="#" class="unifiednav__item  dmUDNavigationItem_010101766131  unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Elnät
+        " data-auto="page-text-style">Eln&auml;t<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/elnat" class="unifiednav__item  dmNavItemSelected  dmUDNavigationItem_010101731166  " target="" data-target-page-alias="" data-auto="selected-page"> <span class="nav-item-text " data-link-text="
+           Skyllberg Elnät
+          " data-auto="page-text-style">Skyllberg Eln&auml;t<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/röjning-av-ledningsgator" class="unifiednav__item  dmUDNavigationItem_010101847105  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Röjning av ledningsgator
+          " data-auto="page-text-style">R&ouml;jning av ledningsgator<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/natutveckling" class="unifiednav__item  dmUDNavigationItem_010101126108  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Nätutvecklingsplan
+          " data-auto="page-text-style">N&auml;tutvecklingsplan<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/minelmatare" class="unifiednav__item  dmUDNavigationItem_010101950654  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Min elmätare
+          " data-auto="page-text-style">Min elm&auml;tare<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/elhandel" class="unifiednav__item  dmUDNavigationItem_010101350393  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Elhandel
+        " data-auto="page-text-style">Elhandel<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+ <a class="middleLogoLink" href="/home"><img class="navLogo" id="navLogo" src="https://irp.cdn-website.com/65c66db2/dms3rep/multi/Skyllberg_logotyp.svg" alt="Skyllbergs Bruks AB" onerror="handleImageLoadError(this)"/></a> 
+ <ul role="menubar" class="unifiednav__container right_nav "> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/jord-skog" class="unifiednav__item  dmUDNavigationItem_010101115335  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Jord & Skog
+        " data-auto="page-text-style">Jord &amp; Skog<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/bostader" class="unifiednav__item  dmUDNavigationItem_010101873650  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Bostäder
+        " data-auto="page-text-style">Bost&auml;der<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/kontakt" class="unifiednav__item  dmUDNavigationItem_010101943230  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Kontakt
+        " data-auto="page-text-style">Kontakt<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div dmwrapped="true" id="dmFirstContainer" class="dmBody u_dmStyle_template_elnat dm-home-page" themewaschanged="true"> <div id="allWrapper" class="allWrapper"><!-- navigation placeholders --> <div id="dm_content" class="dmContent" role="main"> <div dm:templateorder="170" class="dmHomeRespTmpl mainBorder dmRespRowsWrapper dmFullRowRespTmpl" id="1716942098"> <div class="u_1018712295 dmRespRow hasBackgroundOverlay" style="text-align: center;" id="1018712295"> <div class="dmRespColsWrapper" id="1581887252"> <div class="dmRespCol small-12 medium-12 large-12 u_1854571410" id="1854571410"> <span id="1382372435"></span> 
+ <div data-element-type="spacer" class="u_1805080798 dmSpacer" id="1805080798"></div> 
+</div> 
+</div> 
+</div> 
+ <div data-auto="flex-section" id="1662641845" data-flex-id="637e150665e08a14289f9770" data-layout-section=""> <div class="flex-widgets-container" id="1932101617"></div> 
+ <section id="637e150665e08a14289f9771" class="flex-element section" data-auto="flex-element-section"> <div id="637e150665e08a14289f9774" class="flex-element grid" data-auto="flex-element-grid" data-layout-grid=""> <div id="637e150665e08a14289f9775" class="flex-element group" data-auto="flex-element-group"> <div id="637e150665e08a14289f9772" class="flex-element group" data-auto="flex-element-group"> <div id="637e150665e08a14289f9776" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1672254363"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1672254363" style=""> <h1 class="m-text-align-left"><span style="display: unset;">Skyllberg <br/>Eln&auml;t AB</span><span style="display: initial;"><br/></span></h1> 
+</div> 
+</div> 
+</div> 
+ <div id="637e150665e08a14289f9773" class="flex-element group" data-auto="flex-element-group"> <div id="637e150665e08a14289f9777" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1472677011"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1472677011" style=""><p><span class="" style="display: initial; font-weight: normal;"><span style="display: initial; font-weight: normal;">Skyllbergs Bruk b&ouml;rjade bygga kraftledningar f&ouml;r drygt hundra &aring;r sedan. F&ouml;rst elektrifierades industrin och d&auml;refter den kringliggande landsbygden, f&ouml;retr&auml;desvis p&aring; mark som bruket &auml;gde. Idag omfattar eln&auml;tet ett omr&aring;de mellan K&aring;rberg i v&auml;ster och N&auml;rkesberg i &ouml;ster, respektive Skogaholm i norr och Mariedamm i s&ouml;der. Ungef&auml;r 1400 n&auml;tkunder &auml;r anslutna till eln&auml;tet, som &auml;gs och drivs av brukets dotterbolag</span> 
+</span><strong style="display: initial; font-weight: bold;">Skyllberg Eln&auml;t AB</strong><span style="display: initial; font-weight: normal;">.</span></p></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</section> 
+</div> 
+ <div data-auto="flex-section" id="1038991183" data-flex-id="637f678e20c1b43c70684860" data-layout-section=""> <div class="flex-widgets-container" id="1394521638"></div> 
+ <section id="637f678e20c1b43c7068485f" class="flex-element section" data-auto="flex-element-section"> <div id="637f678e20c1b43c70684861" class="flex-element grid" data-auto="flex-element-grid" data-layout-grid=""> <div id="637f678e20c1b43c70684862" class="flex-element group" data-auto="flex-element-group"> <div id="637f678e20c1b43c70684863" class="flex-element group" data-auto="flex-element-group"> <div id="widget_vq8" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1679514765"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1679514765" style=""><p><span style="display: initial;">N&auml;tet best&aring;r av 175 kilometer h&ouml;gsp&auml;nnings- och 200 kilometer l&aring;gsp&auml;nningsledningar samt cirka 170 transformatorstationer. Skyllberg Eln&auml;t AB driver och f&ouml;rnyar eln&auml;tet. Moderbolaget Skyllbergs Bruks AB &auml;ger &auml;ven fyra egna mindre vattenkraftverk: tv&aring; i Skogaholm och tv&aring; i Skyllberg. <br/><br/>Skyllbergs eln&auml;t &auml;r till karakt&auml;ren ett landsbygdsn&auml;t, utan t&auml;torter. Det inneb&auml;r att det &auml;r m&aring;nga meter ledning per abonnent. Elledningarna g&aring;r genom skogsmark, &ouml;ver sj&ouml;ar, &aring;kermark, k&auml;rr och under j&auml;rnv&auml;g. En viss andel &auml;r kabel, men st&ouml;rsta andelen &auml;r luftledningar.</span></p></div> 
+</div> 
+ <div id="widget_9oq" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1999638492"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1999638492" style=""> <h3><span style="display: unset;">Ansvariga</span></h3> 
+<p><span style="display: unset;">Brukets distributionselektriker &auml;r David Hildor, driftledare och elansvarig, samt Joakim Klingberg, Gustav Salomonsson och Samuel Nagel. Teknikchef med ansvar f&ouml;r projektering &auml;r Ulf Andsenius. Vd f&ouml;r Skyllberg Eln&auml;t AB &auml;r Maria Gunnarsson.</span></p></div> 
+</div> 
+ <div id="widget_iek" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="image" data-external-id="1243807221"> <div class="imageWidget align-center u_1243807221" data-element-type="image" data-widget-type="image" id="1243807221"><img src="https://lirp.cdn-website.com/65c66db2/dms3rep/multi/opt/Fyra_elektriker_aug25-1920w.jpg" alt="Ansvariga för elen i Skyllberg" id="1157026350" class="" data-dm-image-path="https://irp.cdn-website.com/65c66db2/dms3rep/multi/Fyra_elektriker_aug25.jpg" width="661" height="444" onerror="handleImageLoadError(this)"/></div> 
+</div> 
+ <div id="widget_6qn" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1328630687"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1328630687" style=""><p class="m-text-align-center m-size-13 size-16"><span style="font-weight:300;display:unset;font-family:'Work Sans', 'Work Sans Fallback';font-style:italic;" class="font-size-16 m-font-size-13">Fr&aring;n v&auml;nster: Joakim Klingberg, David Hildor, Gustav Salomonsson och Samuel Nagel.</span></p></div> 
+</div> 
+ <div id="widget_hbh" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1648642031"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1648642031" style=""> <h2><span style="display: unset;">Eldistribution</span></h2> 
+</div> 
+</div> 
+</div> 
+ <div id="637f678e20c1b43c70684864" class="flex-element group" data-auto="flex-element-group"> <div id="widget_846" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-anim-extended="eyJkZXNrdG9wIjp7InRyaWdnZXIiOiJlbnRyYW5jZSIsImFuaW1hdGlvbiI6ImJvdW5jZUluQ29tYm8iLCJkdXJhdGlvbiI6MSwiZGVsYXkiOjAsImludGVuc2l0eSI6MSwiZGlyIjoiaW4tcGxhY2UifX0=" data-external-id="1649818312"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1649818312" style=""> <h2 class="m-text-align-center"><span style="display: unset;">Mina sidor</span></h2> 
+<p class="m-text-align-center"><span style="display: unset;">Se dina fakturor, anm&auml;l ny adress, m.m. Logga in med Bank-id.</span></p></div> 
+</div> 
+ <div id="637f685020c1b43c7068ee94" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="link" data-external-id="1898983127"> <a data-display-type="block" class="u_1898983127 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="https://minasidor.skyllbergsbruk.se" data-element-type="dButtonLinkId" id="1898983127" target="_blank"> <span class="iconBg" aria-hidden="true" id="1260203965"> <span class="icon hasFontIcon icon-star" id="1398324383"></span> 
+</span> 
+ <span class="text" id="1070585005">Till Mina sidor</span> 
+</a> 
+</div> 
+ <div id="widget_k2q" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="image" data-external-id="1299622437"> <div class="imageWidget align-center u_1299622437" data-element-type="image" data-widget-type="image" id="1299622437"><img src="https://lirp.cdn-website.com/65c66db2/dms3rep/multi/opt/skyllbergskraft_karberg-1920w.jpg" alt="Elstolpe i Skyllberg" id="1615168346" class="" data-dm-image-path="https://irp.cdn-website.com/65c66db2/dms3rep/multi/skyllbergskraft_karberg.jpg" width="667" height="1000" onerror="handleImageLoadError(this)"/></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</section> 
+</div> 
+ <div data-auto="flex-section" id="Felanmalan" data-flex-id="637f6bb220c1b43c706d4009" data-layout-section="" class="" data-anchor="Felanmalan"> <div class="flex-widgets-container" id="1758646140"></div> 
+ <section id="637f6bb220c1b43c706d400a" class="flex-element section" data-auto="flex-element-section"> <div id="637f6bb220c1b43c706d400d" class="flex-element grid" data-auto="flex-element-grid" data-layout-grid=""> <div id="637f6bb220c1b43c706d400e" class="flex-element group" data-auto="flex-element-group"> <div id="637f6bb220c1b43c706d400b" class="flex-element group" data-auto="flex-element-group"> <div id="637f6bb220c1b43c706d400f" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1687666358"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1687666358" style=""> <h3><span style="display: initial;">Fr&aring;gor / Felanm&auml;lan</span></h3> 
+<p><span style="display: initial;">B&ouml;rja med att&nbsp;</span><a href="https://irp.cdn-website.com/65c66db2/files/uploaded/Elmatare_Kontrollera.pdf" target="_blank" runtime_url="https://irp.cdn-website.com/65c66db2/files/uploaded/Elmatare_Kontrollera.pdf" file="true" type="file" style="display: initial;">kontrollera din elm&auml;tare</a><span class="" style="display: initial;"> <span style="display: initial;">och se efter om grannarna har str&ouml;m.<br/><br/>Felanm&auml;lan p&aring; elkraftn&auml;tet g&ouml;rs under kontorstid p&aring; telefon 0583-403 00. Efter kontorstid p&aring; jourtelefon 0583-400 17. Jourhavande elektriker lyssnar av ditt meddelande. Gl&ouml;m inte ber&auml;tta var du bor!<br/></span></span></p><p><span class="" style="display: initial;"><span style="display: initial;"><br/>Om du har fr&aring;gor ang&aring;ende elr&auml;kning, elf&ouml;rbrukning med mera,</span> 
+</span><a href="http://www.skyllbergsbruk.se/kontakt/" target="_blank" runtime_url="http://www.skyllbergsbruk.se/kontakt/" style="display: initial;">kontakta</a><span class="" style="display: initial;"> <span style="display: initial;">Karin Sk&aring;lberg eller Thomas Pehrson p&aring; brukskontoret i Skyllberg.</span></span></p><p><span class="" style="display: initial;"><span style="display: initial;"><br/>Se &auml;ven</span> 
+</span><span style="display: initial; font-weight: bold; font-style: italic;">Allm&auml;nna avtalsvillkor</span><span class="" style="display: initial;"> <span style="display: initial;">l&auml;ngst ner p&aring; denna sida.</span></span></p><p><span style="display: initial;"><br/></span></p> <h3><span style="display: initial;">SMS vid str&ouml;mavbrott</span></h3> 
+<p><span style="display: initial; text-decoration: none;">Via sms-avisering kan du f&aring; information om planerade och akuta str&ouml;mavbrott direkt i din mobil. L&auml;gg in ditt mobilnummer p&aring; &quot;Mina sidor&quot;.</span></p><p><span style="display: initial;"><br/></span></p> <h3><span style="display: initial;">Vi &auml;r anslutna till tj&auml;nsten www.foranmalan.nu</span></h3> 
+<p><span class="" style="display: initial;"><span style="display: initial;">Denna tj&auml;nst anv&auml;nds n&auml;r t.ex. en elinstallat&ouml;r ska g&ouml;ra en f&ouml;ranm&auml;lan<br/>om en ny anl&auml;ggning.</span> 
+</span><a href="https://foranmalan.nu/" target="_blank" runtime_url="https://foranmalan.nu/" type="url" style="display: initial;">www.foranmalan.nu</a></p></div> 
+</div> 
+ <div id="637f6be767f1b516c16cb08d" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="photoGallery" data-external-id="1230953390"> <div class="dmPhotoGallery newPhotoGallery dmPhotoGalleryResp u_1230953390 hasFullWidth hasShadow photo-gallery-done text-layout-bottom captionAlignment-top_center photoGallery" galleryoptionsparams="{thumbnailsPerRow: 3, rowsToShow: 3, imageScaleMethod: true}" data-desktop-layout="square" data-desktop-columns="2" data-element-type="dPhotoGalleryId" data-desktop-text-layout="bottom" id="1230953390" data-placeholder="false" data-link-gallery="true" data-desktop-caption-alignment="top_center" data-image-hover-effect="shine" data-tablet-caption-alignment="top_center" data-mobile-caption-alignment="top_center" data-rows-to-show="100" data-tablet-columns="2"> <div class="dmPhotoGalleryHolder clearfix gallery shadowEffectToChildren gallery4inArow" id="1362986591"></div> 
+ <div class="layout-container square"> <div class="photogallery-row " data-index=""> <div class="photogallery-column column-2" data-index="0"> <div index="0" class="photoGalleryThumbs animated " data-index="0"> <div class="thumbnailInnerWrapper" style="opacity: 1;"> <div class="image-container revealed"> <a data-dm-multisize-attr="temp" aria-label="Övervakningsplan" data-dm-force-device="mobile" class="u_1712890713 has-link" href="https://irp.cdn-website.com/65c66db2/files/uploaded/A-rlig_rapport_om_a-tga-rder_enligt_o-vervakningsplan.pdf" data-image-url="https://irp.cdn-website.com/65c66db2/dms3rep/multi/overvakningsplan.gif" link_type="file" target="_blank" style="background-image: url('https://irp.cdn-website.com/65c66db2/dms3rep/multi/overvakningsplan.gif');"><img id="1425481785" data-src="https://irp.cdn-website.com/65c66db2/dms3rep/multi/overvakningsplan.gif" alt="Övervakningsplan" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div id="1398366698" class="caption-container u_1398366698" style="display:none"> <span class="caption-inner"> <h3 id="1789308146" class="caption-title u_1789308146">&Aring;rlig rapport &Ouml;vervakningsplan</h3> 
+ <div id="1346724763" class="caption-text u_1346724763"><p class="rteBlock">Ansvarsf&ouml;rdelningen mellan eln&auml;t och elhandel f&ouml;ljer en plan som framg&aring;r av bifogad rapport.</p></div> 
+ <a id="1902383028" class="caption-button dmWidget  clearfix u_1902383028" link_type="file" href="https://irp.cdn-website.com/65c66db2/files/uploaded/Rapport_A-tga-rder_O-vervakningsplan_20250224_144940_0.pdf" target="_blank" style=""> <span class="iconBg"> <span class="icon hasFontIcon "></span> 
+</span> 
+ <span class="text">Ladda ner</span> 
+</a> 
+</span> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="photogallery-column column-2" data-index="1"> <div index="1" class="photoGalleryThumbs animated " data-index="1"> <div class="thumbnailInnerWrapper" style="opacity: 1;"> <div class="image-container revealed"> <a data-dm-multisize-attr="temp" aria-label="Tekniska villkor för anslutning av mikroproduktion" data-dm-force-device="mobile" class="u_1434626211 has-link" href="https://irp.cdn-website.com/65c66db2/files/uploaded/Tekniska_villkor_mikroproduktion.pdf" data-image-url="https://irp.cdn-website.com/65c66db2/dms3rep/multi/tekniska-villkor-ram.jpg" link_type="file" target="_blank" style="background-image: url('https://lirp.cdn-website.com/65c66db2/dms3rep/multi/opt/tekniska-villkor-ram-640w.jpg');"><img id="1157161819" data-src="https://lirp.cdn-website.com/65c66db2/dms3rep/multi/opt/tekniska-villkor-ram-1920w.jpg" alt="Tekniska villkor för anslutning av mikroproduktion" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div id="1780060834" class="caption-container u_1780060834" style="display:none"> <span class="caption-inner"> <h3 id="1854783389" class="caption-title u_1854783389">Tekniska villkor f&ouml;r anslutning av mikroproduktion</h3> 
+ <a id="1560739151" class="caption-button dmWidget  clearfix u_1560739151" link_type="file" href="https://irp.cdn-website.com/65c66db2/files/uploaded/Tekniska_villkor_mikroproduktion.pdf" target="_blank" style=""> <span class="iconBg"> <span class="icon hasFontIcon "></span> 
+</span> 
+ <span class="text">Ladda ner</span> 
+</a> 
+</span> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="photogallery-row " data-index=""> <div class="photogallery-column column-2" data-index="2"> <div index="2" class="photoGalleryThumbs animated " data-index="2"> <div class="thumbnailInnerWrapper" style="opacity: 1;"> <div class="image-container revealed"> <a data-dm-multisize-attr="temp" aria-label="Leveranssäkerhet" data-dm-force-device="mobile" class="u_1873330495 has-link" href="https://irp.cdn-website.com/65c66db2/files/uploaded/Leveranssakerhet.pdf" data-image-url="https://irp.cdn-website.com/65c66db2/dms3rep/multi/Leveranssakerhet-ram.jpg" link_type="file" target="_blank" style="background-image: url('https://lirp.cdn-website.com/65c66db2/dms3rep/multi/opt/Leveranssakerhet-ram-640w.jpg');"><img id="1043490062" data-src="https://lirp.cdn-website.com/65c66db2/dms3rep/multi/opt/Leveranssakerhet-ram-1920w.jpg" alt="Leveranssäkerhet" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div id="1742980623" class="caption-container u_1742980623" style="display:none"> <span class="caption-inner"> <h3 id="1860291759" class="caption-title u_1860291759">Leveranss&auml;kerhet</h3> 
+ <a id="1943954852" class="caption-button dmWidget  clearfix u_1943954852" link_type="file" href="https://irp.cdn-website.com/65c66db2/files/uploaded/Leveranssakerhet.pdf" target="_blank" style=""> <span class="iconBg"> <span class="icon hasFontIcon "></span> 
+</span> 
+ <span class="text">Ladda ner</span> 
+</a> 
+</span> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="photogallery-column column-2" data-index="3"> <div index="3" class="photoGalleryThumbs animated " data-index="3"> <div class="thumbnailInnerWrapper" style="opacity: 1;"> <div class="image-container revealed"> <a data-dm-multisize-attr="temp" aria-label="Elnätstariffer" data-dm-force-device="mobile" class="u_1350715069 has-link" href="https://irp.cdn-website.com/65c66db2/files/uploaded/Tarifftryck_2024-06-01.pdf" data-image-url="https://irp.cdn-website.com/65c66db2/dms3rep/multi/elnatstariffer.png" link_type="file" target="_blank" style="background-image: url('https://lirp.cdn-website.com/65c66db2/dms3rep/multi/opt/elnatstariffer-640w.png');"><img id="1109498159" data-src="https://lirp.cdn-website.com/65c66db2/dms3rep/multi/opt/elnatstariffer-1920w.png" alt="Elnätstariffer" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div id="1382577447" class="caption-container u_1382577447" style="display:none"> <span class="caption-inner"> <h3 id="1133479981" class="caption-title u_1133479981">Eln&auml;tstariffer</h3> 
+ <div id="1990546719" class="caption-text u_1990546719"><p class="rteBlock">G&auml;llande fr&aring;n 1 januari 2025.</p></div> 
+ <a id="1627810469" class="caption-button dmWidget  clearfix u_1627810469" link_type="file" href="https://irp.cdn-website.com/65c66db2/files/uploaded/Tarifftryck_2025-01-01.pdf" target="_blank" style=""> <span class="iconBg"> <span class="icon hasFontIcon "></span> 
+</span> 
+ <span class="text">Ladda ner</span> 
+</a> 
+</span> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="photogallery-row " data-index=""> <div class="photogallery-column column-2" data-index="4"> <div index="4" class="photoGalleryThumbs animated " data-index="4"> <div class="thumbnailInnerWrapper" style="opacity: 1;"> <div class="image-container revealed"> <a data-dm-multisize-attr="temp" aria-label="Avbrottsersättning vid strömavbrott" data-dm-force-device="mobile" class="u_1248974135 has-link" href="https://irp.cdn-website.com/65c66db2/files/uploaded/Avbrottsersattning.pdf" data-image-url="https://irp.cdn-website.com/65c66db2/dms3rep/multi/Avbrottsersattning-ram.png" link_type="file" target="_blank" style="background-image: url('https://lirp.cdn-website.com/65c66db2/dms3rep/multi/opt/Avbrottsersattning-ram-640w.png');"><img id="1680889548" data-src="https://lirp.cdn-website.com/65c66db2/dms3rep/multi/opt/Avbrottsersattning-ram-1920w.png" alt="Avbrottsersättning vid strömavbrott" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div id="1275299148" class="caption-container u_1275299148" style="display:none"> <span class="caption-inner"> <h3 id="1317142840" class="caption-title u_1317142840">Avbrottsers&auml;ttning vid str&ouml;mavbrott</h3> 
+ <a id="1247577521" class="caption-button dmWidget  clearfix u_1247577521" link_type="file" href="https://irp.cdn-website.com/65c66db2/files/uploaded/Avbrottsersattning.pdf" target="_blank" style=""> <span class="iconBg"> <span class="icon hasFontIcon "></span> 
+</span> 
+ <span class="text">Ladda ner</span> 
+</a> 
+</span> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="photogallery-column column-2" data-index="5"> <div index="5" class="photoGalleryThumbs animated " data-index="5"> <div class="thumbnailInnerWrapper" style="opacity: 1;"> <div class="image-container revealed"> <a data-dm-multisize-attr="temp" aria-label="" data-dm-force-device="mobile" class="u_1468712858 has-link" href="https://irp.cdn-website.com/65c66db2/files/uploaded/Prislista2025-021931ce.pdf" data-image-url="https://irp.cdn-website.com/65c66db2/dms3rep/multi/Ska%C3%8C-rmavbild+2024-05-29+kl.+16.40.07.png" link_type="file" target="_blank" style="background-image: url('https://lirp.cdn-website.com/65c66db2/dms3rep/multi/opt/Ska%C3%8C-rmavbild+2024-05-29+kl.+16.40.07-640w.png');"><img id="1672495989" data-src="https://lirp.cdn-website.com/65c66db2/dms3rep/multi/opt/Ska%C3%8C-rmavbild+2024-05-29+kl.+16.40.07-1920w.png" alt="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div id="1040148567" class="caption-container u_1040148567" style="display:none"> <span class="caption-inner"> <h3 id="1144695734" class="caption-title u_1144695734">Prislista elarbeten 2025</h3> 
+ <a id="1114668235" class="caption-button dmWidget  clearfix u_1114668235" link_type="file" href="https://irp.cdn-website.com/65c66db2/files/uploaded/Prislista2025-021931ce.pdf" target="_blank" style=""> <span class="iconBg"> <span class="icon hasFontIcon "></span> 
+</span> 
+ <span class="text">Ladda ner</span> 
+</a> 
+</span> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div id="637f6bb220c1b43c706d400c" class="flex-element group" data-auto="flex-element-group"> <div id="widget_lv6" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1182962029"> <div class="dmNewParagraph u_1182962029" data-element-type="paragraph" data-version="5" id="1182962029" style=""> <h2><span style="display: initial;">Kundservice</span></h2> 
+<p><span style="display: initial;">Om du har synpunkter p&aring; din elr&auml;kning eller p&aring; hur vi sk&ouml;ter dina elfr&aring;gor ber vi dig kontakta Karin Sk&aring;lberg, Thomas Pehrson eller Maria Gunnarsson, vd f&ouml;r Skyllberg Eln&auml;t AB. Telefon till Skyllbergs Bruks v&auml;xel: 0583-403 00</span></p><p><span style="display: initial;"><br/></span></p><p><span style="display: initial; font-weight: bold;">Externa r&aring;dgivare och myndigheter</span><span style="display: initial;"><br/>Om du vill ta din fr&aring;ga vidare till en extern part finns det ett antal myndigheter och instanser som har till uppgift att hj&auml;lpa dig utifr&aring;n konsumentlagstiftningen.</span></p><p><span style="display: initial;"><br/></span></p><p><span style="display: initial; font-weight: bold;">R&aring;dgivning</span><a href="http://energimarknadsbyran.se/" rel="noopener" target="_blank" runtime_url="http://energimarknadsbyran.se/" style="display: initial;"><br/>Konsumenternas energimarknadsbyr&aring;</a><span style="display: initial;">&nbsp;&auml;r en sj&auml;lvst&auml;ndig byr&aring; som kostnadsfritt informerar, ger r&aring;d och v&auml;gledning i fr&aring;gor som r&ouml;r elmarknaden. Det g&aring;r ocks&aring; bra att v&auml;nda sig till kommunens konsumentv&auml;gledare.</span></p><p><span style="display: initial;"><br/></span></p><p><span style="display: initial; font-weight: bold;">Ompr&ouml;vning</span><a href="http://www.ei.se/" rel="noopener" target="_blank" runtime_url="http://www.ei.se/" style="display: initial;"><br/>Energimarknadsinspektionen (EI)</a><span class="" style="display: initial;"><span style="display: initial;">&nbsp;&auml;r en tillsynsmyndighet som ser till att elmarknaden fungerar s&aring; bra som m&ouml;jligt. De granskar exempelvis n&auml;tbolagens avgifter och eln&auml;tens leveranskvalitet. Hit kan du v&auml;nda dig om vill pr&ouml;va en anslutningsavgifts rimlighet eller bara framf&ouml;ra dina synpunkter &ouml;ver marknaderna f&ouml;r el, naturgas och fj&auml;rrv&auml;rme.</span> 
+</span><a href="http://www.arn.se/" rel="noopener" target="_blank" runtime_url="http://www.arn.se/" style="display: initial;">Allm&auml;nna Reklamationsn&auml;mnden (ARN)&nbsp;</a><span style="display: initial;">kan du v&auml;nda dig till om du inte &auml;r n&ouml;jd med ett beslut fr&aring;n oss. Det &auml;r en statlig myndighet som kostnadsfritt g&ouml;r en opartisk pr&ouml;vning av konsumenttvister.</span></p><p><span style="display: initial;"><br/></span></p><p><span style="display: initial; font-weight: bold;">Dina r&auml;ttigheter som konsument</span><span style="display: initial;"><br/>Ellagen inneh&aring;ller ett s&auml;rskilt kapitel som &auml;r viktigt f&ouml;r dig som konsument. Via l&auml;nken nedan kan du informera dig om dina r&auml;ttigheter!</span></p><p><span style="display: initial;"><br/></span></p><p><span class="" style="display: initial;"><span style="display: initial;">Konsumentens r&auml;ttigheter hittar du i 11 kapitlet i ellagen.</span> 
+</span><a href="http://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/ellag-1997857_sfs-1997-857#K11" rel="noopener" target="_blank" runtime_url="http://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/ellag-1997857_sfs-1997-857#K11" style="display: initial;">L&auml;s Ellagen</a><span class="" style="display: unset;"> <span style="display: unset;">(Finns p&aring; Sveriges riksdags hemsida under &rdquo;Dokument och lagar&rdquo;.)</span></span></p></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</section> 
+</div> 
+ <div data-auto="flex-section" id="1114295615" data-flex-id="637f6e5167f1b516c16f0197" data-layout-section=""> <div class="flex-widgets-container" id="1341124579"></div> 
+ <section id="637f6e5167f1b516c16f0196" class="flex-element section" data-auto="flex-element-section"> <div id="637f6e5167f1b516c16f0198" class="flex-element grid" data-auto="flex-element-grid" data-layout-grid=""> <div id="637f6e5167f1b516c16f0199" class="flex-element group" data-auto="flex-element-group"> <div id="637f6e5167f1b516c16f019a" class="flex-element group" data-auto="flex-element-group"> <div id="widget_1mj" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1034750646"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1034750646" style=""> <h2><span style="display: initial;">Allm&auml;nna avtalsvillkor</span></h2> 
+<p><span style="display: initial;">De viktigaste best&auml;mmelserna i konsumentsammanhang, vid sidan om Ellagen, &aring;terfinns i de allm&auml;nna avtalsvillkoren EL 2012 K (rev2) och N&Auml;T 2012 K (rev) som g&auml;ller fr&aring;n och med 1 januari 2019. Villkoren &auml;r utarbetade av branschorganisationen Svensk Energi efter &ouml;verenskommelse med Konsumentverket och g&auml;ller tills vidare.</span></p><p><span style="display: initial;"><br/></span></p><p><span style="display: initial;">Best&auml;mmelserna i avtalsvillkoren handlar bland annat om eln&auml;tsanslutning, avl&auml;sning av elm&auml;taren, ers&auml;ttning vid elavbrott, betalningsskyldighet och otill&aring;tna efterkrav, f&ouml;rfallodagar och tidsfrister, &aring;ngerr&auml;tt, krav p&aring; s&auml;kerhet eller f&ouml;rskottsbetalning, avtalsbrott och avst&auml;ngning samt v&auml;gledning och tvistl&ouml;sning. Vissa best&auml;mmelser avser bara n&auml;t, andra bara elhandel men de flesta best&auml;mmelserna &aring;terfinns med vissa avvikelser i avtalsvillkoren f&ouml;r b&aring;de n&auml;t och el.</span></p><p><span style="display: initial;"><br/></span></p><p><span style="display: initial; font-weight: bold;">Avtalsvillkor Eln&auml;t</span><a href="https://irp.cdn-website.com/65c66db2/files/uploaded/NAT_2012_K_rev_2.pdf" target="_blank" runtime_url="https://irp.cdn-website.com/65c66db2/files/uploaded/NAT_2012_K_rev_2.pdf" file="true" type="file" style="display: initial;"><br/>N&Auml;T 2012 K (rev 2)</a><span style="display: initial;"><br/></span><a href="https://irp.cdn-website.com/65c66db2/files/uploaded/NAT_2012_N_rev.pdf" target="_blank" runtime_url="https://irp.cdn-website.com/65c66db2/files/uploaded/NAT_2012_N_rev.pdf" file="true" type="file" style="display: initial;">N&Auml;T</a><span single-space="true" class="" style="display: initial;"> <span style="display: initial;"></span> 
+</span><a href="https://irp.cdn-website.com/65c66db2/files/uploaded/NAT_2012_N_rev.pdf" target="_blank" runtime_url="https://irp.cdn-website.com/65c66db2/files/uploaded/NAT_2012_N_rev.pdf" file="true" type="file" style="display: initial;">2012 N (rev)</a><span style="display: initial;"><span class="ql-cursor">﻿</span></span></p><p><span style="display: initial;"><br/></span></p><p class="m-text-align-center"><a href="https://irp.cdn-website.com/65c66db2/files/uploaded/Sarsk_villkor_naring_rev.pdf" target="_blank" runtime_url="https://irp.cdn-website.com/65c66db2/files/uploaded/Sarsk_villkor_naring_rev.pdf" file="true" type="file" style="display: initial;">S&auml;rskilda villkor n&auml;ringsidkare (rev)</a><span style="display: initial;"><br/></span><a href="https://irp.cdn-website.com/65c66db2/files/uploaded/Sarskilda_villkor_konsument_rev_2.pdf" target="_blank" runtime_url="https://irp.cdn-website.com/65c66db2/files/uploaded/Sarskilda_villkor_konsument_rev_2.pdf" file="true" type="file" style="display: unset;">S&auml;rskilda villkor konsument (rev 2)</a></p></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</section> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="sticky-widgets-container-global" id="1152462857"></div> 
+ <div class="dmFooterContainer"> <div id="fcontainer" class="u_fcontainer f_hcontainer dmFooter p_hfcontainer"> <div dm:templateorder="250" class="dmFooterResp generalFooter" id="1943048428"> <div class="dmRespRow u_1245381334" id="1245381334"> <div class="dmRespColsWrapper" id="1098597572"> <div class="u_1442110994 dmRespCol small-12 medium-12 large-12" id="1442110994"> <div class="u_1002831392 dmNewParagraph" data-element-type="paragraph" id="1002831392" style="transition: none 0s ease 0s; text-align: left; display: block;" data-version="5"> <h2 class="text-align-center"><span style="color: rgb(255, 255, 255); display: initial;">Ett modernt bruk med j&auml;rnhantering k&auml;nd sedan &aring;r 1346</span></h2> 
+</div></div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1632155419" style="text-align: center;" id="1632155419"> <div class="dmRespColsWrapper" id="1253858808"> <div class="u_1667643072 dmRespCol small-12 large-4 medium-4" id="1667643072"> <div class="dmNewParagraph" data-element-type="paragraph" id="1129123161" style="transition: opacity 1s ease-in-out 0s;" data-version="5"><p><span style="font-weight:800;display:initial;font-family:Barlow, 'Barlow Fallback';">KONTAKTA OSS</span></p></div> <div class="u_1145655118 dmNewParagraph" data-element-type="paragraph" id="1145655118" style="transition: opacity 1s ease-in-out 0s;" data-version="5"><p class="size-17 m-size-14"><span style="display: initial;" class="font-size-17 m-font-size-14">SKYLLBERGS BRUKS AB<br/>Brukskontoret<br/>694 99 Skyllberg</span></p></div> <div class="u_1790274582 dmNewParagraph" data-element-type="paragraph" id="1790274582" style="transition: opacity 1s ease-in-out 0s;" data-version="5"><p class="text-align-left size-17 m-size-14"><span style="display: initial;" class="font-size-17 m-font-size-14">0583-403 00</span><span style="display: initial;"><br/></span></p></div> <div class="u_1760277063 dmNewParagraph" data-element-type="paragraph" id="1760277063" style="transition: none 0s ease 0s; display: block;" data-version="5"><p class="m-size-14 size-17"><a href="mailto:info@skyllbergsbruk.se" target="_blank" type="email" class="m-font-size-14 font-size-17" style="display: initial;">info@skyllbergsbruk.se</a></p></div></div> 
+ <div class="u_1063824722 dmRespCol small-12 large-3 medium-3" id="1063824722"> <div class="u_1477414690 dmNewParagraph" data-element-type="paragraph" id="1477414690" style="transition: opacity 1s ease-in-out 0s;" data-version="5"><p><span style="font-weight:800;display:initial;font-family:Barlow, 'Barlow Fallback';">V&Aring;R VERKSAMHET</span></p></div> <nav class="u_1409373059 unifiednav_vertical effect-bottom2 main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="vertical_nav_layout_4" layout-sub="" data-show-vertical-sub-items="HOVER" id="1409373059" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="https://irt-cdn.multiscreensite.com/0755a81466334fe0a20fe2f3536cc6c0/dms3rep/multi/desktop/logo-02.svg" alt="" data-nav-structure="VERTICAL" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/om-oss" class="unifiednav__item    " target="" data-target-page-alias="about"> <span class="nav-item-text " data-link-text="
+           Om Skyllbergs Bruks AB
+          " data-auto="page-text-style">Om Skyllbergs Bruks AB<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/elnat" class="unifiednav__item  dmNavItemSelected    " target="" data-target-page-alias="elnat-och-elhandel" data-auto="selected-page"> <span class="nav-item-text " data-link-text="
+           Skyllberg Elnät
+          " data-auto="page-text-style">Skyllberg Eln&auml;t<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/jord-skog" class="unifiednav__item    " target="" data-target-page-alias="jord-skog"> <span class="nav-item-text " data-link-text="
+         Jord & Skog
+        " data-auto="page-text-style">Jord &amp; Skog<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/bostader" class="unifiednav__item    " target="" data-target-page-alias="bostader"> <span class="nav-item-text " data-link-text="
+         Bostäder
+        " data-auto="page-text-style">Bost&auml;der<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+ <div class="u_1733379852 dmRespCol small-12 large-3 medium-3" id="1733379852"> <div class="u_1149103251 dmNewParagraph" data-element-type="paragraph" id="1149103251" style="transition: opacity 1s ease-in-out 0s;" data-version="5"><p><span style="font-weight:800;display:initial;font-family:Barlow, 'Barlow Fallback';">KUNDSERVICE</span></p></div> <nav class="u_1654094697 unifiednav_vertical effect-bottom2 main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="vertical_nav_layout_4" layout-sub="" data-show-vertical-sub-items="HOVER" id="1654094697" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="https://irt-cdn.multiscreensite.com/0755a81466334fe0a20fe2f3536cc6c0/dms3rep/multi/desktop/logo-02.svg" alt="" data-nav-structure="VERTICAL" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/kontakt" class="unifiednav__item    " target="" data-target-page-alias="contact"> <span class="nav-item-text " data-link-text="
+         Kontakt
+        " data-auto="page-text-style">Kontakt<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="https://minasidor.skyllbergsbruk.se/" class="unifiednav__item    " target="_blank" data-target-page-alias="https://minasidor.skyllbergsbruk.se/"> <span class="nav-item-text " data-link-text="Mina sidor" data-auto="page-text-style">Mina sidor<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/elnat#Felanmalan" class="unifiednav__item    " target="" data-target-page-alias="elnat-och-elhandel#Felanmalan"> <span class="nav-item-text " data-link-text="
+           Felanmälan på elkraftnätet
+          " data-auto="page-text-style">Felanm&auml;lan p&aring; elkraftn&auml;tet<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+ <div class="u_1219603732 dmRespCol small-12 large-2 medium-2" id="1219603732"> <div class="u_1911082147 dmNewParagraph" data-element-type="paragraph" id="1911082147" style="transition: opacity 1s ease-in-out 0s;" data-version="5"><p><span style="font-weight:800;display:initial;font-family:Barlow, 'Barlow Fallback';">F&Ouml;LJ OSS</span></p></div> <div class="u_1160304908 align-center text-align-center dmSocialHub gapSpacing" id="1160304908" dmle_extension="social_hub" data-element-type="social_hub" wr="true" networks="" icon="true" surround="true" adwords=""> <div class="socialHubWrapper"> <div class="socialHubInnerDiv "> <a href="https://facebook.com/people/Skyllbergs-Bruks-AB/100057337396359/" target="_blank" dm_dont_rewrite_url="true" aria-label="facebook" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Facebook&apos;)"> <span class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style6" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1286952629 dmNewParagraph" data-element-type="paragraph" id="1286952629" data-version="5" data-styletopreserve="{" background-image":""}"=""><p><span style="font-weight:800;display:initial;font-family:Barlow, 'Barlow Fallback';">IN ENGLISH</span></p></div> <div class="dmNewParagraph u_1535495700" data-element-type="paragraph" data-version="5" id="1535495700" style="transition: none 0s ease 0s; text-align: left; display: block;"><p class="m-size-14 size-17"><a href="/english" runtime_url="/english" type="page" class="m-font-size-14 font-size-17" style="display: unset;">Welcome to Skyllberg</a></p></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1975596994" id="1975596994"> <div class="dmRespColsWrapper" id="1155618430"> <div class="dmRespCol large-12 medium-12 small-12" id="1237761960"> <div class="dmDividerWrapper clearfix u_1830055858" data-element-type="dDividerId" data-layout="divider-style-1" data-widget-version="2" id="1830055858"><hr class="dmDivider" style="border-width:2px; border-top-style:solid; color:grey;" id="1946688216"/></div> 
+ <div class="u_1280351186 widget-1f5975 dmCustomWidget" data-lazy-load="" data-title="" id="1280351186" dmle_extension="custom_extension" data-element-type="custom_extension" icon="false" surround="false" data-widget-id="1f5975986930429f819d4cd2154b5c4a" data-widget-version="24" data-widget-config="eyJyZXZlcnNlRmxhZyI6bnVsbCwiY29weXJpZ2h0VGV4dCI6IjxwIGNsYXNzPVwicnRlQmxvY2tcIj5BbGwgUmlnaHRzIFJlc2VydmVkIHwgU2t5bGxiZXJncyBCcnVrcyBBQjwvcD4ifQ=="> <div class="copyright"> <span class="copyright-year">&copy; 2025&nbsp;</span> 
+ <span><p class="rteBlock">All Rights Reserved | Skyllbergs Bruks AB</p></span> 
+</div> 
+</div> 
+ <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1749932531" style="transition: opacity 1s ease-in-out 0s;"><p class="text-align-center size-14 m-size-13"><span class="font-size-14 m-font-size-13" style="display: unset;"><span class="font-size-14 m-font-size-13" style="display: unset;" m-font-size-set="true">Hemsida fr&aring;n</span> 
+</span><a href="https://www.delta.se" target="_blank" runtime_url="https://www.delta.se" type="url" class="font-size-14 m-font-size-13" style="display: unset;" m-font-size-set="true">Delta Webbyr&aring; AB</a></p></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div id="1236746004" dmle_extension="powered_by" data-element-type="powered_by" icon="true" surround="false"></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+
+    </div>
+</div>
+<!--  Add full CSS and Javascript before the close tag of the body if needed -->
+<!-- ========= JS Section ========= -->
+<script>
+    var isWLR = true;
+
+    window.customWidgetsFunctions = {};
+    window.customWidgetsStrings = {};
+    window.collections = {};
+    window.currentLanguage = "SWEDISH"
+    window.isSitePreview = false;
+</script>
+<script>
+    window.customWidgetsFunctions["1f5975986930429f819d4cd2154b5c4a~24"] = function (element, data, api) {
+        null
+    };
+</script>
+<script type="text/javascript">
+
+    var d_version = "production_5769";
+    var build = "2025-09-04T12_48_39";
+    window['v' + 'ersion'] = d_version;
+
+    function buildEditorParent() {
+        window.isMultiScreen = true;
+        window.editorParent = {};
+        window.previewParent = {};
+        window.assetsCacheQueryParam = "?version=2025-09-04T12_48_39";
+        try {
+            var _p = window.parent;
+            if (_p && _p.document && _p.$ && _p.$.dmfw) {
+                window.editorParent = _p;
+            } else if (_p.isSitePreview) {
+                window.previewParent = _p;
+            }
+        } catch (e) {
+
+        }
+    }
+
+    buildEditorParent();
+</script>
+
+<!-- Load jQuery -->
+<script type="text/javascript" id='d-js-jquery'
+        src="https://static.cdn-website.com/libs/jquery/jquery-3.7.0.min.js"></script>
+<!-- End Load jQuery -->
+<!-- Injecting site-wide before scripts -->
+<script type="application/javascript" src="https://privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js" data-swh-uuid="ca18626dc69347e988539db56e31a5c3">
+</script>
+<script id="usercentrics-cmp" data-settings-id="RavX-rGl_mdB_G" data-settings-cache="1749487221299" src="https://web.cmp.usercentrics.eu/ui/loader.js" data-sandbox="1" async="" data-swh-uuid="ca18626dc69347e988539db56e31a5c3">
+</script>
+<!-- End Injecting site-wide to the head -->
+
+
+<script>
+    var _jquery = window.$;
+
+    var jqueryAliases = ['$', 'jquery', 'jQuery'];
+
+    jqueryAliases.forEach((alias) => {
+        Object.defineProperty(window, alias, {
+            get() {
+                return _jquery;
+            },
+            set() {
+                console.warn("Trying to over-write the global jquery object!");
+            }
+        });
+    });
+    window.jQuery.migrateMute = true;
+</script>
+<script>
+    window.cookiesNotificationMarkupPreview = 'null';
+</script>
+
+<!-- HEAD RT JS Include -->
+<script id='d-js-params'>
+    window.INSITE = window.INSITE || {};
+    window.INSITE.device = "desktop";
+
+    window.rtCommonProps = {};
+    rtCommonProps["rt.ajax.ajaxScriptsFix"] =true;
+    rtCommonProps["rt.pushnotifs.sslframe.encoded"] = 'aHR0cHM6Ly97c3ViZG9tYWlufS5wdXNoLW5vdGlmcy5jb20=';
+    rtCommonProps["runtimecollector.url"] = 'https://rtc.multiscreensite.com';
+    rtCommonProps["performance.tabletPreview.removeScroll"] = 'false';
+    rtCommonProps["inlineEditGrid.snap"] =true;
+    rtCommonProps["popup.insite.cookie.ttl"] = '0.5';
+    rtCommonProps["rt.pushnotifs.force.button"] =true;
+    rtCommonProps["common.mapbox.token"] = 'pk.eyJ1IjoiZGFubnliMTIzIiwiYSI6ImNqMGljZ256dzAwMDAycXBkdWxwbDgzeXYifQ.Ck5P-0NKPVKAZ6SH98gxxw';
+    rtCommonProps["common.mapbox.js.override"] =false;
+    rtCommonProps["common.here.appId"] = 'iYvDjIQ2quyEu0rg0hLo';
+    rtCommonProps["common.here.appCode"] = '1hcIxLJcbybmtBYTD9Z1UA';
+    rtCommonProps["isCoverage.test"] =false;
+    rtCommonProps["ecommerce.ecwid.script"] = 'https://app.multiscreenstore.com/script.js';
+    rtCommonProps["feature.flag.mappy.kml"] =false;
+    rtCommonProps["common.resources.dist.cdn"] =true;
+    rtCommonProps["common.build.dist.folder"] = 'production/5769';
+    rtCommonProps["common.resources.cdn.host"] = 'https://static.cdn-website.com';
+    rtCommonProps["common.resources.folder"] = 'https://static.cdn-website.com/mnlt/production/5769';
+    rtCommonProps["feature.flag.runtime.backgroundSlider.preload.slowly"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.enabled"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.jitAnimation.enabled"] =true;
+    rtCommonProps["feature.flag.sites.google.analytics.gtag"] =true;
+    rtCommonProps["feature.flag.runOnReadyNewTask"] =true;
+    rtCommonProps["isAutomation.test"] =false;
+    rtCommonProps["booking.cal.api.domain"] = 'api.cal.com';
+
+    
+    rtCommonProps['common.mapsProvider'] = 'mapbox';
+    
+    rtCommonProps['common.mapsProvider.version'] = '0.52.0';
+    rtCommonProps['common.geocodeProvider'] = 'mapbox';
+    rtCommonProps['common.map.defaults.radiusSize'] = '1500';
+    rtCommonProps['common.map.defaults.radiusBg'] = 'rgba(255, 255, 255, 0.4)';
+    rtCommonProps['common.map.defaults.strokeColor'] = 'rgba(255, 255, 255, 1)';
+    rtCommonProps['common.map.defaults.strokeSize'] = '2';
+    rtCommonProps['server.for.resources'] = '';
+    rtCommonProps['feature.flag.lazy.widgets'] = true;
+    rtCommonProps['feature.flag.single.wow'] = false;
+    rtCommonProps['feature.flag.disallowPopupsInEditor'] = true;
+    rtCommonProps['feature.flag.mark.anchors'] = true;
+    rtCommonProps['captcha.public.key'] = '6LffcBsUAAAAAMU-MYacU-6QHY4iDtUEYv_Ppwlz';
+    rtCommonProps['captcha.invisible.public.key'] = '6LeiWB8UAAAAAHYnVJM7_-7ap6bXCUNGiv7bBPME';
+    rtCommonProps["images.sizes.small"] =160;
+    rtCommonProps["images.sizes.mobile"] =640;
+    rtCommonProps["images.sizes.tablet"] =1280;
+    rtCommonProps["images.sizes.desktop"] =1920;
+    rtCommonProps["modules.resources.cdn"] =true;
+    rtCommonProps["import.images.storage.imageCDN"] = 'https://lirp.cdn-website.com/';
+    rtCommonProps["feature.flag.runtime.inp.threshold"] =150;
+    rtCommonProps["feature.flag.performance.logs"] =true;
+    rtCommonProps["site.widget.form.captcha.type"] = 'g_recaptcha';
+    rtCommonProps["friendly.captcha.site.key"] = 'FCMGSQG9GVNMFS8K';
+    rtCommonProps["cookiebot.mapbox.consent.category"] = 'marketing';
+    // feature flags that's used out of runtime module (in  legacy files)
+    rtCommonProps["platform.monolith.personalization.dateTimeCondition.popupMsgAction.moveToclient.enabled"] =true;
+    rtCommonProps["streamline.monolith.personalization.skipRuleConditionsForPreview.enabled"] =true;
+    rtCommonProps["streamline.personalization.decodeTimeZone.enabled"] =false;
+
+    window.rtFlags = {};
+    rtFlags["unsuspendEcwidStoreOnRuntime.enabled"] =true;
+    rtFlags["scripts.widgetCount.enabled"] =true;
+    rtFlags["fnb.animations.tracking.enabled"] =true;
+    rtFlags["ecom.ecwidNewUrlStructure.enabled"] = false;
+    rtFlags["ecom.ecwid.accountPage.emptyBaseUrl.enabled"] = true;
+    rtFlags["ecom.ecwid.pages.links.disable.listeners"] = true;
+    rtFlags["ecom.ecwid.storefrontV3.enabled"] = false;
+    rtFlags["ecom.ecwid.old.store.fix.facebook.share"] = true;
+    rtFlags["feature.flag.photo.gallery.exact.size"] =true;
+    rtFlags["geocode.search.localize"] =false;
+    rtFlags["feature.flag.runtime.newAnimation.asyncInit.setTimeout.enabled"] =false;
+    rtFlags["twitter.heightLimit.enabled"] = true;
+    rtFlags["editor.classicHybrid.photogallery.fix"] =true;
+    rtFlags["runtime.lottieOverflow"] =false;
+    rtFlags["runtime.monitoring.sentry.ignoreErrors"] = "";
+    rtFlags["contact.form.browserValidation.enabled"] =true;
+    rtFlags["streamline.monolith.personalization.supportMultipleConditions.enabled"] =false;
+    rtFlags["runtime.cwv.report.cls.enabled"] =true;
+    rtFlags["editor.link.on.container"] =true;
+    rtFlags["flex.runtime.popup.with.show"] =true;
+    rtFlags["contact.form.useActiveForm"] =true;
+    rtFlags["runtime.ssr.productStore.internal.observer"] =true;
+    rtFlags["runtime.ssr.productCustomizations"] =true;
+    rtFlags["flex.megaMenu.a11y"] =true;
+</script>
+<script src="https://static.cdn-website.com/mnlt/production/5769/_dm/s/rt/dist/scripts/d-js-one-runtime-unified-desktop.min.js"  id="d-js-core"></script>
+<!-- End of HEAD RT JS Include -->
+<script src="https://static.cdn-website.com/mnlt/production/5769/_dm/s/rt/dist/scripts/d-js-jquery-migrate.min.js" ></script>
+<script>
+    
+    $(window).bind("orientationchange", function (e) {
+        $.layoutManager.initLayout();
+        
+    });
+    $(document).resize(function () {
+        
+    });
+</script>
+<script type="text/javascript" id="d_track_campaign">
+(function() {
+    if (!window.location.search) {
+        return;
+    }
+	const cleanParams = window.location.search.substring(1); // Strip ?
+	const queryParams = cleanParams.split('&');
+
+	const expires = 'expires=' + new Date().getTime() + 24 * 60 * 60 * 1000;
+	const domain = 'domain=' + window.location.hostname;
+	const path = "path=/";
+
+	queryParams.forEach((param) => {
+		const [key, value = ''] = param.split('=');
+		if (key.startsWith('utm_')) {
+			const cookieName = "_dm_rt_" + key.substring(4);
+			const cookie = cookieName + "=" + value;
+			const joined = [cookie, expires, domain, path].join(";");
+			document.cookie = joined;
+		}
+	});
+}());
+</script>
+<script type="text/javascript" >
+  var _dm_gaq = {};
+  var _gaq = _gaq || [];
+  var _dm_insite = [];
+</script>
+
+<div style="display:none;" id="P6iryBW0Wu"></div>
+
+<!-- photoswipe markup -->
+
+
+
+
+
+
+
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Stäng (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Dela"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Stäng av/sätt på helskärm"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zooma in/ut"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Föregående (vänsterpil)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Nästa (högerpil)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<div id="fb-root"
+        data-locale="sv_SE"></div>
+<!-- Alias: 65c66db2 -->
+<div class="dmPopupMask" id="dmPopupMask"></div>
+<div id="dmPopup" class="dmPopup">
+	<div class="dmPopupCloseWrapper"> <div class="dmPopupClose dm-common-icons-close oneIcon" onclick="dmHidePopup(event);"></div> </div>
+ 	<div class="dmPopupTitle"> <span></span> Share by:</div> 
+	<div class="data"></div>
+</div><script type="text/javascript">
+    
+    Parameters.NavigationAreaParams.MoreButtonText = 'MORE';
+    
+    Parameters.NavigationAreaParams.LessButtonText = 'LESS';
+    Parameters.HomeLinkText = 'Home';
+    </script>
+<!--  End Script tags -->
+<!--  Site Wide Html Markup -->
+<!--  Site Wide Html Markup -->
+</body>
+</html>

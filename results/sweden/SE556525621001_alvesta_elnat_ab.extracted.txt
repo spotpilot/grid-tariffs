@@ -1,0 +1,391 @@
+
+Elnätspriser
+Nedan beskriver vi aktuella priser för våra två typer av nätabonnemang – säkringsabonnemang och effektabonnemang, samt våra avgifter för nyanslutning. Du hittar information om vilket abonnemang du har på din faktura.
+Förutom priser för elnätet som hanteras av Alvesta Energi, har du också en kostnad för elen du förbrukar. Den hanteras av den
+https://alvestaenergi.se/elnat/elhandel/
+elhandlare
+du tecknat elhandelsavtal med.
+
+#sakring
+Säkringsabonnemang
+#effekt
+Effektabonnemang
+#anslutningsavgift
+Anslutningsavgifter
+#energitjänsteföretag
+Energitjänsteföretag
+
+<img decoding="async"
+                    src="https://alvestaenergi.se/wp-content/uploads/2024/03/080523-moheda020-ny.jpg"
+                    alt="Tre kor i en sommarhage tittar ut över stenmur."
+                    class="ae-hero-article-image-figure"
+                >
+
+Säkringsabonnemang
+Säkringsabonnemang baseras på vilken storlek du har på huvudsäkringen i din bostad/fastighet. Du hittar information om säkringsstorlek på din faktura som finns tillgänglig på
+https://minasidor.alvestaenergi.se/logga-in
+Mina sidor
+.
+Säkringsabonnemanget består av:
+
+En fast del som baseras på vilken storlek på huvudsäkring du har.
+En rörlig överföringasvgift som baseras på hur mycket el du använder.
+Energiskatt som också baseras på hur mycket el du använder.
+Ett antal myndighetsavgifter.
+
+Fast avgift säkringsabonnemang
+
+Huvudsäkring
+Inkl. moms 2025
+
+Huvudsäkring
+16A lgh
+
+Inkl. moms 2025
+2 261 kr/år
+
+Huvudsäkring
+16A
+
+Inkl. moms 2025
+3 572 kr/år
+
+Huvudsäkring
+20A
+
+Inkl. moms 2025
+5 483 kr/år
+
+Huvudsäkring
+25A
+
+Inkl. moms 2025
+7 242 kr/år
+
+Huvudsäkring
+35A
+
+Inkl. moms 2025
+11 423 kr/år
+
+Huvudsäkring
+50A
+
+Inkl. moms 2025
+16 890 kr/år
+
+Huvudsäkring
+63A
+
+Inkl. moms 2025
+23 245 kr/år
+
+Huvudsäkring
+80A
+
+Inkl. moms 2025
+31 318 kr/år
+
+Huvudsäkring
+100A
+
+Inkl. moms 2025
+41 302 kr/år
+
+Huvudsäkring
+125A
+
+Inkl. moms 2025
+51 625 kr/år
+
+Huvudsäkring
+160A (inga nyanslutningar)
+
+Inkl. moms 2025
+64 873 kr/år
+
+Huvudsäkring
+200A (inga nyanslutningar)
+
+Inkl. moms 2025
+80 473 kr/år
+
+Huvudsäkring
+250A (inga nyanslutningar)
+
+Inkl. moms 2025
+98 673 kr/år
+
+Överföringsavgift säkringsabonnemang
+Överföringsavgift 2025: 36,75 öre/kWh inkl. moms (29,40 öre/kWh exkl. moms).
+Energiskatt säkringsabonnemang
+Energiskatt 2025: 54,875 öre/kWh inkl. moms (43,9 öre/kWh exkl. moms)
+Myndighetsavgifter säkringsabonnemang
+
+Nätövervakningsavgift på 4,35 kr (5,44 kr inkl. moms) som går till Energimyndigheten
+Elsäkerhetsavgift på 11,10 kr (13,88 kr inkl. moms) som går till Elsäkerhetsverket
+Elberedskapsavgift på 90 kr (112,50 kr inkl. moms) som går till Svenska Kraftnäts Elberedskapsenhet
+
+Samtliga avgifter betalas per abonnemang och år för lågspänning.
+
+Effektabonnemang
+Effektabonnemang baseras på vilken typ av nätspänning din bostad/fastighet är uppkopplad till, samt hur stor effekt du belastar nätet med. Du hittar information om vilken typ av effektabonnemang du har på din faktura som finns tillgänglig på
+https://minasidor.alvestaenergi.se/logga-in
+Mina sidor
+.
+Effektabonnemanget består av:
+
+En fast del som baseras på vilken typ av nätspänning din bostad/fastighet är uppkopplad till.
+En effektavgift som baseras på hur många kWh du konsumerat under timmen med högst effektuttag under månaden.
+En reaktiv avgift som baseras på hur hög effekt du belastar elnätet med som överstiger ett definierat gränsvärde.
+Energiskatt som också baseras på hur mycket el du konsumerar.
+Ett antal myndighetsavgifter.
+
+Samtliga avgifter betalas per abonnemang och år för lågspänning.
+
+Avgifter effektabonnemang för lågspänning N04
+
+Avgiftstyp
+Nätpriser 2025-01-01 exkl. moms
+
+Avgiftstyp
+Fast avgift
+
+Nätpriser 2025-01-01 exkl. moms
+1 572,67 kr/mån
+
+Avgiftstyp
+Effektavgift
+
+Nätpriser 2025-01-01 exkl. moms
+102,54 kr/kW/mån
+
+Avgiftstyp
+Reaktiv avgift
+
+Nätpriser 2025-01-01 exkl. moms
+150 kr/kVAr och år på det högsta månadsvärdet som överstiger 50% av aktiv effekt
+
+Avgiftstyp
+Energiavgifter för överförd energi
+
+Nätpriser 2025-01-01 exkl. moms
+11,684 öre/kWh
+
+Priserna gäller inklusive myndighetsavgifterna: nätövervakningsavgift 4,35 kr/år, elberedskapsavgift 90 kr/år och elsäkerhetsavgift 11,10 kr/år. 25% moms tillkommer på samtliga priser.
+Tillkommande avgifter som också faktureras av elnätsbolagen är:
+
+Energiskatt 2025: 43,9 öre/kWh (54,875 öre/kWh inkl. moms)
+
+Avgifter effektabonnemang för högspänning N10
+
+Avgiftstyp
+Nätpriser 2025-01-01 exkl. moms
+
+Avgiftstyp
+Fast avgift
+
+Nätpriser 2025-01-01 exkl. moms
+3 841,71 kr/mån
+
+Avgiftstyp
+Effektavgift
+
+Nätpriser 2025-01-01 exkl. moms
+82,62 kr/kW/mån
+
+Avgiftstyp
+Reaktiv avgift
+
+Nätpriser 2025-01-01 exkl. moms
+150 kr/kVAr och år på det högsta månadsvärdet som överstiger 50% av aktiv effekt
+
+Avgiftstyp
+Energiavgifter för överförd energi
+
+Nätpriser 2025-01-01 exkl. moms
+8,343 öre/kWh
+
+Priserna gäller inklusive myndighetsavgifterna:
+nätövervakningsavgift 870 kr/år, elberedskapsavgift 4 897 kr/år, elsäkerhetsavgift 905 kr/år. 25% moms tillkommer på samtliga priser.
+Tillkommande avgifter som också faktureras av elnätsbolagen är:
+
+Energiskatt 2025: 43,9 öre/kWh (54,875 öre/kWh inkl. moms)
+
+Anslutningsavgifter
+Anslutningsavgift är den engångsavgift som tas ut när du som kund vill nyansluta en anläggning till elnätet, eller göra förändringar i befintlig anläggning.
+Anslutningsavgiften baseras på vilken nätspänning du ska ansluta till samt säkringsstorlek i anläggningen.
+https://ei.se/konsument/el/elnatsavgiften-och-anslutning-till-elnatet/anslutning-till-elnatet
+arrow_forward
+Energimarknadsinspektionens regler för anslutningsavgifter
+
+Anslutningsavgifter lågspänning
+Priserna anges inkl. moms.
+
+Säkringsstorlek Ampere (A)
+16-25 A
+35 A – större
+
+Säkringsstorlek Ampere (A)
+Zon 1: 0-199 meter
+
+16-25 A
+44 375 kr
+
+35 A – större
+Kontakta oss
+
+Säkringsstorlek Ampere (A)
+Zon 2: 200-599 meter
+
+16-25 A
+44 375 kr + 381 kr/meter
+
+35 A – större
+Kontakta oss
+
+Säkringsstorlek Ampere (A)
+Zon 3: 600-1 199 meter
+
+16-25 A
+44 375 kr + 908 kr/meter
+
+35 A – större
+Kontakta oss
+
+Säkringsstorlek Ampere (A)
+Zon 4: 1 200-1 800 meter
+
+16-25 A
+44 375 kr + 526 kr/meter
+
+35 A – större
+Kontakta oss
+
+Säkringsstorlek Ampere (A)
+Zon 5: Över 1 800 meter
+
+16-25 A
+Kontakta oss
+
+35 A – större
+Kontakta oss
+
+Anslutningsavgifter högspänning
+Gäller för nyanslutningsavgift och utökning av abonnemang. Den rörliga avgiften beräknas på abonnerad effekt. Vid nyanslutning lämnas offert. Vid utökning av befintlig anläggning tillkommer eventuella kostnader för ändring av kabel, mätning med mera.
+Priserna anges exkl. moms.
+
+Typ av anslutning
+Fast avgift
+Rörlig avgift
+
+Typ av anslutning
+Nyanslutning
+
+Fast avgift
+Kontakta oss
+
+Rörlig avgift
+–
+
+Typ av anslutning
+Utökning befintlig anläggning
+
+Fast avgift
+Kontakta oss
+
+Rörlig avgift
+230 kr/kW
+
+Prislista för energitjänsteföretag
+När energitjänsteföretag tar del av mätvärden från Alvesta Energis elnät tar vi ut en avgift för exporten av mätvärden.
+https://alvestaenergi.se/wp-content/uploads/2025/08/Pris-Energitjansteforetag.pdf
+arrow_forward
+Prislista för energitjänsteföretag
+https://alvestaenergi.se/alvesta-elnat/information-for-energitjansteforetag/
+arrow_forward
+Information för energitjänsteföretag
+https://alvestaenergi.se/alvesta-elnat/dela-dina-matvarden-med-ett-energitjansteforetag/
+arrow_forward
+Information för privatpersoner och företag
+
+Prislista för energitjänsteföretag
+Alla priser är exkl. moms
+
+Priser
+
+Priser
+Hantera en begäran om tillgång till mätresultat (engångskostnad)
+
+30 kr/anläggning
+
+Priser
+Hantera en begäran om avslut av mätresultat (engångskostnad)
+
+10 kr/anläggning
+
+Priser
+Tillgång till historiska mätresultat inkl. godkända medgivande och avslut
+
+Offert
+
+Priser
+Ge tillgång till mätresultat, månadskostnad
+
+3 kr/anläggning/mån
+
+Priser
+Ge tillgång till mätresultat, administration, månadskostnad
+
+110 kr/mån
+
+Prisjustering: Alvesta Elnät AB äger rätt att, utan föregående avisering, årligen per den 1 januari, justera
+avgifterna motsvarande förändringen av KPI per september kalenderåret innan jämfört med
+motsvarande index tolv (12) månader dessförinnan. Var tids gällande prislista återfinns på
+Alvesta Elnät ABs hemsida.
+
+https://maps.app.goo.gl/yY5Zcv6FHUd2dkXv6
+Blädingevägen 22
+342 80 Alvesta
+/personuppgiftspolicy
+Personuppgiftspolicy
+Inställningar för cookies
+/konsumentratt
+Konsumenträtt
+
+Vad behöver du hjälp med?
+https://minasidor.alvestaenergi.se/logga-in
+Logga in på Mina sidor
+https://alvestaenergi.se/avbrott-och-felanmalan/
+Avbrottsinformation
+https://alvestaenergi.se/avbrott-och-felanmalan/#felanmalan
+Felanmälan
+
+Kundtjänst
+Mån-fre 08:00-16:00
+Lunchstängt 12:00-13:00
+Telefon
+tel:047215038
+0472-150 38
+
+mailto:kundtjanst@alvestaenergi.se
+kundtjanst@alvestaenergi.se
+
+Populära sidor
+https://alvestaenergi.se/alvesta-elnat/teckna-elnatsavtal/
+Teckna elnätsavtal
+https://alvestaenergi.se/alvesta-fjarrvarme/teckna-fjarrvarmeavtal/
+Teckna fjärrvärmeavtal
+https://alvestaenergi.se/alvesta-elnat/priser/
+Elnätspriser
+https://alvestaenergi.se/alvesta-fjarrvarme/priser/
+Fjärrvärmepriser
+https://alvestaenergi.se/for-installatorer/
+För installatörer
+
+/webbplatskarta
+Webbplatskarta
+/tillganglighetsredogorelse
+Tillgänglighetsredogörelse
+/om-webbplatsen
+Om webbplatsen

@@ -1,0 +1,138 @@
+
+/ystad-energi/elnatet-i-ystad
+Elnätet i Ystad
+
+/ystad-energi/elnatet-i-ystad/anslut-fastighet
+Anslut fastighet
+
+/ystad-energi/elnatet-i-ystad/anslut-elproduktion
+Anslut elproduktion
+
+/ystad-energi/elnatet-i-ystad/ditt-abonnemang
+Ditt abonnemang
+
+/ystad-energi/elnatet-i-ystad/elmataren---sa-fungerar-den
+Elmätaren - så fungerar den
+
+/ystad-energi/elnatet-i-ystad/producera-egen-el
+Producera egen el
+
+/ystad-energi/elnatet-i-ystad/installator
+Installatör
+
+/ystad-energi/elnatet-i-ystad/priser-och-avtal
+Priser och avtal
+
+/ystad-energi/elnatet-i-ystad/priser-och-avtal/privat-och-sma-foretag
+Privat och små företag
+
+/ystad-energi/elnatet-i-ystad/priser-och-avtal/storre-foretag
+Större företag
+
+/ystad-energi/elnatet-i-ystad/priser-och-avtal/anslutningsavgifter
+Anslutningsavgifter
+
+/ystad-energi/elnatet-i-ystad/priser-och-avtal/elnatspriser
+Elnätspriser
+
+/ystad-energi/elnatet-i-ystad/skillnad-elnat-och-elhandel
+Skillnad elnät och elhandel
+
+/ystad-energi/elnatet-i-ystad/natutvecklingsplan
+Nätutvecklingsplan
+
+/ystad-energi/elnatet-i-ystad/overvakningsplan
+Övervakningsplan
+
+/ystad-energi/elnatet-i-ystad/elnat---foretag
+Elnät - företag
+
+/ystad-energi/elnatet-i-ystad/energitjansteforetag
+Energitjänsteföretag
+
+/ystad-energi/elhandel
+Elhandel
+
+/ystad-energi/oppet-stadsnat-i-ystad
+Öppet Stadsnät i Ystad
+
+/ystad-energi/fjarrvarme-i-ystad
+Fjärrvärme i Ystad
+
+/ystad-energi/miljo-och-hallbarhet
+Miljö och hållbarhet
+
+/ystad-energi/om-ystad-energi
+Om Ystad Energi
+
+/ystad-energi/driftstorningar-och-felanmalan
+Driftstörningar och felanmälan
+
+/ystad-energi/mina-sidor
+Mina sidor
+
+/ystad-energi/kundservice
+Kundservice
+
+/ystad-energi/nyheter-fran-ystad-energi
+Nyheter från Ystad Energi
+
+/ystad-energi
+Startsida
+/
+/ystad-energi/elnatet-i-ystad
+Elnätet i Ystad
+/
+/ystad-energi/elnatet-i-ystad/priser-och-avtal
+Priser och avtal
+/
+Privat och små företag
+
+Privat och små företag
+Tillhör du kategorin av privathushåll, mindre butiker och småindustrier har du ett säkringsabonnemang. Detta gäller för anslutningar i elnätet mellan 16-63A. Säkringsabonnemang består av en fast avgift och en rörlig avgift. Den fasta täcker kostnader för investeringar, drift, underhåll och service. Den rörliga påverkas av hur mycket el du använder samt täcker bl a kostnader för nätförluster, drift och underhåll.
+
+Vad innebär säkringsabonnemang?
+Detta är det vanligaste abonnemanget för privatkunder. Den fasta avgiften varierar beroende på storleken på din huvudsäkring. För den rörliga avgiften kan du som kund välja mellan enkeltariff eller tidstariff. Enkeltariff innebär samma överföringsavgift under hela året medan tidstariffen har en högre avgift under vintern och en lägre under övrig tid.
+
+Säkringsabonnemangets
+elnätsavgift
+för 16-63A består av
+Fast avgift:
+Baseras på hur stor huvudsäkring du har.
+Rörlig överföringsavgift:
+Baseras på din verkliga elanvändning (kWh).
+Fast avgift
+Är en årlig avgift för att få tillgång till elnätet (delas upp per månad). Här ingår kostnader för: Drift, fakturering, underhåll, statliga myndighetsavgifter, återinvestering i elnätet, elberedskap, mätaravläsning, elsäkerhetsavgift, kundservice och nätövervakningsavgift.
+Överföringsavgift
+Är en rörlig avgift som du betalar för överföring av el via elnätet. Avgiften grundar sig i hur många kWh som överförts i elnätet till din anläggning under en given period och mäts med elmätaren. Överföringsavgiften täcker bl a kostnader för nätförluster, drift och underhåll.
+Tänk på att
+• Din elräkning förändras beroende på hur kallt eller varmt det varit under året (elvärme). Du får en högre elräkning på vintern och en lägre på sommaren.
+• Ytterligare en frys (eller annan eldriven hushållsapparat) ökar din elanvändning.
+• Nya hushållsapparater innebär i allmänhet mycket lägre elanvändning än gamla.
+
+Elnätspriser 2025
+/download/18.6cf6c2fa198e62b1927bfe9/1756464048125/YEAB_Elnatspris_sakring2025_251001.pdf
+Säkring, från 1 oktober
+Öppnas i nytt fönster.
+/download/18.78730b7719712a9211d19d3a/1748933813041/YEAB_Elnatspris_sakring2025_250701.pdf
+Säkring, från 1 juli
+Öppnas i nytt fönster.
+/download/18.318fb5f0193953ac47c1953f/1734601092281/YEAB_Elnatspris_sakring2025_250101.pdf
+Säkring, från 1 januari
+Öppnas i nytt fönster.
+
+Elnätspriser 2024
+/download/18.45e4b8e192705389a34bda/1729515357775/yeab_nattariff2024_sakring_240701.pdf
+Säkring, från 1 juli
+Öppnas i nytt fönster.
+
+Din elnätsfaktura består av 2 delar
+Säkringsabonnemang:
+Enligt ovan
+Energiskatt:
+Är en statlig skatt för användningen av el. Det är riksdagen som bestämmer reglerna och skattesatserna för energiskatten. Det är elnätsbolagen i Sverige som ansvarar för att fakturera den och för att sen betala in skatten till staten.
+Tänk på att
+• Moms 25% tillkommer på alla priser.
+
+Huvudsäkringen sitter i ditt mätarskåp eller vid din mätartavla och kan vara mellan 16-63A.
+En lägenhet har vanligtvis 16A (taxa ES01) och en villa 16, 20 eller 25A (taxa ES02, ES03 eller ES04). Detta framgår på din faktura.

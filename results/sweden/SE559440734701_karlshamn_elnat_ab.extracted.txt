@@ -1,0 +1,366 @@
+
+PRISer/
+villkor
+Här hittar du aktuella prislistor för elnät – rörlig nätavgift, fast nätavgift, priser för elnät effekt lågspänning och elnät effekt högspänning samt anslutningsavgifter för lågspänning.
+Som elnätskund hos Karlshamn Energi har du en
+rörlig elöverföringsavgift
+per månad (gäller från 2024-01-01). Elöverföringsavgiften är en av de delar som ingår i elnätsavgiften och betalas per använd kilowattimme (kWh). Avgiften är kopplad till priset för våra elförluster samt den rörliga elöverföringsavgift E.ON. tar ut för regionnätet. Hur hög avgiften blir i förhållande till spotpriset per månad går att utläsa i diagrammen i prislistorna. Det är olika diagram för hög- respektive lågspänning.
+
+prislistor
+2025
+
+javascript:void(0)
+RÖRLIG NÄTAVGIFT
+
+Prislista elnät säkringskund
+Gäller fr.o.m. 2025-01-01
+Normaltariff
+Priserna är i öre/kWh. Moms (f n 25%).
+
+PRIS
+
+ENERGISKATT
+
+INKL SKATT OCH MOMS
+
+39,6
+43,9
+104,4
+
+Här tillkommer en rörlig elöverföringsavgift månadsvis i öre/kWh beroende på elpriset för våra nätförluster och för E.ON:s elöverföringsavgift för regionnätet den månaden enligt nedan.
+
+Rörlig elöverföringsavgift lågspänning
+
+ELPRIS KR/KWH
+
+öre/KWH
+
+0,5
+4,4
+
+1,0
+8,9
+
+1,5
+13,3
+
+2,0
+17,8
+
+2,5
+22,2
+
+y=x *0,0890, y=rörlig elöverföring i kr/kWH, x=elpris i kr/kWh
+*Exempel: elpris 1 kr/kWh ger en avgift på 8,9 öre/kWh
+
+javascript:void(0)
+FAST NÄTAVGIFT
+
+Prislista fast nätavgift
+Gäller fr.o.m. 2025-01-01
+Priserna är i kr/år inkl. moms (f n 25%). Inom parentes är priserna angivna exkl. moms. I de fasta avgifterna ingår elberedskaps- elsäkerhets- och nätövervakningsavgift.
+
+Kundkategori
+Säkringsstorlek i ampere (A)
+Normaltariff
+
+Lägenhet hushåll
+16
+1 231 (985)
+
+20
+1 488 (1 190)
+
+25
+1 906 (1 525)
+
+Lägenhet elvärme
+16
+1 531 (1 225)
+
+20
+1 906 (1 525)
+
+25
+2 425 (1 940)
+
+Villa elvärme
+16
+2 263 (1 810)
+
+20
+2 931 (2 345)
+
+25
+3 813 (3050)
+
+Villa hushåll/Villa kombi
+16
+2 075 (1 660)
+
+20
+2 688 (2 150)
+
+25
+3 494 (2 795)
+
+Näringsliv
+16
+2 075 (1 660)
+
+20
+2 688 (2 150)
+
+25
+3 494 (2 795)
+
+35
+4 856 (3 885)
+
+50
+6 756 (5 405)
+
+63
+8 825 (7 060)
+
+80
+11 425 (9 140)
+
+100
+14 931 (11 945)
+
+125
+19 406 (15 525)
+
+160
+27 250 (21 800)
+
+200
+35 519 (28 415)
+
+javascript:void(0)
+ELNÄT EFFEKT LÅGSPÄNNING
+
+Prislista elnät effekt lågspänning
+Gäller fr.o.m. 2025-01-01
+Priserna är i kr/år exkl. moms.
+
+Avgifter (spänningsnivå 0,4 kV)
+Fast avgift
+Abonnemangsavgift
+Effektavgift
+Överföringsavgifter
+Vinterdag kl. 06.00-22.00
+Övrig tid
+Reaktiv effektavgift
+Pris
+14 300 kr/år
+184 kr/kW/år
+574 kr/kW/år
+.
+10,4 öre/kWh
+6,0 öre/kWh
+200 kr/kVA
+
+– Abonnemangsavgift
+erläggs för den under året abonnerade effekten, vilken minst skall motsvara det högsta under året förekommande värdet på uttagen effekt.
+– Effektavgift
+erläggs för medelvärdet av de två högsta månadsvärdena under månaderna januari-mars och november-december för uttagen entimmeseffekt.
+– Elöverföringsavgifter.
+Här tillkommer en rörlig elöverföringsavgift månadsvis i öre/kWh beroende på elpriset för våra nätförluster och för E.ON:s elöverföringsavgift för regionnätet den månaden enligt nedan.
+
+Rörlig elöverföringsavgift Lågspänning
+
+elpris kr/kWh
+
+öre/KWH
+
+0,5
+4,4
+
+1,0
+8,9
+
+1,5
+13,3
+
+2,0
+17,8
+
+2,5
+22,2
+
+y=x *0,089 (y=rörlig elöverföring i kr/kWH, x=elpris i kr/kWh)
+
+*Exempel: elpris 1 kr/kWh ger en elöverföringsavgift på 8,9 öre/kWh
+
+– Överuttag.
+Om effektmedelvärdet överstiger abonnerad effekt debiteras överuttaget med ett tillägg på effektavgiften med 50%.
+– Tidsbegrepp.
+De i nätpriserna angivna tiderna avser svensk normaltid. Med vintervardag avses måndag-fredag, kl. 06-22, under månaderna januari-mars och november-december.
+– Reaktiv effekt.
+Uttagsrätt 50 % av den under året abonnerade effekten. Uttag därutöver debiteras enligt prislista.
+– Skatt.
+Angivna avgifter gäller exklusive mervärdesskatt. I de fasta avgifterna ingår elberedskaps- elsäkerhets- och nätövervakningsavgift.
+
+javascript:void(0)
+ELNÄT EFFEKT HÖGSPÄNNING
+
+Prislista elnät effekt högspänning
+Gäller fr.o.m. 2025-01-01
+Priserna är i kr/år exkl. moms.
+
+Avgifter (spänningsnivå 10 kV)
+Fast avgift
+Abonnemangsavgift
+Effektavgift
+Överföringsavgifter
+Vintervardag kl. 06.00-22.00
+Övrig tid
+Reaktiv effektavgift
+Pris
+22 850 kr/år
+166 kr/kW/år
+521 kr/kW/år
+.
+7,7 öre/kWh
+4,4 öre/kWh
+150 kr/kVA
+
+– Abonnemangsavgift
+erläggs för den under året abonnerade effekten, vilken minst skall motsvara det högsta under året förekommande värdet på uttagen entimmeseffekt.
+– Effektavgift
+erläggs för medelvärdet av de två högsta månadsvärdena under månaderna januari-mars och november-december för uttagen effekt.
+– Elöverföringsavgifter.
+Här tillkommer en rörlig elöverföringsavgift månadsvis i öre/kWh beroende på elpriset för våra nätförluster och för E.ON:s elöverföringsavgift för regionnätet den månaden enligt nedan.
+
+Rörlig elöverföringsavgift Högspänning
+
+elpris kr/kWh
+
+öre/KWH
+
+0,5
+3,3
+
+1,0
+6,5
+
+1,5
+9,8
+
+2,0
+13,0
+
+2,5
+16,3
+
+y=x *0,065 (y=rörlig elöverföring i kr/kWH, x=elpris i kr/kWh)
+
+*Exempel: elpris 1 kr/kWh ger en avgift på 6,5 öre/kWh
+
+– Överuttag.
+Om effektmedelvärdet överstiger abonnerad effekt debiteras överuttaget med ett tillägg på effektavgiften med 50%.
+– Tidsbegrepp.
+De i nätpriserna angivna tiderna avser svensk normaltid. Med vintervardag avses måndag-fredag, kl. 06-22, under månaderna januari-mars och november-december.
+– Reaktiv effekt.
+Uttagsrätt 50 % av den under året abonnerade effekten. Uttag därutöver debiteras enligt prislista.
+– Skatt.
+Angivna avgifter gäller exklusive mervärdesskatt. I de fasta avgifterna ingår elberedskaps- elsäkerhets- och nätövervakningsavgift.
+
+javascript:void(0)
+ANSLUTNINGSAVGIFTER LÅGSPÄNNING
+
+PRISLISTA anslutningsavgifter lågspänning
+GÄLLER FR.O.M. 2025-01-01
+Här presenteras prislista och övriga villkor för anslutning av nya elnätsabonnemang. Aktuella nätavgifter, dvs de löpande priserna för elnät, presenteras här ovan.
+Priserna anges i kr/år exkl. moms.
+
+Säkringsstorlek i ampére (A)
+Normal anslutningsavgift
+Utbyggnadstak
+
+Fritidshus – 16
+26 450
+39 675
+
+16 – 25
+33 000
+49 500
+
+35
+38 900
+58 350
+
+50
+50 200
+75 300
+
+63
+59 900
+89 850
+
+80
+72 900
+109 350
+
+100
+88 000
+132 000
+
+125
+106 700
+160 050
+
+160
+133 600
+200 400
+
+200
+163 600
+245 400
+
+–
+Avgifterna gäller vid nyanslutning
+Utbyggnadstaket är 50 % högre än normal anslutningsavgift. Om utbyggnadstaket överskrids betalar kunden normal anslutningsavgift samt all kostnad där över.  Avgifterna upp t.o.m 63 A understiger Energimarknadsinspektionens principer för prövning.
+– Anslutningsavgifterna ovan förutsätter
+att anslutningen sker på detaljplanerat område och att kunden svarar för schaktning, håltagning, förläggning av tomrör samt återställning inom tomtgräns. Önskar kunden 5-ledarservisledning tillkommer verklig merkostnad för detta.
+
+– Om befintlig anslutning utökas
+betalar kunden 757 kr/utökad A, plus all kostnad som överskrider skillnaden i utbyggnadstak mellan säkringsstorlekarna. I övrigt samma villkor som ovan.
+– Kostnad för anordning av tillfälliga abonnemang
+i samband med nyanslutning eller utökning tillkommer.
+– För effektleveranser (servissäkring över 200 A)
+gäller individuell hantering vid såväl nyanslutning som utökning. Dock blir avgiften minst enligt avgifterna ovan.
+
+– Individuell hantering
+kan också bli aktuell vid nyanslutning utanför detaljplanerat område.
+
+Avtal
+ELNÄT
+Här hittar du som är
+privatkund
+de allmänna avtalsvillkoren som är utarbetade av Energiföretagen Sverige, efter överenskommelse med Konsumentverket.
+https://www.karlshamnenergi.se/wp-content/uploads/2021/03/NAT-2012rev-2_Konsument.docx
+ALLMÄNNA AVTALSVILLKOR FÖR ELNÄT
+
+https://www.karlshamnenergi.se/wp-content/uploads/2021/03/Sarskilda-villkor-konsument-rev-2.doc
+SÄRSKILDA AVTALSVILLKOR FÖR ELNÄT
+
+Här hittar du som är
+företagskund
+de allmänna avtalsvillkoren som är utarbetade av Energiföretagen Sverige, efter överenskommelse med Konsumentverket.
+https://www.karlshamnenergi.se/wp-content/uploads/2021/03/NAT-2012-rev-20180424_Naringsverksamhet.doc
+ALLMÄNNA AVTALSVILLKOR FÖR  ELNÄT – NÄRINGSVERKSAMHET
+
+https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=8903&lang=sv_se&voice=Maja&readid=main&url=
+Lyssna
+
+https://minasidor.karlshamnenergi.se/
+Logga in på mina sidor
+
+Kundtjänst
+tel:+4645481800
+0454-818 00
+mailto:kundservice@karlshamnenergi.se
+kundservice@karlshamnenergi.se

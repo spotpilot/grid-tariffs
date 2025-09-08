@@ -1,0 +1,228 @@
+
+/
+Hem
+/
+
+/priser
+Priser
+/
+
+Elnät - priser
+
+Elnät - priser
+
+#svid12_7aa70af4193b9bceca415a0
+Innehåll på sidan
+
+#h-Lagspanning
+Lågspänning
+
+#h-Hogspanning
+Högspänning
+
+#h-Elproduktion
+Elproduktion
+
+#h-Tillgangliggorandeavmatvarden
+Tillgängliggörande av mätvärden
+
+Elnät debiterar en kostnad för överföring av den el som kunden förbrukar.
+
+Kostnaden är normalt sett uppdelad i en abonnemangsdel (fast del) och en del för elöverföring (rörlig del).
+I ett elnätsavtal grundar sig den fasta delen på säkringsstorleken i Ampere. Delen för elöverföring varierar beroende på förbrukning och förbrukningsmönster och vald tariff.
+För att lamporna ska lysa hemma hos dig har du två avtal. Dels ett elnätsavtal och ett elhandelsavtal.
+/download/18.5677c9f2194964389685c7/1737721668184/Eng%C3%A5ngsavgifter%20fr%C3%A5n%202025-01-01.pdf
+Engångsavgifter från 2025-01-01
+Pdf, 161 kB.
+/download/18.5677c9f2194964389681563/1737841557281/Eln%C3%A4t%20Till%C3%A4mpningsbest%C3%A4mmelser%20fr%C3%A5n%202025-01-01.pdf
+Tillämpningsbestämmelser från 2025-01-01
+Pdf, 157 kB.
+Lågspänning
+Korttidstariffen är avsedd för tillfälliga leveranser för vilka engångsavgift inte erläggs och under begränsad tid, t ex för byggarbetsplatser, lägst 25A.
+I tarifferna ingår myndighetsavgifter i form av elberedskapsavgift, nätövervakningsavgift och elsäkerhetsavgift enligt förordningen 2017:1040
+Lågspänningsöverföring samt korttidstariff
+(från 2025-01-01)
+Säkring
+Tariff
+KR/ÅR
+ÖRE/KWH
+ex.moms
+ink.moms
+ex.moms
+ink.moms
+16 lgh*
+11N
+1 350
+1 688
+22:20
+27:75
+16
+12N
+2 340
+2 925
+22:20
+27:75
+20
+13N
+3 640
+4 550
+22:20
+27:75
+25
+14N
+4 480
+5 600
+22:20
+27:75
+35
+15N
+6 220
+7 775
+22:20
+27:75
+50
+16N
+8 710
+10 880
+22:20
+27:75
+63
+17N
+11 040
+13 800
+22:20
+27:75
+80
+18N
+13 920
+17 400
+22:20
+27:75
+100
+19N
+16 640
+20 800
+22:20
+27:75
+125
+20N
+19 360
+24 200
+22:20
+27:75
+160
+21N
+23 940
+29 925
+22:20
+27:75
+200
+22N
+28 980
+36 225
+22:20
+27:75
+* Tillämpas då minst två elnätskunder finns per leveranspunkt inom samma fastighet.
+
+Effekttariff lågspänning med större mätarsäkring än 200 A (från 2025-01-01)
+Abonnemang
+/år
+Effektavgift
+Kr/kW
+Elöverföring öre/kWh
+Ex. moms
+Ink. moms
+Ex. moms
+Ink. moms
+Ex. moms
+Ink. moms
+17 590
+21 988
+522
+652:50
+15,30 öre
+19:13 öre
+Effektavgift erläggs för medelvärdet av de två hösta månadsvärdena under året för uttagen medeleffekt per timme.
+För uttag av reaktiv effekt utöver 50% av den abonnerade aktiva effekten utgår en avgift om 95,00 kr/kVAr (118,75 kr inklusive moms) och år.
+I tarifferna ingår myndighetsavgifter i form av elberedskapsavgift, nätövervakningsavgift och elsäkerhetsavgift enligt förordningen 2017:1040.
+Högspänning
+Högspänningstariff 10 kV (från 2025-01-01)
+Abonnemang/år
+Effektavgift Kr/kW
+Elöverföring öre/kWh
+Ex. moms
+Ink. moms
+Ex. moms
+Ink. moms
+Ex. moms
+Ink. moms
+34 790
+43 488
+501
+626:25
+13:20
+16:50
+Effektavgift erläggs för medelvärdet av de två hösta månadsvärdena under året för uttagen medeleffekt per timme.
+För uttag av reaktiv effekt utöver 50% av den abonnerade aktiva effekten utgår en avgift om 80,00 kr/kVAr (100 kr inklusive moms) och år.
+I tarifferna ingår myndighetsavgifter i form av elberedskapsavgift, nätövervakningsavgift och elsäkerhetsavgift enligt förordningen 2017:1040.
+Elproduktion
+För att producera el krävs ett elnätsabonnemang för elproduktion. Elnätsabonnemanget består av en fast avgift och en ersättning för nätnytta. Lokal elproduktion hjälper till att minska energiförlusterna i elnätet och sänker våra kostnader för att överföra el. Nässjö Affärsverk Elnät AB betalar därför ut en ersättning till dig som elproducent i form av energiersättning (nätnytta). Vi behöver även ta ut en fast avgift för att tillhandahålla mätning, avräkning och rapportering.
+Fast avgift - betalning till elnätsägaren
+Energiersättning - ersättning från elnätsägaren
+Avgifter &ersättning för elproduktion
+( från 2025-01-01)
+Fast avgift/år
+Energiersättning öre/kwh
+Gäller för effektinmatning max 1500 kW
+Ex. moms
+Ink. moms
+Ex. moms
+Ink. moms
+0
+0
+5 öre
+6:25 öre
+Tillgängliggörande av mätvärden
+Prislistan gäller för energitjänsteföretag och andra berättigade parter som har tecknat avtal om tillgängliggörande av mät- och förbrukningsuppgifter.
+Prislista tillgängliggöra mätvärden (från 2025-06-01)
+Export av mätvärden
+Pris
+Förklaring
+Nya medgivande om tillgång till mätresultat
+30 kr
+Engångsavgift för nya medgivande om tillgång till mätresultat. Pris per anläggning.
+Avslut av överföring av mätresultat
+10 kr
+Engångsavgift för avslut av överföring av mätresultat per anläggning.
+Tillgång till mätresultat, administration
+110 kr
+Pris per energitjänsteföretag och månad.
+Tillgång till pågående mätresultat
+3 kr
+Anläggning som har haft mätvärdesexport under faktureringsmånaden. Pris per anläggning och månad.
+Priserna är angivna exklusive moms.
+
+Innehåll på sidan
+
+#h-Lagspanning
+Lågspänning
+
+#h-Hogspanning
+Högspänning
+
+#h-Elproduktion
+Elproduktion
+
+#h-Tillgangliggorandeavmatvarden
+Tillgängliggörande av mätvärden
+
+Relaterat
+
+/vara-tjanster/elnat
+Elnät
+
+/vara-tjanster/elnat/elnat
+Elnät
+
+/kundservice/projekt-och-planerade-arbeten/effekttaxa
+Effekttaxa
