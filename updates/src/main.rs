@@ -66,6 +66,8 @@ enum CliAction {
         vat_number: String,
         fee_link: String,
     },
+    /// Generate the registry/<country>/mod.rs module anew
+    RegenerateModule { country: Country },
     /// Create new grid operators from CSV file
     Import { csv_path: PathBuf },
     /// Get all the relevant texts from the HTML of the defined website
@@ -162,6 +164,9 @@ async fn main() -> anyhow::Result<()> {
             fee_link,
         } => {
             codegen::generate_grid_operator(country, &name, &vat_number, &fee_link)?;
+            codegen::generate_mod(country)?;
+        }
+        CliAction::RegenerateModule { country } => {
             codegen::generate_mod(country)?;
         }
         CliAction::Import { csv_path } => {
