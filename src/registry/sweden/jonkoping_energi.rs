@@ -1,6 +1,6 @@
 use crate::registry::prelude::*;
 
-pub const JÖNKÖPING_ENERGI: GridOperator = GridOperator::builder()
+pub const JONKOPING_ENERGI: GridOperator = GridOperator::builder()
     .name("Jönköping Energi")
     .vat_number("SE556449757501")
     .country(Country::SE)

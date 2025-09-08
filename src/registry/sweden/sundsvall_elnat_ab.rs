@@ -3,7 +3,7 @@ use crate::registry::prelude::*;
 // TODO: This link seems to only be relevant for 2025 pricing. Add a concept for warning about expiring links!
 const FEE_LINK: &str = "https://sundsvallelnat.se/min-anslutning/priser-och-avtalsvillkor/2025-sakringsabonnemang-privat";
 
-pub const SUNDSVALL_ELNÄT_AB: GridOperator = GridOperator::builder()
+pub const SUNDSVALL_ELNAT_AB: GridOperator = GridOperator::builder()
     .name("Sundsvall Elnät AB")
     .vat_number("SE556502722301")
     .country(Country::SE)

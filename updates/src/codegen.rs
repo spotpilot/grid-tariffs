@@ -1,5 +1,6 @@
 use itertools::Itertools;
 use quote::{ToTokens, format_ident, quote};
+use slug::slugify;
 use std::{
     fs::{self, File, read_to_string},
     io::{self, Write},
@@ -44,7 +45,7 @@ fn grid_operator_contents(
     vat_number: &str,
     fee_link: &str,
 ) -> String {
-    let constant_name = name.replace(".", "").to_case(Case::Constant);
+    let constant_name = slugify(name).to_case(Case::Constant);
     let country_code = country.code();
     format!(
         r###"use crate::registry::prelude::*;
@@ -70,7 +71,7 @@ pub const {constant_name}: GridOperator = GridOperator::builder()
 }
 
 pub(crate) fn generate_mod(country: Country) -> anyhow::Result<()> {
-    tracing::info!("Generating code structure...");
+    tracing::info!("Generating mod structure...");
     let registry_dir = registry_country_dir(country);
     let filepaths = filepaths_in_dir(&registry_dir)?
         .into_iter()

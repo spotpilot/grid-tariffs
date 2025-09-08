@@ -3,7 +3,7 @@ use crate::registry::prelude::*;
 const FEE_LINK: &str =
     "https://www.luleaenergi.se/produktion-och-infrastruktur/elnat/natpriser-och-avtalsvillkor";
 
-pub const LULEÅ_ENERGI_ELNÄT_AB: GridOperator = GridOperator::builder()
+pub const LULEA_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
     .name("Luleå Energi Elnät AB")
     .vat_number("SE556527753901")
     .country(Country::SE)

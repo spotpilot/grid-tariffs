@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_URL: &str = "https://lidkoping.se/lidkoping-miljo-och-teknik-ab/start/elnat-och-elforsorjning/abonnemang-avgifter-och-avtal";
 
-pub const LIDKÖPING_ELNÄT_AB: GridOperator = GridOperator::builder()
+pub const LIDKOPING_ELNAT_AB: GridOperator = GridOperator::builder()
     .name("Lidköping Elnät AB")
     .vat_number("SE559395998301")
     .country(Country::SE)

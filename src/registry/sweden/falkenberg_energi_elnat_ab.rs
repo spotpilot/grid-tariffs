@@ -1,6 +1,6 @@
 use crate::registry::prelude::*;
 
-pub const FALKENBERG_ENERGI_ELNÄT_AB: GridOperator = GridOperator::builder()
+pub const FALKENBERG_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
     .name("Falkenberg Energi Elnät AB")
     .vat_number("SE556461483101")
     .country(Country::SE)

@@ -1,6 +1,6 @@
 use crate::registry::prelude::*;
 
-pub const SEVAB_NÄT_AB: GridOperator = GridOperator::builder()
+pub const SEVAB_NAT_AB: GridOperator = GridOperator::builder()
     .name("SEVAB Nät AB")
     .vat_number("SE556192285601")
     .country(Country::SE)

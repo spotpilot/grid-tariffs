@@ -18,7 +18,7 @@ const BASE_PRICELIST: PriceListBuilder = PriceListBuilder::new()
             .build(),
     ])));
 
-pub const MÄLARENERGI: GridOperator = GridOperator::builder()
+pub const MALARENERGI: GridOperator = GridOperator::builder()
     .name("Mälarenergi")
     .vat_number("SE556554150401")
     .country(Country::SE)

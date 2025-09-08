@@ -34,7 +34,7 @@ const BASE: GridOperatorBuilder = GridOperatorBuilder::new()
             .build(),
     );
 
-pub const TEKNISKA_VERKEN_LINKÖPING: GridOperator = BASE
+pub const TEKNISKA_VERKEN_LINKOPING: GridOperator = BASE
     .name("Tekniska Verken Linköping")
     .vat_number("SE556483492601")
     .price_lists(&[
