@@ -1,10 +1,4 @@
-/
 Telge
-/elnat/
-Elnät
-/elnat/elnatskostnad/
-Elnätskostnad
-Elnätspriser
 Elnätspriser
 Elnätspriserna består av både fasta och rörliga delar baserat på uppgifter från dig som kund och det val du gör. För att säkerställa att du alltid har det mest förmånliga avtalet, rekommenderar vi att du regelbundet ser över dina uppgifter och val. Här kan du se vilka delar det är och ta del av prislistan för 2025 års elnätspriser.
 
@@ -78,10 +72,10 @@ Under perioden 1 november - 31 mars klockan 07.00-20.00, helgfria vardagar, gäl
 Elnätspriser för 2024
 Dela sida
 
-Elnätspriser
+Telge
 https:/ / www.telge.se/ elnat/ elnatskostnad/ elnatspriser/
 Dela sidan:
-mailto:?subject=Elnätspriser&body=https://www.telge.se/elnat/elnatskostnad/elnatspriser/
+mailto:?subject=Telge&body=https://www.telge.se/elnat/elnatskostnad/elnatspriser/
 https://www.facebook.com/sharer/sharer.php?u=https://www.telge.se/elnat/elnatskostnad/elnatspriser/
 https://www.linkedin.com/shareArticle?mini=true&url=https://www.telge.se/elnat/elnatskostnad/elnatspriser/
-http://twitter.com/share?text=Elnätspriser&url=https://www.telge.se/elnat/elnatskostnad/elnatspriser/
+http://twitter.com/share?text=Telge&url=https://www.telge.se/elnat/elnatskostnad/elnatspriser/
