@@ -8,7 +8,9 @@ pub const VASTERVIKS_KRAFT_ELNAT_AB: GridOperator = GridOperator::builder()
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 63))
     .links(Links::new(
-        Link::builder(FEE_LINK).content_locator_default().build(),
+        Link::builder(FEE_LINK)
+            .plain_content_locator("main")
+            .build(),
     ))
     .price_lists(&[PriceList::builder()
         .from_date(9999, 12, 31)

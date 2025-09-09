@@ -9,7 +9,7 @@ pub const ALVESTA_ELNAT_AB: GridOperator = GridOperator::builder()
     .main_fuses(MainFuseSizes::new_range(16, 63))
     .links(Links::new(
         Link::builder(FEE_LINK)
-            .plain_content_locator("section")
+            .plain_content_locator("section.ae-table,section.ae-article")
             .build(),
     ))
     .price_lists(&[PriceList::builder()
