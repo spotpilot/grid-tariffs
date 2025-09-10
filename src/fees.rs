@@ -1,8 +1,9 @@
 use serde::Serialize;
 
-use crate::{Cost, costs::CostPeriods};
+use crate::{Cost, Money, costs::CostPeriods};
 
 #[derive(Debug, Clone, Copy, Serialize)]
+#[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
 pub enum TransferFee {
     /// Price was not listed on their website
     Unlisted,
@@ -30,6 +31,13 @@ pub enum TransferFee {
 impl TransferFee {
     pub const fn is_unverified(&self) -> bool {
         matches!(self, Self::Unverified)
+    }
+
+    pub const fn simple_cost(&self) -> Option<Cost> {
+        match self {
+            Self::Simple(cost) => Some(*cost),
+            _ => None,
+        }
     }
 
     pub(super) const fn new_periods(periods: CostPeriods) -> Self {

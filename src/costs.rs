@@ -11,6 +11,7 @@ use crate::{
 };
 
 #[derive(Debug, Clone, Copy, Serialize)]
+#[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
 pub enum Cost {
     None,
     /// Cost has not been verified
@@ -114,6 +115,7 @@ impl Cost {
     }
 }
 #[derive(Debug, Clone, Copy, Serialize)]
+#[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
 pub struct CostPeriods {
     periods: &'static [CostPeriod],
 }
@@ -128,6 +130,7 @@ impl CostPeriods {
 }
 
 #[derive(Debug, Clone, Serialize)]
+#[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
 pub(super) struct CostPeriod {
     cost: Cost,
     load: LoadType,
@@ -168,6 +171,7 @@ impl CostPeriod {
 }
 
 #[derive(Debug, Clone, Copy, Serialize)]
+#[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
 pub enum LoadType {
     /// Base load. Always counts
     Base,
@@ -300,6 +304,7 @@ mod tests {
 }
 
 #[derive(Debug, Clone, Copy, Serialize)]
+#[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
 pub(super) enum PeriodType {
     Months(Months),
     Month(Month),

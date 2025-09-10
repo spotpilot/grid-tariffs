@@ -4,5 +4,6 @@
     },
     "search.exclude": {
         "Cargo.lock": true
-    }
+    },
+    "rust-analyzer.cargo.features": ["schemars"]
 }

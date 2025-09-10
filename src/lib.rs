@@ -15,16 +15,16 @@ use chrono::{NaiveDate, Utc};
 use serde::Serialize;
 
 use crate::{
-    builder::GridOperatorBuilder,
-    costs::Cost,
-    currency::Currency,
-    defs::MainFuseSizes,
-    fees::{OtherFees, TransferFee},
-    power_tariffs::PowerTariff,
-    registry::sweden,
-    revenues::FeedInRevenue,
+    builder::GridOperatorBuilder, costs::Cost, currency::Currency, defs::MainFuseSizes,
+    power_tariffs::PowerTariff, registry::sweden, revenues::FeedInRevenue,
 };
-pub use crate::{country::Country, links::*, money::Money, price_list::PriceList};
+pub use crate::{
+    country::Country,
+    fees::{OtherFees, TransferFee},
+    links::*,
+    money::Money,
+    price_list::PriceList,
+};
 
 mod builder;
 mod costs;

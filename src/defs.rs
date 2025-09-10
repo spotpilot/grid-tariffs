@@ -2,6 +2,7 @@ use serde::Serialize;
 
 // A definition of hours
 #[derive(Debug, Clone, Copy, Serialize)]
+#[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
 pub(super) enum Hours {
     Irrelevant,
     FromToInclusive(u8, u8),
@@ -32,6 +33,7 @@ impl MainFuseSizes {
 }
 
 #[derive(Debug, Clone, Copy, Serialize)]
+#[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
 #[repr(u8)]
 pub(super) enum Month {
     January,
@@ -50,6 +52,7 @@ pub(super) enum Month {
 
 /// An inclusive range of months
 #[derive(Debug, Clone, Copy, Serialize)]
+#[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
 pub(super) enum Months {
     Irrelevant,
     RangeInclusive(Month, Month),
