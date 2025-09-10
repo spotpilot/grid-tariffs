@@ -13,12 +13,19 @@ pub const VASTERVIKS_KRAFT_ELNAT_AB: GridOperator = GridOperator::builder()
             .build(),
     ))
     .price_lists(&[PriceList::builder()
-        .from_date(9999, 12, 31)
-        .monthly_fee(Cost::Unverified)
+        .from_date(2025, 1, 1)
+        .monthly_fee(Cost::fuses(&[
+            (16, Money::new(4140, 0).divide_by(12)),
+            (20, Money::new(5400, 0).divide_by(12)),
+            (25, Money::new(7140, 0).divide_by(12)),
+            (35, Money::new(10310, 0).divide_by(12)),
+            (50, Money::new(14780, 0).divide_by(12)),
+            (63, Money::new(19530, 0).divide_by(12)),
+        ]))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
-        .transfer_fee(TransferFee::Unverified)
+        .feed_in_revenue(FeedInRevenue::fixed_subunit(8.25))
+        .transfer_fee(TransferFee::fixed_subunit(31.40))
         .other_fees(OtherFees::Unverified)
-        .power_tariff(PowerTariff::Unverified)
+        .power_tariff(PowerTariff::NotImplemented)
         .build()])
     .build();
