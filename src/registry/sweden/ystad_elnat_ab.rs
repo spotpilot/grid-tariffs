@@ -12,12 +12,27 @@ pub const YSTAD_ELNAT_AB: GridOperator = GridOperator::builder()
         Link::builder(FEE_LINK).content_locator_default().build(),
     ))
     .price_lists(&[PriceList::builder()
-        .from_date(9999, 12, 31)
-        .monthly_fee(Cost::Unverified)
-        .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
-        .transfer_fee(TransferFee::Unverified)
+        .from_date(2025, 7, 1)
+        .monthly_fee(Cost::fuses(&[
+            (16, Money::new(472, 30)),
+            (20, Money::new(623, 50)),
+            (25, Money::new(819, 90)),
+            (35, Money::new(1323, 40)),
+            (50, Money::new(1968, 00)),
+            (63, Money::new(2759, 20)),
+        ]))
+        .monthly_production_fee(Cost::fixed(114, 60))
+        .feed_in_revenue(FeedInRevenue::SpotPriceVariable {
+            base_cost: Cost::fixed_subunit(2.41 + 0.96).add_vat(Country::SE),
+            spot_price_multiplier: 0.05,
+            approximated: false,
+        })
+        .transfer_fee(TransferFee::SpotPriceVariable {
+            base_cost: Cost::fixed_subunit(2.41 + 2.96).add_vat(Country::SE),
+            spot_price_multiplier: 0.05,
+            approximated: false,
+        })
         .other_fees(OtherFees::Unverified)
-        .power_tariff(PowerTariff::Unverified)
+        .power_tariff(PowerTariff::NotImplemented)
         .build()])
     .build();
