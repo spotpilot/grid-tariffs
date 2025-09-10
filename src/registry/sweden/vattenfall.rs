@@ -33,11 +33,11 @@ pub const VATTENFALL: GridOperator = GridOperator::builder()
     ))
     .price_lists(&[
         BASE_PRICELIST
-            .variant("E4")
+            .variant("Effekttariff E4")
             .transfer_fee(TransferFee::fixed_subunit(39.0))
             .build(),
         BASE_PRICELIST
-            .variant("T4")
+            .variant("Tidstariff T4")
             .transfer_fee(TransferFee::new_periods(CostPeriods::new(&[
                 CostPeriod::builder()
                     .load(High)
