@@ -9,6 +9,8 @@
 //! TODO: Verify that we use the correct pricing and calculation method for each grid operator
 //! TODO: Generate GridOperator entries from Tariff API
 //!
+use std::collections::HashMap;
+
 use chrono::{NaiveDate, Utc};
 use serde::Serialize;
 
@@ -18,13 +20,11 @@ use crate::{
     currency::Currency,
     defs::MainFuseSizes,
     fees::{OtherFees, TransferFee},
-    money::Money,
     power_tariffs::PowerTariff,
-    price_list::PriceList,
     registry::sweden,
     revenues::FeedInRevenue,
 };
-pub use crate::{country::Country, links::*};
+pub use crate::{country::Country, links::*, money::Money, price_list::PriceList};
 
 mod builder;
 mod costs;
@@ -69,13 +69,29 @@ impl GridOperator {
         &self.links
     }
 
-    pub fn active_price_list(&self, variant: Option<&str>) -> &PriceList {
-        self.price_lists
+    pub fn active_price_lists(&self) -> Vec<&'static PriceList> {
+        let now = Utc::now().date_naive();
+        let mut map: HashMap<Option<&str>, &PriceList> = HashMap::new();
+        for pl in self.price_lists {
+            if now >= pl.from_date() {
+                if let Some(current_max_date) = map.get(&pl.variant()).map(|pl| pl.from_date()) {
+                    if pl.from_date() > current_max_date {
+                        map.insert(pl.variant(), pl);
+                    }
+                } else {
+                    map.insert(pl.variant(), pl);
+                }
+            }
+        }
+        map.into_values().collect()
+    }
+
+    pub fn active_price_list(&self, variant: Option<&str>) -> Option<&'static PriceList> {
+        self.active_price_lists()
             .iter()
             .filter(|pl| pl.variant() == variant)
-            .filter(|pl| Utc::now().date_naive() >= pl.from_date())
-            .min_by_key(|pl| pl.from_date())
-            .unwrap()
+            .last()
+            .copied()
     }
 
     pub fn price_lists(&self) -> &'static [PriceList] {

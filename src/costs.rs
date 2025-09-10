@@ -52,7 +52,7 @@ impl Cost {
         Self::Fixed(Money::new_subunit(subunit))
     }
 
-    pub(super) const fn cost_for(&self, fuse_size: u16, yearly_consumption: u32) -> Option<Money> {
+    pub const fn cost_for(&self, fuse_size: u16, yearly_consumption: u32) -> Option<Money> {
         match *self {
             Cost::None => None,
             Cost::Unverified => None,

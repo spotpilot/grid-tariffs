@@ -45,11 +45,11 @@ impl Money {
         MoneyDisplay(*self, currency)
     }
 
-    pub fn inner(&self) -> i64 {
+    pub const fn inner(&self) -> i64 {
         self.0
     }
 
-    pub fn from_inner(inner: i64) -> Self {
+    pub const fn from_inner(inner: i64) -> Self {
         Self(inner)
     }
 
