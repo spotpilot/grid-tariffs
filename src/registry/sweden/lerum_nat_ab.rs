@@ -5,11 +5,18 @@ pub const LERUM_NAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE556109395501")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 63))
-    .links(Links::new(
-        Link::builder("https://www.lerumenergi.se/Elnat/Elnatsavgifter")
-            .plain_content_locator("#MainContent")
+    .links(
+        Links::builder()
+            .new_fee_info(
+                "https://www.lerumenergi.se/Elnat/Elnatsavgifter",
+                "#MainContent",
+            )
+            .new_feed_in_revenue_info(
+                "https://www.lerumenergi.se/Solenergi/Salj-ditt-overskott",
+                "#MainContent",
+            )
             .build(),
-    ))
+    )
     .price_lists(&[PriceList::builder()
         .from_date(9999, 12, 31)
         .monthly_fee(Cost::Unverified)
