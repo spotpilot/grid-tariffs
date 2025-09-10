@@ -8,6 +8,7 @@ use crate::{
 };
 
 #[derive(Debug, Clone, Serialize)]
+#[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
 pub enum PowerTariff {
     Unverified,
     NotImplemented,
@@ -47,6 +48,7 @@ impl PowerTariff {
 
 /// The method used to calculate power tariffs
 #[derive(Debug, Clone, Copy, Serialize)]
+#[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
 pub enum TariffCalculationMethod {
     /// Power peak for top hour of the top three days of the month
     AverageDays(u8),

@@ -21,6 +21,7 @@ impl Hours {
 
 // The supported main fuse sizes
 #[derive(Debug, Clone, Copy, Serialize)]
+#[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
 pub(super) struct MainFuseSizes {
     from: u16,
     to: u16,

@@ -4,6 +4,7 @@ use std::str::FromStr;
 use serde::Serialize;
 
 #[derive(Debug, Clone, Copy, Hash, PartialEq, Eq, PartialOrd, Ord, Serialize)]
+#[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
 pub enum Country {
     SE,
 }

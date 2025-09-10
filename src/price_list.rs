@@ -10,6 +10,7 @@ use crate::{
 };
 
 #[derive(Debug, Clone, Serialize)]
+#[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
 pub struct PriceList {
     variant: Option<&'static str>,
     from_date: NaiveDate,

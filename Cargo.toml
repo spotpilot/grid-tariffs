@@ -21,7 +21,7 @@ edition = "2024"
 [dependencies]
 chrono.workspace = true
 chrono-tz = { version = "0.10.4", default-features = false }
-schemars = { version = "0.9", optional = true, default-features = false, features = ["derive"] }
+schemars = { version = "0.9", optional = true, default-features = false, features = ["derive", "chrono04"] }
 serde.workspace = true
 thiserror = { version = "2.0.16", default-features = false }
 

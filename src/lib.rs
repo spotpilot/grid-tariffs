@@ -41,6 +41,7 @@ pub mod registry;
 mod revenues;
 
 #[derive(Debug, Clone, Serialize)]
+#[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
 pub struct GridOperator {
     name: &'static str,
     vat_number: &'static str,

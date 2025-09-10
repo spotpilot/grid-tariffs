@@ -1,6 +1,7 @@
 use serde::Serialize;
 
 #[derive(Debug, Clone, Serialize)]
+#[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
 pub struct Links {
     /// Website page containing info about the fees that the company charges
     fee_info: Link,
@@ -84,6 +85,7 @@ impl LinksBuilder {
 }
 
 #[derive(Debug, Clone, Copy, Serialize)]
+#[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
 pub enum TargetContainer {
     Current,
     Parent,
@@ -92,6 +94,7 @@ pub enum TargetContainer {
 
 /// What content to checksum witihin the elements found
 #[derive(Debug, Clone, Serialize)]
+#[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
 pub enum ContentTarget {
     TextWithLinks,
     /// Attribute which contains the relevant content
@@ -99,6 +102,7 @@ pub enum ContentTarget {
 }
 
 #[derive(Debug, Clone, Serialize)]
+#[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
 pub struct ContentLocator {
     method: LocatorMethod,
     content: ContentTarget,
@@ -142,6 +146,7 @@ impl ContentLocator {
 }
 
 #[derive(Debug, Clone, Serialize)]
+#[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
 pub enum LocatorMethod {
     CssSelector(&'static str),
     TextStartsWith {
@@ -162,6 +167,7 @@ impl LocatorMethod {
 }
 
 #[derive(Debug, Clone, Serialize)]
+#[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
 pub struct Link {
     link: &'static str,
     content_locator: ContentLocator,

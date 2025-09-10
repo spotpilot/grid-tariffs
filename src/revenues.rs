@@ -5,6 +5,7 @@ use crate::{Cost, costs::CostPeriods};
 /// Grid benefit
 /// A Swedish concept for "thanking" micro producers (<=43,5 kW) for reducing losses in the grid
 #[derive(Debug, Clone, Copy, Serialize)]
+#[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
 pub enum FeedInRevenue {
     Simple(Cost),
     /// Not yet checked

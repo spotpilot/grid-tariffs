@@ -55,6 +55,7 @@ impl TransferFee {
 
 // Other kWh based fees
 #[derive(Debug, Clone, Copy, Serialize)]
+#[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
 pub enum OtherFees {
     Unverified,
     List(&'static [(&'static str, Cost)]),
