@@ -5,7 +5,7 @@ pub struct Links {
     /// Website page containing info about the fees that the company charges
     fee_info: Link,
     /// Website page containing info about feed-in revenue
-    feed_in_revenue_info: Option<&'static str>,
+    feed_in_revenue_info: Option<Link>,
     /// Link to public Eltariff-API endpoint (https://github.com/RI-SE/Eltariff-API)
     eltariff_api: Option<&'static str>,
 }
@@ -26,7 +26,7 @@ impl Links {
 
 pub(crate) struct LinksBuilder {
     fee_info: Option<Link>,
-    feed_in_revenue_info: Option<&'static str>,
+    feed_in_revenue_info: Option<Link>,
     eltariff_api: Option<&'static str>,
 }
 
@@ -44,9 +44,29 @@ impl LinksBuilder {
         self
     }
 
-    pub(crate) const fn feed_in_revenue_info(mut self, link: &'static str) -> Self {
+    pub(crate) const fn new_fee_info(self, link: &'static str, css_selector: &'static str) -> Self {
+        self.fee_info(
+            Link::builder(link)
+                .plain_content_locator(css_selector)
+                .build(),
+        )
+    }
+
+    pub(crate) const fn feed_in_revenue_info(mut self, link: Link) -> Self {
         self.feed_in_revenue_info = Some(link);
         self
+    }
+
+    pub(crate) const fn new_feed_in_revenue_info(
+        self,
+        link: &'static str,
+        css_selector: &'static str,
+    ) -> Self {
+        self.feed_in_revenue_info(
+            Link::builder(link)
+                .plain_content_locator(css_selector)
+                .build(),
+        )
     }
 
     pub(crate) const fn eltariff_api(mut self, link: &'static str) -> Self {
