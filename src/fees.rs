@@ -4,16 +4,14 @@ use crate::{Cost, Money, costs::CostPeriods};
 
 #[derive(Debug, Clone, Copy, Serialize)]
 #[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
+#[serde(tag = "type", content = "value")]
 pub enum TransferFee {
     /// Price was not listed on their website
     Unlisted,
     /// Transfer fee has not been verified by us
     Unverified,
     /// Based on the time of day
-    TimeOfDay {
-        day: Cost,
-        night: Cost,
-    },
+    TimeOfDay { day: Cost, night: Cost },
     /// Fee does not change except possibly by fuse size
     Simple(Cost),
     /// Transfer fee that varies by the current spot price
@@ -24,6 +22,7 @@ pub enum TransferFee {
         approximated: bool,
     },
     Periods {
+        #[serde(flatten)]
         periods: CostPeriods,
     },
 }
@@ -56,13 +55,18 @@ impl TransferFee {
 // Other kWh based fees
 #[derive(Debug, Clone, Copy, Serialize)]
 #[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
+#[serde(tag = "type", content = "value")]
 pub enum OtherFees {
     Unverified,
-    List(&'static [(&'static str, Cost)]),
+    List(&'static [(&'static str, Money)]),
 }
 
 impl OtherFees {
     pub const fn is_unverified(&self) -> bool {
         matches!(self, Self::Unverified)
     }
+
+    // pub(crate) const fn single(name: &'static str, cost: Cost) -> Self {
+    //     Self::Single { name, cost }
+    // }
 }

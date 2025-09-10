@@ -2,7 +2,7 @@ use std::slice::Iter;
 
 use chrono::DateTime;
 use chrono_tz::Tz;
-use serde::Serialize;
+use serde::{Serialize, Serializer, ser::SerializeSeq};
 
 use crate::{
     Country,
@@ -12,6 +12,7 @@ use crate::{
 
 #[derive(Debug, Clone, Copy, Serialize)]
 #[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
+#[serde(tag = "type", content = "value")]
 pub enum Cost {
     None,
     /// Cost has not been verified
@@ -134,7 +135,9 @@ impl CostPeriods {
 pub(super) struct CostPeriod {
     cost: Cost,
     load: LoadType,
+    #[serde(serialize_with = "skip_nones")]
     include: [Option<PeriodType>; 2],
+    #[serde(serialize_with = "skip_nones")]
     exclude: [Option<PeriodType>; 2],
     /// Divide kw by this amount during this period
     divide_kw_by: u8,
@@ -305,10 +308,23 @@ mod tests {
 
 #[derive(Debug, Clone, Copy, Serialize)]
 #[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
+#[serde(tag = "type", content = "value")]
 pub(super) enum PeriodType {
     Months(Months),
     Month(Month),
     Hours(Hours),
     Weekends,
     SwedishHolidays,
+}
+
+fn skip_nones<S>(items: &[Option<PeriodType>; 2], serializer: S) -> Result<S::Ok, S::Error>
+where
+    S: Serializer,
+{
+    let filtered: Vec<_> = items.iter().filter_map(|x| x.as_ref()).collect();
+    let mut seq = serializer.serialize_seq(Some(filtered.len()))?;
+    for item in filtered {
+        seq.serialize_element(item)?;
+    }
+    seq.end()
 }

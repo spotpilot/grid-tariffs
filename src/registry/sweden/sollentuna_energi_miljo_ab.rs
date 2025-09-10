@@ -26,10 +26,7 @@ pub const SOLLENTUNA_ENERGI_MILJO_AB: GridOperator = GridOperator::builder()
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
         .transfer_fee(TransferFee::Unlisted)
-        .other_fees(OtherFees::List(&[(
-            "Energiavgift",
-            Cost::fixed_subunit(5.),
-        )]))
+        .other_fees(OtherFees::List(&[("Energiavgift", Money::new_subunit(5.))]))
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::AverageHours(3),
             CostPeriods::new(&[

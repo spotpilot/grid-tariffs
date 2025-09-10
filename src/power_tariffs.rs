@@ -9,11 +9,13 @@ use crate::{
 
 #[derive(Debug, Clone, Serialize)]
 #[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
+#[serde(tag = "type", content = "value")]
 pub enum PowerTariff {
     Unverified,
     NotImplemented,
     Implemented {
         method: TariffCalculationMethod,
+        #[serde(flatten)]
         periods: CostPeriods,
     },
 }
