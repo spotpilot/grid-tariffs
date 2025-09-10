@@ -13,12 +13,19 @@ pub const ARVIKA_ELNAT_AB: GridOperator = GridOperator::builder()
             .build(),
     ))
     .price_lists(&[PriceList::builder()
-        .from_date(9999, 12, 31)
-        .monthly_fee(Cost::Unverified)
+        .from_date(2025, 1, 1)
+        .monthly_fee(Cost::fuses(&[
+            (16, Money::new(4050, 0).divide_by(12)),
+            (20, Money::new(6188, 0).divide_by(12)),
+            (25, Money::new(7631, 0).divide_by(12)),
+            (35, Money::new(10000, 0).divide_by(12)),
+            (50, Money::new(13013, 0).divide_by(12)),
+            (63, Money::new(19875, 0).divide_by(12)),
+        ]))
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
-        .transfer_fee(TransferFee::Unverified)
+        .transfer_fee(TransferFee::fixed_subunit(24.9))
         .other_fees(OtherFees::Unverified)
-        .power_tariff(PowerTariff::Unverified)
+        .power_tariff(PowerTariff::NotImplemented)
         .build()])
     .build();
