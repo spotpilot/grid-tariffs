@@ -25,6 +25,6 @@ pub const VARBERGSORTENS_ELNAT_AB: GridOperator = GridOperator::builder()
         .feed_in_revenue(FeedInRevenue::Unverified)
         .transfer_fee(TransferFee::fixed_subunit(20.0))
         .other_fees(OtherFees::Unverified)
-        .power_tariff(PowerTariff::Unverified) //lite osäker vilka värden borde jag skriva i, kolla sida 4 (https://vbgelkraft.se/content/files/natprisl20250401.pdf)
+        .power_tariff(PowerTariff::NotImplemented)
         .build()])
     .build();
