@@ -19,7 +19,7 @@ pub const VASTERBERGSLAGENS_ELNAT_AB: GridOperator = GridOperator::builder()
             (35, Money::new(11850, 0).divide_by(12)),
             (50, Money::new(17135, 0).divide_by(12)),
             (63, Money::new(23065, 0).divide_by(12)),
-        ])
+        ]))
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
         .transfer_fee(TransferFee::fixed_subunit(40.0))
