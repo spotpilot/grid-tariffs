@@ -25,7 +25,7 @@ pub const TROLLHATTAN_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
             (160, Money::new(56285, 0).divide_by(12)),
         ]))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::fixed_subunit(5.60))
         .transfer_fee(TransferFee::fixed_subunit(12.15))
         .other_fees(OtherFees::Unverified)
         .power_tariff(PowerTariff::NotImplemented)
