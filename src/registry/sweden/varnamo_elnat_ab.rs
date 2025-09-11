@@ -22,6 +22,6 @@ pub const VARNAMO_ELNAT_AB: GridOperator = GridOperator::builder()
         .feed_in_revenue(FeedInRevenue::Unverified)
         .transfer_fee(TransferFee::fixed_subunit(34.20))
         .other_fees(OtherFees::Unverified)
-        .power_tariff(PowerTariff::Unverified)
+        .power_tariff(PowerTariff::NotImplemented)
         .build()])
     .build();
