@@ -2,6 +2,7 @@ use chrono::NaiveDate;
 use serde::Serialize;
 
 use crate::{
+    FeedInRevenueSimplified, Money, TransferFeeSimplified,
     costs::Cost,
     fees::{OtherFees, TransferFee},
     helpers,
@@ -59,6 +60,10 @@ impl PriceList {
 
     pub const fn power_tariff(&self) -> &PowerTariff {
         &self.power_tariff
+    }
+
+    pub fn simplified(&self, fuse_size: u16, yearly_consumption: u32) -> PriceListSimplified {
+        PriceListSimplified::new(self, fuse_size, yearly_consumption)
     }
 }
 
@@ -143,5 +148,37 @@ impl PriceListBuilder {
     pub(crate) const fn power_tariff(mut self, power_tariff: PowerTariff) -> Self {
         self.power_tariff = Some(power_tariff);
         self
+    }
+}
+
+#[derive(Debug, Clone, Serialize)]
+#[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
+pub struct PriceListSimplified {
+    variant: Option<&'static str>,
+    from_date: NaiveDate,
+    /// Fixed monthly fee
+    monthly_fee: Option<Money>,
+    /// Fixed monthly fee for allowing energy production
+    monthly_production_fee: Option<Money>,
+    transfer_fee: TransferFeeSimplified,
+    feed_in_revenue: FeedInRevenueSimplified,
+    other_fees: OtherFees,
+    power_tariff: PowerTariff,
+}
+
+impl PriceListSimplified {
+    fn new(pl: &PriceList, fuse_size: u16, yearly_consumption: u32) -> Self {
+        Self {
+            variant: pl.variant,
+            from_date: pl.from_date,
+            monthly_fee: pl.monthly_fee.cost_for(fuse_size, yearly_consumption),
+            monthly_production_fee: pl
+                .monthly_production_fee
+                .cost_for(fuse_size, yearly_consumption),
+            transfer_fee: pl.transfer_fee.simplified(fuse_size, yearly_consumption),
+            feed_in_revenue: pl.feed_in_revenue.simplified(fuse_size, yearly_consumption),
+            other_fees: pl.other_fees,
+            power_tariff: pl.power_tariff.to_owned(),
+        }
     }
 }

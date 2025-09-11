@@ -29,7 +29,7 @@ pub const KRAFTRINGEN: GridOperator = GridOperator::builder()
         ]))
         .monthly_production_fee(Cost::Unverified)
         .transfer_fee(TransferFee::SpotPriceVariable {
-            base_cost: Cost::fixed_subunit(20.0),
+            base_cost: Money::new_subunit(20.0),
             spot_price_multiplier: 0.05,
             approximated: false,
         })

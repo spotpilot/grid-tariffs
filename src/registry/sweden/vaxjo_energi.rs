@@ -27,12 +27,12 @@ pub const VAXJO_ENERGI: GridOperator = GridOperator::builder()
         ]))
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::SpotPriceVariable {
-            base_cost: Cost::fixed_subunit(1.48),
+            base_cost: Money::new_subunit(1.48),
             spot_price_multiplier: 0.0881,
             approximated: false,
         })
         .transfer_fee(TransferFee::SpotPriceVariable {
-            base_cost: Cost::fixed_subunit(8.86),
+            base_cost: Money::new_subunit(8.86),
             spot_price_multiplier: 0.1126,
             approximated: false,
         })

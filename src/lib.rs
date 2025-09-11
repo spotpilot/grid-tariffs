@@ -12,20 +12,22 @@
 use std::collections::HashMap;
 
 use chrono::{NaiveDate, Utc};
+use indexmap::IndexMap;
 use serde::Serialize;
 
 use crate::{
-    builder::GridOperatorBuilder, currency::Currency, defs::MainFuseSizes, registry::sweden,
+    builder::GridOperatorBuilder, currency::Currency, defs::MainFuseSizes,
+    price_list::PriceListSimplified, registry::sweden,
 };
 pub use crate::{
     costs::Cost,
     country::Country,
-    fees::{OtherFees, TransferFee},
+    fees::{OtherFees, TransferFee, TransferFeeSimplified},
     links::*,
     money::Money,
     power_tariffs::PowerTariff,
     price_list::PriceList,
-    revenues::FeedInRevenue,
+    revenues::{FeedInRevenue, FeedInRevenueSimplified},
 };
 
 mod builder;
@@ -74,7 +76,7 @@ impl GridOperator {
 
     pub fn active_price_lists(&self) -> Vec<&'static PriceList> {
         let now = Utc::now().date_naive();
-        let mut map: HashMap<Option<&str>, &PriceList> = HashMap::new();
+        let mut map: IndexMap<Option<&str>, &PriceList> = IndexMap::new();
         for pl in self.price_lists {
             if now >= pl.from_date() {
                 if let Some(current_max_date) = map.get(&pl.variant()).map(|pl| pl.from_date()) {
@@ -119,5 +121,39 @@ impl GridOperator {
 
     pub(crate) const fn builder() -> GridOperatorBuilder {
         GridOperatorBuilder::new()
+    }
+
+    pub fn simplified(&self, fuse_size: u16, yearly_consumption: u32) -> GridOperatorSimplified {
+        GridOperatorSimplified::new(self, fuse_size, yearly_consumption)
+    }
+}
+
+#[derive(Debug, Clone, Serialize)]
+#[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
+pub struct GridOperatorSimplified {
+    name: &'static str,
+    vat_number: &'static str,
+    /// Costs are specified in this currency
+    country: Country,
+    /// The main fuse size range that this info covers
+    main_fuses: MainFuseSizes,
+    price_lists: Vec<PriceListSimplified>,
+    links: Links,
+}
+
+impl GridOperatorSimplified {
+    fn new(op: &GridOperator, fuse_size: u16, yearly_consumption: u32) -> Self {
+        Self {
+            name: op.name,
+            vat_number: op.vat_number,
+            country: Country::SE,
+            main_fuses: op.main_fuses,
+            price_lists: op
+                .price_lists()
+                .iter()
+                .map(|pl| pl.simplified(fuse_size, yearly_consumption))
+                .collect(),
+            links: op.links.to_owned(),
+        }
     }
 }

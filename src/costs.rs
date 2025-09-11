@@ -115,11 +115,13 @@ impl Cost {
         }
     }
 }
+
 #[derive(Debug, Clone, Copy, Serialize)]
 #[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
 pub struct CostPeriods {
     periods: &'static [CostPeriod],
 }
+
 impl CostPeriods {
     pub(super) const fn new(periods: &'static [CostPeriod]) -> Self {
         Self { periods }
@@ -127,6 +129,26 @@ impl CostPeriods {
 
     pub(super) fn iter(&self) -> Iter<'_, CostPeriod> {
         self.periods.iter()
+    }
+}
+
+/// Like CostPeriods, but with costs being simple Money objects
+#[derive(Debug, Clone, Serialize)]
+#[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
+pub struct CostPeriodsSimple {
+    periods: Vec<CostPeriodSimple>,
+}
+
+impl CostPeriodsSimple {
+    pub(crate) fn new(periods: CostPeriods, fuse_size: u16, yearly_consumption: u32) -> Self {
+        Self {
+            periods: periods
+                .periods
+                .iter()
+                .map(|period| CostPeriodSimple::new(period, fuse_size, yearly_consumption))
+                .flatten()
+                .collect(),
+        }
     }
 }
 
@@ -141,6 +163,33 @@ pub(super) struct CostPeriod {
     exclude: [Option<PeriodType>; 2],
     /// Divide kw by this amount during this period
     divide_kw_by: u8,
+}
+
+/// Like CostPeriod, but with cost being a simple Money object
+#[derive(Debug, Clone, Serialize)]
+#[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
+pub(super) struct CostPeriodSimple {
+    cost: Money,
+    load: LoadType,
+    include: Vec<PeriodType>,
+    exclude: Vec<PeriodType>,
+    /// Divide kw by this amount during this period
+    divide_kw_by: u8,
+}
+
+impl CostPeriodSimple {
+    fn new(period: &CostPeriod, fuse_size: u16, yearly_consumption: u32) -> Option<Self> {
+        let Some(cost) = period.cost().cost_for(fuse_size, yearly_consumption) else {
+            return None;
+        };
+        Some(Self {
+            cost,
+            load: period.load,
+            include: period.include.into_iter().flatten().collect(),
+            exclude: period.exclude.into_iter().flatten().collect(),
+            divide_kw_by: period.divide_kw_by,
+        })
+    }
 }
 
 impl CostPeriod {

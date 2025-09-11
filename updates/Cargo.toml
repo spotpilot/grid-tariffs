@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-grid-tariffs = { version = "0.1.0", path = "../" }
+grid-tariffs = { version = "0.1.0", path = "../", features = ["schemars"]}
 anyhow = "1.0.99"
 clap = { version = "4.5.45", features = ["env", "derive"] }
 directories = "6.0.0"

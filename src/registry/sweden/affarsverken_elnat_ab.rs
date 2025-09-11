@@ -23,7 +23,7 @@ pub const AFFARSVERKEN_ELNAT_AB: GridOperator = GridOperator::builder()
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
         .transfer_fee(TransferFee::SpotPriceVariable {
-            base_cost: Cost::fixed_subunit(31.60),
+            base_cost: Money::new_subunit(31.60),
             spot_price_multiplier: 0.077,
             approximated: false,
         })

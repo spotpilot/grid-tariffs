@@ -9,6 +9,7 @@ use std::{collections::HashSet, io::stdout, path::PathBuf, str::FromStr};
 
 use clap::{Parser, Subcommand};
 use grid_tariffs::{Country, GridOperator};
+use itertools::Itertools;
 use serde::{Deserialize, Deserializer};
 use tokio::task::JoinSet;
 use tracing::{debug, error, info};
@@ -58,6 +59,18 @@ enum CliAction {
         #[arg(long)]
         match_by_vat_number: bool,
         grid_operator: String,
+    },
+    /// Simplified info about grid operator
+    SimplifiedInfo {
+        #[arg(short, long)]
+        country: Option<Country>,
+        #[arg(long)]
+        match_by_vat_number: bool,
+        grid_operator: String,
+        #[arg(short, long)]
+        fuse_size: u16,
+        #[arg(short = 'C', long)]
+        yearly_consumption: u32,
     },
     /// Create a new grid operator
     New {
@@ -155,6 +168,25 @@ async fn main() -> anyhow::Result<()> {
             } else {
                 helpers::where_operator_name_starts_with(&grid_operator, country)
             };
+            serde_json::to_writer_pretty(stdout(), &matching)?;
+        }
+        CliAction::SimplifiedInfo {
+            country,
+            match_by_vat_number,
+            grid_operator,
+            fuse_size,
+            yearly_consumption,
+        } => {
+            debug!(needle = %grid_operator, %match_by_vat_number, country = country.map(|c| c.to_string()).unwrap_or_default(), "Checking...");
+            let matching = if match_by_vat_number {
+                helpers::where_operator_vat_number_is(&grid_operator)
+            } else {
+                helpers::where_operator_name_starts_with(&grid_operator, country)
+            };
+            let matching = matching
+                .into_iter()
+                .map(|op| op.simplified(fuse_size, yearly_consumption))
+                .collect_vec();
             serde_json::to_writer_pretty(stdout(), &matching)?;
         }
         CliAction::New {
