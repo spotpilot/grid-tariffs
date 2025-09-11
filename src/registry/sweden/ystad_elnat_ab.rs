@@ -14,12 +14,12 @@ const BASE_PRICELIST: PriceListBuilder = PriceListBuilder::new()
     ]))
     .monthly_production_fee(Cost::fixed(114, 60))
     .feed_in_revenue(FeedInRevenue::SpotPriceVariable {
-        base_cost: Cost::fixed_subunit(2.41 + 0.96).add_vat(Country::SE),
+        base_cost: Money::new_subunit(2.41 + 0.96).add_vat(Country::SE),
         spot_price_multiplier: 0.05,
         approximated: false,
     })
     .transfer_fee(TransferFee::SpotPriceVariable {
-        base_cost: Cost::fixed_subunit(2.41 + 2.96).add_vat(Country::SE),
+        base_cost: Money::new_subunit(2.41 + 2.96).add_vat(Country::SE),
         spot_price_multiplier: 0.05,
         approximated: false,
     })
