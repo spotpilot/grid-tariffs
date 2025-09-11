@@ -23,11 +23,11 @@ pub const TROLLHATTAN_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
             (100, Money::new(34200, 0).divide_by(12)),
             (125, Money::new(44135, 0).divide_by(12)),
             (160, Money::new(56285, 0).divide_by(12)),
-        ])
+        ]))
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
         .transfer_fee(TransferFee::fixed_subunit(12.15))
-        .other_fees(OtherFees::Unverified)      // Är det Energiskatt? 53.88/kWh (2025)
+        .other_fees(OtherFees::Unverified)
         .power_tariff(PowerTariff::NotImplemented)
         .build()])
     .build();
