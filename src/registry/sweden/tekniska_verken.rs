@@ -1,7 +1,9 @@
 use crate::registry::prelude::*;
 
-const SUMMER: CostPeriodBuilder = CostPeriodBuilder::new().months(April, October);
-const WINTER: CostPeriodBuilder = CostPeriodBuilder::new().months(November, March);
+const BASE_BUILDER: CostPeriodBuilder = CostPeriodBuilder::new();
+
+const SUMMER: CostPeriodBuilder = BASE_BUILDER.months(April, October);
+const WINTER: CostPeriodBuilder = BASE_BUILDER.months(November, March);
 
 const NIGHT_HOURS: PeriodType = PeriodType::Hours(Hours::new(6, 22));
 const DAY_HOURS: PeriodType = PeriodType::Hours(Hours::new(23, 5));
@@ -67,10 +69,18 @@ pub const TEKNISKA_VERKEN_LINKOPING: GridOperator = BASE
                 (50, Money::new(655, 0)),
                 (63, Money::new(805, 0)),
             ]))
-            .transfer_fee(TransferFee::TimeOfDay {
-                day: Cost::fixed_subunit(17.30),
-                night: Cost::fixed_subunit(8.70),
-            })
+            .transfer_fee(TransferFee::new_periods(CostPeriods::new(&[
+                BASE_BUILDER
+                    .include(NIGHT_HOURS)
+                    .load(Low)
+                    .fixed_cost_subunit(8.70)
+                    .build(),
+                BASE_BUILDER
+                    .include(DAY_HOURS)
+                    .load(High)
+                    .fixed_cost_subunit(17.30)
+                    .build(),
+            ])))
             .power_tariff(PowerTariff::new(
                 TariffCalculationMethod::AverageDayNightDifferentiated { day: 1, night: 1 },
                 CostPeriods::new(&[
@@ -117,10 +127,18 @@ pub const TEKNISKA_VERKEN_KATRINEHOLM: GridOperator = BASE
                 (50, Money::new(995, 0)),
                 (63, Money::new(1275, 0)),
             ]))
-            .transfer_fee(TransferFee::TimeOfDay {
-                day: Cost::fixed_subunit(21.70),
-                night: Cost::fixed_subunit(10.80),
-            })
+            .transfer_fee(TransferFee::new_periods(CostPeriods::new(&[
+                BASE_BUILDER
+                    .include(NIGHT_HOURS)
+                    .load(Low)
+                    .fixed_cost_subunit(10.80)
+                    .build(),
+                BASE_BUILDER
+                    .include(DAY_HOURS)
+                    .load(High)
+                    .fixed_cost_subunit(21.70)
+                    .build(),
+            ])))
             .power_tariff(PowerTariff::new(
                 TariffCalculationMethod::AverageDayNightDifferentiated { day: 1, night: 1 },
                 CostPeriods::new(&[

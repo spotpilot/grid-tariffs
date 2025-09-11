@@ -10,8 +10,6 @@ pub enum TransferFee {
     Unlisted,
     /// Transfer fee has not been verified by us
     Unverified,
-    /// Based on the time of day
-    TimeOfDay { day: Cost, night: Cost },
     /// Fee does not change except possibly by fuse size
     Simple(Cost),
     /// Transfer fee that varies by the current spot price
