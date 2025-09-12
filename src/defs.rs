@@ -1,21 +1,13 @@
 use serde::Serialize;
 
-// A definition of hours
+// A definition of hours (inclusive)
 #[derive(Debug, Clone, Copy, Serialize)]
 #[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
-pub(super) enum Hours {
-    Irrelevant,
-    FromToInclusive(u8, u8),
-}
+pub(super) struct Hours(u8, u8);
 
 impl Hours {
     pub(super) const fn new(from: u8, to_inclusive: u8) -> Self {
-        Self::FromToInclusive(from, to_inclusive)
-    }
-
-    /// Create new, but mark as not really used
-    const fn irrelevant() -> Self {
-        Self::Irrelevant
+        Self(from, to_inclusive)
     }
 }
 
@@ -54,17 +46,10 @@ pub(super) enum Month {
 /// An inclusive range of months
 #[derive(Debug, Clone, Copy, Serialize)]
 #[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
-pub(super) enum Months {
-    Irrelevant,
-    RangeInclusive(Month, Month),
-}
+pub(super) struct Months(Month, Month);
 
 impl Months {
     pub(super) const fn new(from: Month, to: Month) -> Self {
-        Self::RangeInclusive(from, to)
-    }
-
-    const fn irrelevant() -> Self {
-        Self::Irrelevant
+        Self(from, to)
     }
 }
