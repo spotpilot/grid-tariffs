@@ -11,12 +11,26 @@ pub const BORLANGE_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
             .build(),
     ))
     .price_lists(&[PriceList::builder()
-        .from_date(9999, 12, 31)
-        .monthly_fee(Cost::Unverified)
+        .from_date(2025, 1, 1)
+        .monthly_fee(Cost::fuses(&[
+            (16, Money::new(2100, 0).divide_by(12)),
+            (20, Money::new(2550, 0).divide_by(12)),
+            (25, Money::new(3100, 0).divide_by(12)),
+            (35, Money::new(4025, 0).divide_by(12)),
+            (50, Money::new(4775, 0).divide_by(12)),
+            (63, Money::new(6050, 0).divide_by(12)),
+        ]))
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
-        .transfer_fee(TransferFee::Unverified)
+        .transfer_fee(TransferFee::Simple(Cost::fuses(&[
+            (16, Money::new_subunit(32.0)),
+            (20, Money::new_subunit(31.0)),
+            (25, Money::new_subunit(29.5)),
+            (35, Money::new_subunit(29.5)),
+            (50, Money::new_subunit(29.5)),
+            (63, Money::new_subunit(29.5)),
+        ])))
         .other_fees(OtherFees::Unverified)
-        .power_tariff(PowerTariff::Unverified)
+        .power_tariff(PowerTariff::NotImplemented)
         .build()])
     .build();
