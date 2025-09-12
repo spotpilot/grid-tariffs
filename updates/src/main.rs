@@ -58,7 +58,7 @@ enum CliAction {
         country: Option<Country>,
         #[arg(long)]
         match_by_vat_number: bool,
-        grid_operator: String,
+        grid_operator: Option<String>,
     },
     /// Simplified info about grid operator
     SimplifiedInfo {
@@ -66,7 +66,7 @@ enum CliAction {
         country: Option<Country>,
         #[arg(long)]
         match_by_vat_number: bool,
-        grid_operator: String,
+        grid_operator: Option<String>,
         #[arg(short, long)]
         fuse_size: u16,
         #[arg(short = 'C', long)]
@@ -162,12 +162,8 @@ async fn main() -> anyhow::Result<()> {
             match_by_vat_number,
             grid_operator,
         } => {
-            debug!(needle = %grid_operator, %match_by_vat_number, country = country.map(|c| c.to_string()).unwrap_or_default(), "Checking...");
-            let matching = if match_by_vat_number {
-                helpers::where_operator_vat_number_is(&grid_operator)
-            } else {
-                helpers::where_operator_name_starts_with(&grid_operator, country)
-            };
+            debug!(needle = ?grid_operator, %match_by_vat_number, country = country.map(|c| c.to_string()).unwrap_or_default(), "Checking...");
+            let matching = match_grid_operators(grid_operator, match_by_vat_number, country);
             serde_json::to_writer_pretty(stdout(), &matching)?;
         }
         CliAction::SimplifiedInfo {
@@ -177,13 +173,8 @@ async fn main() -> anyhow::Result<()> {
             fuse_size,
             yearly_consumption,
         } => {
-            debug!(needle = %grid_operator, %match_by_vat_number, country = country.map(|c| c.to_string()).unwrap_or_default(), "Checking...");
-            let matching = if match_by_vat_number {
-                helpers::where_operator_vat_number_is(&grid_operator)
-            } else {
-                helpers::where_operator_name_starts_with(&grid_operator, country)
-            };
-            let matching = matching
+            debug!(needle = ?grid_operator, %match_by_vat_number, country = country.map(|c| c.to_string()).unwrap_or_default(), "Checking...");
+            let matching = match_grid_operators(grid_operator, match_by_vat_number, country)
                 .into_iter()
                 .map(|op| op.simplified(fuse_size, yearly_consumption))
                 .collect_vec();
@@ -296,4 +287,20 @@ where
 {
     let s = String::deserialize(de)?;
     T::from_str(&s).map_err(serde::de::Error::custom)
+}
+
+fn match_grid_operators(
+    name: Option<String>,
+    match_by_vat_number: bool,
+    country: Option<Country>,
+) -> Vec<&'static GridOperator> {
+    if let Some(name) = name {
+        if match_by_vat_number {
+            helpers::where_operator_vat_number_is(&name)
+        } else {
+            helpers::where_operator_name_starts_with(&name, country)
+        }
+    } else {
+        GridOperator::all()
+    }
 }
