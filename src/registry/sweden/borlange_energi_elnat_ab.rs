@@ -23,7 +23,7 @@ pub const BORLANGE_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
         .transfer_fee(TransferFee::Simple(Cost::fuses(&[
-            (16, Money::new_subunit(32.5)),
+            (16, Money::new_subunit(32.0)),
             (20, Money::new_subunit(31.0)),
             (25, Money::new_subunit(29.5)),
             (35, Money::new_subunit(29.5)),
