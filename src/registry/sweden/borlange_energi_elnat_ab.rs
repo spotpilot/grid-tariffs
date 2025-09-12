@@ -30,7 +30,6 @@ pub const BORLANGE_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
             (50, Money::new_subunit(29.5)),
             (63, Money::new_subunit(29.5)),
         ])))
-        .other_fees(OtherFees::Unverified)
         .power_tariff(PowerTariff::NotImplemented)
         .build()])
     .build();

@@ -38,7 +38,6 @@ pub const SKOVDE_ENERGI: GridOperator = GridOperator::builder()
                 .fixed_cost_subunit(5.5)
                 .build(),
         ])))
-        .other_fees(OtherFees::Unverified)
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::PeakHour,
             CostPeriods::new(&[CostPeriod::builder()

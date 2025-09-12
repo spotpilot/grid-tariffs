@@ -27,7 +27,6 @@ pub const BRITTEDALS_ELNAT_EK_FOR: GridOperator = GridOperator::builder()
             spot_price_multiplier: 0.09,
             approximated: false,
         })
-        .other_fees(OtherFees::Unverified)
         .power_tariff(PowerTariff::NotImplemented)
         .build()])
     .build();

@@ -34,7 +34,6 @@ pub const KRAFTRINGEN: GridOperator = GridOperator::builder()
             approximated: false,
         })
         .feed_in_revenue(FeedInRevenue::Unlisted)
-        .other_fees(OtherFees::Unverified)
         .power_tariff(PowerTariff::Unverified)
         .build()])
     .build();

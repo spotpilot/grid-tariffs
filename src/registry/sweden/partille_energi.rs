@@ -16,7 +16,6 @@ pub const PARTILLE_ENERGI: GridOperator = GridOperator::builder()
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
         .transfer_fee(TransferFee::fixed_subunit(30.50))
-        .other_fees(OtherFees::Unverified)
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::PeakHour,
             CostPeriods::new(&[CostPeriod::builder().load(Base).fixed_cost(32, 50).build()]),

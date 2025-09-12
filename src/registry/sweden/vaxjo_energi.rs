@@ -36,7 +36,6 @@ pub const VAXJO_ENERGI: GridOperator = GridOperator::builder()
             spot_price_multiplier: 0.1126,
             approximated: false,
         })
-        .other_fees(OtherFees::Unverified)
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::AverageHours(3),
             CostPeriods::new(&[CostPeriod::builder()

@@ -16,7 +16,6 @@ pub const MELLERSTA_SKANES_KRAFT_EK_FOR: GridOperator = GridOperator::builder()
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
         .transfer_fee(TransferFee::Unverified)
-        .other_fees(OtherFees::Unverified)
         .power_tariff(PowerTariff::Unverified)
         .build()])
     .build();

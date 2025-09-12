@@ -23,7 +23,6 @@ pub const BTEA: GridOperator = GridOperator::builder()
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
         .transfer_fee(TransferFee::Simple(Cost::fixed_subunit(2.50)))
-        .other_fees(OtherFees::Unverified)
         .power_tariff(PowerTariff::new(
             // TODO: We need to differentiate between high load and low load hours..., Not day and night...
             TariffCalculationMethod::PeakHours(&[High, Low]),

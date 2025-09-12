@@ -3,7 +3,6 @@ use crate::registry::prelude::*;
 const BASE_PRICELIST: PriceListBuilder = PriceListBuilder::new()
     .from_date(2025, 9, 1)
     .monthly_production_fee(Cost::Unverified)
-    .other_fees(OtherFees::Unverified)
     .feed_in_revenue(FeedInRevenue::new_periods(CostPeriods::new(&[
         CostPeriod::builder()
             .load(High)

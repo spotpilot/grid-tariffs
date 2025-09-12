@@ -35,7 +35,6 @@ pub const BJARKE_ENERGI: GridOperator = GridOperator::builder()
                 .fixed_cost_subunit(16.25)
                 .build(),
         ])))
-        .other_fees(OtherFees::Unverified)
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::PeakHour,
             CostPeriods::new(&[

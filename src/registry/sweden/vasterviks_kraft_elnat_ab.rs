@@ -25,7 +25,6 @@ pub const VASTERVIKS_KRAFT_ELNAT_AB: GridOperator = GridOperator::builder()
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::fixed_subunit(8.25))
         .transfer_fee(TransferFee::fixed_subunit(31.40))
-        .other_fees(OtherFees::Unverified)
         .power_tariff(PowerTariff::NotImplemented)
         .build()])
     .build();

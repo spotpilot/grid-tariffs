@@ -27,7 +27,6 @@ pub const AFFARSVERKEN_ELNAT_AB: GridOperator = GridOperator::builder()
             spot_price_multiplier: 0.077,
             approximated: false,
         })
-        .other_fees(OtherFees::Unverified)
         .power_tariff(PowerTariff::NotImplemented)
         .build()])
     .build();

@@ -22,7 +22,7 @@ use crate::{
 pub use crate::{
     costs::Cost,
     country::Country,
-    fees::{OtherFees, TransferFee, TransferFeeSimplified},
+    fees::{TransferFee, TransferFeeSimplified},
     links::*,
     money::Money,
     power_tariffs::PowerTariff,

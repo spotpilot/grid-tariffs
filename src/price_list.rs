@@ -2,12 +2,8 @@ use chrono::NaiveDate;
 use serde::Serialize;
 
 use crate::{
-    FeedInRevenueSimplified, Money, TransferFeeSimplified,
-    costs::Cost,
-    fees::{OtherFees, TransferFee},
-    helpers,
-    power_tariffs::PowerTariff,
-    revenues::FeedInRevenue,
+    FeedInRevenueSimplified, Money, TransferFeeSimplified, costs::Cost, fees::TransferFee, helpers,
+    power_tariffs::PowerTariff, revenues::FeedInRevenue,
 };
 
 #[derive(Debug, Clone, Serialize)]
@@ -21,7 +17,6 @@ pub struct PriceList {
     monthly_production_fee: Cost,
     transfer_fee: TransferFee,
     feed_in_revenue: FeedInRevenue,
-    other_fees: OtherFees,
     power_tariff: PowerTariff,
 }
 
@@ -54,10 +49,6 @@ impl PriceList {
         &self.feed_in_revenue
     }
 
-    pub const fn other_fees(&self) -> &OtherFees {
-        &self.other_fees
-    }
-
     pub const fn power_tariff(&self) -> &PowerTariff {
         &self.power_tariff
     }
@@ -77,7 +68,6 @@ pub(crate) struct PriceListBuilder {
     monthly_production_fee: Option<Cost>,
     transfer_fee: Option<TransferFee>,
     feed_in_revenue: Option<FeedInRevenue>,
-    other_fees: Option<OtherFees>,
     power_tariff: Option<PowerTariff>,
 }
 
@@ -90,7 +80,6 @@ impl PriceListBuilder {
             monthly_production_fee: None,
             transfer_fee: None,
             feed_in_revenue: None,
-            other_fees: None,
             power_tariff: None,
         }
     }
@@ -105,7 +94,6 @@ impl PriceListBuilder {
                 .expect("`monthly_production_fee` required"),
             transfer_fee: self.transfer_fee.expect("`transfer_fee` required"),
             feed_in_revenue: self.feed_in_revenue.expect("`feed_in_revenue` required"),
-            other_fees: self.other_fees.expect("`other_fees` required"),
             power_tariff: self.power_tariff.expect("`grid_tariff` required"),
         }
     }
@@ -140,11 +128,6 @@ impl PriceListBuilder {
         self
     }
 
-    pub(crate) const fn other_fees(mut self, other_fees: OtherFees) -> Self {
-        self.other_fees = Some(other_fees);
-        self
-    }
-
     pub(crate) const fn power_tariff(mut self, power_tariff: PowerTariff) -> Self {
         self.power_tariff = Some(power_tariff);
         self
@@ -162,7 +145,6 @@ pub struct PriceListSimplified {
     monthly_production_fee: Option<Money>,
     transfer_fee: TransferFeeSimplified,
     feed_in_revenue: FeedInRevenueSimplified,
-    other_fees: OtherFees,
     power_tariff: PowerTariff,
 }
 
@@ -177,7 +159,6 @@ impl PriceListSimplified {
                 .cost_for(fuse_size, yearly_consumption),
             transfer_fee: pl.transfer_fee.simplified(fuse_size, yearly_consumption),
             feed_in_revenue: pl.feed_in_revenue.simplified(fuse_size, yearly_consumption),
-            other_fees: pl.other_fees,
             power_tariff: pl.power_tariff.to_owned(),
         }
     }

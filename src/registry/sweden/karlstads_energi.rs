@@ -19,7 +19,6 @@ pub const KARLSTADS_ENERGI: GridOperator = GridOperator::builder()
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
         .transfer_fee(TransferFee::Simple(Cost::fixed_subunit(9.75)))
-        .other_fees(OtherFees::Unverified)
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::PeakHour,
             // NOTE: The pricing is actually the same for 16-63A as >63A if you account for VAT vs without VAT

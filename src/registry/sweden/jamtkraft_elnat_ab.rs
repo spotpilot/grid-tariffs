@@ -26,7 +26,6 @@ pub const JAMTKRAFT_ELNAT_AB: GridOperator = GridOperator::builder()
         .monthly_production_fee(Cost::fixed_yearly(240, 0))
         .feed_in_revenue(FeedInRevenue::fixed_subunit(4.0))
         .transfer_fee(TransferFee::fixed_subunit(7.50))
-        .other_fees(OtherFees::Unverified)
         .power_tariff(PowerTariff::Unverified)
         .build()])
     .build();

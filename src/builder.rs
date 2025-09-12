@@ -3,7 +3,7 @@ use crate::{
     costs::Cost,
     currency::Currency,
     defs::MainFuseSizes,
-    fees::{OtherFees, TransferFee},
+    fees::TransferFee,
     helpers,
     links::Links,
     money::Money,

@@ -31,7 +31,6 @@ pub const BODENS_ENERGI_NAT_AB: GridOperator = GridOperator::builder()
             16,
             Money::new_subunit(22.25),
         )])))
-        .other_fees(OtherFees::Unverified)
         .power_tariff(PowerTariff::NotImplemented)
         .build()])
     .build();

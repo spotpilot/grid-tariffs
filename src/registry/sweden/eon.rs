@@ -8,7 +8,6 @@ const BASE_PRICELIST: PriceListBuilder = PriceListBuilder::new()
         approximated: true,
     })
     .monthly_production_fee(Cost::Unverified)
-    .other_fees(OtherFees::Unverified)
     .power_tariff(PowerTariff::NotImplemented);
 
 pub const EON: GridOperator = GridOperator::builder()

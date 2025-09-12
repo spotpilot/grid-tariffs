@@ -30,7 +30,6 @@ pub const VARBERG_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
         .transfer_fee(TransferFee::fixed_subunit(9.5))
-        .other_fees(OtherFees::Unverified)
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::AverageHours((3)),
             CostPeriods::new(&[CostPeriod::builder()

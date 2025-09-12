@@ -12,7 +12,6 @@ pub const LINDE_ENERGI: GridOperator = GridOperator::builder()
     ))
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
-        .other_fees(OtherFees::Unverified)
         .monthly_fee(Cost::fuse_range(&[
             (16, 16, Money::new(384, 42)),
             (20, 20, Money::new(482, 33)),

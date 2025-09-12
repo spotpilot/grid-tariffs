@@ -28,7 +28,6 @@ pub const GISLAVED_ENERGI: GridOperator = GridOperator::builder()
         .transfer_fee(TransferFee::fixed_subunit(30.61))
         // TODO: They don't list if it's with or without taxes
         .feed_in_revenue(FeedInRevenue::fixed_subunit(4.2))
-        .other_fees(OtherFees::Unverified)
         .power_tariff(PowerTariff::Unverified)
         .build()])
     .build();

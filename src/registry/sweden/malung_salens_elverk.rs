@@ -23,7 +23,6 @@ pub const MALUNG_SALENS_ELVERK: GridOperator = GridOperator::builder()
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
         .transfer_fee(TransferFee::Unlisted)
-        .other_fees(OtherFees::Unverified)
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::AverageHours(5),
             CostPeriods::new(&[

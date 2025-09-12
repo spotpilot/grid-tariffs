@@ -57,25 +57,6 @@ impl TransferFee {
     }
 }
 
-// Other kWh based fees
-#[derive(Debug, Clone, Copy, Serialize)]
-#[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
-#[serde(tag = "type", content = "value")]
-pub enum OtherFees {
-    Unverified,
-    List(&'static [(&'static str, Money)]),
-}
-
-impl OtherFees {
-    pub const fn is_unverified(&self) -> bool {
-        matches!(self, Self::Unverified)
-    }
-
-    // pub(crate) const fn single(name: &'static str, cost: Cost) -> Self {
-    //     Self::Single { name, cost }
-    // }
-}
-
 /// Like TransferFee, but with costs being simple Money objects
 #[derive(Debug, Clone, Serialize)]
 #[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]

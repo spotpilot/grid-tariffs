@@ -17,8 +17,7 @@ const WINTER_NIGHTS: CostPeriodBuilder = WINTER.include(NIGHT_HOURS);
 const BASE_PRICELIST_2025: PriceListBuilder = PriceListBuilder::new()
     .from_date(2025, 1, 1)
     .feed_in_revenue(FeedInRevenue::fixed_subunit(5.40))
-    .monthly_production_fee(Cost::Unverified)
-    .other_fees(OtherFees::Unverified);
+    .monthly_production_fee(Cost::Unverified);
 
 const BASE: GridOperatorBuilder = GridOperatorBuilder::new()
     .country(Country::SE)

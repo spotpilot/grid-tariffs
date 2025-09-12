@@ -24,7 +24,6 @@ pub const GAVLE_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
             .monthly_production_fee(Cost::Unverified)
             .feed_in_revenue(FeedInRevenue::fixed_subunit(8.0))
             .transfer_fee(TransferFee::fixed_subunit(15.0))
-            .other_fees(OtherFees::Unverified)
             .power_tariff(PowerTariff::NotImplemented)
             .build(),
         PriceList::builder()
@@ -50,7 +49,6 @@ pub const GAVLE_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
                 (16, 16, Money::new_subunit(24.74)),
                 (20, 200, Money::new_subunit(12.00)),
             ])))
-            .other_fees(OtherFees::Unverified)
             .power_tariff(PowerTariff::NotImplemented)
             .build(),
     ])

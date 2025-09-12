@@ -21,7 +21,6 @@ pub const ESKILSTUNA_ENERGI_MILJO: GridOperator = GridOperator::builder()
             .transfer_fee(TransferFee::fixed_subunit(29.40))
             .monthly_production_fee(Cost::fixed(25, 0))
             .feed_in_revenue(FeedInRevenue::fixed_subunit(5.0))
-            .other_fees(OtherFees::Unverified)
             .power_tariff(PowerTariff::Unverified)
             .build(),
     ])

@@ -23,7 +23,6 @@ const BASE_PRICELIST: PriceListBuilder = PriceListBuilder::new()
         spot_price_multiplier: 0.05,
         approximated: false,
     })
-    .other_fees(OtherFees::Unverified)
     .power_tariff(PowerTariff::NotImplemented);
 
 pub const YSTAD_ELNAT_AB: GridOperator = GridOperator::builder()

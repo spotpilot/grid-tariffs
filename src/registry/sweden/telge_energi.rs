@@ -25,7 +25,6 @@ pub const TELGE_ENERGI: GridOperator = GridOperator::builder()
         .transfer_fee(TransferFee::fixed_subunit(7.0))
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Simple(Cost::fixed_subunit(5.60)))
-        .other_fees(OtherFees::Unverified)
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::PeakHour,
             CostPeriods::new(&[CostPeriod::builder()

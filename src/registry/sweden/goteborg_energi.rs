@@ -20,7 +20,6 @@ pub const GOTEBORG_ENERGI: GridOperator = GridOperator::builder()
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
         .transfer_fee(TransferFee::fixed_subunit(25.))
-        .other_fees(OtherFees::Unverified)
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::AverageDays(3),
             CostPeriods::new(&[CostPeriod::builder().load(Base).fixed_cost(45, 0).build()]),

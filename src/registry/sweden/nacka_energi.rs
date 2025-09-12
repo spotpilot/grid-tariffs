@@ -45,7 +45,6 @@ pub const NACKA_ENERGI: GridOperator = GridOperator::builder()
                 ]))
                 .build(),
         ])))
-        .other_fees(OtherFees::Unverified)
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::AverageHours(3),
             CostPeriods::new(&[CostPeriod::builder().load(Base).fixed_cost(51, 85).build()]),

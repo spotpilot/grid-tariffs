@@ -44,7 +44,6 @@ pub(crate) fn report(format: OutputFormat, output_dir: &Path) -> anyhow::Result<
         monthly_production_fee: bool,
         transfer_fee: bool,
         feed_in_revenue: bool,
-        other_fees: bool,
         power_tariff: bool,
         fee_info_filled_out: bool,
         fee_info_explicit_locator: bool,
@@ -61,7 +60,6 @@ pub(crate) fn report(format: OutputFormat, output_dir: &Path) -> anyhow::Result<
                 monthly_production_fee: stats.monthly_production_fee,
                 transfer_fee: stats.transfer_fee,
                 feed_in_revenue: stats.feed_in_revenue,
-                other_fees: stats.other_fees,
                 power_tariff: stats.power_tariff,
                 fee_info_filled_out: stats.links.fee_info.filled_out,
                 fee_info_explicit_locator: !stats.links.fee_info.uses_default_locator,
@@ -115,7 +113,6 @@ struct FilledOutStats {
     monthly_production_fee: bool,
     transfer_fee: bool,
     feed_in_revenue: bool,
-    other_fees: bool,
     power_tariff: bool,
     links: LinksStats,
     completion_percentage: u8,
@@ -133,7 +130,6 @@ impl FilledOutStats {
             this.monthly_production_fee = !pl.monthly_production_fee().is_unverified();
             this.transfer_fee = !pl.transfer_fee().is_unverified();
             this.feed_in_revenue = !pl.feed_in_revenue().is_unverified();
-            this.other_fees = !pl.other_fees().is_unverified();
             this.power_tariff = !pl.power_tariff().is_unverified();
             this.links = LinksStats::new(operator.links());
             this.completion_percentage = this.calculate_completion_percentage();
@@ -166,10 +162,7 @@ impl FilledOutStats {
             percentage += 10;
         }
         if self.monthly_production_fee {
-            percentage += 5;
-        }
-        if self.other_fees {
-            percentage += 5;
+            percentage += 10;
         }
         percentage
     }
