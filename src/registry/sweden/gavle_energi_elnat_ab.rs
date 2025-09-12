@@ -12,14 +12,14 @@ pub const GAVLE_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
     ))
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
-        .monthly_fee(Cost::Unverified)
-        .monthly_production_fee(Cost::fuses(&[
+        .monthly_fee(Cost::fuses(&[
             (16, Money::new(4150, 0).divide_by(12)),
             (20, Money::new(6145, 0).divide_by(12)),
             (25, Money::new(8260, 0).divide_by(12)),
             (35, Money::new(10200, 0).divide_by(12)),
             (50, Money::new(15090, 0).divide_by(12)),
         ]))
+        .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
         .transfer_fee(TransferFee::fixed_subunit(15.0))
         .other_fees(OtherFees::Unverified)
