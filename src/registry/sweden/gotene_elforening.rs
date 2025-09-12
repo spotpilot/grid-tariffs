@@ -11,12 +11,19 @@ pub const GOTENE_ELFORENING: GridOperator = GridOperator::builder()
         Link::builder(FEE_LINK).content_locator_default().build(),
     ))
     .price_lists(&[PriceList::builder()
-        .from_date(9999, 12, 31)
-        .monthly_fee(Cost::Unverified)
+        .from_date(2025, 1, 1)
+        .monthly_fee(Cost::fuses(&[
+            (16, Money::new(4778, 0).divide_by(12)),
+            (20, Money::new(8094, 0).divide_by(12)),
+            (25, Money::new(9748, 0).divide_by(12)),
+            (35, Money::new(14238, 0).divide_by(12)),
+            (50, Money::new(21174, 0).divide_by(12)),
+            (63, Money::new(29420, 0).divide_by(12)),
+        ]))
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
-        .transfer_fee(TransferFee::Unverified)
+        .transfer_fee(TransferFee::fixed_subunit(23.13))
         .other_fees(OtherFees::Unverified)
-        .power_tariff(PowerTariff::Unverified)
+        .power_tariff(PowerTariff::NotImplemented)
         .build()])
     .build();
