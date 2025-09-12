@@ -11,7 +11,7 @@ pub const BRITTEDALS_ELNAT_EK_FOR: GridOperator = GridOperator::builder()
         Link::builder(FEE_LINK).content_locator_default().build(),
     ))
     .price_lists(&[PriceList::builder()
-        .from_date(2019, 2, 1)
+        .from_date(2025, 1, 1)
         .monthly_fee(Cost::fuses(&[
             (16, Money::new(580, 0)),
             (20, Money::new(810, 0)),
