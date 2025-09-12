@@ -1,97 +1,116 @@
-
-/
-Hem
-/
-https://trelleborgsenergi.se/el-som-gor-skillnad/
-El som gör skillnad
-/
-Våra elpriser
-
-Våra elpriser
-
-Elhandel – elprisområde SE4
-
-Avtal
-Pris inkl. moms
-Fast avgift/år inkl. moms
-Jämförpris lägenhet 2 000 kWh/år inkl. moms
-Jämförelsepris lägenhet 5000 kwh/år inkl. moms
-Jämförpris villa 20 000 kwh/år inkl. moms
-Rörligt pris, Fossilfri mix- löpande 1 månads uppsägning
-99,13 öre/kWh (Aug)
-375 kr
-117,88 öre/kWh
-106,63 öre/kWh
-101,00 öre/kWh
-Rörligt pris, Förnybar mix- löpande 1 månads uppsägning
-99,28 öre/kWh (Aug)
-375 kr
-118,03 öre/kWh
-106,78 öre/kWh
-101,15 öre/kWh
-Timpris**, Fossilfri mix
-98,61 öre/kWh (Aug)
-375 kr
-117,36 öre/kWh
-106,11 öre/kWh
-100,49 öre/kWh
-Timpris**, Förnybar mix
-98,76 öre/kWh (Aug)
-375 kr
-117,51 öre/kWh
-106,26 öre/kWh
-100,64 öre/kWh
-Elavtal fast pris-  1 år
-122,25 öre/kWh
-375 kr
-141,00 öre/kWh
-129,75 öre/kWh
-124,13 öre/kWh
-Elavtal fast pris – 2 år
-124,38 öre/kWh
-375 kr
-143,13 öre/kWh
-131,88 öre/kWh
-126,25 öre/kWh
-Elavtal fast pris – 3 år
-123,13 öre/kWh
-375 kr
-141,88 öre/kWh
-130,63 öre/kWh
-125,00 öre/kWh
-Anvisat pris och ej avtalsförlängt elpris- löpande start.
-Rörligt elpris med påslag 18,75 öre/kWh.
-500 kr
-
-**Från och med 1 oktober 2025 övergår timprisavtal till kvartsprisavtal. Priset fastställs då per kvart istället för per timme.
-
-Ersättning mikroproduktion
-
-Avtal
-Pris ex. moms*
-Fast årsavgift inkl. moms
-Överskottsel – timspotpris**
-+10 öre/kWh år 1, därefter +2 öre/kWh
-375 kr
-Anvisat timspotpris och ej avtalsförlängt pris
-minus 4 öre/kWh
-500 kr
-
-*Priset gäller från och med 1/1 2024.
-**
-Från och med 1 oktober
+Priserna inklusive moms inom parentes i öre/kWh
+Lågspänning
+Högspänning
+Januari
+9,67 (12,09)
+8,18
+Februari
+11,09 (13,86)
+9,59
+Mars
+8,99 (11,24)
+7,50
+April
+8,86 (11,08)
+7,36
+Maj
+9,01 (11,26)
+7,52
+Juni
+8,10 (10,13)
+6,61
+Juli
+8,17 (10,21)
+6,67
+Augusti
+9,81 (12,26)
+8,31
+Priser inkl. moms inom parentes
 2025
-övergår timprisavtal till kvartsprisavtal. Priset fastställs då per kvart istället för per timme.
-
-Relaterade sidor
-
-https://trelleborgsenergi.se/el/vara-elpriser/rorligt-pris-se4/
-Rörligt pris SE4
-https://trelleborgsenergi.se/el/vara-elpriser/timpris-se4/
-Timpris SE4
-
-Har du några frågor om våra elpriser?
-Hör av dig till vår kundservice – vi hjälper dig gärna!
-
-https://trelleborgsenergi.se/kundservice/
-Kontakta oss
+2024 fr.o.m. 1 juli
+Lägenhet*
+1 811 kr/år (2 264 kr/år)
+1 675 kr/år (2 094 kr/år)
+16 A
+4 241 kr/år (5 301 kr/år)
+3 922 kr/år (4 903 kr/år)
+20 A
+5 504 kr/år (6 880 kr/år)
+5 089 kr/år (6 361 kr/år)
+25 A
+6 594 kr/år ( 8 243 kr/år)
+6 097 kr/år (7 621 kr/år)
+35 A
+9 769 kr/år (12 211 kr/år)
+9 033 kr/år (11 291 kr/år)
+50 A
+15 125 kr/år (18 906 kr/år)
+13 985 kr/år (17 481 kr/år)
+63 A
+18 781 kr/år (23 476 kr/år)
+17 366 kr/år (21 708 kr/år)
+80 A
+24 277 kr/år (30 346 kr/år)
+22 448 kr/år (28 060 kr/år)
+100 A
+31 211 kr/år (39 014 kr/år)
+28 859 kr/år (36 074 kr/år)
+125 A
+40 317 kr/år (50 396 kr/år)
+37 279 kr/år (46 599 kr/år)
+160 A
+52 139 kr/år (65 174 kr/år)
+48 210 kr/år (60 263 kr/år)
+200 A
+68 020 kr/år (85 025 kr/år)
+62 894 kr/år (78 618 kr/år)
+Avgifter och tjänster
+Kostnad (inklusive 25 % moms)
+Inflyttningsavgift (administrativ avgift på första fakturan)
+300 kr
+Förgävesbesök, om bokad tid inte avbokas eller dagtid beredskap
+1 875 kr
+Förgävesbesök, beredskap utanför dagtid
+2 800 kr
+Extra mätare (utöver den som ingår vid anslutning)
+3 000 kr
+Sammanslagning/delning av mätare/abonnemang
+1 875 kr
+Flytt av mätare (befintligt abonnemang)
+1 875 kr
+Flytt av mätare (inkl. utflytt inifrån byggnad till fasadskåp/kabelmätarskåp, ej medräknat grävarbete)
+0 kr (ev grävarbete tillkommer)
+Säkringsändring 16-25 A (vid löpande abonnemang)
+300 kr
+Säkringsändring 35-63 A (vid löpande abonnemang)
+Offert
+Säkringsändring > 63A (gäller även för nyanslutning på befintlig servis)
+Offert
+Förbrukningsstatistik (utöver normal mätning 1 gång/månad)
+250 kr
+Leverans av mätvärde (på kundens egen undermätning)
+100 kr
+Frånkoppling (vid utebliven betalning)
+1 000 kr (ingen momspliktig tjänst)
+Frånkoppling (på kundens egen begäran)
+1 875 kr (fast kostnad löper även under frånkoppling)
+Kontrollmätning av mätare
+1 875 kr
+Kontrollmätning av mätare utförd av ackrediterat kontrollinstitut
+faktisk kostnad + 10 %
+Tillfällig anläggning ≤ 63 A, engångsavgift
+7 250 kr
+Tillfällig anläggning 80-125 A, engångsavgift
+10 000 kr
+Tillfällig anläggning 160-200 A, engångsavgift
+12 500 kr
+Tillfällig anläggning ˃ 200A, engångsavgift
+Offert
+Tillfällig anläggning ≤ 63 A, månadsavgift 1-12 månader utöver tariff
+200 kr
+Tillfällig anläggning ≤ 63 A, månadsavgift efter 12 månader utöver tariff
+750 kr
+Tillfällig anläggning ≥ 63 A, månadsavgift 1-12 månader utöver tariff
+200 kr
+Tillfällig anläggning ≥ 63 A, månadsavgift efter 12 månader utöver tariff
+1 000 kr

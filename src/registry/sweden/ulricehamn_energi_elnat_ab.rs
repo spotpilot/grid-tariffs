@@ -25,7 +25,7 @@ pub const ULRICEHAMN_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
             (160, Money::new(49591, 0).divide_by(12)),
             (200, Money::new(63212, 0).divide_by(12)),
         ]))
-        .monthly_production_fee(Cost::Fixed(Money::new(163, 00).divide_by(12)))
+        .monthly_production_fee(Cost::fixed(163, 00).divide_by(12))
         .feed_in_revenue(FeedInRevenue::fixed_subunit(6.10 - 2.25))
         .transfer_fee(TransferFee::fixed_subunit(28.75))
         .power_tariff(PowerTariff::NotImplemented)

@@ -32,6 +32,7 @@ impl Cost {
     pub(super) const fn fuses(values: &'static [(u16, Money)]) -> Self {
         Self::Fuses(values)
     }
+
     pub(super) const fn fuse_range(ranges: &'static [(u16, u16, Money)]) -> Self {
         Self::FuseRange(ranges)
     }
@@ -52,6 +53,19 @@ impl Cost {
 
     pub(super) const fn fixed_subunit(subunit: f64) -> Self {
         Self::Fixed(Money::new_subunit(subunit))
+    }
+
+    pub(super) const fn divide_by(&self, by: i64) -> Self {
+        match self {
+            Self::None => Self::None,
+            Self::Unverified => Self::Unverified,
+            Self::Fixed(money) => Self::Fixed(money.divide_by(by)),
+            Self::Fuses(items) => panic!(".divide_by() is unsupported on Cost::Fuses"),
+            Self::FuseRangeYearlyConsumption(items) => {
+                panic!(".divide_by() is unsupported on Cost::FuseRangeYearlyConsumption")
+            }
+            Self::FuseRange(items) => panic!(".divide_by() is unsupported on Cost::FuseRange"),
+        }
     }
 
     pub const fn cost_for(&self, fuse_size: u16, yearly_consumption: u32) -> Option<Money> {
