@@ -21,13 +21,15 @@ use crate::{
 };
 pub use crate::{
     costs::Cost,
-    country::Country,
+    country::{Country, CountryInfo},
     fees::{TransferFee, TransferFeeSimplified},
     links::*,
     money::Money,
     power_tariffs::PowerTariff,
     price_list::PriceList,
     revenues::{FeedInRevenue, FeedInRevenueSimplified},
+    tax_reductions::*,
+    taxes::*,
 };
 
 mod builder;
@@ -43,6 +45,8 @@ mod power_tariffs;
 mod price_list;
 pub mod registry;
 mod revenues;
+mod tax_reductions;
+mod taxes;
 
 #[derive(Debug, Clone, Serialize)]
 #[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
@@ -128,6 +132,7 @@ impl GridOperator {
     }
 }
 
+/// Grid operator with only current prices
 #[derive(Debug, Clone, Serialize)]
 #[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
 pub struct GridOperatorSimplified {
@@ -146,11 +151,11 @@ impl GridOperatorSimplified {
         Self {
             name: op.name,
             vat_number: op.vat_number,
-            country: Country::SE,
+            country: op.country(),
             main_fuses: op.main_fuses,
             price_lists: op
-                .price_lists()
-                .iter()
+                .active_price_lists()
+                .into_iter()
                 .map(|pl| pl.simplified(fuse_size, yearly_consumption))
                 .collect(),
             links: op.links.to_owned(),

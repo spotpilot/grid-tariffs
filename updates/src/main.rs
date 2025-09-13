@@ -8,7 +8,7 @@ mod store;
 use std::{collections::HashSet, io::stdout, path::PathBuf, str::FromStr};
 
 use clap::{Parser, Subcommand};
-use grid_tariffs::{Country, GridOperator};
+use grid_tariffs::{Country, CountryInfo, GridOperator};
 use itertools::Itertools;
 use serde::{Deserialize, Deserializer};
 use tokio::task::JoinSet;
@@ -51,6 +51,12 @@ enum CliAction {
         #[arg(long)]
         match_by_vat_number: bool,
         grid_operator: String,
+    },
+    /// Info about taxes & tax reductions for country
+    CountryInfo {
+        country: Country,
+        #[arg(short = 'c', long)]
+        only_current: bool,
     },
     /// Info about grid operator
     Info {
@@ -156,6 +162,17 @@ async fn main() -> anyhow::Result<()> {
                 let comparison = store.fetch_and_compare(op).await?;
                 println!("{comparison} diff: {}", comparison.diff());
             }
+        }
+        CliAction::CountryInfo {
+            country,
+            only_current,
+        } => {
+            let info = if only_current {
+                CountryInfo::current(country)
+            } else {
+                CountryInfo::from(country)
+            };
+            serde_json::to_writer_pretty(stdout(), &info)?;
         }
         CliAction::Info {
             country,
