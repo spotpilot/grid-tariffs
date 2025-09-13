@@ -61,7 +61,7 @@ Elöverföring 31,40 öre/kWh. Energiskatt 54,88 öre/kWh.
 Priser för utskrift, pdf
 Tidstariff nät
 
-#readMore-73a76d55-bf5f-4ba2-993a-2785c2f5adc3
+#readMore-de9819a3-4062-443d-a3e6-0599c1704534
 Läs mer
 
 2025
