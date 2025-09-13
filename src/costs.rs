@@ -20,7 +20,7 @@ pub enum Cost {
     Fixed(Money),
     Fuses(&'static [(u16, Money)]),
     /// Fuse size combined with a yearly energy consumption limit
-    FuseRangeYearlyConsumption(&'static [(u16, u16, Option<u32>, Money)]),
+    FusesYearlyConsumption(&'static [(u16, Option<u32>, Money)]),
     FuseRange(&'static [(u16, u16, Money)]),
 }
 
@@ -37,10 +37,10 @@ impl Cost {
         Self::FuseRange(ranges)
     }
 
-    pub(super) const fn fuse_range_with_yearly_consumption(
-        values: &'static [(u16, u16, Option<u32>, Money)],
+    pub(super) const fn fuses_with_yearly_consumption(
+        values: &'static [(u16, Option<u32>, Money)],
     ) -> Cost {
-        Self::FuseRangeYearlyConsumption(values)
+        Self::FusesYearlyConsumption(values)
     }
 
     pub(super) const fn fixed(int: i64, fract: u8) -> Self {
@@ -61,7 +61,7 @@ impl Cost {
             Self::Unverified => Self::Unverified,
             Self::Fixed(money) => Self::Fixed(money.divide_by(by)),
             Self::Fuses(items) => panic!(".divide_by() is unsupported on Cost::Fuses"),
-            Self::FuseRangeYearlyConsumption(items) => {
+            Self::FusesYearlyConsumption(items) => {
                 panic!(".divide_by() is unsupported on Cost::FuseRangeYearlyConsumption")
             }
             Self::FuseRange(items) => panic!(".divide_by() is unsupported on Cost::FuseRange"),
@@ -76,19 +76,19 @@ impl Cost {
             Cost::Fuses(values) => {
                 let mut i = 0;
                 while i < values.len() {
-                    let (size, money) = values[i];
-                    if fuse_size == size {
+                    let (fsize, money) = values[i];
+                    if fuse_size == fsize {
                         return Some(money);
                     }
                     i += 1;
                 }
                 None
             }
-            Cost::FuseRangeYearlyConsumption(values) => {
+            Cost::FusesYearlyConsumption(values) => {
                 let mut i = 0;
                 while i < values.len() {
-                    let (min_size, max_size, max_consumption, money) = values[i];
-                    if fuse_size >= min_size && fuse_size <= max_size {
+                    let (fsize, max_consumption, money) = values[i];
+                    if fsize == fuse_size {
                         if let Some(max_consumption) = max_consumption {
                             if max_consumption <= yearly_consumption {
                                 return Some(money);
@@ -124,8 +124,18 @@ impl Cost {
             Cost::Unverified => Cost::Unverified,
             Cost::Fixed(money) => Cost::Fixed(money.add_vat(country)),
             Cost::Fuses(items) => todo!(),
-            Cost::FuseRangeYearlyConsumption(items) => todo!(),
+            Cost::FusesYearlyConsumption(items) => todo!(),
             Cost::FuseRange(items) => todo!(),
+        }
+    }
+
+    pub(crate) fn is_yearly_consumption_based(&self, fuse_size: u16) -> bool {
+        match self {
+            Cost::FusesYearlyConsumption(items) => items
+                .iter()
+                .filter(|(fsize, _, _)| *fsize == fuse_size)
+                .any(|(_, yearly_consumption, _)| yearly_consumption.is_some()),
+            _ => false,
         }
     }
 }
@@ -143,6 +153,12 @@ impl CostPeriods {
 
     pub(super) fn iter(&self) -> Iter<'_, CostPeriod> {
         self.periods.iter()
+    }
+
+    pub(crate) fn is_yearly_consumption_based(&self, fuse_size: u16) -> bool {
+        self.periods
+            .iter()
+            .any(|cp| cp.is_yearly_consumption_based(fuse_size))
     }
 }
 
@@ -233,6 +249,10 @@ impl CostPeriod {
 
     fn exclude_period_types(&self) -> Vec<PeriodType> {
         self.exclude.iter().flatten().copied().collect()
+    }
+
+    fn is_yearly_consumption_based(&self, fuse_size: u16) -> bool {
+        self.cost.is_yearly_consumption_based(fuse_size)
     }
 }
 

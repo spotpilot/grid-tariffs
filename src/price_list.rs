@@ -138,6 +138,9 @@ impl PriceListBuilder {
 #[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
 pub struct PriceListSimplified {
     variant: Option<&'static str>,
+    fuse_size: u16,
+    /// If the energy consumption of the household affects the costs and/or fees for this fuse size
+    yearly_consumption_based: bool,
     from_date: NaiveDate,
     /// Fixed monthly fee
     monthly_fee: Option<Money>,
@@ -152,6 +155,12 @@ impl PriceListSimplified {
     fn new(pl: &PriceList, fuse_size: u16, yearly_consumption: u32) -> Self {
         Self {
             variant: pl.variant,
+            fuse_size,
+            yearly_consumption_based: pl.monthly_fee.is_yearly_consumption_based(fuse_size)
+                || pl
+                    .monthly_production_fee
+                    .is_yearly_consumption_based(fuse_size)
+                || pl.transfer_fee.is_yearly_consumption_based(fuse_size),
             from_date: pl.from_date,
             monthly_fee: pl.monthly_fee.cost_for(fuse_size, yearly_consumption),
             monthly_production_fee: pl

@@ -55,6 +55,16 @@ impl TransferFee {
     pub(super) const fn fixed_subunit(subunit: f64) -> Self {
         Self::Simple(Cost::fixed_subunit(subunit))
     }
+
+    pub(super) fn is_yearly_consumption_based(&self, fuse_size: u16) -> bool {
+        match self {
+            TransferFee::Unlisted
+            | TransferFee::Unverified
+            | TransferFee::SpotPriceVariable { .. } => false,
+            TransferFee::Simple(cost) => cost.is_yearly_consumption_based(fuse_size),
+            TransferFee::Periods { periods } => periods.is_yearly_consumption_based(fuse_size),
+        }
+    }
 }
 
 /// Like TransferFee, but with costs being simple Money objects
