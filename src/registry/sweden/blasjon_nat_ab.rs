@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://www.blasjonnat.se/elnat/59534.natavgifter_2025.html";
 
-pub const BLASJON_NAT_AB: GridOperator = GridOperator::builder()
+pub static BLASJON_NAT_AB: GridOperator = GridOperator::builder()
     .name("Blåsjön Nät AB")
     .vat_number("SE556061917201")
     .country(Country::SE)

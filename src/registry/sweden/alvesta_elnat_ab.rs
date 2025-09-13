@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://alvestaenergi.se/alvesta-elnat/priser/";
 
-pub const ALVESTA_ELNAT_AB: GridOperator = GridOperator::builder()
+pub static ALVESTA_ELNAT_AB: GridOperator = GridOperator::builder()
     .name("Alvesta Elnät AB")
     .vat_number("SE556525621001")
     .country(Country::SE)

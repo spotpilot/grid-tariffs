@@ -1,5 +1,5 @@
 use crate::registry::prelude::*;
-pub const MALUNG_SALENS_ELVERK: GridOperator = GridOperator::builder()
+pub static MALUNG_SALENS_ELVERK: GridOperator = GridOperator::builder()
     .name("Malung-Sälens Elverk")
     .vat_number("SE556527481701")
     .country(Country::SE)

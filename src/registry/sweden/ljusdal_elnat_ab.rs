@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://www.ljusdalenergi.se/elnat/natpriser.html";
 
-pub const LJUSDAL_ELNAT_AB: GridOperator = GridOperator::builder()
+pub static LJUSDAL_ELNAT_AB: GridOperator = GridOperator::builder()
     .name("Ljusdal Elnät AB")
     .vat_number("SE556509989101")
     .country(Country::SE)

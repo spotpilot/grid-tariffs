@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://www.haboenergi.se/natavgiften-privat/";
 
-pub const HABO_ENERGI_KRAFT_AB: GridOperator = GridOperator::builder()
+pub static HABO_ENERGI_KRAFT_AB: GridOperator = GridOperator::builder()
     .name("Habo Energi Kraft AB")
     .vat_number("SE556058980501")
     .country(Country::SE)

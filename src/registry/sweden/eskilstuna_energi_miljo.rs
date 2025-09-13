@@ -1,6 +1,6 @@
 use crate::registry::prelude::*;
 
-pub const ESKILSTUNA_ENERGI_MILJO: GridOperator = GridOperator::builder()
+pub static ESKILSTUNA_ENERGI_MILJO: GridOperator = GridOperator::builder()
     .name("Eskilstuna Energi & Miljö")
     .vat_number("SE556513955601")
     .country(Country::SE)

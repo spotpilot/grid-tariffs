@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://www.bromolla.se/bevab/om-elmarknaden-och-elnat/elpriser/";
 
-pub const BROMOLLA_ENERGI_VATTEN_AB: GridOperator = GridOperator::builder()
+pub static BROMOLLA_ENERGI_VATTEN_AB: GridOperator = GridOperator::builder()
     .name("Bromölla Energi & Vatten AB")
     .vat_number("SE556525863801")
     .country(Country::SE)

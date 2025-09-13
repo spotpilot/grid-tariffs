@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://ueab.se/elnat/priser/";
 
-pub const ULRICEHAMN_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
+pub static ULRICEHAMN_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
     .name("Ulricehamn Energi Elnät AB")
     .vat_number("SE559425365901")
     .country(Country::SE)

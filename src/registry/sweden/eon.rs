@@ -10,7 +10,7 @@ const BASE_PRICELIST: PriceListBuilder = PriceListBuilder::new()
     .monthly_production_fee(Cost::Unverified)
     .power_tariff(PowerTariff::NotImplemented);
 
-pub const EON: GridOperator = GridOperator::builder()
+pub static EON: GridOperator = GridOperator::builder()
     .name("E.ON")
     .vat_number("SE556070606001")
     .country(Country::SE)

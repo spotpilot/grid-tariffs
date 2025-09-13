@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://nybroenergi.se/vara-tjanster/el/prislista-elnat/";
 
-pub const NYBRO_ELNAT_AB: GridOperator = GridOperator::builder()
+pub static NYBRO_ELNAT_AB: GridOperator = GridOperator::builder()
     .name("Nybro Elnät AB")
     .vat_number("SE556058489701")
     .country(Country::SE)

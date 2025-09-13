@@ -1,6 +1,6 @@
 use crate::registry::prelude::*;
 
-pub const LERUM_NAT_AB: GridOperator = GridOperator::builder()
+pub static LERUM_NAT_AB: GridOperator = GridOperator::builder()
     .name("Lerum Nät AB")
     .vat_number("SE556109395501")
     .country(Country::SE)

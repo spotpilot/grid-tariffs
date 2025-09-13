@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://www.vemab.se/tjanster/el/elnat/natavgifter";
 
-pub const VIMMERBY_ENERGI_NAT_AB: GridOperator = GridOperator::builder()
+pub static VIMMERBY_ENERGI_NAT_AB: GridOperator = GridOperator::builder()
     .name("Vimmerby Energi Nät AB")
     .vat_number("SE559011498801")
     .country(Country::SE)

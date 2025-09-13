@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://www.emmabodaenergi.se/elnat/vad-kostar-det.html";
 
-pub const EMMABODA_ELNAT_AB: GridOperator = GridOperator::builder()
+pub static EMMABODA_ELNAT_AB: GridOperator = GridOperator::builder()
     .name("Emmaboda Elnät AB")
     .vat_number("SE556459927101")
     .country(Country::SE)

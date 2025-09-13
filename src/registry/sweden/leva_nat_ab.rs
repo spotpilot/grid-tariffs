@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://www.levailysekil.se/elnat/investeringsresan/taxor-elnat.html";
 
-pub const LEVA_NAT_AB: GridOperator = GridOperator::builder()
+pub static LEVA_NAT_AB: GridOperator = GridOperator::builder()
     .name("LEVA Nät AB")
     .vat_number("SE556508344001")
     .country(Country::SE)

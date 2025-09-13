@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://www.stureforsgods.se/elnatinfo";
 
-pub const STUREFORS_ELDISTRIBUTION_AB: GridOperator = GridOperator::builder()
+pub static STUREFORS_ELDISTRIBUTION_AB: GridOperator = GridOperator::builder()
     .name("Sturefors Eldistribution AB")
     .vat_number("SE556528175401")
     .country(Country::SE)

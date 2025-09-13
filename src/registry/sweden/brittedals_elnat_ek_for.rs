@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://brittedal.se/elnatspriser";
 
-pub const BRITTEDALS_ELNAT_EK_FOR: GridOperator = GridOperator::builder()
+pub static BRITTEDALS_ELNAT_EK_FOR: GridOperator = GridOperator::builder()
     .name("Brittedals Elnät ek för")
     .vat_number("SE737000010601")
     .country(Country::SE)

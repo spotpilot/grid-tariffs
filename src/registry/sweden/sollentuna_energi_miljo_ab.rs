@@ -1,5 +1,5 @@
 use crate::registry::prelude::*;
-pub const SOLLENTUNA_ENERGI_MILJO_AB: GridOperator = GridOperator::builder()
+pub static SOLLENTUNA_ENERGI_MILJO_AB: GridOperator = GridOperator::builder()
     .name("Sollentuna Energi & Miljö AB")
     .vat_number("SE559457224901")
     .country(Country::SE)

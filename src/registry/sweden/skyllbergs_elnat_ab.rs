@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://www.skyllbergsbruk.se/elnat";
 
-pub const SKYLLBERGS_ELNAT_AB: GridOperator = GridOperator::builder()
+pub static SKYLLBERGS_ELNAT_AB: GridOperator = GridOperator::builder()
     .name("Skyllbergs Elnät AB")
     .vat_number("SE559440600001")
     .country(Country::SE)

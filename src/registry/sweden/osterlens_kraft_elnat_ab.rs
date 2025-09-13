@@ -3,7 +3,7 @@ use crate::registry::prelude::*;
 const FEE_LINK: &str =
     "https://www.osterlenskraft.se/elnat/arsavgift-for-sakringskunder-fran-1-januari-2025/";
 
-pub const OSTERLENS_KRAFT_ELNAT_AB: GridOperator = GridOperator::builder()
+pub static OSTERLENS_KRAFT_ELNAT_AB: GridOperator = GridOperator::builder()
     .name("Österlens Kraft Elnät AB")
     .vat_number("SE556406305401")
     .country(Country::SE)

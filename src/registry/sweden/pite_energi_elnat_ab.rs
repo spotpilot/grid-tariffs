@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://www.piteenergi.se/elnat/elnatsavgifter-2025/";
 
-pub const PITE_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
+pub static PITE_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
     .name("Pite Energi Elnät AB")
     .vat_number("SE556245982501")
     .country(Country::SE)

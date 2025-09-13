@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://www.gavleenergi.se/elnat/elnatspriser/";
 
-pub const GAVLE_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
+pub static GAVLE_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
     .name("Gävle Energi Elnät AB")
     .vat_number("SE559397122801")
     .country(Country::SE)

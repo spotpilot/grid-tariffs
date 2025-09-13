@@ -1,6 +1,6 @@
 use crate::registry::prelude::*;
 
-pub const HARJEANS_NAT_AB: GridOperator = GridOperator::builder()
+pub static HARJEANS_NAT_AB: GridOperator = GridOperator::builder()
     .name("Härjeåns Nät AB")
     .vat_number("SE556189319801")
     .country(Country::SE)

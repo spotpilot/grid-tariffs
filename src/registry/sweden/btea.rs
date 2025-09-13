@@ -1,6 +1,6 @@
 use crate::registry::prelude::*;
 
-pub const BTEA: GridOperator = GridOperator::builder()
+pub static BTEA: GridOperator = GridOperator::builder()
     .name("BTEA")
     .vat_number("SE556012264901")
     .country(Country::SE)

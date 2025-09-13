@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://www.bengtsforsenergi.se/startsida-nat/sidor/elnatsavgift.html";
 
-pub const BENGTSFORS_ENERGI_NAT_AB: GridOperator = GridOperator::builder()
+pub static BENGTSFORS_ENERGI_NAT_AB: GridOperator = GridOperator::builder()
     .name("Bengtsfors Energi Nät AB")
     .vat_number("SE556502112701")
     .country(Country::SE)

@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://nackansenergi.se/elnat/natavgifter/";
 
-pub const NACKANS_ELNAT_AB: GridOperator = GridOperator::builder()
+pub static NACKANS_ELNAT_AB: GridOperator = GridOperator::builder()
     .name("Näckåns Elnät AB")
     .vat_number("SE556526699501")
     .country(Country::SE)

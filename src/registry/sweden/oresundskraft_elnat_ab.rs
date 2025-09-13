@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://www.oresundskraft.se/privat/elnat/elnatsavgifter/";
 
-pub const ORESUNDSKRAFT_ELNAT_AB: GridOperator = GridOperator::builder()
+pub static ORESUNDSKRAFT_ELNAT_AB: GridOperator = GridOperator::builder()
     .name("Öresundskraft Elnät AB")
     .vat_number("SE559443403601")
     .country(Country::SE)

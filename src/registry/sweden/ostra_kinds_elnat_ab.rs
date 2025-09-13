@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://www.ostrakindselkraft.se/elnatsavgifter/";
 
-pub const OSTRA_KINDS_ELNAT_AB: GridOperator = GridOperator::builder()
+pub static OSTRA_KINDS_ELNAT_AB: GridOperator = GridOperator::builder()
     .name("Östra Kinds Elnät AB")
     .vat_number("SE559461755601")
     .country(Country::SE)

@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://www.filipstadenerginat.se/forkunder/avgifterochvillkor.64.html";
 
-pub const FILIPSTAD_ENERGINAT_AB: GridOperator = GridOperator::builder()
+pub static FILIPSTAD_ENERGINAT_AB: GridOperator = GridOperator::builder()
     .name("Filipstad Energinät AB")
     .vat_number("SE556517499101")
     .country(Country::SE)

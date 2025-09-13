@@ -115,15 +115,18 @@ impl GridOperator {
 
     pub fn get(country: Country, name: &str) -> Option<&'static Self> {
         match country {
-            Country::SE => sweden::GRID_OPERATORS.iter().find(|o| o.name == name),
+            Country::SE => sweden::GRID_OPERATORS
+                .iter()
+                .find(|o| o.name == name)
+                .copied(),
         }
     }
 
     pub fn all() -> Vec<&'static Self> {
-        sweden::GRID_OPERATORS.iter().collect()
+        sweden::GRID_OPERATORS.iter().copied().collect()
     }
 
-    pub fn all_for_country(country: Country) -> &'static [Self] {
+    pub fn all_for_country(country: Country) -> &'static [&'static Self] {
         match country {
             Country::SE => sweden::GRID_OPERATORS,
         }

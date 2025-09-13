@@ -2,7 +2,7 @@ use std::marker::PhantomData;
 
 use crate::registry::prelude::*;
 
-pub const TELGE_ENERGI: GridOperator = GridOperator::builder()
+pub static TELGE_ENERGI: GridOperator = GridOperator::builder()
     .name("Telge Energi")
     .vat_number("SE559463499901")
     .country(Country::SE)

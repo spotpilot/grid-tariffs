@@ -1,6 +1,6 @@
 use crate::registry::prelude::*;
 
-pub const JBF: GridOperator = GridOperator::builder()
+pub static JBF: GridOperator = GridOperator::builder()
     .name("Jukkasjärvi Sockens Belysningsförening")
     .vat_number("SE797300037001")
     .country(Country::SE)

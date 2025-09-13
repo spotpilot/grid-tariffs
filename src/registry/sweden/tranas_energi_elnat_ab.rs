@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://tranasenergi.se/foretag/elnat/priser-och-villkor/";
 
-pub const TRANAS_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
+pub static TRANAS_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
     .name("Tranås Energi Elnät AB")
     .vat_number("SE556952020701")
     .country(Country::SE)

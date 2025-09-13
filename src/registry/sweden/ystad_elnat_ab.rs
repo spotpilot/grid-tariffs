@@ -25,7 +25,7 @@ const BASE_PRICELIST: PriceListBuilder = PriceListBuilder::new()
     })
     .power_tariff(PowerTariff::NotImplemented);
 
-pub const YSTAD_ELNAT_AB: GridOperator = GridOperator::builder()
+pub static YSTAD_ELNAT_AB: GridOperator = GridOperator::builder()
     .name("Ystad Elnät AB")
     .vat_number("SE559408185201")
     .country(Country::SE)

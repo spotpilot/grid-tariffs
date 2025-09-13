@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://www.soderhamnnara.se/sidor/elnat/priser-privatkunder.html";
 
-pub const SODERHAMN_ELNAT_AB: GridOperator = GridOperator::builder()
+pub static SODERHAMN_ELNAT_AB: GridOperator = GridOperator::builder()
     .name("Söderhamn Elnät AB")
     .vat_number("SE556205999701")
     .country(Country::SE)

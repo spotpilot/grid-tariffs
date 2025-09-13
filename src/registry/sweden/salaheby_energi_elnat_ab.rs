@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://sheab.se/elnat/natpriser-och-villkor/";
 
-pub const SALAHEBY_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
+pub static SALAHEBY_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
     .name("SalaHeby Energi Elnät AB")
     .vat_number("SE556181367501")
     .country(Country::SE)

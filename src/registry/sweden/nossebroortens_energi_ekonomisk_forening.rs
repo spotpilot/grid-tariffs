@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://www.nossebroenergi.se/sv/nattaxa";
 
-pub const NOSSEBROORTENS_ENERGI_EKONOMISK_FORENING: GridOperator = GridOperator::builder()
+pub static NOSSEBROORTENS_ENERGI_EKONOMISK_FORENING: GridOperator = GridOperator::builder()
     .name("Nossebroortens Energi Ekonomisk Förening")
     .vat_number("SE716410364501")
     .country(Country::SE)

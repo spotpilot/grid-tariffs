@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://www.ronneby.se/sidowebbplatser/miljoteknik/elnat/priser-villkor-for-elnat/natavgifter.html";
 
-pub const RONNEBY_MILJOTEKNIK_ELNAT_AB: GridOperator = GridOperator::builder()
+pub static RONNEBY_MILJOTEKNIK_ELNAT_AB: GridOperator = GridOperator::builder()
     .name("Ronneby Miljöteknik Elnät AB")
     .vat_number("SE559015198001")
     .country(Country::SE)

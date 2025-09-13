@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://www.alingsasenergi.se/elnatsavgift-och-avtalsvillkor/";
 
-pub const ALINGSAS_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
+pub static ALINGSAS_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
     .name("Alingsås Energi Elnät AB")
     .vat_number("SE559434718801")
     .country(Country::SE)

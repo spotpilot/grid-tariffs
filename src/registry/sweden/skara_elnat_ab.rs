@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://skaraenergi.se/genvagar/priser-och-avtalsvillkor/";
 
-pub const SKARA_ELNAT_AB: GridOperator = GridOperator::builder()
+pub static SKARA_ELNAT_AB: GridOperator = GridOperator::builder()
     .name("Skara Elnät AB")
     .vat_number("SE559441591001")
     .country(Country::SE)

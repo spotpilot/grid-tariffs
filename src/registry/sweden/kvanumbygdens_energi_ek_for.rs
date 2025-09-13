@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://kvanumenergi.se/elnat/natavgift/";
 
-pub const KVANUMBYGDENS_ENERGI_EK_FOR: GridOperator = GridOperator::builder()
+pub static KVANUMBYGDENS_ENERGI_EK_FOR: GridOperator = GridOperator::builder()
     .name("Kvänumbygdens Energi ek. för")
     .vat_number("SE768400219401")
     .country(Country::SE)

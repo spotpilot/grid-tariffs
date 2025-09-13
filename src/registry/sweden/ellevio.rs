@@ -1,6 +1,6 @@
 use crate::registry::prelude::*;
 
-pub const ELLEVIO: GridOperator = GridOperator::builder()
+pub static ELLEVIO: GridOperator = GridOperator::builder()
     .name("Ellevio")
     .vat_number("SE556037732601")
     .country(Country::SE)

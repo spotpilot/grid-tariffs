@@ -3,7 +3,7 @@ use crate::registry::prelude::*;
 const FEE_LINK: &str =
     "https://www.gislavedenergi.se/el/elnat/elnatsavgifter/elnatsavgifter-sakringsabonnemang/";
 
-pub const GISLAVED_ENERGI: GridOperator = GridOperator::builder()
+pub static GISLAVED_ENERGI: GridOperator = GridOperator::builder()
     .name("Gislaved Energi")
     .vat_number("SE556223876501")
     .country(Country::SE)

@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://sjoboelnat.se/priser-villkor/";
 
-pub const SJOBO_ELNAT_AB: GridOperator = GridOperator::builder()
+pub static SJOBO_ELNAT_AB: GridOperator = GridOperator::builder()
     .name("Sjöbo Elnät AB")
     .vat_number("SE556011551001")
     .country(Country::SE)

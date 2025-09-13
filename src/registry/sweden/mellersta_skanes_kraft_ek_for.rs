@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://mskraft.nu/natpriser-2/";
 
-pub const MELLERSTA_SKANES_KRAFT_EK_FOR: GridOperator = GridOperator::builder()
+pub static MELLERSTA_SKANES_KRAFT_EK_FOR: GridOperator = GridOperator::builder()
     .name("Mellersta Skånes Kraft, ek för")
     .vat_number("SE737000245801")
     .country(Country::SE)

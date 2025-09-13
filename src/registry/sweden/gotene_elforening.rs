@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://kinnekulleenergi.se/avgifter-villkor/";
 
-pub const GOTENE_ELFORENING: GridOperator = GridOperator::builder()
+pub static GOTENE_ELFORENING: GridOperator = GridOperator::builder()
     .name("Götene Elförening")
     .vat_number("SE769000061201")
     .country(Country::SE)

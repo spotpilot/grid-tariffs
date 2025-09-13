@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://www.teknikivast.se/sidor/elnat/ditt-elnatsabonnemang/din-natavgift/natavgift-sakringskund.html";
 
-pub const ARVIKA_ELNAT_AB: GridOperator = GridOperator::builder()
+pub static ARVIKA_ELNAT_AB: GridOperator = GridOperator::builder()
     .name("Arvika Elnät AB")
     .vat_number("SE556527671301")
     .country(Country::SE)

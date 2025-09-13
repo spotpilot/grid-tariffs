@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://aselekraft.net/priser/natpriser/";
 
-pub const ASELE_ELNAT_AB: GridOperator = GridOperator::builder()
+pub static ASELE_ELNAT_AB: GridOperator = GridOperator::builder()
     .name("Åsele Elnät AB")
     .vat_number("SE559012889701")
     .country(Country::SE)

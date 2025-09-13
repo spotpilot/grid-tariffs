@@ -3,7 +3,7 @@ use crate::registry::prelude::*;
 const FEE_LINK: &str =
     "https://www.nackaenergi.se/privat/elnatspriser-1-juli--2025/priser-privat-1-juli-2025";
 
-pub const NACKA_ENERGI: GridOperator = GridOperator::builder()
+pub static NACKA_ENERGI: GridOperator = GridOperator::builder()
     .name("Nacka Energi")
     .vat_number("SE556017953201")
     .country(Country::SE)

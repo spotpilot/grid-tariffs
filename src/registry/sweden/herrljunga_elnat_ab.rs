@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://www.el.herrljunga.se/elnat/avtal-och-priser/";
 
-pub const HERRLJUNGA_ELNAT_AB: GridOperator = GridOperator::builder()
+pub static HERRLJUNGA_ELNAT_AB: GridOperator = GridOperator::builder()
     .name("Herrljunga Elnät AB")
     .vat_number("SE556525920601")
     .country(Country::SE)

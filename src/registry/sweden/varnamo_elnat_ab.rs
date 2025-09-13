@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://www.varnamoenergi.se/abonnemangsavgifter-elnat";
 
-pub const VARNAMO_ELNAT_AB: GridOperator = GridOperator::builder()
+pub static VARNAMO_ELNAT_AB: GridOperator = GridOperator::builder()
     .name("Värnamo Elnät AB")
     .vat_number("SE556528056601")
     .country(Country::SE)

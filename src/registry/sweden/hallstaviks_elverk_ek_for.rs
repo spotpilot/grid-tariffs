@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://hallstavikselverk.se/elnat/elnatspriser/";
 
-pub const HALLSTAVIKS_ELVERK_EK_FOR: GridOperator = GridOperator::builder()
+pub static HALLSTAVIKS_ELVERK_EK_FOR: GridOperator = GridOperator::builder()
     .name("Hallstaviks Elverk ek för")
     .vat_number("SE714400051501")
     .country(Country::SE)

@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://borgholmenergi.se/privat/elnat/priser-och-avtal/natpriser/";
 
-pub const BORGHOLM_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
+pub static BORGHOLM_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
     .name("Borgholm Energi Elnät AB")
     .vat_number("SE556020762201")
     .country(Country::SE)

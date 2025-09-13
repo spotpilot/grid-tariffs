@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://tidaholmsenergi.se/elnat/natpriser/";
 
-pub const TIDAHOLMS_ELNAT_AB: GridOperator = GridOperator::builder()
+pub static TIDAHOLMS_ELNAT_AB: GridOperator = GridOperator::builder()
     .name("Tidaholms Elnät AB")
     .vat_number("SE556004333201")
     .country(Country::SE)

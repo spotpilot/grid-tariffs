@@ -16,7 +16,7 @@ const BASE_PRICELIST: PriceListBuilder = PriceListBuilder::new()
     .feed_in_revenue(FeedInRevenue::Unverified)
     .power_tariff(PowerTariff::NotImplemented);
 
-pub const VATTENFALL: GridOperator = GridOperator::builder()
+pub static VATTENFALL: GridOperator = GridOperator::builder()
     .name("Vattenfall")
     .vat_number("SE556417080001")
     .country(Country::SE)

@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://www.smedjebackenenergi.se/elnat/elnatspriser.html";
 
-pub const SMEDJEBACKEN_ENERGI_NAT_AB: GridOperator = GridOperator::builder()
+pub static SMEDJEBACKEN_ENERGI_NAT_AB: GridOperator = GridOperator::builder()
     .name("Smedjebacken Energi Nät AB")
     .vat_number("SE556527871901")
     .country(Country::SE)

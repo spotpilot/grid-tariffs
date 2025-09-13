@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://degerforsenergi.se/elnat/effekttaxa-galler-fran-1-9-2024/";
 
-pub const DEGERFORS_ELNAT_AB: GridOperator = GridOperator::builder()
+pub static DEGERFORS_ELNAT_AB: GridOperator = GridOperator::builder()
     .name("Degerfors Elnät AB")
     .vat_number("SE559440444301")
     .country(Country::SE)

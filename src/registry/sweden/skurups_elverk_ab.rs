@@ -3,7 +3,7 @@ use crate::registry::prelude::*;
 const FEE_LINK: &str =
     "https://www.skurupselverk.se/elnat/priserochavtal.4.4288834418e65aed20f7c8b.html";
 
-pub const SKURUPS_ELVERK_AB: GridOperator = GridOperator::builder()
+pub static SKURUPS_ELVERK_AB: GridOperator = GridOperator::builder()
     .name("Skurups Elverk AB")
     .vat_number("SE556934168701")
     .country(Country::SE)

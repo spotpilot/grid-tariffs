@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://www.hedemoraenergi.se/el/kopa-el/elnat/avgifter-och-prislista/";
 
-pub const HEDEMORA_ENERGI_AB: GridOperator = GridOperator::builder()
+pub static HEDEMORA_ENERGI_AB: GridOperator = GridOperator::builder()
     .name("Hedemora Energi AB")
     .vat_number("SE556115522601")
     .country(Country::SE)

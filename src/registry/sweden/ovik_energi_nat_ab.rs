@@ -2,7 +2,7 @@ use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://www.ovikenergi.se/elnat/priser-och-villkor";
 
-pub const OVIK_ENERGI_NAT_AB: GridOperator = GridOperator::builder()
+pub static OVIK_ENERGI_NAT_AB: GridOperator = GridOperator::builder()
     .name("Övik Energi Nät AB")
     .vat_number("SE556527706701")
     .country(Country::SE)

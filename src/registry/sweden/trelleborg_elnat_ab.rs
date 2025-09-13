@@ -4,7 +4,7 @@ const FEE_INFO_LINK: &str = "https://trelleborgsenergi.se/el-som-gor-skillnad/el
 const FEED_IN_REVENUE_LINK: &str =
     "https://trelleborgsenergi.se/el-som-gor-skillnad/vara-elpriser/";
 
-pub const TRELLEBORG_ELNAT_AB: GridOperator = GridOperator::builder()
+pub static TRELLEBORG_ELNAT_AB: GridOperator = GridOperator::builder()
     .name("Trelleborg Elnät AB")
     .vat_number("SE559181616901")
     .country(Country::SE)

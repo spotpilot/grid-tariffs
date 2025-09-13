@@ -7,7 +7,7 @@ use std::{
     path::{Path, PathBuf},
     process::Command,
 };
-use syn::{Ident, Item, ItemConst, Visibility};
+use syn::{Ident, Item, ItemStatic, Visibility};
 
 use convert_case::{Case, Casing};
 use grid_tariffs::Country;
@@ -51,7 +51,7 @@ fn grid_operator_contents(
 
 const FEE_LINK: &str = "{fee_link}";
 
-pub const {constant_name}: GridOperator = GridOperator::builder()
+pub static {constant_name}: GridOperator = GridOperator::builder()
     .name("{name}")
     .vat_number("{vat_number}")
     .country(Country::{country_code})
@@ -90,7 +90,7 @@ pub(crate) fn generate_mod(country: Country) -> anyhow::Result<()> {
                 .items
                 .iter()
                 .filter_map(|item| {
-                    if let Item::Const(ItemConst { vis, ident, ty, .. }) = item {
+                    if let Item::Static(ItemStatic { vis, ident, ty, .. }) = item {
                         if matches!(vis, Visibility::Public(_))
                             && ty.to_token_stream().to_string() == "GridOperator"
                         {
@@ -103,14 +103,14 @@ pub(crate) fn generate_mod(country: Country) -> anyhow::Result<()> {
         })
         .flatten()
         .map(|(path, ident)| (format_ident!("{}", filename_to_mod_name(path)), ident))
-        .map(|(mod_ident, const_ident)| {
+        .map(|(mod_ident, static_ident)| {
             quote! {
-                #mod_ident::#const_ident
+                &#mod_ident::#static_ident
             }
         })
         .collect_vec();
     let grid_operators = quote! {
-        pub(crate) static GRID_OPERATORS: &[crate::GridOperator] = &[
+        pub(crate) static GRID_OPERATORS: &[&crate::GridOperator] = &[
             #(#grid_operator_entries),*
         ];
     };
