@@ -234,6 +234,9 @@ Vid översvämning
 /avfall.html
 Avfall
 
+/avfall/hemsortering.html
+Hemsortering
+
 /avfall/matavfall-och-restavfall.html
 Matavfall och restavfall
 
