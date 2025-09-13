@@ -123,6 +123,12 @@ impl GridOperator {
         sweden::GRID_OPERATORS.iter().collect()
     }
 
+    pub fn all_for_country(country: Country) -> &'static [Self] {
+        match country {
+            Country::SE => sweden::GRID_OPERATORS,
+        }
+    }
+
     pub(crate) const fn builder() -> GridOperatorBuilder {
         GridOperatorBuilder::new()
     }
@@ -140,10 +146,25 @@ pub struct GridOperatorSimplified {
     vat_number: &'static str,
     /// Costs are specified in this currency
     country: Country,
-    /// The main fuse size range that this info covers
-    main_fuses: MainFuseSizes,
     price_lists: Vec<PriceListSimplified>,
-    links: Links,
+}
+
+impl GridOperatorSimplified {
+    pub fn name(&self) -> &'static str {
+        self.name
+    }
+
+    pub fn vat_number(&self) -> &'static str {
+        self.vat_number
+    }
+
+    pub fn country(&self) -> Country {
+        self.country
+    }
+
+    pub fn price_lists(&self) -> &[PriceListSimplified] {
+        &self.price_lists
+    }
 }
 
 impl GridOperatorSimplified {
@@ -152,13 +173,11 @@ impl GridOperatorSimplified {
             name: op.name,
             vat_number: op.vat_number,
             country: op.country(),
-            main_fuses: op.main_fuses,
             price_lists: op
                 .active_price_lists()
                 .into_iter()
                 .map(|pl| pl.simplified(fuse_size, yearly_consumption))
                 .collect(),
-            links: op.links.to_owned(),
         }
     }
 }
