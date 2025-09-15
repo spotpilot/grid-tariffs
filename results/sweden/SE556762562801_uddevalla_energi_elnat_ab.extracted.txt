@@ -1,0 +1,269 @@
+Priser lågspänning from 2025-01-01
+Säkringstariff - lågspänning upp till 63A
+Elöverföringsavgift: 12,00 öre/kWh exkl. moms (15,00 öre/kWh inkl. moms)
+Energiskatt: 43,90 öre/kWh exkl. moms (54,875 öre/kWh inkl. moms)
+
+Abonnemangsklass
+Huvudsäkring
+(Ampere)
+Abonnemang
+kr/år exkl. moms
+Abonnemang
+kr/år inkl. moms
+Säkringstariff 16A,
+3-fas lägenhet
+16
+1 600
+2 000
+Säkringstariff 25A,
+1-fas lägenhet
+16
+1 600
+2 000
+Säkringstariff 16A
+16
+3 000
+3 750
+Säkringstariff 20A
+20
+4 540
+5 675
+Säkringstariff 25A
+25
+6 400
+8 000
+Säkringstariff 35A
+35
+9 200
+11 500
+Säkringstariff 50A
+50
+13 000
+16 250
+Säkringstariff 63A
+63
+17 000
+21 250
+
+I taxan ingår lagstadgade avgifter för elsäkerhetsavgift 11,10 kr (13,88 kr inkl. moms), nätövervakningsavgift 4,35 kr (5,44 kr inkl. moms) och elberedskapsavgift 90,00 kr (112,50 kr inkl. moms).
+Ovanstående avser trefasleverans vid spänningen 400/230 V.
+Säkringstariff 16A, 3-fas lägenhet är endast avsedd för bostäder i flerfamiljshus med minst fyra abonnemang per servis varav minst tre bostäder.
+Inflyttningsavgift uttages med 200 kr plus moms (250 kr inkl. moms).
+I övrigt gäller de allmänna avtalsvillkoren NÄT 2012K (rev 2) för konsument och NÄT 2012N (rev) för näringsidkare.
+
+Priser lågspänning effekttariff from 2025-01-01
+Avgifter är angivna exklusive moms.
+Energiskatt tillkommer med 43,90 öre/kWh.
+
+Taxa
+Lågspänning effekttariff
+80-200A
+Lågspänning effekttariff
+>200A
+Huvudsäkring
+80-200A
+>200A
+Abonnemangsavgift (kr)
+11 100
+14 500
+Effektavgift (kr/kW)
+515
+515
+Elöverföringsavgift (öre/kWh)
+12,00
+12,00
+
+Abonnemangets storlek skall meddelas Uddevalla Energi Elnät senast den 31 januari varje år och gäller ett år, om ingen annan överenskommelse finns. Om inget meddelas gäller föregående års abonnemangsstorlek.
+I taxan ingår lagstadgade avgifter för elsäkerhetsavgift 11,10 kr, nätövervakningsavgift 4,35 kr och elberedskapsavgift 90,00 kr.
+Om utnyttjad aktiv effekt överstiger abonnerad effekt, utgår för den överuttagna effekten en avgift på 1,2 gånger effektavgiften.
+Om utnyttjad reaktiv effekt överstiger 50% av abonnerad aktiv effekt, utgår för taxa Lågspänning effekttariff >200A en avgift på 105 kr/kVar för den överuttagna reaktiva effekten.
+Den under året utnyttjade aktiva respektive reaktiva effekten anses vara medelvärdet av de två högsta värdena från skilda månader för uttagen medeleffekt per timme.
+Sänkning av abonnerad effekt kan göras en gång per år inför nytt kalenderår.
+Justering av abonnerad effekt får ske högst en gång per kalenderår, om ingen annan överenskommelse finns. Höjning måste aviseras i förväg och kan innebära att matande nät behöver förstärkas innan justeringen kan genomföras.
+Vid stora, eller flera små, justeringar av abonnerad effekt kan mätsystemet behöva byggas om för att uppfylla mätkraven. Ombyggnaden bekostas av abonnenten.
+I övrigt gäller de allmänna avtalsvillkoren NÄT 2012K (rev 2) för konsument och NÄT 2012N (rev) för näringsidkare.
+
+Priser högspänning from 2025-01-01
+Högspänningstariff 10 kV
+Avgifter är angivna exklusive moms.
+Energiskatt tillkommer med 43,90 öre/kWh.
+
+Taxa
+Högspänning effekttariff
+Abonnemangsavgift (kr)
+30 350
+Effektavgift (kr/kW)
+470
+Elöverföringsavgift (öre/kWh)
+10,00
+
+Abonnemangets storlek skall meddelas Uddevalla Energi Elnät senast den 31 januari varje år och gäller ett år, om ingen annan överenskommelse finns. Om inget meddelas gäller föregående års abonnemangsstorlek.
+I taxan ingår lagstadgade avgifter för elsäkerhetsavgift 905 kr, nätövervakningsavgift 870 kr och elberedskapsavgift 4897 kr.
+Om utnyttjad aktiv effekt överstiger abonnerad effekt utgår, för den överuttagna effekten, en avgift på 1,2 gånger effektavgiften.
+Om den utnyttjade reaktiva effekten överstiger 50% av den abonnerade aktiva effekten, utgår för den överuttagna effekten en avgift på 100 kr/kVAr.
+Den under året utnyttjade aktiva respektive reaktiva effekten anses vara medelvärdet av de två högsta värdena från skilda månader för uttagen medeleffekt per timme.
+Sänkning av abonnerad effekt kan göras en gång per år inför nytt kalenderår.
+Justering av abonnerad effekt får ske högst en gång per kalenderår, om ingen annan överenskommelse finns. Höjning måste aviseras i förväg och kan innebära att matande nät behöver förstärkas innan justeringen kan genomföras.
+Vid stora, eller flera små, justeringar av abonnerad effekt kan mätsystemet behöva byggas om för att uppfylla mätkraven. Ombyggnaden bekostas av abonnenten.
+I övrigt gäller de allmänna avtalsvillkoren NÄT 2012H (rev).
+
+Priser för nyanslutning 2025
+Huvudsäkring
+(Ampere)
+Avstånd
+(m)
+Engångsavgift
+kr exkl. moms
+Engångsavgift
+kr inkl. moms
+16-25
+0-199
+40 000
+50 000
+16-25
+200-599
+40 000 + 340 kr/m
+överstigande 200 m
+50 000 + 425 kr/m
+överstigande 200 m
+16-25
+600-1199
+176 800 + 800 kr/m
+överstigande 600 m
+221 000 + 1 000 kr/m
+överstigande 600 m
+16-25
+1200-1800
+662 800 + 460 kr/m
+överstigande 1200 m
+828 500 + 575 kr/m
+överstigande 1200 m
+Schablonavgift tillämpas för anslutningar till lågspänningsnätet enligt ovanstående tabell med avstånd upp till 1800 m från närmaste anslutningspunkt. Avståndet mäts fågelvägen mellan närmaste anslutningspunkt och tomtgräns.
+Om det är tjäle i marken vid förläggningstillfället tillkommer en kostnad om 200 kr per meter (250 kr inkl. moms).
+För övriga anslutningar lämnas offert, dock med lägsta avgift enligt tabellen ovan.
+Återanslutning av uppsagda abonnemang:
+Inom 7 år, offert eller minimun 3 500 kr exkl. moms.
+Efter 7 år är kostnaden densamma som vid nyanslutning oavsett nätåtgärd.
+
+Priser för tillfälliga anslutningar 2025
+Alternativ för tillfälliga anslutningar
+Normal:
+beställning minst 5 arbetsdagar innan anslutningen. Priset gäller max ett år om ingen annan överenskommelse gjorts.
+Akut:
+beställning mindre än 5 arbetsdagar innan anslutningen eller om själva anslutningen måste göras utanför normal arbetstid. Priset gäller max ett år om ingen annan överenskommelse gjorts.
+Förlängd:
+när ett år gått sedan anläggningen anslöts börjar automatiskt en extra månadsavgift att debiteras, utöver gällande säkrings- eller effekttariff. Ingen varning meddelas när den tillfälliga anslutningen överstigit ett år.
+För ”Normal”- och ”Akut” tillfällig anslutning med huvudsäkring upp till 63A tillämpas säkringstariff för motsvarande abonnemangsklass.
+För lågspänningsanläggningar med huvudsäkring från 80A och uppåt samt högspänningsanslutningar tillämpas effekttariff för motsvarande abonnemangsklass.
+För anslutning av högspänningsanslutningar gäller leveranstid och pris enligt offert.
+Du behöver även teckna ett elhandelsavtal för den el som ska användas på den tillfälliga anläggningen. Det gäller samtliga alternativ och görs med valfritt elhandelsbolag. Om inget elhandelsavtal har tecknats får du ett anvisningsavtal.
+Avgifter för tillfällig anslutning, exkl. moms
+Intervall för huvudsäkring
+Normal
+Fast avgift
+Akut
+Fast avgift
+Förlängd
+Tillägg >1 år
+16-63A
+4 550 kr
+6 875 kr
+Fast avgift + tillägg enl. tabell nedan
+80-250A
+6 875 kr
+8 590 kr
+Fast avgift + tillägg enl. tabell nedan
+>250A
+19 500 kr/kabel
+--
+Enl. offert + tillägg enl. tabell nedan
+Högspänning
+Enligt offert
+--
+Enl. offert + tillägg enl. tabell nedan
+Särskild avgift, tillägg vid förlängd tillfällig anslutning > 1 år, exkl. moms
+Intervall för huvudsäkring
+Tillfällig anslutning överstigande 1 år
+16-25A
+1 040 kr/månad
+35-63A
+1 560 kr/månad
+80-125A *
+2 730 kr/månad
+160-200A *
+3 640 kr/månad
+250-500A *
+4 680 kr/månad
+>500A *
+9 360 kr/månad
+Högspänning *
+8 320 kr/månad
+* Byggströmmar >63A på tillfälliga arbetsplatser med en tidplan på utförandetid över 12 månader.
+Bifogas tidplanen i föranmälan och den anses rimlig kan uppskov på tilläggsavgift ges.
+
+Priser övriga kostnader 2025
+Inflyttning och utflyttning
+Inflyttningsanmälan ska vara oss tillhanda i god tid före inflyttning, dock senast kl 14:00 dagen innan. Inflyttningsavgift uttages med 200 kr plus moms (250 kr inkl moms).
+Utflyttningsanmälan ska vara oss tillhanda senast 30 dagar före utflyttning. Uppsägningstiden kan kortas om vi har ny kund på elabonnemanget.
+Om vi saknar kunduppgifter på elabonnemanget frånkopplas elen.
+Avgift för tillkoppling vid inflyttningsanmälan
+Exkl. moms
+Inkl. moms
+Om anmälan görs senast kl 14:00 dagen innan
+200 kr
+250 kr
+Tillägg: om anmälan görs samma dag före kl 14:00
+400 kr
+500 kr
+Tillägg: om anmälan görs samma dag efter kl 14:00
+920 kr
+1 150 kr
+Avgift för tillkoppling efter frånkoppling
+Ej momspliktigt
+Tillkoppling aviserad före kl 14:00
+1 310 kr
+Tillkoppling aviserad efter kl 14:00
+2 488 kr
+Avgift för frånkoppling åt elleverantör
+Exkl. moms
+Frånkoppling
+768 kr
+Tillkoppling aviserad före kl 14:00
+768 kr
+Tillkoppling aviserad efter kl 14:00
+1 488 kr
+Kontroll av elmätare
+Exkl. moms
+Inkl. moms
+Om kunden accepterar att vi monterar en kontrollmätare
+- och mätaren visar sig vara felaktig
+kostnadsfritt
+kostnadsfritt
+- och mätaren visar sig vara felfri
+1 680 kr
+2 100 kr
+Om kunden vill att mätaren kontrolleras av ackrediterat organ
+- och mätaren visar sig vara felaktig
+kostnadsfritt
+kostnadsfritt
+- och mätaren visar sig vara felfri
+3 200 kr
+4 000 kr
+Bomkörningsavgift
+Om vår personal inte kan utföra arbetet vid bestämd tidpunkt, på grund av t.ex. felaktig förläggning, faktureras 1 450 kr exkl. moms (1 812,50 kr inkl. moms) för bomkörning. I priset ingår restid och upp till en timme arbete. Om arbetet tar längre tid debiteras nästkommande timmar med 725 kr/tim exkl. moms.
+Mätavgift för produktionsanläggningar
+För produktionsanläggningar från och med 80A tillkommer mätavgift om 1 560 kr/år exklusive moms. Mätavgift debiteras månadsvis och är kostnaden för mätning, beräkning och rapportering av mätvärden.
+
+Ny prismodell effekttaxa 2027
+Ny prismodell för elnätet från 1 januari 2027 – Så fungerar det och vad det innebär för dig
+Från och med 1 januari 2027 införs en ny prismodell för elnätsavgifter som gör det möjlighet för dig att påverka dina elnätskostnader genom att anpassa din elanvändning efter tid och behov. Modellen är utformad för att nyttja elnätet mer effektivt och möta det ökande elbehovet utan en omfattande utbyggnad – en hållbar lösning som gynnar alla.
+Arbete
+pågår
+med att ta fram en ny prismodell och vi informerar i förväg vad som är på gång.
+Bakgrund: Varför en ny prismodell?
+Energimarknadsinspektionen har beslutat att alla elnätsföretag ska införa en prismodell där avgiften baseras på din effektanvändning, det vill säga hur hög din elanvändning är vid en viss tidpunkt. Denna prismodell började införas 2022 och ska vara fullt genomförd till 2027.
+Syftet med effekttaxan är att uppmuntra kunderna till smartare elanvändning genom att sprida ut elförbrukningen över hela dygnet. Detta bidrar till minskad belastning på elnätet och ger incitament till att undvika höga effekttoppar.
+Vad betyder förändringen för hushållen?
+Effekttaxan har hittills använts för större kunder och kommer nu även att införas för alla kunder. Detta innebär att elnätskostnaderna kan variera beroende på när på dygnet du använder elen. Den nya prismodellen innebär att elnätskostnaden kan bli lägre om du sprider ut eller flyttar din elanvändning och högre om du använder mycket el samtidigt.
+https://www.energiforetagen.se/energifakta/elsystemet/elnatet--distribution-av-el/effekttarifftariffer/
+Effekttariffer - Varför då?

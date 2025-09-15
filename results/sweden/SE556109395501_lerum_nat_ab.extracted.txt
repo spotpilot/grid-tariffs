@@ -1,0 +1,110 @@
+
+/
+Hem
+/Elnat
+Elnät
+/Elnat/Elnatsavgifter
+Elnätsavgifter
+Elnätsabonnemang och avgifter
+Elnätsavgiften är uppdelad i två delar:
+Abonnemang
+är en fast årlig avgift som bestäms av storleken på din huvudsäkring, det vill säga hur mycket el du kan använda samtidigt. Denna avgift betalar du för att ha tillgång till elnätet.
+Elöverföring
+är en rörlig kostnad för transporten av el genom elnätet och du betalar per använd kilowattimme.
+Enkeltariff
+Enkeltariff har de flesta av våra kunder. Denna tariff gäller för 16 A och uppåt. Nedan ser du de fasta priserna/år både exkl. moms och inkl. moms.
+Till den fasta kostnaden tillkommer en rörlig överföringsavgift/kWh som tas ut för att leverera el till din bostad.
+Priser för 2024:
+27,52 öre/kWh exkl. moms
+34,40 öre/kWh inkl. moms
+Priser för 2025:
+31,16 öre/kWh exkl. moms
+38,95 öre/kWh inkl. moms
+Mätarsäkring
+Fast avgift kr/år
+Ampere (A)
+Exkl. moms
+Inkl. moms
+16
+2 184
+2 730
+20
+2 850
+3 563
+25
+3 525
+4 406
+35
+5 289
+6 611
+50
+7 242
+9 053
+63
+10 838
+13 548
+80
+11 649
+14 561
+100
+14 836
+18 545
+125
+15 813
+19 766
+160
+16 780
+20 975
+200
+20 706
+25 883
+225
+30 166
+37 708
+250
+36 045
+45 056
+315
+39 767
+49 709
+320
+43 547
+54 434
+400
+55 296
+69 120
+500
+61 170
+76 463
+600
+67 044
+83 805
+640
+73 570
+91 963
+Myndighetsavgifter
+Uttagspunkt för lågspänning
+Elberedskapsavgift
+90,00 kr/år
+Nätövervakningsavgift
+4,35 kr/år
+Elsäkerhetsavgift
+11,10 kr/år
+Summa:
+105,45 kronor
+Energiskatt 2025(2024)
+43,9 öre/kWh(42,8 öre/kWh)
+Elberedskapsavgift, nätövervakningsavgift och elsäkerhetsavgiften ingår i elöverföringsavgiftens fasta del.
+Gällande moms tillkommer på ovanstående priser.
+Tidstariff
+/Elnat/Elnatsavgifter/Tidstariff
+För företag som har en säkring från 80 A.
+Effekttariffer
+/Elnat/Elnatsavgifter/Effekttariffer
+Aktuella priser för effekttariffer.
+Lägenhetstariff
+/Elnat/Elnatsavgifter/Lagenhetstariff
+I hyresrätt eller bostadsrätt där det förekommer flera abonnemang i samma byggnad.
+Myndighetsavgifter
+/Elnat/Elnatsavgifter/Myndighetsavgifter
+Eldistributionsverksamheten i Sverige har tre övervakande myndigheter.

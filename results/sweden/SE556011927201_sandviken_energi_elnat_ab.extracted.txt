@@ -1,0 +1,284 @@
+Priser för elnät
+Din elnätsavgift består av två delar; en del för abonnemanget och den andra för den rörliga elöverföringen. Vi använder nätavgifterna till att återinvestera i elnätsinfrastrukturen med bland annat drift och underhåll samt förstärkning av elnätet. Den används även till mätning och administration.
+Du kan inte välja din elnätsägare, det finns alltid bara en elnätsägare där du bor. Därför kallas elnätsindelningen för ett naturligt monopol där Energimarknads­inspektionen (EI) har ett ansvar för att granska så att elnätsägarna sköter sitt uppdrag och att elnätsavgifterna är skäliga.
+https://ei.se/
+Läs gärna mer på Energimarknadsinspektionens hemsida.
+Länk till annan webbplats.
+
+Vilka priser gäller för dig?
+De flesta lägenheter och villor använder 16-25A som huvudsäkring.
+35-63A används ofta av till exempel mindre företag eller gårdar.
+Stora företag och stora lägenhetshus är oftast 80A och större.
+10 och 20 kV används av högspänningskunder som större företag.
+Nätnyttoersättningen är ingen avgift, utan en ersättning som gäller för dig som är mikroproducent och för över ditt överskott av el till vårt elnät.
+
+Priser för år 2025
+#svid10_7ca7e268193902b9df63454d
+Huvudsäkring 16-25A
+
+Huvudsäkring 16-25A
+Elnätskostnad betalar för driften och underhållet av elledningarna. I kostnaden finns tre delar:
+Abonnemang
+- den fasta delen av kostnaden som baseras på din huvudsäkring samt elnätsavgiften i ditt område.
+Elöverföring
+- den rörliga delen som betalas per överförd kilowattimma (kWh)
+Energiskatt
+- skatten för den förbrukade elen. Sedan januari 2018 är det elnätsföretagen som tar upp energiskatten, istället för elhandelsbolagen
+Huvudsäkring 16-25A
+Huvudsäkringens storlek
+Exklusive moms
+Inklusive moms
+16A* LGH
+1 349,60 kr/år
+1 687,00 kr/år
+16A
+2 973,23 kr/år
+3 716,54 kr/år
+20A
+3 687,93 kr/år
+4 609,91 kr/år
+25A
+4 589,97 kr/år
+5 737,46 kr/år
+Rörlig överföringsavgift
+Exklusive moms
+Inklusive moms
+Rörlig överföringsavgift
+23,69 öre/kWh
+29,62 öre/kWh
+Energiskatt
+43,90 öre/kWh
+54,88 öre/kWh
+* Den lägre fasta avgiften för 16A mätarsäkring, debiteras för abonnemang i flerbostadshus med minst tre bostadslägenheter dock ej kedjehus, radhus eller liknande sambyggda hus.
+Myndighetsavgift ingår i den fasta avgiften med 131,81 kr per år inklusive moms (105,45 kr exklusive moms).
+Vid inflyttning/nytt avtal debiteras en administrativ avgift på 250 kronor inklusive moms. Gäller ej vid nyanslutning.
+
+#svid10_7ca7e268193902b9df634551
+Huvudsäkring 35-63A
+
+Huvudsäkring 35-63A
+Huvudsäkring 35-63A
+Exklusive moms
+Inklusive moms
+35-63A
+7 631,28 kr/år
+9 539,1 kr/år
+Månadseffekttariffer (35-63A)
+Månad
+Exklusive moms
+Inklusive moms
+Januari
+93,11 kr/kW
+116,39 kr/kW
+Februari
+91,45 kr/kW
+114,31 kr/kW
+Mars
+74,82 kr/kW
+93,53 kr/kW
+April
+64,95 kr/kW
+81,18 kr/kW
+Maj
+56,71 kr/kW
+70,89 kr/kW
+Juni
+44,66 kr/kW
+55,83 kr/kW
+Juli
+42,42 kr/kW
+53,02 kr/kW
+Augusti
+46,48 kr/kW
+58,10 kr/kW
+September
+52,66 kr/kW
+65,82 kr/kW
+Oktober
+59,15 kr/kW
+73,94 kr/kW
+November
+79,41 kr/kW
+99,26 kr/kW
+December
+95,20 kr/kW
+119,01 kr/kW
+Myndighetsavgift ingår i den fasta avgiften med 131,81 kr per år exklusive moms (105,45 kr inklusive moms)
+Vid inflyttning/nytt avtal debiteras en administrativ avgift på 250 kronor inklusive moms. Gäller ej vid nyanslutning.
+
+#svid10_7ca7e268193902b9df634554
+80A och större
+
+80A och större
+Sedan 1 januari 2024 är höglasttid och låglasttid borttagen. Överföringsavgiften kommer att vara densamma oavsett tid.
+80A och större
+Leveransspänning 400V
+Exklusive moms
+Inklusive moms
+Fast avgift
+17 383,22 kr/år
+21 729,03 kr/år
+Månadseffektavgift
+42,24 kr/kW
+52,80 kr/kW
+Överföringsavgift
+21,87 öre/kWh
+27,34 öre/kWh
+Överuttag av reaktiv effekt (över 50%)
+63,58 kr/kWh
+79,48 kr/kWh
+Myndighetsavgift ingår i den fasta avgiften med 131,81 kr per år exklusive moms (105,45 kr inklusive moms).
+Vid inflyttning/nytt avtal debiteras en administrativ avgift på 250 kronor inklusive moms. Gäller ej vid nyanslutning.
+
+#svid10_7ca7e268193902b9df634556
+10,20 kV
+
+10, 20kV
+Sedan 1 januari 2024 är höglasttid och låglasttid borttagen. Överföringsavgiften kommer att vara densamma oavsett tid.
+10, 20 kV
+Exklusive moms
+Inklusive moms
+Fast avgift
+87 068,93 kr/år
+108 836,16 kr/år
+Månadseffektavgift
+33,55 kr/kWh
+41,94 kr/kWh
+Överföringsavgift
+17,70 öre/kWh
+22,13 öre/kWh
+Överuttag av reaktiv effekt (över 15%)
+63,58 kr/KWh
+79,48 kr/kWh
+Myndighetsavgift ingår i den fasta avgiften med 6 672 kr per år exklusive moms.
+
+#svid10_7ca7e268193902b9df634558
+Inmatning 43,5 - 1500 kW och över
+
+Elnätsavgifter och ersättningar för producenter med inmatning 43,5–1500 kW
+Avgifter
+Mätavgift kr/år
+Månadseffektavgift kr/kW
+Överföringsavgift
+Reaktiv effekt kr/kVar
+LSP 3416
+hög/låglasttid öre/kWh
+HSP 7856
+4
+1
+20
+Ersättning
+Överföringsersättning
+Effektersättning
+Nätnytta
+hög/låglasttid öre/kWh
+höglasttid öre/kWh
+höglasttid öre/kWh
+2
+2
+*
+Elnätsavgifter och ersättningar för producenter med inmatning över 1500 kW
+Avgifter
+Inmatning över 1500 kW
+Avgifter
+Exklusive moms
+Inklusive moms
+Mätavgift
+7856 kr/år
+9820 kr/år
+Månadseffektavgift kr/kW
+4 kr/kW
+5 kr/kW
+Överföringsavgift hög/låglasttid öre/kWh
+1 öre/kWh
+1,25 öre/kWh
+Överuttag av reaktiv effekt
+20 kr/kVar
+25 kr/kVar
+Ersättning
+Inmatning över 1500 kW
+Överföringsersättning hög/låglast öre/kWh
+Effektersättning höglasttid öre/kWh
+Nättnytta höglasttid öre/kWh
+1
+1,25
+*Nätnytta
+Mätavgift
+Är den årliga kostnaden för mätning, beräkning, verifiering och rapportering av mätvärden. Debiteras månadsvis.
+Månadseffektavgift
+Betalas varje månad för den högsta inmatade medeleffekten per timme i kilowatt (kW) under månaden.
+Överföringsavgift
+Betalas för inmatad energi i öre/kWh under hög/låglasttid månadsvis.
+Reaktiv effekt
+Inmatning av reaktiv effekt är inte tillåten, om det ändå sker, debiteras en avgift kr/kVar månadsvis.
+
+Överföringsersättnin
+Ersättning till producenten för överföringsrelaterad nytta. Betalas ut till producent månadsvis.
+Effektersättning
+Ersättning till producenten för effektrelaterad nytta, betalas ut i öre/kWh under höglasttid.
+*Nätnytta
+Beräknas individuellt och avser den nätnytta, dvs de kostnadsminskningar som Sandviken Energi Elnät AB kan få inom elnätsområdet tack vare inmatningen och betalas ut till producent månadsvis.
+Höglast/låglasttid
+Höglasttid är vardag kl 06 - 22 under januari, februari, mars, november och december. Låglast övrig tid.
+
+#svid10_7ca7e268193902b9df634564
+Förklaringar av allmänna avgifter
+
+Fast avgift
+Fast avgift är en kostnad för underhåll av elledningar, förebyggande av strömavbrott, investeringar och mätarhantering.
+Rörlig överföringsavgift
+Rörlig överföringsavgift täcker kostnader för att överföra elen från kraftverk till dig som kund, nätförluster, administration, fakturering och leverantörsbyten med mera.
+Elnätsavgiften
+Myndighetsavgifterna ingår i den fasta elnätsavgiften och är 105,56 kr exklusive moms, 131,81 kr inklusive moms.
+Energiskatt
+Sedan den 1 januari 2018 flyttades energiskatten från din elhandelsfaktura till elnätsfakturan.
+Anslutningsavgift
+Som elnätsföretag i ditt område ansvarar vi för anslutningen av din fastighet/lokal till elnätet.
+För detta betalar du en anslutningsavgift (kr) för en största huvudsäkring. Detta gäller även om ert elnätspris är en effekttariff. Om fastigheten senare får ett ökat elbehov och ni behöver välja en ännu större huvudsäkring beräknar vi en ny anslutningsavgift för utökad elanslutning.
+
+#svid10_7ca7e268193902b9df634566
+Information gällande 35- 63A
+
+Månadseffektavgift
+Månadseffekt är den högsta uttagna medeleffekten per timme under månaden. Om du kör många apparater/maskiner samtidigt så blir ditt effektuttag högt under den tiden. Om du fördelar ditt användande kommer ditt effektuttag att bli lägre
+.
+Exempelvis om energiförbrukningen under en timme är 10 kWh blir medeleffekten den timmen 10 kWh/1 h = 10 kW. Har du en månad med hög medeleffekt en timme blir det en hög månadseffektavgift. Har du däremot en låg medeleffekt varje timme en månad blir det en låg månadseffektavgift.
+Exempel på beräkning av månadseffektavgift:
+Din högsta uttagna medeleffekt per timme under en månad är 10 kW. Om månadseffektavgiften är 50 kr/kW för den specifika månaden blir din månadsavgift 10 kW x 50 kr/kW = 500,00 kr.
+Effektpriset varierar över året efter belastningen på elnäte och det är billigare att använda elnätet på sommaren när belastningen på elnätet är lägre än på vintern.
+Antalet kWh du förbrukar under månaden påverkar inte kostnaden på fakturan från Sandviken Energi Elnät AB. Din elleverantör kommer att fakturera dig för dina kWh.
+Så beräknas månadseffektpriset ut
+Månadseffektpriset är framtaget efter en beräkning av en årseffektavgift där man tittat på de två senaste årens uttag av alla kunders sammanslagna effektuttag. Tariffen blir därmed självjusterande, kunden påverkar med sitt uttag hur tariffen för nästkommande år ska se ut. Fakturorna kan komma att variera mellan olika månader beroende på ert effektuttag.
+Huvudsäkringen skyddar din elanläggning om något blir fel i den, den begränsar också hur mycket el du kan använda samtidigt. Genom att välja rätt säkringsnivå för dina behov kan du påverka din elnätskostnad.
+Det är fortfarande din säkrings storlek som avgör vilken tariff du betalar efter. Har du idag en säkring på 35A, med en god fördelning på faserna, kan du ha möjlighet att säkra ner. Du byter i sådant fall tariff, kontakta en elinstallatör för ytterligare information gällande din fasfördelning och säkringsändring.
+
+#svid10_7ca7e268193902b9df634568
+Information gällande 80A, 10 kV, 20 kV
+
+För 80A, 10 kV och 20 kV gäller även andra avgifter utöver de allmänna.
+Effekttariff
+Effekttariffen består av en fast avgift, en månadseffektavgift för den högsta uttagna medeleffekten per timme under varje månad och överföringsavgifter för uttagen energi.
+Överföringsavgift
+Överföringsavgifterna är uppdelade i en avgift under höglasttid
+(vardag kl. 06-22 under januari, februari, mars, november och december) och en lägre, avgift under övrig tid.
+Reaktiv effekt
+I effekttariffen debiteras även reaktiv effekt. Reaktiv effekt kan förklaras som elektrisk effekt som upptar kapacitet i elnätet utan att göra nytta. Det är vanligt att motorer, viss belysning, industriella verksamheter med mera förbrukar reaktiv effekt. Vi tillåter ett fritt uttag av reaktiv effekt upp till angiven nivå. Därefter debiteras kronor/kVar för överuttag enligt pristabellen.
+
+#svid10_7ca7e268193902b9df63456a
+Nätnyttoersättning
+
+Sandviken Energi Elnät AB ersätter dig som mikroproducent för det "överskott" som kommer in på elnätet med den så kallade. nätnyttoersättningen. Nätnytta är de kostnadsminskningar som Sandviken Energi Elnät AB får inom elnätsområdet, tack vare inmatningen. Ersättningen som betalas ut utan moms kräver inte att du som producent, är momsregistrerad.
+Ersättningen från Sandviken Energi är:
+3,0 öre/kWh exkl. moms (3,5 öre/kWh inkl. moms)
+Ersättningen kan komma att justeras årligen för att motsvara vårt inköpspris av el från Vattenfall.
+Är du momsregistrerad får du nätnyttoersättning inkl. moms på din elnätsfaktura.
+
+/elnat/ansluttillelnatet.185.html
+Anslut till elnätet
+/elnat/ansluttillelnatet.185.html
+När du vill beställa en nyanslutning som privatperson eller till ditt företag är det viktigt att vara ute i god tid. Hur lång tid jobbet tar för oss beror på flera faktorer.
+
+/kundservice/kontaktaoss.290.html
+Kontakta oss
+/kundservice/kontaktaoss.290.html
+Via kundservice kan du även få kontakt med oss som jobbar inom Sandviken Energikoncernen.

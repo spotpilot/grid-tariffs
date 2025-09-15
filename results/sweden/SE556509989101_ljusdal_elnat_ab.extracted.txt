@@ -1,0 +1,133 @@
+
+Nätpriser
+2025
+Gäller från 2025-01-01.
+Säkringstariff
+Tariff
+Lgh
+16A
+Nät
+16A
+Nät
+20A
+Nät
+25A
+Nät
+35A
+Nät
+50A
+Nät
+63A
+Mätarsäkring A
+16
+16
+20
+25
+35
+50
+63
+Abonnemangsavgift
+kr/år
+1 364
+2 920
+4 204
+5 824
+8 124
+11 640
+15 924
+Abonnemangsavgift
+inkl. moms kr/år
+1 705
+3 650
+5 255
+7 280
+10 155
+14 550
+19 905
+Nätavgift/Överföringsavgift: 14 öre/kWh (17,50 öre/kWh inkl. moms)
+Effekttariff
+Gäller från 2025-01-01
+Priser exkl. moms.
+Över 80A
+E1
+E2
+Tariff
+Näteffekt 184
+Näteffekt 187
+Högspänning
+Fast avgift kr/år
+7 456 kr
+7 456 kr
+52 188 kr
+Effektavgift kr/kW och år
+502 kr
+632 kr
+475 kr
+Nätavgift/överföringsavgift öre/kWh
+14 öre
+7,5 öre
+5 öre
+Avgiftsbestämmande effekt är det under året uppmätta toppvärdet av entimmeseffekten.
+Alla effektabonnemang faktureras för överuttag av reaktiv effekt.
+Fritt reaktivt effektuttag 30% av årseffekten.
+Överuttag reaktiv effekt, 20.00 kr/kVAr och månad.
+Reaktiv effekt månadsavräknas, d v s månadens uttagna reaktiva effekt (kVAr) avräknas mot 30% av månadens högsta aktiva effekt.
+Tariff för tillfällig anslutning (byggström)
+Gäller från 2025-01-01 till 2025-08-01
+Priser exkl. moms. (inkl moms inom parantes)
+In- och urkopplingsavgift
+1 800 (2250) kr *
+Mätarhyra
+66,67 (83,34) kr/mån
+Abonnemangsavgift <25 A
+485,33 (606,66) kr/mån
+Abonnemangsavgift <63 A
+1 327 (1658,75) kr/mån
+Abonnemangsavgift >63 A
+Gällande effekttaxa
+Överföringsavgift (EN)
+14,00 (17,50) öre/kWh
+Energiavgift (EL)
+Gällande Anvisningspris
+Gäller från 2025-08-01
+Priser exkl. moms. (inkl moms inom parantes)
+Pris första året || Pris efter ett år
+In- och urkopplingsavgift
+(engångsavgift)
+1 800 (2250) kr *
+Mätarhyra
+(kr/mån)
+66,67 (83,34) kr/mån
+Abonnemangsavgift <25 A
+(kr/mån)
+728,00 (910) || 970,67 (1213,34) kr/mån
+Abonnemangsavgift <63 A
+(kr/mån)
+1990,67 (2488,34) || 2654,00 (3317,50) kr/mån
+Abonnemangsavgift <125 A
+(kr/mån)
+3618,67 (4523,34) || 4824,67 (6030,84) kr/mån
+Abonnemangsavgift <250 A
+(kr/mån)
+7237,00 (9046,25) || 9649,00 (12061,25) kr/mån
+Överföringsavgift (EN)
+(öre/kWh)
+14,00 (17,50) öre/kWh
+Energiavgift (EL)
+Gällande Anvisningspris
+* In-och urkopplingsavgift inkluderar 1 månads mätarhyra.
+Reducerad skattesats gäller i:
+Norrbottens län: samtliga kommuner
+Jämtlands län: samtliga kommuner
+Västerbottens län: samtliga kommuner
+Västernorrlands län: Sollefteå, Ånge, och Örnsköldsvik
+Gävleborgs län: Ljusdal
+Värmlands län:Torsby
+Dalarnas län: Malung, Mora, Orsa och Älvdalen
+Ny elprismodell senast 2027
+Det är viktigt att säkerställa att nättarifferna är utformade på ett sådant sätt att det främjar ett effektivt utnyttjande av elnäten. Därför har Energimarknadsinspektionen (Ei) har tagit fram en föreskrift EIFS 2022:1 om hur nättarifferna ska utformas i framtiden. Föreskriften ska tillämpas senast 1 januari 2027 av samtliga elnätföretag i Sverige. Meningen är att prismodellen ska ta hänsyn till när på dygnet du som kund använder din el.
+På samma sätt som det finns trängselskatter för att minska trycket på våra vägar så kommer man som elnätkund att få betala en avgift när utbudet i nätet är lågt och efterfrågan är hög. Våra elnät används mest under vinter och vardagar under dagtid. Eftersom näten dimensioneras efter maxbelastning finns perioder med mycket ledigt utrymme. Modellen med effektavgifter handlar om att nyttja vårt elnät på ett mer balanserat sätt.
+Många elnätföretag har redan börjat införa en ny prismodell med effekttavgifter. Ljusdal Elnät har i dagsläget inte beslutat om de nya tarifferna och dess utformning. Senast 1 januari 2027 ska det vara klart. Vi kommer att informera innan.
+Läs mer på
+https://ei.se/om-oss/nyheter/2025/2025-01-30-nu-infor-manga-elnatsforetag-effektavgifter---det-har-behover-de-forhalla-sig-till
+Energimarknadsinspektionen

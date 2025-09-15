@@ -1,0 +1,141 @@
+
+Elnät
+Vi ger dig driftsäker el i våra ledningar
+
+/natavgifter-el
+Nätavgifter el
+/avtalsvillkor-elnat
+Avtalsvillkor elnät
+/Elproduktion
+Elproduktion
+/betalning-for-overskottsel
+Betalning för överskottsel
+/mer%C3%A4n43,5%20kW%20
+Elproduktion mer än 43,5 kW
+/mindre%C3%A4n43,5%20kW
+Elproduktion mindre än 43,5 kW
+/mindre%C3%A4n43,5%20kW-8236
+Elproduktion större än 43,5 kW Lsp
+/sa-har-gar-det-till
+Så här går det till
+/effektabonnemang
+Effektabonnemang
+/Vad-%C3%A4r-effektabonnemang%3F
+Vad är effektabonnemang?
+/varfor-effektabonnemang
+Vad är syftet med effektabonnemang?
+/Vad-%C3%A4r-effekt
+Vad menas med effekt?
+/Vad-%C3%A4r-effektbrist%3F
+Vad är effektbrist?
+/Vad-%C3%A4r-skillnaden-p%C3%A5-energi-och-effekt%3F
+Vad är skillnaden på energi och effekt?
+/Vad-%C3%A4r-mitt-h%C3%B6gsta%20timv%C3%A4rde%3F
+Vad är mitt högsta timvärde?
+/Hur-kan-jag-p%C3%A5verka-min-elanv%C3%A4ndning%3F
+Hur kan jag påverka min elanvändning?
+/Tidplan
+Tidplan
+/Vad-%C3%A4r-effekttariff%3F-6215-2850-3494
+Vad kostar effektabonnemang?
+/energiskatt
+Energiskatt
+/elmataren
+Elmätaren
+/installatorer
+Installatörer
+/kabelvisning
+Kabelvisning
+/natavgifter-el
+Nätavgifter el
+/natutvecklingsplan
+Nätutvecklingsplan
+/om-det-blir-stromavbrott
+Om det blir strömavbrott
+/paverka-elnatsavgiften
+Påverka elnätsavgiften
+/tillgangligorandeavmatvarden
+Tillgängliggörande av mätvärden
+/infotillelnatskunder
+Information till våra elnätskunder
+/enfotillenergiforetag
+Information till Energitjänsteföretag
+/overvakningsplan
+Övervakningsplan
+
+Elnät avgiftstaxa
+Taxor 2025
+För att få täckning för ökade kostnader i det överliggande nätet och inflation, beslutade styrelsen 2024-11-14 att höja taxan med i genomsnitt 7,5 %.
+
+Taxetyp
+
+Fast & rörlig nätavgift (inkl moms)
+
+Mätarsäkring
+Ampere
+
+Fast avgift
+kr/år
+
+Rörlig nätavgift
+öre/kWh
+
+16 (per lgh)*
+
+2 299
+24,73
+
+16
+
+4 732
+24,73
+
+20
+
+6 806
+24,73
+
+25
+
+8 617
+24,73
+
+35
+
+12 547
+24,73
+
+50
+
+15 562
+24,73
+
+63
+
+21 825
+24,73
+
+Energiskatt tillkommer med 54,88 öre/kWh (inklusive moms).
+Vid överföring gäller ”Allmänna avtalsvillkor för anslutning av elektriska anläggningar till elnät och överföring av el till sådana anläggningar ” NÄT 2012 K (konsument) respektive NÄT 2012 N (näringsidkare).
+Den fasta och rörliga nätavgiften inkluderar elsäkerhetsavgift, nätövervakningsavgift och elberedskapsavgift.
+* Mätarsäkring 16 ampere (lägenheter) är avsedd för bostadslägenheter i flerbostadshus. Det skall finnas en gemensam servis för fyra eller flera abonnemang varav minst tre avser bostadslägenheter, samtliga elmätare inom en huskropp skall vara samlad på ett ställe samt att fastighetsägaren har abonnemang för allmänna utrymmen (16 ampere eller större).
+
+Nya taxor från och med 1 januari 2025
+
+https://d1da7yrcucvk6m.cloudfront.net/sites/284/media/1279451_S%C3%A4kringstariffer_2025_01-01.pdf?1733841780
+Säkringstariffer fr.o.m 2025-01-01
+https://d1da7yrcucvk6m.cloudfront.net/sites/284/media/1279417_Effekttariff_2025-01-01_80-200.pdf?1733839233
+Effekttariff  80A - 200
+A
+https://d1da7yrcucvk6m.cloudfront.net/sites/284/media/1279369_Effakttariff_2025-01-01_0_4-10.pdf?1733836369
+Effekttariff  0,4 kV - 10kV
+https://d1da7yrcucvk6m.cloudfront.net/sites/284/media/1289546_Effekttariffer_20kV-50kV.pdf?1734679528
+Effekttariff  20 kV - 50kV
+
+Du kan påverkar din elnätsavgift genom att välja rätt storlek på huvudsäkringen.
+https://www.olofstromskraft.se/paverka-elnatsavgiften
+Läs mer här.
+Om du vill ändra huvudsäkring måste du anlita en auktoriserad elinstallatör som anmäler förändringen till oss genom
+https://www.olofstromskraft.se/installatorer
+https://www.olofstromskraft.se/installatorer
+För- och färdiganmälan.

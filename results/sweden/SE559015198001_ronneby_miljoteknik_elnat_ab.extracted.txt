@@ -1,0 +1,295 @@
+
+/sidowebbplatser/miljoteknik.html
+Startsida
+
+/sidowebbplatser/miljoteknik/elnat.html
+Elnät
+
+/sidowebbplatser/miljoteknik/elnat/priser-villkor-for-elnat.html
+Priser/Villkor för elnät
+
+Nätavgifter
+
+/sidowebbplatser/miljoteknik/elnat.html
+Elnät
+
+/sidowebbplatser/miljoteknik/elnat/priser-villkor-for-elnat.html
+Priser/Villkor för elnät
+
+/sidowebbplatser/miljoteknik/elnat/priser-villkor-for-elnat/natavgifter.html
+Nätavgifter
+
+/sidowebbplatser/miljoteknik/elnat/priser-villkor-for-elnat/nyanslutningsavgift.html
+Nyanslutningsavgift
+
+/sidowebbplatser/miljoteknik/elnat/priser-villkor-for-elnat/effekt-hogspanningsel.html
+Effekt-Högspänningsel
+
+/sidowebbplatser/miljoteknik/elnat/priser-villkor-for-elnat/ersattning-natnytta-mikroproducent.html
+Ersättning Nätnytta Mikroproducent
+
+/download/18.5424ab5216e35551a7419cd9/1572959445457/N%C3%84T%202012%20K.pdf
+Allmänna avtalsvillkor Konsument
+Pdf, 198.6 kB.
+
+/download/18.3a33d0ea16122420c399e4fb/1517391323156/N%C3%84T%202012%20N%20(rev)%20Avtalsvillkor%20Eln%C3%A4t%20f%C3%B6r%20n%C3%A4ringsidkare.pdf
+Allmänna avtalsvillkor Näringsidkare
+Pdf, 121.1 kB, öppnas i nytt fönster.
+
+/download/18.3a33d0ea16122420c399e547/1517391374357/N%C3%84T%202012%20H%20(rev)%20Avtalsvillkor%20Eln%C3%A4t%20n%C3%A4ringsidkare%20h%C3%B6gsp%C3%A4nning.pdf
+Allmänna avtalsvillkor Näringsidkare Högspänning
+Pdf, 118.5 kB, öppnas i nytt fönster.
+
+/sidowebbplatser/miljoteknik/elnat/du-som-elnatskund.html
+Du som elnätskund
+
+/sidowebbplatser/miljoteknik/elnat/energitips.html
+Energitips
+
+/sidowebbplatser/miljoteknik/elnat/anslut-dig-som-ny-kund.html
+Anslut dig som ny kund
+
+/sidowebbplatser/miljoteknik/elnat/gatubelysning.html
+Gatubelysning
+
+/sidowebbplatser/miljoteknik/elnat/ovrig-information-rapporter.html
+Övrig information/Rapporter
+
+/sidowebbplatser/miljoteknik/fiber.html
+Fiber
+
+/sidowebbplatser/miljoteknik/fiber/du-som-bor-i-villa.html
+Du som bor i villa
+
+/sidowebbplatser/miljoteknik/fiber/du-som-bor-i-lagenhet-ar-fastighetsagare-eller-naringsidkare.html
+Du som bor i lägenhet, är fastighetsägare eller näringsidkare
+
+/sidowebbplatser/miljoteknik/fjarrvarme.html
+Fjärrvärme
+
+/sidowebbplatser/miljoteknik/fjarrvarme/avtal-priser-villkor.html
+Avtal/Priser/Villkor
+
+/sidowebbplatser/miljoteknik/fjarrvarme/var-fjarrvarme.html
+Vår fjärrvärme
+
+/sidowebbplatser/miljoteknik/fjarrvarme/smaskalig-kraftvarme.html
+Småskalig kraftvärme
+
+/sidowebbplatser/miljoteknik/renhallning.html
+Renhållning
+
+/sidowebbplatser/miljoteknik/renhallning/kommunen-tar-over-insamling-av-forpackningar.html
+Kommunen tar över insamling av förpackningar
+
+/sidowebbplatser/miljoteknik/renhallning/vara-atervinningscentraler.html
+Våra återvinningscentraler
+
+/sidowebbplatser/miljoteknik/renhallning/vara-atervinningsstationer.html
+Våra återvinningsstationer
+
+/sidowebbplatser/miljoteknik/renhallning/nar-hamtas-mitt-avfall.html
+När hämtas mitt avfall?
+
+/sidowebbplatser/miljoteknik/renhallning/sortering--atervinning--info.html
+Sortering/ Återvinning/ Info
+
+/sidowebbplatser/miljoteknik/renhallning/abonnemang--priser--villkor.html
+Abonnemang/ Priser/ Villkor
+
+/sidowebbplatser/miljoteknik/renhallning/tjanster.html
+Tjänster
+
+/sidowebbplatser/miljoteknik/renhallning/e-tjanster-blanketter.html
+E-tjänster/Blanketter
+
+/sidowebbplatser/miljoteknik/renhallning/material-for-skolor.html
+Material för skolor
+
+/sidowebbplatser/miljoteknik/vatten--avlopp.html
+Vatten & Avlopp
+
+/sidowebbplatser/miljoteknik/vatten--avlopp/priser-villkor-for-va.html
+Priser/Villkor för VA
+
+/sidowebbplatser/miljoteknik/vatten--avlopp/blanketter-vatten-och-avlopp.html
+Blanketter vatten och avlopp
+
+/sidowebbplatser/miljoteknik/vatten--avlopp/ditt-vatten.html
+Ditt vatten
+
+/sidowebbplatser/miljoteknik/vatten--avlopp/va-utbyggnad.html
+VA-utbyggnad
+
+/sidowebbplatser/miljoteknik/vatten--avlopp/vattenmatare.html
+Vattenmätare
+
+/sidowebbplatser/miljoteknik/vatten--avlopp/uppstromsarbete.html
+Uppströmsarbete
+
+/sidowebbplatser/miljoteknik/kundservice.html
+Kundservice
+
+/sidowebbplatser/miljoteknik/kundservice/kontakta-oss.html
+Kontakta oss
+
+/sidowebbplatser/miljoteknik/kundservice/betalningsalternativ.html
+Betalningsalternativ
+
+/sidowebbplatser/miljoteknik/kundservice/flyttanmalan-och-avtal.html
+Flyttanmälan och Avtal
+
+/sidowebbplatser/miljoteknik/kundservice/priser-villkor.html
+Priser/Villkor
+
+/sidowebbplatser/miljoteknik/kundservice/far-du-vara-sms.html
+Får du våra sms?
+
+/sidowebbplatser/miljoteknik/kundservice/driftstorningar.html
+Driftstörningar
+
+/sidowebbplatser/miljoteknik/om-oss.html
+Om oss
+
+/sidowebbplatser/miljoteknik/om-oss/mal-och-vision.html
+Mål och vision
+
+/sidowebbplatser/miljoteknik/om-oss/bolagsstyrelse.html
+Bolagsstyrelse
+
+/sidowebbplatser/miljoteknik/om-oss/organisation.html
+Organisation
+
+/sidowebbplatser/miljoteknik/om-oss/upphandlingar.html
+Upphandlingar
+
+https://kundforum.miljoteknik.ronneby.se/
+Frågor & Svar
+Länk till annan webbplats.
+
+https://msidor.ronneby.se/
+Mina Sidor
+Länk till annan webbplats, öppnas i nytt fönster.
+
+#sharepage
+Dela
+
+https://app.readspeaker.com/cgi-bin/rsent?customerid=5168&lang=sv&readid=svid94_7c10184a1602b8493f264a81&url=https%3A//www.ronneby.se/sidowebbplatser/miljoteknik/elnat/priser-villkor-for-elnat/natavgifter.html
+Lyssna
+
+#relatedContact
+Kontakt
+
+#relatedLinks
+Relaterad information
+
+Nätavgifter
+Priserna i tabellen avser endast nätkostnaden. I samtliga priser ingår moms med 25%.
+Tariff 2
+Ett rörligt nätpris avsedd för kunder som normalt förbrukar mindre än 20 000 kWh/år.
+Tariff 9
+Två olika rörliga nätpriser avsedda för kunder med bl.a. kombinerad uppvärmning.
+För nätleveransen gäller:
+https://www.ronneby.se/download/18.46b4d5761611ee4e456855d8/1517219531407/N%C3%84T%202012%20K%20(rev)%20Avtalsvillkor%20eln%C3%A4t%20f%C3%B6r%20konsument.pdf
+Allmänna avtalsvillkor för konsument, NÄT 2012 KPdf, 147 kB, öppnas i nytt fönster.
+Länk till annan webbplats.
+https://www.ronneby.se/download/18.46b4d5761611ee4e456858bf/1517220128194/N%C3%84T%202012%20N%20(rev)%20Avtalsvillkor%20Eln%C3%A4t%20f%C3%B6r%20n%C3%A4ringsidkare.pdf
+Allmänna avtalsvillkor för Näringsidkare, NÄT 2012 N
+Länk till annan webbplats.
+Rörlig nätavgift
+Tariff
+öre/kWh
+Tariff 2
+51.11 öre/kWh
+Tariff 9
+Nov-mars / mån-fre 06.00-22.00 87.76 öre/kWh
+Övrig tid 17.81 öre/kWh
+Fast avgift
+
+Huvudsäkring
+Tariff 2
+Tariff 9
+16 A
+2 008 kr
+3 570 kr
+20 A
+2 741 kr
+4 451 kr
+25 A
+3 760 kr
+6 224 kr
+35 A
+5 822 kr
+9 378 kr
+50 A
+9 054 kr
+13 648 kr
+63 A
+12 349 kr
+18 040 kr
+80 A
+16 381 kr
+23 261 kr
+100 A
+21 358 kr
+30 143 kr
+125 A
+27 542 kr
+38 449 kr
+160 A
+36 302 kr
+50 533 kr
+200 A
+45 568 kr
+62 885 kr
+Lägenhetstaxa
+1 141 kr
+(Den fasta avgiften bestäms av huvudsäkringens amperantal)
+Till den fasta avgiften tillkommer:
+Elsäkerhetsavgift - 13,88 kr/år
+Nätövervakningsavgift - 5,44 kr/år
+Elberedskapsavgift - 112,50 kr/år
+Avgifterna faktureras löpande under året.
+Samtliga avgift är inklusive moms.
+Elsäkerhetsavgiften finansierar Elsäkerhetsverkets arbete, till exempel att förebygga att människor och egendom skadas av el.
+Elberedskapsavgiften finansierar delar av Svenska Kraftnäts arbete. De ansvarar bland annat för att erbjuda en effektiv och säker överföring av el på stamnätet och ser till att elsystemet är i balans.
+Nätövervakningsavgiften finansierar delar av Energimarknadsinspektionens arbete.
+
+Dela sidan
+
+https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.ronneby.se%2Fsidowebbplatser%2Fmiljoteknik%2Felnat%2Fpriser-villkor-for-elnat%2Fnatavgifter.html
+Facebook
+https://twitter.com/intent/tweet?text=&url=https%3A%2F%2Fwww.ronneby.se%2Fsidowebbplatser%2Fmiljoteknik%2Felnat%2Fpriser-villkor-for-elnat%2Fnatavgifter.html
+Twitter
+https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fwww.ronneby.se%2Fsidowebbplatser%2Fmiljoteknik%2Felnat%2Fpriser-villkor-for-elnat%2Fnatavgifter.html
+LinkedIn
+mailto:?subject=N%C3%A4tavgifter&body=https%3A%2F%2Fwww.ronneby.se%2Fsidowebbplatser%2Fmiljoteknik%2Felnat%2Fpriser-villkor-for-elnat%2Fnatavgifter.html
+E-post
+
+Uppdaterad:
+2025-06-26
+
+Mail name e-mail:
+
+OBS!
+
+Tänk på att endast adressen till sidan du skickar synpunkten från syns i meddelandet, så var noga med att skicka från rätt sida. Vi inte kan besvara meddelanden som kommer härifrån
+så har du frågor är det bättre att du ringer eller skickar ett mail. Du hittar kontaktuppgifter till kommunens alla verksamheter via länken "Kontakt" längst upp på hemsidan, om det inte finns specificerat på sidan.
+
+På vilket sätt kan vi förbättra sidan?
+*
+(obligatorisk)
+
+Jag besöker sidan på en
+*
+(obligatorisk)
+
+Jag besöker sidan på en
+
+Mobiltelefon (Smartphone)
+
+Surfplatta (Tablet)
+
+Dator
+
+Kryssa för den typ av enhet som du använder.

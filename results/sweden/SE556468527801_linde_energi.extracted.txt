@@ -1,0 +1,19 @@
+Prislistor
+Från oss får du en elnätsfaktura som består av en fast del och flera rörliga delar. Från ditt valda elhandelsföretag får du en faktura på din elanvändning.
+För att se vilket elnätpris som gäller dig, behöver du ta reda på vilken säkringsstorlek du har. Uppgiften finns på din faktura. Din faktura hittar du via
+javascript:void(window.open('https://minasidor.lindeenergi.se/','_blank','toolbar=1,location=1,status=1,menubar=1,scrollbars=1,resizable=1'));
+Mina sidor
+.
+Prislistor från och med 2025-01-01
+Samtliga prislistor gäller för nätområde LDB och NKL
+/download/18.5ce3063193901478b4393da/1734508173508/Prislista%20Eln%C3%A4t%20S%C3%A4kringstariffer%202025-01-01.pdf
+Säkringstariffer (16-25A)
+pdf, 149.7 kB.
+/download/18.79248f371969f6f2b413ce72/1747203452552/Prislista%20Eln%C3%A4t%20effekttariffer%202025-01-01%20ver2.pdf
+Effekttariffer (35-1500A)
+pdf, 139.6 kB, öppnas i nytt fönster.
+/download/18.5ce3063193901478b4393d6/1734508173401/Prislista%20Effekttariff%20H1%202025.pdf
+Högspänningstariff
+pdf, 174.7 kB, öppnas i nytt fönster.
+/ovrigt/kundservice/avtalsvillkor
+Allmänna avtalsvillkor för elnät

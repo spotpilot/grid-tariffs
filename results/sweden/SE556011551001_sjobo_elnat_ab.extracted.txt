@@ -1,0 +1,66 @@
+
+//app-eu.readspeaker.com/cgi-bin/rsent?customerid=12742&lang=sv_se&readid=main&url=https%3A%2F%2Fsjoboelnat.se%2Fpriser-villkor%2F
+Lyssna
+
+Avgifter inom Sjöbo Elnät
+
+Sjöbo Elnät inför ny prismodell med rörlig överföringsavgift 2024-01-01
+Detta beror på att regionnätsägaren har valt att gå från ett fast pris per kWh till en avgift som är baserad på timpris. För att prissättningen ska bli rättvis mot våra kunder har vi valt att använda en beräkningsmodell som speglar den verkliga kostnaden.
+Som kund till ett elnätsföretag betalar man för ett utrymme på nätet, abonnemangsavgiften. Måttet på detta utrymme är den abonnerade effekten för en effektkund och säkringen för en säkringskund.
+Överföringsavgift betalar du per kwh av det du har förbrukat och är för transporten av el hem till dig.
+Elnätsavgiften består av tre delar: abonnemangsavgift, energiskatt och det som kallas för överföringsavgift.
+Varför rörlig överföringsavgift?
+Vårt lokalnät får el från regionnätet som i sin tur får det från det rikstäckande transmissionsnätet (stamnätet). Längs med hela distributionsledet från produktion ut till kund sker det så kallade nätförluster. Eftersom elpriset varierar så mycket har det blivit svårt för bolagen att täcka förlustens kostnad genom den fasta avgiftsmodellen som branschen haft hittills. Redan 2020 övergick därför Svenska kraftnät till en rörlig överföringsavgift. Då våra kostnader följer transmissionsnätägarens och regionnätägarens kostnader är det rimligt att ha samma prismodell för lokalnätet också.
+Den nya prismodellen innebär att överföringsavgiften kommer att variera månad för månad delvis beroende på genomsnittet av spotpris under innevarande månad.
+Överföringsavgift fr.o.m. 2024 = (Överföringsavgift regionnätet + nätförluster + nätnyttokostnad + månadsjustering) x din elanvändning.
+Varför höjs abonnemangsavgiften?
+Förutom energiomställningen och våra investeringsplaner så har vi som alla andra fått ökade kostnader för material och resurser. Elnätsavgifterna höjs nu av bolag över hela landet. Att höjningarna är skäliga bevakas av myndigheten Energimarknadsinspektionen som beslutar om en så kallad intäktsram. Den begränsar hur höga elnätsavgifterna får vara.
+
+Överföringsavgift 2025
+Avgifter öre/kWh.
+
+https://sjoboelnat.se/wp-content/uploads/2024/07/Sjobo_Elnat_Nattariff_N4oN3.pdf
+
+Nättariffer N3/N4
+
+https://sjoboelnat.se/wp-content/uploads/2024/07/Tariffer-produktion_202401001.pdf
+
+Produktion 2024
+
+https://sjoboelnat.se/wp-content/uploads/2024/12/Tariffer-produktion_2025.pdf
+
+Produktion 2025
+
+https://sjoboelnat.se/wp-content/uploads/2024/06/Sjobo_Elnat_Tariffer_Effekt_20240701.pdf
+
+Effekttariffer 2024
+
+https://sjoboelnat.se/wp-content/uploads/2024/12/Sjobo_Elnat_Tariffer_Effekt_2025.pdf
+
+Effekttariffer 2025
+
+https://sjoboelnat.se/wp-content/uploads/2024/07/Sjobo_Elnat_Tariffer_Sakring_2024-07-01.pdf
+
+Säkringstariffer 2024
+
+https://sjoboelnat.se/wp-content/uploads/2024/12/Sjobo_Elnat_Tariffer_Sakring_2025.pdf
+
+Säkringstariffer 2025
+
+Mer viktig information:
+https://sjoboelnat.se/priser-villkor/
+Avgifter inom Sjöbo Elnät
+https://sjoboelnat.se/priser-villkor/avbrottsersattning/
+Avbrottsersättning
+https://sjoboelnat.se/priser-villkor/avtalsvillkor-konsumentratt/
+Avtalsvillkor & konsumenträtt
+https://sjoboelnat.se/priser-villkor/betalningssatt/
+Betalningssätt
+https://sjoboelnat.se/priser-villkor/fakturera-oss/
+Fakturera oss
+
+Våra anslutningsavgifter
+Gäller vid inkoppling av nya abonnemang samt vid ökning av befintligt abonnemang.
+
+https://sjoboelnat.se/wp-content/uploads/2025/02/Anslutningsavgifter_2025.pdf
+Se anslutningsavgifter

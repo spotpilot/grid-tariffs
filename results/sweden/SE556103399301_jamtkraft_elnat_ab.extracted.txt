@@ -1,0 +1,56 @@
+Säkringsabonnemang
+Elnätsavgiften för säkringsabonnemang består av två delar:
+En fast del som bestäms av huvudsäkringens storlek i Ampere (A) – hur mycket effekt som kan användas.
+En rörlig del som beror av den mängd el, i kilowattimmar (kWh), som förbrukas.
+Till våra priser ska läggas statliga avgifter som tas ut en gång per år: Elsäkerhetsavgift, elberedskapsavgift och nätövervakningsavgift. Även energiskatten för el, som också är en statlig avgift, debiteras på elnätsfakturan.
+/wt/documents/405/Avgiftsbilaga_for_sakringsabonnemang_fr_o_m_2025-01-01.pdf
+Avgiftsbilaga för säkringsstorlek 16A–125A 2025
+* 16A Lägenhet är en specialtaxa som gäller endast för lägenheter i flerbostadshus. Lägenheterna ska ha huvudsäkring max 16A med anslutning till en gemensam servisledning om minst fyra abonnemang. Ett av dessa fyra abonnemang ska vara fastighetsel med normaltaxa (ej lägenhet). Enfasabonnemang max 25A huvudsäkring i lägenhet faktureras som 16A Lägenhet.
+Med flerbostadshus avses hus med minst tre bostadslägenheter, dock ej kedjehus, radhus eller liknande sammanbyggda hus.
+Nätavgift 2025
+Säkringsstorlek
+Rörlig avgift
+Fast avgift
+16A (lägenhet)*
+7,5 öre/kWh
+2 380 kronor/år
+16A
+7,5 öre/kWh
+5 440 kronor/år
+20A
+7,5 öre/kWh
+8 900 kronor/år
+25A
+7,5 öre/kWh
+11 320 kronor/år
+35A
+7,5 öre/kWh
+16 130 kronor/år
+50A
+7,5 öre/kWh
+23 130 kronor/år
+63A
+7,5 öre/kWh
+29 880 kronor/år
+80A
+7,5 öre/kWh
+40 250 kronor/år
+100A
+7,5 öre/kWh
+50 750 kronor/år
+125A
+7,5 öre/kWh
+63 880 kronor/år
+Priser inklusive moms
+Nätavgift för egen elproduktion
+Här hittar du nätavgifter för dig som producerar egen el, till exempel om du har solpaneler hemma.
+/wt/documents/347/Avgiftsbilaga_Egen_elproduktion.pdf
+Avgiftsbilaga egen elproduktion
+https://www.jamtkraft.se/privat/elnat/anslut-dig-till-elnatet/ny-anslutning/
+Ny anslutning till elnätet
+Artikel
+Ny anslutning till elnätet
+https://www.jamtkraft.se/privat/elnat/anslut-dig-till-elnatet/byggstrom/
+Tillfällig anslutning – Byggström
+Artikel
+Tillfällig anslutning – Byggström

@@ -1,0 +1,324 @@
+Elnätsavgift 2025
+Den elnätsavgift du betalar är ett viktigt bidrag för hela elnätet i Sverige. Priserna gäller från och med 1 januari 2025 och tillsvidare.
+Fast pris exkl. moms
+Abonnemangsavgiften styrs av storleken på mätarsäkring.
+
+Mätarsäkring
+kr/år
+
+Fleranvändarpris*
+
+1036
+
+16 A
+
+3740
+
+20 A
+
+4912
+
+25 A
+
+5960
+
+35 A
+
+8088
+
+50 A
+
+11 376
+
+63 A
+
+14 208
+
+* Priset gäller för kunder med anläggning på en gemensam elnätsanslutning om minst tre abonnemang. Priset tillåter mätarsäkringar på max 20 A (alternativt 25 A enfas) och en elanvändning på normalt högst 8 000 kWh per år.
+
+Överföringspris exkl. moms
+
+Elöverföring (rörlig avgift)
+24,40 öre/kWh
+
+Elöverföring (rörlig avgift) vid fleranvändarpris
+37,20 öre/kWh
+
+Tillämpningsbestämmelser för samtliga säkringstariffer och fleranvändarpris
+Den fasta avgiften utgår för varje mätpunkt. För kund vars kraftuttag är uppdelat på två eller flera leveranspunkter skall varje leveranspunkt behandlas var för sig.
+Det fasta priset bestäms av storleken på den passdel som begränsar din mätarsäkring. Ändring av avgiftsbestämmande passdel får endast ske då skriftligt medgivande erhållits från SEVAB Nät och får endast utföras av behörig elinstallatör. Taxebyte medges i regel endast en gång per år. Tröga säkringar av S-märkt typ är tillåtna. Enfasleverans med mätarsäkring på max 25 A erhåller en fast avgift motsvarande den för mätarsäkring 16 A. I angivna fasta avgifter ingår myndighetsavgifter.
+De nätavgifter som redovisas är de avgifter som tillämpas av SEVAB Nät AB. De kunder som har SEVAB Energiförsäljning som elleverantör faktureras nätavgifterna tillsammans med energipriset. SEVAB Nät tillämpar de allmänna leveransvillkoren för nätanslutning för näringsidkare, Nät 2012 N (rev).
+
+Effektpris vid lågspänning
+
+Exkl. moms
+
+Fast avgift
+
+200 kr/månad
+
+Månadsmax: april - oktober
+
+72 kr/kW/månad
+
+Månadsmax: november - mars
+
+94 kr/kW/månad
+
+Överföringsavgift
+
+11,20 öre/kWh
+
+Villkor
+1. Elnätspriser markerade med lågspänning avser anslutningar till 400/230 volt.
+2. Säsongsmässig eller periodiskt återkommande ändring av prislista är inte tillåtet.
+3. Fakturering sker normalt efter varje kalendermånad.
+4. Fast avgift (kr/månad) betalas för varje månad. I angiven fast avgift ingår myndighetsavgifter: elsäkerhetsavgift, nätövervakningsavgift och elberedskapsavgift.
+5. Månadsmax (kr/kW) betalas varje månad för den högsta uttagna medeleffekten per timme i kilowatt (kW) under månaden.
+6. Överföringsavgift betalas för överförd elenergi i kilowattimmar (kWh).
+7. Angivna nätpriser tillåter en fri uttagsrätt av reaktiv effekt varje månad som i kVAr räknat uppgår till en procentuell andel av månadsmax i kW samma månad. Andelen är 50 % under januari, februari, mars, november och december och 100% under april - oktober. Vid uttag av reaktiv effekt över den fria uttagsrätten faktureras en överuttagsavgift (kr/kVAr/månad). Överuttagsavgiften är 25 kr/kVAr och månad (exkl. moms).
+8. Anslutningens möjligheter till utökning begränsas bl.a. av nätets beskaffenhet och befintliga säkringar.
+9. Anslutningsavgift blir aktuell vid ändrad anslutning.
+10. Kunden är ansvarig för abonnemanget och för all överföring till dess slutavläsning gjorts. Ägarbyte ska anmälas skriftligt 10 dagar i förväg för att elleveransen ska fungera utan avbrott och för att undvika felaktig fakturering.
+11. I övrigt gäller de allmänna avtalsvillkoren som finns på SEVAB:s webbsida sevab.com
+12. Tillsyn av avgifter och villkor utövas av Energimarknadsinspektionen.
+
+Effektpris vid högspänning
+
+Exkl. moms
+
+Fast avgift
+
+1 000 kr/månad
+
+Abonnemangsavgift
+
+24 kr/kW/månad
+
+Månadsmax
+
+27 kr/kW/månad
+
+Överföringsavgift
+
+6,60 öre/kWh
+
+Villkor
+1. Elnätspriser markerade med högspänning avser anslutningar till 10-20 kV.
+2. Säsongsmässig eller periodiskt återkommande ändring av elnäts prislista och abonnerad effekt är inte tillåtet.
+3. Fakturering sker normalt efter varje kalendermånad.
+4. Fast avgift (kr/månad) betalas för varje månad. I angiven fast avgift ingår myndighetsavgifter:
+elsäkerhetsavgift, nätövervakningsavgift och elberedskapsavgift.
+5. Abonnemangsavgift betalas för det i förväg avtalade effektuttaget, ”abonnerad effekt”. Om det
+verkliga effektuttaget överstiger abonnerad effekt, utgår en överuttagsavgift på 60 kr/kW och månad
+(exkl. moms). Avgiften beräknas på den del av effekten som överstiger den abonnerade effekten.
+6. Månadsmax (kr/kW) betalas varje månad för den högsta uttagna medeleffekten per timme i kilowatt (kW) under månaden.
+7. Överföringsavgift betalas för överförd elenergi i kilowattimmar (kWh).
+8. Nätleveransen omfattar även leverans av fri reaktiv effekt, som i kVAr räknat får uppgå till högst 50 % av den abonnerade effekten i kW. Vid överskridande av fri reaktiv effekt utgår en avgift på 25 kr/kVAr exkl. moms.
+9. Inmatning av reaktiv effekt i kVAr (kapacitiv last) medges varje månad upp till 5% av abonnerad effekt i kW. Vid inmatning av reaktiv effekt över den fria inmatningsrätten faktureras en överinmatningssavgift på 25 kr/kVAr och månad.
+10. Anslutningens möjligheter till utökning begränsas bl.a. av nätets kapacitet. Om den abonnerade effekt väsentligt och kontinuerligt överskrids ska ny anslutningseffekt bestämmas. Anslutningsavgift kan bli aktuell vid ny eller ändrad anslutning.
+11. Kunden är ansvarig för abonnemanget och för all överföring till dess slutavläsning gjorts. Ägarbyte ska anmälas skriftligt 10 dagar i förväg för att elleveransen ska fungera utan avbrott och för att undvika felaktig fakturering.
+12. I övrigt gäller de allmänna avtalsvillkoren som finns på SEVAB:s hemsida sevab.com.
+13. För leveransen gäller allmänna avtalsvillkor NÄT 2012 H (rev).
+14. Tillsyn av avgifter och villkor utövas av Energimarknadsinspektionen.
+15. Tillägg sker med 4 kr/kW och månad på abonnemangsavgiften när mätning sker på transformatorns nedsida. Alternativet kan inte väljas för nya anläggningar.
+Mikroproduktion
+Mikroproduktion är produktion av egen elenergi under ett vanligt uttagsabonnemang på max 63 A. Överskottsproduktion är producerad energi som överskrider använd energi och matas in i elnätet.
+
+Fast avgift exkl. moms
+20kr/månad
+
+Rörlig ersättning för överskottsproduktion (nätnytta) exkl. moms
+4,84 öre/kWh
+
+OBS! Kan innebära momspliktig ersättning
+
+Kraftproduktion (lågspänning)
+Olika delar av nätet har olika behov och ligger därför på olika prislistor. Vår ersättning till småskaliga producenter avspeglar i första hand de olika priserna som vi har mot regionnätet. En producent bidrar till att sänka nätförlusterna vilket vår prislista också tar hänsyn till.
+Prislistorna kan grovt delas in i följande geografiska områden
+
+Område
+
+T1
+Strängnäs, Härad, Vansö
+
+T2
+Mariefred och Stenkvista
+
+L1
+Kjula, Sundbyholm, Jäder och Fogdö
+
+Område
+
+Fast avgift
+
+20 kr/mån
+
+Abonnemangsavgift
+
+38 kr/kW & år
+
+Effektersättning
+
+0,00 öre/kWh
+
+Rörlig ersättning (nätnytta)
+L1
+3,70 öre/kWh
+
+T1
+4,10 öre/kWh
+
+T2
+6,50 öre/kWh
+
+Vid max 200 A säkring (lågspänning)
+
+Fast avgift
+
+20 kr/mån
+
+Abonnemangsavgift
+
+38 kr/kW & år
+
+Rörlig ersättning
+
+4,20 öre/kWh
+
+Samtliga priser är exkl. moms
+
+Villkor
+1. För kund med anslutning till lågspänning gäller ordinarie elnätspriser för uttag.
+2. Säsongsmässig eller periodiskt återkommande ändring av prislista och abonnerad effekt är inte tillåtet.
+3. Utbetalning av ersättningar sker normalt vid fakturering av elnätsavgifter efter varje kalendermånad.
+4. Rörlig ersättning betalas ut för inmatad elenergi (kWh).
+5. Ett inmatningsabonnemang kräver ett abonnemang för uttag i samma punkt (samma elmätare).
+6. Debiteringsgrundande effekt för inmatning beräknas som abonnerad effekt inmatning minus abonnerad effekt uttag.
+7. Vid överskridande av abonnerad effekt för inmatning skall en avgift på 20 kr/kW och månad erläggas, motsvarande den del av effekten som överstiger den abonnerade effekten.
+8. Uttag av reaktiv effekt i kVAr är tillåten upp till det högsta av värdena för a: 50 % av abonnerad effekt för uttag, b: 10 % av abonnerad effekt för inmatning. Om överuttag av reaktiv effekt ändå sker är kunden skyldig att erlägga extra avgift för överuttaget som är 25 kr/kVAr och månad. Separat avtal kan upprättas om annan hantering.
+9. Inmatning av reaktiv effekt är inte tillåten. Om inmatning av reaktiv effekt ändå sker är kunden skyldig att erlägga extra avgift som är 25 kr/kVAr och månad. Inmatad reaktiv effekt baseras på högsta inmatade reaktiva effekt (kVAr) under månaden. Kunden är också skyldig att i samråd med nätägaren vidta nödvändiga åtgärder för att det inte ska upprepas.
+10. Anslutningens möjligheter till utökning begränsas bl.a. av nätets beskaffenhet och befintliga säkringar. Anslutningsavgift blir aktuell vid ändrad anslutning. Om någon månadseffekt överstiger den avtalade anslutningseffekten ska ny anslutningseffekt bestämmas och anslutningsavgift betalas av kunden för utökad anslutning enligt aktuella avgifter och villkor för anslutningsavgifter.
+11. Kunden är ansvarig för abonnemanget och för all överföring till dess slutavläsning gjorts. Ägarbyte ska anmälas skriftligt 10 dagar i förväg för att undvika felaktig fakturering. Avtalsöverlåtelse ska undertecknas av båda parter och godkännas av nätägaren.
+12. I övrigt gäller de allmänna avtalsvillkoren som finns på SEVABs hemsida www.sevab.com.
+13. Tillsyn av avgifter och villkor utövas av Energimarknadsinspektionen.
+Följande dagar, vilka kan infalla måndag - fredag, betraktas ej som vardagar: Nyårsdagen, Trettondedag jul, Skärtorsdag, Långfredag, Annandag påsk, Valborgsmässoafton, Första maj, Kristi himmelsfärdsdag, fredagen efter Kristi himmelsfärdsdag, Nationaldagen, Midsommarafton, Julafton, Juldagen, Annandag jul och Nyårsafton.
+Avgifter för inmatning från elproduktion av högspänning
+
+Exkl. moms
+
+Fast avgift
+20 kr/månad
+
+Abonnerad effekt
+38 kr/kW/år
+
+Villkor för inmatning och generellt
+1. Denna tariff gäller för elproduktionsanläggningar anslutna på 12 eller 24 kV.
+2. Kundens eluttag faktureras efter ordinarie högspänningstariff. Enda undantaget är uttag av reaktiv effekt, hanteras enligt nedan.
+3. Ett inmatningsabonnemang kräver ett abonnemang för uttag i samma punkt (samma elmätare).
+4. Debiteringsgrundande effekt för inmatning beräknas som abonnerad effekt inmatning minus abonnerad effekt uttag.
+5. Säsongsmässig eller periodiskt återkommande ändring av prislista och abonnerad effekt är inte tillåtet.
+6. Vid överskridande av abonnerad effekt för inmatning skall en avgift på 20 kr/kW och månad erläggas, motsvarande den del av effekten som överstiger den abonnerade effekten.
+7. Inmatning av reaktiv effekt är inte tillåten vid inmatningsabonnemang utan samtidigt uttagsabonnemang. Om inmatning av reaktiv effekt ändå sker är kunden skyldig att erlägga extra avgift som är 25 kr/kVAr och månad. Inmatad reaktiv effekt baseras på högsta inmatade reaktiva effekten (kVAr) under månaden. Kunden är också skyldig att i samråd med nätägaren vidta nödvändiga åtgärder för att det inte ska upprepas. Separat avtal kan upprättas om annan hantering. Regler för uttagskund på högspänning, som även har lokal produktion, gäller dock (vid samma mätare, inmatning av reaktiv effekt i kVAr (kapacitiv last) medges varje månad upp till 5 % av abonnerad effekt för uttagen effekt i kW).
+8. Uttag av reaktiv effekt i kVAr är tillåten upp till det högsta av värdena för a: 50 % av abonnerad effekt för uttag, b: 10 % av abonnerad effekt för inmatning. Om överuttag av reaktiv effekt ändå sker är kunden skyldig att erlägga extra avgift för överuttaget som är 25 kr/kVAr och månad. Separat avtal kan upprättas om annan hantering.
+9. Utbetalning av ersättningar och fakturering av kostnader sker normalt efter varje kalendermånad.
+10. I övrigt gäller de allmänna avtalsvillkoren som finns på SEVABs hemsida: www.sevab.com.
+11. Tillsyn av avgifter och villkor utövas av Energimarknadsinspektionen.
+Ersättningar för nätnytta av inmatning, från elproduktion vid högspänning
+
+Område
+
+Effektersättning solceller,
+november - mars, vardag kl 06-22
+
+0,00 öre/kWh
+
+Effektersättning vindkraft,
+november - mars, vardag kl 06-22
+
+1,90 öre/kWh
+
+Effektersättning kraftvärme,
+november - mars, vardag kl 06-22
+
+14,20 öre/kWh
+
+Rörlig ersättning
+Strängnäs utan konsumtion
+2,80 öre/kWh
+
+Strängnäs med konsumtion
+4,10 öre/kWh
+
+Kjula utan konsumtion
+2,40 öre/kWh
+
+Kjula med konsumtion
+3,70 öre/kWh
+
+Samtliga priser är exkl. moms
+
+Villkor för nätnytta
+Med ”i nät utan konsumtion” menas inkoppling i ett nät som i stort sett bara har produktionskunder. Och med alternativet ”i nät med konsumtion” menas inkoppling i ett nät där både producenter och uttagskunder finns. SEVAB Nät väljer alternativ.
+Nätnyttans energiersättning skall i första hand framräknas individuellt. Ovanstående fyra framräknade energiersättningar är baserade på kända kunder med denna prislista.
+Effektersättning ges bara under november - mars, vardag kl 06-22. Effektersättning adderas till nätnytta denna tid.
+Energiersättning betalas ut för inmatad elenergi (kWh).
+Tillfälligt anslutna kunder
+Den här prislistan är avsedd för kunder med en förväntad inkopplingstid kortare än en månad.
+
+Säkringsstorlek
+Exkl. moms
+
+80 A
+
+18 720 kr/år
+
+100 A
+
+23 400 kr/år
+
+125 A
+
+29 250 kr/år
+
+160 A
+
+37 440 kr/år
+
+200 A
+
+46 800 kr/år
+
+300 A
+70 200 kr/år
+
+400 A
+93 600 kr/år
+
+500 A
+117 000 kr/år
+
+600 A
+140 400 kr/år
+
+700 A
+163 800 kr/år
+
+800 A
+187 200 kr/år
+
+900 A
+210 600 kr/år
+
+1000 A
+234 000 kr/år
+
+Elöverföring (rörlig avgift)
+24,40 öre/kWh
+
+Vad är elnätsavgift?
+Den elnätsavgift du betalar är ett viktigt bidrag inte bara för din och dina grannars anslutningar, utan även för hela elnätet i Sverige.
+Elnätsföretaget tar betalt för drift och underhåll av elledningar. Ofta betalar du en avgift för abonnemang och en avgift för elöverföring per använd kilowattimme (kWh). Hur mycket du betalar för abonnemanget beror bland annat på säkringens storlek, säkringen påverkar kostnaden. Du kan fråga en elinstallatör om du har rätt storlek på säkring. Ditt elnätsföretag kan också ge dig råd.
+Du kan inte välja elnätsföretag och därmed inte påverka kostnaderna på så vis. Du väljer själv elhandelsföretag för den el du använder.
+Energimarknadsinspektionen utövar tillsyn över nätavgiftens och övriga villkors skälighet.

@@ -1,0 +1,125 @@
+name: Create PRs for pricing changes
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: 0 0 * * *
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  detect-changes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2.8.0
+      - name: Run & report
+        run: |
+          cargo build -p updates
+          ./target/debug/updates check-all | tee output.log \
+          && grep ERROR output.log \
+            | (tr '\n' '\0' \
+            | xargs -0 -n1 echo ::error) \
+          && rm output.log
+
+      - name: Detect changed extracted texts
+        id: detect
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          CHANGED=$(git diff --name-only results/*/*.extracted.txt)
+
+          echo "Changed extracted texts:"
+          echo "$CHANGED"
+
+          # Export as JSON array for matrix
+          echo "extracted_txt_files=$(jq -nc --arg str "$CHANGED" '$str | split("\n")')" >> $GITHUB_OUTPUT
+
+      - name: Get changed files
+        id: changed-files
+        run: |
+          git diff --name-only > changed_files.txt
+          # Display changed files
+          echo "Changed files:"
+          cat changed_files.txt
+
+          # Check if there are any changed files
+          if [ -s changed_files.txt ]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create directory for changed files
+        if: steps.changed-files.outputs.has_changes == 'true'
+        run: |
+          mkdir -p changed-files-artifact
+
+          # Copy each changed file to the artifact directory while preserving structure
+          while IFS= read -r file; do
+              # Create directory structure in artifact folder
+              mkdir -p changed-files-artifact/$(dirname $file)
+              cp $file changed-files-artifact/$file
+              echo "Copied: $file"
+          done < changed_files.txt
+
+      - name: Upload changed files as artifact
+        if: steps.changed-files.outputs.has_changes == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: changed-files-${{ github.run_id }}
+          path: changed-files-artifact/
+          retention-days: 1
+
+    outputs:
+      extracted_txt_files: ${{ steps.detect.outputs.extracted_txt_files }}
+      has_changes: ${{ steps.changed-files.outputs.has_changes }}
+
+  create-prs:
+    needs: detect-changes
+    runs-on: ubuntu-latest
+    if: needs.detect-changes.outputs.has_changes == 'true'
+    strategy:
+      matrix:
+        extracted_txt_files: ${{ fromJson(needs.detect-changes.outputs.extracted_txt_files) }}
+    steps:
+
+      - name: Derive VAT number
+        id: extract
+        run: |
+          FILEPATH="${{ matrix.extracted_txt_files }}"
+          BASENAME=$(basename "$FILEPATH")
+          FILENAME_BASE="${BASENAME%.extracted.txt}"
+          VAT_NUMBER="${FILENAME_BASE%%_*}"
+          echo "vat_number=$VAT_NUMBER"
+          echo "vat_number=$VAT_NUMBER" >> $GITHUB_OUTPUT
+
+          MODULE_NAME="${FILENAME_BASE#*_}"
+          echo "module_name=$MODULE_NAME"
+          echo "module_name=$MODULE_NAME" >> $GITHUB_OUTPUT
+
+      - uses: actions/checkout@v5
+      - name: Download changed files
+        uses: actions/download-artifact@v4
+        with:
+          name: changed-files-${{ github.run_id }}
+          path: changed-files-artifact
+      - run: |
+          git status; git diff
+          find ./changed-files-artifact -name "${{ steps.extract.outputs.vat_number }}*"
+          find ./changed-files-artifact -name "${{ steps.extract.outputs.vat_number }}*" | cut -d/ -f3- | xargs -n1 -I{} cp -v ./changed-files-artifact/{} {}
+          rm -rf ./changed-files-artifact
+      - run: |
+          git status; git diff
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: "chore: Pricing page changes detected for ${{ steps.extract.outputs.vat_number }} ${{ steps.extract.outputs.module_name }}"
+          title: "Page changes: ${{ steps.extract.outputs.vat_number }} ${{ steps.extract.outputs.module_name }}"
+          body: |
+            Don't forget to update the relevant grid operator pricing info in src/registry.
+          branch: create-pull-request/${{ steps.extract.outputs.vat_number }}-changes

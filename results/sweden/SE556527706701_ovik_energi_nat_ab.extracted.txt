@@ -1,0 +1,293 @@
+
+/
+Start
+
+/elnat
+Elnät
+
+Priser och villkor
+
+Priser
+och
+villkor
+Här hittar du priser och villkor för dig som kund i vårt elnät.
+
+/
+Start
+
+/elnat
+Elnät
+
+Priser och villkor
+
+Vad består elnätsavgiften av?
+Elnätsavgiften är det du betalar för att få el levererad hem till dig. Den består av fyra delar:
+Abonnemangsavgift:
+en fast årsavgift som bestäms utifrån vilken säkringsstorlek du har. Avgiften delas med antalet dagar under ett år och faktureras efter antal dagar som fakturan avser.
+Elöverföringsavgift:
+debiteras efter faktisk elanvändning och faktureras varje månad.
+Energiskatt:
+faktureras varje månad utifrån faktisk elanvändning. Vi betalar pengarna vidare till Skatteverket.
+Myndighetsavgift:
+består av en elsäkerhetsavgift, en nätövervakningsavgift och en elberedskapsavgift. Vi fakturerar dessa avgifter en gång per år och hela beloppet skickas vidare till olika statliga myndigheter.
+
+#svid10_137d3c9f188731af1282ec00
+Avtalsvillkor
+
+Avtalsvillkoren har tagits fram av vår branschorganisation Energiföretagen Sverige och Konsumentverket.
+Avtalsvillkor
+Giltiga från
+/download/18.137d3c9f188731af1284f8e8/1689771451772/nat-2012-k-rev-2-_nov2018.pdf
+Allmänna avtalsvillkor Nät 2012 K (rev2)
+pdf, 201.7 kB.
+2018-10-10
+/download/18.137d3c9f188731af1284f8e7/1689771451692/supplement_nat_2012k_-rev.pdf
+Supplement för allmänna avtalsvillkor för anslutning elnät
+pdf, 89.4 kB.
+2012
+/download/18.5f93da08196f6c8b46e44c42/1749463161048/Tekniska%20villkor%20Produktionsanl%C3%A4ggning%20Typ%20A%20Giltig%20from%202025-05-28.pdf
+Tekniska villkor - Produktionsanläggning Typ A
+pdf, 414.1 kB.
+2025-05-28
+/download/18.137d3c9f188731af1284f8e5/1689771451558/sarskilda-avtalsvilllkor-han-port-oenab-giltig-2023-05-01.pdf
+Särskilda avtalsvillkor HAN-port Övik Energi Nät AB
+pdf, 162.7 kB.
+2023-05-01
+/download/18.5f93da08196f6c8b46e457c3/1749475276484/Tekniska%20och%20administrativa%20villkor%20f%C3%B6r%20n%C3%A4tanslutning%20av%20energilagringsanl%C3%A4ggning%20st%C3%B6rre%20%C3%A4n%2063A.pdf
+Tekniska och administrativa villkor för nätanslutning av energilagring - större än 63A
+pdf, 325.5 kB.
+2025-05-28
+
+#svid10_137d3c9f188731af128279b7
+Abonnemangs- och elöverföringsavgifter
+
+Den fasta avgiften beror på vilken säkringsstorlek du har. Säkringen bestämmer den kapacitet du kan ta ut från vårt elnät. Avgiften gäller för 16-63 ampere och är inklusive moms.
+En fastighet med mer än en mätare kan inte ha ett abonnemang med säkringsstorleken 16 A lägenhet.
+Avgiften gäller för 16-63 ampere och är inklusive moms.
+Säkringsstorlek
+Tariff
+16A* lägenhet
+1 671 kr/år
+16A
+3 923 kr/år
+20A
+6 385 kr/år
+25A
+8 945 kr/år
+35A
+11 374 kr/år
+50A
+15 107 kr/år
+63A
+19 161 kr/år
+* A = Ampere
+Angivna priser gäller från och med 2024-10-01.
+Elöverföringsavgift
+Överföringsavgiften beror på din förbrukning, hur mycket elenergi vi transporterar till dig och som du sedan använder. Priserna är inklusive moms.
+Pris 11,80 öre/kWh
+
+#svid10_182f2e8218c434306fa49ff
+Energiskatt 2024
+
+I elnätsavgiften ingår energiskatt som tas ut på all elanvändning och tillkommer på alla elnätsavtal oavsett vilket elnätsbolag du har. Vi fakturerar energiskatt varje månad och redovisar och betalar pengarna vidare till Skatteverket.
+År 2024 blir energiskatten
+53,50 öre/kWh
+inklusive moms. Som konsumentkund hos Övik Energi Nät AB har du en reducerad energiskatt, vad vi kallar Norrskatteavdrag på
+9,6 öre/kWh
+. Avdraget görs direkt på din elnätsfaktura, vilket innebär att du får betala
+41,50 öre/kWh
+inklusive moms.
+Norrskatteavdraget gäller elnätskunder i Västerbotten, Norrbotten och Jämtland samt i Örnsköldsvik, Sollefteå, Ånge, Ljusdal, Malung-Sälen, Mora, Orsa, Älvdalen och Torsby kommun.
+I tabellen nedan kan du se skattesatserna för energiskatten de senaste åren. Energiskatten presenteras i öre per kWh inklusive moms och utan Norrskatteavdraget.
+År
+Energiskatt öre/kWh
+2024
+53,50
+2023
+49,00
+2022
+45,00
+2021
+44,50
+2020
+44,13
+2019
+43,38
+2018*
+41,38
+*Från och med 1 januari 2018 började energiskatten betalas in till ditt nätföretag. Energiskatten fakturerades tidigare av ditt elhandelsbolag.
+
+#svid10_26188d84192f704b8ab8b201
+Energiskatt 2025
+
+I elnätsavgiften ingår energiskatt som tas ut på all elanvändning och tillkommer på alla elnätsavtal oavsett vilket elnätsbolag du har. Vi fakturerar energiskatt varje månad och redovisar och betalar pengarna vidare till Skatteverket.
+År 2025 blir energiskatten
+54,88 öre/kWh
+inklusive moms. Som konsumentkund hos Övik Energi Nät AB har du en reducerad energiskatt, vad vi kallar Norrskatteavdrag på
+9,6 öre/kWh
+. Avdraget görs direkt på din elnätsfaktura, vilket innebär att du får betala
+42,88 öre/kWh
+inklusive moms.
+Norrskatteavdraget gäller elnätskunder i Västerbotten, Norrbotten och Jämtland samt i Örnsköldsvik, Sollefteå, Ånge, Ljusdal, Malung-Sälen, Mora, Orsa, Älvdalen och Torsby kommun.
+I tabellen nedan kan du se skattesatserna för energiskatten de senaste åren. Energiskatten presenteras i öre per kWh inklusive moms och utan Norrskatteavdraget.
+År
+Energiskatt öre/kWh
+2025
+54,88
+2024
+53,50
+2023
+49,00
+2022
+45,00
+2021
+44,50
+2020
+44,13
+2019
+43,38
+2018*
+41,38
+*Från och med 1 januari 2018 började energiskatten betalas in till ditt nätföretag. Energiskatten fakturerades tidigare av ditt elhandelsbolag.
+
+#svid10_137d3c9f188731af12827ab0
+Myndighetsavgifter
+
+I elnätsavgiften ingår myndighetsavgifter som består av en elsäkerhetsavgift, en nätövervakningsavgift och en elberedskapsavgift.
+Myndighetsavgifterna faktureras en gång varje år på din elnätsfaktura för januari månad. Vi fakturerar i efterhand så till exempel myndighetsavgifterna för år 2024 tar vi ut på januarifakturan 2025. Hela beloppet skickas vidare till olika statliga myndigheter.
+I tabellen nedan kan du se myndighetsavgifterna de senaste åren. Avgifterna presenteras i kronor per år inklusive moms.
+År
+Elsäkerhetsavgift,
+kr/år
+Nätövervakningsavgift,
+kr/år
+Elberedskaps-avgift,
+kr/år
+Totalt,
+kr/år
+2024
+13,88
+5,44
+112,50
+131,82
+2022-2023
+13,88
+5,44
+49,00
+68,31
+2021
+12,81
+5,44
+49,00
+67,25
+2020
+12,75
+5,44
+49,00
+67,19
+2019
+11,88
+3,75
+49,00
+64,63
+2018
+11,88
+3,75
+56,25
+71,88
+2017
+11,88
+3,75
+56,25
+71,88
+
+#svid10_137d3c9f188731af12827ab2
+Exempel på årskostnader
+
+Nedan presenteras exempel på vad den totala årskostnaden blir beroende på årsförbrukning och säkringsstorlek. Alla priser anges inklusive moms och är räknade på elnätspriser som gäller från och med 2024-10-01.
+Årsförbrukning: 2 000 kWh/år
+16A* lägenhet
+16A
+20A
+Abonnemangsavgift, kr/år
+1 671
+3 923
+6 385
+Elöverföringsavgift, kr/år
+236
+236
+236
+Energiskatt**, kr/år
+857,60
+857,60
+857,60
+Myndighetsavgifter***, kr/år
+131,82
+131,82
+131,82
+Total kostnad, kr/år
+2 896,42
+5 148.42
+7 610,42
+Årsförbrukning: 5 000 kWh/år
+16A* lägenhet
+16A
+20A
+Abonnemangsavgift, kr/år
+1 671
+3 923
+6 385
+Elöverföringsavgift, kr/år
+590
+590
+590
+Energiskatt**, kr/år
+2 144
+2 144
+2 144
+Myndighetsavgifter***, kr/år
+131,82
+131,82
+131,82
+Total kostnad, kr/år
+4 536,82
+6 788,82
+9 250,82
+Årsförbrukning: 20 000 kWh/år
+16A* lägenhet
+16A
+20A
+Abonnemangsavgift, kr/år
+1 671
+3 923
+6 385
+Elöverföringsavgift, kr/år
+2 360
+2 360
+2 360
+Energiskatt**, kr/år
+8 576
+8 576
+8 576
+Myndighetsavgifter***, kr/år
+131,82
+131,82
+131,82
+Total kostnad, kr/år
+12 738,82
+14 990,82
+17 452,82
+* A=Ampere
+** Energiskatt gällande för år 2025
+*** Myndighetsavgifter att betala år 2025
+
+Behöver du mer hjälp?
+Hos
+/kundservice
+kundservice
+hittar du svar på många vanliga frågor.
+Är du kund hos oss kan du lösa de flesta av dina ärenden på
+https://minasidor.ovikenergi.se/
+Mina sidor
+Länk till annan webbplats, öppnas i nytt fönster.
+.

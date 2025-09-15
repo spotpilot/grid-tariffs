@@ -1,0 +1,316 @@
+
+Abonnemangspriser
+
+Prislistan gäller för Mjölby kraftnäts elnätsområde från och med den 1 januari 2025 och tills vidare.  Vi tillämpar branschens allmänna avtalsvillkor för nätanslutning och överföring av el och våra särskilda avtalsvillkor för elnätstjänster, se rubriken “Avtalsvillkor”.
+
+Säkringsabonnemang 16-100 A
+
+Prislistan gäller för Mjölbys nätområde och priserna presenteras inklusive moms.
+Säkringsabonnemang 16-63 A upphör och ersätts
+Säkringsabonnemang 16-63 A upphör att gälla 1 maj 2025 och ersätts av
+/kundservice/priser-och-avtal/priser-elnat-2025/#konsumtionsabonnemang
+konsumtionsabonnemang 16-63 A prislista standard
+. Du med säkringsabonnemang 16 A lägenhet eller säkringsabonnemang 80-100 A påverkas inte.
+
+Huvudsäkring
+Fast avgift, kr/år
+Rörlig elöverföringsavgift. öre/kWh
+
+16 A, lägenhet
+1 430
+35,30
+
+16 A
+2 790
+35,30
+
+20 A
+3 980
+35,30
+
+25 A
+4 960
+35,30
+
+35 A
+7 150
+35,30
+
+50 A
+10 060
+35,30
+
+63 A
+12 630
+35,30
+
+80 A
+16 150
+35,30
+
+100 A
+20 980
+35,30
+
+Tillkommande avgifter:
+
+Energiskatt: 54,875 öre/kWh
+Myndighetsavgift: totalt 131,82 kr per år. Myndighetsavgiften visas som en månadsavgift på din faktura. Avgiften består av:
+Elsäkerhetsavgift: 13,88 kronor
+Nätövervakningsavgift: 5,44 kronor
+Elberedskapsavgift: 112,5 kronor
+
+Prisdelar i elnätsavgiften
+
+Med säkringsabonnemang är elnätsavgiften uppdelad i två delar: en fast årsavgift (kr/år) och en rörlig elöverföringsavgift (öre/kWh).
+Fast årsavgift
+Din huvudsäkring avgör storleken på årsavgiften. Ändring av huvudsäkring ska göras av behörig  elinstallatör som sedan anmäler ändringen till oss på MSE. Kostnaden står du själv för.
+
+Rörlig elöverföringsavgift
+
+Rörlig elöverföringsavgift (öre/kWh) är avgiften du betalar för att elen ska komma hem till dig och betalas i förbrukade kilowattimmar (kWh). Den rörliga elöverföringsavgiften faktureras månadsvis efter avläst förbrukning.
+
+Konsumtionsabonnemang 16-63 A
+
+Prislistorna gäller för Mjölbys nätområde från och med den 1 maj och tills vidare. Priserna presenteras inklusive moms. Konsumtionsabonnemang 16-63 A ersätter säkringsnivåerna 16-63 A med säkringsabonnemang 16-100 A från och med 1 maj 2025.
+Två olika prislistor - standard och alternativ
+Konsumtionsabonnemanget 16 - 63 A har två prislistor, prislista standard och prislista alternativ. När den nya prismodellen startar blir du automatiskt tilldelad prislista standard om du inte själv valt prislista alternativ.
+Byte av prislista
+Från att den nya prismodellen startar fram till den 31 december 2026 kan du byta prislista två gånger, därefter en gång per år. Du byter prislista på Mina sidor eller genom att
+/kundservice/#kontakt
+kontakta vår kundservice
+. Om du byter prislista börjar den nya att gälla vid nästa månadsskifte och syns på fakturan du får om två månader.
+Prislista standard
+Priserna visas per månad och inklusive moms.
+
+Huvudsäkring (A)
+Maximalt effektuttag (kW)
+Abonnemangs-
+avgift (kr)
+Överförings-
+avgift (öre/kWh)
+Effekt-
+avgift, sommar (kr/kW)
+Effekt-
+avgift, vinter (kr/kW)
+
+16 A
+11 kW
+225 kr
+18,90 öre
+24 kr
+48 kr
+
+20 A
+14 kW
+320 kr
+18,90 öre
+24 kr
+48 kr
+
+25 A
+17 kW
+400 kr
+18,90 öre
+24 kr
+48 kr
+
+35 A
+24 kW
+590 kr
+18,90 öre
+24 kr
+48 kr
+
+50 A
+35 kW
+825 kr
+18,90 öre
+24 kr
+48 kr
+
+63 A
+43 kW
+1 030 kr
+18,90 öre
+24 kr
+48 kr
+
+Tillkommande avgifter:
+
+Energiskatt: 54,875 öre/kWh
+Myndighetsavgift: totalt 131,82 kr per år. Myndighetsavgiften visas som en månadsavgift på din faktura. Avgiften består av:
+Elsäkerhetsavgift: 13,88 kronor
+Nätövervakningsavgift: 5,44 kronor
+Elberedskapsavgift: 112,5 kronor
+
+Prislista alternativ
+Priserna visas per månad och inklusive moms.
+
+Huvud-säkring (A)
+Maximalt effekt-
+uttag (kW)
+Abonnemangs-
+avgift (kr)
+Överförings-
+avgift, natt (öre/kWh)
+Överförings-
+avgift, dag (öre/kWh)
+Effekt-
+avgift, natt, sommar (kr/kW)
+Effekt-
+avgift, dag, sommar (kr/kW)
+Effekt-
+avgift, natt, vinter (kr/kW)
+Effekt-
+avgift, dag, vinter (kr/kW)
+
+16 A
+11 kW
+225 kr
+11,5 öre
+23 öre
+8 kr
+24 kr
+12 kr
+48 kr
+
+20 A
+14 kW
+320 kr
+11,5 öre
+23 öre
+8 kr
+24 kr
+12 kr
+48 kr
+
+25 A
+17 kW
+400 kr
+11,5 öre
+23 öre
+8 kr
+24 kr
+12 kr
+48 kr
+
+35 A
+24 kW
+590 kr
+11,5 öre
+23 öre
+8 kr
+24 kr
+12 kr
+48 kr
+
+50 A
+35 kW
+825 kr
+11,5 öre
+23 öre
+8 kr
+24 kr
+12 kr
+48 kr
+
+63 A
+43 kW
+1 030 kr
+11,5 öre
+23 öre
+8 kr
+24 kr
+12 kr
+48 kr
+
+Tillkommande avgifter:
+
+Energiskatt: 54,875 öre/kWh
+Myndighetsavgift: totalt 131,82 kr per år. Myndighetsavgiften visas som en månadsavgift på din faktura. Avgiften består av:
+Elsäkerhetsavgift: 13,88 kronor
+Nätövervakningsavgift: 5,44 kronor
+Elberedskapsavgift: 112,5 kronor
+
+Särskilda avtalsvillkor
+Beroende på val av prislista är priserna för effektavgift årstids- och tidsanpassade. Sommarmånaderna är april till oktober och vintermånader är november till mars. Dag räknas från klockan 06.00 till 23.00 och natt räknas från klockan 23.00 till 06.00.
+Elnätsavgiften är uppdelad i tre delar: en fast abonnemangsavgift, en rörlig överföringsavgift och en rörlig effektavgift.
+Fast abonnemangsavgift
+Avgiften (kr/mån) baseras på hur stor huvudsäkring du har och visar maximalt möjligt effektuttag.
+Rörlig överföringsavgift
+Avgiften (öre/kWh) baseras på hur mycket el du använder. Den baseras på de kilowattimmar (kWh) du förbrukade föregående månad. Den rörliga överföringsavgiften faktureras månadsvis efter avläst förbrukning.
+Rörlig effektavgift
+Avgiften (kr/kW/mån) baseras på månadens högsta effekttoppar. I prislista standard baseras effektavgiften på medelvärdet av månadens fem högsta effekttoppar med skilda datum. Medelvärdet multipliceras med aktuell effektavgift.
+I prislista alternativ baseras effektavgiften på månadens högsta effekttopp dagtid respektive nattetid, alltså två effekttoppar. De två värdena multipliceras med aktuell effektavgift.
+Effekttoppar mäts som timmedeleffekt, vilket är genomsnittet av den effekt som används under en timme.
+
+Effektabonnemang
+
+Prislistan gäller för Mjölbys nätområde och priserna presenteras exklusive moms.
+Prislista lågspänning
+
+Avgifter
+N4
+F4
+
+Fast elnätsavgift
+13 910 kr/år
+13 910 kr/år
+
+Abonnemangsavgift
+492 kr/kW/år
+265 kr/kW/år
+
+Elöverföringsavgift
+13,30 öre/kWh
+22,40 öre/kWh
+
+Tillkommande avgifter:
+
+Energiskatt: 43,90 öre/kWh
+Myndighetsavgift: totalt 105,45 kr per år. Myndighetsavgiften visas som en månadsavgift på din faktura. Avgiften består av:
+Elsäkerhetsavgift: 11,10 kronor
+Nätövervakningsavgift: 4,35 kronor
+Elberedskapsavgift: 90 kronor
+
+Prislista högspänning
+
+Avgift
+N3
+F3
+
+Fast elnätsavgift
+16 190 kr/år
+16 190 kr/år
+
+Abonnemangsavgift
+509 kr/kW/år
+286 kr/kW/år
+
+Elöverföringsavgift
+10,20 öre/kWh
+17,40 öre/kWh
+
+Tillkommande avgifter:
+
+Energiskatt: 43,90 öre/kWh
+Myndighetsavgift: totalt 6 672 kr per år. Myndighetsavgiften visas som en månadsavgift på din faktura. Avgiften består av:
+Elsäkerhetsavgift: 905 kronor
+Nätövervakningsavgift: 870 kronor
+Elberedskapsavgift: 4 897 kronor
+
+Prisdelar
+Med våra effektabonnemang är elnätsavgiften uppdelad i tre delar: en fast årsavgift, en abonnemangsavgift och en rörlig elöverföringsavgift.
+Fast årsavgift
+Fast årsavgift (kr/år) betalas uppdelat per månad.
+
+Abonnemangsavgift
+Abonnemangsavgift baseras på abonnerad effekt och betalas uppdelat per månad.
+
+Rörlig elöverföringsavgift
+Rörlig elöverföringsavgift (öre/kWh) är avgiften du betalar för att elen ska komma hem till dig och betalas i förbrukade kilowattimmar (kWh). Den rörliga elöverföringsavgiften faktureras per månad efter avläst förbrukning.
+Uttag av reaktiv effekt
+Fritt uttag av reaktiv effekt tillåts inom 50 procent av årets högsta uttag av aktiv effekt. Överuttag av reaktiv effekt räknas i kVAr (kilovoltampere reaktiv) och faktureras med 100 kronor per kVAr på fakturan för december, eller på din slutfaktura.
+Uttag av aktiv effekt
+Vid uttag av aktiv effekt över din abonnerade effekt faktureras du ett tillägg på 100 procent av gällande abonnemangsavgift för den uttagna effekten. Uttag av aktiv effekt beräknas på det högsta värdet under året och faktureras på fakturan för december, eller på din slutfaktura.

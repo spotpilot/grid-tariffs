@@ -1,0 +1,156 @@
+
+/privat/
+Privat
+>
+/privat/elnat/
+Elnät
+>
+/privat/elnat/elnatsavgifter/
+Elnätsavgifter villa
+
+Elnätsavgifter villa
+Elnätsavgiften består av två delar - abonnemang och elöverföring. Abonnemangskostnaden är en fast kostnad medan elöverföringskostnaden varierar dels utifrån hur mycket el du använder men också vad månadens rörliga elpris är.
+Följande avgifter gäller i samtliga Öresundskrafts nätområden. Vilken tariff och avgiftsbestämmande säkring du har framgår av din faktura. Vid inflyttning debiteras en inflyttningsavgift på 315 kronor inklusive moms
+Läs mer om modeller för elöverföringsavgifter och nätersättning
+/modeller-for-eloverforingsavgift-och-natersattning/
+här
+.
+Elnätsavgifter fr.o.m. 2025-01-01
+
+Abonnemang
+kronor/år inklusive moms
+A=Ampère
+
+Säkring
+16A
+20A
+25A
+35A
+
+Enkeltariff
+5 310
+8 770
+10 690
+16 240
+
+Tidstariff*
+8 125
+11 525
+14 830
+21 290
+
+Elöverföring och energiskatt
+öre/kWh inklusive moms
+
+Enkeltariff
+Tidstariff* högpris
+Tidstariff* lågpris
+
+Elöverföring
+17 + 5,57% x MMU**
+23,5 + 5,57% x MMU**
+8,5 + 5,57% x MMU**
+
+Energiskatt
+54,875
+54,875
+54,875
+
+Högpris: november t.o.m. mars, måndag-fredag 06.00-22.00.
+Lågpris: övrig tid.
+*Ingen nyanslutning sker till tidstariff, ej heller byte från enkeltariff till tidstariff på befintliga abonnemang.
+**
+Månadens medelutfall av elpriset
+
+Elnätsavgifter fr.o.m. 2024-07-01 t.o.m. 2024-12-31
+
+Abonnemang
+kronor/år inklusive moms
+A=Ampère
+
+Säkring
+16A
+20A
+25A
+35A
+
+Enkeltariff
+3 785
+6 250
+7 620
+11 575
+
+Tidstariff*
+5 790
+8 215
+10 570
+15 175
+
+Elöverföring och energiskatt
+öre/kWh inklusive moms
+
+Enkeltariff
+Tidstariff* högpris
+Tidstariff* lågpris
+
+Elöverföring
+17,5 + 5,96% x MMU**
+24 + 5,96% x MMU**
+9 + 5,96% x MMU**
+
+Energiskatt
+53,50
+53,50
+53,50
+
+Högpris: november-mars, måndag-fredag 06.00-22.00.
+Lågpris: övrig tid.
+*Ingen nyanslutning sker till tidstariff, ej heller byte från enkeltariff till tidstariff på befintliga abonnemang.
+**
+Månadens medelutfall av elpriset
+
+Tidigare elnätsavgifter
+/privat/elnat/elnatsavgifter2/
+Villa 2024
+
+Avtalsvillkor elnät
+/privat/elnat/avtalsvillkor-elnat/
+Läs våra avtalsvillkor här
+
+Elnätspriser och anslutning
+
+play_arrow
+
+{{item.Heading}}
+
+#article-carousel-306
+
+Previous
+
+#article-carousel-306
+
+Next
+
+play_arrow
+
+{{item.Heading}}
+
+Läs mer om elnät
+
+play_arrow
+
+{{item.Heading}}
+
+#article-carousel-385
+
+Previous
+
+#article-carousel-385
+
+Next
+
+play_arrow
+
+{{item.Heading}}
+
+Öresundskraft Elnät AB

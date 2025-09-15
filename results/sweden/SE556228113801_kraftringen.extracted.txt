@@ -1,0 +1,96 @@
+
+Elnätsavgifter
+Kraftringens kompletta prislista för säkringsabonnemang.
+
+Elnätsavgifter t.o.m 2025-05-31
+
+Säkring
+Abonnemangsavgift kr/månad
+
+Lägenhet
+300
+
+16 A
+590
+
+20 A
+935
+
+25 A
+1165
+
+35 A
+1530
+
+50 A
+2135
+
+63 A
+2665
+
+80 A
+3565
+
+100 A
+4505
+
+125 A
+5930
+
+160 A
+7665
+
+200 A
+9550
+
+Elnätsavgifter fr.o.m 2025-06-01
+
+Säkring
+Abonnemangsavgift kr/månad
+
+Lägenhet
+345
+
+16 A
+685
+
+20 A
+1080
+
+25 A
+1345
+
+35 A
+1765
+
+50 A
+2470
+
+63 A
+3075
+
+80 A
+4115
+
+100 A
+5205
+
+125 A
+6850
+
+160 A
+8850
+
+200 A
+11030
+
+Utöver den fasta månadsavgiften tillkommer elöverföringsavgift och energiskatt.
+Från och med 2024-01-01 byttes vår avgiftsmodell för elöverföringen. Bytet beror på att regionnätsägaren (E.ON) har valt att gå från ett fast pris per kWh till en avgift som är baserad på timpris. För att prissättningen ska bli rättvis mot våra kunder och för att undvika att göra kraftiga prisjusteringar av överföringsavgiften flera gånger om året har vi valt att använda en beräkningsmodell som speglar den verkliga kostnaden. I den nya prismodellen beräknas priset timme för timme och summeras på din faktura till en månadsavgift för din elöverföring.
+Det nya priset kommer att vara delvis baserat på elspotpriset för elprisområde 4 och ditt överföringspris kommer varje timme att beräknas enligt följande formel:
+T.o.m. 2025-05-31
+: 20 + 0,0561 x elspotpriset inkl. moms öre/kWh.
+Fr.o.m. 2025-06-01
+: 20 + 0,05 x elspotpriset inkl. moms öre/kWh.
+Den 1 januari 2025 höjdes Energiskatten till 54,875 öre per kWh. Samtliga belopp är inklusive moms. I abonnemangsavgiften ingår myndighetsavgifterna elsäkerhetsavgift, nätövervakningsavgift och elberedskapsavgift.
+/privat/elnat/elnatsavgifter/overforingsavgift/
+Läs mer om överföringsavgiften och den nya beräkningsmodellen.

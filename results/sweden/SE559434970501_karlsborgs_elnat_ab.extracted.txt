@@ -1,0 +1,159 @@
+
+Elnätspriser
+
+Fr.o.m 2025-01-01
+
+Säkringskunder
+Normaltariff
+Ink. moms
+
+Överföringsavgift Öre/KWh
+17,6
+22,0
+
+Fast avgift, 16 Amp, lägenhet, Kr/år
+1696
+2120
+
+Fast avgift, 16 Amp, Kr/År
+3758
+4697
+
+Fast avgift, 20 Amp, Kr/År
+5435
+6793
+
+Fast avgift, 25 Amp, Kr/År
+7251
+9064
+
+Fast avgift, 35 Amp, Kr/År
+9492
+11864
+
+Fast avgift, 50 Amp, Kr/År
+12518
+15648
+
+Fast avgift, 63 Amp, Kr/År
+15583
+19479
+
+Fast avgift, 80 Amp, Kr/År
+20636
+25795
+
+Fast avgift, 100 Amp, Kr/År
+24590
+30737
+
+Fast avgift, 125 Amp, Kr/År
+31014
+38768
+
+Fast avgift, 160 Amp, Kr/År
+36998
+46248
+
+Fast avgift, 200 Amp, Kr/År
+40819
+51023
+
+Effektkunder
+
+Lågspänning (N4)
+Normaltariff
+Ink moms
+
+Överföringsavgift hög *), öre/KWh
+11,7
+14,6
+
+Fast avgift, Kr/år
+41476
+51845
+
+Abonnerad effekt, Kr/kW
+539
+674
+
+Överuttag Abonnerad effekt, Kr/kW
+942
+1178
+
+Reaktiv effekt, Kr/kvar
+91
+114
+
+Högspänning (N3)
+Normaltariff
+Ink moms
+
+Överföringsavgift hög *), öre/KWh
+9,7
+12,2
+
+Fast avgift, Kr/år
+13496
+16870
+
+Abonnerad effekt, Kr/kW
+539
+674
+
+Överuttag Abonnerad effekt, Kr/kW
+942
+1178
+
+Reaktiv effekt, Kr/kvar
+66
+83
+
+Nättariff för inmatning upp till 1500kW, gäller från 2024-01-01
+Nättariff för inmatning
+(exkl moms)
+*
+
+Spänningsnivå (kV)
+IN10S 10kV
+IN04S 0,4kV
+IN04M 0,4kV
+
+Fast avgift (kr/år)
+2000 kr
+1000 kr
+-
+
+Nätersättning Högpristid **
+(öre/kWh)
+4 öre
+4 öre
+4 öre
+
+Nätersättning Lågpristid ** (öre/kWh)
+4 öre
+4 öre
+4 öre
+
+Nätersättning Lågpristid ** (öre/kWh)
+4 öre
+4 öre
+4 öre
+
+Nätavgift IN10S
+Nätavgift IN04S
+Nätavgift IN04M
+Vid anslutning av produktionsanläggning över 1500kW
+
+Gäller för inmatning vid högspänning ≤1500 kW
+Gäller vid lågspänning, en huvudsäkring över 63A eller en produktionsanläggning mellan 43,5 kW och 1500 kW
+Gäller vid en huvudsäkring max 63A och en produktionsanläggning på max 43,5kW (Mikroproduktion enligt ellagens definition)
+Där uttagsabonnemang saknas upprättas ett avtal mellan parterna, innehållande allmänna villkor för inmatningen med prislista och teknisk specifikation.
+
+Övrigt
+Elcertifikat:
+I den fasta avgiften ingår eventuell rapportering av elcertifikatsserie under förutsättning att kunden valt att rapportera utbyte i gränspunkten med elnätet (ordinarie elmätare)
+Avbrottsersättning:
+Inmatningsabonnemang saknar rätt till avbrottsersättning.
+Övriga avgifter:
+Särskilda avgifter debiteras vid kontroll av mätare, till-, från- och återinkoppling och bristande betalning

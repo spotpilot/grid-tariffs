@@ -1,0 +1,163 @@
+Elnätspriser i Umeå
+Här hittar du samlade elnätspriser för dig som bor och verkar i Umeå. För att få el till din bostad eller verksamhet behöver du också teckna ett elhandelsavtal med någon av marknadens leverantörer.
+Villa och lägenhet
+/elnat/priser/priser-elnat#villaochlagenhet
+Se priser
+/elnat/priser/priser-elnat#villaochlagenhet
+Villa och lägenhet
+Företag och industri
+/elnat/priser/priser-elnat#foretagochindustri
+Se priser
+/elnat/priser/priser-elnat#foretagochindustri
+Företag och industri
+Nyanslutning
+/elnat/priser/priser-elnat#nyanslutning
+Se priser
+/elnat/priser/priser-elnat#nyanslutning
+Nyanslutning
+Tillfällig anläggning
+/elnat/priser/priser-elnat#byggstrom
+Se priser
+/elnat/priser/priser-elnat#byggstrom
+Tillfällig anläggning
+Effekttariffer – vad betyder det för dig som bor i Umeå?
+/elnat/priser/effekttariffer
+Mer om effekttariffer
+Villa och lägenhet
+Kostnaden för din anslutning till elnätet består av en fast och en rörlig avgift. Effektabonnemang kan vara aktuellt för verksamheter med stort elbehov och 
+innebär att du betalar för hur stor effekt du behöver, oavsett mätarsäkring. För varje använd kilowattimme (kWh) betalar du en rörlig överföringsavgift.
+2025 års fasta avgift för din säkring
+Mätarsäkringens storlek
+Pris inklusive moms
+Pris exklusive moms
+16 A lägenhet *
+1 010 kr/år
+808 kr/år
+16 A
+2 538 kr/år
+2 030 kr/år
+20 A
+3 799 kr/år
+3 039 kr/år
+25 A
+4 739 kr/år
+3 791 kr/år
+35 A
+6 398 kr/år
+5 118 kr/år
+50 A
+9 374 kr/år
+7 499 kr/år
+63 A
+13 125 kr/år
+10 500 kr/år
+80 A
+18 595 kr/år
+14 876 kr/år
+100 A
+23 355 kr/år
+18 684 kr/år
+125 A
+31 015 kr/år
+24 812 kr/år
+160 A
+37 989 kr/år
+30 391 kr/år
+200 A
+49 509 kr/år
+39 607 kr/år
+Rörlig överföringsavgift för använd el
+Energiskatt till staten
+Företag och industri
+Kostnaden för din anslutning till elnätet består av en fast och en rörlig avgift. Effektabonnemang kan vara aktuellt för verksamheter med stort elbehov och 
+innebär att du betalar för hur stor effekt du behöver, oavsett mätarsäkring. För varje använd kilowattimme (kWh) betalar du en rörlig överföringsavgift.
+2025 års avgift för effektabonnemang lågspänning 0,4 kV
+Effektkund lågspänning 0,4 kV
+Pris exklusive moms
+Fast avgift
+8 500 kr/år
+Effektavgift (lägsta debitering 135 kW)
+695 kr/kW/år
+Överföringsavgift, nov-mars
+6,9 öre/kWh
+Överföringsavgift, övriga året
+5,0 öre/kWh
+Överuttag reaktiv effekt
+83 kr/kVar/år
+Pris exklusive moms
+Elsäkerhetsavgift
+11,10 kr/år
+Nätövervakningsavgift
+4,35 kr/år
+Elberedskapsavgift
+90 kr/år
+Summa övriga avgifter
+105,45 kr/år
+2025 års avgift för effektabonnemang högspänning 11 kV
+Effektkund högspänning 11 kV
+Pris exklusive moms
+Fast avgift
+25 300 kr/år
+Effektavgift
+443 kr/kW/år
+Överföringsavgift, nov-mars
+3,4 öre/kWh
+Överföringsavgift, övriga året
+2,7 öre/kWh
+Överuttag abonnerad (aktiv) effekt
+886 kr/kW/år
+Överuttag reaktiv effekt
+61 kr/kVar/år
+Pris exklusive moms
+Elsäkerhetsavgift
+905 kr/år
+Nätövervakningsavgift
+870 kr/år
+Elberedskapsavgift
+4 897 kr/år
+Summa övriga avgifter
+6 672 kr/år
+Nyanslutning till elnätet
+Vi tillämpar våra anslutningsavgifter utifrån Energimarknadsinspektionens rekommendationer för anslutningar upp till 25 A. Det finns en grundavgift för alla anslutningar inom 200 meter från anslutningspunkten. För anslutningar längre bort än 200 meter tillkommer en avgift per meter. Storleken på den avgiften varierar baserat på olika avståndsintervall från anslutningspunkten.
+2025 års priser för anslutning upp till 25 A
+Avstånd
+Pris inkl. moms
+Pris exkl. moms
+0-199 m
+54 125 kr
+43 300 kr
+200-599 m
+54 125 kr + 463,75 kr/m
+43 300 kr + 371 kr/m
+600-1199 m
+239 625 kr + 1 126,25 kr/m
+191 700 kr + 901 kr/m
+1200-1800 m
+915 375 kr + 630 kr/m
+732 300 kr + 504 kr/m
+Räkneexempel
+Tillfällig anläggning
+Priserna för tillfällig anläggning, även kallad byggström, gäller under förutsättning att det finns kapacitet i elnätet och att Umeå Energi Elnät AB anvisar var byggkraften ska anslutas. Behövs det större byggkrafter inom ett område där både kapacitet och elnät saknas görs detta via en offertförfrågan.
+/elnat/support-och-guider/kontakta-natanslutning
+Kontakta oss för mer information
+Direktmätning och strömtrafomätning
+Säkringens Storlek
+Mätsystem
+Pris inkl. moms
+Byggkraft t.o.m. 63 A
+Direktmätning
+5375 kr (4300 kr exkl. moms)
+Byggkraft fr.o.m. 80-200 A
+Strömtrafomätning
+9635 kr (7700 kr/exkl. moms)
+Ersättning för nätnytta
+Kan även kallas ersättning för lokalt inmatad el till elnätet, energiersättning eller nätnyttoersättning.
+Som mikroproducent med egen elproduktionsanläggning har du enligt ellagen rätt till ersättning från elnätsföretaget vid inmatning av el till elnätet. Du som bor inom Umeå Energis elnätsområde och producerar egen el får energiersättning från Umeå Energi Elnät.
+Mikroproduktion
+Energiersättning 2025
+Energiersättning 2024
+-3,9 öre/kWh exkl. moms
+-3,7 öre/kWh exkl. moms
+Mer information om våra elnätspriser
+Säkringsavgifterna gäller för säkringar upp till 200 A, vilket betyder att du som är privatperson och har en villa eller lägenhet vanligtvis kan hitta ditt pris här. Har du ett större behov av el i din verksamhet eller industri räknas du som en effektkund, dvs att ditt pris sätts utifrån hur mycket du använder elnätet. Priser för nyanslutning gäller när du exempelvis ska ansluta din nya fastighet till vårt elnät. Du hittar även priser för en tillfällig anslutning här. Dessa gäller då du exempelvis behöver byggström under tiden som du bygger nytt. 
+Priserna justeras en gång per år med start efter årsskiftet.

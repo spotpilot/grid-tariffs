@@ -1,0 +1,9 @@
+{
+    "[rust]": {
+        "editor.formatOnSave": true
+    },
+    "search.exclude": {
+        "Cargo.lock": true
+    },
+    "rust-analyzer.cargo.features": "all"
+}

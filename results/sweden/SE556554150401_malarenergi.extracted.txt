@@ -1,0 +1,365 @@
+Prislista Mälarenergi elnät
+Priser för Mälarenergi Elnät AB:s företags- och privatkunder.
+Angivna priser är inklusive moms (25%). Energiskatt tillkommer på elnätsavgiften.
+/el/elnat/energiskatt/
+Information om energiskatten
+.
+Prövning av samtliga nättariffer och avgifter i prislistan kan begäras hos
+https://ei.se/
+Energimarknadsinspektionen
+.
+Säkringsabonnemang
+
+Exklusive moms
+Inklusive moms
+Exklusive moms
+Inklusive moms
+Exklusive moms
+Inklusive moms
+
+Kategori/
+säkringsstorlek (A)
+Fast avgift  kr/mån (1)
+Fast avgift  kr/mån (1)
+Elöverföring öre/kWh
+Elöverföring öre/kWh
+Effektavgift  kr/kW (3)
+Effektavgift kr/kW (3)
+
+Lägenhet
+(2)
+114,00
+142,00
+29,00
+36,25
+15,00
+18,75
+
+16 A
+246,00
+307,50
+29,00
+36,25
+15,00
+18,75
+
+20 A
+268,00
+335,00
+29,00
+36,25
+15,00
+18,75
+
+25 A
+290,00
+362,50
+29,00
+36,25
+15,00
+18,75
+
+35 A
+350,00
+437,50
+29,00
+36,25
+15,00
+18,75
+
+50 A
+432,00
+540,00
+29,00
+36,25
+15,00
+18,75
+
+63 A
+500,00
+625,00
+29,00
+36,25
+15,00
+18,75
+
+I den fasta avgiften ingår elsäkerhetsavgift med 11,10 kr/år, nätövervakningsavgift med 4,35 kr/år samt elberedskapsavgift med 90,00 kr/år. Beloppen är angivna exklusive moms (25%).
+Med lägenhet avses abonnemang i flerbostadshus med minst tre lägenhetsabonnemang samt minst ett abonnemang av annan kategori för fastighetens allmänna behov på samma servis. Max mätarsäkring 16 A vid trefasleverans eller 25 A vid enfasleverans. Dvs. kedjehus, radhus eller liknande sammanbyggda hus omfattas normalt inte.
+Effektavgift beräknas utifrån den högsta effekttopp som infaller mellan kl. 07:00-19:00 under helgfria vardagar.
+
+Vid höjning av säkring kan det tillkomma en kompletterande anslutningsavgiftt. Se rubrik ”Nyanslutning, lågspänning” och sista textstycket.
+Vid inflyttning debiteras flyttavgift med 312,50 kr (250 kr exklusive moms). Gäller ej vid nyanslutning.
+
+På
+/kunskapsbanken/stromavbrott/pagaende-stromavbrott/
+malarenergi.se/elavbrott
+hittar du även information om den aktuella utryckningskostnad du kan komma att debiteras om ett anmält fel visar sig bero på brister i din egen elanläggning.
+
+Effektabonnemang, lågspänning
+
+Fast avgift kr/mån
+
+Månadseffekt- avgift kr/kW
+Elöverföring öre/kWh
+
+896,00
+69,68
+9,00
+
+I den fasta avgiften ingår elsäkerhetsavgift med 11,10 kr/år, nätövervakningsavgift med 4,35 kr/år samt elberedskapsavgift med 39,20 kr/år.
+Månadseffektavgift erläggs för högsta utnyttjad timeffekt under varje månad.
+
+Vid byte från mätarsäkring mindre än 80 A till mätarsäkring större eller lika med 80 A ska mätplatsen byggas om för strömtransformatormätning. För ombyggnad av mätplats och tillhörande kostnader ansvarar kunden.
+Vid inflyttning debiteras flyttavgift med 250,00 kr. Gäller ej vid nyanslutning.
+Alla priser ovan är exklusive moms.
+
+Effektabonnemang, högspänning
+
+Kategori
+Fast avgift kr/mån
+
+Årseffekt- avgift kr/kW &
+månad
+
+Elöverföring öre/kWh
+
+Hsp 6–10 kV
+3 000,00
+35,84
+4,00
+
+Hsp 20–30 kV
+17 100,00
+33,64
+4,00
+
+1. I den fasta avgiften ingår elsäkerhetsavgift med 905,00 kr/år, nätövervakningsavgift med 870,00 kr/år samt elberedskapsavgift med 4 897,00 kr/år. Om abonnemanget har flera mätpunkter anslutna till en och samma transformatorstation på samma spänningsnivå erläggs en avgift på 275,00 kr/månad för varje mätpunkt utöver den första.
+2. Årseffektavgift erläggs för abonnerad årseffekt. Överskrider utnyttjad aktiv årseffekt abonnerad årseffekt, erläggs en avgift på 200 % av årseffektavgiften för den effekt varmed abonnerad årseffekt överskrids. Den under året utnyttjade aktiva respektive reaktiva årseffekten anses vara medelvärdet av de två högsta timvärdena från olika månader under året. Omfattar abonnemanget endast del av år eller sker ändring av abonnerad årseffekt under kalenderåret baseras utnyttjad effekt på högsta timvärde under abonnemangets giltighetstid. Ändring av abonnerad årseffekt medges en gång under kalenderåret förutsatt att kapacitet finns i nätet. Överskrider utnyttjad reaktiv årseffekt 50 % av abonnerad årseffekt erläggs avgift för den reaktiva effekt som överskrider 50 % av abonnerad årseffekt. För reaktiv överuttagsavgift se punkt 3. Möjlighet finns att abonnera på överskjutande reaktiv effekt.
+Avgift för överuttag reaktiv årseffekt 60,00 kr/kV Ar.
+Vid inflyttning debiteras flyttavgift med 250,00 kr. Gäller ej vid nyanslutning.
+Alla priser ovan är exklusvie moms.
+
+Produktionsanläggningar lågspänning
+
+Avgift/ersättning
+Säkrings
+-
+, effektabonnemang Exklusive moms
+
+Säkrings-, effektabonnemang
+Inklusive moms
+
+Fast avgift uttag kr/månad
+Enligt säkrings- eller effektabonnemang
+Enligt säkrings- eller effektabonnemang
+
+Fast avgift inmatning kr/månad ≤ 63A
+0,00
+0,00
+
+Fast avgift inmatning Effektabbonemang ≥ 80A
+183,00
+228,75
+
+Inmatningsersättning låglasttid öre/kWh
+3,93
+4,91
+
+Inmatningsersättning höglasttid öre/kWh
+7,29
+9,11
+
+Särskilt abonnemang för förbrukning till anläggningen ska finnas. Månadseffektavgift och överföringsavgift (uttag) gäller enligt respektive taxa.
+1. Med höglast avses måndag–fredag klockan 06–22 enligt svensk normaltid under månaderna november–mars. Övrig tid är låglast.
+Produktionsanläggning högspänning
+
+Spänningsnivå
+6 - 10 kV
+20 -30 kV
+
+< 1 500 kW netto-
+producent
+(1)
+< 1 500 kW netto-
+konsument
+(1)
+≥ 1 500 kW
+≥ 1 500 kW
+
+Fast avgift uttag kr/mån
+1082,00
+Enligt effekt-abonnemang
+Enligt effekt-abonnemang
+Enligt effekt-abonnemang
+
+Fast avgift inmatning kr/mån
+244,00
+244,00
+244,00
+244,00
+
+Effektavgift uttag kr/kW, månad
+Enligt effekt-abonnemang
+Enligt effekt-abonnemang
+Enligt effekt-abonnemang
+Enligt effekt-abonnemang
+
+Effektavgift inmatning (2) kr/kW, månad
+0,00
+12,70
+12,70
+12,70
+
+Överföringsavgift uttag öre/kWh
+Enligt effekt-abonnemang
+Enligt effekt-abonnemang
+Enligt effekt-abonnemang
+Enligt effekt-abonnemang
+
+Inmatningsersättning
+(3)
+låglasttid öre/kWh
+3,93
+3,93
+3,93
+3,93
+
+Inmatningsersättning
+(3)
+höglasttid öre/kWh
+7,29
+7,29
+7,29
+7,29
+
+Nettoproducent betyder att inmatad energi till nät är större än uttagen energi från nät under ett kalenderår.
+Nettokonsument betyder att uttagen energi från nät är större än inmatad energi till nät under ett kalenderår.
+Effektavgift för inmatning avser inmatad effekt till nät som överskrider abonnerad effekt för uttag.
+Med höglast avses måndag–fredag klockan 06–22 enligt svensk normaltid under månaderna november-mars.
+Övrig tid är låglast.
+
+Tillfälliga anläggningar - byggkraft
+
+Säkringsstorlek (A)
+Exklusive moms
+Inklusive moms
+
+16-63 A
+7 000,00
+8 750
+
+80-250 A
+10 000,00
+12 500
+
+> 315 A
+Verklig kostnad minst 12 500
+Verklig kostnad minst 15 625
+
+Fullständiga villkor, säkerhetskrav och förutsättningar som gäller för Tillfälliga anläggningar-Byggkraft samt vad som ingår i priset framgår av
+/globalassets/dokument/elnat/tekniska-anvisningar-anslutning-elnat-202104.pdf
+Tekniska anvisningar för anslutning till Mälarenergi Elnät.
+
+Mälarenergi Elnät AB kommer så snart kundens valda elföretag skickat in en föranmälan om byggkraft att skicka ett
+/globalassets/dokument/elnat/bestallning-av-byggkraft.pdf
+avtal
+till kunden. Kunden ska signera avtalet. Avgiften gäller anläggningar som kan anslutas till befintligt nät och där inte någon utbyggnad eller projektering av distributionsnätet krävs för anslutningen. I övriga fall ska anslutningstiden bestämmas i varje enskilt fall och eventuell offert lämnas till kunden.
+
+Vid höjning av säkring eller flytt av byggkraftskåp utgår antingen självkostnad eller ny anslutningsavgift för tillfällig anläggning. Detta ska anmälas via en ny föranmälan av kundens elföretag.
+
+Om byggkraftskåpet för anslutningen inte finns på plats eller anslutningen inte kan göras på överenskommen tid eller inte uppfyller kraven för inkoppling, betalar kunden de extra kostnader som uppkommer.
+
+Förutom anslutningsavgift betalas under anslutningstiden nätavgift samt för den energi som förbrukas. Nätavgift samt förbrukad energi faktureras separat enligt ordinarie taxa.
+
+Evenemangskraft max 7 dagar. Beställ via
+/globalassets/dokument/elnat/bestallning-av-evenemangskraft-250707.pdf
+Blanketten för beställning av evenemangskraft (pdf)
+Nyanslutning, lågspänning
+Priser exklusive moms
+16-63 A
+
+Servissäkring (A)
+0-200 m
+200-600 m
+600-1200 m
+1200-1800 m
+
+16-25 A
+43 300 kr
+43 300 kr + 371 kr/meter
+191 700 kr + 901 kr/meter
+732 300 kr + 504 kr/meter
+
+35 A
+53 330 kr
+53 330 kr + 371 kr/meter
+201 730 kr + 901 kr/meter
+742 330 kr + 504 kr/meter
+
+50-63 A
+81 414 kr
+81 414 kr + 371 kr/meter
+229 814 kr + 901 kr/meter
+770 414 kr + 504 kr/meter
+
+Fågelavstånd till närmast belägen anslutningspunkt.
+Priser inklusive moms
+16-63 A
+
+Servissäkring (A)
+0-200 m
+200-600 m
+600-1200 m
+1200-1800 m
+
+16-25 A
+54 125 kr
+54 125 kr + 463,75 kr/meter
+239 625 kr + 1126,25 kr/meter
+915 375 kr + 630 kr/meter
+
+35 A
+66 662,50 kr
+66 662,50 kr + 463,75 kr/meter
+252 162,50 kr + 1126,25 kr/meter
+927 912,50 kr + 630 kr/meter
+
+50-63 A
+101 767,50 kr
+101 767,50 kr + 463,75 kr/meter
+287 267,50 kr + 1126,25 kr/meter
+963 017,50 kr + 630 kr/meter
+
+Fågelavstånd till närmaste belägen anslutningspunkt.
+>80 A
+För anslutningar med en servissäkring på
+80 A och högre
+debiteras ett grundpris på
+1 253,75
+kr/A
+inklusive moms (1 003 kr/A exklusive moms) samt självkostnaden för serviskabel fram till anslutningspunkten.
+Övrigt
+
+Tillägg till ovanstående kostnader kan tillkomma för arbeten utanför normala förhållanden, t.ex. vid tjältining, speciella markförhållanden och/eller icke ordinarie arbetstid.
+Fastighetsägaren svarar för kanalisation/öppen schakt för serviskabel inom egen fastighet. Här räknas gårdstomten som tomtgräns för större jordbruksfastigheter.
+
+Med anslutningspunkt avses plats i nätet som är förberett och dimensionerat för anslutning av anläggning till befintligt nät. Vid höjning av servissäkring kan det tillkomma en kompletterande anslutningsavgift som är skillnaden mellan grundavgiften för befintlig servissäkring och avgiften för den begärda servissäkringshöjningen. Grundavgiften
+1 253,75kr/A
+inklusive moms (1 003 kr/A exklusive moms) debiteras kunden vid höjning av installerad betald servissäkring.
+Nyanslutning, högspänning
+För att förse er verksamhet med större effekt behöver vi ofta bygga om eller bygga ut elnätet. Kontakta oss därför tidigt med er verksamhets behov.
+I de fall en nätutredning krävs för att klargöra förutsättningarna för er högspänningsanslutning debiteras en nätutredningsavgift. Nätutredningsavgiften beräknas enligt följande princip; 100 000 SEK + 1% av den ordinarie grundavgiften för önskad anslutningseffekt. Krävs utredning från överliggande elnät debiteras även den nätägarens avgifter utöver vår nätutredningsavgift.
+ANSLUTNINGSAVGIFTER
+För högspänningsanslutningar upp till och med (<=) 1,5 MVA debiteras en ordinarie grundavgift för nyanaslutning på 894 kr/kVA samt självkostnaden för framdragning och anslutning av högspänningskablarna i Kundens högspänningsställverk.
+Anslutningar över (>) 1,5 MVA debiteras en ordinarie grundavgift på 1 347 kr/kVA samt självkostnaden för framdragning och anslutning av högspänningskablarna i Kundens högspänningsställverk. Grundavgiften debiteras vid ökning av installerad betald anslutningseffekt. Om anslutningen kräver förstärkning av elnätet eller överliggande elnät debiteras även kostnaden för dessa förstärkningar. En höjning av effekt betraktas som en nyanslutning och debiteras på samma sätt som en nyanslutning.
+ANSLUTNINGSAVGIFT FÖR PRODUKTIONSANLÄGGNINGAR
+Anslutningar över (>) 1,5 MVA avsedda primärt för inmatning till elnätet (produktionsanläggningar, högspänning) ska byggas på Elnätsföretagets verkliga självkostnad. Det innebär att om anslutningen kräver förstärkning av elnätet eller överliggande elnät debiteras även kostnaden för dessa förstärkningar. Samtliga anslutningar för inmatning till elnätet (produktionsanläggningar, högspänning) – oavsett effekt – kan ha möjlighet till en reducerad anslutningsavgift. Reduktionsmöjligheten är beroende av nätstruktur, effektbehov och lokala förutsättningar för aktuell förfrågan. En individuell bedömning görs för varje förfrågan. I dessa fall kan den ordinarie grundavgiften för nyanslutning reduceras med upp till 30% på inmatningsdelen.
+Prislista för energitjänsteföretag
+
+Uppstartsavgift: 450 kr
+Abonnemangsavgift: 280 kr/månad
+Avgift hanteringsbegäran: 15 kr per godkänd anläggning
+Avgift per rapporterande anläggning: 7 kr/månad per anläggning
+Avgift avslutsbegäran: 7 kr per avslutad anläggning
+
+Vanliga frågor om elnätspriser

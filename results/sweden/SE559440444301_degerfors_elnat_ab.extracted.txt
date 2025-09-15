@@ -1,0 +1,92 @@
+
+Effekttaxa – gäller från 1/9 2024
+Tidigare bestod nätavgiften av två delar. En överföringsavgift och en abonnemangsavgift som är baserad på vilken storlek på huvudsäkring man har, säkringstariff.
+Från 1/9 2024 har vi infört en effekttariff istället för säkringstariffen.
+När man inför en effekttariff plockar man ur den del av säkringstariffen som baseras på säkringens storlek och räknar om den till en avgift som baseras på den maxeffekt abonnenten belastar nätet med varje månad. Kvar blir en mindre fast avgift. Nätavgiften består då av tre delar istället för två.
+Energimarknadsinspektionen (Ei) genomför ett tariffprojekt och alla nätbolag i Sverige kommer åläggas att ta in nätavgifter på detta sätt senast 2027.
+Våra abonnenter med säkringsstorlekar från 35 A och uppåt faktureras redan enligt denna effekttariffmodell.
+Hur fungerar då effektariffen?
+Vi mäter alla medeltimeffekter hos varje abonnent under en månad. Systemet plockar ut det högsta värdet under månadens alla timvärden. Avgiften baseras på det toppvärdet. Mätningen sker alltid i normaltid (vintertid).
+Högbelastningsavgift
+Under november till mars tillkommer ytterligare en komponent i tariffen, en högbelastningsavgift. Den baseras på den högsta medeltimeffekten på inträffat mellan 07:00-19:00 på vardagar. Mätningen sker alltid i normaltid (vintertid).
+Helgdagar när högbelastningsavgiften ej gäller: Julafton, Juldagen, Annandag jul, Nyårsafton, Nyårsdagen, Trettondag jul, Långfredagen, Annandag påsk.
+Slutligen kommer den nya nätavgiften vara uppbyggd av nedanstående avgifter. Högbelastningsavgiften tillkommer under november-mars.
+Priser från 2024-09-01
+Exkl. moms.
+Inkl. moms.
+Fast avgift
+2400 kr/år
+3000 kr/år
+Överföringsavgift
+14 öre/kWh
+17,5 öre/kWh
+Effektavgift
+45 kr/kW
+56,25 kr/W
+Högbelastningsavgift
+35 kr/kW
+43,75 kr/kW
+Effektavgift: Högsta uppmätta medeltimeffekt innehavande månad.
+Högbelastningsavgift: Högsta uppmätta medeltimeffekt under vardagar mellan 07:00-19:00 innehavande månad
+Priser lägenhet (har ej effekttaxa)
+Tabellen visar priset per år för fast avgift, överföringsavgift, inklusive och exklusive moms.
+Avgift
+Exklusive moms
+Inklusive moms
+Fast avgift
+1600 kr/år
+2000 kr/år
+Överföringsavgift
+14 öre/kWh
+17,50 öre/kWh
+Hur man kan påverka sina avgifter
+Genom att sprida ut eller flytta elanvändningen så man inte använder mycket el samtidigt. Till exempel inte använda tvättmaskin, dammsugaren och laga mat samtidigt, för att undvika att det blir en hög effekttopp. På mina sidor kan man logga in och se sin förbrukning timme för timme dagen innan och bakåt i tiden.
+Hur räknas medeltimeffekten ur?
+För att få fram medeltimeffekten räknar man:
+Effekten i W/1000* Hur länge apparaten används/60minuter
+Se exempel nedan:
+
+Kaffebryggare:
+1000W/1000 * 5min/60min =
+0,08 kWh/h
+Spis:
+2000W/1000 * 20min/60min =
+0,67 kWh/h
+Hårfön:
+2200W/1000 * 5min/60min =
+0,18 kWh/h
+Total medeltimeffekt:
+0,08+0,67+0,18 kWh/h =
+0,93 kWh/h
+Medeltimeffekt presenteras normalt som kW istället för kWh/h.
+Mer information
+Du kan läsa mer i
+https://degerforsenergi.se/wp-content/uploads/2025/02/Effekttaxa-1-september-2024.pdf
+dokumentet om effekttaxan som gäller från 1 september 2024
+
+https://degerforsenergi.se/elnat/
+Vårt elnät
+
+https://degerforsenergi.se/elnat/effekttaxa-galler-fran-1-9-2024/
+Effekttaxa - gäller från 1/9 2024
+
+https://degerforsenergi.se/elnat/solel/
+SOLEL
+
+https://degerforsenergi.se/elnat/nya-elmatare/
+Nya elmätare
+
+https://degerforsenergi.se/elnat/for-fardiganmalan/
+För-/färdiganmälan
+
+https://degerforsenergi.se/elnat/andra-sakringsstorlek/
+Ändra säkringsstorlek
+
+https://degerforsenergi.se/elnat/allmanna-avtalsvillkor-elnat/
+Allmänna avtalsvillkor elnät
+
+https://degerforsenergi.se/elnat/vara-laddstationer/
+Våra laddstationer
+
+https://degerforsenergi.se/elnat/mer-kundinformation/
+Mer kundinformation

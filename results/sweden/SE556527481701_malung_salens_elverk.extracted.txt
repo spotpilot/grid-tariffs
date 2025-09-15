@@ -1,0 +1,47 @@
+
+Effektdebitering – så fungerar det
+
+Effektdebiteringen bygger på att varje timmes förbrukning registreras och du betalar för ett medeltal av de 5 högsta timvärdena per kalendermånad. För att beräknas måste de 5 högsta värdena infalla mellan klockan 07.00-19.00. Det innebär att mellan klockan 19.00-07.00 är det så kallad ”fri” tid. Timvärden mäts veckans alla dagar, men det kan endast bli ett timvärde/dygn.
+
+Året delas in i sommar- och vintermånader. Dessa har olika debitering per kW. Vintermånaderna är 5 st: november, december, januari, februari och mars. Dessa månader utgår debiteringen från effektmedelvärdet * 118,75kr inklusive moms. Sommarmånader är 7 st: april, maj, juni, juli, augusti, september samt oktober, då är debiteringen effektmedelvärdet * 35 kr inklusive moms.
+Priserna finns redovisade separat, beroende på säkring här under.
+Om du har möjlighet att sprida ut din elförbrukning dygnets alla timmar så är det gynnsamt för dig som nätkund. Ett bra sätt att hålla nere nätkostnaden är att inte använda tvättmaskin, spis, diskmaskin och bastu samtidigt.
+Observera att ovanstående enbart gäller din elnätsavgift.
+
+Visa mer
+
+—
+Visa mindre
+
+https://malungselnat.se/wp-content/uploads/2025/03/effekt-16-63-galler-fran-250401.pdf
+
+Ladda ner PDF – Effekt 16-63 gäller från 250401
+
+https://malungselnat.se/wp-content/uploads/2025/03/priser-effekt-hog-och-lag-fran-80a-galler-fran-250401.pdf
+
+Ladda ner PDF – Priser effekt hög och låg från 80A gäller från 250401
+
+https://malungselnat.se/wp-content/uploads/2025/03/effekt-16-63-vagbelysning-galler-fran-250401.pdf
+
+Ladda ner PDF – Effekt 16-63 Vägbelysning gäller från 250401
+
+Så här beräknas Effekt 16-63 A
+
+De fem högsta timvärdena beräknas alltid mellan 07.00 – 19.00 / Kalendermånad
+Övrig tid är så kallad fri tid och dessa timmar kommer ej att beräknas
+Rörlig avgift
+sommar
+april – oktober 35 kr/kW
+Rörlig avgift
+vinter
+november – mars 118,75 kr/kW
+
+Ett räkneexempel Gäller fr.o.m. 2024-01-01
+
+25 kW/5 = 5 multipliceras med 35 kr = 175 kr sommartid
+25 kW/5 = 5 multipliceras med 118,75 kr = 593,75 kr vintertid
+
+https://malungselnat.se/wp-content/uploads/2023/12/effekt-faktura-exempel.jpg
+
+Så ser du och räknar ut effekt på din faktura
+Klicka här för räkneexempel

@@ -1,0 +1,151 @@
+
+Nya elnätsavgifter 2025
+
+Elnätsavgiften består av en fast avgift (grundavgiften), en effektavgift och en energiavgift. Från och med den 1 januari 2025 höjs den fasta avgiften med 7,8% och effektavgiften höjs med 9,8%. Energiavgiften lämnas oförändrad.
+Justeringarna görs med anledning av ökade fasta kostnader och myndighetsavgifter.
+Energiskatten
+Energiskatten är en statlig skatt som läggs på din elnätsfaktura. Skatten bestäms av riksdagen och justeras årligen. För 2025 har energiskatten fastställts till 43,9 öre/kWh exkl. moms (54,88 öre/kWh inkl. moms). Det är en ökning jämfört med 42,8 öre/kWh år 2024.
+
+Elnätsavgift
+Elnätsavgiften består av en grundavgift, en effektavgift och en energiavgift. Grundavgiften är kopplad till mätarsäkringens ampere-tal (A) medan effektavgiften baseras på hur du utnyttjar elnätet och energiavgiften på hur mycket el du använder. För att kunna räkna ut vilken avgift du ska betala läser vi av din elmätare varje timme, dygnet runt.
+Grundavgift
+För lägenheter och småhus är det vanligast med en mätarsäkring på mellan 16-25 A. I Sollentuna tar vi ut samma avgift för dessa säkringstorlekar.
+Lägenhet i flerbostadshus utan elvärme, där särskilt abonnemang för fastighetens allmänna behov tecknas:
+
+Mätarsäkring
+Årsavgift
+
+16 – 25 A
+770 kr/år inkl.moms
+
+Övriga kunder:
+
+Mätarsäkring
+Årsavgift, inkl moms
+Årsavgift, exkl moms
+
+16 – 25 A
+1650 kr/år
+1 320 kr/år
+
+35 A
+2 940 kr/år
+2 352 kr/år
+
+50 A
+4 140 kr/år
+3 312 kr/år
+
+63 A
+5 040 kr/år
+4 032 kr/år
+
+80 A
+6 440 kr/år
+5 152 kr/år
+
+100 A
+7 980 kr/år
+6 384 kr/år
+
+125 A
+9 800 kr/år
+7 840 kr/år
+
+160 A
+12 600 kr/år
+10 080 kr/år
+
+200 A
+15 960 kr/år
+12 768 kr/år
+
+Effektavgift
+Effekt motsvarar hur mycket el du använder på en och samma gång. Om du har många elapparater igång samtidigt och dessutom kanske laddar elbilen eller tappar upp ett varmt bad vid samma tidpunkt blir effekten hög. Om du istället ser till att ha en jämnare elanvändning under en längre period blir effekten lägre.
+Effektavgiften tas endast ut under helgfria vardagar mellan klockan 07:00 och 19:00 och baseras på ett genomsnitt av de tre högsta effekttimmarna på olika datum varje månad.  Under helger och röda dagar tas ingen effektavgift ut.
+Detta betyder att du själv kan påverka hur stor effektavgiften blir.
+Till exempel:
+Om du laddar din elbil med full effekt från kl. 11 till kl. 14 en vardag, kommer det troligtvis vara en av dessa timmar som effektavgiften beräknas på just den dagen.
+Effektavgiften varierar över året. Under sommaren då belastningen på elnätet minskar sänks den. Under vinterhalvåret då belastningen är högre återgår den till normal nivå vilket innebär att elnätskostnaden ökar.
+
+Tid på året
+Inkl. moms
+Exkl. moms
+
+April – oktober
+
+67,5 kr/kW
+54 kr/kW
+
+November – mars
+
+135 kr/kW
+108 kr/kW
+
+Så här räknar vi ut effektavgiften
+Med hjälp av timavläsning av din elmätare tar vi fram de tre högsta värdena helgfri vardag mellan klockan 7-19 under en månad. Genomsnittet använder vi som underlag för att räkna fram effektavgiften. Om genomsnittet till exempel är 5,7 kW under perioden april-oktober då avgiften är 67,5 kr/kW och månad, blir effektavgiften 67,5x5,7= 384,75 kronor. Under perioden november-mars blir effektavgiften istället 135x5,7= 769,5 kronor.
+Du kan själv se din förbrukning om du loggar in i
+/seom-appen/
+SEOM-appen
+eller på
+https://minasidor.seom.se/Login.aspx?ReturnUrl=%2f
+Mina sidor
+.
+Effektavgift för leverans över 200 Ampere
+Kunder som har en leverans på över 200 A har en högsta abonnerad effektnivå. Effektavgift debiteras för hela det uppmätta effektuttaget. För uttag över abonnerad effektnivå debiteras även överuttagsavgift.
+
+Lågspänning
+
+Tid på året
+Exkl. moms
+
+April – oktober
+55,95  kr/kW och månad
+
+November – mars
+111,9 kr/kW och månad
+
+Lägsta debiterbara effekt 25 kW/månad
+
+Överuttag aktiv effekt 40 kr/kW och månad
+
+Högspänning
+
+Tid på året
+Exkl. moms
+
+April – oktober
+48,5 kr/kW och månad
+
+November – mars
+97 kr/kW och månad
+
+Lägsta debiterbara effekt 50 kW/månad
+
+Överuttag aktiv effekt 40 kr/kW och månad
+
+Överuttag reaktiv effekt 5 kr/kW och månad
+
+Energiavgift
+Energiavgiften baseras på hur mycket el du förbrukar. Den kan du alltså själv påverka genom att använda mindre el. Energiavgiften ligger på 5 öre/kWh (4 öre/kWh exkl. moms).
+Energiskatt
+Energiskatt är en statlig skatt som läggs på din elnätsfaktura. Skatten bestäms av riksdagen och justeras årligen. Hur mycket energiskatt du betalar beror på var du bor. I Sollentuna är energiskatten
+43,9 öre/kWh (54,88 öre/kWh inkl. moms).
+Nätnytta
+Om du har solceller installerade har du rätt till nätnytta - en ersättning från oss som elnätsbolag för att du säljer din överskottsel till oss.
+/kundtjanst/
+Kontakta oss
+så hjälper vi dig att teckna ett produktionsavtal. Nätnyttan i Sollentunas elnät är 7,0 öre/kWh exkl. moms. Nätnyttan betalas ut på din elnätsfaktura.
+Nya och tillfälliga elanslutningar
+När du behöver en ny elanslutning eller är i behov av tillfällig byggström gäller
+/el/elnat/priser-och-villkor/pris-nyanslutning/
+särskild prislista
+.
+Allmänna villkor
+
+/globalassets/elnat/dokument/elnat_avtalsvillkor_konsument.pdf
+Avtalsvillkor konsument
+/globalassets/elnat/dokument/elnat_avtalsvillkor_naringsidkare.pdf
+Avtalsvillkor näringsidkare
+/globalassets/elnat/dokument/elnat_avtalsvillkor_hogspanning.pdf
+Avtalsvillkor högspänning

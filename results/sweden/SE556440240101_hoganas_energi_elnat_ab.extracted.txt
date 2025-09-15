@@ -1,0 +1,406 @@
+Priser, avgifter och ersättning vid användning av elnätet
+Höganäs Energis nätavgifter används för att säkerställa att vi har ett välfungerande elnät på Kullahalvön. Skickar du ut el i nätet får du ersättning för detta.
+Tariffpriser elnät
+Tariffpriserna för elnätet består utav en årlig abonnemangsavgift, en överföringsavgift samt statlig energiskatt och statliga avgifter.
+Tariffpriset på elnät får
+/nyheter/nyheter/2025-04-22-effektavgift-pa-elnatet---vad-varfor-och-nar
+effektavgift som en priskomponent under 2026
+.
+Den fasta abonnemangsavgiften betalar du för att få tillgång till elnätet. Storleken på avgiften beror på hur stor huvudsäkring du har. Du betalar en abonnemangsavgift per elmätare.
+Den rörliga överföringsavgiften betalar du för själva transporten av el och storleken på avgiften varierar med hur mycket el du använder.
+Energiskatt tas ut på all elanvändning.
+I abonnemangsavgiften är statliga avgifter som nätövervakningsavgift, elberedskapsavgift och elsäkerhetsavgift inkluderat.
+Byte av storlek på huvudsäkring medför ändring i abonnemangsavgiften. Ändring av passdel som begränsar huvudsäkringens storlek får bara ske med Höganäs Energis godkännande och måste utföras av behörig elinstallatör.
+Tröga säkringar av S-märkt typ är tillåtna.
+
+Årlig abonnemangsavgift för elnät
+
+I den årliga abonnemangsavgiften ingår följande statliga avgifter:
+Elsäkerhetsavgift, Nätövervakningsavgift samt Elberedskapsavgift, totalt 105,45 kr exkl. moms. Beloppet gäller från den 1 januari 2024 och till eventuella ändringar beslutas av Elsäkerhetsverket.
+Årlig abonnemangsavgift för elnät, från den 1 januari 2025
+Klass
+Säkringsstorlek
+Pris exkl. moms
+Pris inkl. moms
+0*
+LGH (lägenhet)
+1 424 kr
+1 780 kr
+1
+16 Ampere
+3 300 kr
+4 125 kr
+2
+20 Ampere
+5 376 kr
+6 720 kr
+3
+25 Ampere
+6 924 kr
+8 655 kr
+4
+35 Ampere
+9 724 kr
+12 155 kr
+5
+50 Ampere
+14 352 kr
+17 940 kr
+6
+63 Ampere
+20 052 kr
+25 065 kr
+7
+80 Ampere
+26 076 kr
+32 595 kr
+8
+100 Ampere
+32 576 kr
+40 720 kr
+9
+125 Ampere
+41 552 kr
+51 940 kr
+10
+160 Ampere
+60 052 kr
+75 065 kr
+11
+200 Ampere
+79 500 kr
+99 375 kr
+* Klass 0: Avser endast bostadslägenheter i flerbostadshus där särskilt abonnemang finns för fastighetens allmänna behov. Med flerbostadshus avses hus med minst tre bostadslägenheter. Dock inte kedjehus, radhus eller liknande sammanbyggda hus.
+Enfasleverans med mätarsäkring på högst 50 Ampere ryms i abonnemangsklass 1. För tillfälligt abonnemang gäller klass 1-11.
+
+Enkeltariff med överföringsavgift och energiskatt
+
+I totalpriset per kWh ingår nätavgift, energiavgift och energiskatt samt 25% moms på totalpriset.
+Enkeltariff med överföringsavgift och energiskatt
+från den 1 januari 2025
+Pris exkl. moms
+Pris inkl. moms
+Elöverföringsavgift
+16,8 öre/kWh + rörligt volympris**/kWh
+21 öre/kWh + rörligt volympris**/kWh
+Energiskatt*
+43,9 öre/kWh
+54,9 öre/kWh
+Totalt
+60,7 öre/kWh + rörligt volympris**/kWh
+75,9 öre/kWh + rörligt volympris**/kWh
+*För kalenderåret 2025 uppgår energiskatten på el till 43,9 öre/kWh (exkl. moms), det är en ökning med 1,1 öre/kWh jämfört med skattesatsen som gällt 2024. Energiskatten fastställs av Skatteverket.
+** Det rörliga volympriset är beroende av elpriset på elbörsen Nordpool och överliggande näts debitering till Höganäs Energi. Priset fastställs månadsvis och framgår av respektive månads faktura.
+
+Ersättning och avgifter vid inmatning från lågspänning och högspänning
+Ersättning och avgifter vid inmatning från lågspänning och högspänning till Höganäs Energis elnät regleras en gång per kalenderår.
+Betalningsvillkor: 30 dagar.
+
+Ersättning och avgifter vid inmatning från högspänning
+
+Samtliga priser nedan är exkl. moms.
+Ersättning och avgifter
+vid inmatning från högspänning, priser
+från den 1 januari 2025.
+Ersättning för inmatad energi till Höganäs Energis elnät
+rörlig**/kWh
+Elöverföringsavgift för förbrukning
+6,7 öre/kWh
+Avgift för mätning och avräkning***
+9 065 kr/år
+Abonnemangsavgift för abonnerad effekt
+49,20 kr/kW
+* Till elöverföringsavgift för förbrukning tillkommer vid var tid gällande energiskatt och moms.
+**Motsvarar Öresundskrafts rörliga debitering till Höganäs Energi med påslag om 0,5 öre.
+***Elsäkerhetsavgift 905 kr/år, nätövervakningsavgift 870 kr/år och elberedskapsavgift 4897 kr/år ingår i den fasta avgiften. Elsäkerhetsverket bestämmer på vägnar av regeringen storleken på dessa avgifter och om det blir ändringar i avgifterna kan det medföra att den fasta avgiften ändras.
+
+Ersättning och avgifter vid inmatning från lågspänning
+
+Samtliga priser nedan är exkl. moms.
+Ersättning och avgifter
+vid inmatning från lågspänning, priser
+från den 1 januari 2025.
+Ersättning för inmatad energi till Höganäs Energis elnät
+rörlig**/kWh
+Elöverföringsavgift för förbrukning
+16,8 öre/kWh
+Avgift för mätning och avräkning*
+2 498 kr/år
+Abonnemangsavgift för abonnerad effekt
+56,40 kr/kW
+*Elsäkerhetsavgift 11,10 kr/år, nätövervakningsavgift 4,35 kr/år och elberedskapsavgift 90 kr/år ingår i den fasta avgiften. Elsäkerhetsverket bestämmer på vägnar av regeringen storleken på dessa avgifter och om det blir ändringar i avgifterna kan det medföra att den fasta avgiften ändras.
+**Motsvarar Öresundskrafts rörliga debitering till Höganäs Energi med påslag om 0,5 öre.
+
+Effektpriser elnät
+Effektpriset skiljer sig om det är högspänning eller lågspänning.
+Avräkning av effektabonnemang sker vid ändring av ersättningsnivå och/eller ändring av avgifter.
+Abonnemangsändringar skall ske vid kalenderårsskifte och meddelande om ändring skall göras minst en månad i förväg.
+Tariffpriset på elnät får
+/nyheter/nyheter/2025-04-22-effektavgift-pa-elnatet---vad-varfor-och-nar
+effektavgift som en priskomponent under 2026
+.
+
+Effektpriser N3 Högspänning
+
+Ersättning, abonnemangsavgift och avgift för elöverföring regleras månadsvis.
+Elöverföringsavgiften regleras en gång per kalenderår.
+För uttag av reaktiv effekt utöver den tillåtna nivån på 50% av abonnerad effekt, debiteras en avgift på 125 kr/kVAr.
+Elsäkerhetsavgift 905 kr/år, nätövervakningsavgift 870 kr/år och elberedskapsavgift 2 129 kr/år ingår i den fasta avgiften. Från den 1 januari 2025 är elberedskapsavgiften 4 897 kr/år.
+Effektpriser N3 Högspänning från den 1 januari 2025.
+Pris exkl. moms
+Fast avgift
+2 363 kr/mån
+Abonnemangsavgift*
+75,50 kr/kW/månad
+Elöverföring
+7,4 /kWh + rörligt volympris**/kWh
+*Abonnemangsavgiften erläggs för den abonnerade effekten, vilken ska motsvara minst den högsta under året uttagna entimmeseffekten. För överuttag erläggs dubbel abonnemangsavgift.
+**Det rörliga volympriset är beroende av elpriset på elbörsen Nordpool och överliggande näts debitering till Höganäs Energi. Priset fastställs månadsvis och framgår av respektive månads faktura.
+
+Effektpriser N4 Lågspänning
+
+För uttag av reaktiv effekt utöver den tillåtna nivån på 50% av abonnerad effekt debiteras en avgift på 125 kr/kVAr.
+Elsäkerhetsavgift 11,10 kr/år, nätövervakningsavgift 4,35 kr/år och elberedskapsavgift 39,20 kr/år ingår i den fasta avgiften. Från den 1 januari 2025 är elberedskapsavgiften 90 kr/år.
+Effektpriser N4 Lågspänning från den 1 januari 2025.
+Pris exkl. moms
+Fast avgift
+1 154kr/mån
+Abonnemangsavgift*
+86,75 kr/kW/månad
+Elöverföring
+11,9 öre/kWh + rörligt volympris**/kWh
+*Abonnemangsavgiften erläggs för den abonnerade effekten, vilken ska motsvara minst den högsta under året uttagna entimmeseffekten. För överuttag erläggs dubbel abonnemangsavgift.
+**Det rörliga volympriset är beroende av elpriset på elbörsen Nordpool och överliggande näts debitering till Höganäs Energi. Priset fastställs månadsvis och framgår av respektive månads faktura.
+
+Anslutningsavgift till Höganäs Energis elnät
+Alla som behöver el på Kullahalvön måste ansluta sig till Höganäs Energis elnät. Vi skiljer på om det är en tillfällig anslutning, en nyanslutning eller en utökning av befintlig anslutning.
+
+Nyanslutning eller utökning/höjning av abonnemang
+
+Vid höjning av din huvudsäkring betalar du för differensen mellan kostnaden för nuvarande säkring och framtidig säkring.
+Pris inkl. moms för nyanslutning eller utökning/höjning av abonnemang från den 1 januari 2025.
+Avståndet avser
+fågelvägen till närmaste anslutningspunkt/
+Säkringsstorlek
+< 200m
+200 - 600m
+601 - 1200m
+1201 - 1800m
+16 - 25 A
+54 125 kr
+54 125 kr
++465kr/m
+239 625 kr + 1130kr/m
+915 375 kr + 630kr/m
+35 A
+62 950 kr
+Offert
+Offert
+Offert
+50 A
+73 950 kr
+Offert
+Offert
+Offert
+63 A
+86 400 kr
+Offert
+Offert
+Offert
+Övriga anslutningar lämnas det offert på
+
+Tillfällig anslutning till Höganäs Energis elnät
+
+En tillfällig anslutning används exempelvis vid tivoli, cirkus, idrottsevenemang och anläggningsentreprenader. Den tillämpas även som byggkraftsanslutning under uppförandetiden för exempelvis en villa.
+När byggnationen är avslutad ersätter vi den tillfälliga anslutningen med en permanent anslutning enligt gällande villkor.
+Anslutningsavgiften skall täcka utbyggnadskostnader, raseringskostnader samt kostnader för till- och frånkoppling. Anslutningspunkt definieras som "invid kabelskåp eller transformator". En tillfällig anläggning kan aldrig bli en permanent anläggning och tillhandahålls i max två år.
+Pris för t
+illfällig anslutning till Höganäs Energis elnät från den
+1 januari 2025.
+Säkringsstorlek
+Pris exkl. moms
+16 - 25 A
+3 650 kr
+35 - 63 A
+5 450 kr
+80 - 100 A
+8 500 kr
+125 A
+10 450 kr
+160 A
+13 100 kr
+200 A
+16 200 kr
+
+Kundens ansvar vid elanslutning till Höganäs Energis elnät
+Beställning av servis sker genom att du som kund har en behörig installatör som
+https://se.elsmart.com/elsmartp.nsf
+anmäler anslutningen i Elsmart
+Länk till annan webbplats, öppnas i nytt fönster.
+.
+Du bekostar och ombesörjer grävning och förläggning av tomrör inom fastigheten. Elinstallatören är ansvarig för att detta sker enligt vår anvisning.
+Vi anvisar förläggningsrätt och rörtyp till installatören.
+Skriftlig beställning av anslutning från dig som kund skall ske före vi ansluter fastigheten/byggcentral.
+I de fall du, installatören eller dennes ombud inte fullgjort sina åtaganden i samband med anslutningen, har Höganäs Energi rätt att debitera dig för uppkomna merkostnader.
+Höganäs Energis ansvar när en kund ansluter sig till elnätet
+Höganäs Energi är nätägare och ser till att kapacitet finns för anslutningen i elnätet och eventuella förstärkningsarbeten. Vi ombesörjer och bekostar allt arbete utanför din tomtgräns och entreprenadområdet. Extra kostnader kan uppstå om du som kund inte gör din del av arbetet i tid.
+Vid markarbete när det är tjäle i jorden kan anslutningsavgiften bli högre för att täcka merkostnader.
+Priser för reparation, skada och övrigt arbete i elnätet
+Samtliga priser avser påbörjade timmar.
+
+Avgiftsbestämmande säkring
+
+Pris för avgiftbestämmande säkring, från den 1 januari 2025
+Pris exkl. moms
+Pris inkl. moms
+Kontrollmätare
+1 200 kr
+1 500 kr
+Test av mätare på
+auktoriserad provplats
+samt erhållande av
+kalibreringsbevis
+2 340 kr
+2 925 kr
+
+Reparation av eget fel
+
+Med eget fel avses fel på din egen anläggning eller fastighet som du själv hade kunnat felsökt och åtgärdat. Exempelvis byte av säkring eller propphuvd. I priserna nedan ingår även förbikoppling av trasig huvudbrytare.
+Pris för reparation av eget fel, från den 1 januari 2025.
+Pris exkl. moms
+Pris inkl. moms
+Timpris eget fel, under
+ordinarie arbetstid*
+1 080 kr
+1 350 kr
+Timpris eget fel, under
+övrig tid
+1 640 kr
+2 050 kr
+*Ordinarie arbetstid är vardagar måndag-fredag 08:00 - 16:00.
+
+Prislista vid skada på Höganäs Energis kablar
+
+Gäller då extern entreprenör eller annan aktör skadar eller gräver av någon av Höganäs Energis kablar i mark.
+Pris exkl. moms vid skadad eller avgrävd
+högspännings- eller lågspänningskabel
+,
+från den 1 januari 2025.
+Pris
+Specifikation
+Startavgift vid avgrävd
+högspänningsledning
+15 000 kr
+max en per tillfälle
+Startavgift vid avgrävd
+lågspänningsledning
+5 000 kr
+max en per tillfälle
+Startavgift vid avgrävd
+optokabel
+10 000 kr
+max en per tillfälle
+Driftledare, löpande
+1 840 kr
+pris per timme
+Montör, vardagar
+kl 8.00-16.00
+960 kr
+pris per timme
+Montör, vardagar
+kl 16.00-18.00
+1 220 kr
+pris per timme
+Montör, vardagar efter
+kl 18.00 + helg
+1 460 kr
+pris per timme
+Montör opto, vardagar
+kl 8.00-16.00
+1 100 kr
+pris per timme
+Pris exkl. moms för reservelverk vid behov, från den 1 januari 2025.
+Pris
+Specifikation
+Etablering och inkoppling 100-200 kVA
+3 096 kr
+Frånkoppling och avetablering 100-200 kVA
+3 096 kr
+Etablering och inkoppling 400kVA
+7 480 kr
+Frånkoppling och avetablering 400 kVA
+7 480 kr
+Driftkostnad
+5 kr
+per kVA och timme
+Tillsyn vardagar kl 8.00-16.00
+960 kr
+pris per timme
+Tillsyn vardagar kl 16.00-18.00
+1 220 kr
+pris per timme
+Tillsyn vardagar efter kl 18.00 + helg
+1 460 kr
+pris per timme
+
+Ersättning och avgifter för nätnytta vid egen elproduktion
+Höganäs Energi betalar ut en ersättning för den nätnytta som du bidrar med när din produktionsanläggning matar ut el på vårt elnät. Nätnyttan kan sammanfattas som minskade kostnader i elnätet tack vare din lokala elproduktion.
+Nätnyttan mäts per timme och betalas ut på årsbasis i början av nästkommande år.
+Att mäta innebär en kostnad och enligt ett
+https://www.ei.se/konsument/el/mikroproduktion-av-el
+EU-direktiv
+Länk till annan webbplats, öppnas i nytt fönster.
+måste varje producent betala för mätning av sin solcellsanläggning.
+Definitionen på en mikroproducent är att anläggningen har en mätarsäkring på högst 63A och en effekt på max 43,5kW.
+Definitionen på producent är att anläggningen har en mätarsäkring på 80A eller högre, och en effekt på mer än 43,5 kW.
+Ersättning och avgifter för dig som matar in ström från en ren produktionsanläggning med högspänningskabel är reglerad i prislistan
+/elnat/prislistor#Inmatning
+Ersättning och avgifter vid inmatning från högspänning
+.
+
+Ersättning och avgifter för nätnytta
+
+Ersättning och avgift för perioden 1 januari 2025 - 31 december 2025
+(faktureras/utbetalas i januari 2026).
+Typ av producent
+Avgift för mätkostnad
+Ersättning för nätnytta
+Mikroproducent
+200 kr/år exkl. moms
+10 öre/kWh
+Producent
+2 393 kr/år exkl. moms
+10 öre/kWh
+Momsredovisning
+Är du momsredovisningsskyldig får du moms utbetald på ersättningen för nätnytta. Du som kund måste skriftligen informera Höganäs Energi Elnät att du är momsredovisningsskyldig. Du ansvarar för att lämnad information är korrekt och ska på begäran kunna uppvisa momsregistrering. Det är även ditt ansvar att informera oss om förändringar i momsredovisningsskyldighet. Om utbetalning av moms har skett på grund av felaktig information, kan du bli återbetalningsskyldig.
+
+Priser för tillgängliggörande av mätresultat
+Höganäs Energi tillgängliggör mät- och förbrukningsuppgifter till berättigad part som har tecknat avtal med Höganäs Energi Elnät.
+För denna information debiterar Höganäs Energi Elnät den berättigade part följande avgifter;
+En engångskostnad per anläggning vars mätresultat tillgängliggörs.
+En engångskostnad per anläggning vars mätresultat avslutas.
+En månadskostnad per anläggning vars mätresultat tillgängliggörs under en kalendermånad.
+En månadskostnad för administrativ hantering, inklusive fakturering. Fakturering sker kvartalsvis.
+En engångskostnad för export av mätvärden per serie. Mätvärden skickas som engångsexport för en historisk period. Pris per anläggningen är inklusive hantering av godkända medgivande och avslut.
+
+Prislista tillgängliggörande av mätvärden
+
+Pris exkl. moms för tillgängliggörande av mätvärden, från den 1 juni 2025.
+Tjänst
+Period
+Pris exklusive moms
+Hantera en begäran om tillgång till mätresultat.
+Engångskostnad
+12 kr/anläggning
+Hantera en begäran om att avsluta överföring av mätresultat.
+Engångskostnad
+12 kr/anläggning
+Ge tillgång till mätresultat.
+Månadskostnad
+12 kr/anläggning
+Ge tillgång till mätresultat, administration.
+Månadskostnad
+110 kr
+Export av historiska mätvärden per serie.
+Engångskostnad
+35 kr/anläggning

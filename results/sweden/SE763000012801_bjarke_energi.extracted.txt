@@ -1,0 +1,230 @@
+
+0,4 kV-tariff
+
+exkl. moms
+inkl. moms
+
+Fast avgift 16A
+kr/år
+3 600
+4 500
+
+Fast avgift 20A
+kr/år
+4 200
+5 250
+
+Fast avgift 25A
+kr/år
+4 800
+6 000
+
+Fast avgift 35A
+kr/år
+6 100
+7 625
+
+Fast avgift 50A
+kr/år
+8 000
+10 000
+
+Fast avgift 63A
+kr/år
+9 600
+12 000
+
+Effektavgift
+dag kl. 06-22 nov-mars
+kr/kW/mån
+100
+125
+
+dag kl. 06-22 april-okt
+kr/kW/mån
+40
+50
+
+natt kl. 22-06 alla dagar hela året
+kr/kW/mån
+0
+0
+
+Överföringsavgift
+hög
+nov-mars vardagar kl. 06-22
+öre/kWh
+15,00
+18,75
+
+låg
+nov-mars övrig tid
+öre/kWh
+13,00
+16,25
+
+låg
+april-okt
+öre/kWh
+13,00
+16,25
+
+0,4 kV-tariff
+
+exkl. moms
+inkl. moms
+
+Fast avgift 80A
+kr/år
+13 500
+16 875
+
+Fast avgift 100A
+kr/år
+15 800
+19 750
+
+Fast avgift 125A
+kr/år
+18 600
+23 250
+
+Fast avgift 160A
+kr/år
+23 600
+29 500
+
+Fast avgift 200A
+kr/år
+29 100
+36 375
+
+Fast avgift 250A
+kr/år
+34 200
+42 750
+
+Fast avgift 315A
+kr/år
+45 300
+56 625
+
+Fast avgift 355A
+kr/år
+55 300
+69 125
+
+Fast avgift 400A
+kr/år
+58 300
+72 875
+
+Fast avgift 500A
+kr/år
+82 300
+102 875
+
+Fast avgift 1000A
+kr/år
+116 300
+145 375
+
+Fast avgift 1600A
+kr/år
+179 000
+223 750
+
+Effektavgift
+nov-mars
+kr/kW/mån
+100
+125
+
+april-okt
+kr/kW/mån
+40
+50
+
+Överföringsavgift
+hög
+nov-mars vardagar kl. 06-22
+öre/kWh
+15,00
+18,75
+
+låg
+nov-mars övrig tid
+öre/kWh
+13,00
+16,25
+
+låg
+april-okt
+öre/kWh
+13,00
+16,25
+
+10 kV-tariff N3
+
+exkl. moms
+inkl. moms
+
+Fast avgift 50 kW
+kr/år
+34 500
+43 125
+
+Fast avgift 200 kW
+kr/år
+50 000
+62 500
+
+Fast avgift 600 kW
+kr/år
+130 000
+162 500
+
+Fast avgift 800 kW
+kr/år
+187 000
+233 750
+
+Fast avgift 1000 kW
+kr/år
+218 000
+272 500
+
+Fast avgift 1500 kW
+kr/år
+306 000
+382 500
+
+Effektavgift
+nov-mars
+kr/kW/mån
+80
+100
+
+april-okt
+kr/kW/mån
+30
+37,5
+
+Överföringsavgift
+hög
+nov-mars vardagar kl. 06-22
+öre/kWh
+12,00
+15,00
+
+låg
+nov-mars övrig tid
+öre/kWh
+11,00
+13,75
+
+låg
+april-okt
+öre/kWh
+11,00
+13,75
