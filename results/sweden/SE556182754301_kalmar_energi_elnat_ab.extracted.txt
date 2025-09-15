@@ -86,7 +86,7 @@ https://kalmarenergi.se/fjarrvarme/koppla-in-fjarrvarme/
 Koppla in fjärrvärme
 https://kalmarenergi.se/foretag/priser/
 Priser och villkor
-https://kalmarenergi.se/fjarrvarme/vara-anlaggningar-moskogen/
+https://kalmarenergi.se/fjarrvarme/vara-anlaggningar-moskogen-och-draken/
 Våra anläggningar
 https://kalmarenergi.se/fjarrvarme/miljovanlig-uppvarmning-fjarrvarme/
 Miljövänlig uppvärmning
@@ -362,7 +362,7 @@ https://kalmarenergi.se/fjarrvarme/koppla-in-fjarrvarme/
 Koppla in fjärrvärme
 https://kalmarenergi.se/fjarrvarme/priser/
 Priser och villkor
-https://kalmarenergi.se/fjarrvarme/vara-anlaggningar-moskogen/
+https://kalmarenergi.se/fjarrvarme/vara-anlaggningar-moskogen-och-draken/
 Våra anläggningar
 https://kalmarenergi.se/fjarrvarme/miljovanlig-uppvarmning-fjarrvarme/
 Miljövänlig uppvärmning
