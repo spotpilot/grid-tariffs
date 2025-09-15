@@ -2,14 +2,14 @@ use core::fmt;
 use std::str::FromStr;
 
 use chrono::{NaiveDate, Utc};
-use serde::Serialize;
+use serde::{Deserialize, Serialize};
 
 use crate::{
     Money, SE_TAX_REDUCTIONS, SE_TAXES, Tax, TaxAppliedBy, TaxReduction, helpers::date,
     tax_reductions,
 };
 
-#[derive(Debug, Clone, Copy, Hash, PartialEq, Eq, PartialOrd, Ord, Serialize)]
+#[derive(Debug, Clone, Copy, Hash, PartialEq, Eq, PartialOrd, Ord, Serialize, Deserialize)]
 #[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
 pub enum Country {
     SE,
