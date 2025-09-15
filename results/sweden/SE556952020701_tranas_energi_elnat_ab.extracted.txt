@@ -368,4 +368,4 @@ SPARA OCH ACCEPTERA
 Drivs med
 https://www.cookieyes.com/
 
-https://tranasenergi.se/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-table.css?ver=3.3.4
+https://tranasenergi.se/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-table.css?ver=3.3.5
