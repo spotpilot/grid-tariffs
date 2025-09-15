@@ -55,6 +55,12 @@ impl Country {
             Country::SE => "SE",
         }
     }
+
+    pub fn english_name(&self) -> &'static str {
+        match self {
+            Country::SE => "Sweden",
+        }
+    }
 }
 
 impl FromStr for Country {
@@ -71,7 +77,7 @@ impl FromStr for Country {
 impl fmt::Display for Country {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
         f.write_str(match self {
-            Country::SE => "Sweden",
+            Country::SE => "SE",
         })
     }
 }

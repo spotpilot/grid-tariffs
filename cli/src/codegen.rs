@@ -25,7 +25,7 @@ pub(crate) fn generate_grid_operator(
     let registry_filepath = workspace_dir()
         .join("src")
         .join("registry")
-        .join(country.to_string().to_lowercase())
+        .join(country.english_name().to_lowercase())
         .join(format!("{}.rs", mod_name));
     if registry_filepath.exists() {
         warn!(existing_path = %registry_filepath.to_string_lossy(), "already exists - doing nothing");

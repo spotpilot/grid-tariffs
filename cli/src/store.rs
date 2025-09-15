@@ -137,7 +137,7 @@ impl ResultStore {
     }
 
     fn base_path(&self, country: Country) -> PathBuf {
-        self.dir.join(country.to_string().to_lowercase())
+        self.dir.join(country.english_name().to_lowercase())
     }
 
     fn path_extracted(&self, operator: &GridOperator) -> PathBuf {
