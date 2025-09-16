@@ -1,4 +1,4 @@
-use crate::{builder::GridOperatorBuilder, registry::prelude::*};
+use crate::registry::prelude::*;
 
 const BASE_PRICELIST: PriceListBuilder = PriceListBuilder::new()
     // 92,5% correlation between spot price and grid benefit from my own finding

@@ -1,4 +1,4 @@
-use crate::{builder::GridOperatorBuilder, registry::prelude::*};
+use crate::registry::prelude::*;
 
 const FEE_LINK: &'static str = "https://www.vattenfalleldistribution.se/abonnemang-och-avgifter/avtal-och-avgifter/elnatsavgift-och-avtalsvillkor/";
 

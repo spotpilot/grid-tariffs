@@ -567,6 +567,7 @@ dependencies = [
  "quote",
  "reqwest",
  "rust_xlsxwriter",
+ "schemars",
  "scraper",
  "serde",
  "serde_json",
