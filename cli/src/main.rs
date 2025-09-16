@@ -8,7 +8,7 @@ mod store;
 use std::{collections::HashSet, io::stdout, path::PathBuf, str::FromStr};
 
 use clap::{Parser, Subcommand};
-use grid_tariffs::{Country, CountryInfo, GridOperator};
+use grid_tariffs::{Country, CountryInfo, GridOperator, GridOperatorSimplified};
 use itertools::Itertools;
 use serde::{Deserialize, Deserializer};
 use tokio::task::JoinSet;
@@ -78,6 +78,10 @@ enum CliAction {
         #[arg(short = 'C', long)]
         yearly_consumption: u32,
     },
+    /// Print JSON schema for GridOperator
+    JsonSchema,
+    /// Print JSON schema for GridOperatorSimplified
+    SimplifiedJsonSchema,
     /// Create a new grid operator
     New {
         country: Country,
@@ -196,6 +200,14 @@ async fn main() -> anyhow::Result<()> {
                 .map(|op| op.simplified(fuse_size, yearly_consumption))
                 .collect_vec();
             serde_json::to_writer_pretty(stdout(), &matching)?;
+        }
+        CliAction::JsonSchema => {
+            let schema = schemars::schema_for!(GridOperator);
+            serde_json::to_writer_pretty(stdout(), &schema)?;
+        }
+        CliAction::SimplifiedJsonSchema => {
+            let schema = schemars::schema_for!(GridOperatorSimplified);
+            serde_json::to_writer_pretty(stdout(), &schema)?;
         }
         CliAction::New {
             country,
