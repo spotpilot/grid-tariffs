@@ -22,10 +22,7 @@ pub enum TransferFee {
         spot_price_multiplier: f64,
         approximated: bool,
     },
-    Periods {
-        #[serde(flatten)]
-        periods: CostPeriods,
-    },
+    Periods(CostPeriods),
 }
 
 impl TransferFee {
@@ -45,7 +42,7 @@ impl TransferFee {
     }
 
     pub(super) const fn new_periods(periods: CostPeriods) -> Self {
-        Self::Periods { periods }
+        Self::Periods(periods)
     }
 
     pub(super) const fn fixed(int: i64, fract: u8) -> Self {
@@ -62,7 +59,7 @@ impl TransferFee {
             | TransferFee::Unverified
             | TransferFee::SpotPriceVariable { .. } => false,
             TransferFee::Simple(cost) => cost.is_yearly_consumption_based(fuse_size),
-            TransferFee::Periods { periods } => periods.is_yearly_consumption_based(fuse_size),
+            TransferFee::Periods(periods) => periods.is_yearly_consumption_based(fuse_size),
         }
     }
 }
@@ -85,10 +82,7 @@ pub enum TransferFeeSimplified {
         spot_price_multiplier: f64,
         approximated: bool,
     },
-    Periods {
-        #[serde(flatten)]
-        periods: CostPeriodsSimple,
-    },
+    Periods(CostPeriodsSimple),
 }
 
 impl TransferFeeSimplified {
@@ -108,9 +102,9 @@ impl TransferFeeSimplified {
                 spot_price_multiplier,
                 approximated,
             },
-            TransferFee::Periods { periods } => TransferFeeSimplified::Periods {
-                periods: CostPeriodsSimple::new(periods, fuse_size, yearly_consumption),
-            },
+            TransferFee::Periods(periods) => TransferFeeSimplified::Periods(
+                CostPeriodsSimple::new(periods, fuse_size, yearly_consumption),
+            ),
         }
     }
 }

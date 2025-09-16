@@ -23,10 +23,7 @@ pub enum FeedInRevenue {
         /// If this is approximated from actual data, or if it's based on documented pricing
         approximated: bool,
     },
-    Periods {
-        #[serde(flatten)]
-        periods: CostPeriods,
-    },
+    Periods(CostPeriods),
 }
 
 impl FeedInRevenue {
@@ -35,7 +32,7 @@ impl FeedInRevenue {
     }
 
     pub(super) const fn new_periods(periods: CostPeriods) -> Self {
-        Self::Periods { periods }
+        Self::Periods(periods)
     }
 
     pub(super) const fn fixed_subunit(subunit: f64) -> Self {
@@ -88,7 +85,7 @@ impl FeedInRevenueSimplified {
                 spot_price_multiplier,
                 approximated,
             },
-            FeedInRevenue::Periods { periods } => Self::Periods {
+            FeedInRevenue::Periods(periods) => Self::Periods {
                 periods: CostPeriodsSimple::new(periods, fuse_size, yearly_consumption),
             },
         }

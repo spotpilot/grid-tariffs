@@ -2,8 +2,12 @@ use chrono::NaiveDate;
 use serde::Serialize;
 
 use crate::{
-    FeedInRevenueSimplified, Money, TransferFeeSimplified, costs::Cost, fees::TransferFee, helpers,
-    power_tariffs::PowerTariff, revenues::FeedInRevenue,
+    FeedInRevenueSimplified, Money, TransferFeeSimplified,
+    costs::Cost,
+    helpers,
+    power_tariffs::{PowerTariff, PowerTariffSimplified},
+    revenues::FeedInRevenue,
+    transfer_fee::TransferFee,
 };
 
 #[derive(Debug, Clone, Serialize)]
@@ -148,7 +152,7 @@ pub struct PriceListSimplified {
     monthly_production_fee: Option<Money>,
     transfer_fee: TransferFeeSimplified,
     feed_in_revenue: FeedInRevenueSimplified,
-    power_tariff: PowerTariff,
+    power_tariff: PowerTariffSimplified,
 }
 
 impl PriceListSimplified {
@@ -168,7 +172,7 @@ impl PriceListSimplified {
                 .cost_for(fuse_size, yearly_consumption),
             transfer_fee: pl.transfer_fee.simplified(fuse_size, yearly_consumption),
             feed_in_revenue: pl.feed_in_revenue.simplified(fuse_size, yearly_consumption),
-            power_tariff: pl.power_tariff.to_owned(),
+            power_tariff: pl.power_tariff.simplified(fuse_size, yearly_consumption),
         }
     }
 }

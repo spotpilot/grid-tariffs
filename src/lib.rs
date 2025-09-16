@@ -18,7 +18,6 @@ use serde::Serialize;
 pub use crate::{
     costs::Cost,
     country::{Country, CountryInfo},
-    fees::{TransferFee, TransferFeeSimplified},
     links::*,
     money::Money,
     operator::{GridOperator, GridOperatorSimplified},
@@ -27,18 +26,17 @@ pub use crate::{
     revenues::{FeedInRevenue, FeedInRevenueSimplified},
     tax_reductions::*,
     taxes::*,
+    transfer_fee::{TransferFee, TransferFeeSimplified},
 };
 use crate::{
     currency::Currency, defs::MainFuseSizes, price_list::PriceListSimplified, registry::sweden,
 };
 pub(crate) use operator::GridOperatorBuilder;
 
-mod builder;
 mod costs;
 mod country;
 mod currency;
 mod defs;
-mod fees;
 mod helpers;
 mod links;
 mod money;
@@ -49,3 +47,4 @@ pub mod registry;
 mod revenues;
 mod tax_reductions;
 mod taxes;
+mod transfer_fee;

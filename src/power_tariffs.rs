@@ -3,7 +3,7 @@ use chrono_tz::Tz;
 use serde::Serialize;
 
 use crate::{
-    costs::{CostPeriods, LoadType},
+    costs::{CostPeriods, CostPeriodsSimple, LoadType},
     money::Money,
 };
 
@@ -13,9 +13,8 @@ use crate::{
 pub enum PowerTariff {
     Unverified,
     NotImplemented,
-    Implemented {
+    Periods {
         method: TariffCalculationMethod,
-        #[serde(flatten)]
         periods: CostPeriods,
     },
 }
@@ -26,7 +25,7 @@ impl PowerTariff {
     }
 
     pub(super) const fn new(method: TariffCalculationMethod, periods: CostPeriods) -> Self {
-        Self::Implemented { method, periods }
+        Self::Periods { method, periods }
     }
 
     pub(super) fn kw_cost(
@@ -38,13 +37,17 @@ impl PowerTariff {
         let cost = Money::ZERO;
         match self {
             PowerTariff::Unverified | PowerTariff::NotImplemented => cost,
-            PowerTariff::Implemented { method, periods } => {
+            PowerTariff::Periods { method, periods } => {
                 for period in periods.iter() {
                     let money = period.cost().cost_for(fuse_size, yearly_consumption);
                 }
                 cost
             }
         }
+    }
+
+    pub fn simplified(&self, fuse_size: u16, yearly_consumption: u32) -> PowerTariffSimplified {
+        PowerTariffSimplified::new(self, fuse_size, yearly_consumption)
     }
 }
 
@@ -148,7 +151,7 @@ impl PowerTariff {
         time_period: (DateTime<Tz>, DateTime<Tz>),
         grid_consumption: Vec<GridConsumption>,
     ) -> Option<Vec<Peak>> {
-        let Self::Implemented { method, periods } = self else {
+        let Self::Periods { method, periods } = self else {
             return None;
         };
         let _samples = method.relevant_samples(grid_consumption);
@@ -160,4 +163,30 @@ impl PowerTariff {
 pub struct GridConsumption {
     timestamp: DateTime<Tz>,
     wh: u32,
+}
+
+/// Like PowerTariff, but with costs being simple Money objects
+#[derive(Debug, Clone, Serialize)]
+#[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
+#[serde(tag = "type", content = "value")]
+pub enum PowerTariffSimplified {
+    Unverified,
+    NotImplemented,
+    Periods {
+        method: TariffCalculationMethod,
+        periods: CostPeriodsSimple,
+    },
+}
+
+impl PowerTariffSimplified {
+    fn new(fee: &PowerTariff, fuse_size: u16, yearly_consumption: u32) -> Self {
+        match *fee {
+            PowerTariff::Unverified => PowerTariffSimplified::Unverified,
+            PowerTariff::NotImplemented => PowerTariffSimplified::NotImplemented,
+            PowerTariff::Periods { method, periods } => PowerTariffSimplified::Periods {
+                method,
+                periods: CostPeriodsSimple::new(periods, fuse_size, yearly_consumption),
+            },
+        }
+    }
 }
