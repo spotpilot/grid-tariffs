@@ -11,11 +11,23 @@ pub static DEGERFORS_ELNAT_AB: GridOperator = GridOperator::builder()
         Link::builder(FEE_LINK).content_locator_default().build(),
     ))
     .price_lists(&[PriceList::builder()
-        .from_date(9999, 12, 31)
+        .from_date(2024, 09, 1)
         .monthly_fee(Cost::Unverified)
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
-        .transfer_fee(TransferFee::Unverified)
-        .power_tariff(PowerTariff::Unverified)
+        .transfer_fee(TransferFee::fixed_subunit(17.5))
+        .power_tariff(PowerTariff::new(
+            TariffCalculationMethod::PeakHour,
+            CostPeriods::new(&[
+                CostPeriod::builder().load(Base).fixed_cost(56, 25).build(),
+                CostPeriod::builder()
+                    .load(High)
+                    .months(November, March)
+                    .hours(7, 19)
+                    .fixed_cost(43, 75)
+                    .exclude_weekends_and_swedish_holidays()
+                    .build(),
+            ]),
+        ))
         .build()])
     .build();
