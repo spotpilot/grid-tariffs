@@ -12,7 +12,6 @@ use crate::{
 
 #[derive(Debug, Clone, Copy, Serialize)]
 #[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
-#[serde(tag = "type", content = "value")]
 pub enum Cost {
     None,
     /// Cost has not been verified
@@ -391,7 +390,6 @@ mod tests {
 
 #[derive(Debug, Clone, Copy, Serialize)]
 #[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
-#[serde(tag = "type", content = "value")]
 pub(super) enum PeriodType {
     Months(Months),
     Month(Month),

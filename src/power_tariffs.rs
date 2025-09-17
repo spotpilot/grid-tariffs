@@ -9,7 +9,6 @@ use crate::{
 
 #[derive(Debug, Clone, Serialize)]
 #[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
-#[serde(tag = "type", content = "value")]
 pub enum PowerTariff {
     Unverified,
     NotImplemented,
@@ -168,7 +167,6 @@ pub struct GridConsumption {
 /// Like PowerTariff, but with costs being simple Money objects
 #[derive(Debug, Clone, Serialize)]
 #[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
-#[serde(tag = "type", content = "value")]
 pub enum PowerTariffSimplified {
     Unverified,
     NotImplemented,

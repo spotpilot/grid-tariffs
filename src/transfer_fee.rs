@@ -7,7 +7,6 @@ use crate::{
 
 #[derive(Debug, Clone, Copy, Serialize)]
 #[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
-#[serde(tag = "type", content = "value")]
 pub enum TransferFee {
     /// Price was not listed on their website
     Unlisted,
@@ -67,7 +66,6 @@ impl TransferFee {
 /// Like TransferFee, but with costs being simple Money objects
 #[derive(Debug, Clone, Serialize)]
 #[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
-#[serde(tag = "type", content = "value")]
 pub enum TransferFeeSimplified {
     /// Price was not listed on their website
     Unlisted,

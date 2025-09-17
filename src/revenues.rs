@@ -9,7 +9,6 @@ use crate::{
 /// A Swedish concept for "thanking" micro producers (<=43,5 kW) for reducing losses in the grid
 #[derive(Debug, Clone, Copy, Serialize)]
 #[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
-#[serde(tag = "type", content = "value")]
 pub enum FeedInRevenue {
     Simple(Cost),
     /// Not yet checked
@@ -48,7 +47,6 @@ impl FeedInRevenue {
 /// Like FeedInRevenue, but with costs being simple Money objects
 #[derive(Debug, Clone, Serialize)]
 #[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
-#[serde(tag = "type", content = "value")]
 pub enum FeedInRevenueSimplified {
     Simple(Option<Money>),
     /// Not yet checked
