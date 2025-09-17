@@ -18,8 +18,8 @@ jobs:
       - uses: Swatinem/rust-cache@v2.8.0
       - name: Run & report
         run: |
-          cargo build -p updates
-          ./target/debug/updates check-all | tee output.log \
+          cargo build -p grid-tariffs-cli
+          ./target/debug/grid-tariffs-cli check-all | tee output.log \
           && grep ERROR output.log \
             | (tr '\n' '\0' \
             | xargs -0 -n1 echo ::error) \
