@@ -6,16 +6,28 @@ pub static NJUDUNG_VETLANDA_ELNAT_AB: GridOperator = GridOperator::builder()
     .name("Njudung Vetlanda Elnät AB")
     .vat_number("SE556819474901")
     .country(Country::SE)
-    .main_fuses(MainFuseSizes::new_range(16, 63))
+    .main_fuses(MainFuseSizes::new_range(16, 200))
     .links(Links::new(
         Link::builder(FEE_LINK).content_locator_default().build(),
     ))
     .price_lists(&[PriceList::builder()
-        .from_date(9999, 12, 31)
-        .monthly_fee(Cost::Unverified)
+        .from_date(2025, 1, 1)
+        .monthly_fee(Cost::fuses(&[
+            (16, Money::new(2744, 0).divide_by(12)),
+            (20, Money::new(4093, 0).divide_by(12)),
+            (25, Money::new(5168, 0).divide_by(12)),
+            (35, Money::new(7236, 0).divide_by(12)),
+            (50, Money::new(10370, 0).divide_by(12)),
+            (63, Money::new(13582, 0).divide_by(12)),
+            (80, Money::new(17296, 0).divide_by(12)),
+            (100, Money::new(21569, 0).divide_by(12)),
+            (125, Money::new(28362, 0).divide_by(12)),
+            (160, Money::new(36240, 0).divide_by(12)),
+            (200, Money::new(45302, 0).divide_by(12)),
+        ]))
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
-        .transfer_fee(TransferFee::Unverified)
-        .power_tariff(PowerTariff::Unverified)
+        .transfer_fee(TransferFee::fixed_subunit(33.75))
+        .power_tariff(PowerTariff::NotImplemented)
         .build()])
     .build();
