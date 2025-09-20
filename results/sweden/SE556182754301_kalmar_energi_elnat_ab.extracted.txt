@@ -86,7 +86,7 @@ https://kalmarenergi.se/fjarrvarme/koppla-in-fjarrvarme/
 Koppla in fjärrvärme
 https://kalmarenergi.se/foretag/priser/
 Priser och villkor
-https://kalmarenergi.se/fjarrvarme/vara-anlaggningar-moskogen/
+https://kalmarenergi.se/fjarrvarme/vara-anlaggningar-moskogen-och-draken/
 Våra anläggningar
 https://kalmarenergi.se/fjarrvarme/miljovanlig-uppvarmning-fjarrvarme/
 Miljövänlig uppvärmning
@@ -117,7 +117,7 @@ https://kalmarenergi.se/sol/vanliga-fragor/
 Vanliga frågor
 https://kalmarenergi.se/statistik-for-kalmarsund-sol/
 Statistik för Kalmarsund Sol
-https://kalmarenergi.se/sol/reservera-solcellsandelar/forklaring-av-avrakning-sol/
+https://kalmarenergi.se/sol/solcellsandelar/forklaring-av-avrakning-sol/
 Förklaring av avräkning
 https://kalmarenergi.se/sol/medlemsinformation/
 Medlemsinformation
@@ -362,7 +362,7 @@ https://kalmarenergi.se/fjarrvarme/koppla-in-fjarrvarme/
 Koppla in fjärrvärme
 https://kalmarenergi.se/fjarrvarme/priser/
 Priser och villkor
-https://kalmarenergi.se/fjarrvarme/vara-anlaggningar-moskogen/
+https://kalmarenergi.se/fjarrvarme/vara-anlaggningar-moskogen-och-draken/
 Våra anläggningar
 https://kalmarenergi.se/fjarrvarme/miljovanlig-uppvarmning-fjarrvarme/
 Miljövänlig uppvärmning
@@ -390,7 +390,7 @@ Fjärrvärmeavbrott
 https://kalmarenergi.se/sol/
 Sol
 
-https://kalmarenergi.se/sol/reservera-solcellsandelar/
+https://kalmarenergi.se/sol/solcellsandelar/
 Solandelar
 
 https://kalmarenergi.se/sol/rakna-ut-ditt-behov/
@@ -407,7 +407,7 @@ https://kalmarenergi.se/sol/vanliga-fragor/
 Vanliga frågor
 https://kalmarenergi.se/statistik-for-kalmarsund-sol/
 Statistik för Kalmarsund Sol
-https://kalmarenergi.se/sol/reservera-solcellsandelar/forklaring-av-avrakning-sol/
+https://kalmarenergi.se/sol/solcellsandelar/forklaring-av-avrakning-sol/
 Förklaring av avräkning
 https://kalmarenergi.se/sol/medlemsinformation/
 Medlemsinformation
