@@ -25,13 +25,6 @@ Avgifter NÄT Inmatning (Produktion) 2024
 from 2024-07-01
 https://skaraenergi.se/content/uploads/2024/03/NAT-Anslutningsavgifter-2024-04-01.pdf
 NÄT Anslutningsavgifter 2024-04-01
-https://skaraenergi.se/content/uploads/2024/06/Avgifter-NAT-LSP-Sakring-2024-2.pdf
-Avgifter NÄT LSP Säkring 2024
-(ex villa och lägenhet)
-https://skaraenergi.se/content/uploads/2024/06/Avgifter-NAT-LSP-Effekt-2024-2.pdf
-Avgifter NÄT Lågspänning > 200 A 2024
-https://skaraenergi.se/content/uploads/2024/06/Avgifter-NAT-HSP-Uttag-2024-2.pdf
-Avgifter NÄT Högspänning Uttag 2024
 
 Avtalsvillkor
 Avtalsvillkoren är uppdelade på Näringsidkare respektive Konsument, samt Högspänningskunder
@@ -48,10 +41,6 @@ https://skaraenergi.se/content/uploads/2024/10/Skara-Energi-VA-avgifter-inom-ver
 Skara Energi VA-avgifter inom verksamhetsområde 2025
 https://skaraenergi.se/content/uploads/2024/09/Avgifter-VA-utanfor-VA-verksamhetsomrade-2025.pdf
 Avgifter VA utanför VA-verksamhetsområde 2025
-https://skaraenergi.se/content/uploads/2023/10/Skara-Energi-VA-avgifter-inom-verksamhetsomrade-2024.pdf
-Skara Energi VA avgifter inom verksamhetsområde 2024
-https://skaraenergi.se/content/uploads/2023/10/Skara-Energi-VA-avgifter-utanfor-VA-verksamhetsomrade-2024.pdf
-Skara Energi VA avgifter utanför VA-verksamhetsområde 2024
 
 Kontakta oss för information vad gäller anslutningsavgifte
 r
@@ -69,14 +58,10 @@ FJÄRRVÄRME
 Avgifter
 https://skaraenergi.se/content/uploads/2024/09/Avgifter-Fjarrvarme-2025.pdf
 Avgifter Fjärrvärme 2025
-https://skaraenergi.se/content/uploads/2024/03/Skara-Energi-FJV-avgifter-2024.pdf
-Skara Energi Fjärrvärmeavgifter 2024
 
 Vi har tagit fram olika prisexempel för fjärrvärme. En för småhus med förbrukning upp till 40 MWh och en för övriga med förbrukning upp till 500 MWh.
 https://skaraenergi.se/content/uploads/2024/09/Fjarrvarmepriser-jamforelse-2025.pdf
 Fjärrvärmepriser jämförelse 2025
-https://skaraenergi.se/content/uploads/2023/10/Fjarrvarmepriser-jamforelse-2024.pdf
-Fjärrvärmepriser jämförelse 2024
 På mina sidor finns normalårskorrigerade jämförelseprofiler.
 Avtalsvillkor
 Allmänna avtalsvillkoren för fjärrvärme är uppdelade i konsument och näringsidkare. Nya villkor tillämpas from 2023-09-01.
