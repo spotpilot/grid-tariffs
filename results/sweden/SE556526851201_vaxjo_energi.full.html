@@ -11,7 +11,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Elnät</title>
 
-<link rel="stylesheet" href="/assets/css/main.css?v=1113924625499">
+<link rel="stylesheet" href="/assets/css/main.css?v=1113938929231">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -69,20 +69,28 @@
 			<script src="/assets/js/libs/html5shiv.js"></script>
 			<script src="/assets/js/libs/respond.min.js"></script>
 	<![endif]-->
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
-	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+
+	<script src="/assets/js/libs/jquery-3.6.min.js"></script>
+	<script src="/assets/js/libs/jquery-ui.min.js"></script>
+	<link rel="stylesheet" href="/assets/css/jquery-ui.css">
+	
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Viga&amp;subset=latin-ext" rel="stylesheet">
-	<script src="/assets/js/libs/modernizr.custom.js"></script>
 
 
 	<script>
 		jQuery.noConflict();
 	</script>
 
-	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.7.3/dist/Chart.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@0.7.0"></script>
-	<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-deferred@1"></script>
+
+	<script src="/assets/js/libs/Chart.min.js"></script>
+	<script src="/assets/js/libs/chartjs-plugin-datalabels.min.js"></script>
+	<script src="/assets/js/libs/chartjs-plugin-deferred.min.js"></script>
+
+	
 
 	<script type="text/javascript">
 		if (window.location.host === 'veab.local' || window.location.host.startsWith('localhost') || window.location.host === '185.186.56.98' || window.location.host === 'stage.veab.se') {
@@ -165,19 +173,19 @@
 
 
 
-	<script data-main="/assets/js/main.js?v=1113924625499"
+	<script data-main="/assets/js/main.js?v=1113938929231"
 			src="/assets/js/libs/require.js"></script>
 
-	<script src="https://veab.lime-forms.com/js/ce/latest"></script>
+	<script src="https://veab.lime-forms.com/js/ce/latest" defer></script>
+
 </head>
 
 <body>
 
 		<!-- Google Tag Manager (noscript) -->
 		<noscript>
-			<iframe
-				src="https://www.googletagmanager.com/ns.html?id=GTM-NKB9MSG"
-				height="0" width="0" style="display: none; visibility: hidden" title="Google tag manager"></iframe>
+			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NKB9MSG"
+					height="0" width="0" style="display: none; visibility: hidden" title="Google tag manager"></iframe>
 		</noscript>
 		<!-- End Google Tag Manager (noscript) -->
 	<svg style="display: none;">
@@ -516,7 +524,7 @@
 <header id="page-header" class="clearfix">
     <div class="layout-section-constrained is-relative">
         <a href="/" class="page-logo">
-            <img src="/assets/img/logo-new-white.png" alt="VEAB logga" />
+            <img src="/assets/img/logo-new-white.png" width="130" height="63" alt="VEAB logga" />
         </a>
         <div class="is-hidden-small is-hidden-medium">
             
@@ -1135,7 +1143,7 @@
 
 							<ul class="layout-section-constrained">
 												<li>
-					<a href="/om-oss/jobba-hos-oss/lediga-jobb/Instrumenttekniker_Automationstekniker/" title="G&aring; till: Instrumenttekniker/Automationstekniker">Instrumenttekniker/Automationstekniker</a>
+					<a href="/om-oss/jobba-hos-oss/lediga-jobb/dokumentationstekniker-elnat-/" title="G&aring; till: Dokumentationstekniker Eln&#228;t">Dokumentationstekniker Eln&#228;t</a>
 				</li>
 
 							</ul>
@@ -2071,7 +2079,7 @@
 	</section>
 
 <section class="rs_skip campaign  is-hidden-large">
-	<div class="campaign__media" style="background-image: url('/contentassets/3d6cd1bc75f44d6ab3bb5cb01f98b50d/vardag_i_ett_kok.jpg?w=1903');">
+	<div class="campaign__media" style="background-image: url('/contentassets/3d6cd1bc75f44d6ab3bb5cb01f98b50d/vardag_i_ett_kok.jpg?w=700');">
 	</div>
 		<div class="campaign__content">
 			<h2 class="campaign__title">Vad anv&#228;nds eln&#228;tsavgiften i V&#228;xj&#246; till?</h2>
@@ -2106,7 +2114,7 @@
 						<div class="col-content">
 							<div>
 								S&#228;kring
-<div class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-fuse" data-tooltip-content="#tooltip_content-fuse"></div>							</div>
+<button class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-fuse" aria-expanded="false" data-tooltip-content="#tooltip_content-fuse"><span class="is-visuallyhidden">Öppna tooltip</span></button>							</div>
 						</div>
 					</div>
 					<div class="col">
@@ -2120,7 +2128,7 @@
 						<div class="col-content">
 							<div>
 								El&#246;verf&#246;ring
-<div class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-transf" data-tooltip-content="#tooltip_content-transf"></div>							</div>
+<button class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-transf" aria-expanded="false" data-tooltip-content="#tooltip_content-transf"><span class="is-visuallyhidden">Öppna tooltip</span></button>							</div>
 							<div class="col-content-info">(prognos oktober)</div>
 						</div>
 					</div>
@@ -2128,7 +2136,7 @@
 							<div class="col-content">
 								<div>
 									Effektavgift
-<div class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-effect" data-tooltip-content="#tooltip_content-effect"></div>								</div>
+<button class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-effect" aria-expanded="false" data-tooltip-content="#tooltip_content-effect"><span class="is-visuallyhidden">Öppna tooltip</span></button>								</div>
 							</div>
 						</div>
 				</div>
@@ -2139,7 +2147,7 @@
 								<div class="col">
 									<div class="only-mobile">
 										S&#228;kring
-<div class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-fuse" data-tooltip-content="#tooltip_content-fuse"></div>									</div>
+<button class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-fuse" aria-expanded="false" data-tooltip-content="#tooltip_content-fuse"><span class="is-visuallyhidden">Öppna tooltip</span></button>									</div>
 									<div class="col-header ">Lägenhet</div>
 								</div>
 								<div class="col">
@@ -2156,7 +2164,7 @@
 								<div class="col">
 									<div class="only-mobile">
 										El&#246;verf&#246;ring
-<div class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-transf" data-tooltip-content="#tooltip_content-transf"></div>									</div>
+<button class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-transf" aria-expanded="false" data-tooltip-content="#tooltip_content-transf"><span class="is-visuallyhidden">Öppna tooltip</span></button>									</div>
 										<div class="col-content">
 											<div class="col-header">
 												<span> 9,7 &#246;re/kWh</span>
@@ -2168,7 +2176,7 @@
 									<div class="col">
 										<div class="only-mobile">
 											Effektavgift
-<div class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-effect" data-tooltip-content="#tooltip_content-effect"></div>										</div>
+<button class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-effect" aria-expanded="false" data-tooltip-content="#tooltip_content-effect"><span class="is-visuallyhidden">Öppna tooltip</span></button>										</div>
 											<div class="col-no-info"><p>0 kr. Effektavgift ing&aring;r inte i detta abonnemang.</p></div>
 									</div>
 							</div>
@@ -2178,7 +2186,7 @@
 								<div class="col">
 									<div class="only-mobile">
 										S&#228;kring
-<div class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-fuse" data-tooltip-content="#tooltip_content-fuse"></div>									</div>
+<button class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-fuse" aria-expanded="false" data-tooltip-content="#tooltip_content-fuse"><span class="is-visuallyhidden">Öppna tooltip</span></button>									</div>
 									<div class="col-header short-header">16 A</div>
 								</div>
 								<div class="col">
@@ -2195,7 +2203,7 @@
 								<div class="col">
 									<div class="only-mobile">
 										El&#246;verf&#246;ring
-<div class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-transf" data-tooltip-content="#tooltip_content-transf"></div>									</div>
+<button class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-transf" aria-expanded="false" data-tooltip-content="#tooltip_content-transf"><span class="is-visuallyhidden">Öppna tooltip</span></button>									</div>
 										<div class="col-content">
 											<div class="col-header">
 												<span> 9,7 &#246;re/kWh</span>
@@ -2207,7 +2215,7 @@
 									<div class="col">
 										<div class="only-mobile">
 											Effektavgift
-<div class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-effect" data-tooltip-content="#tooltip_content-effect"></div>										</div>
+<button class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-effect" aria-expanded="false" data-tooltip-content="#tooltip_content-effect"><span class="is-visuallyhidden">Öppna tooltip</span></button>										</div>
 											<div class="col-content">
 												<div class="col-header">
 													<span> 65,48 kr/kW</span>
@@ -2222,7 +2230,7 @@
 								<div class="col">
 									<div class="only-mobile">
 										S&#228;kring
-<div class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-fuse" data-tooltip-content="#tooltip_content-fuse"></div>									</div>
+<button class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-fuse" aria-expanded="false" data-tooltip-content="#tooltip_content-fuse"><span class="is-visuallyhidden">Öppna tooltip</span></button>									</div>
 									<div class="col-header short-header">20 A</div>
 								</div>
 								<div class="col">
@@ -2239,7 +2247,7 @@
 								<div class="col">
 									<div class="only-mobile">
 										El&#246;verf&#246;ring
-<div class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-transf" data-tooltip-content="#tooltip_content-transf"></div>									</div>
+<button class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-transf" aria-expanded="false" data-tooltip-content="#tooltip_content-transf"><span class="is-visuallyhidden">Öppna tooltip</span></button>									</div>
 										<div class="col-content">
 											<div class="col-header">
 												<span> 9,7 &#246;re/kWh</span>
@@ -2251,7 +2259,7 @@
 									<div class="col">
 										<div class="only-mobile">
 											Effektavgift
-<div class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-effect" data-tooltip-content="#tooltip_content-effect"></div>										</div>
+<button class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-effect" aria-expanded="false" data-tooltip-content="#tooltip_content-effect"><span class="is-visuallyhidden">Öppna tooltip</span></button>										</div>
 											<div class="col-content">
 												<div class="col-header">
 													<span> 65,48 kr/kW</span>
@@ -2266,7 +2274,7 @@
 								<div class="col">
 									<div class="only-mobile">
 										S&#228;kring
-<div class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-fuse" data-tooltip-content="#tooltip_content-fuse"></div>									</div>
+<button class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-fuse" aria-expanded="false" data-tooltip-content="#tooltip_content-fuse"><span class="is-visuallyhidden">Öppna tooltip</span></button>									</div>
 									<div class="col-header short-header">25 A</div>
 								</div>
 								<div class="col">
@@ -2283,7 +2291,7 @@
 								<div class="col">
 									<div class="only-mobile">
 										El&#246;verf&#246;ring
-<div class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-transf" data-tooltip-content="#tooltip_content-transf"></div>									</div>
+<button class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-transf" aria-expanded="false" data-tooltip-content="#tooltip_content-transf"><span class="is-visuallyhidden">Öppna tooltip</span></button>									</div>
 										<div class="col-content">
 											<div class="col-header">
 												<span> 9,7 &#246;re/kWh</span>
@@ -2295,7 +2303,7 @@
 									<div class="col">
 										<div class="only-mobile">
 											Effektavgift
-<div class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-effect" data-tooltip-content="#tooltip_content-effect"></div>										</div>
+<button class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-effect" aria-expanded="false" data-tooltip-content="#tooltip_content-effect"><span class="is-visuallyhidden">Öppna tooltip</span></button>										</div>
 											<div class="col-content">
 												<div class="col-header">
 													<span> 65,48 kr/kW</span>
@@ -2313,11 +2321,11 @@
 </div>
 
 <div class="tooltip_templates">
-	<span class="tooltip_content" role="tooltip" id="tooltip_content-fuse"><p>Din s&auml;kringsstorlek hittar du p&aring; din faktura eller p&aring;&nbsp;<a href="https://minasidor.veab.se/" target="_blank" rel="noopener">Mina sidor</a> vid sidan Mina avtal vid rubriken Abonnemangsavgift. S&auml;kringsstorlek ben&auml;mns som abonnemangsavgift eftersom den avgiften baseras p&aring; din storlek p&aring; s&auml;kring.&nbsp;</p></span>
+	<span class="tooltip_content" role="tooltip" id="tooltip_content-fuse"><p>Din s&auml;kringsstorlek hittar du p&aring; din faktura eller p&aring;&nbsp;<a href="https://minasidor.veab.se/" target="_blank" rel="noopener">Mina sidor</a> vid sidan Mina avtal vid rubriken Abonnemangsavgift. S&auml;kringsstorlek ben&auml;mns som abonnemangsavgift eftersom den avgiften baseras p&aring; din storlek p&aring; s&auml;kring.&nbsp;</p><button class="close-tooltip-btn" aria-label="Close">&times;</button></span>
 	
-	<span class="tooltip_content" role="tooltip" id="tooltip_content-transf"><p>Fr&aring;n 1 januari 2023 har V&auml;xj&ouml; Energi r&ouml;rlig &ouml;verf&ouml;ringsavgift. Avgiften &auml;r r&ouml;rlig och varierar beroende p&aring; vilket abonnemang du har.</p></span>
+	<span class="tooltip_content" role="tooltip" id="tooltip_content-transf"><p>Fr&aring;n 1 januari 2023 har V&auml;xj&ouml; Energi r&ouml;rlig &ouml;verf&ouml;ringsavgift. Avgiften &auml;r r&ouml;rlig och varierar beroende p&aring; vilket abonnemang du har.</p><button class="close-tooltip-btn" aria-label="Close">&times;</button></span>
 	<span class="tooltip_content" role="tooltip" id="tooltip_content-effect"><p>Din elm&auml;tare m&auml;ter hur mycket el du anv&auml;nder f&ouml;r varje timme. Din effektavgift ber&auml;knas av de tre timmar d&aring; du anv&auml;nder som mest kilowatt under m&aring;naden p&aring; vardagar mellan kl. 07-20. Avgiften ber&auml;knas kronor per kilowatt.&nbsp;</p>
-<p>F&ouml;ljande dagar r&auml;knas inte som vardagar:<br />L&ouml;rdagar, S&ouml;ndagar, Julafton, Juldagen, Annandag jul, Ny&aring;rsafton, Ny&aring;rsdagen, Trettondedag jul, L&aring;ngfredag, Annandag p&aring;sk, F&ouml;rsta maj, Kristi himmelsf&auml;rd, Nationaldagen, Midsommarafton. Tiden f&ouml;r effektavgiften f&ouml;ljer sommar- och vintertid.</p></span>
+<p>F&ouml;ljande dagar r&auml;knas inte som vardagar:<br />L&ouml;rdagar, S&ouml;ndagar, Julafton, Juldagen, Annandag jul, Ny&aring;rsafton, Ny&aring;rsdagen, Trettondedag jul, L&aring;ngfredag, Annandag p&aring;sk, F&ouml;rsta maj, Kristi himmelsf&auml;rd, Nationaldagen, Midsommarafton. Tiden f&ouml;r effektavgiften f&ouml;ljer sommar- och vintertid.</p><button class="close-tooltip-btn" aria-label="Close">&times;</button></span>
 </div>
 
 <h3>v&aring;r definition av l&auml;genhet</h3>
@@ -2522,7 +2530,7 @@
 	</section>
 
 <section class="rs_skip campaign  is-hidden-large">
-	<div class="campaign__media" style="background-image: url('/contentassets/87bc187ade294b27811cef79848cc12d/istock-636118426.jpg?w=1903');">
+	<div class="campaign__media" style="background-image: url('/contentassets/87bc187ade294b27811cef79848cc12d/istock-636118426.jpg?w=700');">
 	</div>
 		<div class="campaign__content">
 			<h2 class="campaign__title">F&#246;lj din elanv&#228;ndning och dina effekttoppar p&#229; Mina sidor</h2>
@@ -2875,7 +2883,8 @@
 
 <h4 class="footer__title">Prenumerera p&aring; v&aring;rt nyhetsbrev</h4>
 <div id="subscribe-wrapper">
-<form action="/LimeMarketingBlock/Subscribe" id="newslettersubscribeform" method="post" name="newslettersubscribeform"><input name="__RequestVerificationToken" type="hidden" value="U8GJN4fZdFltGf6ezoGCa6mj5wW-dWA0viRS1g4xVRCRjNAUf3N2dwA_haJwbZ7o5VviPjH3rURJrsjM16xAPS2EgVcF5XQiAwrSJPC7ERc1" /><input data-val="true" data-val-number="The field SubscriptionId must be a number." data-val-required="The SubscriptionId field is required." id="AllPublications_0__SubscriptionId" name="AllPublications[0].SubscriptionId" type="hidden" value="11" /><input id="AllPublications_0__UCRC" name="AllPublications[0].UCRC" type="hidden" value="4F6B04BA75" /><input data-val="true" data-val-number="The field SubscriptionId must be a number." data-val-required="The SubscriptionId field is required." id="AllPublications_1__SubscriptionId" name="AllPublications[1].SubscriptionId" type="hidden" value="62" /><input id="AllPublications_1__UCRC" name="AllPublications[1].UCRC" type="hidden" value="43E84AC8F1" />		<div class="input-container">
+<form action="/LimeMarketingBlock/Subscribe" id="newslettersubscribeform" method="post" name="newslettersubscribeform"><input name="__RequestVerificationToken" type="hidden" value="Tfimew3EzntBd7b4C3vM7u7UdEpfm9wuZxuWRc_E7WMDAn91P0y8Hogu6xdvrjB7n8x9JFoxfVfs6QYDfZXVXeljhMgJ3PoLQ5kbdlM7JCg1" /><input data-val="true" data-val-number="The field SubscriptionId must be a number." data-val-required="The SubscriptionId field is required." id="AllPublications_0__SubscriptionId" name="AllPublications[0].SubscriptionId" type="hidden" value="11" /><input id="AllPublications_0__UCRC" name="AllPublications[0].UCRC" type="hidden" value="4F6B04BA75" /><input data-val="true" data-val-number="The field SubscriptionId must be a number." data-val-required="The SubscriptionId field is required." id="AllPublications_1__SubscriptionId" name="AllPublications[1].SubscriptionId" type="hidden" value="62" /><input id="AllPublications_1__UCRC" name="AllPublications[1].UCRC" type="hidden" value="43E84AC8F1" />		<div class="input-container">
+			<label for="subselection" class="is-visuallyhidden">V&auml;lj om du vill ha nyhetsbrev f&ouml;r privat eller f&ouml;retag.</label>
 			<select data-val="true" data-val-number="The field PrivateOrBusiness must be a number." data-val-required="The PrivateOrBusiness field is required." id="subselection" name="PrivateOrBusiness"><option selected="selected" value="11">Privat</option>
 <option value="62">F&#246;retag</option>
 </select>
@@ -2982,7 +2991,7 @@ document.addEventListener('DOMContentLoaded', initNewsletterSubscription);
 					<span class="is-visuallyhidden">F&ouml;lj oss p&aring; Linkedin</span>
 				</a>
 				<a href="https://www.mynewsdesk.com/se/vaxjoenergi-veab" target="_blank">
-					<img src="/assets/img/icons/mynewsdesk.svg" alt="F&ouml;lj oss p&aring; mynewsdesk">
+					<img src="/assets/img/icons/mynewsdesk.svg" width="20" height="14" alt="F&ouml;lj oss p&aring; mynewsdesk">
 				</a>
 			</div>
 			<p><strong>V&auml;xj&ouml; Energi</strong> &minus; <span class="no-break">en del av V&auml;xj&ouml; kommun</span></p>
@@ -2992,7 +3001,7 @@ document.addEventListener('DOMContentLoaded', initNewsletterSubscription);
 
 
 	</div>
-	
+
 	<script type="text/plain" data-cookieconsent="statistics">
 (function() {
 var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
@@ -3001,6 +3010,9 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
 })();
 </script>
 	
+
+	
+
 
 	<!-- Go to www.addthis.com/dashboard to customize your tools -->
 	<!--<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-563363a77fa04ac6" async="async"></script>-->

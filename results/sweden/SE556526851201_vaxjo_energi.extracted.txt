@@ -87,16 +87,20 @@ inklusive moms.
 *Framtaget 2025-09-01.
 
 Säkring
+Öppna tooltip
 
 Fast avgift
 
 Elöverföring
+Öppna tooltip
 
 (prognos oktober)
 
 Effektavgift
+Öppna tooltip
 
 Säkring
+Öppna tooltip
 
 Lägenhet
 
@@ -106,6 +110,7 @@ Fast avgift
 per månad
 
 Elöverföring
+Öppna tooltip
 
 9,7 öre/kWh
 per månad
@@ -114,10 +119,12 @@ per månad
 Se prognos rörlig överföring
 
 Effektavgift
+Öppna tooltip
 
 0 kr. Effektavgift ingår inte i detta abonnemang.
 
 Säkring
+Öppna tooltip
 
 16 A
 
@@ -127,6 +134,7 @@ Fast avgift
 per månad
 
 Elöverföring
+Öppna tooltip
 
 9,7 öre/kWh
 per månad
@@ -135,11 +143,13 @@ per månad
 Se prognos rörlig överföring
 
 Effektavgift
+Öppna tooltip
 
 65,48 kr/kW
 per månad
 
 Säkring
+Öppna tooltip
 
 20 A
 
@@ -149,6 +159,7 @@ Fast avgift
 per månad
 
 Elöverföring
+Öppna tooltip
 
 9,7 öre/kWh
 per månad
@@ -157,11 +168,13 @@ per månad
 Se prognos rörlig överföring
 
 Effektavgift
+Öppna tooltip
 
 65,48 kr/kW
 per månad
 
 Säkring
+Öppna tooltip
 
 25 A
 
@@ -171,6 +184,7 @@ Fast avgift
 per månad
 
 Elöverföring
+Öppna tooltip
 
 9,7 öre/kWh
 per månad
@@ -179,6 +193,7 @@ per månad
 Se prognos rörlig överföring
 
 Effektavgift
+Öppna tooltip
 
 65,48 kr/kW
 per månad
@@ -187,10 +202,13 @@ Din säkringsstorlek hittar du på din faktura eller på
 https://minasidor.veab.se/
 Mina sidor
 vid sidan Mina avtal vid rubriken Abonnemangsavgift. Säkringsstorlek benämns som abonnemangsavgift eftersom den avgiften baseras på din storlek på säkring.
+×
 Från 1 januari 2023 har Växjö Energi rörlig överföringsavgift. Avgiften är rörlig och varierar beroende på vilket abonnemang du har.
+×
 Din elmätare mäter hur mycket el du använder för varje timme. Din effektavgift beräknas av de tre timmar då du använder som mest kilowatt under månaden på vardagar mellan kl. 07-20. Avgiften beräknas kronor per kilowatt.
 Följande dagar räknas inte som vardagar:
 Lördagar, Söndagar, Julafton, Juldagen, Annandag jul, Nyårsafton, Nyårsdagen, Trettondedag jul, Långfredag, Annandag påsk, Första maj, Kristi himmelsfärd, Nationaldagen, Midsommarafton. Tiden för effektavgiften följer sommar- och vintertid.
+×
 
 vår definition av lägenhet
 Om anläggningen uppfyller de nedan angivna kriterierna så definieras man som lägenhetskund och berörs inte av förändringen:
