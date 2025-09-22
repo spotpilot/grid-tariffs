@@ -150,18 +150,7 @@ Driftstörningar
 
 /sidowebbplatser/miljoteknik/om-oss.html
 Om oss
-
-/sidowebbplatser/miljoteknik/om-oss/mal-och-vision.html
-Mål och vision
-
-/sidowebbplatser/miljoteknik/om-oss/bolagsstyrelse.html
-Bolagsstyrelse
-
-/sidowebbplatser/miljoteknik/om-oss/organisation.html
-Organisation
-
-/sidowebbplatser/miljoteknik/om-oss/upphandlingar.html
-Upphandlingar
+#renderTree( $item.tree )
 
 https://kundforum.miljoteknik.ronneby.se/
 Frågor & Svar
