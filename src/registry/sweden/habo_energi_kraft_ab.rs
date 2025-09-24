@@ -6,7 +6,7 @@ pub static HABO_ENERGI_KRAFT_AB: GridOperator = GridOperator::builder()
     .name("Habo Energi Kraft AB")
     .vat_number("SE556058980501")
     .country(Country::SE)
-    .main_fuses(MainFuseSizes::new_range(16, 63))
+    .main_fuses(MainFuseSizes::new_range(16, 200))
     .links(Links::new(
         Link::builder(FEE_LINK)
             .plain_content_locator("[data-elementor-type='wp-page']")
