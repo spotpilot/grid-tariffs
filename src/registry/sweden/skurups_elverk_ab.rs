@@ -7,16 +7,28 @@ pub static SKURUPS_ELVERK_AB: GridOperator = GridOperator::builder()
     .name("Skurups Elverk AB")
     .vat_number("SE556934168701")
     .country(Country::SE)
-    .main_fuses(MainFuseSizes::new_range(16, 63))
+    .main_fuses(MainFuseSizes::new_range(16, 200))
     .links(Links::new(
         Link::builder(FEE_LINK).content_locator_default().build(),
     ))
     .price_lists(&[PriceList::builder()
-        .from_date(9999, 12, 31)
-        .monthly_fee(Cost::Unverified)
+        .from_date(2024, 9, 26)
+        .monthly_fee(Cost::fuses(&[
+            (16, Money::new(4259, 0).divide_by(12)),
+            (20, Money::new(7434, 0).divide_by(12)),
+            (25, Money::new(9449, 0).divide_by(12)),
+            (35, Money::new(13783, 0).divide_by(12)),
+            (50, Money::new(19800, 0).divide_by(12)),
+            (63, Money::new(25993, 0).divide_by(12)),
+            (80, Money::new(35980, 0).divide_by(12)),
+            (100, Money::new(45245, 0).divide_by(12)),
+            (125, Money::new(58652, 0).divide_by(12)),
+            (160, Money::new(75523, 0).divide_by(12)),
+            (200, Money::new(94254, 0).divide_by(12)),
+        ]))
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
-        .transfer_fee(TransferFee::Unverified)
-        .power_tariff(PowerTariff::Unverified)
+        .transfer_fee(TransferFee::fixed_subunit(34.80))
+        .power_tariff(PowerTariff::NotImplemented)
         .build()])
     .build();
