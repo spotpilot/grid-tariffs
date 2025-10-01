@@ -27,7 +27,9 @@ pub static HOGANAS_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
         ]))
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
-        .transfer_fee(TransferFee::Unverified)
+        // "** Det rörliga volympriset är beroende av elpriset på elbörsen Nordpool och överliggande näts debitering till Höganäs Energi. Priset fastställs månadsvis och framgår av respektive månads faktura."
+        // TODO: Find out actual cost
+        .transfer_fee(TransferFee::spot_price_variable(21.00, 5.0, true))
         .power_tariff(PowerTariff::NotImplemented)
         .build()])
     .build();

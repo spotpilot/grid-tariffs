@@ -36,6 +36,18 @@ impl TransferFee {
         }
     }
 
+    pub const fn spot_price_variable(
+        base_cost_subunit: f64,
+        spot_price_multiplier: f64,
+        approximated: bool,
+    ) -> Self {
+        Self::SpotPriceVariable {
+            base_cost: Money::new_subunit(base_cost_subunit),
+            spot_price_multiplier,
+            approximated,
+        }
+    }
+
     pub fn simplified(&self, fuse_size: u16, yearly_consumption: u32) -> TransferFeeSimplified {
         TransferFeeSimplified::new(self, fuse_size, yearly_consumption)
     }
