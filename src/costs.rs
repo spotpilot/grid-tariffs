@@ -235,19 +235,14 @@ impl CostPeriodSimple {
     }
 
     fn add_info(mut self, language: Language) -> Self {
-        match language {
-            Language::En => todo!(),
-            Language::Sv => {
-                let mut infos = Vec::new();
-                for include in &self.include {
-                    infos.push(include.translate(language));
-                }
-                for exclude in &self.exclude {
-                    infos.push(exclude.translate(language).into());
-                }
-                self.info = infos.join(", ");
-            }
+        let mut infos = Vec::new();
+        for include in &self.include {
+            infos.push(include.translate(language));
         }
+        for exclude in &self.exclude {
+            infos.push(exclude.translate(language).into());
+        }
+        self.info = infos.join(", ");
         self
     }
 }
