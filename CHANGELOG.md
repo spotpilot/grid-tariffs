@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.4.0](https://github.com/spotpilot/grid-tariffs/compare/grid-tariffs-v0.3.0...grid-tariffs-v0.4.0) - 2025-10-01
+
+### Added
+
+- Add info translations for simplified structs
+- *(SE Hoganas)* Add basic info ([#127](https://github.com/spotpilot/grid-tariffs/pull/127))
+
+### Fixed
+
+- [**breaking**] Don't use tagged serde enums - problem to use with openapi-generator
+
+### Other
+
+- Update package name in CI as well
+
 ## [0.3.0](https://github.com/spotpilot/grid-tariffs/compare/grid-tariffs-v0.2.0...grid-tariffs-v0.3.0) - 2025-09-16
 
 ### Added
