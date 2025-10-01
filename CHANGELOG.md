@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.4.1](https://github.com/spotpilot/grid-tariffs/compare/grid-tariffs-v0.4.0...grid-tariffs-v0.4.1) - 2025-10-01
+
+### Fixed
+
+- Didn't support passing in English as language
+
 ## [0.4.0](https://github.com/spotpilot/grid-tariffs/compare/grid-tariffs-v0.3.0...grid-tariffs-v0.4.0) - 2025-10-01
 
 ### Added
