@@ -1,9 +1,6 @@
 use serde::Serialize;
 
-use crate::{
-    Cost, Money,
-    costs::{CostPeriods, CostPeriodsSimple},
-};
+use crate::{Cost, CostPeriods, CostPeriodsSimple, Language, Money, currency::Currency};
 
 #[derive(Debug, Clone, Copy, Serialize)]
 #[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
@@ -48,8 +45,13 @@ impl TransferFee {
         }
     }
 
-    pub fn simplified(&self, fuse_size: u16, yearly_consumption: u32) -> TransferFeeSimplified {
-        TransferFeeSimplified::new(self, fuse_size, yearly_consumption)
+    pub fn simplified(
+        &self,
+        fuse_size: u16,
+        yearly_consumption: u32,
+        language: Language,
+    ) -> TransferFeeSimplified {
+        TransferFeeSimplified::new(self, fuse_size, yearly_consumption, language)
     }
 
     pub(super) const fn new_periods(periods: CostPeriods) -> Self {
@@ -91,12 +93,13 @@ pub enum TransferFeeSimplified {
         base_cost: Money,
         spot_price_multiplier: f64,
         approximated: bool,
+        info: String,
     },
     Periods(CostPeriodsSimple),
 }
 
 impl TransferFeeSimplified {
-    fn new(fee: &TransferFee, fuse_size: u16, yearly_consumption: u32) -> Self {
+    fn new(fee: &TransferFee, fuse_size: u16, yearly_consumption: u32, language: Language) -> Self {
         match *fee {
             TransferFee::Unlisted => TransferFeeSimplified::Unlisted,
             TransferFee::Unverified => TransferFeeSimplified::Unverified,
@@ -111,10 +114,57 @@ impl TransferFeeSimplified {
                 base_cost,
                 spot_price_multiplier,
                 approximated,
+                info: Default::default(),
             },
             TransferFee::Periods(periods) => TransferFeeSimplified::Periods(
-                CostPeriodsSimple::new(periods, fuse_size, yearly_consumption),
+                CostPeriodsSimple::new(periods, fuse_size, yearly_consumption, language),
             ),
+        }
+        .add_info(language)
+    }
+
+    fn add_info(mut self, language: Language) -> Self {
+        match self {
+            TransferFeeSimplified::Unlisted => self,
+            TransferFeeSimplified::Unverified => self,
+            TransferFeeSimplified::Simple(_) => self,
+            TransferFeeSimplified::SpotPriceVariable {
+                base_cost,
+                spot_price_multiplier,
+                approximated,
+                info,
+            } => {
+                let percentage = spot_price_multiplier * 100.;
+                let mut info = match language {
+                    Language::En => format!(
+                        "The grid operator bases its transfer fee on a fixed part of {} and {}% of the current spot price.",
+                        base_cost.display(Currency::SEK),
+                        percentage
+                    ),
+                    Language::Sv => format!(
+                        "Nätbolaget baserar sin överföringsavgift på en fast del om {} samt {}% av spotpriset.",
+                        base_cost.display(Currency::SEK),
+                        percentage
+                    ),
+                };
+                if approximated {
+                    info.push_str(&match language {
+                        Language::En => format!(
+                            " The percentage is estimated as the grid operator doesn't list it on their website."
+                        ),
+                        Language::Sv => format!(
+                            " Procentsatsen är uppskattad eftersom nätbolaget inte skriver ut exakt vad den är på sin webbplats."
+                        ),
+                    })
+                }
+                TransferFeeSimplified::SpotPriceVariable {
+                    base_cost,
+                    spot_price_multiplier,
+                    approximated,
+                    info,
+                }
+            }
+            TransferFeeSimplified::Periods(_) => self,
         }
     }
 }

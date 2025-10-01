@@ -175,7 +175,7 @@ pub struct Link {
 
 impl Link {
     pub const fn link(&self) -> &str {
-        &self.link
+        self.link
     }
 
     pub const fn content_locator(&self) -> &ContentLocator {

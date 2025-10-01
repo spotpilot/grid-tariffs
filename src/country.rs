@@ -4,10 +4,7 @@ use std::str::FromStr;
 use chrono::{NaiveDate, Utc};
 use serde::{Deserialize, Serialize};
 
-use crate::{
-    Money, SE_TAX_REDUCTIONS, SE_TAXES, Tax, TaxAppliedBy, TaxReduction, helpers::date,
-    tax_reductions,
-};
+use crate::{Money, SE_TAX_REDUCTIONS, SE_TAXES, Tax, TaxAppliedBy, TaxReduction};
 
 #[derive(Debug, Clone, Copy, Hash, PartialEq, Eq, PartialOrd, Ord, Serialize, Deserialize)]
 #[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
@@ -95,7 +92,7 @@ impl CountryInfo {
     pub fn current(country: Country) -> Self {
         let today = Utc::now().date_naive();
         Self {
-            country: country,
+            country,
             taxes: country.current_taxes(today),
             tax_reductions: country.current_tax_reductions(today),
         }

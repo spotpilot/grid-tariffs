@@ -3,7 +3,7 @@ use indexmap::IndexMap;
 use serde::Serialize;
 
 use crate::{
-    Country, Links, MainFuseSizes, PriceList, currency::Currency, price_list::PriceListSimplified,
+    Country, Currency, Language, Links, MainFuseSizes, PriceList, price_list::PriceListSimplified,
     registry::sweden,
 };
 
@@ -22,11 +22,11 @@ pub struct GridOperator {
 
 impl GridOperator {
     pub const fn name(&self) -> &str {
-        &self.name
+        self.name
     }
 
     pub const fn vat_number(&self) -> &str {
-        &self.vat_number
+        self.vat_number
     }
 
     pub const fn country(&self) -> Country {
@@ -58,7 +58,7 @@ impl GridOperator {
         self.active_price_lists()
             .iter()
             .filter(|pl| pl.variant() == variant)
-            .last()
+            .next_back()
             .copied()
     }
 
@@ -82,7 +82,7 @@ impl GridOperator {
     }
 
     pub fn all() -> Vec<&'static Self> {
-        sweden::GRID_OPERATORS.iter().copied().collect()
+        sweden::GRID_OPERATORS.to_vec()
     }
 
     pub fn all_for_country(country: Country) -> &'static [&'static Self] {
@@ -95,8 +95,13 @@ impl GridOperator {
         GridOperatorBuilder::new()
     }
 
-    pub fn simplified(&self, fuse_size: u16, yearly_consumption: u32) -> GridOperatorSimplified {
-        GridOperatorSimplified::new(self, fuse_size, yearly_consumption)
+    pub fn simplified(
+        &self,
+        fuse_size: u16,
+        yearly_consumption: u32,
+        language: Language,
+    ) -> GridOperatorSimplified {
+        GridOperatorSimplified::new(self, fuse_size, yearly_consumption, language)
     }
 }
 
@@ -130,7 +135,7 @@ impl GridOperatorSimplified {
 }
 
 impl GridOperatorSimplified {
-    fn new(op: &GridOperator, fuse_size: u16, yearly_consumption: u32) -> Self {
+    fn new(op: &GridOperator, fuse_size: u16, yearly_consumption: u32, language: Language) -> Self {
         Self {
             name: op.name,
             vat_number: op.vat_number,
@@ -138,7 +143,7 @@ impl GridOperatorSimplified {
             price_lists: op
                 .active_price_lists()
                 .into_iter()
-                .map(|pl| pl.simplified(fuse_size, yearly_consumption))
+                .map(|pl| pl.simplified(fuse_size, yearly_consumption, language))
                 .collect(),
         }
     }

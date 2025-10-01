@@ -38,7 +38,7 @@ pub(crate) struct ElementLocator<'a> {
 }
 
 impl<'a> ElementLocator<'a> {
-    fn where_selector_matches<'b>(document: &'a Html, selector: Selector) -> Option<Self> {
+    fn where_selector_matches(document: &'a Html, selector: Selector) -> Option<Self> {
         let elements: Vec<ElementRef<'a>> = document.select(&selector).collect();
         if elements.is_empty() {
             None
@@ -90,7 +90,7 @@ impl<'a> ElementLocator<'a> {
             .iter()
             .map(|x| {
                 x.descendants()
-                    .flat_map(|noderef| ElementRef::wrap(noderef))
+                    .flat_map(ElementRef::wrap)
                     .flat_map(|el| el.attr(attr))
                     .join("\n\n")
             })
@@ -111,10 +111,8 @@ impl<'a> ElementLocator<'a> {
     fn nth_ancestor(&self, nth: usize) -> Option<ElementRef<'_>> {
         self.elements
             .iter()
-            .map(|el| el.ancestors().skip(nth))
-            .flatten()
+            .flat_map(|el| el.ancestors().skip(nth))
             .next()
-            .map(ElementRef::wrap)
-            .flatten()
+            .and_then(ElementRef::wrap)
     }
 }

@@ -1,9 +1,6 @@
 use serde::Serialize;
 
-use crate::{
-    Cost, Money,
-    costs::{CostPeriods, CostPeriodsSimple},
-};
+use crate::{Cost, CostPeriods, CostPeriodsSimple, Language, Money};
 
 /// Feed-in revenue, per kWh (usually from solar production)
 /// A Swedish concept for "thanking" micro producers (<=43,5 kW) for reducing losses in the grid
@@ -38,8 +35,13 @@ impl FeedInRevenue {
         Self::Simple(Cost::fixed_subunit(subunit))
     }
 
-    pub fn simplified(&self, fuse_size: u16, yearly_consumption: u32) -> FeedInRevenueSimplified {
-        FeedInRevenueSimplified::new(self, fuse_size, yearly_consumption)
+    pub fn simplified(
+        &self,
+        fuse_size: u16,
+        yearly_consumption: u32,
+        language: Language,
+    ) -> FeedInRevenueSimplified {
+        FeedInRevenueSimplified::new(self, fuse_size, yearly_consumption, language)
     }
 }
 
@@ -67,7 +69,12 @@ pub enum FeedInRevenueSimplified {
 }
 
 impl FeedInRevenueSimplified {
-    fn new(fee: &FeedInRevenue, fuse_size: u16, yearly_consumption: u32) -> Self {
+    fn new(
+        fee: &FeedInRevenue,
+        fuse_size: u16,
+        yearly_consumption: u32,
+        language: Language,
+    ) -> Self {
         match *fee {
             FeedInRevenue::Unlisted => Self::Unlisted,
             FeedInRevenue::Unverified => Self::Unverified,
@@ -84,7 +91,7 @@ impl FeedInRevenueSimplified {
                 approximated,
             },
             FeedInRevenue::Periods(periods) => Self::Periods {
-                periods: CostPeriodsSimple::new(periods, fuse_size, yearly_consumption),
+                periods: CostPeriodsSimple::new(periods, fuse_size, yearly_consumption, language),
             },
         }
     }

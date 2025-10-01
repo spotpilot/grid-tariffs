@@ -3,8 +3,8 @@ use chrono_tz::Tz;
 use serde::Serialize;
 
 use crate::{
+    Language, Money,
     costs::{CostPeriods, CostPeriodsSimple, LoadType},
-    money::Money,
 };
 
 #[derive(Debug, Clone, Serialize)]
@@ -45,8 +45,13 @@ impl PowerTariff {
         }
     }
 
-    pub fn simplified(&self, fuse_size: u16, yearly_consumption: u32) -> PowerTariffSimplified {
-        PowerTariffSimplified::new(self, fuse_size, yearly_consumption)
+    pub fn simplified(
+        &self,
+        fuse_size: u16,
+        yearly_consumption: u32,
+        language: Language,
+    ) -> PowerTariffSimplified {
+        PowerTariffSimplified::new(self, fuse_size, yearly_consumption, language)
     }
 }
 
@@ -177,13 +182,13 @@ pub enum PowerTariffSimplified {
 }
 
 impl PowerTariffSimplified {
-    fn new(fee: &PowerTariff, fuse_size: u16, yearly_consumption: u32) -> Self {
+    fn new(fee: &PowerTariff, fuse_size: u16, yearly_consumption: u32, language: Language) -> Self {
         match *fee {
             PowerTariff::Unverified => PowerTariffSimplified::Unverified,
             PowerTariff::NotImplemented => PowerTariffSimplified::NotImplemented,
             PowerTariff::Periods { method, periods } => PowerTariffSimplified::Periods {
                 method,
-                periods: CostPeriodsSimple::new(periods, fuse_size, yearly_consumption),
+                periods: CostPeriodsSimple::new(periods, fuse_size, yearly_consumption, language),
             },
         }
     }

@@ -5,9 +5,9 @@ use chrono_tz::Tz;
 use serde::{Serialize, Serializer, ser::SerializeSeq};
 
 use crate::{
-    Country,
+    Country, Language, Money,
     defs::{Hours, Month, Months},
-    money::Money,
+    helpers,
 };
 
 #[derive(Debug, Clone, Copy, Serialize)]
@@ -169,13 +169,19 @@ pub struct CostPeriodsSimple {
 }
 
 impl CostPeriodsSimple {
-    pub(crate) fn new(periods: CostPeriods, fuse_size: u16, yearly_consumption: u32) -> Self {
+    pub(crate) fn new(
+        periods: CostPeriods,
+        fuse_size: u16,
+        yearly_consumption: u32,
+        language: Language,
+    ) -> Self {
         Self {
             periods: periods
                 .periods
                 .iter()
-                .map(|period| CostPeriodSimple::new(period, fuse_size, yearly_consumption))
-                .flatten()
+                .flat_map(|period| {
+                    CostPeriodSimple::new(period, fuse_size, yearly_consumption, language)
+                })
                 .collect(),
         }
     }
@@ -186,10 +192,10 @@ impl CostPeriodsSimple {
 pub(super) struct CostPeriod {
     cost: Cost,
     load: LoadType,
-    #[serde(serialize_with = "skip_nones")]
-    include: [Option<PeriodType>; 2],
-    #[serde(serialize_with = "skip_nones")]
-    exclude: [Option<PeriodType>; 2],
+    #[serde(serialize_with = "helpers::skip_nones")]
+    include: [Option<Include>; 2],
+    #[serde(serialize_with = "helpers::skip_nones")]
+    exclude: [Option<Exclude>; 2],
     /// Divide kw by this amount during this period
     divide_kw_by: u8,
 }
@@ -200,24 +206,49 @@ pub(super) struct CostPeriod {
 pub(super) struct CostPeriodSimple {
     cost: Money,
     load: LoadType,
-    include: Vec<PeriodType>,
-    exclude: Vec<PeriodType>,
+    include: Vec<Include>,
+    exclude: Vec<Exclude>,
     /// Divide kw by this amount during this period
     divide_kw_by: u8,
+    info: String,
 }
 
 impl CostPeriodSimple {
-    fn new(period: &CostPeriod, fuse_size: u16, yearly_consumption: u32) -> Option<Self> {
-        let Some(cost) = period.cost().cost_for(fuse_size, yearly_consumption) else {
-            return None;
-        };
-        Some(Self {
-            cost,
-            load: period.load,
-            include: period.include.into_iter().flatten().collect(),
-            exclude: period.exclude.into_iter().flatten().collect(),
-            divide_kw_by: period.divide_kw_by,
-        })
+    fn new(
+        period: &CostPeriod,
+        fuse_size: u16,
+        yearly_consumption: u32,
+        language: Language,
+    ) -> Option<Self> {
+        let cost = period.cost().cost_for(fuse_size, yearly_consumption)?;
+        Some(
+            Self {
+                cost,
+                load: period.load,
+                include: period.include.into_iter().flatten().collect(),
+                exclude: period.exclude.into_iter().flatten().collect(),
+                divide_kw_by: period.divide_kw_by,
+                info: Default::default(),
+            }
+            .add_info(language),
+        )
+    }
+
+    fn add_info(mut self, language: Language) -> Self {
+        match language {
+            Language::En => todo!(),
+            Language::Sv => {
+                let mut infos = Vec::new();
+                for include in &self.include {
+                    infos.push(include.translate(language));
+                }
+                for exclude in &self.exclude {
+                    infos.push(exclude.translate(language).into());
+                }
+                self.info = infos.join(", ");
+            }
+        }
+        self
     }
 }
 
@@ -242,11 +273,11 @@ impl CostPeriod {
         todo!()
     }
 
-    fn include_period_types(&self) -> Vec<PeriodType> {
+    fn include_period_types(&self) -> Vec<Include> {
         self.include.iter().flatten().copied().collect()
     }
 
-    fn exclude_period_types(&self) -> Vec<PeriodType> {
+    fn exclude_period_types(&self) -> Vec<Exclude> {
         self.exclude.iter().flatten().copied().collect()
     }
 
@@ -272,8 +303,8 @@ pub(super) use LoadType::*;
 pub(super) struct CostPeriodBuilder {
     cost: Cost,
     load: Option<LoadType>,
-    include: [Option<PeriodType>; 2],
-    exclude: [Option<PeriodType>; 2],
+    include: [Option<Include>; 2],
+    exclude: [Option<Exclude>; 2],
     /// Divide kw by this amount during this period
     divide_kw_by: u8,
 }
@@ -319,7 +350,7 @@ impl CostPeriodBuilder {
         self
     }
 
-    pub(super) const fn include(mut self, period_type: PeriodType) -> Self {
+    pub(super) const fn include(mut self, period_type: Include) -> Self {
         let mut i = 0;
         while i < self.include.len() {
             if self.include[i].is_some() {
@@ -333,18 +364,18 @@ impl CostPeriodBuilder {
     }
 
     pub(super) const fn months(self, from: Month, to: Month) -> Self {
-        self.include(PeriodType::Months(Months::new(from, to)))
+        self.include(Include::Months(Months::new(from, to)))
     }
 
     pub(super) const fn month(self, month: Month) -> Self {
-        self.include(PeriodType::Month(month))
+        self.include(Include::Month(month))
     }
 
     pub(super) const fn hours(self, from: u8, to_inclusive: u8) -> Self {
-        self.include(PeriodType::Hours(Hours::new(from, to_inclusive)))
+        self.include(Include::Hours(Hours::new(from, to_inclusive)))
     }
 
-    pub(super) const fn exclude(mut self, period_type: PeriodType) -> Self {
+    pub(super) const fn exclude(mut self, period_type: Exclude) -> Self {
         let mut i = 0;
         while i < self.exclude.len() {
             if self.exclude[i].is_some() {
@@ -358,11 +389,11 @@ impl CostPeriodBuilder {
     }
 
     pub(super) const fn exclude_weekends_and_swedish_holidays(self) -> Self {
-        self.exclude_weekends().exclude(PeriodType::SwedishHolidays)
+        self.exclude_weekends().exclude(Exclude::SwedishHolidays)
     }
 
     pub(super) const fn exclude_weekends(self) -> Self {
-        self.exclude(PeriodType::Weekends)
+        self.exclude(Exclude::Weekends)
     }
 
     pub(super) const fn divide_kw_by(mut self, value: u8) -> Self {
@@ -390,22 +421,40 @@ mod tests {
 
 #[derive(Debug, Clone, Copy, Serialize)]
 #[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
-pub(super) enum PeriodType {
+pub(super) enum Include {
     Months(Months),
     Month(Month),
     Hours(Hours),
+}
+
+impl Include {
+    fn translate(&self, language: Language) -> String {
+        match self {
+            Include::Months(months) => months.translate(language),
+            Include::Month(month) => month.translate(language).into(),
+            Include::Hours(hours) => hours.translate(language),
+        }
+    }
+}
+
+#[derive(Debug, Clone, Copy, Serialize)]
+#[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
+pub(super) enum Exclude {
     Weekends,
     SwedishHolidays,
 }
 
-fn skip_nones<S>(items: &[Option<PeriodType>; 2], serializer: S) -> Result<S::Ok, S::Error>
-where
-    S: Serializer,
-{
-    let filtered: Vec<_> = items.iter().filter_map(|x| x.as_ref()).collect();
-    let mut seq = serializer.serialize_seq(Some(filtered.len()))?;
-    for item in filtered {
-        seq.serialize_element(item)?;
+impl Exclude {
+    pub(super) fn translate(&self, language: Language) -> &'static str {
+        match language {
+            Language::En => match self {
+                Exclude::Weekends => "Weekends",
+                Exclude::SwedishHolidays => "Swedish holidays",
+            },
+            Language::Sv => match self {
+                Exclude::Weekends => "Helg",
+                Exclude::SwedishHolidays => "Svenska helgdagar",
+            },
+        }
     }
-    seq.end()
 }

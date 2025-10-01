@@ -5,8 +5,8 @@ const BASE_BUILDER: CostPeriodBuilder = CostPeriodBuilder::new();
 const SUMMER: CostPeriodBuilder = BASE_BUILDER.months(April, October);
 const WINTER: CostPeriodBuilder = BASE_BUILDER.months(November, March);
 
-const NIGHT_HOURS: PeriodType = PeriodType::Hours(Hours::new(6, 22));
-const DAY_HOURS: PeriodType = PeriodType::Hours(Hours::new(23, 5));
+const NIGHT_HOURS: Include = Include::Hours(Hours::new(6, 22));
+const DAY_HOURS: Include = Include::Hours(Hours::new(23, 5));
 
 const SUMMER_DAYS: CostPeriodBuilder = SUMMER.include(DAY_HOURS);
 const SUMMER_NIGHTS: CostPeriodBuilder = SUMMER.include(NIGHT_HOURS);

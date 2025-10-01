@@ -3,7 +3,7 @@ use serde::Serialize;
 
 use crate::{Money, helpers::date};
 
-pub(crate) static SE_TAXES: &'static [Tax] = &[
+pub(crate) static SE_TAXES: &[Tax] = &[
     Tax::new(
         "Energiskatt",
         Money::from_inner(54875),

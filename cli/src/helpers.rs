@@ -76,6 +76,6 @@ pub(crate) fn where_operator_name_starts_with(
 pub(crate) fn where_operator_vat_number_is(vat_number: &str) -> Vec<&'static GridOperator> {
     GridOperator::all()
         .into_iter()
-        .filter(|op| op.vat_number().to_ascii_lowercase() == vat_number.to_ascii_lowercase())
+        .filter(|op| op.vat_number().eq_ignore_ascii_case(vat_number))
         .collect()
 }

@@ -2,11 +2,8 @@ use chrono::NaiveDate;
 use serde::Serialize;
 
 use crate::{
-    FeedInRevenueSimplified, Money, TransferFeeSimplified,
-    costs::Cost,
-    helpers,
-    power_tariffs::{PowerTariff, PowerTariffSimplified},
-    revenues::FeedInRevenue,
+    FeedInRevenueSimplified, Language, Money, PowerTariff, PowerTariffSimplified,
+    TransferFeeSimplified, costs::Cost, helpers, revenues::FeedInRevenue,
     transfer_fee::TransferFee,
 };
 
@@ -57,8 +54,13 @@ impl PriceList {
         &self.power_tariff
     }
 
-    pub fn simplified(&self, fuse_size: u16, yearly_consumption: u32) -> PriceListSimplified {
-        PriceListSimplified::new(self, fuse_size, yearly_consumption)
+    pub fn simplified(
+        &self,
+        fuse_size: u16,
+        yearly_consumption: u32,
+        language: Language,
+    ) -> PriceListSimplified {
+        PriceListSimplified::new(self, fuse_size, yearly_consumption, language)
     }
 }
 
@@ -107,6 +109,7 @@ impl PriceListBuilder {
         self
     }
 
+    #[allow(clippy::wrong_self_convention)]
     pub(crate) const fn from_date(mut self, year: i32, month: u32, day: u32) -> Self {
         self.from_date = Some(helpers::date(year, month, day));
         self
@@ -156,7 +159,7 @@ pub struct PriceListSimplified {
 }
 
 impl PriceListSimplified {
-    fn new(pl: &PriceList, fuse_size: u16, yearly_consumption: u32) -> Self {
+    fn new(pl: &PriceList, fuse_size: u16, yearly_consumption: u32, language: Language) -> Self {
         Self {
             variant: pl.variant,
             fuse_size,
@@ -170,9 +173,15 @@ impl PriceListSimplified {
             monthly_production_fee: pl
                 .monthly_production_fee
                 .cost_for(fuse_size, yearly_consumption),
-            transfer_fee: pl.transfer_fee.simplified(fuse_size, yearly_consumption),
-            feed_in_revenue: pl.feed_in_revenue.simplified(fuse_size, yearly_consumption),
-            power_tariff: pl.power_tariff.simplified(fuse_size, yearly_consumption),
+            transfer_fee: pl
+                .transfer_fee
+                .simplified(fuse_size, yearly_consumption, language),
+            feed_in_revenue: pl
+                .feed_in_revenue
+                .simplified(fuse_size, yearly_consumption, language),
+            power_tariff: pl
+                .power_tariff
+                .simplified(fuse_size, yearly_consumption, language),
         }
     }
 }

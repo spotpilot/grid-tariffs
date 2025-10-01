@@ -31,7 +31,7 @@ pub static VARBERG_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
         .feed_in_revenue(FeedInRevenue::Unverified)
         .transfer_fee(TransferFee::fixed_subunit(9.5))
         .power_tariff(PowerTariff::new(
-            TariffCalculationMethod::AverageHours((3)),
+            TariffCalculationMethod::AverageHours(3),
             CostPeriods::new(&[CostPeriod::builder()
                 .load(Base)
                 .cost(Cost::fixed(30, 00))

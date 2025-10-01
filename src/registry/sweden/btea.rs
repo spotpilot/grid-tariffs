@@ -26,17 +26,25 @@ pub static BTEA: GridOperator = GridOperator::builder()
         .power_tariff(PowerTariff::new(
             // TODO: We need to differentiate between high load and low load hours..., Not day and night...
             TariffCalculationMethod::PeakHours(&[High, Low]),
-            #[cfg_attr(rustfmt, rustfmt_skip)]
-        CostPeriods::new(&[
-            // Very strange that they charge 0 kr for the high load periods...
-            LOW_LOAD.months(October, November).fixed_cost(51, 25).build(),
-            LOW_LOAD_HOURS.months(December, January).fixed_cost(56, 25).build(),
-            HIGH_LOAD_HOURS.months(December, January).fixed_cost(158, 75).build(),
-            LOW_LOAD_HOURS.month(February).fixed_cost(53, 75).build(),
-            HIGH_LOAD_HOURS.month(February).fixed_cost(137, 50).build(),
-            LOW_LOAD.months(March, May).fixed_cost(51, 25).build(),
-            LOW_LOAD.months(June, September).fixed_cost(37, 50).build(),
-        ]),
+            CostPeriods::new(&[
+                // Very strange that they charge 0 kr for the high load periods...
+                LOW_LOAD
+                    .months(October, November)
+                    .fixed_cost(51, 25)
+                    .build(),
+                LOW_LOAD_HOURS
+                    .months(December, January)
+                    .fixed_cost(56, 25)
+                    .build(),
+                HIGH_LOAD_HOURS
+                    .months(December, January)
+                    .fixed_cost(158, 75)
+                    .build(),
+                LOW_LOAD_HOURS.month(February).fixed_cost(53, 75).build(),
+                HIGH_LOAD_HOURS.month(February).fixed_cost(137, 50).build(),
+                LOW_LOAD.months(March, May).fixed_cost(51, 25).build(),
+                LOW_LOAD.months(June, September).fixed_cost(37, 50).build(),
+            ]),
         ))
         .build()])
     .build();

@@ -8,6 +8,7 @@ unsafe_code = "forbid"
 
 [workspace.package]
 rust-version = "1.88"
+edition = "2024"
 
 [workspace.dependencies]
 chrono = { version = "0.4.41", features = ["serde"]}

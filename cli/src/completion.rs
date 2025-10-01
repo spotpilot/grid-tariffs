@@ -51,7 +51,7 @@ pub(crate) fn report(format: OutputFormat, output_dir: &Path) -> anyhow::Result<
 
     let rows = GridOperator::all()
         .iter()
-        .map(|op| {
+        .flat_map(|op| {
             FilledOutStats::new(op).into_iter().map(|stats| ReportRow {
                 name: op.name().to_owned(),
                 vat_number: op.vat_number().to_owned(),
@@ -65,7 +65,6 @@ pub(crate) fn report(format: OutputFormat, output_dir: &Path) -> anyhow::Result<
                 fee_info_explicit_locator: !stats.links.fee_info.uses_default_locator,
             })
         })
-        .flatten()
         .sorted_by_key(|row| row.completion_percentage)
         .collect_vec();
 
@@ -84,7 +83,7 @@ pub(crate) fn report(format: OutputFormat, output_dir: &Path) -> anyhow::Result<
             let mut workbook = Workbook::new();
             let worksheet = workbook.add_worksheet();
 
-            if let Some(row) = rows.get(0) {
+            if let Some(row) = rows.first() {
                 worksheet.serialize_headers(0, 0, row)?;
             }
 

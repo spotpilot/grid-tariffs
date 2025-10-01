@@ -3,7 +3,7 @@ use serde::Serialize;
 
 use crate::{Money, helpers::date};
 
-pub(crate) static SE_TAX_REDUCTIONS: &'static [TaxReduction] = &[TaxReduction::new(
+pub(crate) static SE_TAX_REDUCTIONS: &[TaxReduction] = &[TaxReduction::new(
     "Skatteavdrag mikroproduktion",
     Money::from_inner(60000),
     TaxReductionAppliedBy::KwhFeedIn,

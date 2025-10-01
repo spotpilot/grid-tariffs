@@ -1,6 +1,6 @@
 use crate::registry::prelude::*;
 
-const FEE_LINK: &'static str = "https://www.vattenfalleldistribution.se/abonnemang-och-avgifter/avtal-och-avgifter/elnatsavgift-och-avtalsvillkor/";
+static FEE_LINK: &str = "https://www.vattenfalleldistribution.se/abonnemang-och-avgifter/avtal-och-avgifter/elnatsavgift-och-avtalsvillkor/";
 
 const BASE_PRICELIST: PriceListBuilder = PriceListBuilder::new()
     .from_date(2025, 1, 1)

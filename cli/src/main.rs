@@ -8,7 +8,7 @@ mod store;
 use std::{collections::HashSet, io::stdout, path::PathBuf, str::FromStr};
 
 use clap::{Parser, Subcommand};
-use grid_tariffs::{Country, CountryInfo, GridOperator, GridOperatorSimplified};
+use grid_tariffs::{Country, CountryInfo, GridOperator, GridOperatorSimplified, Language};
 use itertools::Itertools;
 use serde::{Deserialize, Deserializer};
 use tokio::task::JoinSet;
@@ -68,15 +68,17 @@ enum CliAction {
     },
     /// Simplified info about grid operator
     SimplifiedInfo {
-        #[arg(short, long)]
+        #[arg(short = 'c', long)]
         country: Option<Country>,
         #[arg(long)]
         match_by_vat_number: bool,
         grid_operator: Option<String>,
-        #[arg(short, long)]
+        #[arg(short = 'f', long)]
         fuse_size: u16,
-        #[arg(short = 'C', long)]
+        #[arg(short = 'y', long)]
         yearly_consumption: u32,
+        #[arg(short = 'l', long)]
+        language: Language,
     },
     /// Print JSON schema for GridOperator
     JsonSchema,
@@ -193,11 +195,12 @@ async fn main() -> anyhow::Result<()> {
             grid_operator,
             fuse_size,
             yearly_consumption,
+            language,
         } => {
             debug!(needle = ?grid_operator, %match_by_vat_number, country = country.map(|c| c.to_string()).unwrap_or_default(), "Checking...");
             let matching = match_grid_operators(grid_operator, match_by_vat_number, country)
                 .into_iter()
-                .map(|op| op.simplified(fuse_size, yearly_consumption))
+                .map(|op| op.simplified(fuse_size, yearly_consumption, language))
                 .collect_vec();
             serde_json::to_writer_pretty(stdout(), &matching)?;
         }

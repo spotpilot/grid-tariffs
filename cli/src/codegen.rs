@@ -56,7 +56,7 @@ pub static {constant_name}: GridOperator = GridOperator::builder()
     .vat_number("{vat_number}")
     .country(Country::{country_code})
     .main_fuses(MainFuseSizes::new_range(16, 63))
-    .links(Links::new(Link::builder(FEE_LINK).content_locator_default().build()))
+    .links(Links::builder().new_fee_info(FEE_LINK, "main").build())
     .price_lists(&[PriceList::builder()
         .from_date(9999, 12, 31)
         .monthly_fee(Cost::Unverified)
@@ -83,25 +83,23 @@ pub(crate) fn generate_mod(country: Country) -> anyhow::Result<()> {
         .map(|mod_ident| quote! { pub mod #mod_ident; });
     let grid_operator_entries = filepaths
         .iter()
-        .map(|filepath| {
+        .flat_map(|filepath| {
             let code = read_to_string(filepath).unwrap();
             let parsed = syn::parse_file(&code).unwrap();
             parsed
                 .items
                 .iter()
                 .filter_map(|item| {
-                    if let Item::Static(ItemStatic { vis, ident, ty, .. }) = item {
-                        if matches!(vis, Visibility::Public(_))
-                            && ty.to_token_stream().to_string() == "GridOperator"
-                        {
-                            return Some((filepath, ident.to_owned()));
-                        }
+                    if let Item::Static(ItemStatic { vis, ident, ty, .. }) = item
+                        && matches!(vis, Visibility::Public(_))
+                        && ty.to_token_stream().to_string() == "GridOperator"
+                    {
+                        return Some((filepath, ident.to_owned()));
                     }
                     None
                 })
                 .collect_vec()
         })
-        .flatten()
         .map(|(path, ident)| (format_ident!("{}", filename_to_mod_name(path)), ident))
         .map(|(mod_ident, static_ident)| {
             quote! {

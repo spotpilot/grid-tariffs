@@ -52,7 +52,7 @@ pub static MALARENERGI: GridOperator = GridOperator::builder()
         BASE_PRICELIST
             .variant("Effektabonnemang, lågspänning")
             .monthly_fee(Cost::fixed(896, 00))
-            .transfer_fee(TransferFee::fixed(0, 09))
+            .transfer_fee(TransferFee::fixed(0, 9))
             .power_tariff(PowerTariff::new(
                 TariffCalculationMethod::PeakHour,
                 CostPeriods::new(&[CostPeriod::builder()
