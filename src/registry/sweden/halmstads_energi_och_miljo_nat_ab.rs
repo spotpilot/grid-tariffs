@@ -22,7 +22,7 @@ pub static HALMSTADS_ENERGI_OCH_MILJO_NAT_AB: GridOperator = GridOperator::build
         ]))
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
-        .transfer_fee(TransferFee::fixed_subunit(54.9))
+        .transfer_fee(TransferFee::fixed_subunit(9.0))
         .power_tariff(PowerTariff::NotImplemented)
         .build()])
     .build();
