@@ -1,6 +1,6 @@
 use crate::registry::prelude::*;
 
-const FEE_LINK: &str = "https://mskraft.nu/natpriser-2/";
+const FEE_LINK: &str = "https://mskraft.nu/natpriser-t/";
 
 pub static MELLERSTA_SKANES_KRAFT_EK_FOR: GridOperator = GridOperator::builder()
     .name("Mellersta Skånes Kraft, ek för")
