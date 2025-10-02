@@ -86,7 +86,7 @@ pub enum TransferFeeSimplified {
     /// Transfer fee has not been verified by us
     Unverified,
     /// Fee does not change except possibly by fuse size
-    Simple(Option<Money>),
+    Simple(Money),
     /// Transfer fee that varies by the current spot price
     /// We have currently only observed that Växjö Energi uses this variant
     SpotPriceVariable {
@@ -103,9 +103,10 @@ impl TransferFeeSimplified {
         match *fee {
             TransferFee::Unlisted => TransferFeeSimplified::Unlisted,
             TransferFee::Unverified => TransferFeeSimplified::Unverified,
-            TransferFee::Simple(cost) => {
-                TransferFeeSimplified::Simple(cost.cost_for(fuse_size, yearly_consumption))
-            }
+            TransferFee::Simple(cost) => TransferFeeSimplified::Simple(
+                cost.cost_for(fuse_size, yearly_consumption)
+                    .unwrap_or(Money::ZERO),
+            ),
             TransferFee::SpotPriceVariable {
                 base_cost,
                 spot_price_multiplier,
