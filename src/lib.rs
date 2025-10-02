@@ -18,13 +18,13 @@ use serde::Serialize;
 pub use crate::{
     costs::{Cost, CostPeriods, CostPeriodsSimple},
     country::{Country, CountryInfo},
+    feed_in_revenue::{FeedInRevenue, FeedInRevenueSimplified},
     language::Language,
     links::*,
     money::Money,
     operator::{GridOperator, GridOperatorSimplified},
     power_tariffs::{PowerTariff, PowerTariffSimplified},
     price_list::PriceList,
-    revenues::{FeedInRevenue, FeedInRevenueSimplified},
     tax_reductions::*,
     taxes::*,
     transfer_fee::{TransferFee, TransferFeeSimplified},
@@ -38,6 +38,7 @@ mod costs;
 mod country;
 mod currency;
 mod defs;
+mod feed_in_revenue;
 mod helpers;
 mod language;
 mod links;
@@ -46,7 +47,6 @@ mod operator;
 mod power_tariffs;
 mod price_list;
 pub mod registry;
-mod revenues;
 mod tax_reductions;
 mod taxes;
 mod transfer_fee;

@@ -3,7 +3,7 @@ use serde::Serialize;
 
 use crate::{
     FeedInRevenueSimplified, Language, Money, PowerTariff, PowerTariffSimplified,
-    TransferFeeSimplified, costs::Cost, helpers, revenues::FeedInRevenue,
+    TransferFeeSimplified, costs::Cost, feed_in_revenue::FeedInRevenue, helpers,
     transfer_fee::TransferFee,
 };
 
