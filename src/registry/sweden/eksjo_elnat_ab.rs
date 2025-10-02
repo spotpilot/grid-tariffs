@@ -1,4 +1,4 @@
-use crate::{builder, registry::prelude::*};
+use crate::registry::prelude::*;
 
 const FEE_LINK: &str = "https://eksjoenergi.se/elnat/natavgifter/";
 
