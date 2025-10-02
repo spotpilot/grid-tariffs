@@ -38,7 +38,8 @@ pub static JBF: GridOperator = GridOperator::builder()
                     ]))
                     .months(November, March)
                     .hours(6, 22)
-                    .exclude_weekends_and_swedish_holidays()
+                    .exclude_weekends()
+                    .exclude_holidays(Country::SE)
                     .build(),
             ]),
         ))

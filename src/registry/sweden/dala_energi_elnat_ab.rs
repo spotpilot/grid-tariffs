@@ -30,14 +30,16 @@ pub static DALA_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
                     .load(High)
                     .months(November, March)
                     .hours(7, 19)
-                    .exclude_weekends_and_swedish_holidays()
+                    .exclude_weekends()
+                    .exclude_holidays(Country::SE)
                     .fixed_cost(95, 0)
                     .build(),
                 CostPeriod::builder()
                     .load(High)
                     .months(April, October)
                     .hours(7, 19)
-                    .exclude_weekends_and_swedish_holidays()
+                    .exclude_weekends()
+                    .exclude_holidays(Country::SE)
                     .fixed_cost(35, 0)
                     .build(),
                 CostPeriod::builder().load(Low).fixed_cost(35, 0).build(),

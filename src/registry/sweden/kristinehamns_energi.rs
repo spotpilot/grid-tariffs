@@ -28,7 +28,8 @@ pub static KRISTINEHAMNS_ENERGI: GridOperator = GridOperator::builder()
                     .fixed_cost(91, 25)
                     .months(November, March)
                     .hours(7, 17)
-                    .exclude_weekends_and_swedish_holidays()
+                    .exclude_weekends()
+                    .exclude_holidays(Country::SE)
                     .build(),
             ]),
         ))

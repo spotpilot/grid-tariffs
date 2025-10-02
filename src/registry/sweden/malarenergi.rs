@@ -48,7 +48,8 @@ pub static MALARENERGI: GridOperator = GridOperator::builder()
                     .load(High)
                     .fixed_cost(18, 75)
                     .hours(7, 19)
-                    .exclude_weekends_and_swedish_holidays()
+                    .exclude_weekends()
+                    .exclude_holidays(Country::SE)
                     .build()]),
             ))
             .build(),
@@ -62,7 +63,8 @@ pub static MALARENERGI: GridOperator = GridOperator::builder()
                     .load(High)
                     .cost(Cost::fixed(69, 68).add_vat(Country::SE))
                     .hours(7, 19)
-                    .exclude_weekends_and_swedish_holidays()
+                    .exclude_weekends()
+                    .exclude_holidays(Country::SE)
                     .build()]),
             ))
             .build(),

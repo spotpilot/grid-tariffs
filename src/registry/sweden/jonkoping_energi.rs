@@ -35,7 +35,8 @@ pub static JONKOPING_ENERGI: GridOperator = GridOperator::builder()
                     .cost(Cost::fixed(65, 66))
                     .months(November, March)
                     .hours(7, 20)
-                    .exclude_weekends_and_swedish_holidays()
+                    .exclude_weekends()
+                    .exclude_holidays(Country::SE)
                     .build(),
             ]),
         ))

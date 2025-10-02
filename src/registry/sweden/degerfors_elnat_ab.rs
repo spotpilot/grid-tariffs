@@ -23,7 +23,8 @@ pub static DEGERFORS_ELNAT_AB: GridOperator = GridOperator::builder()
                     .months(November, March)
                     .hours(7, 18)
                     .fixed_cost(43, 75)
-                    .exclude_weekends_and_swedish_holidays()
+                    .exclude_weekends()
+                    .exclude_holidays(Country::SE)
                     .build(),
             ]),
         ))

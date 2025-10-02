@@ -383,8 +383,8 @@ impl CostPeriodBuilder {
         panic!("Too many excludes");
     }
 
-    pub(super) const fn exclude_weekends_and_swedish_holidays(self) -> Self {
-        self.exclude_weekends().exclude(Exclude::SwedishHolidays)
+    pub(super) const fn exclude_holidays(self, country: Country) -> Self {
+        self.exclude(Exclude::Holidays(country))
     }
 
     pub(super) const fn exclude_weekends(self) -> Self {
@@ -436,7 +436,7 @@ impl Include {
 #[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
 pub(super) enum Exclude {
     Weekends,
-    SwedishHolidays,
+    Holidays(Country),
 }
 
 impl Exclude {
@@ -444,11 +444,15 @@ impl Exclude {
         match language {
             Language::En => match self {
                 Exclude::Weekends => "Weekends",
-                Exclude::SwedishHolidays => "Swedish holidays",
+                Exclude::Holidays(country) => match country {
+                    Country::SE => "Swedish holidays",
+                },
             },
             Language::Sv => match self {
                 Exclude::Weekends => "Helg",
-                Exclude::SwedishHolidays => "Svenska helgdagar",
+                Exclude::Holidays(country) => match country {
+                    Country::SE => "Svenska helgdagar",
+                },
             },
         }
     }

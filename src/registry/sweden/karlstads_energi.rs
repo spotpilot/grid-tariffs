@@ -31,7 +31,8 @@ pub static KARLSTADS_ENERGI: GridOperator = GridOperator::builder()
                     .load(High)
                     .fixed_cost(74, 15)
                     .hours(6, 18)
-                    .exclude_weekends_and_swedish_holidays()
+                    .exclude_weekends()
+                    .exclude_holidays(Country::SE)
                     .build(),
             ]),
         ))

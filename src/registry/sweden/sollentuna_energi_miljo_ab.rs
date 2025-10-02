@@ -38,14 +38,16 @@ pub static SOLLENTUNA_ENERGI_MILJO_AB: GridOperator = GridOperator::builder()
                     .cost(Cost::fixed(135, 0))
                     .months(November, March)
                     .hours(7, 19)
-                    .exclude_weekends_and_swedish_holidays()
+                    .exclude_weekends()
+                    .exclude_holidays(Country::SE)
                     .build(),
                 CostPeriod::builder()
                     .load(Low)
                     .cost(Cost::fixed(67, 50))
                     .months(April, October)
                     .hours(7, 19)
-                    .exclude_weekends_and_swedish_holidays()
+                    .exclude_weekends()
+                    .exclude_holidays(Country::SE)
                     .build(),
             ]),
         ))

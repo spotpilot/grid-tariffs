@@ -40,7 +40,8 @@ pub static VAXJO_ENERGI: GridOperator = GridOperator::builder()
                     (80, 1000, Money::new(91, 44)),
                 ]))
                 .hours(7, 20)
-                .exclude_weekends_and_swedish_holidays()
+                .exclude_weekends()
+                .exclude_holidays(Country::SE)
                 .build()]),
         ))
         .build()])
