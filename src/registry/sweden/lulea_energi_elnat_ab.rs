@@ -7,18 +7,34 @@ pub static LULEA_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
     .name("Luleå Energi Elnät AB")
     .vat_number("SE556527753901")
     .country(Country::SE)
-    .main_fuses(MainFuseSizes::new_range(16, 63))
+    .main_fuses(MainFuseSizes::new_range(16, 250))
     .links(Links::new(
         Link::builder(FEE_LINK)
             .plain_content_locator("main section:first-of-type")
             .build(),
     ))
     .price_lists(&[PriceList::builder()
-        .from_date(9999, 12, 31)
-        .monthly_fee(Cost::Unverified)
+        .from_date(2025, 1, 1)
+        .monthly_fee(Cost::fuses(&[
+            (16, Money::new(3250, 0).divide_by(12)),
+            (20, Money::new(7490, 0).divide_by(12)),
+            (25, Money::new(8820, 0).divide_by(12)),
+            (35, Money::new(11920, 0).divide_by(12)),
+            (50, Money::new(16040, 0).divide_by(12)),
+            (63, Money::new(19940, 0).divide_by(12)),
+            (80, Money::new(30600, 0).divide_by(12)),
+            (100, Money::new(37030, 0).divide_by(12)),
+            (125, Money::new(45490, 0).divide_by(12)),
+            (160, Money::new(61580, 0).divide_by(12)),
+            (200, Money::new(78200, 0).divide_by(12)),
+            (250, Money::new(101820, 0).divide_by(12)),
+        ]))
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
-        .transfer_fee(TransferFee::Unverified)
-        .power_tariff(PowerTariff::Unverified)
+        .transfer_fee(TransferFee::Simple(Cost::fuse_range(&[
+            (16, 16, Money::new_subunit(17.5)),
+            (20, 250, Money::ZERO),
+        ])))
+        .power_tariff(PowerTariff::NotImplemented)
         .build()])
     .build();
