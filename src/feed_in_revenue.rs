@@ -121,13 +121,9 @@ impl FeedInRevenueSimplified {
                     ),
                 };
                 if approximated {
-                    info.push_str(&match language {
-                        Language::En => format!(
-                            " The percentage is estimated as the grid operator doesn't list it on their website."
-                        ),
-                        Language::Sv => format!(
-                            " Procentsatsen är uppskattad eftersom nätbolaget inte skriver ut exakt vad den är på sin webbplats."
-                        ),
+                    info.push_str(match language {
+                        Language::En => " The percentage is estimated as the grid operator doesn't list it on their website.",
+                        Language::Sv => " Procentsatsen är uppskattad eftersom nätbolaget inte skriver ut exakt vad den är på sin webbplats.",
                     })
                 }
                 FeedInRevenueSimplified::SpotPriceVariable {

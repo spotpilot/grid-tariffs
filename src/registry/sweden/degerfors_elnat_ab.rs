@@ -11,7 +11,7 @@ pub static DEGERFORS_ELNAT_AB: GridOperator = GridOperator::builder()
         Link::builder(FEE_LINK).content_locator_default().build(),
     ))
     .price_lists(&[PriceList::builder()
-        .from_date(2024, 09, 1)
+        .from_date(2024, 9, 1)
         .monthly_fee(Cost::Unverified)
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)

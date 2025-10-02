@@ -16,6 +16,7 @@ impl Hours {
         self.0
     }
 
+    #[allow(clippy::wrong_self_convention)]
     pub(super) const fn to_inclusive(&self) -> u8 {
         self.1
     }

@@ -15,7 +15,7 @@ pub static NYBRO_ELNAT_AB: GridOperator = GridOperator::builder()
         .monthly_fee(Cost::fuses(&[
             (16, Money::new(3971, 82).divide_by(12)),
             (20, Money::new(6202, 67).divide_by(12)),
-            (25, Money::new(7844, 05).divide_by(12)),
+            (25, Money::new(7844, 5).divide_by(12)),
             (35, Money::new(13158, 17).divide_by(12)),
             (50, Money::new(18381, 59).divide_by(12)),
             (63, Money::new(23886, 14).divide_by(12)),
