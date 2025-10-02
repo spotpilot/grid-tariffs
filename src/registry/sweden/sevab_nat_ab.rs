@@ -6,7 +6,8 @@ pub static SEVAB_NAT_AB: GridOperator = GridOperator::builder()
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 63))
     .links(Links::new(
-        Link::builder("https://www.sevab.com/foretag/elnat/priser-och-avgifter/elnatsavgift-2025")
+        // TODO: This link is year-based. Watch out!
+        Link::builder("https://www.sevab.com/privat/elnat/priser-och-avgifter/priser-2025")
             .plain_content_locator(".article-content")
             .build(),
     ))
