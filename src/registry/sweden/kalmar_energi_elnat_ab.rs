@@ -26,8 +26,20 @@ pub static KALMAR_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
             (200, Money::new(53263, 0).divide_by(12)),
         ]))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
-        .transfer_fee(TransferFee::Unverified)
+        // Calculated from examples
+        // TODO: Verify
+        .feed_in_revenue(FeedInRevenue::SpotPriceVariable {
+            base_cost: Money::new_subunit(5.62),
+            spot_price_multiplier: 0.07,
+            approximated: true,
+        })
+        // Calculated from examples
+        // TODO: Verify
+        .transfer_fee(TransferFee::SpotPriceVariable {
+            base_cost: Money::new_subunit(5.0),
+            spot_price_multiplier: 0.0648,
+            approximated: true,
+        })
         .power_tariff(PowerTariff::NotImplemented)
         .build()])
     .build();
