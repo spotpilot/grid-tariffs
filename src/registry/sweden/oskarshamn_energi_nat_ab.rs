@@ -25,9 +25,10 @@ pub static OSKARSHAMN_ENERGI_NAT_AB: GridOperator = GridOperator::builder()
             (160, Money::new(62396, 0).divide_by(12)),
             (200, Money::new(77712, 0).divide_by(12)),
         ]))
-        .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
-        .transfer_fee(TransferFee::Unverified)
+        .monthly_production_fee(Cost::None)
+        .feed_in_revenue(FeedInRevenue::fixed_subunit(7.5))
+        // TODO: https://github.com/spotpilot/grid-tariffs/issues/152
+        .transfer_fee(TransferFee::spot_price_variable(9.705, 0.0561, false))
         .power_tariff(PowerTariff::NotImplemented)
         .build()])
     .build();
