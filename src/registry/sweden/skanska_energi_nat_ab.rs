@@ -27,7 +27,7 @@ pub static SKANSKA_ENERGI_NAT_AB: GridOperator = GridOperator::builder()
         ]))
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
-        .transfer_fee(TransferFee::Unverified)
+        .transfer_fee(TransferFee::spot_price_variable(3.3, 0.05, false))
         .power_tariff(PowerTariff::NotImplemented)
         .build()])
     .build();
