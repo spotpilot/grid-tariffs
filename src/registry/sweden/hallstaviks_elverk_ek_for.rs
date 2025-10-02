@@ -29,7 +29,7 @@ pub static HALLSTAVIKS_ELVERK_EK_FOR: GridOperator = GridOperator::builder()
         ]))
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
-        .transfer_fee(TransferFee::fixed_subunit(32.4))
+        .transfer_fee(TransferFee::fixed_subunit(32.04))
         .power_tariff(PowerTariff::NotImplemented)
         .build()])
     .build();
