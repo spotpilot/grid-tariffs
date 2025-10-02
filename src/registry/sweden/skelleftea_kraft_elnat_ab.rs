@@ -11,11 +11,18 @@ pub static SKELLEFTEA_KRAFT_ELNAT_AB: GridOperator = GridOperator::builder()
             .build(),
     ))
     .price_lists(&[PriceList::builder()
-        .from_date(9999, 12, 31)
-        .monthly_fee(Cost::Unverified)
+        .from_date(2025, 1, 1)
+        .monthly_fee(Cost::fuses(&[
+            (16, Money::new(5420, 0).divide_by(12)),
+            (20, Money::new(7815, 0).divide_by(12)),
+            (25, Money::new(9480, 0).divide_by(12)),
+            (35, Money::new(12340, 0).divide_by(12)),
+            (50, Money::new(17315, 0).divide_by(12)),
+            (63, Money::new(20965, 0).divide_by(12)),
+        ]))
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
-        .transfer_fee(TransferFee::Unverified)
-        .power_tariff(PowerTariff::Unverified)
+        .transfer_fee(TransferFee::fixed_subunit(11.0))
+        .power_tariff(PowerTariff::NotImplemented)
         .build()])
     .build();
