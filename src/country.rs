@@ -44,6 +44,16 @@ impl Country {
             .copied()
             .collect()
     }
+
+    pub(crate) const fn vat_rate(&self) -> f64 {
+        match self {
+            Country::SE => 1.25,
+        }
+    }
+
+    pub(crate) const fn add_vat(&self, value: f64) -> f64 {
+        value * self.vat_rate()
+    }
 }
 
 impl Country {

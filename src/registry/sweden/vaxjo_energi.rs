@@ -26,16 +26,8 @@ pub static VAXJO_ENERGI: GridOperator = GridOperator::builder()
             (200, Money::new(3685, 00)),
         ]))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::SpotPriceVariable {
-            base_cost: Money::new_subunit(1.48),
-            spot_price_multiplier: 0.0881,
-            approximated: false,
-        })
-        .transfer_fee(TransferFee::SpotPriceVariable {
-            base_cost: Money::new_subunit(8.86),
-            spot_price_multiplier: 0.1126,
-            approximated: false,
-        })
+        .feed_in_revenue(FeedInRevenue::spot_price_variable(1.48, 0.0881, false))
+        .transfer_fee(TransferFee::spot_price_variable(8.86, 0.1126, false))
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::AverageHours(3),
             CostPeriods::new(&[CostPeriod::builder()

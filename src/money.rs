@@ -67,10 +67,7 @@ impl Money {
     }
 
     pub(crate) const fn add_vat(&self, country: Country) -> Money {
-        let rate = match country {
-            Country::SE => 1.25,
-        };
-        Self::from_f64(self.to_f64() * rate)
+        Self::from_f64(country.add_vat(self.to_f64()))
     }
 }
 

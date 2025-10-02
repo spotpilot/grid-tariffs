@@ -35,6 +35,18 @@ impl FeedInRevenue {
         Self::Simple(Cost::fixed_subunit(subunit))
     }
 
+    pub const fn spot_price_variable(
+        base_cost_subunit: f64,
+        spot_price_multiplier: f64,
+        approximated: bool,
+    ) -> Self {
+        Self::SpotPriceVariable {
+            base_cost: Money::new_subunit(base_cost_subunit),
+            spot_price_multiplier,
+            approximated,
+        }
+    }
+
     pub fn simplified(
         &self,
         fuse_size: u16,
@@ -122,8 +134,8 @@ impl FeedInRevenueSimplified {
                 };
                 if approximated {
                     info.push_str(match language {
-                        Language::En => " The percentage is estimated as the grid operator doesn't list it on their website.",
-                        Language::Sv => " Procentsatsen är uppskattad eftersom nätbolaget inte skriver ut exakt vad den är på sin webbplats.",
+                        Language::En => " The base fee and percentage are estimated, as the grid operator doesn't list them on their website.",
+                        Language::Sv => " Basavgift och procentsats är uppskattade, eftersom nätbolaget inte skriver ut exakt vad de är på sin webbplats.",
                     })
                 }
                 FeedInRevenueSimplified::SpotPriceVariable {

@@ -78,11 +78,7 @@ impl TransferFee {
 
     /// Use when the operator states that they use spot price variable pricing, but don't specify the actual multipliers
     pub(crate) const fn spot_price_variable_placeholder() -> TransferFee {
-        Self::SpotPriceVariable {
-            base_cost: Money::new_subunit(2.0),
-            spot_price_multiplier: 0.06,
-            approximated: true,
-        }
+        Self::spot_price_variable(2.0, 0.06, true)
     }
 }
 
@@ -159,8 +155,8 @@ impl TransferFeeSimplified {
                 };
                 if approximated {
                     info.push_str(match language {
-                        Language::En => " The percentage is estimated as the grid operator doesn't list it on their website.",
-                        Language::Sv => " Procentsatsen är uppskattad eftersom nätbolaget inte skriver ut exakt vad den är på sin webbplats.",
+                        Language::En => " The base fee and percentage are estimated, as the grid operator doesn't list them on their website.",
+                        Language::Sv => " Basavgift och procentsats är uppskattade, eftersom nätbolaget inte skriver ut exakt vad de är på sin webbplats.",
                     })
                 }
                 TransferFeeSimplified::SpotPriceVariable {

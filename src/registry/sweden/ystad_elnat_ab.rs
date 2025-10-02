@@ -13,16 +13,16 @@ const BASE_PRICELIST: PriceListBuilder = PriceListBuilder::new()
         (63, Money::new(2759, 20)),
     ]))
     .monthly_production_fee(Cost::fixed(114, 60))
-    .feed_in_revenue(FeedInRevenue::SpotPriceVariable {
-        base_cost: Money::new_subunit(2.41 + 0.96).add_vat(Country::SE),
-        spot_price_multiplier: 0.05,
-        approximated: false,
-    })
-    .transfer_fee(TransferFee::SpotPriceVariable {
-        base_cost: Money::new_subunit(2.41 + 2.96).add_vat(Country::SE),
-        spot_price_multiplier: 0.05,
-        approximated: false,
-    })
+    .feed_in_revenue(FeedInRevenue::spot_price_variable(
+        Country::SE.add_vat(2.41 + 0.96),
+        0.05,
+        false,
+    ))
+    .transfer_fee(TransferFee::spot_price_variable(
+        Country::SE.add_vat(2.41 + 2.96),
+        0.05,
+        false,
+    ))
     .power_tariff(PowerTariff::NotImplemented);
 
 pub static YSTAD_ELNAT_AB: GridOperator = GridOperator::builder()

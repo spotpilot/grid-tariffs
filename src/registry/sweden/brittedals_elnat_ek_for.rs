@@ -22,11 +22,7 @@ pub static BRITTEDALS_ELNAT_EK_FOR: GridOperator = GridOperator::builder()
         ]))
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
-        .transfer_fee(TransferFee::SpotPriceVariable {
-            base_cost: Money::new_subunit(14.00),
-            spot_price_multiplier: 0.09,
-            approximated: false,
-        })
+        .transfer_fee(TransferFee::spot_price_variable(14.00, 0.09, false))
         .power_tariff(PowerTariff::NotImplemented)
         .build()])
     .build();

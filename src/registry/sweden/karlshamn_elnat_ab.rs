@@ -27,11 +27,7 @@ pub static KARLSHAMN_ELNAT_AB: GridOperator = GridOperator::builder()
         ]))
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
-        .transfer_fee(TransferFee::SpotPriceVariable {
-            base_cost: Money::ZERO,
-            spot_price_multiplier: 0.0890,
-            approximated: false,
-        })
+        .transfer_fee(TransferFee::spot_price_variable(0.0, 0.0890, false))
         .power_tariff(PowerTariff::Unverified)
         .build()])
     .build();

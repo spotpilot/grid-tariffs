@@ -2,11 +2,7 @@ use crate::registry::prelude::*;
 
 const BASE_PRICELIST: PriceListBuilder = PriceListBuilder::new()
     // 92,5% correlation between spot price and grid benefit from my own finding
-    .feed_in_revenue(FeedInRevenue::SpotPriceVariable {
-        base_cost: Money::new_subunit(4.58),
-        spot_price_multiplier: 0.06,
-        approximated: true,
-    })
+    .feed_in_revenue(FeedInRevenue::spot_price_variable(4.58, 0.06, true))
     .monthly_production_fee(Cost::Unverified)
     .power_tariff(PowerTariff::NotImplemented);
 

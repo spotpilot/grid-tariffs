@@ -28,11 +28,7 @@ pub static KRAFTRINGEN: GridOperator = GridOperator::builder()
             (200, Money::new(11030, 0)),
         ]))
         .monthly_production_fee(Cost::Unverified)
-        .transfer_fee(TransferFee::SpotPriceVariable {
-            base_cost: Money::new_subunit(20.0),
-            spot_price_multiplier: 0.05,
-            approximated: false,
-        })
+        .transfer_fee(TransferFee::spot_price_variable(20.0, 0.05, false))
         .feed_in_revenue(FeedInRevenue::Unlisted)
         .power_tariff(PowerTariff::Unverified)
         .build()])
