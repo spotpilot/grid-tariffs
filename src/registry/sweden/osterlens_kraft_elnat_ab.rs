@@ -31,7 +31,7 @@ pub static OSTERLENS_KRAFT_ELNAT_AB: GridOperator = GridOperator::builder()
         ]))
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
-        .transfer_fee(TransferFee::Unverified)
+        .transfer_fee(TransferFee::spot_price_variable_placeholder())
         .power_tariff(PowerTariff::NotImplemented)
         .build()])
     .build();
