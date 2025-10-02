@@ -75,6 +75,15 @@ impl TransferFee {
             TransferFee::Periods(periods) => periods.is_yearly_consumption_based(fuse_size),
         }
     }
+
+    /// Use when the operator states that they use spot price variable pricing, but don't specify the actual multipliers
+    pub(crate) const fn spot_price_variable_placeholder() -> TransferFee {
+        Self::SpotPriceVariable {
+            base_cost: Money::new_subunit(2.0),
+            spot_price_multiplier: 0.06,
+            approximated: true,
+        }
+    }
 }
 
 /// Like TransferFee, but with costs being simple Money objects
