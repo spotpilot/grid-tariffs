@@ -11,11 +11,18 @@ pub static OLOFSTROMS_KRAFT_NAT_AB: GridOperator = GridOperator::builder()
             .build(),
     ))
     .price_lists(&[PriceList::builder()
-        .from_date(9999, 12, 31)
-        .monthly_fee(Cost::Unverified)
+        .from_date(2024, 11, 14)
+        .monthly_fee(Cost::fuses(&[
+            (16, Money::new(4732, 0).divide_by(12)),
+            (20, Money::new(6806, 0).divide_by(12)),
+            (25, Money::new(8617, 0).divide_by(12)),
+            (35, Money::new(12547, 0).divide_by(12)),
+            (50, Money::new(15562, 0).divide_by(12)),
+            (63, Money::new(21825, 0).divide_by(12)),
+        ]))
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
-        .transfer_fee(TransferFee::Unverified)
-        .power_tariff(PowerTariff::Unverified)
+        .transfer_fee(TransferFee::fixed_subunit(24.73))
+        .power_tariff(PowerTariff::NotImplemented)
         .build()])
     .build();
