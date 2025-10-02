@@ -1,6 +1,6 @@
 use serde::Serialize;
 
-use crate::{Cost, CostPeriods, CostPeriodsSimple, Language, Money};
+use crate::{Cost, CostPeriods, CostPeriodsSimple, Language, Money, currency::Currency};
 
 /// Feed-in revenue, per kWh (usually from solar production)
 /// A Swedish concept for "thanking" micro producers (<=43,5 kW) for reducing losses in the grid
@@ -61,21 +61,19 @@ pub enum FeedInRevenueSimplified {
         spot_price_multiplier: f64,
         /// If this is approximated from actual data, or if it's based on documented pricing
         approximated: bool,
+        info: String,
     },
-    Periods {
-        #[serde(flatten)]
-        periods: CostPeriodsSimple,
-    },
+    Periods(CostPeriodsSimple),
 }
 
 impl FeedInRevenueSimplified {
     fn new(
-        fee: &FeedInRevenue,
+        revenue: &FeedInRevenue,
         fuse_size: u16,
         yearly_consumption: u32,
         language: Language,
     ) -> Self {
-        match *fee {
+        let revenue = match *revenue {
             FeedInRevenue::Unlisted => Self::Unlisted,
             FeedInRevenue::Unverified => Self::Unverified,
             FeedInRevenue::Simple(cost) => {
@@ -89,10 +87,57 @@ impl FeedInRevenueSimplified {
                 base_cost,
                 spot_price_multiplier,
                 approximated,
+                info: Default::default(),
             },
-            FeedInRevenue::Periods(periods) => Self::Periods {
-                periods: CostPeriodsSimple::new(periods, fuse_size, yearly_consumption, language),
-            },
+            FeedInRevenue::Periods(periods) => Self::Periods(CostPeriodsSimple::new(
+                periods,
+                fuse_size,
+                yearly_consumption,
+                language,
+            )),
+        };
+        revenue
+    }
+
+    fn add_info(mut self, language: Language) -> Self {
+        match self {
+            FeedInRevenueSimplified::SpotPriceVariable {
+                base_cost,
+                spot_price_multiplier,
+                approximated,
+                info,
+            } => {
+                let percentage = spot_price_multiplier * 100.;
+                let mut info = match language {
+                    Language::En => format!(
+                        "The grid operator bases its feed-in revenue on a fixed part of {} and {}% of the current spot price.",
+                        base_cost.display(Currency::SEK),
+                        percentage
+                    ),
+                    Language::Sv => format!(
+                        "Nätbolaget baserar sin nätnytta på en fast del om {} samt {}% av spotpriset.",
+                        base_cost.display(Currency::SEK),
+                        percentage
+                    ),
+                };
+                if approximated {
+                    info.push_str(&match language {
+                        Language::En => format!(
+                            " The percentage is estimated as the grid operator doesn't list it on their website."
+                        ),
+                        Language::Sv => format!(
+                            " Procentsatsen är uppskattad eftersom nätbolaget inte skriver ut exakt vad den är på sin webbplats."
+                        ),
+                    })
+                }
+                FeedInRevenueSimplified::SpotPriceVariable {
+                    base_cost,
+                    spot_price_multiplier,
+                    approximated,
+                    info,
+                }
+            }
+            _ => self,
         }
     }
 }
