@@ -22,7 +22,7 @@ pub static KUNGALV_ENERGI_AB: GridOperator = GridOperator::builder()
             (63, Money::new(14459, 0).divide_by(12)),
         ]))
         .feed_in_revenue(FeedInRevenue::Unverified)
-        .transfer_fee(TransferFee::fixed_subunit(79.50))
+        .transfer_fee(TransferFee::fixed_subunit(24.625))
         .power_tariff(PowerTariff::NotImplemented)
         .build()])
     .build();
