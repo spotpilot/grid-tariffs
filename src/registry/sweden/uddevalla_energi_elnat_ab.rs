@@ -22,7 +22,7 @@ pub static UDDEVALLA_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
         ]))
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
-        .transfer_fee(TransferFee::fixed_subunit(54.875))
+        .transfer_fee(TransferFee::fixed_subunit(15.0))
         .power_tariff(PowerTariff::NotImplemented)
         .build()])
     .build();
