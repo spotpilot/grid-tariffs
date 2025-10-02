@@ -26,8 +26,10 @@ pub static NYBRO_ELNAT_AB: GridOperator = GridOperator::builder()
             (200, Money::new(82794, 76).divide_by(12)),
         ]))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
-        .transfer_fee(TransferFee::Unverified)
+        .feed_in_revenue(FeedInRevenue::fixed_subunit(5.0))
+        // "Den 1 januari 2024 övergick vi till en ny prismodell med en rörlig överföringsavgift. Detta är en direkt följd av Svenska kraftnäts ändrade prismodell från 2020. Överföringsavgiften i den nya prismodellen kommer att variera månad för månad beroende på genomsnittet av Norpools spotpris för innevarande månad."
+        // TODO: Fix once we have correct figures
+        .transfer_fee(TransferFee::spot_price_variable_placeholder())
         .power_tariff(PowerTariff::NotImplemented)
         .build()])
     .build();
