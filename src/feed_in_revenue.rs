@@ -73,7 +73,7 @@ impl FeedInRevenueSimplified {
         yearly_consumption: u32,
         language: Language,
     ) -> Self {
-        let revenue = match *revenue {
+        match *revenue {
             FeedInRevenue::Unlisted => Self::Unlisted,
             FeedInRevenue::Unverified => Self::Unverified,
             FeedInRevenue::Simple(cost) => {
@@ -95,8 +95,8 @@ impl FeedInRevenueSimplified {
                 yearly_consumption,
                 language,
             )),
-        };
-        revenue
+        }
+        .add_info(language)
     }
 
     fn add_info(mut self, language: Language) -> Self {
