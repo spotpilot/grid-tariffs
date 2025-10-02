@@ -4,11 +4,14 @@ pub static MALUNG_SALENS_ELVERK: GridOperator = GridOperator::builder()
     .vat_number("SE556527481701")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 63))
-    .links(Links::new(
-        Link::builder("https://malungselnat.se/elnat/nattariffer/")
-            .plain_content_locator(".content:nth-child(1)")
+    .links(
+        Links::builder()
+            .fee_info(
+                "https://malungselnat.se/elnat/nattariffer/",
+                ".content:nth-child(1)",
+            )
             .build(),
-    ))
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 4, 1)
         .monthly_fee(Cost::fuses(&[

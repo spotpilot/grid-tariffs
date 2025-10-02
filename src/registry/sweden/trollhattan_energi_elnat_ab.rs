@@ -5,11 +5,11 @@ pub static TROLLHATTAN_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE556686087901")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 160))
-    .links(Links::new(
-        Link::builder("https://www.trollhattanenergi.se/elnat/elnatstaxa/")
-            .plain_content_locator("main")
+    .links(
+        Links::builder()
+            .fee_info("https://www.trollhattanenergi.se/elnat/elnatstaxa/", "main")
             .build(),
-    ))
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fuses(&[

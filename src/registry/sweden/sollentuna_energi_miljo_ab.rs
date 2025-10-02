@@ -4,11 +4,14 @@ pub static SOLLENTUNA_ENERGI_MILJO_AB: GridOperator = GridOperator::builder()
     .vat_number("SE559457224901")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 200))
-    .links(Links::new(
-        Link::builder("https://www.seom.se/el/elnat/priser-och-villkor/")
-            .plain_content_locator(".main-content-area")
+    .links(
+        Links::builder()
+            .fee_info(
+                "https://www.seom.se/el/elnat/priser-och-villkor/",
+                ".main-content-area",
+            )
             .build(),
-    ))
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fuses(&[

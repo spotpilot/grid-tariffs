@@ -13,9 +13,7 @@ pub static HJO_ELNAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE559441764301")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 200))
-    .links(Links::new(
-        Link::builder(FEE_LINK).content_locator_default().build(),
-    ))
+    .links(Links::builder().fee_info_default(FEE_LINK).build())
     .price_lists(&[
         BASE_PRICELIST
             .variant("Enkeltariff")

@@ -5,11 +5,11 @@ pub static DALA_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE556166775801")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 63))
-    .links(Links::new(
-        Link::builder("https://dalaenergi.se/el/avgift/")
-            .plain_content_locator("*:has(> #priser)")
+    .links(
+        Links::builder()
+            .fee_info("https://dalaenergi.se/el/avgift/", "*:has(> #priser)")
             .build(),
-    ))
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 4, 1)
         .monthly_fee(Cost::fuses(&[

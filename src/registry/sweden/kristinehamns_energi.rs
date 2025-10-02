@@ -5,11 +5,14 @@ pub static KRISTINEHAMNS_ENERGI: GridOperator = GridOperator::builder()
     .vat_number("SE556526519501")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 63))
-    .links(Links::new(
-        Link::builder("https://kristinehamnsenergi.se/elnat/elnatsavgiften/din-elnatsavgift/")
-            .plain_content_locator("section")
+    .links(
+        Links::builder()
+            .fee_info(
+                "https://kristinehamnsenergi.se/elnat/elnatsavgiften/din-elnatsavgift/",
+                "section",
+            )
             .build(),
-    ))
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fixed(277, 50))

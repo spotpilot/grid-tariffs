@@ -8,11 +8,11 @@ pub static LULEA_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE556527753901")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 250))
-    .links(Links::new(
-        Link::builder(FEE_LINK)
-            .plain_content_locator("main section:first-of-type")
+    .links(
+        Links::builder()
+            .fee_info(FEE_LINK, "main section:first-of-type")
             .build(),
-    ))
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fuses(&[

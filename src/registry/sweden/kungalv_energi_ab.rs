@@ -5,11 +5,14 @@ pub static KUNGALV_ENERGI_AB: GridOperator = GridOperator::builder()
     .vat_number("SE556083206401")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 63))
-    .links(Links::new(
-        Link::builder("https://www.kungalvenergi.se/elnat/priser-for-elnat-2025/")
-            .plain_content_locator(".mainbody")
+    .links(
+        Links::builder()
+            .fee_info(
+                "https://www.kungalvenergi.se/elnat/priser-for-elnat-2025/",
+                ".mainbody",
+            )
             .build(),
-    ))
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::Unverified)

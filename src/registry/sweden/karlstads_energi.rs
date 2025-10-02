@@ -5,11 +5,14 @@ pub static KARLSTADS_ENERGI: GridOperator = GridOperator::builder()
     .vat_number("SE556527673901")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, u16::MAX))
-    .links(Links::new(
-        Link::builder("https://karlstadsenergi.se/gemensamt-innehall/elnat/priser/elnatsavgifter")
-            .plain_content_locator("table")
+    .links(
+        Links::builder()
+            .fee_info(
+                "https://karlstadsenergi.se/gemensamt-innehall/elnat/priser/elnatsavgifter",
+                "table",
+            )
             .build(),
-    ))
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fuse_range(&[

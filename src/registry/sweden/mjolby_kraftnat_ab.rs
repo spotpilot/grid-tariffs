@@ -5,11 +5,14 @@ pub static MJOLBY_KRAFTNAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE556127926501")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 63))
-    .links(Links::new(
-        Link::builder("https://www.mse.se/kundservice/priser-och-avtal/priser-elnat-2025/")
-            .plain_content_locator("#abonnemangspriser")
+    .links(
+        Links::builder()
+            .fee_info(
+                "https://www.mse.se/kundservice/priser-och-avtal/priser-elnat-2025/",
+                "#abonnemangspriser",
+            )
             .build(),
-    ))
+    )
     .price_lists(&[PriceList::builder()
         .from_date(9999, 12, 31)
         .monthly_fee(Cost::Unverified)

@@ -23,13 +23,14 @@ pub static GOTLANDS_ELNAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE556537472401")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 200))
-    .links(Links::new(
-        Link::builder("https://geab.se/elnat/avgift/elnatspriser/")
-            .plain_content_locator(
+    .links(
+        Links::builder()
+            .fee_info(
+                "https://geab.se/elnat/avgift/elnatspriser/",
                 r#"[data-elementor-post-type="page"] > section:nth-child(n + 4)"#,
             )
             .build(),
-    ))
+    )
     .price_lists(&[
         BASE_PRICELIST
             .variant("Enekltariff E4")

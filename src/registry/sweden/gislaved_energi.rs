@@ -8,11 +8,7 @@ pub static GISLAVED_ENERGI: GridOperator = GridOperator::builder()
     .vat_number("SE556223876501")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 63))
-    .links(Links::new(
-        Link::builder(FEE_LINK)
-            .plain_content_locator("#page-content")
-            .build(),
-    ))
+    .links(Links::builder().fee_info(FEE_LINK, "#page-content").build())
     .price_lists(&[PriceList::builder()
         .from_date(2024, 12, 1)
         .monthly_fee(Cost::fuses(&[

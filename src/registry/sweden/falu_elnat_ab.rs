@@ -5,11 +5,14 @@ pub static FALU_ELNAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE556002847301")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 63))
-    .links(Links::new(
-        Link::builder("https://fev.se/el/elnat/elnatspriser-privat.html")
-            .plain_content_locator(".pagecontent")
+    .links(
+        Links::builder()
+            .fee_info(
+                "https://fev.se/el/elnat/elnatspriser-privat.html",
+                ".pagecontent",
+            )
             .build(),
-    ))
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2024, 1, 1)
         .monthly_fee(Cost::fuses(&[

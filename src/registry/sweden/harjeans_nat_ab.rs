@@ -5,11 +5,14 @@ pub static HARJEANS_NAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE556189319801")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 200))
-    .links(Links::new(
-        Link::builder("https://www.harjeans.se/elnat/elnatspriser-2025/")
-            .plain_content_locator(".sectionWrapper")
+    .links(
+        Links::builder()
+            .fee_info(
+                "https://www.harjeans.se/elnat/elnatspriser-2025/",
+                ".sectionWrapper",
+            )
             .build(),
-    ))
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fuses(&[

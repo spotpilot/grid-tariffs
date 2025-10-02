@@ -5,11 +5,11 @@ pub static BTEA: GridOperator = GridOperator::builder()
     .vat_number("SE556012264901")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 63))
-    .links(Links::new(
-        Link::builder("https://www.btea.se/elnat/elnatspriser")
-            .plain_content_locator("table")
+    .links(
+        Links::builder()
+            .fee_info("https://www.btea.se/elnat/elnatspriser", "table")
             .build(),
-    ))
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 10, 1)
         .monthly_fee(Cost::fuses(&[

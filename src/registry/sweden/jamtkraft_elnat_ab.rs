@@ -5,11 +5,14 @@ pub static JAMTKRAFT_ELNAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE556103399301")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 125))
-    .links(Links::new(
-        Link::builder("https://www.jamtkraft.se/privat/elnat/elnatsavgifter/")
-            .plain_content_locator("article")
+    .links(
+        Links::builder()
+            .fee_info(
+                "https://www.jamtkraft.se/privat/elnat/elnatsavgifter/",
+                "article",
+            )
             .build(),
-    ))
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fuses(&[

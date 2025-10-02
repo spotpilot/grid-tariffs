@@ -14,9 +14,7 @@ pub static HJARTUMS_ELFORENING_EK_FOR: GridOperator = GridOperator::builder()
     .vat_number("SE758500053701")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 500))
-    .links(Links::new(
-        Link::builder(FEE_LINK).content_locator_default().build(),
-    ))
+    .links(Links::builder().fee_info_default(FEE_LINK).build())
     .price_lists(&[
         BASE_PRICELIST
             .variant("Enkeltariff")

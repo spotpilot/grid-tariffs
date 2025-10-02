@@ -7,9 +7,7 @@ pub static VIMMERBY_ENERGI_NAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE559011498801")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 200))
-    .links(Links::new(
-        Link::builder(FEE_LINK).content_locator_default().build(),
-    ))
+    .links(Links::builder().fee_info_default(FEE_LINK).build())
     .price_lists(&[
         PriceList::builder()
             .variant("Normaltariff")

@@ -5,11 +5,14 @@ pub static FALBYGDENS_ENERGI: GridOperator = GridOperator::builder()
     .vat_number("SE556407516501")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 63))
-    .links(Links::new(
-        Link::builder("https://falbygdensenergi.se/privat/vart-elnat/elnatsavgifter-samt-villkor")
-            .plain_content_locator(".pagecontent")
+    .links(
+        Links::builder()
+            .fee_info(
+                "https://falbygdensenergi.se/privat/vart-elnat/elnatsavgifter-samt-villkor",
+                ".pagecontent",
+            )
             .build(),
-    ))
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fixed(343, 42))

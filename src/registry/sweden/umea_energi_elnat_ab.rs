@@ -5,11 +5,14 @@ pub static UMEA_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE556086822501")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 200))
-    .links(Links::new(
-        Link::builder("https://www.umeaenergi.se/elnat/priser/priser-elnat")
-            .plain_content_locator("main")
+    .links(
+        Links::builder()
+            .fee_info(
+                "https://www.umeaenergi.se/elnat/priser/priser-elnat",
+                "main",
+            )
             .build(),
-    ))
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fuses(&[

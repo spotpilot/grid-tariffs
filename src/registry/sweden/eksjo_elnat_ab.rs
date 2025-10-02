@@ -7,11 +7,7 @@ pub static EKSJO_ELNAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE556486766001")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 63))
-    .links(Links::new(
-        Link::builder(FEE_LINK)
-            .plain_content_locator("[role='main']")
-            .build(),
-    ))
+    .links(Links::builder().fee_info(FEE_LINK, "[role='main']").build())
     .price_lists(&[
         PriceList::builder()
             .variant("Säkringstariff 11")

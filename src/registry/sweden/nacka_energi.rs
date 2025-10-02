@@ -8,11 +8,7 @@ pub static NACKA_ENERGI: GridOperator = GridOperator::builder()
     .vat_number("SE556017953201")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 80)) // 80A - LSP also shares the same tariff (what is max for LSP?)
-    .links(Links::new(
-        Link::builder(FEE_LINK)
-            .plain_content_locator("main")
-            .build(),
-    ))
+    .links(Links::builder().fee_info(FEE_LINK, "main").build())
     .price_lists(&[PriceList::builder()
         .from_date(2025, 7, 1)
         .monthly_fee(Cost::fuses(&[

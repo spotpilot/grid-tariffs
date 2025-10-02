@@ -7,11 +7,11 @@ pub static KVANUMBYGDENS_ENERGI_EK_FOR: GridOperator = GridOperator::builder()
     .vat_number("SE768400219401")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 200))
-    .links(Links::new(
-        Link::builder(FEE_LINK)
-            .plain_content_locator("#text_block-6-11020")
+    .links(
+        Links::builder()
+            .fee_info(FEE_LINK, "#text_block-6-11020")
             .build(),
-    ))
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fuses(&[

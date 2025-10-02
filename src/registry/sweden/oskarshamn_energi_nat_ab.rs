@@ -5,11 +5,14 @@ pub static OSKARSHAMN_ENERGI_NAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE556275876201")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 200))
-    .links(Links::new(
-        Link::builder("https://www.oskarshamnenergi.se/privat/elnat/natavgifter")
-            .plain_content_locator("main")
+    .links(
+        Links::builder()
+            .fee_info(
+                "https://www.oskarshamnenergi.se/privat/elnat/natavgifter",
+                "main",
+            )
             .build(),
-    ))
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fuses(&[

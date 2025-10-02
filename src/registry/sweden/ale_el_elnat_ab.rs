@@ -5,6 +5,11 @@ pub static ALE_EL_ELNAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE559398702601")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 200))
+    .links(
+        Links::builder()
+            .fee_info("https://aleel.se/avgifter/", "main")
+            .build(),
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 6, 1)
         .monthly_fee(Cost::fuses(&[
@@ -25,9 +30,4 @@ pub static ALE_EL_ELNAT_AB: GridOperator = GridOperator::builder()
         .transfer_fee(TransferFee::fixed_subunit(25.00))
         .power_tariff(PowerTariff::NotImplemented)
         .build()])
-    .links(Links::new(
-        Link::builder("https://aleel.se/avgifter/")
-            .plain_content_locator("main")
-            .build(),
-    ))
     .build();

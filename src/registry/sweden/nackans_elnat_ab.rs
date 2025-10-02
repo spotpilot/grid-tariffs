@@ -7,11 +7,7 @@ pub static NACKANS_ELNAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE556526699501")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 63))
-    .links(Links::new(
-        Link::builder(FEE_LINK)
-            .plain_content_locator("div.page")
-            .build(),
-    ))
+    .links(Links::builder().fee_info(FEE_LINK, "div.page").build())
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fuses(&[

@@ -5,11 +5,14 @@ pub static SKANSKA_ENERGI_NAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE556497523201")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 200))
-    .links(Links::new(
-        Link::builder("https://www.skanska-energi.se/elnat/elnatsavgifter/")
-            .plain_content_locator(".content .accordian:first-child")
+    .links(
+        Links::builder()
+            .fee_info(
+                "https://www.skanska-energi.se/elnat/elnatsavgifter/",
+                ".content .accordian:first-child",
+            )
             .build(),
-    ))
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fuses(&[

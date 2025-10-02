@@ -7,9 +7,8 @@ pub static GOTEBORG_ENERGI: GridOperator = GridOperator::builder()
     .links(
         Links::builder()
             .fee_info(
-                Link::builder("https://www.goteborgenergi.se/privat/elnat/elnatsavgiften")
-                    .plain_content_locator("#prisvilla + *")
-                    .build(),
+                "https://www.goteborgenergi.se/privat/elnat/elnatsavgiften",
+                "#prisvilla + *",
             )
             .eltariff_api("https://api.goteborgenergi.cloud/gridtariff/v0/tariffs")
             .build(),

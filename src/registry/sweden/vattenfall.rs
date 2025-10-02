@@ -21,15 +21,18 @@ pub static VATTENFALL: GridOperator = GridOperator::builder()
     .vat_number("SE556417080001")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 63))
-    .links(Links::new(
-        Link::builder(FEE_LINK)
-            .content_locator(ContentLocator::new_starts_with(
-                "Säkringsabonnemang (16–63 A)",
-                TargetContainer::Ancestor(1),
-                ContentTarget::Attribute("data-content"),
-            ))
+    .links(
+        Links::builder()
+            .fee_info_complex(
+                FEE_LINK,
+                ContentLocator::new_starts_with(
+                    "Säkringsabonnemang (16–63 A)",
+                    TargetContainer::Ancestor(1),
+                    ContentTarget::Attribute("data-content"),
+                ),
+            )
             .build(),
-    ))
+    )
     .price_lists(&[
         BASE_PRICELIST
             .variant("Effekttariff E4")

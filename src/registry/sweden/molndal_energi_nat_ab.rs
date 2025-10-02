@@ -5,11 +5,14 @@ pub static MOLNDAL_ENERGI_NAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE556509458701")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 35))
-    .links(Links::new(
-        Link::builder("https://www.molndalenergi.se/privat/elnat/avgifter-ersattningar")
-            .plain_content_locator("main")
+    .links(
+        Links::builder()
+            .fee_info(
+                "https://www.molndalenergi.se/privat/elnat/avgifter-ersattningar",
+                "main",
+            )
             .build(),
-    ))
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 9, 1)
         .monthly_fee(Cost::fuses(&[

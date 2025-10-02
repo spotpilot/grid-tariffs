@@ -5,11 +5,14 @@ pub static VAXJO_ENERGI: GridOperator = GridOperator::builder()
     .vat_number("SE556526851201")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 1000))
-    .links(Links::new(
-        Link::builder("https://www.veab.se/privat/elnat/elnatsavgift/")
-            .plain_content_locator("#main-content")
+    .links(
+        Links::builder()
+            .fee_info(
+                "https://www.veab.se/privat/elnat/elnatsavgift/",
+                "#main-content",
+            )
             .build(),
-    ))
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fuses(&[

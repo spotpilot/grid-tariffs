@@ -7,9 +7,7 @@ pub static STUREFORS_ELDISTRIBUTION_AB: GridOperator = GridOperator::builder()
     .vat_number("SE556528175401")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 400))
-    .links(Links::new(
-        Link::builder(FEE_LINK).content_locator_default().build(),
-    ))
+    .links(Links::builder().fee_info_default(FEE_LINK).build())
     .price_lists(&[PriceList::builder()
         .from_date(2025, 9, 1)
         .monthly_fee(Cost::fuses(&[

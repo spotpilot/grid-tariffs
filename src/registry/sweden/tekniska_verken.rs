@@ -25,11 +25,8 @@ const BASE: GridOperatorBuilder = GridOperatorBuilder::new()
     .links(
         Links::builder()
             .fee_info(
-                Link::builder(
-                    "https://www.tekniskaverken.se/kundservice/priser-avtal/priser-elnat-2025/",
-                )
-                .plain_content_locator("main")
-                .build(),
+                "https://www.tekniskaverken.se/kundservice/priser-avtal/priser-elnat-2025/",
+                "main",
             )
             .eltariff_api("https://api.tekniskaverken.net/subscription/public/v0/tariffs")
             .build(),

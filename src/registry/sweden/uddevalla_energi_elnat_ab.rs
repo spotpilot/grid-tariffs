@@ -5,11 +5,14 @@ pub static UDDEVALLA_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE556762562801")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 63))
-    .links(Links::new(
-        Link::builder("https://www.uddevallaenergi.se/privat/elnat.html")
-            .plain_content_locator("div:has(> #Priserochavtal) + div")
+    .links(
+        Links::builder()
+            .fee_info(
+                "https://www.uddevallaenergi.se/privat/elnat.html",
+                "div:has(> #Priserochavtal) + div",
+            )
             .build(),
-    ))
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fuses(&[

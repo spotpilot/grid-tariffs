@@ -1,5 +1,7 @@
 use serde::Serialize;
 
+pub(crate) static DEFAULT_CSS_SELECTOR: &str = "main";
+
 #[derive(Debug, Clone, Serialize)]
 #[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
 pub struct Links {
@@ -14,10 +16,6 @@ pub struct Links {
 impl Links {
     pub const fn fee_info(&self) -> &Link {
         &self.fee_info
-    }
-
-    pub(crate) const fn new(fee_info: Link) -> Self {
-        Self::builder().fee_info(fee_info).build()
     }
 
     pub(crate) const fn builder() -> LinksBuilder {
@@ -40,34 +38,41 @@ impl LinksBuilder {
         }
     }
 
-    pub(crate) const fn fee_info(mut self, link: Link) -> Self {
-        self.fee_info = Some(link);
-        self
-    }
-
-    pub(crate) const fn new_fee_info(self, link: &'static str, css_selector: &'static str) -> Self {
-        self.fee_info(
+    pub(crate) const fn fee_info(mut self, link: &'static str, css_selector: &'static str) -> Self {
+        self.fee_info = Some(
             Link::builder(link)
                 .plain_content_locator(css_selector)
                 .build(),
-        )
-    }
-
-    pub(crate) const fn feed_in_revenue_info(mut self, link: Link) -> Self {
-        self.feed_in_revenue_info = Some(link);
+        );
         self
     }
 
-    pub(crate) const fn new_feed_in_revenue_info(
-        self,
+    /// Fee info that uses the default content locator
+    pub(crate) const fn fee_info_default(mut self, link: &'static str) -> Self {
+        self.fee_info = Some(Link::builder(link).content_locator_default().build());
+        self
+    }
+
+    pub(crate) const fn fee_info_complex(
+        mut self,
+        link: &'static str,
+        content_locator: ContentLocator,
+    ) -> Self {
+        self.fee_info = Some(Link::builder(link).content_locator(content_locator).build());
+        self
+    }
+
+    pub(crate) const fn feed_in_revenue_info(
+        mut self,
         link: &'static str,
         css_selector: &'static str,
     ) -> Self {
-        self.feed_in_revenue_info(
+        self.feed_in_revenue_info = Some(
             Link::builder(link)
                 .plain_content_locator(css_selector)
                 .build(),
-        )
+        );
+        self
     }
 
     pub(crate) const fn eltariff_api(mut self, link: &'static str) -> Self {
@@ -215,7 +220,7 @@ impl LinkBuilder {
 
     pub(crate) const fn content_locator_default(mut self) -> Self {
         self.content_locator = Some(ContentLocator {
-            method: LocatorMethod::CssSelector("main"),
+            method: LocatorMethod::CssSelector(DEFAULT_CSS_SELECTOR),
             content: ContentTarget::TextWithLinks,
             uses_default_locator: true,
         });

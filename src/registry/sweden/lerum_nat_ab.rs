@@ -7,11 +7,11 @@ pub static LERUM_NAT_AB: GridOperator = GridOperator::builder()
     .main_fuses(MainFuseSizes::new_range(16, 640))
     .links(
         Links::builder()
-            .new_fee_info(
+            .fee_info(
                 "https://www.lerumenergi.se/Elnat/Elnatsavgifter",
                 "#MainContent",
             )
-            .new_feed_in_revenue_info(
+            .feed_in_revenue_info(
                 "https://www.lerumenergi.se/Solenergi/Salj-ditt-overskott",
                 "#MainContent",
             )

@@ -1,17 +1,18 @@
 use crate::registry::prelude::*;
 
+const FEE_INFO: &str =
+    "https://www.varbergenergi.se/privat/tjanster/varberg-energi-elnat-ab/elnatspriser/";
+
 pub static VARBERG_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
     .name("Varberg Energi Elnät AB")
     .vat_number("SE556013145901")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 200))
-    .links(Links::new(
-        Link::builder(
-            "https://www.varbergenergi.se/privat/tjanster/varberg-energi-elnat-ab/elnatspriser/",
-        )
-        .plain_content_locator(".accordion-list > :nth-child(-n + 2)")
-        .build(),
-    ))
+    .links(
+        Links::builder()
+            .fee_info(FEE_INFO, ".accordion-list > :nth-child(-n + 2)")
+            .build(),
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 9, 1)
         .monthly_fee(Cost::fuses(&[

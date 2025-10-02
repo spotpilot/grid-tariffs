@@ -5,11 +5,14 @@ pub static AFFARSVERKEN_ELNAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE556532083401")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 63))
-    .links(Links::new(
-        Link::builder("https://www.affarsverken.se/elnat/elnatspriser/privatkund/")
-            .plain_content_locator("#content-body")
+    .links(
+        Links::builder()
+            .fee_info(
+                "https://www.affarsverken.se/elnat/elnatspriser/privatkund/",
+                "#content-body",
+            )
             .build(),
-    ))
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fuses(&[

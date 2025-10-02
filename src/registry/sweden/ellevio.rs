@@ -5,15 +5,18 @@ pub static ELLEVIO: GridOperator = GridOperator::builder()
     .vat_number("SE556037732601")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 63))
-    .links(Links::new(
-        Link::builder("https://www.ellevio.se/abonnemang/elnatspriser-privat/")
-            .content_locator(ContentLocator::new_starts_with(
-                "För bland annat villor, radhus, fritidshus och verksamhetslokaler med egen",
-                TargetContainer::Parent,
-                ContentTarget::TextWithLinks,
-            ))
+    .links(
+        Links::builder()
+            .fee_info_complex(
+                "https://www.ellevio.se/abonnemang/elnatspriser-privat/",
+                ContentLocator::new_starts_with(
+                    "För bland annat villor, radhus, fritidshus och verksamhetslokaler med egen",
+                    TargetContainer::Parent,
+                    ContentTarget::TextWithLinks,
+                ),
+            )
             .build(),
-    ))
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fuses(&[

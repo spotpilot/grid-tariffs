@@ -5,11 +5,11 @@ pub static HARRYDA_ENERGI_AB: GridOperator = GridOperator::builder()
     .vat_number("SE556026324501")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 200))
-    .links(Links::new(
-        Link::builder("https://harrydaenergi.se/elnat/elnatspriser/")
-            .plain_content_locator("#content")
+    .links(
+        Links::builder()
+            .fee_info("https://harrydaenergi.se/elnat/elnatspriser/", "#content")
             .build(),
-    ))
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2024, 4, 1)
         .monthly_fee(Cost::Unverified)

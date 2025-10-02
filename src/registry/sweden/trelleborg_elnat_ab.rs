@@ -11,8 +11,8 @@ pub static TRELLEBORG_ELNAT_AB: GridOperator = GridOperator::builder()
     .main_fuses(MainFuseSizes::new_range(16, 63))
     .links(
         Links::builder()
-            .new_fee_info(FEE_INFO_LINK, "table")
-            .new_feed_in_revenue_info(FEED_IN_REVENUE_LINK, ".wp-block-group:nth-child(3) table")
+            .fee_info(FEE_INFO_LINK, "table")
+            .feed_in_revenue_info(FEED_IN_REVENUE_LINK, ".wp-block-group:nth-child(3) table")
             .build(),
     )
     .price_lists(&[PriceList::builder()

@@ -7,11 +7,11 @@ pub static OSTRA_KINDS_ELNAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE559461755601")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 400))
-    .links(Links::new(
-        Link::builder(FEE_LINK)
-            .plain_content_locator("[data-elementor-type='wp-page']")
+    .links(
+        Links::builder()
+            .fee_info(FEE_LINK, "[data-elementor-type='wp-page']")
             .build(),
-    ))
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 2, 1)
         .monthly_fee(Cost::fuses(&[

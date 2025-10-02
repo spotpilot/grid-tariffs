@@ -7,11 +7,14 @@ pub static TELGE_ENERGI: GridOperator = GridOperator::builder()
     .vat_number("SE559463499901")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 63))
-    .links(Links::new(
-        Link::builder("https://www.telge.se/elnat/elnatskostnad/elnatspriser/")
-            .plain_content_locator("main")
+    .links(
+        Links::builder()
+            .fee_info(
+                "https://www.telge.se/elnat/elnatskostnad/elnatspriser/",
+                "main",
+            )
             .build(),
-    ))
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fuses(&[

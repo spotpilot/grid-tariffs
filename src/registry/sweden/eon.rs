@@ -11,14 +11,17 @@ pub static EON: GridOperator = GridOperator::builder()
     .vat_number("SE556070606001")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 63))
-    .links(Links::new(
-        Link::builder("https://www.eon.se/el/elnat/elnaetsabonnemang-priser")
-            .content_locator(ContentLocator::new(
-                CssSelector(r#"eon-ui-table-renderer"#),
-                ContentTarget::Attribute("content"),
-            ))
+    .links(
+        Links::builder()
+            .fee_info_complex(
+                "https://www.eon.se/el/elnat/elnaetsabonnemang-priser",
+                ContentLocator::new(
+                    CssSelector(r#"eon-ui-table-renderer"#),
+                    ContentTarget::Attribute("content"),
+                ),
+            )
             .build(),
-    ))
+    )
     .price_lists(&[
         BASE_PRICELIST
             .variant("Syd")

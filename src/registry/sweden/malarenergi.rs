@@ -22,11 +22,14 @@ pub static MALARENERGI: GridOperator = GridOperator::builder()
     .vat_number("SE556554150401")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 63))
-    .links(Links::new(
-        Link::builder("https://www.malarenergi.se/el/elnat/priser-elnat/")
-            .plain_content_locator(".standard-article")
+    .links(
+        Links::builder()
+            .fee_info(
+                "https://www.malarenergi.se/el/elnat/priser-elnat/",
+                ".standard-article",
+            )
             .build(),
-    ))
+    )
     .price_lists(&[
         BASE_PRICELIST
             .variant("Säkringsabonnemang")

@@ -5,11 +5,11 @@ pub static PARTILLE_ENERGI: GridOperator = GridOperator::builder()
     .vat_number("SE556528569801")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 63))
-    .links(Links::new(
-        Link::builder("https://partilleenergi.se/elnat/")
-            .plain_content_locator("#elnatsavtal")
+    .links(
+        Links::builder()
+            .fee_info("https://partilleenergi.se/elnat/", "#elnatsavtal")
             .build(),
-    ))
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fixed_yearly(1875, 0))

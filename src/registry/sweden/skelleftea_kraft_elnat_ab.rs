@@ -5,11 +5,14 @@ pub static SKELLEFTEA_KRAFT_ELNAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE556244395101")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 63))
-    .links(Links::new(
-        Link::builder("https://www.skekraft.se/privat/elnat/elnatspriser/")
-            .plain_content_locator("section")
+    .links(
+        Links::builder()
+            .fee_info(
+                "https://www.skekraft.se/privat/elnat/elnatspriser/",
+                "section",
+            )
             .build(),
-    ))
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fuses(&[

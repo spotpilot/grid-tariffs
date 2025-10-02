@@ -5,11 +5,14 @@ pub static LANDSKRONA_ENERGI_AB: GridOperator = GridOperator::builder()
     .vat_number("SE556803921701")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 200))
-    .links(Links::new(
-        Link::builder("https://landskronaenergi.se/privat/el/elnatsavgifter/")
-            .plain_content_locator(".elementor-price-list")
+    .links(
+        Links::builder()
+            .fee_info(
+                "https://landskronaenergi.se/privat/el/elnatsavgifter/",
+                ".elementor-price-list",
+            )
             .build(),
-    ))
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fuses(&[

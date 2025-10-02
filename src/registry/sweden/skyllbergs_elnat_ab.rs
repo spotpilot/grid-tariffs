@@ -7,11 +7,11 @@ pub static SKYLLBERGS_ELNAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE559440600001")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 200))
-    .links(Links::new(
-        Link::builder(FEE_LINK)
-            .plain_content_locator("[id='1230953390']")
+    .links(
+        Links::builder()
+            .fee_info(FEE_LINK, "[id='1230953390']")
             .build(),
-    ))
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fuses(&[

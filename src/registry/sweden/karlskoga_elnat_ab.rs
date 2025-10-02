@@ -5,13 +5,14 @@ pub static KARLSKOGA_ELNAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE556507429001")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 63))
-    .links(Links::new(
-        Link::builder(
-            "https://www.karlskogaenergi.se/Vara-tjanster/elnat/priser-och-avtalsvillkor/",
-        )
-        .plain_content_locator("#mainContent")
-        .build(),
-    ))
+    .links(
+        Links::builder()
+            .fee_info(
+                "https://www.karlskogaenergi.se/Vara-tjanster/elnat/priser-och-avtalsvillkor/",
+                "#mainContent",
+            )
+            .build(),
+    )
     .price_lists(&[PriceList::builder()
         .from_date(9999, 12, 31)
         .monthly_fee(Cost::Unverified)

@@ -5,13 +5,14 @@ pub static KRAFTRINGEN: GridOperator = GridOperator::builder()
     .vat_number("SE556228113801")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 200))
-    .links(Links::new(
-        Link::builder(
-            "https://www.kraftringen.se/privat/elnat/elnatsavgifter/komplett-elnatsprislista/",
-        )
-        .plain_content_locator(".main-page-content")
-        .build(),
-    ))
+    .links(
+        Links::builder()
+            .fee_info(
+                "https://www.kraftringen.se/privat/elnat/elnatsavgifter/komplett-elnatsprislista/",
+                ".main-page-content",
+            )
+            .build(),
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 6, 1)
         .monthly_fee(Cost::fuses(&[

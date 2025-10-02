@@ -5,11 +5,14 @@ pub static OLOFSTROMS_KRAFT_NAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE556462112501")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 63))
-    .links(Links::new(
-        Link::builder("https://www.olofstromskraft.se/natavgifter-el")
-            .plain_content_locator(".main-content")
+    .links(
+        Links::builder()
+            .fee_info(
+                "https://www.olofstromskraft.se/natavgifter-el",
+                ".main-content",
+            )
             .build(),
-    ))
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2024, 11, 14)
         .monthly_fee(Cost::fuses(&[

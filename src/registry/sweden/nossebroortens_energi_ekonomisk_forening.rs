@@ -7,11 +7,11 @@ pub static NOSSEBROORTENS_ENERGI_EKONOMISK_FORENING: GridOperator = GridOperator
     .vat_number("SE716410364501")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 25))
-    .links(Links::new(
-        Link::builder(FEE_LINK)
-            .plain_content_locator(".mainContainer")
+    .links(
+        Links::builder()
+            .fee_info(FEE_LINK, ".mainContainer")
             .build(),
-    ))
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fuses(&[

@@ -7,9 +7,7 @@ pub static GAVLE_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE559397122801")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 50))
-    .links(Links::new(
-        Link::builder(FEE_LINK).content_locator_default().build(),
-    ))
+    .links(Links::builder().fee_info_default(FEE_LINK).build())
     .price_lists(&[
         PriceList::builder()
             .variant("Standard")

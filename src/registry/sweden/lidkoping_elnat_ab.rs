@@ -7,11 +7,11 @@ pub static LIDKOPING_ELNAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE559395998301")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 63))
-    .links(Links::new(
-        Link::builder(FEE_URL)
-            .plain_content_locator("#h-Elnatsavgifter + *")
+    .links(
+        Links::builder()
+            .fee_info(FEE_URL, "#h-Elnatsavgifter + *")
             .build(),
-    ))
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fuses(&[

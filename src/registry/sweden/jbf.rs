@@ -5,11 +5,11 @@ pub static JBF: GridOperator = GridOperator::builder()
     .vat_number("SE797300037001")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 1500))
-    .links(Links::new(
-        Link::builder("https://jbf.nu/elnatet/natavgift/")
-            .plain_content_locator("#main")
+    .links(
+        Links::builder()
+            .fee_info("https://jbf.nu/elnatet/natavgift/", "#main")
             .build(),
-    ))
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fuse_range(&[

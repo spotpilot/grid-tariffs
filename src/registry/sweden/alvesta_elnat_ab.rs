@@ -7,11 +7,11 @@ pub static ALVESTA_ELNAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE556525621001")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 250))
-    .links(Links::new(
-        Link::builder(FEE_LINK)
-            .plain_content_locator("section.ae-table,section.ae-article")
+    .links(
+        Links::builder()
+            .fee_info(FEE_LINK, "section.ae-table,section.ae-article")
             .build(),
-    ))
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fuses(&[
