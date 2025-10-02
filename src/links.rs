@@ -62,6 +62,12 @@ impl LinksBuilder {
         self
     }
 
+    /// Feed-in revenue info that uses the default content locator
+    pub(crate) const fn feed_in_revenue_info_default(mut self, link: &'static str) -> Self {
+        self.feed_in_revenue_info = Some(Link::builder(link).content_locator_default().build());
+        self
+    }
+
     pub(crate) const fn feed_in_revenue_info(
         mut self,
         link: &'static str,
