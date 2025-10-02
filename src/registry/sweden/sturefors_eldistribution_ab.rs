@@ -28,7 +28,7 @@ pub static STUREFORS_ELDISTRIBUTION_AB: GridOperator = GridOperator::builder()
         ]))
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
-        .transfer_fee(TransferFee::fixed_subunit(90.31))
+        .transfer_fee(TransferFee::fixed_subunit(28.35 * 1.25))
         .power_tariff(PowerTariff::NotImplemented)
         .build()])
     .build();
