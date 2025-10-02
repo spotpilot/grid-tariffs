@@ -13,7 +13,7 @@ pub static HJARTUMS_ELFORENING_EK_FOR: GridOperator = GridOperator::builder()
     .name("Hjärtums Elförening ek för")
     .vat_number("SE758500053701")
     .country(Country::SE)
-    .main_fuses(MainFuseSizes::new_range(16, 250))
+    .main_fuses(MainFuseSizes::new_range(16, 500))
     .links(Links::new(
         Link::builder(FEE_LINK).content_locator_default().build(),
     ))
@@ -51,13 +51,16 @@ pub static HJARTUMS_ELFORENING_EK_FOR: GridOperator = GridOperator::builder()
                 (160, Money::new(48299, 0).divide_by(12)),
                 (200, Money::new(55656, 0).divide_by(12)),
                 (250, Money::new(68019, 0).divide_by(12)),
+                (315, Money::new(86195, 0).divide_by(12)),
+                (400, Money::new(107799, 0).divide_by(12)),
+                (500, Money::new(132956, 0).divide_by(12)),
             ]))
             .transfer_fee(TransferFee::new_periods(CostPeriods::new(&[
                 CostPeriod::builder()
                     .load(High)
                     .fixed_cost_subunit(37.4)
                     .months(November, March)
-                    .hours(6, 22)
+                    .hours(6, 21)
                     .exclude_weekends()
                     .build(),
                 CostPeriod::builder()
