@@ -59,9 +59,9 @@ impl PowerTariff {
 #[derive(Debug, Clone, Copy, Serialize)]
 #[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
 pub enum TariffCalculationMethod {
-    /// Power peak for top hour of the top three days of the month
+    /// Power peak for top hour of the top x days of the month
     AverageDays(u8),
-    /// Average of top three hours of the month
+    /// Average of top x hours of the month
     AverageHours(u8),
     /// Like AverageDays, but one for base load time and one for peak load time
     AverageDaysDifferentiated {

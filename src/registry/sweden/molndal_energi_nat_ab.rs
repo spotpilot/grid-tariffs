@@ -21,6 +21,21 @@ pub static MOLNDAL_ENERGI_NAT_AB: GridOperator = GridOperator::builder()
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
         .transfer_fee(TransferFee::fixed_subunit(5.36))
-        .power_tariff(PowerTariff::NotImplemented)
+        .power_tariff(PowerTariff::new(
+            TariffCalculationMethod::AverageDays(3),
+            CostPeriods::new(&[
+                CostPeriod::builder()
+                    .load(High)
+                    .months(November, March)
+                    .hours(7, 18)
+                    .exclude_weekends_and_swedish_holidays()
+                    .fixed_cost(100, 79)
+                    .build(),
+                CostPeriod::builder()
+                    .load(Low)
+                    .cost(Cost::fixed(0, 0))
+                    .build(),
+            ]),
+        ))
         .build()])
     .build();
