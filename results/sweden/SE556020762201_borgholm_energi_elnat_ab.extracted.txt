@@ -91,6 +91,14 @@ Din vattenmätare
 
 https://borgholmenergi.se/privat/vatten-och-avlopp/din-vattenmatare/vattenmatare-till-alla/
 Vattenmätare till alla
+
+https://borgholmenergi.se/privat/vatten-och-avlopp/din-vattenmatare/vattenmatare-till-alla/infor-installation/
+Inför installation av vattenmätare
+https://borgholmenergi.se/privat/vatten-och-avlopp/din-vattenmatare/vattenmatare-till-alla/under-installation-av-vattenmatare/
+Under installation av vattenmätare
+https://borgholmenergi.se/boka-installation-av-vattenmatare/
+Boka installation av vattenmätare
+
 https://borgholmenergi.se/privat/vatten-och-avlopp/din-vattenmatare/byte-av-vattenmatare/
 Byte av vattenmätare
 https://borgholmenergi.se/privat/vatten-och-avlopp/din-vattenmatare/las-av-din-vattenmatare/
@@ -173,6 +181,9 @@ Gemensam avfallslösning
 
 https://borgholmenergi.se/privat/avfall/din-sophamtning/narsorterat-2025/gemensam-avfallslosning/anmalan-for-gemensam-avfallslosning/
 Anmälan för gemensam avfallslösning
+
+https://borgholmenergi.se/privat/avfall/din-sophamtning/narsorterat-2025/kop-ut-ditt-gamla-sopkarl/
+Köp ut ditt gamla sopkärl
 
 https://borgholmenergi.se/privat/matavfall/
 Matavfall
