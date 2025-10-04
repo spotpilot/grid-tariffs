@@ -2,23 +2,6 @@
 Priser
 I ditt nätavtal ingår de kostnader du betalar för att få el. Pengarna används till exempel till distribution, drift och underhåll av elnätet.
 
-Stäng informations-popup
-
-Erbjudande - spara 315 kronor!
-Teckna elavtal innan 30 september
-
-Just nu bjuder vi på den fasta avgiften under första året (värde 315 kr)
-Dessutom får du alltid:
-
-100 % förnybar el
-Schyssta villkor
-Möjlighet att välja mellan fast eller rörligt avtal
-Lokal kundservice
-Tryggt elavtal där vinsten stannar i kommunen
-
-/tjanster/elavtal/teckna-elavtal/
-Läs mer och teckna elavtal
-
 Priser
 I ditt nätavtal ingår de kostnader du betalar för att få el. Pengarna används till exempel till distribution, drift och underhåll av elnätet.
 
@@ -61,7 +44,7 @@ Elöverföring 31,40 öre/kWh. Energiskatt 54,88 öre/kWh.
 Priser för utskrift, pdf
 Tidstariff nät
 
-#readMore-73a76d55-bf5f-4ba2-993a-2785c2f5adc3
+#readMore-7b2eb2df-418c-4eec-b8b0-77b6ec4e5315
 Läs mer
 
 2025
