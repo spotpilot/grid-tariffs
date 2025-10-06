@@ -1,11 +1,11 @@
 
 https://kalmarenergi.se
 Kalmar Energi
-https://kalmarenergi.se/foretag/el/
+https://kalmarenergi.se/el/
 El
-https://kalmarenergi.se/foretag/el/elnat/
+https://kalmarenergi.se/el/elnat/
 Elnät
-Elnätsavgifter
+Elnätsavgifter för säkringskunder
 
 https://kalmarenergi.se/foretag/el/
 El
@@ -19,8 +19,8 @@ https://kalmarenergi.se/foretag/el/vara-avtal/fast-el/
 FAST el
 https://kalmarenergi.se/foretag/el/vara-avtal/rorlig-el/
 RÖRLIG el
-https://kalmarenergi.se/foretag/el/vara-avtal/tim-spot-el-smart-och-flexibel-elanvandning/
-TIM-SPOT el
+https://kalmarenergi.se/foretag/el/vara-avtal/kvartspris-el-smart-och-flexibel-elanvandning/
+KVARTSPRIS el
 https://kalmarenergi.se/foretag/el/vara-avtal/forvaltat-elhandelsavtal-hansa-trygg/
 Hansa Trygg – förvaltat elavtal
 https://kalmarenergi.se/el/hitta-ratt-avtal/anvisningsavtal/
@@ -86,7 +86,7 @@ https://kalmarenergi.se/fjarrvarme/koppla-in-fjarrvarme/
 Koppla in fjärrvärme
 https://kalmarenergi.se/foretag/priser/
 Priser och villkor
-https://kalmarenergi.se/fjarrvarme/vara-anlaggningar-moskogen/
+https://kalmarenergi.se/fjarrvarme/vara-anlaggningar-moskogen-och-draken/
 Våra anläggningar
 https://kalmarenergi.se/fjarrvarme/miljovanlig-uppvarmning-fjarrvarme/
 Miljövänlig uppvärmning
@@ -117,7 +117,7 @@ https://kalmarenergi.se/sol/vanliga-fragor/
 Vanliga frågor
 https://kalmarenergi.se/statistik-for-kalmarsund-sol/
 Statistik för Kalmarsund Sol
-https://kalmarenergi.se/sol/reservera-solcellsandelar/forklaring-av-avrakning-sol/
+https://kalmarenergi.se/sol/solcellsandelar/forklaring-av-avrakning-sol/
 Förklaring av avräkning
 https://kalmarenergi.se/sol/medlemsinformation/
 Medlemsinformation
@@ -138,7 +138,7 @@ https://kalmarenergi.se/mikroproducent/overskottsel-och-elcertifikat/
 Sälj din överskottsel till oss
 https://kalmarenergi.se/mikroproducent/teckna-mikroavtal/
 Teckna mikroavtal
-https://kalmarenergi.se/mikroproducent/villkor/
+https://kalmarenergi.se/mikroproducent/villkor-mikroproduktion/
 Villkor
 
 https://kalmarenergi.se/foretag/sol/foretagsagd-solel/
@@ -313,8 +313,8 @@ https://kalmarenergi.se/el/hitta-ratt-avtal/vintertrygg-privat/
 Kampanj: Vintertrygg ❄️
 https://kalmarenergi.se/el/hitta-ratt-avtal/rorlig-el/
 RÖRLIG el
-https://kalmarenergi.se/el/hitta-ratt-avtal/tim-spot-el-smart-och-flexibel-elanvandning/
-TIM-SPOT el
+https://kalmarenergi.se/el/hitta-ratt-avtal/kvartspris-el-smart-och-flexibel-elanvandning/
+KVARTSPRIS el
 https://kalmarenergi.se/el/hitta-ratt-avtal/fast-el-full-kontroll-pa-elkostnaden/
 FAST el
 https://kalmarenergi.se/el/hitta-ratt-avtal/mix-el-det-basta-av-tva-varldar/
@@ -362,7 +362,7 @@ https://kalmarenergi.se/fjarrvarme/koppla-in-fjarrvarme/
 Koppla in fjärrvärme
 https://kalmarenergi.se/fjarrvarme/priser/
 Priser och villkor
-https://kalmarenergi.se/fjarrvarme/vara-anlaggningar-moskogen/
+https://kalmarenergi.se/fjarrvarme/vara-anlaggningar-moskogen-och-draken/
 Våra anläggningar
 https://kalmarenergi.se/fjarrvarme/miljovanlig-uppvarmning-fjarrvarme/
 Miljövänlig uppvärmning
@@ -390,7 +390,7 @@ Fjärrvärmeavbrott
 https://kalmarenergi.se/sol/
 Sol
 
-https://kalmarenergi.se/sol/reservera-solcellsandelar/
+https://kalmarenergi.se/sol/solcellsandelar/
 Solandelar
 
 https://kalmarenergi.se/sol/rakna-ut-ditt-behov/
@@ -407,7 +407,7 @@ https://kalmarenergi.se/sol/vanliga-fragor/
 Vanliga frågor
 https://kalmarenergi.se/statistik-for-kalmarsund-sol/
 Statistik för Kalmarsund Sol
-https://kalmarenergi.se/sol/reservera-solcellsandelar/forklaring-av-avrakning-sol/
+https://kalmarenergi.se/sol/solcellsandelar/forklaring-av-avrakning-sol/
 Förklaring av avräkning
 https://kalmarenergi.se/sol/medlemsinformation/
 Medlemsinformation
@@ -436,7 +436,7 @@ https://kalmarenergi.se/mikroproducent/teckna-mikroavtal/
 Teckna mikroavtal
 https://kalmarenergi.se/sol/skaffa-solceller-7-enkla-steg/viktigt-att-veta/
 Viktigt att veta!
-https://kalmarenergi.se/mikroproducent/villkor/
+https://kalmarenergi.se/mikroproducent/villkor-mikroproduktion/
 Villkor
 
 https://kalmarenergi.se/vind/
@@ -600,108 +600,105 @@ Vad tycker du om vår hemsida?
 
 #search
 
-Elnätsavgifter
+Har du ett större abonnemang så hittar du dina prislistor här!
 
-Kalmar Energi Elnät ansvarar för elledningarna och för att överföringen av elen fungerar i hela Kalmar tätort. Varje elnätsföretag har monopol i en viss avgränsad region. Finns er verksamhet utanför Kalmar tätort har ni ett annat elnätsföretag. Ni kan inte välja elnätsföretag, men ni kan däremot byta och teckna elavtal med vilket elhandelsföretag ni vill i Sverige.
-Har ni säkringsabonnemang? Då hittar ni alla avgifter här nedan. Ni som är effektkunder hittar avgifterna i våra prislistor nedan:
+https://kalmarenergi.se/foretag/el/elnat/elnatsavgifter/
+Läs mer
 
-http://kalmarenergi.se/foretag/el/elnat/effekttariff-n4/
-Effekttariff N4, säkring över 200 A
-http://kalmarenergi.se/foretag/el/elnat/effekttariff-n3/
-Effekttariff N3, högspänning
+Elnätsavgifter för säkringskunder
 
-Säkringskunder
+Kalmar Energi Elnät ansvarar för elledningarna och för att överföringen av elen fungerar i hela Kalmar tätort. Varje elnätsföretag har monopol i en viss avgränsad region. Du som bor utanför Kalmar tätort har ett annat elnätsföretag. Du kan inte välja elnätsföretag, men du kan däremot byta och teckna elavtal med vilket elhandelsföretag du vill i Sverige.
+Elnätsavgiften är vad du betalar för överföringen av elen till din fastighet. Den bestäms dels av hur mycket el som överförs till dig, mätt i kilowattimmar (kWh), dels av hur mycket utrymme du tar på elnätet, det vill säga storleken på din huvudsäkring. Storleken på din huvudsäkring avgör hur många hushållsmaskiner och andra enheter som använder el, som du kan ha igång samtidigt utan att det blir överbelastning.
 Överföringsavgift
-En stor mängd el går förlorad när den ska transporteras genom elnätet, vilket även kallas för nätförluster. Därför får vi som elnätsbolag köpa in extra el för att kunna leverera den mängd vi har lovat våra kunder. Överföringsavgiften ska täcka kostnaden för nätförlusterna under transporten av el från produktionsanläggningen och till er verksamhet. Vi baserar överföringsavgiften på er uppmätta energianvändning.
+En stor mängd el går förlorad när den ska transporteras genom elnätet, vilket även kallas för nätförluster. Därför får vi som elnätsbolag köpa in extra el för att kunna leverera den mängd vi har lovat våra kunder. Överföringsavgiften ska täcka kostnaden för nätförlusterna under transporten av el från produktionsanläggningen och hem till dig. Vi baserar överföringsavgiften på din uppmätta energianvändning.
 Överföringsavgiften är baserad på marknadspriset på el, det vill säga den är spotprisbaserad och varierar från månad till månad. Överföringsavgiften speglar den verkliga kostnaden för nätförluster. När elpriset är lägre blir också överföringsavgiften lägre och motsatt vid högre elpriser. Se frågor och svar kopplat till spotprisbaserad överföringsavgift längst ner på sidan.
 Hur mycket kan överföringsavgiften variera?
 När det genomsnittliga elpriset för en månad är:
 
-50 öre per kWh blir överföringsavgiften 6,59 öre per kWh (exklusive moms).
-100 öre/kWh blir överföringsavgiften 9,18 öre per kWh (exklusive moms).
+50 öre per kWh blir överföringsavgiften 8,24 öre per kWh (inklusive moms). Det är 34 kronor per månad (inklusive moms) för ett hushåll med en energianvändning på 5 000 kWh per år.
+100 öre/kWh blir överföringsavgiften 11,48 öre per kWh (inklusive moms). Det är 48 kronor per månad (inklusive moms) för ett hushåll med en energianvändning på 5 000 kWh per år.
 
 Abonnemangsavgift
-Abonnemangsavgiften är en fast avgift som ska täcka kostnaden för ert utrymme i elnätet. Avgiftsnivån baseras på den storlek du har på din huvudsäkring i ampere (A). Vi höjer elnätsavgiften från och med den 1 januari 2025, läs ”Frågor och svar” längst ner på sidan för att få mer information. Samtliga priser i tabellen är angivna exklusive moms.
+Abonnemangsavgiften är en fast avgift som ska täcka kostnaden för ditt utrymme i elnätet. Avgiftsnivån baseras på den storlek du har på din huvudsäkring i ampere (A). Vi höjde elnätsavgiften den 1 januari 2025, läs ”Frågor och svar” längst ner på sidan för att få mer information. Samtliga priser i tabellen nedan är angivna inklusive moms.
 
 Huvudsäkring i ampere (A)
 1 juli 2024 (kronor/år)
 1 januari 2025 (kronor/år)
 
 16 A Lägenhet*
-1 613
-1 984
+2 016
+2 480
 
 16 A
-2 966
-3 500
+3 708
+4 375
 
 20 A
-4 849
-5 673
+6 061
+7 092
 
 25 A
-6 271
-7 149
+7 839
+8 936
 
 35 A
-9 327
-10 633
+11 659
+13 291
 
 50 A
-13 493
-15 382
+16 866
+19 228
 
 63 A
-15 303
-17 139
+19 129
+21 424
 
 80 A
-15 555
-18 199
+19 444
+22 749
 
 100 A
-16 854
-19 888
+21 068
+24 860
 
 125 A
-21 345
-25 187
+26 681
+31 484
 
 160 A
-28 394
-33 505
+35 493
+41 881
 
 200 A
-35 807
-42  610
+44 759
+53 263
 
-* Avgiften 16 A Lägenhet gäller endast för lägenheter i flerbostadshus. Lägenheterna ska ha 16 A mätarsäkring med anslutning till en gemensam servisledning om minst två abonnemang. Ett av dessa två abonnemang ska vara fastighetsel med normaltaxa.
-Enfas-anslutna lägenheter med mätarsäkring till och med 25 A faktureras som 16 L.
+* Avgiften 16 A Lägenhet gäller endast för lägenheter i flerbostadshus. Lägenheterna ska ha 16 A mätarsäkring med anslutning till en gemensam servisledning om minst två abonnemang. Ett av dessa två abonnemang ska vara fastighetsel med normaltaxa. Enfas-anslutna lägenheter med mätarsäkring till och med 25 A faktureras som 16 L.
 Myndighetsavgifter
 I ovanstående abonnemangsavgift ingår följande myndighetsavgifter:
 
 Elsäkerhetsavgift
-Avgiften ska täcka statens kostnader för övervakning av elsäkerheten. Elsäkerhetsavgiften är momsbefriad.
+Avgiften ska täcka statens kostnader för övervakning av elsäkerheten och den är momsbefriad.
 Elberedskapsavgift
 Avgiften ska täcka statens kostnader för planering av energiförsörjningen i kristid.
 Nätövervakningsavgift
-Ska täcka statens kostnader för att bevaka skäligheten i nätavgifterna.
+Avgiften ska täcka statens kostnader för att bevaka skäligheten i nätavgifterna.
 
 Ny prismodell med effektavgift
-Senast den 1 januari 2027 ska alla elnätsbolag i Sverige gå över från säkringsabonnemang till effektabonnemang. Elnätsavgiften kommer att innehålla en effektavgift och inte längre bero på storleken på er huvudsäkring.
-Den nya prismodellen med effektavgift sätter er som kund i förarsätet när det gäller era elnätskostnader. Den kan bli lägre om ni sprider ut eller flyttar er elanvändning till andra tider, och högre om ni använder mycket el samtidigt.
+Senast den 1 januari 2027 ska alla elnätsbolag i Sverige gå över från säkringsabonnemang till effektabonnemang. Elnätsavgiften kommer att innehålla en effektavgift och inte längre bero på storleken på din huvudsäkring.
+Den nya prismodellen med effektavgift sätter dig som kund i förarsätet när det gäller dina elnätskostnader. Den kan bli lägre om du sprider ut eller flyttar din elanvändning till andra tider, och högre om du använder mycket el samtidigt.
 https://kalmarenergi.se/el/elnat/ny-prismodell-med-effektavgift/
 Läs mer om den nya prismodellen med effektavgift
 Energiskatt
-Regeringen har beslutat att höja energiskatten från och med den 1 januari 2025 till 43,90 öre/kWh (exklusive moms) från 42,80 öre/kWh (exklusive moms).
-Allmänna avtalsvillkor
-https://kalmarenergi.se/foretag/el/avtalsvillkor/
+Regeringen höjde energiskatten från och med den 1 januari 2025 till 54,88 öre/kWh (inklusive moms) från 53,50 öre/kWh (inklusive moms).
+Avtalsvillkor
+https://kalmarenergi.se/el/villkor/
 Se samtliga avtalsvillkor
 samlade på ett och samma ställe.
-Förutom elnätsavtal bör du teckna ett elavtal med ett elhandelsföretag. Om du inte själv väljer kommer vi att anvisa ett elhandelsföretag till dig. Förhållandet mellan elnäts- och elhandelsföretag regleras genom en övervakningsplan och i en årlig rapport redovisas de åtgärder som vidtagits enligt övervakningsplanen.
+Förutom elnätsavtal ska du teckna ett elavtal med ett elhandelsföretag. Om du inte själv väljer anvisar vi dig ett elhandelsföretag. Förhållandet mellan elnäts- och elhandelsföretag regleras genom en övervakningsplan och i en årlig rapport redovisas de åtgärder som vidtagits enligt övervakningsplanen.
 Frågor och svar
 
-Höjning av elnätsavgiften januari 2025
+Höjning elnätsavgift januari 2025
 
 Varför höjer ni elnätsavgiften 2025?
 
@@ -715,27 +712,27 @@ Hur påverkar det instabila omvärldsläget elnätsavgiften?
 
 Det spända omvärldsläget sätter elsystemet i fokus och har gett nya lärdomar för energibranschen. Vi måste höja elnätets förmåga och robusthet för att uppnå det som myndigheter och samhället kräver, vilket i sin tur innebär nya arbetssätt och investeringar. Det resulterar i kostnadsökningar för elnätsverksamheten och högre elnätsavgifter.
 
-Spotprisbaserad överföringsavgift
+Överföringsavgift
 
 Vad är spotprisbaserad överföringsavgift?
 
-När el transporteras i elledningar försvinner en viss del som nätförluster. Kostnaden för nätförlusterna kopplas nu till spotpriset. eller marknadspriset för el. Då speglar överföringsavgifterna den verkliga kostnaden för nätförluster, det vill säga om elpriset är lägre blir också överföringsavgiften lägre och motsatt vid högre elpriser.
+När el transporteras i elledningar försvinner en viss del som nätförluster. Kostnaden för nätförlusterna kopplas nu till marknadspriset för el, eller spotpriset. Då speglar överföringsavgiften den verkliga kostnaden för nätförluster och blir mer rättvist fördelad. När elpriset är lägre blir också överföringsavgiften lägre och motsatt vid högre elpriser.
 
-Vad är det vi som kund betalar för i överföringsavgiften?
+Vad är det jag som kund betalar för i överföringsavgiften?
 
-Överföringsavgiften ska täcka kostnaden för transport av el från produktionsanläggningen och till er verksamhet. Avgiften beräknas utifrån er uppmätta energianvändning.
+Överföringsavgiften ska täcka kostnaden för transport av el från produktionsanläggningen och hem till dig. Avgiften beräknas utifrån din uppmätta energianvändning.
 
-Varför ska vi betala överföringsavgift?
+Varför ska jag betala överföringsavgift?
 
-Vi, som nätägare, ansvarar för att distribuera el genom elnätet, att elleveransen ska vara så säker som möjligt och att våra kunder ska ha tillgång till den mängd el som behövs, när den behövs. Det är en transportkostnad för att får elen till er verksamhet.
+Vi, som nätägare, ansvarar för att distribuera el genom elnätet, att elleveransen ska vara så säker som möjligt och att våra kunder ska ha tillgång till den mängd el som behövs, när den behövs. Det är en transportkostnad för att få elen hem till dig som kund.
 
 Varför är överföringsavgiften numera baserad på spotpriset?
 
 Idag rör sig elpriserna snabbare än de har gjort historiskt. Därför förändras prismodellerna, från stamnät, till regionnät och så småningom ner till vårt lokala elnät.
 
-Hur påverkar den spotprisbaserade överföringsavgiften oss?
+Hur påverkar den spotprisbaserade överföringsavgiften mig?
 
-Överföringsavgiften varierar nu från månad till månad, istället för att vi gör justeringar vid enstaka tillfällen under året. Hur mycket kommer den att variera? Det går inte att säga exakt eftersom det beror på hur mycket elpriset rör sig under månaden, men avgiften kommer att ha förhållandevis liten påverkan på er slutfaktura. Se exempel längre upp på sidan.
+Överföringsavgiften varierar nu från månad till månad, istället för att vi gör justeringar vid enstaka tillfällen under året. Hur mycket varierar den? Det går inte att säga exakt eftersom det beror på hur mycket elpriset rör sig under månaden, men avgiften har en förhållandevis liten påverkan på din slutfaktura. Se exempel längre upp på sidan.
 
 Hur ofta ändras överföringsavgiften?
 
@@ -743,7 +740,7 @@ Eftersom överföringsavgiften delvis är kopplad till marknadspriset för el, �
 
 Hur mycket kan överföringsavgiften ändras från månad till månad?
 
-Det går inte att säga exakt eftersom det beror på hur mycket elpriset rör sig under månaden, men avgiften kommer att ha förhållandevis liten påverkan på er slutfaktura. Se exempel längre upp på sidan.
+Det går inte att säga exakt eftersom det beror på hur mycket elpriset rör sig under månaden, men avgiften kommer att ha förhållandevis liten påverkan på din slutfaktura. Se exempel längre upp på sidan.
 
 Vad består överföringsavgiften av?
 
@@ -753,10 +750,10 @@ Hur räknar vi ut överföringsavgiften?
 
 Fast del + rörlig del x medelpriset (det sammanvägda elpriset av alla timmarna under månaden)
 
-Vi och andra verksamheter betalar olika mycket i överföringsavgift. Hur kommer det sig?
+Jag och min granne betalar olika mycket i överföringsavgift. Hur kommer det sig?
 
-Eftersom ni jämfört med andra verksamheter använder olika mycket el varje timma och den spotprisbaserade överföringsavgiften har olika pris varje timma kommer er och andras verksamheter få olika priser vid månadens slut.
+Eftersom du och din granne använder olika mycket el varje timma och den spotprisbaserade överföringsavgiften har olika pris varje timma kommer du och din granne få olika priser vid månadens slut.
 
-Om vi ändrar säkringsstorlek, påverkas överföringsavgiften också?
+Om jag ändrar säkringsstorlek, påverkas överföringsavgiften också?
 
-Nej, kostnaden för er säkring ingår i abonnemangsavgiften.
+Nej, kostnaden för din säkring ingår i abonnemangsavgiften.
