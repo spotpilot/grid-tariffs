@@ -14,11 +14,36 @@ pub static KARLSKOGA_ELNAT_AB: GridOperator = GridOperator::builder()
             .build(),
     )
     .price_lists(&[PriceList::builder()
-        .from_date(9999, 12, 31)
+        .from_date(2025, 1, 1)
         .monthly_fee(Cost::Unverified)
+        .monthly_production_fee(Cost::fuses(&[
+            (16, Money::new(2375, 0).divide_by(12)),
+            (20, Money::new(3438, 0).divide_by(12)),
+            (25, Money::new(5875, 0).divide_by(12)),
+            (35, Money::new(8355, 0).divide_by(12)),
+            (50, Money::new(11805, 0).divide_by(12)),
+            (63, Money::new(15299, 0).divide_by(12)),
+        ]))
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
-        .transfer_fee(TransferFee::Unverified)
-        .power_tariff(PowerTariff::Unverified)
+        .transfer_fee(TransferFee::fixed_subunit(18.90))
+        .power_tariff(PowerTariff::new(
+            TariffCalculationMethod::PeakHour,
+            CostPeriods::new(&[
+                CostPeriod::builder()
+                    .load(Low)
+                    .fixed_cost(51, 45)
+                    .months(January, December)
+                    .build(),
+                CostPeriod::builder()
+                    .load(High)
+                    .fixed_cost(87, 54)
+                    .months(November, March)
+                    .exclude_weekends()
+                    .exclude_holidays(Country::SE)
+                    .hours(6, 18)
+                    .build(),
+            ]),
+        ))
         .build()])
     .build();
