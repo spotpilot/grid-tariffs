@@ -1,4 +1,9 @@
 
+Driftinformation
+
+/ovrigt/informationsbanner/viktig-information/2025-09-26-problem-att-logga-in-pa-minasidor-med-bankid
+Just nu är det problem med att logga in på Mina Sidor med BankID via mobil. Läs här för tips!
+
 /
 Start
 
