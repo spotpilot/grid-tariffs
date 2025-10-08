@@ -64,12 +64,12 @@ Inkl. moms
 
 Exkl. moms
 
-Säkringsstorlek
+Abonnemangsavgift
 
 Årskostnad
 
 16 ampere, lägenhet
-1450 kr
+1 450 kr
 1 160 kr
 
 16 ampere
@@ -117,8 +117,8 @@ Säkringsstorlek
 51 564 kr
 
 Elöverföringsavgift
-15,7 öre/kWh
 12,56 öre/kWh
+15,7 öre/kWh
 
 Energiskatt 2025
 54,88 öre/kWh
@@ -563,17 +563,21 @@ Nätnytta, ersättning
 /elnat/elnatsavtal/priser/sarskilda-villkor-elnat#mikroproduktion
 Särskilda villkor för mikroproduktion
 Ersättning för nätnytta och avgift småskalig produktion
-Den kund som själv producerar el får ersättning för så kallad nätnytta. Ersättningen gäller produktion högre än 43,5 kW (63 A) och maximalt 1 500 kW. Vi tar ut en fast avgift för administration och mätning, om du inte har ett konsumtionsabonnemang i samma anslutningspunkt.
+Den kund som själv producerar el får ersättning för så kallad nätnytta. Ersättningen gäller produktion högre än 43,5 kW och maximalt 1 500 kW. Vi tar ut en fast avgift för administration och mätning, om du inte har ett konsumtionsabonnemang i samma anslutningspunkt.
 
-Ersättning för nätnytta och avgift småskalig produktion lågspänning
+Ersättning för nätnytta och avgift småskalig produktion
 
 Tjänst
 Pris, inkl. moms
 Pris, exkl. moms
 
-Nätnytta, ersättning
+Nätnytta, ersättning lågspänning
 5,5 öre/kWh
 4,4 öre/kWh
+
+Nätnytta, ersättning högspänning
+3,875 öre/kWh
+3,1 öre/kWh
 
 Fast avgift
 1 225 kr/år
