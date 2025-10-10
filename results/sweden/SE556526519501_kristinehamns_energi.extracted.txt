@@ -31,6 +31,7 @@ Rörlig elöverföringsavgift kr/kWh inkl moms
 91,25
 0,1275
 
+Observera att övergången till kvartspriser som trädde i kraft den 1 oktober 2025 INTE berör effektavgiften på ditt elnätsavtal. Effektavgiften bestäms fortfarande av timmedeleffekten.
 *
 Effektavgift per månad räknas ut genom att vi tar det högsta timmedelvärdet föregående månad gånger effektavgiften. Vi räknar alltså bara den timme under föregående månad som anläggningen har använt flest kWh. Om det högsta värdet är 4 kW så blir effektavgiften fr o m 1 januari 2025 43,75 kr * 4 = 175 kr inkl moms.
 **Med höglasttid menas november-mars, vardagar 07.00-17.00. De storhelger som kan infalla på vardagar (t ex julafton, juldagen, annandagen, nyårsafton, nyårsdagen, trettondagen, långfredagen, annandag påsk) räknas inte som vardag och därmed räknas inga värden från dessa dagar som höglastvärden.
