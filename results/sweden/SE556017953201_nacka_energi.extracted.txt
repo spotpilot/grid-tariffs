@@ -5,8 +5,7 @@ Höglasttid
 Låglasttid =
 1 april-31 oktober, alla dagar dygnet runt. 1 november-31 mars gäller låglast på vardagar kl. 22.00-06.00 (nattetid) och på helger.
 Effektavgift
-= snittet av dina tre högsta timmedleleffekttimmar per månad. Läs mer under tabellen.
-
+= snittet av dina tre högsta timmedeleffektvärden per månad. Läs mer under tabellen.
 Nätpris
 Fast nätavgift
 kr/år
@@ -62,8 +61,6 @@ Hur vet jag vilken huvudsäkring jag har?
 Bor du i lägenhet har du 16A eller 20A men betalar samma nätavgift oavsett vilken - se rad 1 i tabellen.
 Bor du i villa har du vanligen 16A, 20A eller 25A men det finns villor som har ännu större huvudsäkringar.
 Om du är osäker på vilken huvudsäkring du har kan du se det på din faktura eller kontakta oss.
-/privat/elnatspriser-1-juli--2025/har-du-ratt-sakring
-Har du rätt säkring? Läs mer här
 
 Effektavgiften
 Effektavgiften debiteras på genomsnittet av dina tre högsta timmedeleffektvärden per månad.
@@ -119,7 +116,7 @@ Ja
 Nej
 
 Publicerad:
-22 Maj 2025
+7 Oktober 2025
 |
 Senast uppdaterad:
-24 Juni 2025
+7 Oktober 2025
