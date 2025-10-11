@@ -46,8 +46,8 @@ Du som elnätskund
 /sidowebbplatser/miljoteknik/elnat/energitips.html
 Energitips
 
-/sidowebbplatser/miljoteknik/elnat/anslut-dig-som-ny-kund.html
-Anslut dig som ny kund
+/sidowebbplatser/miljoteknik/elnat/for-elinstallatoren.html
+För elinstallatören
 
 /sidowebbplatser/miljoteknik/elnat/gatubelysning.html
 Gatubelysning
@@ -78,90 +78,19 @@ Småskalig kraftvärme
 
 /sidowebbplatser/miljoteknik/renhallning.html
 Renhållning
-
-/sidowebbplatser/miljoteknik/renhallning/kommunen-tar-over-insamling-av-forpackningar.html
-Kommunen tar över insamling av förpackningar
-
-/sidowebbplatser/miljoteknik/renhallning/vara-atervinningscentraler.html
-Våra återvinningscentraler
-
-/sidowebbplatser/miljoteknik/renhallning/vara-atervinningsstationer.html
-Våra återvinningsstationer
-
-/sidowebbplatser/miljoteknik/renhallning/nar-hamtas-mitt-avfall.html
-När hämtas mitt avfall?
-
-/sidowebbplatser/miljoteknik/renhallning/sortering--atervinning--info.html
-Sortering/ Återvinning/ Info
-
-/sidowebbplatser/miljoteknik/renhallning/abonnemang--priser--villkor.html
-Abonnemang/ Priser/ Villkor
-
-/sidowebbplatser/miljoteknik/renhallning/tjanster.html
-Tjänster
-
-/sidowebbplatser/miljoteknik/renhallning/e-tjanster-blanketter.html
-E-tjänster/Blanketter
-
-/sidowebbplatser/miljoteknik/renhallning/material-for-skolor.html
-Material för skolor
+#renderTree( $item.tree )
 
 /sidowebbplatser/miljoteknik/vatten--avlopp.html
 Vatten & Avlopp
-
-/sidowebbplatser/miljoteknik/vatten--avlopp/priser-villkor-for-va.html
-Priser/Villkor för VA
-
-/sidowebbplatser/miljoteknik/vatten--avlopp/blanketter-vatten-och-avlopp.html
-Blanketter vatten och avlopp
-
-/sidowebbplatser/miljoteknik/vatten--avlopp/ditt-vatten.html
-Ditt vatten
-
-/sidowebbplatser/miljoteknik/vatten--avlopp/va-utbyggnad.html
-VA-utbyggnad
-
-/sidowebbplatser/miljoteknik/vatten--avlopp/vattenmatare.html
-Vattenmätare
-
-/sidowebbplatser/miljoteknik/vatten--avlopp/uppstromsarbete.html
-Uppströmsarbete
+#renderTree( $item.tree )
 
 /sidowebbplatser/miljoteknik/kundservice.html
 Kundservice
-
-/sidowebbplatser/miljoteknik/kundservice/kontakta-oss.html
-Kontakta oss
-
-/sidowebbplatser/miljoteknik/kundservice/betalningsalternativ.html
-Betalningsalternativ
-
-/sidowebbplatser/miljoteknik/kundservice/flyttanmalan-och-avtal.html
-Flyttanmälan och Avtal
-
-/sidowebbplatser/miljoteknik/kundservice/priser-villkor.html
-Priser/Villkor
-
-/sidowebbplatser/miljoteknik/kundservice/far-du-vara-sms.html
-Får du våra sms?
-
-/sidowebbplatser/miljoteknik/kundservice/driftstorningar.html
-Driftstörningar
+#renderTree( $item.tree )
 
 /sidowebbplatser/miljoteknik/om-oss.html
 Om oss
-
-/sidowebbplatser/miljoteknik/om-oss/mal-och-vision.html
-Mål och vision
-
-/sidowebbplatser/miljoteknik/om-oss/bolagsstyrelse.html
-Bolagsstyrelse
-
-/sidowebbplatser/miljoteknik/om-oss/organisation.html
-Organisation
-
-/sidowebbplatser/miljoteknik/om-oss/upphandlingar.html
-Upphandlingar
+#renderTree( $item.tree )
 
 https://kundforum.miljoteknik.ronneby.se/
 Frågor & Svar
