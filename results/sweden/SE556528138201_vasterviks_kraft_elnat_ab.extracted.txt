@@ -2,23 +2,6 @@
 Priser
 I ditt nätavtal ingår de kostnader du betalar för att få el. Pengarna används till exempel till distribution, drift och underhåll av elnätet.
 
-Stäng informations-popup
-
-Erbjudande - spara 315 kronor!
-Teckna elavtal innan 30 september
-
-Just nu bjuder vi på den fasta avgiften under första året (värde 315 kr)
-Dessutom får du alltid:
-
-100 % förnybar el
-Schyssta villkor
-Möjlighet att välja mellan fast eller rörligt avtal
-Lokal kundservice
-Tryggt elavtal där vinsten stannar i kommunen
-
-/tjanster/elavtal/teckna-elavtal/
-Läs mer och teckna elavtal
-
 Priser
 I ditt nätavtal ingår de kostnader du betalar för att få el. Pengarna används till exempel till distribution, drift och underhåll av elnätet.
 
@@ -61,7 +44,7 @@ Elöverföring 31,40 öre/kWh. Energiskatt 54,88 öre/kWh.
 Priser för utskrift, pdf
 Tidstariff nät
 
-#readMore-73a76d55-bf5f-4ba2-993a-2785c2f5adc3
+#readMore-5ab64397-0bb6-4272-936e-7cf4343b17ae
 Läs mer
 
 2025
@@ -145,7 +128,7 @@ Effekttariffer – så funkar det
 Senast den 1 januari 2027 ska alla elnätsföretag ha infört en ny prismodell som inkluderar en effektavgift. Syftet är att elnätet ska användas mer effektivt. Den nya prismodellen innebär att elnäts­kostnaden kan bli lägre om du sprider ut eller flyttar din elanvändning och högre om du använder mycket el samtidigt.
 https://www.energiforetagen.se/energifakta/elsystemet/elnatet--distribution-av-el/effekttarifftariffer/
 Vanliga frågor och svar om effekttariffer - Energiföretagen Sverige
-https://ei.se/konsument/el/elnatsavgiften-och-elnatsreglering/effektavgift-effekttariff
+https://ei.se/konsument/el/elnatsavgiften-och-elnatsreglering/effektavgifter
 Läs mer om effektavgift på Energimarknadsinspektionens hemsida
 
 Skillnaden mellan energi och effekt
