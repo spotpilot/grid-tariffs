@@ -15,8 +15,7 @@ pub static KARLSKOGA_ELNAT_AB: GridOperator = GridOperator::builder()
     )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
-        .monthly_fee(Cost::Unverified)
-        .monthly_production_fee(Cost::fuses(&[
+        .monthly_fee(Cost::fuses(&[
             (16, Money::new(2375, 0).divide_by(12)),
             (20, Money::new(3438, 0).divide_by(12)),
             (25, Money::new(5875, 0).divide_by(12)),
