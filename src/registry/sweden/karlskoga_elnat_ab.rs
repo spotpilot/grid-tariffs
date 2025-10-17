@@ -29,11 +29,7 @@ pub static KARLSKOGA_ELNAT_AB: GridOperator = GridOperator::builder()
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::PeakHour,
             CostPeriods::new(&[
-                CostPeriod::builder()
-                    .load(Low)
-                    .fixed_cost(51, 45)
-                    .months(January, December)
-                    .build(),
+                CostPeriod::builder().load(Base).fixed_cost(51, 45).build(),
                 CostPeriod::builder()
                     .load(High)
                     .fixed_cost(87, 54)
