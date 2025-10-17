@@ -36,7 +36,9 @@ pub static KARLSKOGA_ELNAT_AB: GridOperator = GridOperator::builder()
                     .months(November, March)
                     .exclude_weekends()
                     .exclude_holidays(Country::SE)
-                    .hours(6, 18)
+                    // https://www.karlskogaenergi.se/Vara-tjanster/elnat/fragor--svar/
+                    // "mellan klockan 06.00-18.00"
+                    .hours(6, 17)
                     .build(),
             ]),
         ))
