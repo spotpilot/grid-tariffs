@@ -25,7 +25,10 @@ pub static SJOBO_ELNAT_AB: GridOperator = GridOperator::builder()
         ]))
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
-        .transfer_fee(TransferFee::Unverified)
+        // Approximated from available data on their website. Not very correct. But diff is ~1 öre/kWh for given example data.
+        //   "Den nya prismodellen innebär att överföringsavgiften kommer att variera månad för månad delvis beroende på genomsnittet av spotpris under innevarande månad.
+        //    Överföringsavgift fr.o.m. 2024 = (Överföringsavgift regionnätet + nätförluster + nätnyttokostnad + månadsjustering) x din elanvändning."
+        .transfer_fee(TransferFee::spot_price_variable(11.556, 0.013, true))
         .power_tariff(PowerTariff::NotImplemented)
         .build()])
     .build();
