@@ -14,11 +14,18 @@ pub static FALKENBERG_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
             .build(),
     )
     .price_lists(&[PriceList::builder()
-        .from_date(9999, 12, 31)
-        .monthly_fee(Cost::Unverified)
+        .from_date(2025, 1, 1)
+        .monthly_fee(Cost::fuses(&[
+            (16, Money::new(5100, 0).divide_by(12)),
+            (20, Money::new(7800, 0).divide_by(12)),
+            (25, Money::new(9825, 0).divide_by(12)),
+            (35, Money::new(14475, 0).divide_by(12)),
+            (50, Money::new(19950, 0).divide_by(12)),
+            (63, Money::new(24900, 0).divide_by(12)),
+        ]))
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
-        .transfer_fee(TransferFee::Unverified)
-        .power_tariff(PowerTariff::Unverified)
+        .transfer_fee(TransferFee::spot_price_variable(9.16, 5.11, false))
+        .power_tariff(PowerTariff::NotImplemented)
         .build()])
     .build();
