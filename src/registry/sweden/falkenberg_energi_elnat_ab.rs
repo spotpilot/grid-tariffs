@@ -25,7 +25,7 @@ pub static FALKENBERG_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
         ]))
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
-        .transfer_fee(TransferFee::Unverified)
+        .transfer_fee(TransferFee::spot_price_variable(9.16, 5.11, false))
         .power_tariff(PowerTariff::NotImplemented)
         .build()])
     .build();
