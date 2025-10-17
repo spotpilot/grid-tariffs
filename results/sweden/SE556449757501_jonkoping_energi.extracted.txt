@@ -333,13 +333,19 @@ På Jönköping Energi Nät ser till att du har el hemma och övervakar, underh�
 /privat/elnat/elnat
 Läs mer om elnätet
 
+Kontakta kundcenter
+E-post:
+mailto:kundservice@jonkopingenergi.se
+kundservice@jonkopingenergi.se
+Telefon:
+tel:036-10 82 20
+036-10 82 20
+/privat/kundcenter/kundcenter
+Skicka fråga
 Postadress
-Jönköping Energi
-Box 5150
-550 05 Jönköping
+Jönköping Energi. Box 5150, 550 05 Jönköping
 Besöksadress
-Kjellbergsgatan 3
-554 54 Jönköping
+Kjellbergsgatan 3, 554 54 Jönköping
 
 Hitta snabbt
 /foretag/installator/for-installatorer
