@@ -9,7 +9,7 @@ pub static LJUNGBY_ENERGINAT_AB: GridOperator = GridOperator::builder()
     .main_fuses(MainFuseSizes::new_range(16, 63))
     .links(Links::builder().fee_info_default(FEE_LINK).build())
     .price_lists(&[PriceList::builder()
-        .from_date(2024, 1, 1)
+        .from_date(2025, 1, 1)
         .monthly_fee(Cost::fuses(&[
             (16, Money::new(3174, 0).divide_by(12)),
             (20, Money::new(4564, 0).divide_by(12)),
