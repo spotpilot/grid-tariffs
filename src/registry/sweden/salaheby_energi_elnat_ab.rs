@@ -36,7 +36,7 @@ pub static SALAHEBY_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
                         (35, 63, Money::new(132, 0)),
                         (80, 200, Money::new(130, 0)),
                     ]))
-                    .hours(7, 19)
+                    .hours(7, 18)
                     .months(November, March)
                     .exclude_weekends()
                     .exclude_holidays(Country::SE)
@@ -48,7 +48,7 @@ pub static SALAHEBY_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
                         (35, 63, Money::new(52, 0)),
                         (80, 200, Money::new(43, 0)),
                     ]))
-                    .hours(7, 19)
+                    .hours(7, 18)
                     .months(April, October)
                     .exclude_weekends()
                     .exclude_holidays(Country::SE)
