@@ -46,8 +46,8 @@ Du som elnätskund
 /sidowebbplatser/miljoteknik/elnat/energitips.html
 Energitips
 
-/sidowebbplatser/miljoteknik/elnat/anslut-dig-som-ny-kund.html
-Anslut dig som ny kund
+/sidowebbplatser/miljoteknik/elnat/for-elinstallatoren.html
+För elinstallatören
 
 /sidowebbplatser/miljoteknik/elnat/gatubelysning.html
 Gatubelysning
