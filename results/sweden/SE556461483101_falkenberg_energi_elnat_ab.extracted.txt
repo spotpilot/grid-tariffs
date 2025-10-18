@@ -4,7 +4,7 @@ Avgiften består av en abonnemangsavgift och en rörlig elöverföringsavgift sa
 Abonnemangsavgift
 Den fasta abonnemangsavgiften baseras på vilken storlek på huvudsäkring du har. Abonnemangsavgiften täcker kostnader för investeringar, drift, underhåll och service.
 Elöverföringsavgift
-Elöverföringsavgiften basers på hur mycket el du förbrukat och består av en fast del per kWh och en rörlig del per kWh som sätts utifrån timpriset på elbörsen (från 1 oktober utifrån kvartspriset). Elöverföringsavgiften täcker endast våra kostnader för överföring från överliggande nät, ersättning till producenter för inmatad el samt nätförluster i vårt eget nät.
+Elöverföringsavgiften basers på hur mycket el du förbrukat och består av en fast del per kWh och en rörlig del per kWh som sätts utifrån kvartspriset på elbörsen. Elöverföringsavgiften täcker endast våra kostnader för överföring från överliggande nät, ersättning till producenter för inmatad el samt nätförluster i vårt eget nät.
 Energiskatt
 Energiskatten basers på hur mycket el du använder. Det är ditt elnätsföretag som fakturerar energiskatten som sedan redovisar och betalar pengarna vidare till Skatteverket.
 Myndighetsavgift
@@ -68,3 +68,11 @@ Nätövervakning (Energimyndigheten)
 Förklaring av myndighetsavgifterna
 
 Myndighetsavgifterna består av tre delar som finansierar olika statliga myndigheters arbete inom elområdet. Myndighetsavgifterna debiteras under första kvartalet på året till dem som innehaft elabonnemang för anläggning den 31 december föregående år.
+
+Nedladdningsbar prislista
+
+https://www.falkenberg-energi.se/wp-content/uploads/2025/05/Nattariff-04-kV-Sakring-2025-01-01-1.pdf
+
+Nätavgifter säkringsabonnemang 2025
+
+170 KB
