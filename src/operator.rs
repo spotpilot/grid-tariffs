@@ -81,6 +81,15 @@ impl GridOperator {
         }
     }
 
+    pub fn get_by_vat_id(country: Country, vat_id: &str) -> Option<&'static Self> {
+        match country {
+            Country::SE => sweden::GRID_OPERATORS
+                .iter()
+                .find(|o| o.vat_number == vat_id)
+                .copied(),
+        }
+    }
+
     pub fn all() -> Vec<&'static Self> {
         sweden::GRID_OPERATORS.to_vec()
     }
