@@ -68,9 +68,7 @@ pub enum TariffCalculationMethod {
         peak: u8,
         base: u8,
     },
-    /// Only count the max peak hour of the month
-    PeakHour,
-    // Count one peak hour per month, per specified load type
+    // Count one peak hour per mont0h, per specified load type
     PeakHours(&'static [LoadType]),
     /// Daytime and nighttime are calculated with different values
     // TODO: How can this be extracted from CostPeriods...?!

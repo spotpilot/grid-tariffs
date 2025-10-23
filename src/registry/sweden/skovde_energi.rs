@@ -43,7 +43,7 @@ pub static SKOVDE_ENERGI: GridOperator = GridOperator::builder()
                 .build(),
         ])))
         .power_tariff(PowerTariff::new(
-            TariffCalculationMethod::PeakHour,
+            TariffCalculationMethod::AverageHours(1),
             CostPeriods::new(&[CostPeriod::builder()
                 .load(High)
                 .cost(Cost::fuse_range(&[

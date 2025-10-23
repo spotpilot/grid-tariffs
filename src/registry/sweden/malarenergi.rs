@@ -43,7 +43,7 @@ pub static MALARENERGI: GridOperator = GridOperator::builder()
             ]))
             .transfer_fee(TransferFee::fixed_subunit(36.25))
             .power_tariff(PowerTariff::new(
-                TariffCalculationMethod::PeakHour,
+                TariffCalculationMethod::AverageHours(1),
                 CostPeriods::new(&[CostPeriod::builder()
                     .load(High)
                     .fixed_cost(18, 75)
@@ -58,7 +58,7 @@ pub static MALARENERGI: GridOperator = GridOperator::builder()
             .monthly_fee(Cost::fixed(896, 00))
             .transfer_fee(TransferFee::fixed(0, 9))
             .power_tariff(PowerTariff::new(
-                TariffCalculationMethod::PeakHour,
+                TariffCalculationMethod::AverageHours(1),
                 CostPeriods::new(&[CostPeriod::builder()
                     .load(High)
                     .cost(Cost::fixed(69, 68).add_vat(Country::SE))

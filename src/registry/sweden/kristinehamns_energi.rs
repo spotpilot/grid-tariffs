@@ -20,7 +20,7 @@ pub static KRISTINEHAMNS_ENERGI: GridOperator = GridOperator::builder()
         .feed_in_revenue(FeedInRevenue::Unverified)
         .transfer_fee(TransferFee::fixed_subunit(12.75))
         .power_tariff(PowerTariff::new(
-            TariffCalculationMethod::PeakHour,
+            TariffCalculationMethod::AverageHours(1),
             CostPeriods::new(&[
                 CostPeriod::builder().load(Base).fixed_cost(43, 75).build(),
                 CostPeriod::builder()

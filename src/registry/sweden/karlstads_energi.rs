@@ -23,7 +23,7 @@ pub static KARLSTADS_ENERGI: GridOperator = GridOperator::builder()
         .feed_in_revenue(FeedInRevenue::Unverified)
         .transfer_fee(TransferFee::Simple(Cost::fixed_subunit(9.75)))
         .power_tariff(PowerTariff::new(
-            TariffCalculationMethod::PeakHour,
+            TariffCalculationMethod::AverageHours(1),
             // NOTE: The pricing is actually the same for 16-63A as >63A if you account for VAT vs without VAT
             CostPeriods::new(&[
                 CostPeriod::builder().load(Base).fixed_cost(43, 55).build(),

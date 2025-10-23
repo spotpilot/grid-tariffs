@@ -15,7 +15,7 @@ pub static DEGERFORS_ELNAT_AB: GridOperator = GridOperator::builder()
         .feed_in_revenue(FeedInRevenue::Unverified)
         .transfer_fee(TransferFee::fixed_subunit(17.5))
         .power_tariff(PowerTariff::new(
-            TariffCalculationMethod::PeakHour,
+            TariffCalculationMethod::AverageHours(1),
             CostPeriods::new(&[
                 CostPeriod::builder().load(Base).fixed_cost(56, 25).build(),
                 CostPeriod::builder()

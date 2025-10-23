@@ -17,7 +17,7 @@ pub static PARTILLE_ENERGI: GridOperator = GridOperator::builder()
         .feed_in_revenue(FeedInRevenue::Unverified)
         .transfer_fee(TransferFee::fixed_subunit(30.50))
         .power_tariff(PowerTariff::new(
-            TariffCalculationMethod::PeakHour,
+            TariffCalculationMethod::AverageHours(1),
             CostPeriods::new(&[CostPeriod::builder().load(Base).fixed_cost(32, 50).build()]),
         ))
         .build()])

@@ -40,7 +40,7 @@ pub static BJARKE_ENERGI: GridOperator = GridOperator::builder()
                 .build(),
         ])))
         .power_tariff(PowerTariff::new(
-            TariffCalculationMethod::PeakHour,
+            TariffCalculationMethod::AverageHours(1),
             CostPeriods::new(&[
                 CostPeriod::builder()
                     .load(Low)
