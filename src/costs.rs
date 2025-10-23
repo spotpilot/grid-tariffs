@@ -260,6 +260,10 @@ impl CostPeriod {
         self.load
     }
 
+    pub const fn power_multiplier(&self) -> f64 {
+        1. / self.divide_kw_by as f64
+    }
+
     pub fn matches(&self, timestamp: DateTime<Tz>) -> bool {
         for include in self.include_period_types() {
             if !include.matches(timestamp) {
