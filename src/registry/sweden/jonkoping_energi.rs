@@ -29,15 +29,16 @@ pub static JONKOPING_ENERGI: GridOperator = GridOperator::builder()
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::AverageDaysDifferentiated { base: 2, peak: 2 },
             CostPeriods::new(&[
-                CostPeriod::builder().load(Base).fixed_cost(27, 70).build(),
                 CostPeriod::builder()
                     .load(High)
-                    .cost(Cost::fixed(65, 66))
+                    // Includes base cost
+                    .cost(Cost::fixed(93, 36))
                     .months(November, March)
                     .hours(7, 20)
                     .exclude_weekends()
                     .exclude_holidays(Country::SE)
                     .build(),
+                CostPeriod::builder().load(Low).fixed_cost(27, 70).build(),
             ]),
         ))
         .build()])

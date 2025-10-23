@@ -22,15 +22,16 @@ pub static FALBYGDENS_ENERGI: GridOperator = GridOperator::builder()
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::AverageDaysDifferentiated { base: 1, peak: 1 },
             CostPeriods::new(&[
-                CostPeriod::builder().load(Base).fixed_cost(39, 80).build(),
                 CostPeriod::builder()
                     .load(High)
-                    .fixed_cost(57, 36)
+                    // Includes base cost 39,80
+                    .fixed_cost(97, 16)
                     .months(November, March)
                     .hours(7, 19)
                     .exclude_weekends()
                     .exclude_holidays(Country::SE)
                     .build(),
+                CostPeriod::builder().load(Low).fixed_cost(39, 80).build(),
             ]),
         ))
         .build()])

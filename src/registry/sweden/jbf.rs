@@ -23,23 +23,23 @@ pub static JBF: GridOperator = GridOperator::builder()
             TariffCalculationMethod::AverageHours(3),
             CostPeriods::new(&[
                 CostPeriod::builder()
-                    .load(Base)
-                    .cost(Cost::fuse_range(&[
-                        (16, 63, Money::new(44, 0)),
-                        (80, 1500, Money::new(48, 0)),
-                    ]))
-                    .build(),
-                CostPeriod::builder()
                     .load(High)
                     .cost(Cost::fuse_range(&[
-                        (16, 25, Money::new(106, 0)),
-                        (35, 63, Money::new(210, 0)),
-                        (80, 1500, Money::new(226, 0)),
+                        (16, 25, Money::new(44 + 106, 0)),
+                        (35, 63, Money::new(44 + 210, 0)),
+                        (80, 1500, Money::new(48 + 226, 0)),
                     ]))
                     .months(November, March)
                     .hours(6, 22)
                     .exclude_weekends()
                     .exclude_holidays(Country::SE)
+                    .build(),
+                CostPeriod::builder()
+                    .load(Low)
+                    .cost(Cost::fuse_range(&[
+                        (16, 63, Money::new(44, 0)),
+                        (80, 1500, Money::new(48, 0)),
+                    ]))
                     .build(),
             ]),
         ))

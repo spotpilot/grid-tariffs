@@ -17,15 +17,16 @@ pub static DEGERFORS_ELNAT_AB: GridOperator = GridOperator::builder()
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::AverageHours(1),
             CostPeriods::new(&[
-                CostPeriod::builder().load(Base).fixed_cost(56, 25).build(),
                 CostPeriod::builder()
                     .load(High)
                     .months(November, March)
                     .hours(7, 18)
-                    .fixed_cost(43, 75)
+                    // base + high = 56,25 + 43,75
+                    .fixed_cost(100, 0)
                     .exclude_weekends()
                     .exclude_holidays(Country::SE)
                     .build(),
+                CostPeriod::builder().load(Low).fixed_cost(56, 25).build(),
             ]),
         ))
         .build()])

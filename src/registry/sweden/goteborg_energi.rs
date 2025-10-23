@@ -21,7 +21,7 @@ pub static GOTEBORG_ENERGI: GridOperator = GridOperator::builder()
         .transfer_fee(TransferFee::fixed_subunit(25.))
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::AverageDays(3),
-            CostPeriods::new(&[CostPeriod::builder().load(Base).fixed_cost(45, 0).build()]),
+            CostPeriods::new(&[CostPeriod::builder().load(Low).fixed_cost(45, 0).build()]),
         ))
         .build()])
     .build();

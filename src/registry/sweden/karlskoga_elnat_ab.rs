@@ -29,10 +29,9 @@ pub static KARLSKOGA_ELNAT_AB: GridOperator = GridOperator::builder()
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::AverageHours(1),
             CostPeriods::new(&[
-                CostPeriod::builder().load(Base).fixed_cost(51, 45).build(),
                 CostPeriod::builder()
                     .load(High)
-                    .fixed_cost(87, 54)
+                    .fixed_cost(138, 99)
                     .months(November, March)
                     .exclude_weekends()
                     .exclude_holidays(Country::SE)
@@ -40,6 +39,7 @@ pub static KARLSKOGA_ELNAT_AB: GridOperator = GridOperator::builder()
                     // "mellan klockan 06.00-18.00"
                     .hours(6, 17)
                     .build(),
+                CostPeriod::builder().load(Low).fixed_cost(51, 45).build(),
             ]),
         ))
         .build()])

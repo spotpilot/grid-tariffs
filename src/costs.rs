@@ -291,8 +291,6 @@ impl CostPeriod {
 #[derive(Debug, Clone, Copy, Serialize)]
 #[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
 pub enum LoadType {
-    /// Base load. Always counts
-    Base,
     /// Low load period. Commonly counts during night hours and the summer half of the year
     Low,
     /// High load period. Commonly counts during daytime hours and the winter half of the year
@@ -659,23 +657,5 @@ mod tests {
         assert!(!period.matches(timestamp_weekend));
         assert!(!period.matches(timestamp_holiday));
         assert!(!period.matches(timestamp_summer));
-    }
-
-    #[test]
-    fn cost_period_matches_base_load() {
-        // Base load period with no restrictions
-        let period = CostPeriod::builder()
-            .load(LoadType::Base)
-            .fixed_cost(5, 0)
-            .build();
-
-        // Should match any time
-        let timestamp1 = Stockholm.with_ymd_and_hms(2025, 1, 1, 0, 0, 0).unwrap();
-        let timestamp2 = Stockholm.with_ymd_and_hms(2025, 7, 15, 23, 59, 59).unwrap();
-        let timestamp3 = Stockholm.with_ymd_and_hms(2025, 1, 4, 12, 0, 0).unwrap();
-
-        assert!(period.matches(timestamp1));
-        assert!(period.matches(timestamp2));
-        assert!(period.matches(timestamp3));
     }
 }
