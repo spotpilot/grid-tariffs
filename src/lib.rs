@@ -16,14 +16,14 @@ use indexmap::IndexMap;
 use serde::Serialize;
 
 pub use crate::{
-    costs::{Cost, CostPeriods, CostPeriodsSimple},
+    costs::{Cost, CostPeriod, CostPeriods, CostPeriodsSimple},
     country::{Country, CountryInfo},
     feed_in_revenue::{FeedInRevenue, FeedInRevenueSimplified},
     language::Language,
     links::*,
     money::Money,
     operator::{GridOperator, GridOperatorSimplified},
-    power_tariffs::{PowerTariff, PowerTariffSimplified},
+    power_tariffs::{PowerTariff, PowerTariffSimplified, TariffCalculationMethod},
     price_list::PriceList,
     tax_reductions::*,
     taxes::*,

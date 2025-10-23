@@ -1,6 +1,6 @@
 use std::slice::Iter;
 
-use chrono::DateTime;
+use chrono::{DateTime, Datelike};
 use chrono_tz::Tz;
 use serde::{Serialize, Serializer, ser::SerializeSeq};
 
@@ -150,7 +150,7 @@ impl CostPeriods {
         Self { periods }
     }
 
-    pub(super) fn iter(&self) -> Iter<'_, CostPeriod> {
+    pub fn iter(&self) -> Iter<'_, CostPeriod> {
         self.periods.iter()
     }
 
@@ -189,7 +189,7 @@ impl CostPeriodsSimple {
 
 #[derive(Debug, Clone, Serialize)]
 #[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
-pub(super) struct CostPeriod {
+pub struct CostPeriod {
     cost: Cost,
     load: LoadType,
     #[serde(serialize_with = "helpers::skip_nones")]
@@ -260,12 +260,19 @@ impl CostPeriod {
         self.load
     }
 
-    pub fn matches(&self, _timestamp: DateTime<Tz>) -> bool {
-        for _period_type in self.include_period_types() {
-            // TODO: self-contain PeriodType, i.e. WinterNights becomes Months::new() + Hours::new()
-            // period_type.matches(timestamp)
+    pub fn matches(&self, timestamp: DateTime<Tz>) -> bool {
+        for include in self.include_period_types() {
+            if !include.matches(timestamp) {
+                return false;
+            }
         }
-        todo!()
+
+        for exclude in self.exclude_period_types() {
+            if exclude.matches(timestamp) {
+                return false;
+            }
+        }
+        true
     }
 
     fn include_period_types(&self) -> Vec<Include> {
@@ -397,23 +404,6 @@ impl CostPeriodBuilder {
     }
 }
 
-#[cfg(test)]
-mod tests {
-    use super::Cost;
-    use crate::money::Money;
-
-    #[test]
-    fn fuse_based_cost() {
-        const FUSE_BASED: Cost = Cost::fuse_range(&[
-            (16, 35, Money::new(54, 0)),
-            (35, u16::MAX, Money::new(108, 50)),
-        ]);
-        assert_eq!(FUSE_BASED.cost_for(10, 0), None);
-        assert_eq!(FUSE_BASED.cost_for(25, 0), Some(Money::new(54, 0)));
-        assert_eq!(FUSE_BASED.cost_for(200, 0), Some(Money::new(108, 50)));
-    }
-}
-
 #[derive(Debug, Clone, Copy, Serialize)]
 #[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
 pub(super) enum Include {
@@ -428,6 +418,14 @@ impl Include {
             Include::Months(months) => months.translate(language),
             Include::Month(month) => month.translate(language).into(),
             Include::Hours(hours) => hours.translate(language),
+        }
+    }
+
+    fn matches(&self, timestamp: DateTime<Tz>) -> bool {
+        match self {
+            Include::Months(months) => months.matches(timestamp),
+            Include::Month(month) => month.matches(timestamp),
+            Include::Hours(hours) => hours.matches(timestamp),
         }
     }
 }
@@ -455,5 +453,229 @@ impl Exclude {
                 },
             },
         }
+    }
+
+    fn matches(&self, timestamp: DateTime<Tz>) -> bool {
+        match self {
+            Exclude::Weekends => (6..=7).contains(&timestamp.weekday().number_from_monday()),
+            Exclude::Holidays(country) => country.is_holiday(timestamp.date_naive()),
+        }
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use crate::defs::{Hours, Month, Months};
+    use crate::money::Money;
+    use chrono::TimeZone;
+    use chrono_tz::Europe::Stockholm;
+
+    #[test]
+    fn fuse_based_cost() {
+        const FUSE_BASED: Cost = Cost::fuse_range(&[
+            (16, 35, Money::new(54, 0)),
+            (35, u16::MAX, Money::new(108, 50)),
+        ]);
+        assert_eq!(FUSE_BASED.cost_for(10, 0), None);
+        assert_eq!(FUSE_BASED.cost_for(25, 0), Some(Money::new(54, 0)));
+        assert_eq!(FUSE_BASED.cost_for(200, 0), Some(Money::new(108, 50)));
+    }
+
+    #[test]
+    fn include_matches_hours() {
+        let include = Include::Hours(Hours::new(6, 22));
+        let timestamp_match = Stockholm.with_ymd_and_hms(2025, 1, 15, 14, 0, 0).unwrap();
+        let timestamp_no_match = Stockholm.with_ymd_and_hms(2025, 1, 15, 23, 0, 0).unwrap();
+
+        assert!(include.matches(timestamp_match));
+        assert!(!include.matches(timestamp_no_match));
+    }
+
+    #[test]
+    fn include_matches_month() {
+        let include = Include::Month(Month::June);
+        let timestamp_match = Stockholm.with_ymd_and_hms(2025, 6, 15, 12, 0, 0).unwrap();
+        let timestamp_no_match = Stockholm.with_ymd_and_hms(2025, 7, 15, 12, 0, 0).unwrap();
+
+        assert!(include.matches(timestamp_match));
+        assert!(!include.matches(timestamp_no_match));
+    }
+
+    #[test]
+    fn include_matches_months() {
+        let include = Include::Months(Months::new(Month::November, Month::March));
+        let timestamp_match = Stockholm.with_ymd_and_hms(2025, 1, 15, 12, 0, 0).unwrap();
+        let timestamp_no_match = Stockholm.with_ymd_and_hms(2025, 7, 15, 12, 0, 0).unwrap();
+
+        assert!(include.matches(timestamp_match));
+        assert!(!include.matches(timestamp_no_match));
+    }
+
+    #[test]
+    fn exclude_matches_weekends_saturday() {
+        let exclude = Exclude::Weekends;
+        // January 4, 2025 is a Saturday
+        let timestamp = Stockholm.with_ymd_and_hms(2025, 1, 4, 12, 0, 0).unwrap();
+        assert!(exclude.matches(timestamp));
+    }
+
+    #[test]
+    fn exclude_matches_weekends_sunday() {
+        let exclude = Exclude::Weekends;
+        // January 5, 2025 is a Sunday
+        let timestamp = Stockholm.with_ymd_and_hms(2025, 1, 5, 12, 0, 0).unwrap();
+        assert!(exclude.matches(timestamp));
+    }
+
+    #[test]
+    fn exclude_does_not_match_weekday() {
+        let exclude = Exclude::Weekends;
+        // January 6, 2025 is a Monday
+        let timestamp = Stockholm.with_ymd_and_hms(2025, 1, 6, 12, 0, 0).unwrap();
+        assert!(!exclude.matches(timestamp));
+    }
+
+    #[test]
+    fn exclude_matches_swedish_new_year() {
+        let exclude = Exclude::Holidays(Country::SE);
+        // January 1 is a Swedish holiday
+        let timestamp = Stockholm.with_ymd_and_hms(2025, 1, 1, 12, 0, 0).unwrap();
+        assert!(exclude.matches(timestamp));
+    }
+
+    #[test]
+    fn exclude_does_not_match_non_holiday() {
+        let exclude = Exclude::Holidays(Country::SE);
+        // January 2, 2025 is not a Swedish holiday
+        let timestamp = Stockholm.with_ymd_and_hms(2025, 1, 2, 12, 0, 0).unwrap();
+        assert!(!exclude.matches(timestamp));
+    }
+
+    #[test]
+    fn cost_period_matches_with_single_include() {
+        let period = CostPeriod::builder()
+            .load(LoadType::High)
+            .fixed_cost(10, 0)
+            .hours(6, 22)
+            .build();
+
+        let timestamp_match = Stockholm.with_ymd_and_hms(2025, 1, 15, 14, 0, 0).unwrap();
+        let timestamp_no_match = Stockholm.with_ymd_and_hms(2025, 1, 15, 23, 0, 0).unwrap();
+
+        assert!(period.matches(timestamp_match));
+        assert!(!period.matches(timestamp_no_match));
+    }
+
+    #[test]
+    fn cost_period_matches_with_multiple_includes() {
+        let period = CostPeriod::builder()
+            .load(LoadType::High)
+            .fixed_cost(10, 0)
+            .hours(6, 22)
+            .months(Month::November, Month::March)
+            .build();
+
+        // Winter daytime - should match
+        let timestamp_match = Stockholm.with_ymd_and_hms(2025, 1, 15, 14, 0, 0).unwrap();
+        // Winter nighttime - should not match (wrong hours)
+        let timestamp_wrong_hours = Stockholm.with_ymd_and_hms(2025, 1, 15, 23, 0, 0).unwrap();
+        // Summer daytime - should not match (wrong months)
+        let timestamp_wrong_months = Stockholm.with_ymd_and_hms(2025, 7, 15, 14, 0, 0).unwrap();
+
+        assert!(period.matches(timestamp_match));
+        assert!(!period.matches(timestamp_wrong_hours));
+        assert!(!period.matches(timestamp_wrong_months));
+    }
+
+    #[test]
+    fn cost_period_matches_with_exclude_weekends() {
+        let period = CostPeriod::builder()
+            .load(LoadType::High)
+            .fixed_cost(10, 0)
+            .hours(6, 22)
+            .exclude_weekends()
+            .build();
+
+        println!("Excludes: {:?}", period.exclude_period_types());
+        println!("Includes: {:?}", period.include_period_types());
+
+        // Monday daytime - should match
+        let timestamp_weekday = Stockholm.with_ymd_and_hms(2025, 1, 6, 14, 0, 0).unwrap();
+        // Saturday daytime - should not match (excluded)
+        let timestamp_saturday = Stockholm.with_ymd_and_hms(2025, 1, 4, 14, 0, 0).unwrap();
+
+        assert!(period.matches(timestamp_weekday));
+        assert!(!period.matches(timestamp_saturday));
+    }
+
+    #[test]
+    fn cost_period_matches_with_exclude_holidays() {
+        let period = CostPeriod::builder()
+            .load(LoadType::High)
+            .fixed_cost(10, 0)
+            .hours(6, 22)
+            .exclude_holidays(Country::SE)
+            .build();
+
+        // Regular weekday - should match
+        let timestamp_regular = Stockholm.with_ymd_and_hms(2025, 1, 2, 14, 0, 0).unwrap();
+        // New Year's Day - should not match (excluded)
+        let timestamp_holiday = Stockholm.with_ymd_and_hms(2025, 1, 1, 14, 0, 0).unwrap();
+
+        assert!(period.matches(timestamp_regular));
+        assert!(!period.matches(timestamp_holiday));
+    }
+
+    #[test]
+    fn cost_period_matches_complex_scenario() {
+        // Winter high load period: Nov-Mar, 6-22, excluding weekends and holidays
+        let period = CostPeriod::builder()
+            .load(LoadType::High)
+            .fixed_cost(10, 0)
+            .months(Month::November, Month::March)
+            .hours(6, 22)
+            .exclude_weekends()
+            .exclude_holidays(Country::SE)
+            .build();
+
+        // Winter weekday daytime (not holiday) - should match
+        let timestamp_match = Stockholm.with_ymd_and_hms(2025, 1, 15, 14, 0, 0).unwrap();
+
+        // Winter weekday nighttime - should not match (wrong hours)
+        let timestamp_wrong_hours = Stockholm.with_ymd_and_hms(2025, 1, 15, 23, 0, 0).unwrap();
+
+        // Winter Saturday daytime - should not match (weekend)
+        let timestamp_weekend = Stockholm.with_ymd_and_hms(2025, 1, 4, 14, 0, 0).unwrap();
+
+        // New Year's Day (holiday) - should not match
+        let timestamp_holiday = Stockholm.with_ymd_and_hms(2025, 1, 1, 14, 0, 0).unwrap();
+
+        // Summer weekday daytime - should not match (wrong months)
+        let timestamp_summer = Stockholm.with_ymd_and_hms(2025, 7, 15, 14, 0, 0).unwrap();
+
+        assert!(period.matches(timestamp_match));
+        assert!(!period.matches(timestamp_wrong_hours));
+        assert!(!period.matches(timestamp_weekend));
+        assert!(!period.matches(timestamp_holiday));
+        assert!(!period.matches(timestamp_summer));
+    }
+
+    #[test]
+    fn cost_period_matches_base_load() {
+        // Base load period with no restrictions
+        let period = CostPeriod::builder()
+            .load(LoadType::Base)
+            .fixed_cost(5, 0)
+            .build();
+
+        // Should match any time
+        let timestamp1 = Stockholm.with_ymd_and_hms(2025, 1, 1, 0, 0, 0).unwrap();
+        let timestamp2 = Stockholm.with_ymd_and_hms(2025, 7, 15, 23, 59, 59).unwrap();
+        let timestamp3 = Stockholm.with_ymd_and_hms(2025, 1, 4, 12, 0, 0).unwrap();
+
+        assert!(period.matches(timestamp1));
+        assert!(period.matches(timestamp2));
+        assert!(period.matches(timestamp3));
     }
 }
