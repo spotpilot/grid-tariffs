@@ -16,7 +16,7 @@ use indexmap::IndexMap;
 use serde::Serialize;
 
 pub use crate::{
-    costs::{Cost, CostPeriod, CostPeriods, CostPeriodsSimple},
+    costs::{Cost, CostPeriod, CostPeriods, CostPeriodsSimple, LoadType},
     country::{Country, CountryInfo},
     feed_in_revenue::{FeedInRevenue, FeedInRevenueSimplified},
     language::Language,
