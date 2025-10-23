@@ -4,7 +4,7 @@ use std::str::FromStr;
 use chrono::{NaiveDate, Utc};
 use serde::{Deserialize, Serialize};
 
-use crate::{Money, SE_TAX_REDUCTIONS, SE_TAXES, Tax, TaxAppliedBy, TaxReduction};
+use crate::{Money, SE_TAX_REDUCTIONS, SE_TAXES, Tax, TaxAppliedBy, TaxReduction, helpers::date};
 
 #[derive(Debug, Clone, Copy, Hash, PartialEq, Eq, PartialOrd, Ord, Serialize, Deserialize)]
 #[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
@@ -53,6 +53,10 @@ impl Country {
 
     pub(crate) const fn add_vat(&self, value: f64) -> f64 {
         value * self.vat_rate()
+    }
+
+    pub(crate) fn is_holiday(&self, date_naive: NaiveDate) -> bool {
+        SE_HOLIDAYS.contains(&date_naive)
     }
 }
 
@@ -120,3 +124,66 @@ impl From<Country> for CountryInfo {
         }
     }
 }
+
+static SE_HOLIDAYS: &[NaiveDate] = &[
+    date(2025, 1, 1),
+    date(2025, 1, 6),
+    date(2025, 4, 18),
+    date(2025, 4, 20),
+    date(2025, 4, 21),
+    date(2025, 5, 1),
+    date(2025, 5, 29),
+    date(2025, 6, 6),
+    date(2025, 6, 8),
+    date(2025, 6, 21),
+    date(2025, 11, 1),
+    date(2025, 12, 24),
+    date(2025, 12, 25),
+    date(2025, 12, 26),
+    date(2025, 12, 31),
+    date(2026, 1, 1),
+    date(2026, 1, 6),
+    date(2026, 4, 3),
+    date(2026, 4, 5),
+    date(2026, 4, 6),
+    date(2026, 5, 1),
+    date(2026, 5, 14),
+    date(2026, 5, 24),
+    date(2026, 6, 6),
+    date(2026, 6, 20),
+    date(2026, 10, 31),
+    date(2026, 12, 24),
+    date(2026, 12, 25),
+    date(2026, 12, 26),
+    date(2026, 12, 31),
+    date(2027, 1, 1),
+    date(2027, 1, 6),
+    date(2027, 3, 26),
+    date(2027, 3, 28),
+    date(2027, 3, 29),
+    date(2027, 5, 1),
+    date(2027, 5, 6),
+    date(2027, 5, 16),
+    date(2027, 6, 6),
+    date(2027, 6, 26),
+    date(2027, 11, 6),
+    date(2027, 12, 24),
+    date(2027, 12, 25),
+    date(2027, 12, 26),
+    date(2027, 12, 31),
+    date(2028, 1, 1),
+    date(2028, 1, 6),
+    date(2028, 4, 14),
+    date(2028, 4, 16),
+    date(2028, 4, 17),
+    date(2028, 5, 1),
+    date(2028, 5, 25),
+    date(2028, 6, 4),
+    date(2028, 6, 6),
+    date(2028, 6, 24),
+    date(2028, 11, 4),
+    date(2028, 12, 24),
+    date(2028, 12, 25),
+    date(2028, 12, 26),
+    date(2028, 12, 31),
+];
