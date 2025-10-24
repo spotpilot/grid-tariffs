@@ -8,6 +8,7 @@ pub static BTEA: GridOperator = GridOperator::builder()
     .links(
         Links::builder()
             .fee_info("https://www.btea.se/elnat/elnatspriser", "table")
+            .feed_in_revenue_info_default("https://www.btea.se/elnat/mikroproduktion")
             .build(),
     )
     .price_lists(&[PriceList::builder()
@@ -21,7 +22,7 @@ pub static BTEA: GridOperator = GridOperator::builder()
             (63, Money::new(22720, 0).divide_by(12)),
         ]))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::fixed_subunit(6.5))
         .transfer_fee(TransferFee::Simple(Cost::fixed_subunit(2.50)))
         .power_tariff(PowerTariff::new(
             // TODO: We need to differentiate between high load and low load hours..., Not day and night...

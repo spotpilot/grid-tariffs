@@ -7,12 +7,19 @@ pub static BROMOLLA_ENERGI_VATTEN_AB: GridOperator = GridOperator::builder()
     .vat_number("SE556525863801")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 63))
-    .links(Links::builder().fee_info(FEE_LINK, "#wrapper").build())
+    .links(
+        Links::builder()
+            .fee_info(FEE_LINK, "#wrapper")
+            .feed_in_revenue_info_default(
+                "https://www.bromolla.se/bevab/om-elmarknaden-och-elnat/elpriser/",
+            )
+            .build(),
+    )
     .price_lists(&[PriceList::builder()
         .from_date(9999, 12, 31)
         .monthly_fee(Cost::Unverified)
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::fixed_subunit(13.0))
         .transfer_fee(TransferFee::Unverified)
         .power_tariff(PowerTariff::Unverified)
         .build()])

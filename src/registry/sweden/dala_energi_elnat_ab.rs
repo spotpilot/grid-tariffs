@@ -8,6 +8,7 @@ pub static DALA_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
     .links(
         Links::builder()
             .fee_info("https://dalaenergi.se/el/avgift/", "*:has(> #priser)")
+            .feed_in_revenue_info_default("https://dalaenergi.se/el/avgift/")
             .build(),
     )
     .price_lists(&[PriceList::builder()
@@ -21,7 +22,7 @@ pub static DALA_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
             (63, Money::new(18000, 0).divide_by(12)),
         ]))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::fixed_subunit(7.5))
         .transfer_fee(TransferFee::fixed_subunit(8.0))
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::AverageHours(3),

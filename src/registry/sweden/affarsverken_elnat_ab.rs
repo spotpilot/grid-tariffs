@@ -11,6 +11,9 @@ pub static AFFARSVERKEN_ELNAT_AB: GridOperator = GridOperator::builder()
                 "https://www.affarsverken.se/elnat/elnatspriser/privatkund/",
                 "#content-body",
             )
+            .feed_in_revenue_info_default(
+                "https://www.affarsverken.se/elnat/for-elproducenter/ersattning-for-elproduktion/",
+            )
             .build(),
     )
     .price_lists(&[PriceList::builder()
@@ -24,7 +27,7 @@ pub static AFFARSVERKEN_ELNAT_AB: GridOperator = GridOperator::builder()
             (63, Money::new(2010, 0)),
         ]))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::fixed_subunit(7.5))
         .transfer_fee(TransferFee::spot_price_variable(31.60, 0.077, false))
         .power_tariff(PowerTariff::NotImplemented)
         .build()])

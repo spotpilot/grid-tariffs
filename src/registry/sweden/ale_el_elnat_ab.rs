@@ -8,6 +8,7 @@ pub static ALE_EL_ELNAT_AB: GridOperator = GridOperator::builder()
     .links(
         Links::builder()
             .fee_info("https://aleel.se/avgifter/", "main")
+            .feed_in_revenue_info_default("https://aleel.se/mikroproduktion-och-batterilager/")
             .build(),
     )
     .price_lists(&[PriceList::builder()

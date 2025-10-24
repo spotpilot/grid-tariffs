@@ -7,7 +7,12 @@ pub static GOTENE_ELFORENING: GridOperator = GridOperator::builder()
     .vat_number("SE769000061201")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 63))
-    .links(Links::builder().fee_info_default(FEE_LINK).build())
+    .links(
+        Links::builder()
+            .fee_info_default(FEE_LINK)
+            .feed_in_revenue_info_default("https://kinnekulleenergi.se/mikroproduktion/")
+            .build(),
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fuses(&[
@@ -19,7 +24,7 @@ pub static GOTENE_ELFORENING: GridOperator = GridOperator::builder()
             (63, Money::new(29420, 0).divide_by(12)),
         ]))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::fixed_subunit(2.4))
         .transfer_fee(TransferFee::fixed_subunit(23.13))
         .power_tariff(PowerTariff::NotImplemented)
         .build()])

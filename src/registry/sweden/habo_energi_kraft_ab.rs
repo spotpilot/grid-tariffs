@@ -10,6 +10,7 @@ pub static HABO_ENERGI_KRAFT_AB: GridOperator = GridOperator::builder()
     .links(
         Links::builder()
             .fee_info(FEE_LINK, "[data-elementor-type='wp-page']")
+            .feed_in_revenue_info_default("https://www.haboenergi.se/natavgiften-privat/")
             .build(),
     )
     .price_lists(&[PriceList::builder()

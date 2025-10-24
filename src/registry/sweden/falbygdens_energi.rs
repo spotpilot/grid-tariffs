@@ -11,13 +11,16 @@ pub static FALBYGDENS_ENERGI: GridOperator = GridOperator::builder()
                 "https://falbygdensenergi.se/privat/vart-elnat/elnatsavgifter-samt-villkor",
                 ".pagecontent",
             )
+            .feed_in_revenue_info_default(
+                "https://falbygdensenergi.se/foretag/elnatsavgifter/prislista-for-producenter",
+            )
             .build(),
     )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fixed(343, 42))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::fixed_subunit(3.02))
         .transfer_fee(TransferFee::fixed_subunit(37.2))
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::AverageDaysDifferentiated { base: 1, peak: 1 },

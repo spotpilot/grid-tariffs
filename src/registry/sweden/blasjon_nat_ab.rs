@@ -7,7 +7,14 @@ pub static BLASJON_NAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE556061917201")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 630))
-    .links(Links::builder().fee_info_default(FEE_LINK).build())
+    .links(
+        Links::builder()
+            .fee_info_default(FEE_LINK)
+            .feed_in_revenue_info_default(
+                "https://www.blasjonnat.se/elnat/46424.mikroproduktion.html",
+            )
+            .build(),
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fuses(&[
@@ -30,7 +37,7 @@ pub static BLASJON_NAT_AB: GridOperator = GridOperator::builder()
             (630, Money::new(451622, 0).divide_by(12)),
         ]))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::fixed_subunit(2.0))
         .transfer_fee(TransferFee::fixed_subunit(27.81))
         .power_tariff(PowerTariff::NotImplemented)
         .build()])
