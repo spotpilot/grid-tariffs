@@ -9,7 +9,8 @@ pub static ALINGSAS_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
     .main_fuses(MainFuseSizes::new_range(25, 63))
     .links(
         Links::builder()
-            .fee_info_default("https://www.alingsasenergi.se/elnatsavgift/ ")
+            .fee_info_default(FEE_LINK)
+            .feed_in_revenue_info_default("https://www.alingsasenergi.se/elnatsavgift/")
             .build(),
     )
     .price_lists(&[PriceList::builder()

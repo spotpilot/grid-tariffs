@@ -7,12 +7,17 @@ pub static DEGERFORS_ELNAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE559440444301")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 63))
-    .links(Links::builder().fee_info_default(FEE_LINK).build())
+    .links(
+        Links::builder()
+            .fee_info_default(FEE_LINK)
+            .feed_in_revenue_info_default("https://degerforsenergi.se/elnat/solel/")
+            .build(),
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2024, 9, 1)
         .monthly_fee(Cost::fixed(3000, 0))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::fixed_subunit(5.0))
         .transfer_fee(TransferFee::fixed_subunit(17.5))
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::AverageHours(1),

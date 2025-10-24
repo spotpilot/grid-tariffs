@@ -11,6 +11,7 @@ pub static BORLANGE_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
                 "https://www.borlange-energi.se/elnat/vad-kostar-elnatet",
                 "main",
             )
+            .feed_in_revenue_info_default("https://www.borlange-energi.se/elnat/egen-elproduktion")
             .build(),
     )
     .price_lists(&[PriceList::builder()
@@ -24,7 +25,7 @@ pub static BORLANGE_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
             (63, Money::new(6050, 0).divide_by(12)),
         ]))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::fixed_subunit(3.5))
         .transfer_fee(TransferFee::Simple(Cost::fuses(&[
             (16, Money::new_subunit(32.0)),
             (20, Money::new_subunit(31.0)),

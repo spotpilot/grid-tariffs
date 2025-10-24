@@ -14,7 +14,7 @@ pub static PARTILLE_ENERGI: GridOperator = GridOperator::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fixed_yearly(1875, 0))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::fixed_subunit(7.5))
         .transfer_fee(TransferFee::fixed_subunit(30.50))
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::AverageHours(1),

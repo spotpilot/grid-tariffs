@@ -29,6 +29,7 @@ pub static GOTLANDS_ELNAT_AB: GridOperator = GridOperator::builder()
                 "https://geab.se/elnat/avgift/elnatspriser/",
                 r#"[data-elementor-post-type="page"] > section:nth-child(n + 4)"#,
             )
+            .feed_in_revenue_info_default("https://geab.se/elnat/avgift/elnatspriser/")
             .build(),
     )
     .price_lists(&[

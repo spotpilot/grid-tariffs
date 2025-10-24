@@ -7,7 +7,14 @@ pub static ARVIKA_ELNAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE556527671301")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 63))
-    .links(Links::builder().fee_info(FEE_LINK, ".pagecontent").build())
+    .links(
+        Links::builder()
+            .fee_info(FEE_LINK, ".pagecontent")
+            .feed_in_revenue_info_default(
+                "https://www.teknikivast.se/sidor/elnat/solcellsanlaggning-mikroproduktion.html",
+            )
+            .build(),
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fuses(&[
@@ -19,7 +26,7 @@ pub static ARVIKA_ELNAT_AB: GridOperator = GridOperator::builder()
             (63, Money::new(19875, 0).divide_by(12)),
         ]))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::fixed_subunit(3.65))
         .transfer_fee(TransferFee::fixed_subunit(24.9))
         .power_tariff(PowerTariff::NotImplemented)
         .build()])
