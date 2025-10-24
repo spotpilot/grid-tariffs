@@ -1,7 +1,7 @@
 Prislista Mälarenergi elnät
 Priser för Mälarenergi Elnät AB:s företags- och privatkunder.
 Angivna priser är inklusive moms (25%). Energiskatt tillkommer på elnätsavgiften.
-/el/elnat/energiskatt/
+/el/elnat/priser-elnat/energiskatt/
 Information om energiskatten
 .
 Prövning av samtliga nättariffer och avgifter i prislistan kan begäras hos
@@ -257,7 +257,7 @@ Verklig kostnad minst 12 500
 Verklig kostnad minst 15 625
 
 Fullständiga villkor, säkerhetskrav och förutsättningar som gäller för Tillfälliga anläggningar-Byggkraft samt vad som ingår i priset framgår av
-/globalassets/dokument/elnat/tekniska-anvisningar-anslutning-elnat-202104.pdf
+/globalassets/dokument/elnat/tekniska-anvisningar-for-anslutning-till-malarenergi-elnat-250922.pdf
 Tekniska anvisningar för anslutning till Mälarenergi Elnät.
 
 Mälarenergi Elnät AB kommer så snart kundens valda elföretag skickat in en föranmälan om byggkraft att skicka ett
