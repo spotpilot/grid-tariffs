@@ -4,170 +4,69 @@ Priser och villkor
 https://tranasenergi.se/
 Hem
 »
-https://tranasenergi.se/foretag/
-Företag
+https://tranasenergi.se/
+Privat
 »
-https://tranasenergi.se/foretag/elnat/
+https://tranasenergi.se/privat/elnat/
 Elnät
 »
 Priser och villkor
 
-Överföringsavgifter 2025
-Elöverföringsavgift är den kostnad ni betalar för att få elen levererad till era lokaler. Pengarna används t ex till distribution, drift och underhåll av nätet.
-Varje månad läser vi av er elmätare med fjärravläsning. Vi meddelar ert elhandelsbolag hur mycket el ni använt, så att de kan fakturera för denna del, och skickar en faktura till er på elöverföringsavgiften. Om era lokaler finns inom Tranås Energi Elnäts område och ni köper er el av Tranås Energi får ni alla kostnader på samma faktura.
-
-Kostnader lågspänning
-
-Läs mer
-
-Elöverföringsavgiften är uppdelat i en rörlig och en fast del. Den rörliga kostnaden beror på din elanvändning i kWh. Den fasta kostnaden, abonnemanget, avgörs av storleken på din huvudsäkring.
-Kostnad för elöverföring 2025
-Kostnaden för elöverföring är 26,9 öre/kWh (exkl. moms).
-Kostnad för nätabonnemang 2025
+Aktuella avgifter för nätavtal
+I ditt nätavtal ingår de kostnader du betalar för att få elen hem till dig. Pengarna används t ex till distribution, drift och underhåll av elnätet.
+Kostnaderna på elnätsfakturan är uppdelade i en fast avgift, som styrs av storleken på din huvudsäkring, och en överföringsavgift som varierar beroende på hur mycket el du använt under månaden. Du betalar också energiskatt via din nätfaktura.
+Varje månad läser vi av din elmätare med fjärravläsning. Sedan meddelar vi ditt elhandelsbolag hur mycket el du använt, så att de kan fakturera dig för elen du köper av dem, och skickar en faktura för kostnaderna som ingår i nätavtalet till dig. Om du bor inom Tranås Energi Elnäts område och köper din el av Tranås Energi får du alla kostnader på samma faktura.
+https://tranasenergi.se/wp-content/uploads/2020/05/NAT-2012K-rev2-tillganglighetsanpassad.pdf
+Allmänna avtalsvillkor 2012 K
+https://tranasenergi.se/wp-content/uploads/2025/10/Allmanna-avtalsvillkor-Elnat-2025-K.pdf
+Allmänna avtalsvillkor 2025 K (gäller från 26-01-01)
+Fasta avgifter 2025
 
 Mätarsäkring
-kr/år (exkl. moms)
+kr/år (inkl. moms)
 
 16* A
-2 035
+2 543,75
 
 16 A
-3 976
+4 970,00
 
 20 A
-4 698
+5 872,50
 
 25 A
-5 597
+6 996,25
 
 35 A
-7 491
-
-50 A
-10 305
-
-63 A
-12 941
-
-80 A
-16 225
-
-100 A
-20 316
-
-125 A
-25 169
-
-160 A
-32 262
-
-200 A
-39 584
-
-250 A
-47 900
+9 363,75
 
 * Gäller för lägenhet ansluten till gemensam servis för tre eller flera bostadslägenheter och ett abonnemang för lägenheternas gemensamma elbehov.
-Elsäkerhets-, nätövervaknings- och elberedskapsavgift ingår med 105 kr exkl. moms i abonnemangsavgiften.
-https://tranasenergi.se/wp-content/uploads/2020/05/NAT_2012_N_rev_tillganglighetsanpassad.pdf
-Allmänna avtalsvillkor näringsidkare
+Elsäkerhets-, nätövervaknings- och elberedskapsavgift ingår med 131,25 kr inkl. moms i abonnemangsavgiften.
+Överföringsavgift 2025
+Kostnaden för elöverföring är 33,6 öre/kWh (inkl. moms).
+Energiskatt 2025
+Kostnaden för energiskatt är 54,8 öre/kWh (inkl. moms).
 
-Kostnader lågspänning effekt
+Elnätsavgift för elproducenter 2025
 
-Läs mer
-
-Avgifter 2025
-Priserna är exkl. moms.
-
-Årsavgift
-15 152 kr/år
-
-Effektavgift
-741 kr/kW
-
-Överföringsavgift
-13,4 öre/kWh
-
-Överuttag reaktiv effekt
-395 kr/kVAr
-
-Allmänna bestämmelser
-Fakturering
-Fakturering sker månadsvis utifrån avlästa värden. Årsavgift debiteras månadsvis med en tolftedel av avgiften. Effektavgiften erläggs månadsvis för den högsta uttagna medeleffekten, kW/timma, för respektive månad. Varje månads effektvärde multipliceras med en tolftedel av effektavgiften. Överföringsavgift debiteras månadsvis för under månaden uttagen energi.
-Reaktiv effekt
-Det reaktiva effektuttaget i kVAr får uppgå till högst 50 % av den högsta uttagna aktiva medeleffekten, kW/timma, för respektive månad. Utnyttjad reaktiv effekt bestäms utifrån det högsta timvärdet för reaktiv effekt under respektive månad. Eventuellt överuttag av reaktiv effekt multipliceras med en tolftedel av avgiften för överuttag reaktiv effekt och debiteras månadsvis.
-Skatter och avgifter
-Enligt avtal skall kunden betala skatter och andra av myndighet föreskrivna avgifter eller andra pålagor som Leverantören har att författningsenligt betala eller uppbära av Kunden för nättjänsten.
-Elsäkerhetsavgift, nätövervakningsavgift samt elberedskapsavgift ingår i årsavgiften med 105 kr.
-Allmänna avtalsvillkor
-I övrigt gäller
-https://tranasenergi.se/wp-content/uploads/2020/05/NAT_2012_N_rev_tillganglighetsanpassad.pdf
-Allmänna avtalsvillkor
-för anslutning av elektriska anläggningar till elnät och överföring av el till sådana anläggning.
-
-Kostnader högspänning effekt
-
-Läs mer
-
-Avgifter 2025
-Priserna är exkl. moms.
-
-Årsavgift
-36 417 kr/år
-
-Effektavgift
-587 kr/kW
-
-Överföringsavgift
-6,9 öre/kWh
-
-Överuttag reaktiv effekt
-296 kr/kVAr
-
-Särskilda avgifter
-Enligt avtal skall kunden betala skatter och andra av myndighet föreskrivna avgifter eller andra pålagor som Leverantören har att författningsenligt betala eller uppbära av Kunden för nättjänsten.
-Elsäkerhetsavgift, nätövervakningsavgift samt elberedskapsavgift ingår i årsavgiften med 6 672 kr.
-Debitering och debiteringseffekt
-Årsavgift debiteras månadsvis med en tolftedel av avgiften. Effektavgiften erläggs för den högsta uttagna medeleffekten, kW/timma, för respektive månad. Varje månads effektvärde multipliceras med en tolftedel av effektavgiften. Överföringsavgift debiteras månadsvis för under månaden uttagen energi.
-Reaktiv effekt
-Det reaktiva effektuttaget i kVAr får uppgå till högst 50 % av den högsta uttagna aktiva medeleffekten, kW/timma, för respektive månad. Utnyttjad reaktiv effekt bestäms utifrån det högsta timvärdet för reaktiv effekt under respektive månad. Eventuellt överuttag av reaktiv effekt multipliceras med en tolftedel av avgiften för överuttag reaktiv effekt och debiteras månadsvis.
-https://tranasenergi.se/wp-content/uploads/2020/05/NAT_2012_H_rev_tillganglighetsanpassad.pdf
-Allmänna avtalsvillkor högspänning
-
-Energiskatt
-Kostnaden för energiskatt under 2025 är 43,9 öre/kWh.
-Reducerad energiskatt
-Reducerad energiskatt avser elförbrukning som sker i tillverkningsprocessen i industriell verksamhet eller vid
-yrkesmässig växthusodling.
-https://tranasenergi.se/wp-content/uploads/2022/11/Blankett-forsakran-om-forbrukning-av-el-formular.pdf
-Blankett för försäkran om elförbrukning (pdf)
-
-För elproducenter
-
-Elnätsavgift för elproducenter
-För att producera el krävs ett elnätsabonnemang för elproduktion och ni betalar en fast avgift för tillhandahållen mätning, avräkning och rapportering.
-Eftersom er produktion bidrar till att våra kostnader för överföring i elnätet minskar får ni ersättning av oss för den el som matas ut på nätet från er anläggning, så kallad nätnytta.
-
+Säkringsstorlek
 Fast avgift till nätägaren
-Nätnytta från nätägaren
 
-Säkring 16-63 A
+16-63 A
 Ingen avgift
-3,6 öre/kWh exkl. moms
 
-Säkring 80-100 A
-2 010 kr/år exkl. moms
-1,85 öre/kWh exkl. moms
+80-100 A
+2 513 kr/år inkl. moms
 
-Lågspänning 0,4 kV
-4 220 kr/år exkl. moms
-1,85 öre/kWh exkl. moms
+Nätnytta för elproducenter
+Du som är elproducent, till exempel med solceller på taket, bidrar till att våra kostnader för överföring i elnätet minskar. Därför får du ersättning av oss för den el som matas ut på nätet från din anläggning, så kallad nätnytta.
+För närvarande är nätnyttan 4,5 öre/kWh inkl. moms (16-63 A).
 
-Högspänning 10-20 kV
-5 275 kr/år exkl. moms
-0*
+Kommande effekttariff
+Senast den 1 januari 2027 ska alla elnätsbolag i Sverige gå över till så kallad effekttariff. Det innebär att det som ligger till grund för din faktura blir hur och när du använder din el, snarare än vilken storlek på säkring du har. Exakt hur detta görs skiljer sig mellan nätbolagen och Tranås Energi Elnät håller just nu på att jobba fram hur det ska fungera i vårt nät. Du kommer att få information när detta är klart, i god tid innan ändringen genomförs.
 
-*Beräknas efter respektive produktionsslag samt var i nätet anläggningen ligger.
+https://www.energiforetagen.se/energifakta/elsystemet/elnatet--distribution-av-el/effekttarifftariffer/
+Läs mer om effekttariffer
 
 TRANÅS ENERGI ELNÄT
 https://tranasenergi.se/privat/var-organisation/aktuellt/
@@ -368,4 +267,4 @@ SPARA OCH ACCEPTERA
 Drivs med
 https://www.cookieyes.com/
 
-https://tranasenergi.se/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-table.css?ver=3.3.4
+https://tranasenergi.se/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-table.css?ver=3.3.6
