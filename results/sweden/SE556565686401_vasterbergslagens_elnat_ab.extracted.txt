@@ -36,11 +36,19 @@ Prislista gatubelysning fr.o.m 2025-01-01
 /globalassets/bilagor/elnat/avtalsvillkorprislista/prisblad-gatubelysning-2024-ny-myndighetsavgift.pdf
 Prislista gatubelysning 2024
 Allmänna avtalsvillkor
-De allmänna avtalsvillkoren för konsument är utarbetade av Energiföretagen (f d Svensk Energi) och gäller från och med 1 april 2019.
+De allmänna avtalsvillkoren för konsumenter (privatpersoner) är utarbetade av Energiföretagen i samarbete med Konsumentverket. Uppdaterade allmänna avtalsvillkor gäller från och med den 1 januari 2026.
+/globalassets/bilagor/elnat/avtalsvillkorprislista/elnat-2025-k-tillganglighetsanpassad.pdf
+ELNÄT 2025 K
+giltiga fr.o.m. 2026-01-01
+/globalassets/bilagor/elnat/avtalsvillkorprislista/elnat-2025-k-english.pdf
+ELNÄT 2025 K english version
+valid from 2026-01-01 and forward
 /globalassets/bilagor/elnat/avtalsvillkorprislista/allmanna-avtalsvillkor-nat-2012-k-rev-2-galler-fran-190401_ny-logga.pdf
 NÄT2012K (rev2)
+giltiga 2019-04-01--2025-12-31
 /globalassets/bilagor/elnat/avtalsvillkorprislista/allmanna-avtalsvillkor-nat-2012-k-rev-2--eng.pdf.pdf
-General conditions - English version (fr o m 2019-04-01)
+General conditions - English version
+valid 2019-04-01--2025-12-31
 
 /elnat/elnatsavtalet2/energiskatt-prv/
 
