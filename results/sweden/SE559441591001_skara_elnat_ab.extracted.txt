@@ -25,13 +25,6 @@ Avgifter NÄT Inmatning (Produktion) 2024
 from 2024-07-01
 https://skaraenergi.se/content/uploads/2024/03/NAT-Anslutningsavgifter-2024-04-01.pdf
 NÄT Anslutningsavgifter 2024-04-01
-https://skaraenergi.se/content/uploads/2024/06/Avgifter-NAT-LSP-Sakring-2024-2.pdf
-Avgifter NÄT LSP Säkring 2024
-(ex villa och lägenhet)
-https://skaraenergi.se/content/uploads/2024/06/Avgifter-NAT-LSP-Effekt-2024-2.pdf
-Avgifter NÄT Lågspänning > 200 A 2024
-https://skaraenergi.se/content/uploads/2024/06/Avgifter-NAT-HSP-Uttag-2024-2.pdf
-Avgifter NÄT Högspänning Uttag 2024
 
 Avtalsvillkor
 Avtalsvillkoren är uppdelade på Näringsidkare respektive Konsument, samt Högspänningskunder
@@ -41,17 +34,22 @@ https://skaraenergi.se/content/uploads/2019/11/NÄT-2012-N-rev.pdf
 Allmänna avtalsvillkor Näringsidkare NÄT 2012 N (rev)
 https://skaraenergi.se/content/uploads/2019/11/NÄT-2012-H-rev.pdf
 Allmänna avtalsvillkor Högspänning Näringsidkare NÄT 2012 H (rev)
+From 2026-01-01 gäller nya Allmänna avtalsvillkor för Elnät konsument :
+https://skaraenergi.se/content/uploads/2025/09/Allmanna-avtalsvillkor-ELNAT-2025-K-konsument.pdf
+Allmänna avtalsvillkor ELNÄT 2025 K (konsument)
+https://skaraenergi.se/content/uploads/2025/09/Allmanna-avtalsvillkor-ELNAT-2025-K-tillganglighetsanpassad.pdf
+Allmänna avtalsvillkor ELNÄT 2025 K tillgänglighetsanpassad
 VATTEN OCH AVLOPP
 
 Avgifter
+https://skaraenergi.se/content/uploads/2025/09/Avgifter-VA-inom-verksamhetsomrade-2026.pdf
+Avgifter VA inom verksamhetsområde 2026
+https://skaraenergi.se/content/uploads/2025/09/Avgifter-VA-utanfor-VA-verksamhetsomrade-2026.pdf
+Avgifter VA utanför VA-verksamhetsområde 2026
 https://skaraenergi.se/content/uploads/2024/10/Skara-Energi-VA-avgifter-inom-verksamhetsomrade-2025.pdf
 Skara Energi VA-avgifter inom verksamhetsområde 2025
 https://skaraenergi.se/content/uploads/2024/09/Avgifter-VA-utanfor-VA-verksamhetsomrade-2025.pdf
 Avgifter VA utanför VA-verksamhetsområde 2025
-https://skaraenergi.se/content/uploads/2023/10/Skara-Energi-VA-avgifter-inom-verksamhetsomrade-2024.pdf
-Skara Energi VA avgifter inom verksamhetsområde 2024
-https://skaraenergi.se/content/uploads/2023/10/Skara-Energi-VA-avgifter-utanfor-VA-verksamhetsomrade-2024.pdf
-Skara Energi VA avgifter utanför VA-verksamhetsområde 2024
 
 Kontakta oss för information vad gäller anslutningsavgifte
 r
@@ -62,21 +60,21 @@ ABVA är våra allmänna bestämmelser för användande av Skarakommuns al
 https://skaraenergi.se/content/uploads/2018/06/ABVA-och-Anvisningar-till-fastighetsägare-2018.pdf
 Öppna ABVA
 Komplett
+https://skaraenergi.se/content/uploads/2025/09/VA-taxa-2026.pdf
+VA taxa 2026
 https://skaraenergi.se/content/uploads/2024/11/VA-taxa-2025.pdf
 VA taxa 2025
 FJÄRRVÄRME
 
 Avgifter
+https://skaraenergi.se/content/uploads/2025/10/Avgifter-Fjarrvarme-2026-1.pdf
+Avgifter Fjärrvärme 2026
 https://skaraenergi.se/content/uploads/2024/09/Avgifter-Fjarrvarme-2025.pdf
 Avgifter Fjärrvärme 2025
-https://skaraenergi.se/content/uploads/2024/03/Skara-Energi-FJV-avgifter-2024.pdf
-Skara Energi Fjärrvärmeavgifter 2024
 
 Vi har tagit fram olika prisexempel för fjärrvärme. En för småhus med förbrukning upp till 40 MWh och en för övriga med förbrukning upp till 500 MWh.
 https://skaraenergi.se/content/uploads/2024/09/Fjarrvarmepriser-jamforelse-2025.pdf
 Fjärrvärmepriser jämförelse 2025
-https://skaraenergi.se/content/uploads/2023/10/Fjarrvarmepriser-jamforelse-2024.pdf
-Fjärrvärmepriser jämförelse 2024
 På mina sidor finns normalårskorrigerade jämförelseprofiler.
 Avtalsvillkor
 Allmänna avtalsvillkoren för fjärrvärme är uppdelade i konsument och näringsidkare. Nya villkor tillämpas from 2023-09-01.
@@ -98,7 +96,7 @@ Fastbit
 https://skaraenergi.se/content/uploads/2023/03/Allmänna-avtalsvillkor-anslutning-stadsnät.pdf
 Allmänna avtalsvillkor anslutning stadsnät
 
-Senast uppdaterad: 2024-03-19
+Senast uppdaterad: 2025-09-23
 
 Genvägar
 https://skaraenergi.se/genvagar/autogiro/
