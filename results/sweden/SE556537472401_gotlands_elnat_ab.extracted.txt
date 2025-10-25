@@ -281,7 +281,7 @@ Gotlands Elnät tillämpar elbranschens allmänna avtalsvillkor för distributio
 
 https://geab.se/elnat/wp-content/uploads/sites/3/2021/04/Allmanna-avtalsvillkor-privatkund-NAT-2012-K-rev_2.pdf
 
-Avtalsvillkor elnät Privatkund
+Allmänna avtalsvillkor elnät Privatkund
 
 https://geab.se/elnat/wp-content/uploads/sites/3/2021/04/Allmanna-avtalsvillkor-foretag-NAT-2012-N-rev.pdf
 
@@ -294,3 +294,9 @@ Avtalsvillkor elnät Högspänning Företag
 https://geab.se/elnat/wp-content/uploads/sites/3/2025/08/Tekniska-villkor-produktionsanlaggning-augusti-2024.pdf
 
 Tekniska villkor Egenproducerad el
+
+https://geab.se/elnat/wp-content/uploads/sites/3/2025/10/Allmanna-avtalsvillkor-elnat-2025K.pdf
+
+Allmänna avtalsvillkor elnät
+2026
+Privatkund
