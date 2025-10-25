@@ -282,8 +282,8 @@ Vid eventuella fel på serviskabeln fram till kundens servissäkring ansvarar JE
 Vid servisändring kommer vi debitera enligt offererat pris.
 Vid en tillfällig anslutning debiterar vi en avgift för till- och frånkoppling.
 
-Effekttariff blir ny prismodell i elnätet
-Med den nya prismodellen effekttariff kan du som kund påverka dina elkostnader och samtidigt bidra till ett hållbart samhälle. Den 1 september 2025 kommer kunder med säkring 16–63 A (ej lägenheter) att byta till effekttariff.
+Effekttariff ny prismodell i elnätet
+Med den nya prismodellen effekttariff kan du som kund påverka dina elkostnader och samtidigt bidra till ett hållbart samhälle. Den 1 september 2025 infördes effekttariff för kunder med säkring 16–63 A (ej lägenheter)
 /privat/elnat/effekttariff
 Så fungerar effekttariff
 
@@ -333,13 +333,19 @@ På Jönköping Energi Nät ser till att du har el hemma och övervakar, underh�
 /privat/elnat/elnat
 Läs mer om elnätet
 
+Kontakta kundcenter
+E-post:
+mailto:kundservice@jonkopingenergi.se
+kundservice@jonkopingenergi.se
+Telefon:
+tel:036-10 82 20
+036-10 82 20
+/privat/kundcenter/kundcenter
+Skicka fråga
 Postadress
-Jönköping Energi
-Box 5150
-550 05 Jönköping
+Jönköping Energi. Box 5150, 550 05 Jönköping
 Besöksadress
-Kjellbergsgatan 3
-554 54 Jönköping
+Kjellbergsgatan 3, 554 54 Jönköping
 
 Hitta snabbt
 /foretag/installator/for-installatorer
