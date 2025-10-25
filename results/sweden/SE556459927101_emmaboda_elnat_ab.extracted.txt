@@ -234,6 +234,9 @@ Vid översvämning
 /avfall.html
 Avfall
 
+/avfall/hemsortering.html
+Hemsortering
+
 /avfall/matavfall-och-restavfall.html
 Matavfall och restavfall
 
@@ -321,8 +324,8 @@ Kundnöjdhet
 /kundservice/kundtidning.html
 Kundtidning
 
-/kundservice/taxeforandringar-2025.html
-Taxeförändringar 2025
+/kundservice/taxeforandringar.html
+Taxeförändringar
 
 /kundservice/styrelse.html
 Styrelse
