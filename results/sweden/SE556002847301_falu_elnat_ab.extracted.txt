@@ -13,7 +13,7 @@ Från 1 november tillkommer även
 Effektavgift
 Säkringsabonnemang
 Dessa priser gäller från januari 2024. Nya priser kommer i november 2025.
-I din bostad finns en huvudsäkring, som är olika stor beroende på hur pass elkrävande utrustning du använder. De allra flesta villor och lägenheter har säkringar mellan 16 och 25 ampere.
+I din bostad finns en huvudsäkring, som är olika stor beroende på hur pass elkrävande utrustning du använder. De allra flesta villor har säkringar mellan 16 och 25 ampere.
 Elnätsavgifter
 Säkrings-
 storlek
@@ -43,10 +43,10 @@ Lägenhet 16 A*
 1 565
 15
 Energiskatt tillkommer med 54,875 öre/kWh inkl moms.
-*Lägenhet tillämpas endast för lägenheter i flerbostadshus där byggnaden har ett eget abonnemang med lägst 16A. Med flerbostadshus menas hus med minst tre lägenheter, dock inte kedjehus, radhus eller liknande sammanbyggda hus.
+*Lägenhetstaxa tillämpas endast för lägenheter i flerbostadshus där byggnaden har minst tre olika abonnemang. I begreppet flerbostadshus ingår inte kedjehus, radhus eller liknande sammanbyggda hus. Enbart privatpersoner har möjlighet att ha lägenhetsabonnemang.
 
 Säkringsabonnemang från 1 november 2025
-I din bostad finns en huvudsäkring, som är olika stor beroende på hur pass elkrävande utrustning du använder. De allra flesta villor och lägenheter har säkringar mellan 16 och 25 ampere.
+I din bostad finns en huvudsäkring, som är olika stor beroende på hur pass elkrävande utrustning du använder. De allra flesta villor har säkringar mellan 16 och 25 ampere.
 Elnätsavgifter
 Säkrings-
 storlek
@@ -55,7 +55,7 @@ kr per månad
 Elöverförings-
 avgift öre per kWh
 Effektavgift
-kr per kWh¹
+kr per kW¹
 Lägenhet 16 A²
 135
 11,25
@@ -85,14 +85,17 @@ Lägenhet 16 A²
 11,25
 75
 Energiskatt tillkommer med 54,875 öre/kWh inkl moms.
-¹ Avgiften gäller vardagar mellan klockan 07-19 under perioden november till och med mars.
+¹ Avgiften gäller vardagar mellan klockan 07-19 under perioden november till och med mars, där du faktureras för medelvärdet av dina tre högsta effekttoppar under tre olika dagar.
 /el/elnat/effektavgift.html
 Mer information om Effektavgift
 ² Lägenhet tillämpas endast för lägenheter i flerbostadshus där byggnaden har ett eget abonnemang med lägst 16A. Med flerbostadshus menas hus med minst tre lägenheter, dock inte kedjehus, radhus eller liknande sammanbyggda hus.
 
 Ny elanslutning
 Vid ny anslutning betalar du en avgift som beräknas utifrån servissäkringens storlek och avståndet till närmsta anslutningspunkt i befintligt nät (fågelvägen). Se nedanstående tabeller.
-Är du osäker på vad som gäller för dig så kan du alltid begära en offert genom att kontakta vår kundtjänst,
+Är du osäker på vad som gäller för dig så kan du alltid begära en offert genom att kontakta vår
+/om-oss/kontakta-oss.html
+kundservice
+,
 tel:023-774900
 023-77 49 00.
 Avgifterna gäller från 1 januari 2025 och är inklusive moms.
@@ -184,5 +187,7 @@ Här hittar du priserna om du är företagare
 Frågor och kontakt
 Om du har frågor är du varmt välkommen att
 /om-oss/kontakta-oss.html
-kontakta vår kundtjänst
+kontakta vår
+/om-oss/kontakta-oss.html
+kundservice
 .
