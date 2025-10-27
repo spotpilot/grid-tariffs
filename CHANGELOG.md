@@ -7,6 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.7.0](https://github.com/spotpilot/grid-tariffs/compare/grid-tariffs-v0.6.0...grid-tariffs-v0.7.0) - 2025-10-27
+
+### Added
+
+- Peak periods
+- Simplifications of calculation methods
+- made LoadType public
+- CostPeriod.power_multiplier method
+
+### Fixed
+
+- [**breaking**] Replace base load with low + high
+
+### Other
+
+- Revert "fix!: Replace base load with low + high"
+
 ## [0.6.0](https://github.com/spotpilot/grid-tariffs/compare/grid-tariffs-v0.5.0...grid-tariffs-v0.6.0) - 2025-10-23
 
 ### Added
