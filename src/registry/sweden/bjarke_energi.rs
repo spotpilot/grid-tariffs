@@ -11,6 +11,9 @@ pub static BJARKE_ENERGI: GridOperator = GridOperator::builder()
                 "https://www.bjerke-energi.se/elnat/tariffer/normaltariff/",
                 "h2 ~ table",
             )
+            .feed_in_revenue_info_default(
+                "https://www.bjerke-energi.se/elnat/tariffer/producenttariff/",
+            )
             .build(),
     )
     .price_lists(&[PriceList::builder()
@@ -24,7 +27,19 @@ pub static BJARKE_ENERGI: GridOperator = GridOperator::builder()
             (63, Money::new(1000, 0)),
         ]))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::new_periods(CostPeriods::new(&[
+            CostPeriod::builder()
+                .load(High)
+                .cost(Cost::fixed_subunit(7.5))
+                .months(November, March)
+                .exclude_weekends()
+                .hours(06, 21)
+                .build(),
+            CostPeriod::builder()
+                .load(Low)
+                .cost(Cost::fixed_subunit(5.0))
+                .build(),
+        ])))
         .transfer_fee(TransferFee::new_periods(CostPeriods::new(&[
             CostPeriod::builder()
                 .load(High)

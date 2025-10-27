@@ -27,7 +27,18 @@ pub static ALE_EL_ELNAT_AB: GridOperator = GridOperator::builder()
             (200, Money::new(6101, 0)),
         ]))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::new_periods(CostPeriods::new(&[
+            CostPeriod::builder()
+                .load(High)
+                .cost(Cost::fixed_subunit(8.7).add_vat(Country::SE))
+                .months(November, March)
+                .hours(06, 21)
+                .build(),
+            CostPeriod::builder()
+                .load(Low)
+                .cost(Cost::fixed_subunit(1.5).add_vat(Country::SE))
+                .build(),
+        ])))
         .transfer_fee(TransferFee::fixed_subunit(25.00))
         .power_tariff(PowerTariff::NotImplemented)
         .build()])
