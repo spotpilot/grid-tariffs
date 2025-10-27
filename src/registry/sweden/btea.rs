@@ -24,10 +24,8 @@ pub static BTEA: GridOperator = GridOperator::builder()
         .feed_in_revenue(FeedInRevenue::Unverified)
         .transfer_fee(TransferFee::Simple(Cost::fixed_subunit(2.50)))
         .power_tariff(PowerTariff::new(
-            // TODO: We need to differentiate between high load and low load hours..., Not day and night...
-            TariffCalculationMethod::PeakHours(&[High, Low]),
-            CostPeriods::new(&[
-                // Very strange that they charge 0 kr for the high load periods...
+            TariffCalculationMethod::AverageDays(1),
+            CostPeriods::new_first(&[
                 LOW_LOAD
                     .months(October, November)
                     .fixed_cost(51, 25)

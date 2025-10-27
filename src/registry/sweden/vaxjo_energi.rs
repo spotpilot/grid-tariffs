@@ -33,7 +33,7 @@ pub static VAXJO_ENERGI: GridOperator = GridOperator::builder()
         .transfer_fee(TransferFee::spot_price_variable(8.86, 0.1126, false))
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::AverageHours(3),
-            CostPeriods::new(&[CostPeriod::builder()
+            CostPeriods::new_first(&[CostPeriod::builder()
                 .load(High)
                 .cost(Cost::fuse_range(&[
                     (16, 63, Money::new(65, 48)),

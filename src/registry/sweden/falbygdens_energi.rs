@@ -20,8 +20,8 @@ pub static FALBYGDENS_ENERGI: GridOperator = GridOperator::builder()
         .feed_in_revenue(FeedInRevenue::Unverified)
         .transfer_fee(TransferFee::fixed_subunit(37.2))
         .power_tariff(PowerTariff::new(
-            TariffCalculationMethod::AverageDaysDifferentiated { base: 1, peak: 1 },
-            CostPeriods::new(&[
+            TariffCalculationMethod::AverageDays(1),
+            CostPeriods::new_all(&[
                 CostPeriod::builder().load(Base).fixed_cost(39, 80).build(),
                 CostPeriod::builder()
                     .load(High)

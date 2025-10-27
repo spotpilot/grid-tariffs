@@ -32,7 +32,7 @@ pub static ELLEVIO: GridOperator = GridOperator::builder()
         .transfer_fee(TransferFee::fixed_subunit(6.25))
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::AverageDays(3),
-            CostPeriods::new(&[
+            CostPeriods::new_first(&[
                 CostPeriod::builder()
                     .load(Base)
                     .cost(Cost::fixed(81, 25))

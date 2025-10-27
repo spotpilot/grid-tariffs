@@ -25,7 +25,7 @@ pub static DALA_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
         .transfer_fee(TransferFee::fixed_subunit(8.0))
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::AverageHours(3),
-            CostPeriods::new(&[
+            CostPeriods::new_first(&[
                 CostPeriod::builder()
                     .load(High)
                     .months(November, March)

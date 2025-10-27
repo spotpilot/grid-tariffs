@@ -40,7 +40,7 @@ pub static VATTENFALL: GridOperator = GridOperator::builder()
             .build(),
         BASE_PRICELIST
             .variant("Tidstariff T4")
-            .transfer_fee(TransferFee::new_periods(CostPeriods::new(&[
+            .transfer_fee(TransferFee::new_periods(CostPeriods::new_first(&[
                 CostPeriod::builder()
                     .load(High)
                     .fixed_cost_subunit(67.00)

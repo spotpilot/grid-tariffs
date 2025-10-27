@@ -28,7 +28,7 @@ pub static KARLSKOGA_ELNAT_AB: GridOperator = GridOperator::builder()
         .transfer_fee(TransferFee::fixed_subunit(18.90))
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::AverageHours(1),
-            CostPeriods::new(&[
+            CostPeriods::new_all(&[
                 CostPeriod::builder().load(Base).fixed_cost(51, 45).build(),
                 CostPeriod::builder()
                     .load(High)

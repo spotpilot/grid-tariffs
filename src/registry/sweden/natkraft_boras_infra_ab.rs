@@ -35,7 +35,7 @@ pub static NATKRAFT_BORAS_INFRA_AB: GridOperator = GridOperator::builder()
             TariffCalculationMethod::AverageHours(3),
             // NOTE: This doesn't apply for fuse sizes 16-20
             // TODO: https://github.com/spotpilot/grid-tariffs/issues/177
-            CostPeriods::new(&[
+            CostPeriods::new_first(&[
                 CostPeriod::builder()
                     .load(Low)
                     .fixed_cost(15, 30)

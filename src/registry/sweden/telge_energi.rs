@@ -30,7 +30,7 @@ pub static TELGE_ENERGI: GridOperator = GridOperator::builder()
         .feed_in_revenue(FeedInRevenue::Simple(Cost::fixed_subunit(5.60)))
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::AverageHours(1),
-            CostPeriods::new(&[CostPeriod::builder()
+            CostPeriods::new_first(&[CostPeriod::builder()
                 .load(High)
                 .fixed_cost(28, 0)
                 .months(November, March)

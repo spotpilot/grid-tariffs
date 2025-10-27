@@ -21,7 +21,7 @@ pub static JBF: GridOperator = GridOperator::builder()
         .transfer_fee(TransferFee::Unlisted)
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::AverageHours(3),
-            CostPeriods::new(&[
+            CostPeriods::new_first(&[
                 CostPeriod::builder()
                     .load(Base)
                     .cost(Cost::fuse_range(&[

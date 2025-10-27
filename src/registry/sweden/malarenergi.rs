@@ -3,7 +3,7 @@ use crate::registry::prelude::*;
 const BASE_PRICELIST: PriceListBuilder = PriceListBuilder::new()
     .from_date(2025, 9, 1)
     .monthly_production_fee(Cost::Unverified)
-    .feed_in_revenue(FeedInRevenue::new_periods(CostPeriods::new(&[
+    .feed_in_revenue(FeedInRevenue::new_periods(CostPeriods::new_first(&[
         CostPeriod::builder()
             .load(High)
             .fixed_cost_subunit(9.11)
@@ -44,7 +44,7 @@ pub static MALARENERGI: GridOperator = GridOperator::builder()
             .transfer_fee(TransferFee::fixed_subunit(36.25))
             .power_tariff(PowerTariff::new(
                 TariffCalculationMethod::AverageHours(1),
-                CostPeriods::new(&[CostPeriod::builder()
+                CostPeriods::new_first(&[CostPeriod::builder()
                     .load(High)
                     .fixed_cost(18, 75)
                     .hours(7, 19)
@@ -59,7 +59,7 @@ pub static MALARENERGI: GridOperator = GridOperator::builder()
             .transfer_fee(TransferFee::fixed(0, 9))
             .power_tariff(PowerTariff::new(
                 TariffCalculationMethod::AverageHours(1),
-                CostPeriods::new(&[CostPeriod::builder()
+                CostPeriods::new_first(&[CostPeriod::builder()
                     .load(High)
                     .cost(Cost::fixed(69, 68).add_vat(Country::SE))
                     .hours(7, 19)

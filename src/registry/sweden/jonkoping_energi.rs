@@ -27,8 +27,8 @@ pub static JONKOPING_ENERGI: GridOperator = GridOperator::builder()
         .feed_in_revenue(FeedInRevenue::Unverified)
         .transfer_fee(TransferFee::fixed_subunit(6.08))
         .power_tariff(PowerTariff::new(
-            TariffCalculationMethod::AverageDaysDifferentiated { base: 2, peak: 2 },
-            CostPeriods::new(&[
+            TariffCalculationMethod::AverageDays(2),
+            CostPeriods::new_all(&[
                 CostPeriod::builder().load(Base).fixed_cost(27, 70).build(),
                 CostPeriod::builder()
                     .load(High)

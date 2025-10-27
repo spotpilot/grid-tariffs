@@ -21,8 +21,7 @@ pub static KRISTINEHAMNS_ENERGI: GridOperator = GridOperator::builder()
         .transfer_fee(TransferFee::fixed_subunit(12.75))
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::AverageHours(1),
-            CostPeriods::new(&[
-                CostPeriod::builder().load(Base).fixed_cost(43, 75).build(),
+            CostPeriods::new_all(&[
                 CostPeriod::builder()
                     .load(High)
                     .fixed_cost(91, 25)
@@ -31,6 +30,7 @@ pub static KRISTINEHAMNS_ENERGI: GridOperator = GridOperator::builder()
                     .exclude_weekends()
                     .exclude_holidays(Country::SE)
                     .build(),
+                CostPeriod::builder().load(Base).fixed_cost(43, 75).build(),
             ]),
         ))
         .build()])

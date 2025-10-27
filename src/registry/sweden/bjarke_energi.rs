@@ -25,7 +25,7 @@ pub static BJARKE_ENERGI: GridOperator = GridOperator::builder()
         ]))
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
-        .transfer_fee(TransferFee::new_periods(CostPeriods::new(&[
+        .transfer_fee(TransferFee::new_periods(CostPeriods::new_first(&[
             CostPeriod::builder()
                 .load(High)
                 .fixed_cost_subunit(18.75)
@@ -41,9 +41,9 @@ pub static BJARKE_ENERGI: GridOperator = GridOperator::builder()
         ])))
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::AverageHours(1),
-            CostPeriods::new(&[
+            CostPeriods::new_first(&[
                 CostPeriod::builder()
-                    .load(Low)
+                    .load(High)
                     .fixed_cost(50, 0)
                     .months(April, October)
                     .hours(6, 22)
@@ -54,6 +54,7 @@ pub static BJARKE_ENERGI: GridOperator = GridOperator::builder()
                     .months(November, March)
                     .hours(6, 22)
                     .build(),
+                CostPeriod::builder().load(Low).fixed_cost(0, 0).build(),
             ]),
         ))
         .build()])

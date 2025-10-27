@@ -53,7 +53,7 @@ pub static HJARTUMS_ELFORENING_EK_FOR: GridOperator = GridOperator::builder()
                 (400, Money::new(107799, 0).divide_by(12)),
                 (500, Money::new(132956, 0).divide_by(12)),
             ]))
-            .transfer_fee(TransferFee::new_periods(CostPeriods::new(&[
+            .transfer_fee(TransferFee::new_periods(CostPeriods::new_first(&[
                 CostPeriod::builder()
                     .load(High)
                     .fixed_cost_subunit(37.4)

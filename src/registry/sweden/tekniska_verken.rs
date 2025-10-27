@@ -49,7 +49,7 @@ pub static TEKNISKA_VERKEN_LINKOPING: GridOperator = BASE
             .transfer_fee(TransferFee::fixed_subunit(14.30))
             .power_tariff(PowerTariff::new(
                 TariffCalculationMethod::AverageDays(5),
-                CostPeriods::new(&[
+                CostPeriods::new_first(&[
                     SUMMER.load(Low).fixed_cost(22, 0).build(),
                     WINTER.load(High).fixed_cost(43, 0).build(),
                 ]),
@@ -65,7 +65,7 @@ pub static TEKNISKA_VERKEN_LINKOPING: GridOperator = BASE
                 (50, Money::new(655, 0)),
                 (63, Money::new(805, 0)),
             ]))
-            .transfer_fee(TransferFee::new_periods(CostPeriods::new(&[
+            .transfer_fee(TransferFee::new_periods(CostPeriods::new_first(&[
                 BASE_BUILDER
                     .include(NIGHT_HOURS)
                     .load(Low)
@@ -78,8 +78,8 @@ pub static TEKNISKA_VERKEN_LINKOPING: GridOperator = BASE
                     .build(),
             ])))
             .power_tariff(PowerTariff::new(
-                TariffCalculationMethod::AverageDayNightDifferentiated { day: 1, night: 1 },
-                CostPeriods::new(&[
+                TariffCalculationMethod::AverageDays(1),
+                CostPeriods::new_first(&[
                     SUMMER_NIGHTS.load(Low).fixed_cost(8, 0).build(),
                     SUMMER_DAYS.load(High).fixed_cost(22, 0).build(),
                     WINTER_NIGHTS.load(Low).fixed_cost(12, 0).build(),
@@ -107,7 +107,7 @@ pub static TEKNISKA_VERKEN_KATRINEHOLM: GridOperator = BASE
             .transfer_fee(TransferFee::fixed_subunit(17.40))
             .power_tariff(PowerTariff::new(
                 TariffCalculationMethod::AverageDays(5),
-                CostPeriods::new(&[
+                CostPeriods::new_first(&[
                     SUMMER.load(Low).fixed_cost(32, 0).build(),
                     WINTER.load(High).fixed_cost(63, 0).build(),
                 ]),
@@ -123,7 +123,7 @@ pub static TEKNISKA_VERKEN_KATRINEHOLM: GridOperator = BASE
                 (50, Money::new(995, 0)),
                 (63, Money::new(1275, 0)),
             ]))
-            .transfer_fee(TransferFee::new_periods(CostPeriods::new(&[
+            .transfer_fee(TransferFee::new_periods(CostPeriods::new_first(&[
                 BASE_BUILDER
                     .include(NIGHT_HOURS)
                     .load(Low)
@@ -136,8 +136,8 @@ pub static TEKNISKA_VERKEN_KATRINEHOLM: GridOperator = BASE
                     .build(),
             ])))
             .power_tariff(PowerTariff::new(
-                TariffCalculationMethod::AverageDayNightDifferentiated { day: 1, night: 1 },
-                CostPeriods::new(&[
+                TariffCalculationMethod::AverageDays(1),
+                CostPeriods::new_first(&[
                     SUMMER_NIGHTS.load(Low).fixed_cost(11, 0).build(),
                     SUMMER_DAYS.load(High).fixed_cost(32, 0).build(),
                     WINTER_NIGHTS.load(Low).fixed_cost(16, 0).build(),

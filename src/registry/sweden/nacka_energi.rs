@@ -22,7 +22,7 @@ pub static NACKA_ENERGI: GridOperator = GridOperator::builder()
         ]))
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
-        .transfer_fee(TransferFee::new_periods(CostPeriods::new(&[
+        .transfer_fee(TransferFee::new_periods(CostPeriods::new_first(&[
             CostPeriod::builder()
                 .load(High)
                 .cost(Cost::fuse_range(&[
@@ -44,7 +44,7 @@ pub static NACKA_ENERGI: GridOperator = GridOperator::builder()
         ])))
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::AverageHours(3),
-            CostPeriods::new(&[CostPeriod::builder().load(Base).fixed_cost(51, 85).build()]),
+            CostPeriods::new_first(&[CostPeriod::builder().load(Base).fixed_cost(51, 85).build()]),
         ))
         .build()])
     .build();

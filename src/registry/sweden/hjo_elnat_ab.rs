@@ -47,7 +47,7 @@ pub static HJO_ELNAT_AB: GridOperator = GridOperator::builder()
                 (160, Money::new(32930, 0).divide_by(12)),
                 (200, Money::new(41016, 0).divide_by(12)),
             ]))
-            .transfer_fee(TransferFee::new_periods(CostPeriods::new(&[
+            .transfer_fee(TransferFee::new_periods(CostPeriods::new_first(&[
                 CostPeriod::builder()
                     .load(High)
                     .fixed_cost_subunit(51.0)

@@ -28,7 +28,7 @@ pub static MALUNG_SALENS_ELVERK: GridOperator = GridOperator::builder()
         .transfer_fee(TransferFee::Unlisted)
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::AverageHours(5),
-            CostPeriods::new(&[
+            CostPeriods::new_first(&[
                 CostPeriod::builder()
                     .load(High)
                     .fixed_cost(118, 75)

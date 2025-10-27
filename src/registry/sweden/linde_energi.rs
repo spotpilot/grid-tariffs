@@ -28,8 +28,8 @@ pub static LINDE_ENERGI: GridOperator = GridOperator::builder()
             (35, 63, Money::new_subunit(6.125)),
         ])))
         .power_tariff(PowerTariff::new(
-            TariffCalculationMethod::AverageDaysDifferentiated { base: 2, peak: 2 },
-            CostPeriods::new(&[
+            TariffCalculationMethod::AverageDays(2),
+            CostPeriods::new_all(&[
                 CostPeriod::builder()
                     .load(Base)
                     .cost(Cost::fuse_range(&[

@@ -48,7 +48,7 @@ pub static RONNEBY_MILJOTEKNIK_ELNAT_AB: GridOperator = GridOperator::builder()
             ]))
             .monthly_production_fee(Cost::Unverified)
             .feed_in_revenue(FeedInRevenue::Unverified)
-            .transfer_fee(TransferFee::new_periods(CostPeriods::new(&[
+            .transfer_fee(TransferFee::new_periods(CostPeriods::new_first(&[
                 CostPeriod::builder()
                     .load(High)
                     .fixed_cost_subunit(87.76)

@@ -31,7 +31,7 @@ pub static SOLLENTUNA_ENERGI_MILJO_AB: GridOperator = GridOperator::builder()
         .transfer_fee(TransferFee::fixed_subunit(5.00))
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::AverageHours(3),
-            CostPeriods::new(&[
+            CostPeriods::new_first(&[
                 // NOTE: "Under helger och röda dagar tas ingen effektavgift ut"
                 CostPeriod::builder()
                     .load(High)

@@ -28,7 +28,7 @@ pub static SALAHEBY_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
         .transfer_fee(TransferFee::fixed_subunit(10.0))
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::AverageHours(3),
-            CostPeriods::new(&[
+            CostPeriods::new_first(&[
                 CostPeriod::builder()
                     .load(High)
                     .cost(Cost::fuse_range(&[

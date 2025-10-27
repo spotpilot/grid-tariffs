@@ -25,7 +25,7 @@ pub static SKOVDE_ENERGI: GridOperator = GridOperator::builder()
         ]))
         .monthly_production_fee(Cost::Unverified)
         .feed_in_revenue(FeedInRevenue::Unverified)
-        .transfer_fee(TransferFee::new_periods(CostPeriods::new(&[
+        .transfer_fee(TransferFee::new_periods(CostPeriods::new_first(&[
             CostPeriod::builder()
                 .load(High)
                 .cost(Cost::fuse_range(&[
@@ -44,7 +44,7 @@ pub static SKOVDE_ENERGI: GridOperator = GridOperator::builder()
         ])))
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::AverageHours(1),
-            CostPeriods::new(&[CostPeriod::builder()
+            CostPeriods::new_first(&[CostPeriod::builder()
                 .load(High)
                 .cost(Cost::fuse_range(&[
                     (16, 25, Money::new(77, 5)),

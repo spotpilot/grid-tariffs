@@ -48,7 +48,7 @@ pub static FALU_ELNAT_AB: GridOperator = GridOperator::builder()
             .transfer_fee(TransferFee::fixed_subunit(11.25))
             .power_tariff(PowerTariff::new(
                 TariffCalculationMethod::AverageDays(3),
-                CostPeriods::new(&[
+                CostPeriods::new_first(&[
                     CostPeriod::builder()
                         .load(High)
                         .months(November, March)
