@@ -139,7 +139,7 @@ impl Cost {
     }
 }
 
-#[derive(Debug, Clone, Copy, Serialize)]
+#[derive(Debug, Clone, Copy, Serialize, PartialEq, Eq)]
 #[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
 pub enum CostPeriodMatching {
     First,
@@ -635,11 +635,26 @@ mod tests {
 
         // Matching fuse size with consumption at or below limit - should match
         assert_eq!(FUSES_ONLY_LIMITS.cost_for(16, 0), Some(Money::new(50, 0)));
-        assert_eq!(FUSES_ONLY_LIMITS.cost_for(16, 3000), Some(Money::new(50, 0)));
-        assert_eq!(FUSES_ONLY_LIMITS.cost_for(16, 4999), Some(Money::new(50, 0)));
-        assert_eq!(FUSES_ONLY_LIMITS.cost_for(16, 5000), Some(Money::new(50, 0)));
-        assert_eq!(FUSES_ONLY_LIMITS.cost_for(25, 9999), Some(Money::new(100, 0)));
-        assert_eq!(FUSES_ONLY_LIMITS.cost_for(25, 10000), Some(Money::new(100, 0)));
+        assert_eq!(
+            FUSES_ONLY_LIMITS.cost_for(16, 3000),
+            Some(Money::new(50, 0))
+        );
+        assert_eq!(
+            FUSES_ONLY_LIMITS.cost_for(16, 4999),
+            Some(Money::new(50, 0))
+        );
+        assert_eq!(
+            FUSES_ONLY_LIMITS.cost_for(16, 5000),
+            Some(Money::new(50, 0))
+        );
+        assert_eq!(
+            FUSES_ONLY_LIMITS.cost_for(25, 9999),
+            Some(Money::new(100, 0))
+        );
+        assert_eq!(
+            FUSES_ONLY_LIMITS.cost_for(25, 10000),
+            Some(Money::new(100, 0))
+        );
 
         // Above limit with no fallback - should return None
         assert_eq!(FUSES_ONLY_LIMITS.cost_for(16, 5001), None);
@@ -943,7 +958,9 @@ mod tests {
         assert!(!include.matches(timestamp_jul));
 
         // Should not match October (just before)
-        let timestamp_oct = Stockholm.with_ymd_and_hms(2025, 10, 31, 23, 59, 59).unwrap();
+        let timestamp_oct = Stockholm
+            .with_ymd_and_hms(2025, 10, 31, 23, 59, 59)
+            .unwrap();
         assert!(!include.matches(timestamp_oct));
 
         // Should not match April (just after)
@@ -1115,7 +1132,9 @@ mod tests {
         assert!(period.matches(dec_first));
 
         // Last day of December
-        let dec_last = Stockholm.with_ymd_and_hms(2025, 12, 31, 23, 59, 59).unwrap();
+        let dec_last = Stockholm
+            .with_ymd_and_hms(2025, 12, 31, 23, 59, 59)
+            .unwrap();
         assert!(period.matches(dec_last));
 
         // November - should not match

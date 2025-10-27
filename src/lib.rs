@@ -23,6 +23,7 @@ pub use crate::{
     links::*,
     money::Money,
     operator::{GridOperator, GridOperatorSimplified},
+    peaks::*,
     power_tariffs::{PowerTariff, PowerTariffSimplified, TariffCalculationMethod},
     price_list::PriceList,
     tax_reductions::*,
@@ -44,6 +45,7 @@ mod language;
 mod links;
 mod money;
 mod operator;
+mod peaks;
 mod power_tariffs;
 mod price_list;
 pub mod registry;
