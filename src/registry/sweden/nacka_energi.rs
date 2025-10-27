@@ -44,7 +44,7 @@ pub static NACKA_ENERGI: GridOperator = GridOperator::builder()
         ])))
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::AverageHours(3),
-            CostPeriods::new(&[CostPeriod::builder().load(Low).fixed_cost(51, 85).build()]),
+            CostPeriods::new(&[CostPeriod::builder().load(Base).fixed_cost(51, 85).build()]),
         ))
         .build()])
     .build();

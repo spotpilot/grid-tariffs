@@ -26,14 +26,14 @@ pub static KARLSTADS_ENERGI: GridOperator = GridOperator::builder()
             TariffCalculationMethod::AverageHours(1),
             // NOTE: The pricing is actually the same for 16-63A as >63A if you account for VAT vs without VAT
             CostPeriods::new(&[
+                CostPeriod::builder().load(Base).fixed_cost(43, 55).build(),
                 CostPeriod::builder()
                     .load(High)
-                    .fixed_cost(117, 70)
+                    .fixed_cost(74, 15)
                     .hours(6, 18)
                     .exclude_weekends()
                     .exclude_holidays(Country::SE)
                     .build(),
-                CostPeriod::builder().load(Low).fixed_cost(43, 55).build(),
             ]),
         ))
         .build()])

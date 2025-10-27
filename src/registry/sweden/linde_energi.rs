@@ -31,21 +31,21 @@ pub static LINDE_ENERGI: GridOperator = GridOperator::builder()
             TariffCalculationMethod::AverageDaysDifferentiated { base: 2, peak: 2 },
             CostPeriods::new(&[
                 CostPeriod::builder()
-                    .load(High)
-                    .cost(Cost::fuse_range(&[
-                        (16, 25, Money::ZERO),
-                        (35, 63, Money::new(121, 75)),
-                    ]))
-                    .months(November, March)
-                    .hours(7, 19)
-                    .exclude_weekends()
-                    .build(),
-                CostPeriod::builder()
-                    .load(Low)
+                    .load(Base)
                     .cost(Cost::fuse_range(&[
                         (16, 25, Money::ZERO),
                         (35, 63, Money::new(75, 0)),
                     ]))
+                    .build(),
+                CostPeriod::builder()
+                    .load(High)
+                    .cost(Cost::fuse_range(&[
+                        (16, 25, Money::ZERO),
+                        (35, 63, Money::new(46, 75)),
+                    ]))
+                    .months(November, March)
+                    .hours(7, 19)
+                    .exclude_weekends()
                     .build(),
             ]),
         ))

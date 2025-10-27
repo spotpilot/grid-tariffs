@@ -22,15 +22,15 @@ pub static KRISTINEHAMNS_ENERGI: GridOperator = GridOperator::builder()
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::AverageHours(1),
             CostPeriods::new(&[
+                CostPeriod::builder().load(Base).fixed_cost(43, 75).build(),
                 CostPeriod::builder()
                     .load(High)
-                    .fixed_cost(135, 0)
+                    .fixed_cost(91, 25)
                     .months(November, March)
                     .hours(7, 17)
                     .exclude_weekends()
                     .exclude_holidays(Country::SE)
                     .build(),
-                CostPeriod::builder().load(Low).fixed_cost(43, 75).build(),
             ]),
         ))
         .build()])
