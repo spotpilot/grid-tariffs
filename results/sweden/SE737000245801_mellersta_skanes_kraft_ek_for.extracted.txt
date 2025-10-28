@@ -1,10 +1,10 @@
 
 Nätpriser
-https://mskraft.nu/author/omar/
-Omar Torres
-2025-02-27T15:53:57+01:00
+https://mskraft.nu/author/gustorres/
+Gus Torres
+2025-09-26T12:05:16+02:00
 
-https://mskraft.nu/hem/home/
+https://mskraft.nu/home/
 Toggle Navigation
 https://mskraft.nu/hem/elhandel/
 Elhandel
@@ -18,9 +18,9 @@ https://mskraft.nu/hem/fornybart-el-2/
 Förnybart el
 https://mskraft.nu/hem/foretag-t/
 Företag
-https://mskraft.nu/hem/elnat-t/
+https://mskraft.nu/elnat-t/
 Elnät
-https://mskraft.nu/hem/natpriser-2/
+https://mskraft.nu/natpriser-t/
 Nät -och anslutningsavgifter
 https://mskraft.nu/hem/elnatsarende-t/
 För -och färdiganmälan
@@ -38,19 +38,21 @@ https://mskraft.nu/wp-content/uploads/2023/04/MSK-overvaknignsplan-2023.pdf
 Övervakningsplan
 https://mskraft.nu/tillgangliggorande-av-matvarden/
 Tillgängliggörande av mätvärden
+https://mskraft.nu/2024/09/13/natutvecklingsplan-mellersta-skanes-kraft/
+Nätutvecklingsplan
 https://mskraft.nu/hem/om-msk/
 Om oss
 https://mskraft.nu/hem/samarbeten-2/
 Samarbeten & sponsring
 https://mskraft.nu/miljopaverkan-2/
 Miljöpåverkan
-https://mskraft.nu/hem/arsredovisning-2/
+https://mskraft.nu/arsredovisning-2/
 Årsredovisning
 https://mskraft.nu/hem/avbrott/
 Avbrott
 https://mskraft.nu/avbrottsersattning/
 Avbrottsersättning
-https://mskraft.nu/hem/felanmalan/
+https://mskraft.nu/felanmalan/
 Felanmälan
 https://mskraft.nu/avbrottinfo-t/
 Driftstörningar
@@ -58,23 +60,23 @@ https://mskraft.nu/hem/kundservice-t/
 Kundservice
 https://mskraft.nu/hem/kontakta-oss/
 Kontakta oss
-https://minasidor.mskraft.se/login
+https://mskraft.nu/hem/fakturafragor/
 Fakturafrågor
-https://mskraft.nu/hem/elavtal-t/
-Teckna elavtal
-https://mskraft.nu/hem/nyheter-2/
+https://mskraft.nu/nyheter-2/
 Nyheter
-https://mskraft.nu/hem/dina-rattigheter-2/
+https://mskraft.nu/dina-rattigheter-2/
 Konsumenträtt
 https://mskraft.nu/blanketter-2/
-Villkor och blanketter
+Blanketter
+https://mskraft.nu/avtalsvillkor/
+Avtalsvillkor
 https://mskraft.nu/hem/fullmakter/
-Fullmakter
+Fullmakt
 https://minasidor.mskraft.se/login
 Mina sidor
 Toggle Navigation
-https://mskraft.nu/natpriser-2/
-Nätpriser & anslutningsavgifter
+https://mskraft.nu/natpriser-t/
+Nätpriser -och anslutningsavgifter
 https://mskraft.nu/hem/elnatsarende-t/
 För- och färdiganmälan
 https://mskraft.nu/hem/kabelvisning/
@@ -91,6 +93,8 @@ http://mskraft.nu/wp-content/uploads/2025/02/Rapport_Atgarder_Overvakningplan_20
 Övervaknings plan
 https://mskraft.nu/tillgangliggorande-av-matvarden/
 Tillgängliggörande av mätvärden
+https://mskraft.nu/2024/09/13/natutvecklingsplan-mellersta-skanes-kraft/
+Nätutveklingsplan
 Toggle Navigation
 https://mskraft.nu/hem/elhandel/
 Elhandel
@@ -104,9 +108,9 @@ https://mskraft.nu/hem/fornybart-el-2/
 Förnybart el
 https://mskraft.nu/hem/foretag-t/
 Företag
-https://mskraft.nu/hem/elnat-t/
+https://mskraft.nu/elnat-t/
 Elnät
-https://mskraft.nu/hem/natpriser-2/
+https://mskraft.nu/natpriser-t/
 Nät -och anslutningsavgifter
 https://mskraft.nu/hem/elnatsarende-t/
 För -och färdiganmälan
@@ -124,19 +128,21 @@ https://mskraft.nu/wp-content/uploads/2023/04/MSK-overvaknignsplan-2023.pdf
 Övervakningsplan
 https://mskraft.nu/tillgangliggorande-av-matvarden/
 Tillgängliggörande av mätvärden
+https://mskraft.nu/2024/09/13/natutvecklingsplan-mellersta-skanes-kraft/
+Nätutvecklingsplan
 https://mskraft.nu/hem/om-msk/
 Om oss
 https://mskraft.nu/hem/samarbeten-2/
 Samarbeten & sponsring
 https://mskraft.nu/miljopaverkan-2/
 Miljöpåverkan
-https://mskraft.nu/hem/arsredovisning-2/
+https://mskraft.nu/arsredovisning-2/
 Årsredovisning
 https://mskraft.nu/hem/avbrott/
 Avbrott
 https://mskraft.nu/avbrottsersattning/
 Avbrottsersättning
-https://mskraft.nu/hem/felanmalan/
+https://mskraft.nu/felanmalan/
 Felanmälan
 https://mskraft.nu/avbrottinfo-t/
 Driftstörningar
@@ -144,18 +150,18 @@ https://mskraft.nu/hem/kundservice-t/
 Kundservice
 https://mskraft.nu/hem/kontakta-oss/
 Kontakta oss
-https://minasidor.mskraft.se/login
+https://mskraft.nu/hem/fakturafragor/
 Fakturafrågor
-https://mskraft.nu/hem/elavtal-t/
-Teckna elavtal
-https://mskraft.nu/hem/nyheter-2/
+https://mskraft.nu/nyheter-2/
 Nyheter
-https://mskraft.nu/hem/dina-rattigheter-2/
+https://mskraft.nu/dina-rattigheter-2/
 Konsumenträtt
 https://mskraft.nu/blanketter-2/
-Villkor och blanketter
+Blanketter
+https://mskraft.nu/avtalsvillkor/
+Avtalsvillkor
 https://mskraft.nu/hem/fullmakter/
-Fullmakter
+Fullmakt
 https://minasidor.mskraft.se/login
 Mina sidor
 Nätpriser
@@ -167,7 +173,7 @@ Installationsavgifter lågspänning 2025
 Schablonavgifter för lågspänningsanslutningar säkringsstorlek DII, servissäkring och
 mätarsäkring 16 A – 25 A följer Ei,s rekommendationer enligt nedanstående tabell.
 
-Avstand till närmaste anslutningspunkt
+Avstånd till närmaste anslutningspunkt
 (Fågelvägen)
 
 Servissäkring
@@ -206,20 +212,20 @@ Krav på rör
 1200  -  1800
 16  -  25
 732 300 kr + 504 kr/m
-915 375 +630 kr/m
+915 375 + 630 kr/m
 4G10 N1XV
 Ø 110 mm
 
-Detaljerat avgifter och villkor för anslutningar av elanläggningar hittar du i nedan dokument
+Detaljerade avgifter och villkor för anslutning av elanläggningar hittar du i nedan dokument
 http://mskraft.nu/wp-content/uploads/2025/01/Anslutningar-inom-MSKs-distributionsomrade-gallande-2025-01-01.pdf
 Tekniska och administrativa tillämpningsbestämmelser för anslutningar av elanläggningar inom Mellersta Skånes Krafts elnät
 Kontakta oss på 0451-62 000 eller
 mailto:info@mskraft.se
 info@mskraft.se
 så hjälper vi dig.
-Nätavgifter
-Nätavgifterna består av en fast och en rörlig del. Den fasta delen är en årlig abonnemangsavgift som styrs av storleken på din huvudsäkring, din elanvändning i kilowattimmar samt skatter och myndighetsavgifter. Den rörliga delen styrs av Taxa D11 där du betalar en rörlig avgift för varje använd kilowattimme. För mer information om hur nät-priserna regleras se dokumenten nedan.
-https://mskraft.nu/blanketter-2/
+Nätavgifter för säkringsabonnemang
+Säkringsabonnemang är det vanligaste abonnemanget för privatkunder. Nätavgifterna på dessa abonnemang består av en fast och en rörlig del. Den fasta delen är en årlig abonnemangsavgift som styrs av storleken på din huvudsäkring, din elanvändning i kilowattimmar samt skatter och myndighetsavgifter. Den rörliga delen styrs av Taxa D11 där du betalar en rörlig avgift för varje använd kilowattimme. För mer information om hur nät-priserna regleras se dokumenten nedan.
+https://mskraft.nu/avtalsvillkor/
 Mer information och dokument relaterat till nätavgifter hittar du här.
 Lågspänningstariffer (Gäller fr.o.m. 2025-01-01)
 
@@ -258,14 +264,16 @@ Elskatt
 54,88 öre/kWh
 
 Samtliga lågspånningstariffer är inklusive moms.
-Tillkommer för lågspänningskunder
-(Debiteras 1 gång/år-beslutade av regeringen, moms tillkommer)
+För alla lågspänningskunder tillkommer nedan avgifter.
+Dessa avgifter debiteras 1 gång/år och beslutas av regeringen. Mervärdeskatt tillkommer:
 Elsäkerhetsavgift: 11,10 kr/år
 Elberedskapsavgift: 90 kr/år
 Nätövervakningsavgift: 4,35 kr/år
 
-Effekt abonnemang
-
+Nätavgifter för effektabonnemang
+Effekt abonnemang består av en abonnemangsavgift som baseras på ditt effektbehov från elnätet och är indelad i olika effektssteg beroende på ditt användningsbehov under året. Avgiften betalas som en fast månadsavgift och kan justeras årligen om ditt behov förändras. Den här formen av nätavtal är vanligast hos kunder med stor förbrukning.
+Effektabonnemangstariffer (Gäller fr.o.m. 2025-01-01)
+Mervärdeskatt tillkommer på nedan tariffer.
 N3. Anslutningsspänning: 6 – 20 kV
 Fast avgift: 5080 kr/mån
 Abonnemangsavgift: 145  kr/kW och år
@@ -273,51 +281,41 @@ Effektavgift: 710 kr/kW och år
 Överuttagsavgift: 742 kr/kW (På överskjutande del av abonnerad effekt)
 Rörlig överföringsavgift
 Hela året: 9,5 öre/kWh
-Debiteringseffekt vid helårsleverans
+Energiskatt: 43,90 öre/kWh
+#4fd5c50196201f7c0
+Mer information & tillkommande avgifter
 
-#d485e25934f462288
 Abonnemangsavgift debiteras för den under året abonnerade effekten
 Effektavgift debiteras efter det högsta uppmätta månadsvärdet för levererade entimmeseffekt
-Elsäkerhetsavgift tillkommer med följande belopp:
+Tillkommande avgifter debiteras 1 gång per år och beslutas av regeringen. Mervärdeskatt tillkommer:
 Elsäkerhetsavgift: 905 kr/år
 Nätövervakningsavgift: 870 kr/år
 Elberedskapsavgift: 4897 kr/år
-Energiskatt: 43,90 öre/kWh
-Mervärdesskatt tillkommer på dessa avgifter
 
 N4. Anslutningsspänning: 0,4 kV
 Fast avgift: 2900 kr/mån
 Abonnemangsavgift: 225 kr/kW och år
 Högbelastningsavgift: 755 kr/kW och år
 Rörlig överföringsavgift.
-Hela året: 11,3 öre/kWh hela året
+Hela året: 11,3 öre/kWh
+Energiskatt: 43,90 öre/kWh
 
-Abonnemangs och övriga avgifter
-
-#397ab52d1a9ec5515
-Abonnemangsavgift debiteras för den under året abonnerade effekten, vilken motsvarar det högsta under året förekommande värdet på levererad entimmeseffekt.
-Elsäkerhetsavgift tillkommer med följande belopp:
+#c4b0dc5476666a486
+Mer information & tillkommande avgifter
+Tillkommande avgifter debiteras 1 gång per år och beslutas av regeringen. Mervärdeskatt tillkommer:
 Elsäkerhetsavgift: 11,10 kr/år
 Nätövervakningsavgift: 4,35 kr/år
 Elberedskapsavgift: 90 kr/år
-Energiskatt: 43,90 öre/kWh
-Mervärdesskatt tillkommer på dessa avgifter
 
 N5. Vägbelysningstariff
 Fast avgift: 151 kr/kW och månad
 Rörlig överföringsavgift
 Hela året: 18,0 öre/kWh
+Energiskatt: 43,90 öre/kWh
 
-Övriga avgifter
-
-#e0e70163944a9fbac
-Elsäkerhetsavgift tillkommer med följande belopp:
+#389c595c52b7ede25
+Mer information & tillkommande avgifter
+Tillkommande avgifter debiteras 1 gång per år och beslutas av regeringen. Mervärdeskatt tillkommer:
 Elsäkerhetsavgift: 11,10 kr/år
 Nätövervakningsavgift: 4,35 kr/år
 Elberedskapsavgift: 90 kr/år
-Energiskatt: 43,90 öre/kWh
-Mervärdesskatt tillkommer på dessa avgifter
-
-Moms tillkommer på tarifferna N3, N4 och N5 ovan.
-Priserna gäller från 2025-01-01
-Av staten beslutade avgifter för elsäkerhet, nätövervakning och elberedskap, debiteras separat en gång per år.
