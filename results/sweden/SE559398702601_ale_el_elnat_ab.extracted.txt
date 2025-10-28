@@ -1,5 +1,5 @@
 
-Elnätsavgifter
+Elnätsavgifter & abonnemang
 Här hittar du information om Ale El Elnäts olika elnätsabonnemang. Du betalar en fast elnätsavgift per månad som baseras på din huvudsäkrings storlek samt en avgift för varje kWh som överförs till dig. Alla kunder faktureras månadsvis.
 
 https://aleel.se/app/
@@ -14,9 +14,9 @@ https://aleel.se/kundservice/
 
 Kundservice
 
-https://aleel.se/om-ale-el
+https://aleel.se/om-ale-el/
 
-Om Ale El
+Om Ale el
 
 Den fasta elnätsavgiften
 Gäller för kunder med huvudsäkring 16-200 A
