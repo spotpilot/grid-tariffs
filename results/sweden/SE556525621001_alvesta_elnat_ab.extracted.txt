@@ -1,26 +1,4 @@
 
-Elnätspriser
-Nedan beskriver vi aktuella priser för våra två typer av nätabonnemang – säkringsabonnemang och effektabonnemang, samt våra avgifter för nyanslutning. Du hittar information om vilket abonnemang du har på din faktura.
-Förutom priser för elnätet som hanteras av Alvesta Energi, har du också en kostnad för elen du förbrukar. Den hanteras av den
-https://alvestaenergi.se/elnat/elhandel/
-elhandlare
-du tecknat elhandelsavtal med.
-
-#sakring
-Säkringsabonnemang
-#effekt
-Effektabonnemang
-#anslutningsavgift
-Anslutningsavgifter
-#energitjänsteföretag
-Energitjänsteföretag
-
-<img decoding="async"
-                    src="https://alvestaenergi.se/wp-content/uploads/2024/03/080523-moheda020-ny.jpg"
-                    alt="Tre kor i en sommarhage tittar ut över stenmur."
-                    class="ae-hero-article-image-figure"
-                >
-
 Säkringsabonnemang
 Säkringsabonnemang baseras på vilken storlek du har på huvudsäkringen i din bostad/fastighet. Du hittar information om säkringsstorlek på din faktura som finns tillgänglig på
 https://minasidor.alvestaenergi.se/logga-in
@@ -343,49 +321,3 @@ Prisjustering: Alvesta Elnät AB äger rätt att, utan föregående avisering, �
 avgifterna motsvarande förändringen av KPI per september kalenderåret innan jämfört med
 motsvarande index tolv (12) månader dessförinnan. Var tids gällande prislista återfinns på
 Alvesta Elnät ABs hemsida.
-
-https://maps.app.goo.gl/yY5Zcv6FHUd2dkXv6
-Blädingevägen 22
-342 80 Alvesta
-/personuppgiftspolicy
-Personuppgiftspolicy
-Inställningar för cookies
-/konsumentratt
-Konsumenträtt
-
-Vad behöver du hjälp med?
-https://minasidor.alvestaenergi.se/logga-in
-Logga in på Mina sidor
-https://alvestaenergi.se/avbrott-och-felanmalan/
-Avbrottsinformation
-https://alvestaenergi.se/avbrott-och-felanmalan/#felanmalan
-Felanmälan
-
-Kundtjänst
-Mån-fre 08:00-16:00
-Lunchstängt 12:00-13:00
-Telefon
-tel:047215038
-0472-150 38
-
-mailto:kundtjanst@alvestaenergi.se
-kundtjanst@alvestaenergi.se
-
-Populära sidor
-https://alvestaenergi.se/alvesta-elnat/teckna-elnatsavtal/
-Teckna elnätsavtal
-https://alvestaenergi.se/alvesta-fjarrvarme/teckna-fjarrvarmeavtal/
-Teckna fjärrvärmeavtal
-https://alvestaenergi.se/alvesta-elnat/priser/
-Elnätspriser
-https://alvestaenergi.se/alvesta-fjarrvarme/priser/
-Fjärrvärmepriser
-https://alvestaenergi.se/for-installatorer/
-För installatörer
-
-/webbplatskarta
-Webbplatskarta
-/tillganglighetsredogorelse
-Tillgänglighetsredogörelse
-/om-webbplatsen
-Om webbplatsen
