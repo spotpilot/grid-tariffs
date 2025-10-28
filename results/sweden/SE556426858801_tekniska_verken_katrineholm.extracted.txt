@@ -70,7 +70,7 @@ Lägenhet
 1 644 kr
 32,50 öre
 
-Elnät, 1-fas
+Elnät, 1-fas*
 16 A
 1 956 kr
 32,50 öre
@@ -100,7 +100,7 @@ Rörlig elöverföringsavgift (öre/kWh) är avgiften du betalar för att elen s
 Lägenhet
 Lägenhetsabonnemanget gäller för bostadslägenhet i flerbostadshus med minst tre lägenheter, med huvudsäkring 16–25 A som är ansluten till en gemensam servisledning.
 Elnät 1-Fas
-Anslutning sker endast till kolonistugor med 16 A huvudsäkring.
+* Anslutning sker endast till kolonistugor med 16 A huvudsäkring.
 
 Konsumtionsabonnemang 16-63 A
 
@@ -312,12 +312,13 @@ Effektavgift vinter, kr/kW/mån
 41 kr
 60 kr
 
-Större än 1 000 A
+Större än 1 000 A*
 9 190 kr
 8,60 öre
 41 kr
 60 kr
 
+* Ej för nytecknande kunder.
 Priserna gäller anläggningar som är anslutna till 400V-nätet och med huvudsäkring från 80 A och uppåt.
 Tillkommande avgifter:
 
@@ -743,12 +744,13 @@ Effektavgift vinter, kr/kW/mån
 43 kr
 61 kr
 
-Större än 1 000 A
+Större än 1 000 A*
 11 000 kr
 9,20 öre
 43 kr
 61 kr
 
+* Ej för nytecknande kunder.
 Priserna gäller för anläggningar som är anslutna till 400 V-nätet och med huvudsäkring från 80 Ampere (A) och uppåt.
 Tillkommande avgifter:
 
@@ -917,7 +919,9 @@ Information och villkor – anslutning av ny anläggning till elnät Linköping 
 Information och villkor – anslutning av ny anläggning till elnät Katrineholm (pdf)
 
 /siteassets/tekniska-verken/elnat/2023-konsument_allmanna-avtalsvillkor_elnat_tekniska-verken.pdf
-Allmänna avtalsvillkor – elanslutning privatperson (pdf)
+Allmänna avtalsvillkor – elanslutning privatperson till och med 2025 (pdf)
+/siteassets/tekniska-verken/elnat/allmanna-avtalsvillkor_elnat.pdf
+Allmänna avtalsvillkor – elanslutning privatperson från och med 2026 (pdf)
 /siteassets/tekniska-verken/elnat/2023-naringsidkare_allmanna-avtalsvillkor__elnat_tekniska-verken.pdf
 Allmänna avtalsvillkor – elanslutning verksamhet (pdf)
 /siteassets/tekniska-verken/elnat/nat-2012-h-rev-2018.pdf
