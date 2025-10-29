@@ -13,6 +13,9 @@ pub static HARNOSAND_ELNAT_AB: GridOperator = GridOperator::builder()
                 "https://www.hemab.se/elnat/priserelnat2025.4.5382fcb418e57c1263662e9b.html",
                 ".pagecontent",
             )
+            .feed_in_revenue_info_default(
+                "https://www.hemab.se/elnat/priserelnat2025.4.5382fcb418e57c1263662e9b.html",
+            )
             .build(),
     )
     .price_lists(&[PriceList::builder()
@@ -31,7 +34,9 @@ pub static HARNOSAND_ELNAT_AB: GridOperator = GridOperator::builder()
             (200, Money::new(65663, 0).divide_by(12)),
         ]))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::Simple(Cost::Fixed(
+            Money::new_subunit(1.75).add_vat(Country::SE),
+        )))
         .transfer_fee(TransferFee::fixed_subunit(13.20))
         .power_tariff(PowerTariff::NotImplemented)
         .build()])

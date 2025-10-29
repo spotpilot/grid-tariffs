@@ -6,7 +6,19 @@ const FEE_LINK: &str =
 const BASE_PRICELIST: PriceListBuilder = PriceListBuilder::new()
     .from_date(2025, 1, 1)
     .monthly_production_fee(Cost::Unverified)
-    .feed_in_revenue(FeedInRevenue::Unverified)
+    .feed_in_revenue(FeedInRevenue::new_periods(CostPeriods::new(&[
+        CostPeriod::builder()
+            .load(High)
+            .cost(Cost::fixed_subunit(8.94))
+            .months(November, March)
+            .exclude_weekends()
+            .hours(06, 21)
+            .build(),
+        CostPeriod::builder()
+            .load(Low)
+            .cost(Cost::fixed_subunit(5.59))
+            .build(),
+    ])))
     .power_tariff(PowerTariff::NotImplemented);
 
 pub static HJARTUMS_ELFORENING_EK_FOR: GridOperator = GridOperator::builder()
@@ -14,7 +26,14 @@ pub static HJARTUMS_ELFORENING_EK_FOR: GridOperator = GridOperator::builder()
     .vat_number("SE758500053701")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 500))
-    .links(Links::builder().fee_info_default(FEE_LINK).build())
+    .links(
+        Links::builder()
+            .fee_info_default(FEE_LINK)
+            .feed_in_revenue_info_default(
+                "https://www.hjartumselforening.se/elnat/natariff/natnyttoersattning/",
+            )
+            .build(),
+    )
     .price_lists(&[
         BASE_PRICELIST
             .variant("Enkeltariff")
