@@ -86,9 +86,10 @@ Kontrollmätning av elförbrukning genom att skicka in mätaren på kontroll hos
 
 Av- och påkoppling av abonnemang vid utebliven betalning
 
-Av- och påkopplingsavgift (avstängningsavgift) är: 1 872 kr inkl. moms.
+Av- och påkopplingsavgift (avstängningsavgift) är: 1 800 kr inkl. moms.
 
-Besöksavgift: 1 248 kr inkl. moms.
+Besöksavgift
+Vid åtgärder på plats är: 1 248 kr inkl. moms.
 
 Denna prislista gäller fr.o.m.
 2024-01-01, ingen höjning görs 2025-01-01.
@@ -254,8 +255,8 @@ https://x.com/share?url=https://www.hedemoraenergi.se/el/kopa-el/elnat/avgifter-
 
 mailto:?subject=Avgifter+och+prislistor+eln%C3%A4t&body=Jag+vill+dela+denna+sida+med+dig%2C+https%3A%2F%2Fwww.hedemoraenergi.se%2Fel%2Fkopa-el%2Felnat%2Favgifter-och-prislista%2F
 
-Publicerad:
-2024-10-29
+Senast ändrad:
+2025-10-28
 
 Du är här
 
@@ -289,7 +290,7 @@ El
 -
         Elbilsladdare
 -
-        Konsumenträtt elnät
+        Konsumenträtt för dig som elkund
 -
         Din smarta elmätare
 -
@@ -356,7 +357,7 @@ https://www.hedemoraenergi.se/el/fordjupad-information-om-el/elbilsladdare/
 Elbilsladdare
 
 https://www.hedemoraenergi.se/el/fordjupad-information-om-el/konsumentratt/
-Konsumenträtt elnät
+Konsumenträtt för dig som elkund
 
 https://www.hedemoraenergi.se/el/fordjupad-information-om-el/avbrottsersattning/
 Din smarta elmätare
