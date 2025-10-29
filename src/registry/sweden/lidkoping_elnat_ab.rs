@@ -10,6 +10,7 @@ pub static LIDKOPING_ELNAT_AB: GridOperator = GridOperator::builder()
     .links(
         Links::builder()
             .fee_info(FEE_URL, "#h-Elnatsavgifter + *")
+            .feed_in_revenue_info_default("https://lidkoping.se/lidkoping-miljo-och-teknik-ab/start/elnat-och-elforsorjning/producera-din-egen-el")
             .build(),
     )
     .price_lists(&[PriceList::builder()
@@ -23,7 +24,7 @@ pub static LIDKOPING_ELNAT_AB: GridOperator = GridOperator::builder()
             (63, Money::new(18350, 0).divide_by(12)),
         ]))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::fixed_subunit(2.5))
         .transfer_fee(TransferFee::fixed_subunit(14.1))
         .power_tariff(PowerTariff::NotImplemented)
         .build()])

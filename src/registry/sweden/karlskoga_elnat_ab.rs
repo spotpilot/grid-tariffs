@@ -11,6 +11,9 @@ pub static KARLSKOGA_ELNAT_AB: GridOperator = GridOperator::builder()
                 "https://www.karlskogaenergi.se/Vara-tjanster/elnat/priser-och-avtalsvillkor/",
                 "#mainContent",
             )
+            .feed_in_revenue_info_default(
+                "https://www.karlskogaenergi.se/Vara-tjanster/elnat/solceller/",
+            )
             .build(),
     )
     .price_lists(&[PriceList::builder()
@@ -24,7 +27,7 @@ pub static KARLSKOGA_ELNAT_AB: GridOperator = GridOperator::builder()
             (63, Money::new(15299, 0).divide_by(12)),
         ]))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::fixed_subunit(3.4))
         .transfer_fee(TransferFee::fixed_subunit(18.90))
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::AverageHours(1),

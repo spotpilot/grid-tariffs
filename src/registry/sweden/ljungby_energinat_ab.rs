@@ -7,7 +7,12 @@ pub static LJUNGBY_ENERGINAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE556082399801")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 63))
-    .links(Links::builder().fee_info_default(FEE_LINK).build())
+    .links(
+        Links::builder()
+            .fee_info_default(FEE_LINK)
+            .feed_in_revenue_info_default("https://ljungby-energi.se/elnat/mikroproduktion/")
+            .build(),
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fuses(&[
@@ -24,7 +29,7 @@ pub static LJUNGBY_ENERGINAT_AB: GridOperator = GridOperator::builder()
             (200, Money::new(104808, 0).divide_by(12)),
         ]))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::fixed_subunit(6.0))
         .transfer_fee(TransferFee::spot_price_variable(8.5, 0.09, false))
         .power_tariff(PowerTariff::NotImplemented)
         .build()])

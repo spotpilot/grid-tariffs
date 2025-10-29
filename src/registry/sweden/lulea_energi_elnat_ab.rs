@@ -11,6 +11,7 @@ pub static LULEA_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
     .links(
         Links::builder()
             .fee_info(FEE_LINK, "main section:first-of-type")
+            .feed_in_revenue_info_default("https://www.luleaenergi.se/produktion-och-infrastruktur/elnat/natpriser-och-avtalsvillkor")
             .build(),
     )
     .price_lists(&[PriceList::builder()
@@ -30,7 +31,7 @@ pub static LULEA_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
             (250, Money::new(101820, 0).divide_by(12)),
         ]))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::fixed_subunit(2.0))
         .transfer_fee(TransferFee::Simple(Cost::fuse_range(&[
             (16, 16, Money::new_subunit(17.5)),
             (20, 250, Money::ZERO),

@@ -7,7 +7,14 @@ pub static NYBRO_ELNAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE556058489701")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 200))
-    .links(Links::builder().fee_info_default(FEE_LINK).build())
+    .links(
+        Links::builder()
+            .fee_info_default(FEE_LINK)
+            .feed_in_revenue_info_default(
+                "https://nybroenergi.se/vara-tjanster/el/prislista-elnat/",
+            )
+            .build(),
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fuses(&[

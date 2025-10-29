@@ -11,13 +11,16 @@ pub static KRISTINEHAMNS_ENERGI: GridOperator = GridOperator::builder()
                 "https://kristinehamnsenergi.se/elnat/elnatsavgiften/din-elnatsavgift/",
                 "section",
             )
+            .feed_in_revenue_info_default(
+                "https://kristinehamnsenergi.se/kundtjanst/nyhetbrev/att-producera-egen-el/",
+            )
             .build(),
     )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fixed(277, 50))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::fixed_subunit(3.2))
         .transfer_fee(TransferFee::fixed_subunit(12.75))
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::AverageHours(1),

@@ -11,13 +11,16 @@ pub static MJOLBY_KRAFTNAT_AB: GridOperator = GridOperator::builder()
                 "https://www.mse.se/kundservice/priser-och-avtal/priser-elnat-2025/",
                 "#abonnemangspriser",
             )
+            .feed_in_revenue_info_default("https://www.mse.se/kundservice/priser-och-avtal/ersattning-avgifter-egen-elproduktion-elnat-2025/")
             .build(),
     )
     .price_lists(&[PriceList::builder()
         .from_date(9999, 12, 31)
         .monthly_fee(Cost::Unverified)
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::Simple(Cost::Fixed(
+            Money::new_subunit(4.5).add_vat(Country::SE),
+        )))
         .transfer_fee(TransferFee::Unverified)
         .power_tariff(PowerTariff::Unverified)
         .build()])

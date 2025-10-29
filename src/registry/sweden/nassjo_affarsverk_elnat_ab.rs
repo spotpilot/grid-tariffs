@@ -7,7 +7,12 @@ pub static NASSJO_AFFARSVERK_ELNAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE556526145901")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 200))
-    .links(Links::builder().fee_info_default(FEE_LINK).build())
+    .links(
+        Links::builder()
+            .fee_info_default(FEE_LINK)
+            .feed_in_revenue_info_default("https://www.nav.se/priser/elnat---priser#h-Elproduktion")
+            .build(),
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fuses(&[
@@ -24,7 +29,7 @@ pub static NASSJO_AFFARSVERK_ELNAT_AB: GridOperator = GridOperator::builder()
             (200, Money::new(36225, 0).divide_by(12)),
         ]))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::fixed_subunit(6.25))
         .transfer_fee(TransferFee::fixed_subunit(27.75))
         .power_tariff(PowerTariff::NotImplemented)
         .build()])

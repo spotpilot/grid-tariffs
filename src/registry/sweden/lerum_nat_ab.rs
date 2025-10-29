@@ -41,7 +41,7 @@ pub static LERUM_NAT_AB: GridOperator = GridOperator::builder()
             (640, Money::new(91963, 0).divide_by(12)),
         ]))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::fixed_subunit(6.5))
         .transfer_fee(TransferFee::fixed_subunit(38.95))
         .power_tariff(PowerTariff::NotImplemented)
         .build()])

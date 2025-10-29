@@ -8,7 +8,14 @@ pub static NACKA_ENERGI: GridOperator = GridOperator::builder()
     .vat_number("SE556017953201")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 80)) // 80A - LSP also shares the same tariff (what is max for LSP?)
-    .links(Links::builder().fee_info(FEE_LINK, "main").build())
+    .links(
+        Links::builder()
+            .fee_info(FEE_LINK, "main")
+            .feed_in_revenue_info_default(
+                "https://www.nackaenergi.se/elnat/bygga-och-installera/installera-solceller",
+            )
+            .build(),
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 7, 1)
         .monthly_fee(Cost::fuses(&[
@@ -21,7 +28,7 @@ pub static NACKA_ENERGI: GridOperator = GridOperator::builder()
             (80, Money::new(2212, 67)),
         ]))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::fixed_subunit(3.7))
         .transfer_fee(TransferFee::new_periods(CostPeriods::new(&[
             CostPeriod::builder()
                 .load(High)

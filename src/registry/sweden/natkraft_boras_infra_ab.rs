@@ -8,6 +8,7 @@ pub static NATKRAFT_BORAS_INFRA_AB: GridOperator = GridOperator::builder()
     .links(
         Links::builder()
             .fee_info("https://natkraftboras.se/elnat/elnatsavtal/priser/", "main")
+            .feed_in_revenue_info_default("https://natkraftboras.se/elnat/elnatsavtal/priser/")
             .build(),
     )
     .price_lists(&[PriceList::builder()
@@ -26,7 +27,7 @@ pub static NATKRAFT_BORAS_INFRA_AB: GridOperator = GridOperator::builder()
             (200, Money::new(4235, 0)),
         ]))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::fixed_subunit(5.5))
         .transfer_fee(TransferFee::Simple(Cost::fuse_range(&[
             (16, 20, Money::new_subunit(12.56)),
             (25, 200, Money::new_subunit(6.0)),
