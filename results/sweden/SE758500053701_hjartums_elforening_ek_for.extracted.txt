@@ -207,10 +207,6 @@ Elnät
 
 https://www.hjartumselforening.se/elnat/allmanna-avtalsvillkor/
 Allmänna avtalsvillkor – överföring el
-https://www.hjartumselforening.se/elnat/din-elmatare/
-Din elmätare
-https://www.hjartumselforening.se/elnat/driftstorning/
-Driftstörning
 https://www.hjartumselforening.se/elnat/energitjanstforetag-berattigad-part/
 Energitjänstföretag / Berättigad part
 https://www.hjartumselforening.se/elnat/kabelanvisning/
@@ -241,8 +237,8 @@ Tillfällig anslutning
 
 https://www.hjartumselforening.se/elnat/natutvecklingsplan/
 Nätutvecklingsplan
-https://www.hjartumselforening.se/elnat/nyheter/
-Nyheter
+https://www.hjartumselforening.se/elnat/din-elmatare/
+Din elmätare
 https://www.hjartumselforening.se/elnat/installationsanmalan/
 Installationsanmälan
 https://www.hjartumselforening.se/elnat/avbrottsersattning/
