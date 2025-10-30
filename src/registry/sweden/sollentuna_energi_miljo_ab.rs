@@ -10,6 +10,7 @@ pub static SOLLENTUNA_ENERGI_MILJO_AB: GridOperator = GridOperator::builder()
                 "https://www.seom.se/el/elnat/priser-och-villkor/",
                 ".main-content-area",
             )
+            .feed_in_revenue_info_default("https://www.seom.se/el/elnat/priser-och-villkor/")
             .build(),
     )
     .price_lists(&[PriceList::builder()
@@ -27,7 +28,9 @@ pub static SOLLENTUNA_ENERGI_MILJO_AB: GridOperator = GridOperator::builder()
             (200, Money::new(1330, 0)),
         ]))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::Simple(Cost::Fixed(
+            Money::new_subunit(7.0).add_vat(Country::SE),
+        )))
         .transfer_fee(TransferFee::fixed_subunit(5.00))
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::AverageHours(3),

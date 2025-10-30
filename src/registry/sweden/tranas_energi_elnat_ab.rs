@@ -7,7 +7,14 @@ pub static TRANAS_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE556952020701")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 35))
-    .links(Links::builder().fee_info_default(FEE_LINK).build())
+    .links(
+        Links::builder()
+            .fee_info_default(FEE_LINK)
+            .feed_in_revenue_info_default(
+                "https://tranasenergi.se/privat/elnat/priser-och-villkor/",
+            )
+            .build(),
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fuses(&[
@@ -17,7 +24,7 @@ pub static TRANAS_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
             (35, Money::new(9363, 75).divide_by(12)),
         ]))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::fixed_subunit(4.5))
         .transfer_fee(TransferFee::fixed_subunit(33.6))
         .power_tariff(PowerTariff::NotImplemented)
         .build()])

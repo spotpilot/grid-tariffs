@@ -11,6 +11,9 @@ pub static VARBERG_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
     .links(
         Links::builder()
             .fee_info(FEE_INFO, ".accordion-list > :nth-child(-n + 2)")
+            .feed_in_revenue_info_default(
+                "https://www.varbergenergi.se/privat/elnat/anslut-elproduktion-till-elnatet",
+            )
             .build(),
     )
     .price_lists(&[PriceList::builder()
@@ -29,7 +32,7 @@ pub static VARBERG_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
             (200, Money::new(69615, 00).divide_by(12)),
         ]))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::fixed_subunit(2.0))
         .transfer_fee(TransferFee::fixed_subunit(9.5))
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::AverageHours(3),

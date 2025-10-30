@@ -11,6 +11,7 @@ pub static UMEA_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
                 "https://www.umeaenergi.se/elnat/priser/priser-elnat",
                 "main",
             )
+            .feed_in_revenue_info_default("https://www.umeaenergi.se/solenergi/mikroproduktion")
             .build(),
     )
     .price_lists(&[PriceList::builder()
@@ -29,7 +30,7 @@ pub static UMEA_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
             (200, Money::new(49509, 0).divide_by(12)),
         ]))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::fixed_subunit(3.0))
         .transfer_fee(TransferFee::fixed_subunit(21.0))
         .power_tariff(PowerTariff::NotImplemented)
         .build()])

@@ -7,7 +7,9 @@ pub static SALAHEBY_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE556181367501")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 200))
-    .links(Links::builder().fee_info_default(FEE_LINK).build())
+    .links(Links::builder().fee_info_default(FEE_LINK)
+    .feed_in_revenue_info_default("https://sheab.se/wp-content/uploads/2025/02/Inmatningstariffer-fr.o.m.-2025-01-01-v1.pdf")
+    .build())
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fuses(&[
@@ -24,7 +26,9 @@ pub static SALAHEBY_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
             (200, Money::new(36000, 0).divide_by(12)),
         ]))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::Simple(Cost::Fixed(
+            Money::new_subunit(6.72).add_vat(Country::SE),
+        )))
         .transfer_fee(TransferFee::fixed_subunit(10.0))
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::AverageHours(3),

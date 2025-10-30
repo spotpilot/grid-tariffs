@@ -11,6 +11,9 @@ pub static UDDEVALLA_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
                 "https://www.uddevallaenergi.se/privat/elnat.html",
                 "div:has(> #Priserochavtal) + div",
             )
+            .feed_in_revenue_info_default(
+                "https://www.uddevallaenergi.se/kundservice/fragor-och-svar.html#solenergi",
+            )
             .build(),
     )
     .price_lists(&[PriceList::builder()
@@ -24,7 +27,7 @@ pub static UDDEVALLA_ENERGI_ELNAT_AB: GridOperator = GridOperator::builder()
             (63, Money::new(21250, 0).divide_by(12)),
         ]))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::fixed_subunit(5.0))
         .transfer_fee(TransferFee::fixed_subunit(15.0))
         .power_tariff(PowerTariff::NotImplemented)
         .build()])

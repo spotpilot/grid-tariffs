@@ -7,7 +7,12 @@ pub static TIDAHOLMS_ELNAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE556004333201")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 200))
-    .links(Links::builder().fee_info(FEE_LINK, "#content").build())
+    .links(
+        Links::builder()
+            .fee_info(FEE_LINK, "#content")
+            .feed_in_revenue_info_default("https://tidaholmsenergi.se/elnat/natpriser/")
+            .build(),
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fuses(&[
@@ -24,7 +29,7 @@ pub static TIDAHOLMS_ELNAT_AB: GridOperator = GridOperator::builder()
             (200, Money::new(37075, 0).divide_by(12)),
         ]))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::fixed_subunit(5.0))
         .transfer_fee(TransferFee::fixed_subunit(30.0))
         .power_tariff(PowerTariff::NotImplemented)
         .build()])

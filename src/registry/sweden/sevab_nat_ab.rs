@@ -12,6 +12,9 @@ pub static SEVAB_NAT_AB: GridOperator = GridOperator::builder()
                 "https://www.sevab.com/privat/elnat/priser-och-avgifter/priser-2025",
                 ".article-content",
             )
+            .feed_in_revenue_info_default(
+                "https://www.sevab.com/privat/elnat/priser-och-avgifter/priser-2025",
+            )
             .build(),
     )
     .price_lists(&[PriceList::builder()
@@ -25,7 +28,9 @@ pub static SEVAB_NAT_AB: GridOperator = GridOperator::builder()
             (63, Money::new(17760, 0).divide_by(12)),
         ]))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::Simple(Cost::Fixed(
+            Money::new_subunit(4.2).add_vat(Country::SE),
+        )))
         .transfer_fee(TransferFee::fixed_subunit(30.50))
         .power_tariff(PowerTariff::NotImplemented)
         .build()])

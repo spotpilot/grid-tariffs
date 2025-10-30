@@ -11,6 +11,7 @@ pub static SKOVDE_ENERGI: GridOperator = GridOperator::builder()
                 "https://skovdeenergi.se/elnat/taxor-avgifter/elnatstaxa-priser-med-moms/",
                 "main",
             )
+            .feed_in_revenue_info_default("https://skovdeenergi.se/elnat/solceller/ersattning/S")
             .build(),
     )
     .price_lists(&[PriceList::builder()
@@ -24,13 +25,13 @@ pub static SKOVDE_ENERGI: GridOperator = GridOperator::builder()
             (63, Money::new(385, 92)),
         ]))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::fixed_subunit(2.4))
         .transfer_fee(TransferFee::new_periods(CostPeriods::new(&[
             CostPeriod::builder()
                 .load(High)
                 .cost(Cost::fuse_range(&[
                     (16, 25, Money::new_subunit(26.25)),
-                    (35, 63, Money::new_subunit(20.)),
+                    (35, 63, Money::new_subunit(20.0)),
                 ]))
                 .months(November, March)
                 .hours(6, 22)

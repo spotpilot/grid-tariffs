@@ -8,13 +8,14 @@ pub static PARTILLE_ENERGI: GridOperator = GridOperator::builder()
     .links(
         Links::builder()
             .fee_info("https://partilleenergi.se/elnat/", "#elnatsavtal")
+            .feed_in_revenue_info_default("https://partilleenergi.se/solel/#leverantor")
             .build(),
     )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fixed_yearly(1875, 0))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::fixed_subunit(7.5))
+        .feed_in_revenue(FeedInRevenue::fixed_subunit(8.75))
         .transfer_fee(TransferFee::fixed_subunit(30.50))
         .power_tariff(PowerTariff::new(
             TariffCalculationMethod::AverageHours(1),

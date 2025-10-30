@@ -7,7 +7,14 @@ pub static SMEDJEBACKEN_ENERGI_NAT_AB: GridOperator = GridOperator::builder()
     .vat_number("SE556527871901")
     .country(Country::SE)
     .main_fuses(MainFuseSizes::new_range(16, 200))
-    .links(Links::builder().fee_info(FEE_LINK, ".pagecontent").build())
+    .links(
+        Links::builder()
+            .fee_info(FEE_LINK, ".pagecontent")
+            .feed_in_revenue_info_default(
+                "https://www.smedjebackenenergi.se/elnat/producera-egen-el.html",
+            )
+            .build(),
+    )
     .price_lists(&[PriceList::builder()
         .from_date(2025, 1, 1)
         .monthly_fee(Cost::fuses(&[
@@ -24,7 +31,7 @@ pub static SMEDJEBACKEN_ENERGI_NAT_AB: GridOperator = GridOperator::builder()
             (200, Money::new(38210, 0).divide_by(12)),
         ]))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::fixed_subunit(3.5))
         .transfer_fee(TransferFee::fixed_subunit(26.25))
         .power_tariff(PowerTariff::NotImplemented)
         .build()])
