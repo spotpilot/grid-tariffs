@@ -29,7 +29,19 @@ pub static HABO_ENERGI_KRAFT_AB: GridOperator = GridOperator::builder()
             (200, Money::new(77463, 0).divide_by(12)),
         ]))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::new_periods(CostPeriods::new(&[
+            CostPeriod::builder()
+                .load(High)
+                .cost(Cost::fixed_subunit(6.88))
+                .months(November, March)
+                .exclude_weekends()
+                .hours(06, 21)
+                .build(),
+            CostPeriod::builder()
+                .load(Low)
+                .cost(Cost::fixed_subunit(6.25))
+                .build(),
+        ])))
         .transfer_fee(TransferFee::fixed_subunit(22.89))
         .power_tariff(PowerTariff::NotImplemented)
         .build()])

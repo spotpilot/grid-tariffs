@@ -11,6 +11,7 @@ pub static HALMSTADS_ENERGI_OCH_MILJO_NAT_AB: GridOperator = GridOperator::build
                 "https://www.hem.se/elnat/avtal-och-priser",
                 "#sektion-Sektion",
             )
+            .feed_in_revenue_info_default("https://www.hem.se/elnat/avtal-och-priser")
             .build(),
     )
     .price_lists(&[PriceList::builder()
@@ -24,7 +25,7 @@ pub static HALMSTADS_ENERGI_OCH_MILJO_NAT_AB: GridOperator = GridOperator::build
             (63, Money::new(22767, 0).divide_by(12)),
         ]))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::fixed_subunit(6.25))
         .transfer_fee(TransferFee::fixed_subunit(9.0))
         .power_tariff(PowerTariff::NotImplemented)
         .build()])

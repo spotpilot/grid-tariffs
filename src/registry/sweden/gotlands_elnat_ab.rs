@@ -15,7 +15,7 @@ const BASE_PRICELIST: PriceListBuilder = PriceListBuilder::new()
         (200, Money::new(100930, 0).divide_by(12)),
     ]))
     .monthly_production_fee(Cost::Unverified)
-    .feed_in_revenue(FeedInRevenue::Unverified)
+    .feed_in_revenue(FeedInRevenue::fixed_subunit(5.6))
     .power_tariff(PowerTariff::NotImplemented);
 
 pub static GOTLANDS_ELNAT_AB: GridOperator = GridOperator::builder()

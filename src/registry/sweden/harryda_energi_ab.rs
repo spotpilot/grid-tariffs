@@ -8,6 +8,7 @@ pub static HARRYDA_ENERGI_AB: GridOperator = GridOperator::builder()
     .links(
         Links::builder()
             .fee_info("https://harrydaenergi.se/elnat/elnatspriser/", "#content")
+            .feed_in_revenue_info_default("https://harrydaenergi.se/om-oss/klimat-miljo/solenergi/")
             .build(),
     )
     .price_lists(&[PriceList::builder()
@@ -26,7 +27,7 @@ pub static HARRYDA_ENERGI_AB: GridOperator = GridOperator::builder()
             (160, Money::new(44070, 0).divide_by(12)),
             (200, Money::new(54790, 0).divide_by(12)),
         ]))
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::fixed_subunit(4.0))
         .transfer_fee(TransferFee::fixed_subunit(23.9))
         .power_tariff(PowerTariff::NotImplemented)
         .build()])

@@ -11,6 +11,7 @@ pub static HARJEANS_NAT_AB: GridOperator = GridOperator::builder()
                 "https://www.harjeans.se/elnat/elnatspriser-2025/",
                 ".sectionWrapper",
             )
+            .feed_in_revenue_info_default("https://www.harjeans.se/elnat/anslut-din-solel/")
             .build(),
     )
     .price_lists(&[PriceList::builder()
@@ -29,7 +30,7 @@ pub static HARJEANS_NAT_AB: GridOperator = GridOperator::builder()
             (200, Money::new(114281, 0).divide_by(12)),
         ]))
         .monthly_production_fee(Cost::Unverified)
-        .feed_in_revenue(FeedInRevenue::Unverified)
+        .feed_in_revenue(FeedInRevenue::fixed_subunit(5.13))
         .transfer_fee(TransferFee::fixed_subunit(6.25))
         .power_tariff(PowerTariff::NotImplemented)
         .build()])
