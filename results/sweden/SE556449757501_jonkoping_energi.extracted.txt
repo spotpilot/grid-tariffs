@@ -89,125 +89,20 @@ Elöverföringsavgift:
 Tillfälligt abonnemang
 
 Tillfällig abonnemang debiteras effekttariff enligt angivna priser.
-För anslutningar upp till 63 A, tillkommer en tilläggsavgift på 937,5 kr/mån inkl. moms efter 18 månader fram till att anslutningen sägs upp.
+För tillfälliga anslutningar upp till 63 A, tillkommer en tilläggsavgift på 937,5 kr/mån inkl. moms efter 18 månader fram till att anslutningen sägs upp.
 
-Priser säkringstariff (upphör att gälla för anläggningar som får effekttariff 2025-09-01)
+Priser enkeltariff
 
 Enkeltariff (L2)
 
-Gäller t.om. 2025-08-31
-
-Gäller från 2025-09-01
-
-16 A lägenhet
-Fast nätavgift: 136 kr/mån
+Gäller från och med 2025-09-01
+Alla priser anges inklusive moms
 
 16 A lägenhet
 Fast nätavgift: 136 kr/mån
 
 20 A lägenhet
 Fast nätavgift: 290 kr/mån
-
-20 A lägenhet
-Fast nätavgift: 290 kr/mån
-
-16 A
-Fast nätavgift:  303  kr/mån
-
-16 A
-Debiteras prislista effekttariff
-
-20 A
-Fast nätavgift: 399 kr/mån
-
-20 A
-Debiteras prislista effekttariff
-
-25 A
-Fast nätavgift: 480 kr/mån
-
-25 A
-Debiteras prislista effekttariff
-
-35 A
-Fast nätavgift: 664 kr/mån
-
-35 A
-Debiteras prislista effekttariff
-
-50 A
-Fast nätavgift: 918 kr/mån
-
-50 A
-Debiteras prislista effekttariff
-
-63 A
-Fast nätavgift: 1168 kr/mån
-
-63 A
-Debiteras prislista effekttariff
-
-Lägenhetstariff tillämpas när tre eller flera anläggningar är anslutna till samma serviskabel och mätarsäkring är på maximalt 20A.
-
-I den fasta nätavgiften ingår följande myndighetsavgifter:
-
-Elberedskapsavgift 112,50 kr/år
-Elsäkerhetsavgift 13,88 kr/år
-Nätövervakningsavgift 5,44 kr/år
-
-Tidstariff (L4) och tillfälliga anslutningar (T)
-
-Gäller t.o.m. 2025-08-31
-
-Gäller från 2025-09-01
-
-16 A lägenhet
-Fast nätavgift:  269 kr/mån
-
-16 A lägenhet
-Debiteras enkeltariff
-
-20 A lägenhet
-Fast nätavgift:  452 kr/mån
-
-16 A lägenhet
-Debiteras enkeltariff
-
-16 A
-Fast nätavgift: 472 kr/mån
-
-16 A
-Debiteras effekttariff
-
-20 A
-Fast nätavgift: 574 kr/mån
-
-20 A
-Debiteras effekttariff
-
-25 A
-Fast nätavgift: 722  kr/mån
-
-25 A
-Debiteras effekttariff
-
-35 A
-Fast nätavgift:  952 kr/mån
-
-35 A
-Debiteras effekttariff
-
-50 A
-Fast nätavgift: 1349  kr/mån
-
-50 A
-Debiteras effekttariff
-
-63 A
-Fast nätavgift: 1692  kr/mån
-
-63 A
-Debiteras effekttariff
 
 Lägenhetstariff tillämpas när tre eller flera anläggningar är anslutna till samma serviskabel och mätarsäkring är på maximalt 20A.
 I den fasta nätavgiften ingår följande myndighetsavgifter:
@@ -218,34 +113,12 @@ Nätövervakningsavgift 5,44 kr/år
 
 Elöverföringsavgift
 
-Elöverföringsavgiften kallas på fakturan för "överföringsavgift".
-
-Gäller t.om. 2025-08-31
-
-Gäller från 2025-09-01
-
-Elöverföring Enkeltariff (L2, T):
-29,30 öre/kWh
+Gäller från och med 2025-09-01
+Alla priser anges inklusive moms
+Elöverföringsavgiften kallas på fakturan för "överföring enkeltariff"
 
 Elöverföring Enkeltariff Lägenhet (L2):
 29,30 öre/kWh
-
-Elöverföring högpris Tidstariff (L4):
-37,84 öre/kWh
-
-Elöverföring högpris Tidstariff (L4):
-Debiteras effekttariff
-
-Elöverföring lågpris Tidstariff (L4):
-9,21 öre/kWh
-
-Elöverföring lågpris Tidstariff (L4):
-Debiteras effekttariff
-
-Elöverföring gäller för kunder med enkeltariff, det vill säga samma nätavgift oavsett tid på dygnet eller året. Alla nya kunder får denna tariff.
-Elöverföring högpris och lågpris gäller kunder med tidstariff. Högpris kl 07.00 - 22.00 måndag-fredag, november-mars, lågpris all övrig tid.
-Byggel
-För byggel gäller Tidstariff  t.o.m. 2025-08-31. Från 2025-09-01 gäller effekttariff enligt ovan.
 
 Anslutningsavgift
 Här hittar du prislista för ny permanent anslutning till elnätet och även olika regler för tillämpning. Du kan även göra en prisförfrågan om du vill ha en indikation på vad en elnätsanslutning kan kosta till din fastighet.
@@ -282,8 +155,8 @@ Vid eventuella fel på serviskabeln fram till kundens servissäkring ansvarar JE
 Vid servisändring kommer vi debitera enligt offererat pris.
 Vid en tillfällig anslutning debiterar vi en avgift för till- och frånkoppling.
 
-Effekttariff blir ny prismodell i elnätet
-Med den nya prismodellen effekttariff kan du som kund påverka dina elkostnader och samtidigt bidra till ett hållbart samhälle. Den 1 september 2025 kommer kunder med säkring 16–63 A (ej lägenheter) att byta till effekttariff.
+Effekttariff ny prismodell i elnätet
+Med den nya prismodellen effekttariff kan du som kund påverka dina elkostnader och samtidigt bidra till ett hållbart samhälle. Den 1 september 2025 infördes effekttariff för kunder med säkring 16–63 A (ej lägenheter)
 /privat/elnat/effekttariff
 Så fungerar effekttariff
 
@@ -329,17 +202,23 @@ Här kan du läsa om din faktura och skicka anmälan till autogiro eller e-faktu
 Läs mer
 
 Vi tar elen hem till dig
-På Jönköping Energi Nät ser till att du har el hemma och övervakar, underhåller och åtgärdar fel i vårt nät dygnet runt, alla dagar om året.
+På Jönköping Energi Nät ser vi till att du har el hemma och övervakar, underhåller och åtgärdar fel i vårt nät dygnet runt, alla dagar om året.
 /privat/elnat/elnat
 Läs mer om elnätet
 
+Kontakta kundcenter
+Mejl:
+mailto:kundservice@jonkopingenergi.se
+kundservice@jonkopingenergi.se
+Telefon:
+tel:036-10 82 20
+036-10 82 20
+/privat/kundcenter/kundcenter
+Skicka fråga
 Postadress
-Jönköping Energi
-Box 5150
-550 05 Jönköping
+Jönköping Energi. Box 5150, 550 05 Jönköping
 Besöksadress
-Kjellbergsgatan 3
-554 54 Jönköping
+Kjellbergsgatan 3, 554 54 Jönköping
 
 Hitta snabbt
 /foretag/installator/for-installatorer
