@@ -11,7 +11,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Elnät</title>
 
-<link rel="stylesheet" href="/assets/css/main.css?v=1113924625499">
+<link rel="stylesheet" href="/assets/css/main.css?v=1113941721897">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -69,20 +69,66 @@
 			<script src="/assets/js/libs/html5shiv.js"></script>
 			<script src="/assets/js/libs/respond.min.js"></script>
 	<![endif]-->
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
-	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+
+	<script>
+		console.log("------------- clickguard begin ---------------");
+		window.__appReady = false;
+		(function () {
+			var SELECTORS = [
+				'[data-type="toggle"]',     // toggles (toggleLink.js)
+				'.js-accordion-toggle',     // dragspel
+				'.js-filter-button',        // filterknappar
+				'.js-search-toggle'         // sÃ¶kknappen
+			].join(',');
+
+			function shouldGuard(target) {
+				if (!target || typeof target.closest !== 'function') return false;
+				return !!target.closest(SELECTORS);
+			}
+
+			// Klick
+			document.addEventListener('click', function (e) {
+				if (window.__appReady) return;
+				if (!shouldGuard(e.target)) return;
+				e.preventDefault();
+				e.stopPropagation();
+			}, true); // capture â€“ fÃ¥ngar det allra tidigaste
+
+			// Tangent (Enter/Space) pÃ¥ lÃ¤nkar/knappar
+			document.addEventListener('keydown', function (e) {
+				if (window.__appReady) return;
+				if (e.key !== 'Enter' && e.key !== ' ') return;
+				if (!shouldGuard(e.target)) return;
+				e.preventDefault();
+				e.stopPropagation();
+			}, true);
+
+			setTimeout(function () { window.__appReady = true; }, 6000);
+		})();
+		console.log("------------- clickguard end ---------------");
+	</script>
+
+	<script src="/assets/js/libs/jquery-3.6.min.js"></script>
+	<script src="/assets/js/libs/jquery-ui.min.js"></script>
+	<link rel="stylesheet" href="/assets/css/jquery-ui.css">
+	
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Viga&amp;subset=latin-ext" rel="stylesheet">
-	<script src="/assets/js/libs/modernizr.custom.js"></script>
 
 
 	<script>
 		jQuery.noConflict();
 	</script>
 
-	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.7.3/dist/Chart.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@0.7.0"></script>
-	<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-deferred@1"></script>
+
+	<script src="/assets/js/libs/Chart.min.js"></script>
+	<script src="/assets/js/libs/chartjs-plugin-datalabels.min.js"></script>
+	<script src="/assets/js/libs/chartjs-plugin-deferred.min.js"></script>
+
+	
 
 	<script type="text/javascript">
 		if (window.location.host === 'veab.local' || window.location.host.startsWith('localhost') || window.location.host === '185.186.56.98' || window.location.host === 'stage.veab.se') {
@@ -126,8 +172,8 @@
 		}
 
 		function recaptchaCallback() {
-			$('#recaptcha_check_empty').val('ok');
-			$('#recaptcha-error').hide();
+			jQuery('#recaptcha_check_empty').val('ok');
+			jQuery('#recaptcha-error').hide();
 		}
 	</script>
 
@@ -165,19 +211,19 @@
 
 
 
-	<script data-main="/assets/js/main.js?v=1113924625499"
+	<script data-main="/assets/js/main.js?v=1113941721897"
 			src="/assets/js/libs/require.js"></script>
 
-	<script src="https://veab.lime-forms.com/js/ce/latest"></script>
+	<script src="https://veab.lime-forms.com/js/ce/latest" defer></script>
+
 </head>
 
 <body>
 
 		<!-- Google Tag Manager (noscript) -->
 		<noscript>
-			<iframe
-				src="https://www.googletagmanager.com/ns.html?id=GTM-NKB9MSG"
-				height="0" width="0" style="display: none; visibility: hidden" title="Google tag manager"></iframe>
+			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NKB9MSG"
+					height="0" width="0" style="display: none; visibility: hidden" title="Google tag manager"></iframe>
 		</noscript>
 		<!-- End Google Tag Manager (noscript) -->
 	<svg style="display: none;">
@@ -516,7 +562,7 @@
 <header id="page-header" class="clearfix">
     <div class="layout-section-constrained is-relative">
         <a href="/" class="page-logo">
-            <img src="/assets/img/logo-new-white.png" alt="VEAB logga" />
+            <img src="/assets/img/logo-new-white.png" width="130" height="63" alt="VEAB logga" />
         </a>
         <div class="is-hidden-small is-hidden-medium">
             
@@ -644,6 +690,33 @@
 							<ul class="layout-section-constrained">
 												<li>
 					<a href="/privat/fjarrvarme/for-installatorer-fjarrvarme/anmalan-andring/" title="G&aring; till: &#196;ndringsanm&#228;lan">&#196;ndringsanm&#228;lan</a>
+				</li>
+
+							</ul>
+
+						</div>
+					</div>
+			</li>
+			<li>
+				<a href="/privat/fjarrvarme/smart-varme/" title="G&aring; till: Smart v&#228;rme">Smart v&#228;rme</a>
+					<div class="subnav-bar-holder">
+						<div class="subnav-bar">
+
+							<ul class="layout-section-constrained">
+												<li>
+					<a href="/privat/fjarrvarme/smart-varme/avtalsvillkor-smart-varme-kundagd-utrustning/" title="G&aring; till: Avtalsvillkor Smart v&#228;rme kund&#228;gd utrustning">Avtalsvillkor Smart v&#228;rme kund&#228;gd utrustning</a>
+				</li>
+				<li>
+					<a href="/privat/fjarrvarme/smart-varme/avtalsvillkor-smart-varme/" title="G&aring; till: Avtalsvillkor Smart v&#228;rme">Avtalsvillkor Smart v&#228;rme</a>
+				</li>
+				<li>
+					<a href="/privat/fjarrvarme/smart-varme/bestallning-smart-varme-for-befintlig-kund/" title="G&aring; till: Best&#228;llning Smart v&#228;rme f&#246;r befintlig kund">Best&#228;llning Smart v&#228;rme f&#246;r befintlig kund</a>
+				</li>
+				<li>
+					<a href="/privat/fjarrvarme/smart-varme/smart-varme-sedan-tidigare--bra-att-veta/" title="G&aring; till: Smart v&#228;rme sedan tidigare – bra att veta">Smart v&#228;rme sedan tidigare – bra att veta</a>
+				</li>
+				<li>
+					<a href="/privat/fjarrvarme/smart-varme/bestallning-smart-varme/" title="G&aring; till: Best&#228;llning Smart V&#228;rme">Best&#228;llning Smart V&#228;rme</a>
 				</li>
 
 							</ul>
@@ -1098,10 +1171,7 @@
 
 							<ul class="layout-section-constrained">
 												<li>
-					<a href="/om-oss/foretaget/sponsring/brande-udde/" title="G&aring; till: Br&#228;nde Udde">Br&#228;nde Udde</a>
-				</li>
-				<li>
-					<a href="/om-oss/foretaget/sponsring/nattvandrare-gor-stan-sakrare/" title="G&aring; till: Nattvandrare g&#246;r stan s&#228;krare">Nattvandrare g&#246;r stan s&#228;krare</a>
+					<a href="/om-oss/foretaget/sponsring/smabin_storskillnadformiljon/" title="G&aring; till: Sm&#229; bin - stor skillnad f&#246;r milj&#246;n">Sm&#229; bin - stor skillnad f&#246;r milj&#246;n</a>
 				</li>
 				<li>
 					<a href="/om-oss/foretaget/sponsring/en-ljuspunkt-i-vardagen/" title="G&aring; till: En ljuspunkt i vardagen">En ljuspunkt i vardagen</a>
@@ -1130,18 +1200,6 @@
 								<ul class="layout-section-constrained">
 												<li>
 				<a href="/om-oss/jobba-hos-oss/lediga-jobb/" title="G&aring; till: Lediga jobb">Lediga jobb</a>
-					<div class="subnav-bar-holder">
-						<div class="subnav-bar">
-
-							<ul class="layout-section-constrained">
-												<li>
-					<a href="/om-oss/jobba-hos-oss/lediga-jobb/Instrumenttekniker_Automationstekniker/" title="G&aring; till: Instrumenttekniker/Automationstekniker">Instrumenttekniker/Automationstekniker</a>
-				</li>
-
-							</ul>
-
-						</div>
-					</div>
 			</li>
 			<li>
 				<a href="/om-oss/jobba-hos-oss/vart-traineeprogram/" title="G&aring; till: V&#229;rt traineeprogram">V&#229;rt traineeprogram</a>
@@ -2034,21 +2092,36 @@
 					
 
 <div class="block droppable-block clearfix margin-bottom-standard">
+	<h2 class="h-subheadline h-subheadline--default">Nya allm&#228;nna avtalsvillkor fr&#229;n 1 januari 2026</h2>
+	<div class="is-rte">
+		<p>Energif&ouml;retagen och Konsumentverket har f&ouml;rhandlat fram nya allm&auml;nna avtalsvillkor, N&Auml;T 2025 K, som tr&auml;der i kraft fr&aring;n 2026-01-01*.</p>
+<p>De uppdaterade villkoren ers&auml;tter tidigare versioner. Syftet med &auml;ndringarna &auml;r att s&auml;kerst&auml;lla att avtalsinneh&aring;llet &auml;r i linje med g&auml;llande lagstiftning samt att tydligg&ouml;ra parternas r&auml;ttigheter och skyldigheter.</p>
+<p><a href="/link/88167f696d074bda86754765ea08ef05.aspx" target="_blank" rel="noopener">L&auml;s nya avtalsvillkor N&auml;t 2025 K i pdf-format</a><br /><a href="/link/fe7c3c34b22543a4928660446a4256bc.aspx" target="_blank" rel="noopener">L&auml;s avtalsvillkor N&auml;t 2012 K (rev 2) som g&auml;ller t.o.m. 2025-12-31 i pdf-format</a></p>
+<p><br />*Med reservation f&ouml;r faktorer som V&auml;xj&ouml; Energi inte r&aring;der &ouml;ver</p>
+	</div>
+</div>
+
+
+
+
+
+<div class="block droppable-block clearfix margin-bottom-standard">
 	<h2 class="h-subheadline h-subheadline--default">Kvartspriser ers&#228;tter timpriser  </h2>
 	<div class="is-rte">
-		<p>Fr&aring;n och med den 1 oktober 2025 kommer el&ouml;verf&ouml;ringsavgiften fr&aring;n oss baseras p&aring; kvart i st&auml;llet f&ouml;r timme. Det inneb&auml;r att vi kommer att m&auml;ta och priss&auml;tta i kortare tidsintervall &auml;n tidigare &ndash; (kvart f&ouml;r kvart, ist&auml;llet f&ouml;r timme f&ouml;r timme) vilket kan ge dig &auml;nnu b&auml;ttre kontroll &ouml;ver din eln&auml;tsfaktura och hj&auml;lpa dig att anv&auml;nda el smartare.<br /><strong><br />Effektavgiften p&aring;verkas inte, den kommer fortsatt att ber&auml;knas genom ett timmedelv&auml;rde av de tre timmar d&aring; du anv&auml;nder som mest kilowatt under m&aring;naden p&aring; vardagar mellan kl. 07-20.)</strong></p>
+		<p>Fr&aring;n och med den 1 oktober 2025 &auml;r el&ouml;verf&ouml;ringsavgiften fr&aring;n oss baserad p&aring; kvart i st&auml;llet f&ouml;r timme. Det inneb&auml;r att vi m&auml;ter och priss&auml;tter i kortare tidsintervall &auml;n tidigare &ndash; (kvart f&ouml;r kvart, ist&auml;llet f&ouml;r timme f&ouml;r timme) vilket kan ge dig &auml;nnu b&auml;ttre kontroll &ouml;ver din eln&auml;tsfaktura och hj&auml;lpa dig att anv&auml;nda el smartare.<br /><strong><br />Effektavgiften p&aring;verkas inte av f&ouml;r&auml;ndringen, den ber&auml;knas genom ett timmedelv&auml;rde av de tre timmar d&aring; du anv&auml;nder som mest kilowatt under m&aring;naden p&aring; vardagar mellan kl. 07-20.)</strong></p>
 <p>&nbsp;</p>
 	</div>
 </div>
 
 
 
+<p>&nbsp;</p>
 <h2>Din eln&auml;tsavgift</h2>
 <p>1 januari 2024 &ouml;vergick s&auml;kringsabonnemang till effektabonnemang. Det inneb&auml;r en prismodell som inneh&aring;ller tre avgifter:</p>
 <ul>
 <li><strong>Fast avgift </strong><br />Du betalar en fast abonnemangsavgift som &auml;r beroende p&aring; s&auml;kringsstorlek. I avgiften ing&aring;r myndighetsavgifter.&nbsp;</li>
 <li><strong>Effektavgift</strong><br />Du betalar ett snittpris f&ouml;r de tre h&ouml;gsta effekttopparna du har under m&aring;naden. Avgiften ber&auml;knas p&aring; vardagar mellan kl. 07-20 under m&aring;naden.</li>
-<li><strong>El&ouml;verf&ouml;ring</strong><br />Du betalar en avgift f&ouml;r &ouml;verf&ouml;ring av el fram till ditt boende, avgiften &auml;r r&ouml;rlig per timme och du betalar per anv&auml;nd kilowattimme. <a href="#Overforing">H&auml;r kan du se m&aring;nadens &ouml;verf&ouml;ringsavgift.</a></li>
+<li><strong>El&ouml;verf&ouml;ring</strong><br />Du betalar en avgift f&ouml;r &ouml;verf&ouml;ring av el fram till ditt boende, avgiften &auml;r r&ouml;rlig per kvart och du betalar per anv&auml;nd kilowattimme. <a href="#Overforing">H&auml;r kan du se m&aring;nadens &ouml;verf&ouml;ringsavgift.</a></li>
 </ul>
 <p>Cirka 50 procent av din eln&auml;tskostnad best&aring;r av myndighetsavgifter och skatter. Dessa avgifter fakturerar vi till dig som kund och sedan betalar vidare till olika myndigheter. Ut&ouml;ver eln&auml;tsavgiften s&aring; betalar du &auml;ven f&ouml;r elen du anv&auml;nder. Den kostnaden betalar du till ditt elhandelsf&ouml;retag.</p>
 
@@ -2071,7 +2144,7 @@
 	</section>
 
 <section class="rs_skip campaign  is-hidden-large">
-	<div class="campaign__media" style="background-image: url('/contentassets/3d6cd1bc75f44d6ab3bb5cb01f98b50d/vardag_i_ett_kok.jpg?w=1903');">
+	<div class="campaign__media" style="background-image: url('/contentassets/3d6cd1bc75f44d6ab3bb5cb01f98b50d/vardag_i_ett_kok.jpg?w=700');">
 	</div>
 		<div class="campaign__content">
 			<h2 class="campaign__title">Vad anv&#228;nds eln&#228;tsavgiften i V&#228;xj&#246; till?</h2>
@@ -2096,7 +2169,7 @@
 			</div>
 			<div class="c-notice_info">
 				<p>Priserna &auml;r <strong>inklusive moms.</strong></p>
-<p>*Framtaget 2025-09-01.</p>
+<p>*Framtaget 2025-10-01.</p>
 			</div>
 		</div>
 
@@ -2106,7 +2179,7 @@
 						<div class="col-content">
 							<div>
 								S&#228;kring
-<div class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-fuse" data-tooltip-content="#tooltip_content-fuse"></div>							</div>
+<button class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-fuse" aria-expanded="false" data-tooltip-content="#tooltip_content-fuse"><span class="is-visuallyhidden">Öppna tooltip</span></button>							</div>
 						</div>
 					</div>
 					<div class="col">
@@ -2120,15 +2193,15 @@
 						<div class="col-content">
 							<div>
 								El&#246;verf&#246;ring
-<div class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-transf" data-tooltip-content="#tooltip_content-transf"></div>							</div>
-							<div class="col-content-info">(prognos oktober)</div>
+<button class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-transf" aria-expanded="false" data-tooltip-content="#tooltip_content-transf"><span class="is-visuallyhidden">Öppna tooltip</span></button>							</div>
+							<div class="col-content-info">(prognos november)</div>
 						</div>
 					</div>
 						<div class="col">
 							<div class="col-content">
 								<div>
 									Effektavgift
-<div class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-effect" data-tooltip-content="#tooltip_content-effect"></div>								</div>
+<button class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-effect" aria-expanded="false" data-tooltip-content="#tooltip_content-effect"><span class="is-visuallyhidden">Öppna tooltip</span></button>								</div>
 							</div>
 						</div>
 				</div>
@@ -2139,7 +2212,7 @@
 								<div class="col">
 									<div class="only-mobile">
 										S&#228;kring
-<div class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-fuse" data-tooltip-content="#tooltip_content-fuse"></div>									</div>
+<button class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-fuse" aria-expanded="false" data-tooltip-content="#tooltip_content-fuse"><span class="is-visuallyhidden">Öppna tooltip</span></button>									</div>
 									<div class="col-header ">Lägenhet</div>
 								</div>
 								<div class="col">
@@ -2156,10 +2229,10 @@
 								<div class="col">
 									<div class="only-mobile">
 										El&#246;verf&#246;ring
-<div class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-transf" data-tooltip-content="#tooltip_content-transf"></div>									</div>
+<button class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-transf" aria-expanded="false" data-tooltip-content="#tooltip_content-transf"><span class="is-visuallyhidden">Öppna tooltip</span></button>									</div>
 										<div class="col-content">
 											<div class="col-header">
-												<span> 9,7 &#246;re/kWh</span>
+												<span> 10,52 &#246;re/kWh</span>
 												<span>per m&aring;nad</span>
 											</div>
 												<div class="col-info"><p><a href="/link/5a040a30b004477f811146eab55c9faa.aspx#overforing">Se prognos r&ouml;rlig &ouml;verf&ouml;ring</a></p></div>
@@ -2168,7 +2241,7 @@
 									<div class="col">
 										<div class="only-mobile">
 											Effektavgift
-<div class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-effect" data-tooltip-content="#tooltip_content-effect"></div>										</div>
+<button class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-effect" aria-expanded="false" data-tooltip-content="#tooltip_content-effect"><span class="is-visuallyhidden">Öppna tooltip</span></button>										</div>
 											<div class="col-no-info"><p>0 kr. Effektavgift ing&aring;r inte i detta abonnemang.</p></div>
 									</div>
 							</div>
@@ -2178,7 +2251,7 @@
 								<div class="col">
 									<div class="only-mobile">
 										S&#228;kring
-<div class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-fuse" data-tooltip-content="#tooltip_content-fuse"></div>									</div>
+<button class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-fuse" aria-expanded="false" data-tooltip-content="#tooltip_content-fuse"><span class="is-visuallyhidden">Öppna tooltip</span></button>									</div>
 									<div class="col-header short-header">16 A</div>
 								</div>
 								<div class="col">
@@ -2195,10 +2268,10 @@
 								<div class="col">
 									<div class="only-mobile">
 										El&#246;verf&#246;ring
-<div class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-transf" data-tooltip-content="#tooltip_content-transf"></div>									</div>
+<button class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-transf" aria-expanded="false" data-tooltip-content="#tooltip_content-transf"><span class="is-visuallyhidden">Öppna tooltip</span></button>									</div>
 										<div class="col-content">
 											<div class="col-header">
-												<span> 9,7 &#246;re/kWh</span>
+												<span> 10,52 &#246;re/kWh</span>
 												<span>per m&aring;nad</span>
 											</div>
 												<div class="col-info"><p><a href="/link/5a040a30b004477f811146eab55c9faa.aspx#overforing">Se prognos r&ouml;rlig &ouml;verf&ouml;ring</a></p></div>
@@ -2207,7 +2280,7 @@
 									<div class="col">
 										<div class="only-mobile">
 											Effektavgift
-<div class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-effect" data-tooltip-content="#tooltip_content-effect"></div>										</div>
+<button class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-effect" aria-expanded="false" data-tooltip-content="#tooltip_content-effect"><span class="is-visuallyhidden">Öppna tooltip</span></button>										</div>
 											<div class="col-content">
 												<div class="col-header">
 													<span> 65,48 kr/kW</span>
@@ -2222,7 +2295,7 @@
 								<div class="col">
 									<div class="only-mobile">
 										S&#228;kring
-<div class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-fuse" data-tooltip-content="#tooltip_content-fuse"></div>									</div>
+<button class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-fuse" aria-expanded="false" data-tooltip-content="#tooltip_content-fuse"><span class="is-visuallyhidden">Öppna tooltip</span></button>									</div>
 									<div class="col-header short-header">20 A</div>
 								</div>
 								<div class="col">
@@ -2239,10 +2312,10 @@
 								<div class="col">
 									<div class="only-mobile">
 										El&#246;verf&#246;ring
-<div class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-transf" data-tooltip-content="#tooltip_content-transf"></div>									</div>
+<button class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-transf" aria-expanded="false" data-tooltip-content="#tooltip_content-transf"><span class="is-visuallyhidden">Öppna tooltip</span></button>									</div>
 										<div class="col-content">
 											<div class="col-header">
-												<span> 9,7 &#246;re/kWh</span>
+												<span> 10,52 &#246;re/kWh</span>
 												<span>per m&aring;nad</span>
 											</div>
 												<div class="col-info"><p><a href="/link/5a040a30b004477f811146eab55c9faa.aspx#overforing">Se prognos r&ouml;rlig &ouml;verf&ouml;ring</a></p></div>
@@ -2251,7 +2324,7 @@
 									<div class="col">
 										<div class="only-mobile">
 											Effektavgift
-<div class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-effect" data-tooltip-content="#tooltip_content-effect"></div>										</div>
+<button class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-effect" aria-expanded="false" data-tooltip-content="#tooltip_content-effect"><span class="is-visuallyhidden">Öppna tooltip</span></button>										</div>
 											<div class="col-content">
 												<div class="col-header">
 													<span> 65,48 kr/kW</span>
@@ -2266,7 +2339,7 @@
 								<div class="col">
 									<div class="only-mobile">
 										S&#228;kring
-<div class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-fuse" data-tooltip-content="#tooltip_content-fuse"></div>									</div>
+<button class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-fuse" aria-expanded="false" data-tooltip-content="#tooltip_content-fuse"><span class="is-visuallyhidden">Öppna tooltip</span></button>									</div>
 									<div class="col-header short-header">25 A</div>
 								</div>
 								<div class="col">
@@ -2283,10 +2356,10 @@
 								<div class="col">
 									<div class="only-mobile">
 										El&#246;verf&#246;ring
-<div class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-transf" data-tooltip-content="#tooltip_content-transf"></div>									</div>
+<button class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-transf" aria-expanded="false" data-tooltip-content="#tooltip_content-transf"><span class="is-visuallyhidden">Öppna tooltip</span></button>									</div>
 										<div class="col-content">
 											<div class="col-header">
-												<span> 9,7 &#246;re/kWh</span>
+												<span> 10,52 &#246;re/kWh</span>
 												<span>per m&aring;nad</span>
 											</div>
 												<div class="col-info"><p><a href="/link/5a040a30b004477f811146eab55c9faa.aspx#overforing">Se prognos r&ouml;rlig &ouml;verf&ouml;ring</a></p></div>
@@ -2295,7 +2368,7 @@
 									<div class="col">
 										<div class="only-mobile">
 											Effektavgift
-<div class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-effect" data-tooltip-content="#tooltip_content-effect"></div>										</div>
+<button class="tooltip fas fa-info-circle" aria-describedby="tooltip_content-effect" aria-expanded="false" data-tooltip-content="#tooltip_content-effect"><span class="is-visuallyhidden">Öppna tooltip</span></button>										</div>
 											<div class="col-content">
 												<div class="col-header">
 													<span> 65,48 kr/kW</span>
@@ -2313,11 +2386,11 @@
 </div>
 
 <div class="tooltip_templates">
-	<span class="tooltip_content" role="tooltip" id="tooltip_content-fuse"><p>Din s&auml;kringsstorlek hittar du p&aring; din faktura eller p&aring;&nbsp;<a href="https://minasidor.veab.se/" target="_blank" rel="noopener">Mina sidor</a> vid sidan Mina avtal vid rubriken Abonnemangsavgift. S&auml;kringsstorlek ben&auml;mns som abonnemangsavgift eftersom den avgiften baseras p&aring; din storlek p&aring; s&auml;kring.&nbsp;</p></span>
+	<span class="tooltip_content" role="tooltip" id="tooltip_content-fuse"><p>Din s&auml;kringsstorlek hittar du p&aring; din faktura eller p&aring;&nbsp;<a href="https://minasidor.veab.se/" target="_blank" rel="noopener">Mina sidor</a> vid sidan Mina avtal vid rubriken Abonnemangsavgift. S&auml;kringsstorlek ben&auml;mns som abonnemangsavgift eftersom den avgiften baseras p&aring; din storlek p&aring; s&auml;kring.&nbsp;</p><button class="close-tooltip-btn" aria-label="Close">&times;</button></span>
 	
-	<span class="tooltip_content" role="tooltip" id="tooltip_content-transf"><p>Fr&aring;n 1 januari 2023 har V&auml;xj&ouml; Energi r&ouml;rlig &ouml;verf&ouml;ringsavgift. Avgiften &auml;r r&ouml;rlig och varierar beroende p&aring; vilket abonnemang du har.</p></span>
+	<span class="tooltip_content" role="tooltip" id="tooltip_content-transf"><p>Fr&aring;n 1 januari 2023 har V&auml;xj&ouml; Energi r&ouml;rlig &ouml;verf&ouml;ringsavgift. Avgiften &auml;r r&ouml;rlig och varierar beroende p&aring; vilket abonnemang du har.</p><button class="close-tooltip-btn" aria-label="Close">&times;</button></span>
 	<span class="tooltip_content" role="tooltip" id="tooltip_content-effect"><p>Din elm&auml;tare m&auml;ter hur mycket el du anv&auml;nder f&ouml;r varje timme. Din effektavgift ber&auml;knas av de tre timmar d&aring; du anv&auml;nder som mest kilowatt under m&aring;naden p&aring; vardagar mellan kl. 07-20. Avgiften ber&auml;knas kronor per kilowatt.&nbsp;</p>
-<p>F&ouml;ljande dagar r&auml;knas inte som vardagar:<br />L&ouml;rdagar, S&ouml;ndagar, Julafton, Juldagen, Annandag jul, Ny&aring;rsafton, Ny&aring;rsdagen, Trettondedag jul, L&aring;ngfredag, Annandag p&aring;sk, F&ouml;rsta maj, Kristi himmelsf&auml;rd, Nationaldagen, Midsommarafton. Tiden f&ouml;r effektavgiften f&ouml;ljer sommar- och vintertid.</p></span>
+<p>F&ouml;ljande dagar r&auml;knas inte som vardagar:<br />L&ouml;rdagar, S&ouml;ndagar, Julafton, Juldagen, Annandag jul, Ny&aring;rsafton, Ny&aring;rsdagen, Trettondedag jul, L&aring;ngfredag, Annandag p&aring;sk, F&ouml;rsta maj, Kristi himmelsf&auml;rd, Nationaldagen, Midsommarafton. Tiden f&ouml;r effektavgiften f&ouml;ljer sommar- och vintertid.</p><button class="close-tooltip-btn" aria-label="Close">&times;</button></span>
 </div>
 
 <h3>v&aring;r definition av l&auml;genhet</h3>
@@ -2412,7 +2485,7 @@
 					<h2>R&#246;rlig &#246;verf&#246;ringsavgift</h2>
 						<div class="article-border"></div>
 
-					<p>H&auml;r kan du se prognoser f&ouml;r &ouml;verf&ouml;ringsavgifter f&ouml;r nuvarande m&aring;nad och fram&aring;t och se hur avgiften f&ouml;r&auml;ndrats under &aring;ret. Avgiften &auml;r r&ouml;rlig och varierar beroende p&aring; vilket abonnemang du har. Prognosen ger en indikation av det r&ouml;rliga priset och uppdateras vid m&aring;nadsskiftet.&nbsp;T&auml;nk p&aring; att utfallsv&auml;rdet ser annorlunda ut p&aring; din faktura eftersom avgiften p&aring;verkas av hur din f&ouml;rbrukning ser ut timme f&ouml;r timme.</p>
+					<p>H&auml;r kan du se prognoser f&ouml;r &ouml;verf&ouml;ringsavgifter f&ouml;r nuvarande m&aring;nad och fram&aring;t och se hur avgiften f&ouml;r&auml;ndrats under &aring;ret. Avgiften &auml;r r&ouml;rlig och varierar beroende p&aring; vilket abonnemang du har. Prognosen ger en indikation av det r&ouml;rliga priset och uppdateras vid m&aring;nadsskiftet.&nbsp;T&auml;nk p&aring; att utfallsv&auml;rdet ser annorlunda ut p&aring; din faktura eftersom avgiften p&aring;verkas av hur din f&ouml;rbrukning ser ut kvart f&ouml;r kvart.</p>
 
 											<div class="viewbutton-container" role="tablist">
 							<span class="viewbutton-item action-button small-button" id="tab-year"
@@ -2522,7 +2595,7 @@
 	</section>
 
 <section class="rs_skip campaign  is-hidden-large">
-	<div class="campaign__media" style="background-image: url('/contentassets/87bc187ade294b27811cef79848cc12d/istock-636118426.jpg?w=1903');">
+	<div class="campaign__media" style="background-image: url('/contentassets/87bc187ade294b27811cef79848cc12d/istock-636118426.jpg?w=700');">
 	</div>
 		<div class="campaign__content">
 			<h2 class="campaign__title">F&#246;lj din elanv&#228;ndning och dina effekttoppar p&#229; Mina sidor</h2>
@@ -2573,7 +2646,7 @@
         <div id="page-14309" class="body positionRelative is-hidden">
                 <div class="is-rte">
                     <p><strong>1 januari 2024 inf&ouml;rdes effektabonnemang</strong><br />1 januari 2024 f&ouml;r&auml;ndrades s&auml;kringsabonnemang f&ouml;r dig med s&auml;kringsstorlek 16-25A till effektabonnemang. Detta ber&ouml;r fr&auml;mst villor men ocks&aring; n&aring;gra l&auml;genheter och lokaler. Det inneb&auml;r att du sj&auml;lv kan p&aring;verka din eln&auml;tsavgift genom att j&auml;mna ut dina effekttoppar.</p>
-<p><a href="/privat/elnat/sa-fungerar-effektabonnemang/">H&auml;r kan du l&auml;sa om hur effektabonnemang fungerar och hur du kan t&auml;nka f&ouml;r att f&aring; ner din kostnad</a>.&amp;</p>
+<p><a href="/privat/elnat/sa-fungerar-effektabonnemang/">H&auml;r kan du l&auml;sa om hur effektabonnemang fungerar och hur du kan t&auml;nka f&ouml;r att f&aring; ner din kostnad</a></p>
                 </div>
                 <div class="closingArrow">
                     <a href="#page-14309" data-type="toggle" class="is-collapsed" aria-controls="page-1" id="second_page-14309">
@@ -2676,10 +2749,11 @@
                     <p>Priset f&ouml;r den r&ouml;rliga &ouml;verf&ouml;ringsavgiften p&aring; din faktura&nbsp;&auml;r sammansatt av flera delkomponenter f&ouml;r olika abonnemang. &Ouml;verf&ouml;ringsavgiften best&aring;r av:</p>
 <ul>
 <li>Fast del per kilowattimme.</li>
-<li>R&ouml;rlig del per kilowattimme som s&auml;tts utifr&aring;n timv&auml;rdet p&aring; elb&ouml;rsen och ber&auml;knas timme f&ouml;r timme.</li>
+<li>R&ouml;rlig del per kilowattimme som s&auml;tts utifr&aring;n kvartsv&auml;rdet p&aring; elb&ouml;rsen och ber&auml;knas kvart f&ouml;r kvart.</li>
 </ul>
-<p>P&aring; din faktura ser du ett medelpris som &auml;r det sammanv&auml;gda priset av alla timmarna under m&aring;naden. Det inneb&auml;r att &ouml;verf&ouml;ringsavgiften kommer att variera m&aring;nad f&ouml;r m&aring;nad. P&aring; fakturan kommer det dessutom se olika ut mellan olika kunder, beroende p&aring; hur elanv&auml;ndningen har f&ouml;rdelats under dygnets alla timmar.</p>
-<p><strong>S&aring; h&auml;r r&auml;knas &ouml;verf&ouml;ringsavgiften ut:</strong><br />Fast del + r&ouml;rlig del x timv&auml;rdet p&aring; elb&ouml;rsen och ber&auml;knas timme f&ouml;r timme</p>
+<p>P&aring; din faktura ser du ett medelpris som &auml;r det sammanv&auml;gda priset av alla kvartar under m&aring;naden. Det inneb&auml;r att &ouml;verf&ouml;ringsavgiften kommer att variera m&aring;nad f&ouml;r m&aring;nad. P&aring; fakturan kommer det dessutom se olika ut mellan olika kunder, beroende p&aring; hur elanv&auml;ndningen har f&ouml;rdelats under dygnets alla timmar.</p>
+<p><strong>S&aring; h&auml;r r&auml;knas &ouml;verf&ouml;ringsavgiften ut:</strong><br />Fast del + r&ouml;rlig del x kvartsv&auml;rdet p&aring; elb&ouml;rsen &ouml;re/kWh = el&ouml;verf&ouml;ringsavgift &ouml;re/kWh</p>
+<p>Fast del = 1,92 &ouml;re/kWh inkl. moms<br />R&ouml;rlig del = 11,26 %, inkl. moms</p>
 <p>Snurrigt f&ouml;r m&aring;nga, vi vet! Men f&ouml;r att underl&auml;tta f&ouml;r dig som kund visar vi prognoser p&aring; &ouml;verf&ouml;ringsavgifter i &ouml;re/kWh.</p>
                 </div>
                 <div class="closingArrow">
@@ -2692,15 +2766,22 @@
         </div>
     </article>
 
+				<div class="fa-listholder">
+					<header>
+						<h2 class="h-subheadline">Samlade l&auml;nkar</h2>
+					</header>
+					<ul class="fa-ul">
+							<li><span class="fa-li fa fa-link"></span> <a href="https://www.veab.se/privat/elnat/tillampningsbestammelser-for-natavtal/">Till&#228;mpningsbest&#228;mmelser f&#246;r n&#228;tavtal</a></li>
+					</ul>
+				</div>
 
 				<div class="fa-listholder">
 					<header>
 						<h2 class="h-subheadline">Samlade dokument</h2>
 					</header>
 					<ul class="fa-ul">
-								<li><span class="fa-li fa fa-file-text-o"></span> <a href="/globalassets/dokumentarkiv/priser/2025-01-01-prislista-natavgifter-inkl.moms.pdf" target="_blank">Prislista nätavgifter privat 2025-01-01.pdf</a></li>
-								<li><span class="fa-li fa fa-file-text-o"></span> <a href="/globalassets/dokumentarkiv/priser/tillampningsbestammelser-for-natavtal2.pdf" target="_blank">Till&#228;mpningsbest&#228;mmelser f&#246;r n&#228;tavtal</a></li>
 								<li><span class="fa-li fa fa-file-text-o"></span> <a href="/globalassets/dokumentarkiv/avtal-och-blanketter/allmanna-avtalsvillkor-nat-2012-k-rev-2" target="_blank">Allm&#228;nna avtalsvillkor N&#228;t 2012 K (rev 2)</a></li>
+								<li><span class="fa-li fa fa-file-text-o"></span> <a href="/globalassets/dokumentarkiv/avtal-och-blanketter/4001_avtalsvillkor_elnat-2025-k.pdf" target="_blank">Allm&#228;nna avtalsvillkor N&#228;t 2025 K</a></li>
 					</ul>
 				</div>
 
@@ -2875,7 +2956,8 @@
 
 <h4 class="footer__title">Prenumerera p&aring; v&aring;rt nyhetsbrev</h4>
 <div id="subscribe-wrapper">
-<form action="/LimeMarketingBlock/Subscribe" id="newslettersubscribeform" method="post" name="newslettersubscribeform"><input name="__RequestVerificationToken" type="hidden" value="U8GJN4fZdFltGf6ezoGCa6mj5wW-dWA0viRS1g4xVRCRjNAUf3N2dwA_haJwbZ7o5VviPjH3rURJrsjM16xAPS2EgVcF5XQiAwrSJPC7ERc1" /><input data-val="true" data-val-number="The field SubscriptionId must be a number." data-val-required="The SubscriptionId field is required." id="AllPublications_0__SubscriptionId" name="AllPublications[0].SubscriptionId" type="hidden" value="11" /><input id="AllPublications_0__UCRC" name="AllPublications[0].UCRC" type="hidden" value="4F6B04BA75" /><input data-val="true" data-val-number="The field SubscriptionId must be a number." data-val-required="The SubscriptionId field is required." id="AllPublications_1__SubscriptionId" name="AllPublications[1].SubscriptionId" type="hidden" value="62" /><input id="AllPublications_1__UCRC" name="AllPublications[1].UCRC" type="hidden" value="43E84AC8F1" />		<div class="input-container">
+<form action="/LimeMarketingBlock/Subscribe" id="newslettersubscribeform" method="post" name="newslettersubscribeform"><input name="__RequestVerificationToken" type="hidden" value="B4zmlHRXAkAIMI3a4hCobg8FPFJvW3TT_CUf12TpxeZo42aWvwYchodz4_KP8aEkepmlnIX4jH5WMiJXHL0JHjLeOUu6Auwx-qNZ87wR58A1" /><input data-val="true" data-val-number="The field SubscriptionId must be a number." data-val-required="The SubscriptionId field is required." id="AllPublications_0__SubscriptionId" name="AllPublications[0].SubscriptionId" type="hidden" value="11" /><input id="AllPublications_0__UCRC" name="AllPublications[0].UCRC" type="hidden" value="4F6B04BA75" /><input data-val="true" data-val-number="The field SubscriptionId must be a number." data-val-required="The SubscriptionId field is required." id="AllPublications_1__SubscriptionId" name="AllPublications[1].SubscriptionId" type="hidden" value="62" /><input id="AllPublications_1__UCRC" name="AllPublications[1].UCRC" type="hidden" value="43E84AC8F1" />		<div class="input-container">
+			<label for="subselection" class="is-visuallyhidden">V&auml;lj om du vill ha nyhetsbrev f&ouml;r privat eller f&ouml;retag.</label>
 			<select data-val="true" data-val-number="The field PrivateOrBusiness must be a number." data-val-required="The PrivateOrBusiness field is required." id="subselection" name="PrivateOrBusiness"><option selected="selected" value="11">Privat</option>
 <option value="62">F&#246;retag</option>
 </select>
@@ -2982,7 +3064,7 @@ document.addEventListener('DOMContentLoaded', initNewsletterSubscription);
 					<span class="is-visuallyhidden">F&ouml;lj oss p&aring; Linkedin</span>
 				</a>
 				<a href="https://www.mynewsdesk.com/se/vaxjoenergi-veab" target="_blank">
-					<img src="/assets/img/icons/mynewsdesk.svg" alt="F&ouml;lj oss p&aring; mynewsdesk">
+					<img src="/assets/img/icons/mynewsdesk.svg" width="20" height="14" alt="F&ouml;lj oss p&aring; mynewsdesk">
 				</a>
 			</div>
 			<p><strong>V&auml;xj&ouml; Energi</strong> &minus; <span class="no-break">en del av V&auml;xj&ouml; kommun</span></p>
@@ -2992,7 +3074,7 @@ document.addEventListener('DOMContentLoaded', initNewsletterSubscription);
 
 
 	</div>
-	
+
 	<script type="text/plain" data-cookieconsent="statistics">
 (function() {
 var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
@@ -3001,6 +3083,9 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz
 })();
 </script>
 	
+
+	
+
 
 	<!-- Go to www.addthis.com/dashboard to customize your tools -->
 	<!--<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-563363a77fa04ac6" async="async"></script>-->
