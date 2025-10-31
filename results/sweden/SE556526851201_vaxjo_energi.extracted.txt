@@ -48,10 +48,20 @@ Mätvärden
 
 Elnätet har en viktig roll i samhället för att stödja pågående elektrifiering och den hållbara utvecklingen. För att vi ska kunna ge alla en trygg och säker tillgång till el idag och i framtiden behöver vi bygga ut och modernisera elnätet. Detta arbete finansieras av din elnätsavgift.
 
+Nya allmänna avtalsvillkor från 1 januari 2026
+
+Energiföretagen och Konsumentverket har förhandlat fram nya allmänna avtalsvillkor, NÄT 2025 K, som träder i kraft från 2026-01-01*.
+De uppdaterade villkoren ersätter tidigare versioner. Syftet med ändringarna är att säkerställa att avtalsinnehållet är i linje med gällande lagstiftning samt att tydliggöra parternas rättigheter och skyldigheter.
+/link/88167f696d074bda86754765ea08ef05.aspx
+Läs nya avtalsvillkor Nät 2025 K i pdf-format
+/link/fe7c3c34b22543a4928660446a4256bc.aspx
+Läs avtalsvillkor Nät 2012 K (rev 2) som gäller t.o.m. 2025-12-31 i pdf-format
+*Med reservation för faktorer som Växjö Energi inte råder över
+
 Kvartspriser ersätter timpriser
 
-Från och med den 1 oktober 2025 kommer elöverföringsavgiften från oss baseras på kvart i stället för timme. Det innebär att vi kommer att mäta och prissätta i kortare tidsintervall än tidigare – (kvart för kvart, istället för timme för timme) vilket kan ge dig ännu bättre kontroll över din elnätsfaktura och hjälpa dig att använda el smartare.
-Effektavgiften påverkas inte, den kommer fortsatt att beräknas genom ett timmedelvärde av de tre timmar då du använder som mest kilowatt under månaden på vardagar mellan kl. 07-20.)
+Från och med den 1 oktober 2025 är elöverföringsavgiften från oss baserad på kvart i stället för timme. Det innebär att vi mäter och prissätter i kortare tidsintervall än tidigare – (kvart för kvart, istället för timme för timme) vilket kan ge dig ännu bättre kontroll över din elnätsfaktura och hjälpa dig att använda el smartare.
+Effektavgiften påverkas inte av förändringen, den beräknas genom ett timmedelvärde av de tre timmar då du använder som mest kilowatt under månaden på vardagar mellan kl. 07-20.)
 
 Din elnätsavgift
 1 januari 2024 övergick säkringsabonnemang till effektabonnemang. Det innebär en prismodell som innehåller tre avgifter:
@@ -61,7 +71,7 @@ Du betalar en fast abonnemangsavgift som är beroende på säkringsstorlek. I av
 Effektavgift
 Du betalar ett snittpris för de tre högsta effekttopparna du har under månaden. Avgiften beräknas på vardagar mellan kl. 07-20 under månaden.
 Elöverföring
-Du betalar en avgift för överföring av el fram till ditt boende, avgiften är rörlig per timme och du betalar per använd kilowattimme.
+Du betalar en avgift för överföring av el fram till ditt boende, avgiften är rörlig per kvart och du betalar per använd kilowattimme.
 #Overforing
 Här kan du se månadens överföringsavgift.
 
@@ -84,19 +94,23 @@ Gäller från 1 januari 2025.
 
 Priserna är
 inklusive moms.
-*Framtaget 2025-09-01.
+*Framtaget 2025-10-01.
 
 Säkring
+Öppna tooltip
 
 Fast avgift
 
 Elöverföring
+Öppna tooltip
 
-(prognos oktober)
+(prognos november)
 
 Effektavgift
+Öppna tooltip
 
 Säkring
+Öppna tooltip
 
 Lägenhet
 
@@ -106,18 +120,21 @@ Fast avgift
 per månad
 
 Elöverföring
+Öppna tooltip
 
-9,7 öre/kWh
+10,52 öre/kWh
 per månad
 
 /link/5a040a30b004477f811146eab55c9faa.aspx#overforing
 Se prognos rörlig överföring
 
 Effektavgift
+Öppna tooltip
 
 0 kr. Effektavgift ingår inte i detta abonnemang.
 
 Säkring
+Öppna tooltip
 
 16 A
 
@@ -127,19 +144,22 @@ Fast avgift
 per månad
 
 Elöverföring
+Öppna tooltip
 
-9,7 öre/kWh
+10,52 öre/kWh
 per månad
 
 /link/5a040a30b004477f811146eab55c9faa.aspx#overforing
 Se prognos rörlig överföring
 
 Effektavgift
+Öppna tooltip
 
 65,48 kr/kW
 per månad
 
 Säkring
+Öppna tooltip
 
 20 A
 
@@ -149,19 +169,22 @@ Fast avgift
 per månad
 
 Elöverföring
+Öppna tooltip
 
-9,7 öre/kWh
+10,52 öre/kWh
 per månad
 
 /link/5a040a30b004477f811146eab55c9faa.aspx#overforing
 Se prognos rörlig överföring
 
 Effektavgift
+Öppna tooltip
 
 65,48 kr/kW
 per månad
 
 Säkring
+Öppna tooltip
 
 25 A
 
@@ -171,14 +194,16 @@ Fast avgift
 per månad
 
 Elöverföring
+Öppna tooltip
 
-9,7 öre/kWh
+10,52 öre/kWh
 per månad
 
 /link/5a040a30b004477f811146eab55c9faa.aspx#overforing
 Se prognos rörlig överföring
 
 Effektavgift
+Öppna tooltip
 
 65,48 kr/kW
 per månad
@@ -187,10 +212,13 @@ Din säkringsstorlek hittar du på din faktura eller på
 https://minasidor.veab.se/
 Mina sidor
 vid sidan Mina avtal vid rubriken Abonnemangsavgift. Säkringsstorlek benämns som abonnemangsavgift eftersom den avgiften baseras på din storlek på säkring.
+×
 Från 1 januari 2023 har Växjö Energi rörlig överföringsavgift. Avgiften är rörlig och varierar beroende på vilket abonnemang du har.
+×
 Din elmätare mäter hur mycket el du använder för varje timme. Din effektavgift beräknas av de tre timmar då du använder som mest kilowatt under månaden på vardagar mellan kl. 07-20. Avgiften beräknas kronor per kilowatt.
 Följande dagar räknas inte som vardagar:
 Lördagar, Söndagar, Julafton, Juldagen, Annandag jul, Nyårsafton, Nyårsdagen, Trettondedag jul, Långfredag, Annandag påsk, Första maj, Kristi himmelsfärd, Nationaldagen, Midsommarafton. Tiden för effektavgiften följer sommar- och vintertid.
+×
 
 vår definition av lägenhet
 Om anläggningen uppfyller de nedan angivna kriterierna så definieras man som lägenhetskund och berörs inte av förändringen:
@@ -253,7 +281,7 @@ Effekttopparna baseras på de tre högsta effektuttagen, fördelat under tre oli
 
 Rörlig överföringsavgift
 
-Här kan du se prognoser för överföringsavgifter för nuvarande månad och framåt och se hur avgiften förändrats under året. Avgiften är rörlig och varierar beroende på vilket abonnemang du har. Prognosen ger en indikation av det rörliga priset och uppdateras vid månadsskiftet. Tänk på att utfallsvärdet ser annorlunda ut på din faktura eftersom avgiften påverkas av hur din förbrukning ser ut timme för timme.
+Här kan du se prognoser för överföringsavgifter för nuvarande månad och framåt och se hur avgiften förändrats under året. Avgiften är rörlig och varierar beroende på vilket abonnemang du har. Prognosen ger en indikation av det rörliga priset och uppdateras vid månadsskiftet. Tänk på att utfallsvärdet ser annorlunda ut på din faktura eftersom avgiften påverkas av hur din förbrukning ser ut kvart för kvart.
 
 År
 Månad
@@ -292,7 +320,6 @@ Effektabonnemang
 1 januari 2024 förändrades säkringsabonnemang för dig med säkringsstorlek 16-25A till effektabonnemang. Detta berör främst villor men också några lägenheter och lokaler. Det innebär att du själv kan påverka din elnätsavgift genom att jämna ut dina effekttoppar.
 /privat/elnat/sa-fungerar-effektabonnemang/
 Här kan du läsa om hur effektabonnemang fungerar och hur du kan tänka för att få ner din kostnad
-.&
 
 #page-14309
 
@@ -337,25 +364,29 @@ Så funkar rörlig överföringsavgift
 Priset för den rörliga överföringsavgiften på din faktura är sammansatt av flera delkomponenter för olika abonnemang. Överföringsavgiften består av:
 
 Fast del per kilowattimme.
-Rörlig del per kilowattimme som sätts utifrån timvärdet på elbörsen och beräknas timme för timme.
+Rörlig del per kilowattimme som sätts utifrån kvartsvärdet på elbörsen och beräknas kvart för kvart.
 
-På din faktura ser du ett medelpris som är det sammanvägda priset av alla timmarna under månaden. Det innebär att överföringsavgiften kommer att variera månad för månad. På fakturan kommer det dessutom se olika ut mellan olika kunder, beroende på hur elanvändningen har fördelats under dygnets alla timmar.
+På din faktura ser du ett medelpris som är det sammanvägda priset av alla kvartar under månaden. Det innebär att överföringsavgiften kommer att variera månad för månad. På fakturan kommer det dessutom se olika ut mellan olika kunder, beroende på hur elanvändningen har fördelats under dygnets alla timmar.
 Så här räknas överföringsavgiften ut:
-Fast del + rörlig del x timvärdet på elbörsen och beräknas timme för timme
+Fast del + rörlig del x kvartsvärdet på elbörsen öre/kWh = elöverföringsavgift öre/kWh
+Fast del = 1,92 öre/kWh inkl. moms
+Rörlig del = 11,26 %, inkl. moms
 Snurrigt för många, vi vet! Men för att underlätta för dig som kund visar vi prognoser på överföringsavgifter i öre/kWh.
 
 #page-13145
 
-Samlade dokument
+Samlade länkar
 
-/globalassets/dokumentarkiv/priser/2025-01-01-prislista-natavgifter-inkl.moms.pdf
-Prislista nätavgifter privat 2025-01-01.pdf
-
-/globalassets/dokumentarkiv/priser/tillampningsbestammelser-for-natavtal2.pdf
+https://www.veab.se/privat/elnat/tillampningsbestammelser-for-natavtal/
 Tillämpningsbestämmelser för nätavtal
+
+Samlade dokument
 
 /globalassets/dokumentarkiv/avtal-och-blanketter/allmanna-avtalsvillkor-nat-2012-k-rev-2
 Allmänna avtalsvillkor Nät 2012 K (rev 2)
+
+/globalassets/dokumentarkiv/avtal-och-blanketter/4001_avtalsvillkor_elnat-2025-k.pdf
+Allmänna avtalsvillkor Nät 2025 K
 
 /privat/elnat/
 Elnät
