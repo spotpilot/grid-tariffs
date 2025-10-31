@@ -8,72 +8,69 @@ Mätarsäkring Ampere
 Avgift exklusive moms
 Avgift inklusive moms
 16 (Lägenhet)
-1 376,00
-1 719,00
+1 514,00
+1 893,00
 16
-3 045,00
-3 806,00
+3 350,00
+4 188,00
 20
-3 959,00
-4 948,00
+4 355,00
+5 444,00
 25
-5 392,00
-6 740,00
+5 931,00
+7 414,00
 35
-7 300,00
-9 125,00
+8 030,00
+10 038,00
 50
-9 508,00
-11 885,00
+10 459,00
+13 074,00
 63
-12 390,00
-15 488,00
+13 629,00
+17 036,00
 80
-15 727,00
-19 659,00
+17 300,00
+21 625,00
 100
-16 819,00
-21 024,00
+18 501,00
+23 126,00
 125
-19 778,00
-24 722,00
+21 756,00
+27 195,00
 160
-25 626,00
-32 033,00
+28 189,00
+35 236,00
 200
-32 253,00
-40 316,00
+35 478,00
+44 348,00
+250
+51 304,00
+64 130,00
 Överföringsavgift
 Hur mycket du betalar i överföringsavgift beror på antal förbrukade kilowattimmar
 Exklusive moms
 Inklusive moms
-25,20 öre per kWh
-31,50 öre per kWh
+27,70 öre per kWh
+34,63 öre per kWh
 Effektkunder
 För dig som är effektkund tillämpas prislista enligt nedanstående tabell. Periodiskt återkommande ändring av tariff eller huvudsäkring är inte tillåtet. Vald nättariff och säkringsstorlek ska tillämpas minst tolv månader i följd. Priserna är angivna exklusive moms.
 Nät N3
-Nät N3 T
 Nät N4
 Fast avgift
-18 261,00
-33 877,00
-10 940,00
+20 087,00
+12 034,00
 Abonnemang
-112,00
-168,00
-132,00
+123,00
+145,00
 Högbelastning
-302,00
-319,00
-415,00
+332,00
+457,00
 Höglasttid*
-9,95
-9,95
-11,84
+13,80
+15,80
 Övrig tid
-9,95
-9,95
-11,84
+13,80
+15,80
 *Höglast: måndag-fredag klockan 06-22 under januari, februari, mars, november och december.
 Elsäkerhetsavgift
 Elsäkerhetsavgiften som är 11,10 kronor per år exklusive moms (högspänning 905 kronor) finansierar Elsäkerhetsverkets arbete.
@@ -82,4 +79,4 @@ Elberedskapsavgiften som är 90 kronor per år exklusive moms (högspänning 4 8
 Nätövervakningsavgift
 Nätövervakningsavgiften som är 4,35 kronor per år exklusive moms (högspänning 870 kronor) finansierar delar av Energimyndighetens arbete.
 Energiskatt
-För 2025 är energiskatten 43,9 öre per kWh exklusive moms (54,875 öre inklusive moms). Det är riksdagen som bestämmer reglerna och skattesatsen för energiskatt på el. Det är elnätbolagen som tar upp energiskatten från kunder för att sedan betala in till staten. Det innebär att din elnätsfaktura innehåller en rad för energiskatt.
+För 2025 är energiskatten 43,90 öre per kWh exklusive moms (54,88 öre inklusive moms). Det är riksdagen som bestämmer reglerna och skattesatsen för energiskatt på el. Det är elnätbolagen som tar upp energiskatten från kunder för att sedan betala in till staten. Det innebär att din elnätsfaktura innehåller en rad för energiskatt.
