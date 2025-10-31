@@ -34,13 +34,17 @@ består av en elsäkerhetsavgift, en nätövervakningsavgift och en elberedskaps
 #svid10_137d3c9f188731af1282ec00
 Avtalsvillkor
 
-Avtalsvillkoren har tagits fram av vår branschorganisation Energiföretagen Sverige och Konsumentverket.
+Det allmänna avtalsvillkoret har tagits fram i samarbete mellan vår branschorganisation Energiföretagen Sverige och Konsumentverket.
 Avtalsvillkor
 Giltiga från
 /download/18.137d3c9f188731af1284f8e8/1689771451772/nat-2012-k-rev-2-_nov2018.pdf
 Allmänna avtalsvillkor Nät 2012 K (rev2)
 pdf, 201.7 kB.
 2018-10-10
+/download/18.37d6c21419a0f448207173cc/1761729925539/Allm%C3%A4nna%20avtalsvillkor%20Eln%C3%A4t%20Producent%20Konsument%202026-01-01.pdf
+Allmänna avtalsvillkor ELNÄT 2025 K
+pdf, 323.8 kB.
+2026-01-01
 /download/18.137d3c9f188731af1284f8e7/1689771451692/supplement_nat_2012k_-rev.pdf
 Supplement för allmänna avtalsvillkor för anslutning elnät
 pdf, 89.4 kB.
@@ -85,37 +89,6 @@ Angivna priser gäller från och med 2024-10-01.
 Elöverföringsavgift
 Överföringsavgiften beror på din förbrukning, hur mycket elenergi vi transporterar till dig och som du sedan använder. Priserna är inklusive moms.
 Pris 11,80 öre/kWh
-
-#svid10_182f2e8218c434306fa49ff
-Energiskatt 2024
-
-I elnätsavgiften ingår energiskatt som tas ut på all elanvändning och tillkommer på alla elnätsavtal oavsett vilket elnätsbolag du har. Vi fakturerar energiskatt varje månad och redovisar och betalar pengarna vidare till Skatteverket.
-År 2024 blir energiskatten
-53,50 öre/kWh
-inklusive moms. Som konsumentkund hos Övik Energi Nät AB har du en reducerad energiskatt, vad vi kallar Norrskatteavdrag på
-9,6 öre/kWh
-. Avdraget görs direkt på din elnätsfaktura, vilket innebär att du får betala
-41,50 öre/kWh
-inklusive moms.
-Norrskatteavdraget gäller elnätskunder i Västerbotten, Norrbotten och Jämtland samt i Örnsköldsvik, Sollefteå, Ånge, Ljusdal, Malung-Sälen, Mora, Orsa, Älvdalen och Torsby kommun.
-I tabellen nedan kan du se skattesatserna för energiskatten de senaste åren. Energiskatten presenteras i öre per kWh inklusive moms och utan Norrskatteavdraget.
-År
-Energiskatt öre/kWh
-2024
-53,50
-2023
-49,00
-2022
-45,00
-2021
-44,50
-2020
-44,13
-2019
-43,38
-2018*
-41,38
-*Från och med 1 januari 2018 började energiskatten betalas in till ditt nätföretag. Energiskatten fakturerades tidigare av ditt elhandelsbolag.
 
 #svid10_26188d84192f704b8ab8b201
 Energiskatt 2025
