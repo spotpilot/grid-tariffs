@@ -17,7 +17,60 @@ Tröga säkringar av S-märkt typ är tillåtna.
 
 I den årliga abonnemangsavgiften ingår följande statliga avgifter:
 Elsäkerhetsavgift, Nätövervakningsavgift samt Elberedskapsavgift, totalt 105,45 kr exkl. moms. Beloppet gäller från den 1 januari 2024 och till eventuella ändringar beslutas av Elsäkerhetsverket.
-Årlig abonnemangsavgift för elnät, från den 1 januari 2025
+Årlig abonnemangsavgift för elnät, från den 1 januari 2026
+Klass
+Säkringsstorlek
+Pris exkl. moms
+Pris inkl. moms
+0*
+LGH (lägenhet)
+1 324 kr
+1 655 kr
+1
+16 Ampere
+3 068 kr
+3 835 kr
+2
+20 Ampere
+5 000 kr
+6 250 kr
+3
+25 Ampere
+5 512 kr
+6 890 kr
+4
+35 Ampere
+9 044 kr
+11 305 kr
+5
+50 Ampere
+13 352 kr
+16 690 kr
+6
+63 Ampere
+18 652 kr
+23 315 kr
+7
+80 Ampere
+24 242 kr
+30 303 kr
+8
+100 Ampere
+30 300 kr
+37 875 kr
+9
+125 Ampere
+38 648 kr
+48 310 kr
+10
+160 Ampere
+55 856 kr
+69 820 kr
+11
+200 Ampere
+73 948 kr
+92 435 kr
+Årlig abonnemangsavgift för elnät för perioden 1 januari - 31 december 2025
 Klass
 Säkringsstorlek
 Pris exkl. moms
@@ -77,7 +130,20 @@ Enkeltariff med överföringsavgift och energiskatt
 
 I totalpriset per kWh ingår nätavgift, energiavgift och energiskatt samt 25% moms på totalpriset.
 Enkeltariff med överföringsavgift och energiskatt
-från den 1 januari 2025
+från den 1 januari 2026
+Pris exkl. moms
+Pris inkl. moms
+Elöverföringsavgift
+16,7 öre/kWh + rörligt volympris**/kWh
+20,9 öre/kWh + rörligt volympris**/kWh
+Energiskatt***
+36 öre/kWh
+45 öre/kWh
+Totalt
+52,7 öre/kWh + rörligt volympris**/kWh
+65,9 öre/kWh + rörligt volympris**/kWh
+Enkeltariff med överföringsavgift och energiskatt
+för perioden 1 januari - 31 december 2025
 Pris exkl. moms
 Pris inkl. moms
 Elöverföringsavgift
@@ -89,6 +155,7 @@ Energiskatt*
 Totalt
 60,7 öre/kWh + rörligt volympris**/kWh
 75,9 öre/kWh + rörligt volympris**/kWh
+***För kalenderåret 2026 uppgår energiskatten på el till 45 öre/kWh (inkl. moms), det är en minskning med 9,9 öre/kWh jämfört med skattesatsen som gällt 2025. Energiskatten fastställs av Skatteverket.
 *För kalenderåret 2025 uppgår energiskatten på el till 43,9 öre/kWh (exkl. moms), det är en ökning med 1,1 öre/kWh jämfört med skattesatsen som gällt 2024. Energiskatten fastställs av Skatteverket.
 ** Det rörliga volympriset är beroende av elpriset på elbörsen Nordpool och överliggande näts debitering till Höganäs Energi. Priset fastställs månadsvis och framgår av respektive månads faktura.
 
@@ -146,7 +213,15 @@ Ersättning, abonnemangsavgift och avgift för elöverföring regleras månadsvi
 Elöverföringsavgiften regleras en gång per kalenderår.
 För uttag av reaktiv effekt utöver den tillåtna nivån på 50% av abonnerad effekt, debiteras en avgift på 125 kr/kVAr.
 Elsäkerhetsavgift 905 kr/år, nätövervakningsavgift 870 kr/år och elberedskapsavgift 2 129 kr/år ingår i den fasta avgiften. Från den 1 januari 2025 är elberedskapsavgiften 4 897 kr/år.
-Effektpriser N3 Högspänning från den 1 januari 2025.
+Effektpriser N3 Högspänning från den 1 januari 2026.
+Pris exkl. moms
+Fast avgift
+2 363 kr/mån
+Abonnemangsavgift*
+70 kr/kW/månad
+Elöverföring
+7,3 /kWh + rörligt volympris**/kWh
+Effektpriser N3 Högspänning för perioden 1 januari - 31 december 2025.
 Pris exkl. moms
 Fast avgift
 2 363 kr/mån
@@ -161,7 +236,15 @@ Effektpriser N4 Lågspänning
 
 För uttag av reaktiv effekt utöver den tillåtna nivån på 50% av abonnerad effekt debiteras en avgift på 125 kr/kVAr.
 Elsäkerhetsavgift 11,10 kr/år, nätövervakningsavgift 4,35 kr/år och elberedskapsavgift 39,20 kr/år ingår i den fasta avgiften. Från den 1 januari 2025 är elberedskapsavgiften 90 kr/år.
-Effektpriser N4 Lågspänning från den 1 januari 2025.
+Effektpriser N4 Lågspänning från den 1 januari 2026.
+Pris exkl. moms
+Fast avgift
+1 154kr/mån
+Abonnemangsavgift*
+80 kr/kW/månad
+Elöverföring
+11,8 öre/kWh + rörligt volympris**/kWh
+Effektpriser N4 Lågspänning för perioden 1 januari - 31 december 2025.
 Pris exkl. moms
 Fast avgift
 1 154kr/mån
