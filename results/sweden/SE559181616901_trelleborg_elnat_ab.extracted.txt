@@ -25,6 +25,9 @@ Juli
 Augusti
 9,81 (12,26)
 8,31
+September
+9,65 (12,06)
+8,15
 Priser inkl. moms inom parentes
 2025
 2024 fr.o.m. 1 juli
@@ -95,7 +98,7 @@ Frånkoppling (vid utebliven betalning)
 Frånkoppling (på kundens egen begäran)
 1 875 kr (fast kostnad löper även under frånkoppling)
 Kontrollmätning av mätare
-1 875 kr
+1 500 kr
 Kontrollmätning av mätare utförd av ackrediterat kontrollinstitut
 faktisk kostnad + 10 %
 Tillfällig anläggning ≤ 63 A, engångsavgift
