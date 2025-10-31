@@ -46,8 +46,8 @@ Du som elnätskund
 /sidowebbplatser/miljoteknik/elnat/energitips.html
 Energitips
 
-/sidowebbplatser/miljoteknik/elnat/anslut-dig-som-ny-kund.html
-Anslut dig som ny kund
+/sidowebbplatser/miljoteknik/elnat/for-elinstallatoren.html
+För elinstallatören
 
 /sidowebbplatser/miljoteknik/elnat/gatubelysning.html
 Gatubelysning
@@ -147,6 +147,9 @@ Får du våra sms?
 
 /sidowebbplatser/miljoteknik/kundservice/driftstorningar.html
 Driftstörningar
+
+/sidowebbplatser/miljoteknik/kundservice/studiebesok.html
+Studiebesök
 
 /sidowebbplatser/miljoteknik/om-oss.html
 Om oss
