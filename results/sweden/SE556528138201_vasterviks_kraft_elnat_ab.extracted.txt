@@ -2,23 +2,6 @@
 Priser
 I ditt nätavtal ingår de kostnader du betalar för att få el. Pengarna används till exempel till distribution, drift och underhåll av elnätet.
 
-Stäng informations-popup
-
-Erbjudande - spara 315 kronor!
-Teckna elavtal innan 30 september
-
-Just nu bjuder vi på den fasta avgiften under första året (värde 315 kr)
-Dessutom får du alltid:
-
-100 % förnybar el
-Schyssta villkor
-Möjlighet att välja mellan fast eller rörligt avtal
-Lokal kundservice
-Tryggt elavtal där vinsten stannar i kommunen
-
-/tjanster/elavtal/teckna-elavtal/
-Läs mer och teckna elavtal
-
 Priser
 I ditt nätavtal ingår de kostnader du betalar för att få el. Pengarna används till exempel till distribution, drift och underhåll av elnätet.
 
@@ -61,7 +44,7 @@ Elöverföring 31,40 öre/kWh. Energiskatt 54,88 öre/kWh.
 Priser för utskrift, pdf
 Tidstariff nät
 
-#readMore-73a76d55-bf5f-4ba2-993a-2785c2f5adc3
+#readMore-8ed437b2-c800-4a4a-b8c6-944f5a05c9c2
 Läs mer
 
 2025
@@ -140,13 +123,15 @@ Avbrottsersättning
 Allmänna villkor för nätkunder
 /siteassets/pdf/elnat/priser-och-villkor/slutlig-nat-2012-k-rev-2-190401.pdf
 Allmänna villkor
+/contentassets/e1ed5bca89cd4b0c9907032168a81167/5625_elnat_2025_k_tillganglighetsanpassad.pdf
+Nya allmänna villkor fr.o.m. 2026-01-01
+/contentassets/e1ed5bca89cd4b0c9907032168a81167/huvudsakliga-forandringar-_elhandel-2025-k-och-elnat-2025-k-002.pdf
+Huvudsakliga förändringar i de allmänna avtalsvillkoren ELHANDEL 2025 K och ELNÄT 2025 K jämfört med tidigare avtalsvillkor
 
 Effekttariffer – så funkar det
-Senast den 1 januari 2027 ska alla elnätsföretag ha infört en ny prismodell som inkluderar en effektavgift. Syftet är att elnätet ska användas mer effektivt. Den nya prismodellen innebär att elnäts­kostnaden kan bli lägre om du sprider ut eller flyttar din elanvändning och högre om du använder mycket el samtidigt.
-https://www.energiforetagen.se/energifakta/elsystemet/elnatet--distribution-av-el/effekttarifftariffer/
-Vanliga frågor och svar om effekttariffer - Energiföretagen Sverige
-https://ei.se/konsument/el/elnatsavgiften-och-elnatsreglering/effektavgift-effekttariff
-Läs mer om effektavgift på Energimarknadsinspektionens hemsida
+Senast den 1 januari 2027 ska alla elnätsföretag ha infört en ny prismodell som inkluderar en effektavgift. Syftet är att elnätet ska användas mer effektivt. Den nya prismodellen innebär att elnäts­kostnaden kan bli lägre om du sprider ut eller flyttar din elanvändning och högre om du använder mycket el samtidigt. Västerviks Kraft Elnät AB inför modellen  den 1 april 2026.
+/tjanster/elnat/effekttariff/
+Läs mer om effekttariff och effektavgift
 
 Skillnaden mellan energi och effekt
 Vi hör att det saknas effekt i elsystemet - att det inte är energitillgången det är problem med utan tillgången på just effekt. Men vad är egentligen skillnaden mellan begreppen energi och effekt? Energiföretagen vill kunna förklara svåra och komplexa frågor på ett enkelt sätt.
