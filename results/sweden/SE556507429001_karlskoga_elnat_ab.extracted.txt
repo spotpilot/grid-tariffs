@@ -220,3 +220,7 @@ Tillgång till mätresultat
 Månadsvis,
 per anläggning
 2,25
+
+/Vara-tjanster/elnat/priser-och-avtalsvillkor/avtalsvillkor/
+
+Allmänna avtalsvillkor
