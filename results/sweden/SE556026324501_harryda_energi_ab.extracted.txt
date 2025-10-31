@@ -145,9 +145,9 @@ Sedan vi bytte samtliga elmätare år 2020 har alla våra kunder i vårt nät en
 Nätutvecklingsplan
 Härryda Energi ska, liksom alla elnätsföretag, ta fram en nätutvecklingsplan. Den beskriver vårt framtida effektbehov och hur vårt elnät kommer...
 
-/drift/
+/stromavbrott/
 
-Drift
+Strömavbrott
 Om ditt strömavbrott är registrerat hos oss syns en markering på kartan. Det betyder att vi jobbar på felet och du behöver inte anmäla det. För...
 
 /elnat/elinstallator/
