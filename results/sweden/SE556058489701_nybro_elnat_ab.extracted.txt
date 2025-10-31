@@ -16,6 +16,8 @@ https://nybroenergi.se/vara-tjanster/el/aktuella-elpriser/
 Aktuella elpriser
 https://nybroenergi.se/vara-tjanster/el/valj-ratt-avtal/
 Valet är ditt
+https://nybroenergi.se/vara-tjanster/el/avtalsvillkor-elhandel/
+Avtalsvillkor Elhandel
 https://nybroenergi.se/vara-tjanster/el/bli-energismart/
 Bli energismart
 https://nybroenergi.se/vara-tjanster/el/solceller/
@@ -39,7 +41,7 @@ https://nybroenergi.se/vara-tjanster/el/andra-din-befintliga-elanslutning/
 https://nybroenergi.se/vara-tjanster/el/prislista-elnat/
 Pris och ersättning
 https://nybroenergi.se/vara-tjanster/el/avtalsvillkor/
-Avtalsvillkor
+Avtalsvillkor Elnät
 https://nybroenergi.se/vara-tjanster/el/ladda-din-elbil/
 Ladda din elbil
 https://nybroenergi.se/vara-tjanster/el/valj-ratt-sakring/
