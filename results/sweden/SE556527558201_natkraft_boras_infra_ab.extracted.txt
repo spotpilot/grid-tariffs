@@ -4,7 +4,7 @@ https://natkraftboras.se
 https://natkraftboras.se/elnat/
 Elnät
 /
-https://natkraftboras.se/elnat/elnatsavtal/
+https://www.natkraftboras.se/elnat/elnatsavtal/
 Elnätsavtal
 /
 Elnätspriser
@@ -52,24 +52,24 @@ Startavgift nytt abonnemang
 Påminnelseavgift
 60 kr
 
-Säkringsabonnemang
-Abonnemanget är till för privatkunder och mindre företag. Abonnemanget bygger på hur stor din huvudsäkring är i ampere. Den avgift som tas ut består dels av en elöverföringsavgift, dels av en abonnemangsavgift. På din faktura hittar du information om vilken huvudsäkring du har, till exempel 16 ampere. Läs mer om säkringar under
+Säkringsabonnemang 16-20 ampere
+Abonnemanget är till för säkringskunder från 16 till 20 ampere. Avgiften består av två delar; fast avgift och elöverföringsavgift. Den fasta avgiften beror på storleken på din huvudsäkring. På din faktura hittar du information om vilken huvudsäkring du har, till exempel 16 ampere. Läs mer om att
 /elnat/elnatsavtal/valja-eller-andra-sakring/
 välja eller ändra säkringsstorlek
 .
 
-Säkringsabonnemang
+Säkringsabonnemang 16-20 ampere
 
 Inkl. moms
 
 Exkl. moms
 
-Säkringsstorlek
+Abonnemangsavgift
 
 Årskostnad
 
 16 ampere, lägenhet
-1450 kr
+1 450 kr
 1 160 kr
 
 16 ampere
@@ -80,42 +80,6 @@ Säkringsstorlek
 6 475 kr
 5 180 kr
 
-25 ampere
-7 990 kr
-6 392 kr
-
-35 ampere
-11 310 kr
-9 048 kr
-
-50 ampere
-15 915 kr
-12 732 kr
-
-63 ampere
-20 070 kr
-16 056 kr
-
-80 ampere
-25 305 kr
-20 244 kr
-
-100 ampere
-32 621 kr
-26 097 kr
-
-125 ampere
-40 585 kr
-32 468 kr
-
-160 ampere
-51 670 kr
-41 336 kr
-
-200 ampere
-64 455 kr
-51 564 kr
-
 Elöverföringsavgift
 15,7 öre/kWh
 12,56 öre/kWh
@@ -125,14 +89,14 @@ Energiskatt 2025
 43,9 öre/kWh
 
 /elnat/elnatsavtal/priser/sarskilda-villkor-elnat
-Särskilda villkor för säkringsabonnemang
-Säkringsabonnemang 25-200 ampere från 1 september
-Abonnemanget är till för säkringskunder från 25 till 200 ampere från den 1 september 2025. Avgiften består av fyra delar; fast avgift, elöverföringsavgift, effektavgift och effektavgift höglast. Läs mer om
+Särskilda villkor för säkringsabonnemang 16-20 ampere
+Säkringsabonnemang 25-200 ampere
+Abonnemanget är till för säkringskunder från 25 till 200 ampere. Avgiften består av fyra delar; fast avgift, elöverföringsavgift, effektavgift och effektavgift höglast. Läs mer om
 https://natkraftboras.se/elnat/elnatsavtal/ny-prismodell-med-effektavgift/
 den nya prismodellen med effektavgift
 .
 
-Säkringsabonnemang 25-200 ampere från 1 september
+Säkringsabonnemang 25-200 ampere
 
 Priser exklusive moms
 
@@ -223,7 +187,7 @@ Energiskatt 2025
 54,88 öre/kWh
 
 /elnat/elnatsavtal/priser/sarskilda-villkor-elnat/#sakringsabonnemangeffekt
-Särskilda villkor för säkringsabonnemang 25-500 ampere från 1 september
+Särskilda villkor för säkringsabonnemang 25-500 ampere
 Effektabonnemang lågspänning
 Abonnemanget är till för mellanstora företag. Avgiften består av en fast avgift, elöverföringsavgift, effektavgift och effektavgift höglast. Läs mer om
 https://natkraftboras.se/elnat/elnatsavtal/ny-prismodell-med-effektavgift/
@@ -370,13 +334,13 @@ Pris utan moms
 Fast avgift
 88 981 kr/år
 
-Elöverföringsavgift uttag
+Elöverföringsavgift konsumtion
 3,51 öre/kWh
 
-Abonnerad effekt uttag
+Abonnerad effekt konsumtion
 115 kr/kW och år
 
-Abonnerad effekt uttag höglast*
+Abonnerad effekt uttag konsumtion höglast*
 61 kr/kW och år
 
 Överuttag reaktiv effekt
@@ -391,10 +355,10 @@ Pris utan moms
 Elöverföringsavgift produktion
 0,31 öre/kWh
 
-Abonnerad effektavgift produktion
+Abonnerad effekt produktion
 89 kr/kW och år
 
-Överproduktion reaktiv effekt
+Överinmatning reaktiv effekt
 189 kr/kVAr
 
 Nätnytta produktion (ersättning)
@@ -563,17 +527,21 @@ Nätnytta, ersättning
 /elnat/elnatsavtal/priser/sarskilda-villkor-elnat#mikroproduktion
 Särskilda villkor för mikroproduktion
 Ersättning för nätnytta och avgift småskalig produktion
-Den kund som själv producerar el får ersättning för så kallad nätnytta. Ersättningen gäller produktion högre än 43,5 kW (63 A) och maximalt 1 500 kW. Vi tar ut en fast avgift för administration och mätning, om du inte har ett konsumtionsabonnemang i samma anslutningspunkt.
+Den kund som själv producerar el får ersättning för så kallad nätnytta. Ersättningen gäller produktion högre än 43,5 kW och maximalt 1 500 kW. Vi tar ut en fast avgift för administration och mätning, om du inte har ett konsumtionsabonnemang i samma anslutningspunkt.
 
-Ersättning för nätnytta och avgift småskalig produktion lågspänning
+Ersättning för nätnytta och avgift småskalig produktion
 
 Tjänst
 Pris, inkl. moms
 Pris, exkl. moms
 
-Nätnytta, ersättning
+Nätnytta, ersättning lågspänning
 5,5 öre/kWh
 4,4 öre/kWh
+
+Nätnytta, ersättning högspänning
+3,875 öre/kWh
+3,1 öre/kWh
 
 Fast avgift
 1 225 kr/år
