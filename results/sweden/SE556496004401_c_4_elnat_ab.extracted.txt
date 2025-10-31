@@ -9,6 +9,9 @@ Elnätsavgiftens komponenter
 Elnätsavgiften består av en fast abonnemangsavgift och en rörlig överföringsavgift.
 Abonnemangsavgiften täcker drift och underhåll av elnätet. I den fasta avgiften ingår de tre statliga avgifterna, elberedskapsavgiften, elsäkerhetsavgiften och nätövervakningsavgiften.
 Den rörliga överföringsavgiften avspeglar kostnaden för den energi som transporteras genom elnätet. Överföringsavgiften täcker också upp kostnaden för nätförluster, det vill säga de energiförluster som uppstår vid överföringen genom elnätet.
+Från och med den 1 januari 2026 tillkommer en effektavgift.
+/privat/elnat/priser-villkor-avtal/startsida-effekttariffer/
+Läs mer här.
 Energiskatten tillkommer.
 https://skatteverket.se/foretagochorganisationer/skatter/punktskatter/energiskatter/energiskattpael.4.15532c7b1442f256bae5e4c.html
 Läs mer om Energiskatt på Skatteverkets hemsida.
@@ -70,7 +73,7 @@ Gäller från och med
 149 144
 
 Rörlig överföringsavgift
-Avgiften består av en fast avgift och en procentandel av spotpriset per timme och räknas ut
+Avgiften består av en fast avgift och en procentandel av spotpriset per kvart och räknas ut
 /privat/elnat/priser-villkor-avtal/formel-for-den-rorliga-overforingsavgiften/
 enligt denna formel
 .
