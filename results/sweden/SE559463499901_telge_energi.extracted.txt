@@ -1,8 +1,8 @@
-/
+https://www.telge.se/
 Telge
-/elnat/
+https://www.telge.se/elnat/
 Elnät
-/elnat/elnatskostnad/
+https://www.telge.se/elnat/elnatskostnad/
 Elnätskostnad
 Elnätspriser
 Elnätspriser
@@ -31,11 +31,11 @@ Priserna gäller från 1 januari 2025.
 Avser flerbostadshus med gemensam anslutning (servis), med minst tre lägenhetsabonnemang samt minst ett abonnemang av annan kategori för fastighetens allmänna behov som till exempel tvättstuga. Max mätarsäkring är 20 A vid trefasleverans eller upp till 25 A vid enfasleverans. Taxan gäller normalt för en årsförbrukning på max 8 000 kWh.
 Lokaler, kedjehus, radhus eller liknande sammanbyggda hus omfattas normalt inte av lägenhetstaxan.
 Du som kund ansvarar för att välja rätt taxa. Är du osäker på din taxa eller säkring?
-/elnat/kundservice/
+https://www.telge.se/elnat/kundservice/
 Kontakta oss
 .
 Höglast:
-Under perioden 1 november - 31 mars klockan 07.00-20.00, helgfria vardagar, gäller höglasttid. Undantag är julafton och nyårsafton, då är det låglasttid och du betalar inte någon effektavgift under dessa dagar. Alla andra dagar och timmar på dygnet är det låglast.
+Under perioden 1 november-31 mars kl. 07.00-20.00, helgfria vardagar, gäller höglasttid. Undantag är julafton och nyårsafton, då är det låglasttid och du betalar inte någon effektavgift under dessa dagar. Alla andra dagar och timmar på dygnet är det låglast.
 Säkring 16 A-63 A
 
 Säkringsstorlek
@@ -73,8 +73,8 @@ Effektavgift höglast per kW (per höglastmånad)
 Priserna är inklusive moms.
 Priserna gäller från 1 januari 2025.
 Höglast:
-Under perioden 1 november - 31 mars klockan 07.00-20.00, helgfria vardagar, gäller höglasttid. Undantag är julafton och nyårsafton, då är det låglasttid och du betalar inte någon effektavgift under dessa dagar. Alla andra dagar och timmar på dygnet är det låglast.
-/elnat/elnatskostnad/elnatspriser/elnatsavgiften-2024/
+Under perioden 1 november-31 mars kl. 07.00 20.00, helgfria vardagar, gäller höglasttid. Undantag är julafton och nyårsafton, då är det låglasttid och du betalar inte någon effektavgift under dessa dagar. Alla andra dagar och timmar på dygnet är det låglast.
+https://www.telge.se/elnat/elnatskostnad/elnatspriser/elnatsavgiften-2024/
 Elnätspriser för 2024
 Dela sida
 
