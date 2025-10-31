@@ -178,6 +178,14 @@ Anslutningsavgifter
 
 Behöver du ansluta en ny fastighet eller anläggning till elnätet? Nedan hittar du våra aktuella anslutningsavgifter i prislistan Anslutningar. Priset baseras på avståndet till möjlig anslutningspunkt i befintligt nät och den huvudsäkring som behövs.
 
+Energiskatt
+
+Elektrisk kraft som förbrukas är skattepliktig i Sverige. Energiskatten varierar utifrån typ av verksamhet och var i landet man är.
+Ansvaret för att ta in energiskatten på el flyttades till elnätsföretagen från elhandelsbolagen den 1 januari 2018, för att sedan betala in skatten till staten.
+Energiskatten på el och regler kring denna bestäms av riksdagen.
+https://www.skatteverket.se/foretag/skatterochavdrag/punktskatter/energiskatter/
+Läs mer om energiskatten på el.
+
 Myndighetsavgifterna är lagstadgade och pengarna går vidare till olika statliga myndigheter. Det finns tre typer av myndighetsavgifter:
 • Elsäkerhetsavgift som finansierar Elsäkerhetsverkets verksamhet
 • Elberedskapsavgift som finansierar delar av Energimarknadsinspektionens verksamhet
