@@ -1,11 +1,4 @@
 
-Nya elnätsavgifter 2025
-
-Elnätsavgiften består av en fast avgift (grundavgiften), en effektavgift och en energiavgift. Från och med den 1 januari 2025 höjs den fasta avgiften med 7,8% och effektavgiften höjs med 9,8%. Energiavgiften lämnas oförändrad.
-Justeringarna görs med anledning av ökade fasta kostnader och myndighetsavgifter.
-Energiskatten
-Energiskatten är en statlig skatt som läggs på din elnätsfaktura. Skatten bestäms av riksdagen och justeras årligen. För 2025 har energiskatten fastställts till 43,9 öre/kWh exkl. moms (54,88 öre/kWh inkl. moms). Det är en ökning jämfört med 42,8 öre/kWh år 2024.
-
 Elnätsavgift
 Elnätsavgiften består av en grundavgift, en effektavgift och en energiavgift. Grundavgiften är kopplad till mätarsäkringens ampere-tal (A) medan effektavgiften baseras på hur du utnyttjar elnätet och energiavgiften på hur mycket el du använder. För att kunna räkna ut vilken avgift du ska betala läser vi av din elmätare varje timme, dygnet runt.
 Grundavgift
@@ -145,6 +138,8 @@ Allmänna villkor
 
 /globalassets/elnat/dokument/elnat_avtalsvillkor_konsument.pdf
 Avtalsvillkor konsument
+/globalassets/elnat/dokument/allma-elnat.pdf
+Avtalsvillkor konsument fr.o.m 260201
 /globalassets/elnat/dokument/elnat_avtalsvillkor_naringsidkare.pdf
 Avtalsvillkor näringsidkare
 /globalassets/elnat/dokument/elnat_avtalsvillkor_hogspanning.pdf
