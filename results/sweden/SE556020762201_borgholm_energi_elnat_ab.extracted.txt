@@ -91,6 +91,14 @@ Din vattenmätare
 
 https://borgholmenergi.se/privat/vatten-och-avlopp/din-vattenmatare/vattenmatare-till-alla/
 Vattenmätare till alla
+
+https://borgholmenergi.se/privat/vatten-och-avlopp/din-vattenmatare/vattenmatare-till-alla/infor-installation/
+Inför installation av vattenmätare
+https://borgholmenergi.se/privat/vatten-och-avlopp/din-vattenmatare/vattenmatare-till-alla/under-installation-av-vattenmatare/
+Under installation av vattenmätare
+https://borgholmenergi.se/boka-installation-av-vattenmatare/
+Boka installation av vattenmätare
+
 https://borgholmenergi.se/privat/vatten-och-avlopp/din-vattenmatare/byte-av-vattenmatare/
 Byte av vattenmätare
 https://borgholmenergi.se/privat/vatten-och-avlopp/din-vattenmatare/las-av-din-vattenmatare/
@@ -146,8 +154,6 @@ https://borgholmenergi.se/privat/avfall/sommartips-for-ditt-sopkarl/
 Sommartips för ditt sopkärl
 https://borgholmenergi.se/privat/avfall/att-tanka-pa-vid-hamtning/
 Inför sophämtning
-https://borgholmenergi.se/privat/avfall/din-sophamtning/sophamtning-storhelger/
-Sophämtning storhelger
 https://borgholmenergi.se/privat/avfall/sok-tomningsdag/
 Sök tömningsdag
 https://borgholmenergi.se/privat/avfall/anmalan-avisering/
@@ -174,15 +180,16 @@ Gemensam avfallslösning
 https://borgholmenergi.se/privat/avfall/din-sophamtning/narsorterat-2025/gemensam-avfallslosning/anmalan-for-gemensam-avfallslosning/
 Anmälan för gemensam avfallslösning
 
+https://borgholmenergi.se/privat/avfall/din-sophamtning/narsorterat-2025/kop-ut-ditt-gamla-sopkarl/
+Köp ditt gamla sopkärl
+
 https://borgholmenergi.se/privat/matavfall/
 Matavfall
 
 https://borgholmenergi.se/privat/matavfall/minska-matsvinnet/
 Minska matsvinnet
 https://borgholmenergi.se/privat/matavfall/sa-far-du-nya-pasar/
-Så får du nya gröna påsar
-https://borgholmenergi.se/privat/matavfall/vad-hander-med-matavfallet/
-Vad händer med matavfallet?
+Så får du nya matavfallspåsar
 
 https://borgholmenergi.se/privat/avfall/slam/
 Slam
@@ -303,6 +310,75 @@ Priser och avtal
 Nätpriser
 
 Nätpriser
+Avgifter fr.o.m 1 januari 2026
+(längre ner på sidan finns nätpriser för 1 januari 2025 – 31 december 2025)
+Abonnemangsavgift, kr/år
+
+Huvudsäkring
+16 A
+16 A
+20 A
+25 A
+
+Taxa
+Lägenhet
+Villa
+
+D11
+2 516
+5 146
+7 673
+9 925
+
+Huvudsäkring
+35 A
+50 A
+63 A
+80 A
+
+Taxa D11
+14 374
+21 250
+27 709
+40 987
+
+Elöverföring, öre/kWh
+
+Taxa D11
+28,7
+
+Energiskatt, öre/kWh
+
+Energiskatt
+54,88
+
+Samtliga avgifter är inklusive moms (25 %). Nätavgifterna består av en fast och en rörlig del. Den fasta abonnemangsavgiften beror på storleken av din huvudsäkring och den rörliga hur stor elöverföring (kWh) som skett.
+Ersättning produktion
+
+Överföringsersättning produktion, öre/kWh exkl. moms
+
+Taxa D11
+7,2
+
+Övrigt
+
+I abonnemangsavgiften ingår nätövervakningsavgift 5,44 kr (inkl. moms) och elsäkerhetsavgift 13,88 kr (inkl. moms) (2025 års nivå*).
+Elberedskapsavgift tillkommer med 112,50 kr (inkl. moms) per abonnemang.
+De fasta avgifterna gäller för trefasleverans 400/230 volt. Vid enfasleverans utgår avgift efter 16 amperes mätarsäkring trefasleverans.
+Avgiften för lägenhet är avsedd för bostadslägenheter i flerbostadshus, där för fastighetens allmänna behov särskilt abonnemang tecknats av fastighetsägaren. Med flerbostadshus avses hus med minst tre bostadslägenheter, dock ej kedjehus, radhus eller liknande sammanbyggda hus.
+
+Tillämpningsbestämmelser
+
+Engångsavgifter utgår enligt särskilda bestämmelser vid nyanslutning eller utökning av befintliga abonnemang.
+Fast avgift utgår för varje mätpunkt och bestäms av storleken på den passdel eller knivsäkring som begränsar kundens mätarsäkring.
+Endast, hos nätbolaget registrerad, behörig installatör får efter skriftligt medgivande från Borgholm Energi Elnät AB byta avgiftsbestämmande passdel.
+Byte till annan taxa eller säkringsklass får normalt ej ske mer än en gång per år.
+I denna prislista angivna priser gäller normala leveransförhållanden.
+För leveranserna gäller i övrigt allmänna leveransvillkoren NÄT 2025 K.
+Vid flyttning skall uppsägning göras senast en månad före avflyttning.
+
+* Nivå för energiskatt och myndighetsavgifter för 2026 är inte kända i nuläget.
+
 Avgifter fr.o.m 1 januari 2025
 (längre ner på sidan finns nätpriser för 30 juni 2024 – 31 december 2024)
 Abonnemangsavgift, kr/år
@@ -344,72 +420,6 @@ Energiskatt, öre/kWh
 
 Energiskatt
 54,88
-
-Samtliga avgifter är inklusive moms (25 %). Nätavgifterna består av en fast och en rörlig del. Den fasta abonnemangsavgiften beror på storleken av din huvudsäkring och den rörliga hur stor elöverföring (kWh) som skett.
-Ersättning produktion
-
-Överföringsersättning produktion, öre/kWh exkl. moms
-
-Taxa D11
-6,3
-
-Övrigt
-
-I abonnemangsavgiften ingår nätövervakningsavgift 5,44 kr (inkl. moms) och elsäkerhetsavgift 13,88 kr (inkl. moms).
-Elberedskapsavgift tillkommer med 112,50 kr (inkl. moms) per abonnemang.
-De fasta avgifterna gäller för trefasleverans 400/230 volt. Vid enfasleverans utgår avgift efter 16 amperes mätarsäkring trefasleverans.
-Avgiften för lägenhet är avsedd för bostadslägenheter i flerbostadshus, där för fastighetens allmänna behov särskilt abonnemang tecknats av fastighetsägaren. Med flerbostadshus avses hus med minst tre bostadslägenheter, dock ej kedjehus, radhus eller liknande sammanbyggda hus.
-
-Tillämpningsbestämmelser
-
-Engångsavgifter utgår enligt särskilda bestämmelser vid nyanslutning eller utökning av befintliga abonnemang.
-Fast avgift utgår för varje mätpunkt och bestäms av storleken på den passdel eller knivsäkring som begränsar kundens mätarsäkring.
-Endast, hos nätbolaget registrerad, behörig installatör får efter skriftligt medgivande från Borgholm Energi Elnät AB byta avgiftsbestämmande passdel.
-Byte till annan taxa eller säkringsklass får normalt ej ske mer än en gång per år.
-I denna prislista angivna priser gäller normala leveransförhållanden.
-För leveranserna gäller i övrigt allmänna leveransvillkoren NÄT 2012 K.
-Vid flyttning skall uppsägning göras senast en månad före avflyttning.
-
-Avgifter fr.o.m 1 juli 2024 – 31 december 2024
-Abonnemangsavgift, kr/år
-
-Huvudsäkring
-16 A
-16 A
-20 A
-25 A
-
-Taxa
-Lägenhet
-Villa
-
-D11
-2 042
-4 177
-6 228
-8 056
-
-Huvudsäkring
-35 A
-50 A
-63 A
-80 A
-
-Taxa D11
-11 667
-17 248
-22 491
-33 269
-
-Elöverföring, öre/kWh
-
-Taxa D11
-25,6
-
-Energiskatt, öre/kWh
-
-Energiskatt
-53,5
 
 Samtliga avgifter är inklusive moms (25 %). Nätavgifterna består av en fast och en rörlig del. Den fasta abonnemangsavgiften beror på storleken av din huvudsäkring och den rörliga hur stor elöverföring (kWh) som skett.
 Ersättning produktion
