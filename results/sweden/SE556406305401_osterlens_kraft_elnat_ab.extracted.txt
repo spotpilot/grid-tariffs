@@ -59,9 +59,10 @@ Taxa kr inkl. moms
 92 249
 
 I de fasta avgifterna ingår elsäkerhetsavgift, nätövervakning och elberedskapsavgift.
+https://www.osterlenskraft.se/wp-content/uploads/sakringar-maxeffekt.jpg
 
 Överföringsavgift
-Vi tillämpar en rörligt överföringsavgift.
+Vi tillämpar en rörlig överföringsavgift.
 Den rörliga överföringsavgiften räknas fram varje månad och varierar beroende på elpriset.
 Avgiften är en kombination av följande parametrar:
 – Överförningsavgift regionnät
@@ -114,6 +115,8 @@ Avbrottsersättning och skadeanmälan
 
 https://www.osterlenskraft.se/kundservice/flytta/
 Flytta
+https://www.osterlenskraft.se/elnat/tillfallig-elanslutning/
+Tillfällig elanslutning
 https://www.osterlenskraft.se/elnat/tariffer/
 Elnätsavgift
 
